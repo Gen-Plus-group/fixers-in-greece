@@ -1,23 +1,23 @@
 /* ==========================================================================
-   BASE STYLES - Fixers in Vietnam
+   BASE STYLES - Fixers in Greece
    ========================================================================== */
 
 /* CSS Custom Properties (Variables) */
 :root {
   /* Brand Colors */
-  --color-vietnam-orange: #f9a531;
-  --color-vietnam-red: #ed5050;
-  --color-vietnam-dark: #1c1c1c;
-  --color-vietnam-darker: #0a0a0a;
-  --color-vietnam-gray: #b4b4b4;
+  --color-greece-blue: #f9a531;
+  --color-greece-white: #ed5050;
+  --color-greece-dark: #1c1c1c;
+  --color-greece-darker: #0a0a0a;
+  --color-Greece-gray: #b4b4b4;
   
   /* Semantic Colors */
-  --color-primary: var(--color-vietnam-orange);
-  --color-secondary: var(--color-vietnam-red);
-  --color-background: var(--color-vietnam-darker);
-  --color-surface: var(--color-vietnam-dark);
+  --color-primary: var(--color-greece-blue);
+  --color-secondary: var(--color-greece-white);
+  --color-background: var(--color-greece-darker);
+  --color-surface: var(--color-greece-dark);
   --color-text: #ffffff;
-  --color-text-muted: var(--color-vietnam-gray);
+  --color-text-muted: var(--color-Greece-gray);
   
   /* Typography */
   --font-family-primary: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -44,7 +44,7 @@
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-vietnam: 0 4px 6px -1px rgba(249, 165, 49, 0.1), 0 2px 4px -1px rgba(249, 165, 49, 0.06);
+  --shadow-Greece: 0 4px 6px -1px rgba(249, 165, 49, 0.1), 0 2px 4px -1px rgba(249, 165, 49, 0.06);
   
   /* Transitions */
   --transition-fast: 150ms ease-in-out;

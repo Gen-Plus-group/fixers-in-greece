@@ -12,7 +12,7 @@ Successfully standardized navigation menus across all 25 internal pages to match
 
 ### ✅ Desktop Navigation Features
 - **Complete dropdown menus** for Services, Media Production, and Locations
-- **Consistent styling** with Vietnam-themed colors and hover effects
+- **Consistent styling** with Greece-themed colors and hover effects
 - **Proper current page highlighting** for active sections and pages
 - **Accessibility attributes** (aria-label, aria-expanded)
 
@@ -49,8 +49,8 @@ MEDIA PRODUCTION ▼
 
 LOCATIONS ▼
 ├── All Locations
-├── Ho Chi Minh City
-└── Hanoi
+├── Thessaloniki
+└── Athens
 
 FILMING GUIDE
 PORTFOLIO
@@ -65,33 +65,33 @@ CONTACT
 - `contact/index.html`
 - `portfolio/index.html`
 - `clients/index.html`
-- `filming-in-vietnam/index.html`
+- `filming-in-Greece/index.html`
 
 ### Service Pages
 - `film-production-services/index.html`
-- `equipment-rental-vietnam/index.html`
-- `location-scouting-vietnam/index.html`
-- `film-permits-vietnam/index.html`
-- `vietnam-film-crew/index.html`
-- `drone-filming-vietnam/index.html`
-- `corporate-video-vietnam/index.html`
-- `equipment-transport-vietnam/index.html`
-- `translation-services-vietnam/index.html`
-- `casting-services-vietnam/index.html`
-- `post-production-vietnam/index.html`
+- `equipment-rental-Greece/index.html`
+- `location-scouting-Greece/index.html`
+- `film-permits-Greece/index.html`
+- `Greece-film-crew/index.html`
+- `drone-filming-Greece/index.html`
+- `corporate-video-Greece/index.html`
+- `equipment-transport-Greece/index.html`
+- `translation-services-Greece/index.html`
+- `casting-services-Greece/index.html`
+- `post-production-Greece/index.html`
 
 ### Media Production Pages
-- `documentary-filming-vietnam/index.html`
-- `commercial-video-production-vietnam/index.html`
-- `news-filming-vietnam/index.html`
-- `music-video-production-vietnam/index.html`
-- `event-filming-vietnam/index.html`
-- `live-streaming-vietnam/index.html`
+- `documentary-filming-Greece/index.html`
+- `commercial-video-production-Greece/index.html`
+- `news-filming-Greece/index.html`
+- `music-video-production-Greece/index.html`
+- `event-filming-Greece/index.html`
+- `live-streaming-Greece/index.html`
 
 ### Location Pages
-- `vietnam-filming-locations/index.html`
+- `Greece-filming-locations/index.html`
 - `ho-chi-minh-city-filming/index.html`
-- `hanoi-film-production/index.html`
+- `Athens-film-production/index.html`
 
 ## Technical Implementation
 
@@ -109,9 +109,9 @@ Each page now properly highlights its current section and specific page:
 - **Accessibility support** with proper ARIA attributes
 
 ### CSS Classes Used
-- `text-vietnam-orange` for active/highlighted items
-- `text-vietnam-gray` for normal navigation items
-- `hover:text-vietnam-orange` for hover effects
+- `text-greece-blue` for active/highlighted items
+- `text-greece-gray` for normal navigation items
+- `hover:text-greece-blue` for hover effects
 - `mobile-dropdown-toggle` for mobile dropdown buttons
 - `mobile-submenu` for mobile dropdown content
 

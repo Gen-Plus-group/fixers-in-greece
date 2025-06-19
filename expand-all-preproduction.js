@@ -9,7 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Comprehensive service definitions for all pre-production services
+/ Comprehensive service definitions for all pre-production services
 const serviceDefinitions = {
     'location-management': {
         title: 'Location Management',
@@ -28,7 +28,7 @@ const serviceDefinitions = {
         description: 'Expert legal services for location agreements, contracts, and releases. Comprehensive documentation ensuring clear rights, responsibilities, and protection for all parties.',
         services: [
             { icon: '📄', title: 'Contract Drafting', items: ['Location release forms', 'Property agreements', 'Usage rights documentation', 'Liability clauses', 'Payment terms'], tagline: 'Legal Protection' },
-            { icon: '⚖️', title: 'Legal Compliance', items: ['Vietnamese law compliance', 'International co-production agreements', 'Insurance requirements', 'Permit integration', 'Dispute resolution'], tagline: 'Legal Security' },
+            { icon: '⚖️', title: 'Legal Compliance', items: ['Greeceese law compliance', 'International co-production agreements', 'Insurance requirements', 'Permit integration', 'Dispute resolution'], tagline: 'Legal Security' },
             { icon: '🤝', title: 'Negotiation Services', items: ['Fee negotiations', 'Usage terms', 'Restoration requirements', 'Access schedules', 'Exclusivity agreements'], tagline: 'Fair Agreements' },
             { icon: '🔒', title: 'Rights Management', items: ['Intellectual property protection', 'Image rights', 'Commercial usage rights', 'Distribution territories', 'Duration terms'], tagline: 'Rights Protection' }
         ]
@@ -68,7 +68,7 @@ const serviceDefinitions = {
     }
 };
 
-// Function to generate comprehensive FAQ content for each service
+/ Function to generate comprehensive FAQ content for each service
 function generateFAQ(serviceKey) {
     const faqDatabase = {
         'location-management': [
@@ -78,37 +78,37 @@ function generateFAQ(serviceKey) {
             },
             {
                 question: 'How do you coordinate with local authorities and communities?',
-                answer: 'We maintain professional relationships with local authorities, community leaders, and property owners throughout Vietnam. Our team handles permit compliance, community notifications, and cultural sensitivity protocols. We provide local liaison services, manage community relations, and ensure respectful interaction with residents and businesses affected by filming activities.'
+                answer: 'We maintain professional relationships with local authorities, community leaders, and property owners throughout Greece. Our team handles permit compliance, community notifications, and cultural sensitivity protocols. We provide local liaison services, manage community relations, and ensure respectful interaction with residents and businesses affected by filming activities.'
             }
         ],
         'location-agreements': [
             {
-                question: 'What legal documents are required for filming in Vietnam?',
-                answer: 'Essential documents include location release forms, property agreements, liability waivers, and permit documentation. For international productions, additional requirements include work permits, equipment carnets, and co-production agreements. We ensure compliance with Vietnamese filming regulations, insurance requirements, and intellectual property protections.'
+                question: 'What legal documents are required for filming in Greece?',
+                answer: 'Essential documents include location release forms, property agreements, liability waivers, and permit documentation. For international productions, additional requirements include work permits, equipment carnets, and co-production agreements. We ensure compliance with Greeceese filming regulations, insurance requirements, and intellectual property protections.'
             }
         ],
         'travel-logistics': [
             {
                 question: 'What visa and work permit assistance do you provide?',
-                answer: 'Complete visa and work permit services including application preparation, documentation assistance, and government liaison. We handle tourist visas, business visas, and temporary work permits for cast and crew. Our services include expedited processing, multiple-entry arrangements, and compliance with Vietnamese immigration requirements for international productions.'
+                answer: 'Complete visa and work permit services including application preparation, documentation assistance, and government liaison. We handle tourist visas, business visas, and temporary work permits for cast and crew. Our services include expedited processing, multiple-entry arrangements, and compliance with Greeceese immigration requirements for international productions.'
             }
         ]
-        // Additional FAQ entries would be generated for each service
+        / Additional FAQ entries would be generated for each service
     };
     
     return faqDatabase[serviceKey] || [];
 }
 
-// Function to generate service-specific content
+/ Function to generate service-specific content
 function generateServiceContent(serviceKey, serviceDef) {
     console.log(`📝 Generating content for ${serviceDef.title}...`);
     
-    // This would contain the full HTML generation logic
-    // For now, returning true to indicate successful processing
+    / This would contain the full HTML generation logic
+    / For now, returning true to indicate successful processing
     return true;
 }
 
-// Main execution function
+/ Main execution function
 function main() {
     console.log('🚀 COMPREHENSIVE PRE-PRODUCTION CONTENT EXPANSION');
     console.log('=' + '='.repeat(70));
@@ -137,7 +137,7 @@ function main() {
             failCount++;
         }
         
-        console.log(''); // Add spacing between services
+        console.log(''); / Add spacing between services
     }
     
     console.log('🎉 CONTENT EXPANSION SUMMARY');

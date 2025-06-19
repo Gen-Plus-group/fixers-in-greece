@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// All pre-production sub-pages that need footer fixes
+/ All pre-production sub-pages that need footer fixes
 const preProductionSubPages = [
     'pre-production-services/casting-services/index.html',
     'pre-production-services/catering-services/index.html',
@@ -52,23 +52,23 @@ function addFooterToPage(filePath) {
         let content = fs.readFileSync(filePath, 'utf8');
         console.log(`📄 Processing ${filePath}...`);
 
-        // Check if footer is already present
+        / Check if footer is already present
         if (content.includes('footer-container') && content.includes('component-loader.js')) {
             console.log(`ℹ️  ${filePath} - Already has footer and component loader`);
             return true;
         }
 
-        // Create backup
+        / Create backup
         const backupPath = filePath.replace('.html', '-before-footer-fix.html');
         fs.writeFileSync(backupPath, content, 'utf8');
         console.log(`💾 Created backup: ${backupPath}`);
 
-        // Check if file ends abruptly without proper closing
+        / Check if file ends abruptly without proper closing
         const lines = content.split('\n');
         const lastMeaningfulLine = lines.reverse().find(line => line.trim() !== '');
         
         if (lastMeaningfulLine && lastMeaningfulLine.includes('</section>')) {
-            // File ends with section, needs main closing, footer, and body/html closing
+            / File ends with section, needs main closing, footer, and body/html closing
             const footerContent = `    </main>
 
     <!-- Dynamic Footer Container -->
@@ -81,11 +81,11 @@ function addFooterToPage(filePath) {
 
     <!-- Page-specific JavaScript Integration -->
     <script>
-        // Wait for components to load before initializing page-specific functionality
+        / Wait for components to load before initializing page-specific functionality
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded for ${filePath}, page functionality ready');
             
-            // Mobile menu and other functionality handled by component loader
+            / Mobile menu and other functionality handled by component loader
         });
     </script>
 
@@ -94,7 +94,7 @@ function addFooterToPage(filePath) {
 
             content = content + footerContent;
             
-            // Write the updated content
+            / Write the updated content
             fs.writeFileSync(filePath, content, 'utf8');
             console.log(`✅ ${filePath} - Successfully added footer and component loader`);
             return true;

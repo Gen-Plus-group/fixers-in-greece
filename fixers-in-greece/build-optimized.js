@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Optimized Build Script for Fixers in Vietnam
+ * Optimized Build Script for Fixers in Greece
  * Enhanced CSS build process with optimization and monitoring
  */
 
@@ -8,7 +8,7 @@ const fs = require('fs');
 const path = require('path');
 const { execSync } = require('child_process');
 
-// Configuration
+/ Configuration
 const config = {
     input: 'src/input.css',
     output: 'dist/output.css',
@@ -19,15 +19,15 @@ const config = {
     verbose: process.argv.includes('--verbose')
 };
 
-// Utility functions
+/ Utility functions
 function log(message, level = 'info') {
     const timestamp = new Date().toISOString();
     const colors = {
-        info: '\x1b[36m',    // Cyan
-        success: '\x1b[32m', // Green
-        warning: '\x1b[33m', // Yellow
-        error: '\x1b[31m',   // Red
-        reset: '\x1b[0m'     // Reset
+        info: '\x1b[36m',    / Cyan
+        success: '\x1b[32m', / Green
+        warning: '\x1b[33m', / Yellow
+        error: '\x1b[31m',   / Red
+        reset: '\x1b[0m'     / Reset
     };
     
     console.log(`${colors[level]}[${timestamp}] ${message}${colors.reset}`);
@@ -50,7 +50,7 @@ function formatBytes(bytes) {
     return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
 }
 
-// Build statistics
+/ Build statistics
 function generateBuildStats(startTime, inputSize, outputSize, minifiedSize = null) {
     const buildTime = Date.now() - startTime;
     const stats = {
@@ -74,13 +74,13 @@ function generateBuildStats(startTime, inputSize, outputSize, minifiedSize = nul
     return stats;
 }
 
-// Main build function
+/ Main build function
 function buildCSS() {
     const startTime = Date.now();
     log('Starting CSS build process...', 'info');
     
     try {
-        // Check if input file exists
+        / Check if input file exists
         if (!fs.existsSync(config.input)) {
             throw new Error(`Input file not found: ${config.input}`);
         }
@@ -88,14 +88,14 @@ function buildCSS() {
         const inputSize = getFileSize(config.input);
         log(`Input file size: ${formatBytes(inputSize)}`, 'info');
         
-        // Create dist directory if it doesn't exist
+        / Create dist directory if it doesn't exist
         const distDir = path.dirname(config.output);
         if (!fs.existsSync(distDir)) {
             fs.mkdirSync(distDir, { recursive: true });
             log(`Created directory: ${distDir}`, 'info');
         }
         
-        // Build command
+        / Build command
         let buildCommand = `npx tailwindcss -i ${config.input} -o ${config.output}`;
         
         if (config.minify) {
@@ -108,7 +108,7 @@ function buildCSS() {
             log('Watch mode enabled - monitoring for changes...', 'info');
         }
         
-        // Execute build
+        / Execute build
         const buildOutput = execSync(buildCommand, { 
             encoding: 'utf8',
             stdio: config.verbose ? 'inherit' : 'pipe'
@@ -118,14 +118,14 @@ function buildCSS() {
             log(`Build output: ${buildOutput}`, 'info');
         }
         
-        // Get output file size
+        / Get output file size
         const outputSize = getFileSize(config.output);
         
         if (outputSize === 0) {
             throw new Error('Build failed - output file is empty or missing');
         }
         
-        // Create additional minified version if not already minified
+        / Create additional minified version if not already minified
         let minifiedSize = null;
         if (!config.minify && !config.watch) {
             try {
@@ -138,7 +138,7 @@ function buildCSS() {
             }
         }
         
-        // Generate and save build statistics
+        / Generate and save build statistics
         const stats = generateBuildStats(startTime, inputSize, outputSize, minifiedSize);
         
         if (!config.watch) {
@@ -146,7 +146,7 @@ function buildCSS() {
             log(`Build statistics saved to: ${config.statsFile}`, 'info');
         }
         
-        // Success message
+        / Success message
         log(`✓ CSS build completed successfully!`, 'success');
         log(`Output: ${config.output} (${formatBytes(outputSize)})`, 'success');
         log(`Build time: ${stats.buildTime}`, 'success');
@@ -165,11 +165,11 @@ function buildCSS() {
     }
 }
 
-// Watch mode file monitoring
+/ Watch mode file monitoring
 function setupFileWatcher() {
     const chokidar = require('chokidar');
     
-    // Watch source files
+    / Watch source files
     const watcher = chokidar.watch([
         config.input,
         'tailwind.config.js',
@@ -184,7 +184,7 @@ function setupFileWatcher() {
     watcher.on('change', (path) => {
         log(`File changed: ${path}`, 'info');
         
-        // Debounce builds (wait 100ms after last change)
+        / Debounce builds (wait 100ms after last change)
         clearTimeout(buildTimeout);
         buildTimeout = setTimeout(() => {
             buildCSS();
@@ -199,7 +199,7 @@ function setupFileWatcher() {
     return watcher;
 }
 
-// Performance monitoring
+/ Performance monitoring
 function monitorPerformance() {
     const performanceData = {
         timestamp: new Date().toISOString(),
@@ -216,33 +216,33 @@ function monitorPerformance() {
     return performanceData;
 }
 
-// Main execution
+/ Main execution
 function main() {
-    log('Fixers in Vietnam - Optimized CSS Build Tool', 'info');
+    log('Fixers in Greece - Optimized CSS Build Tool', 'info');
     log(`Mode: ${config.minify ? 'Production' : 'Development'}`, 'info');
     
-    // Monitor performance
+    / Monitor performance
     const perfStart = monitorPerformance();
     
     if (config.watch) {
-        // Initial build
+        / Initial build
         buildCSS();
         
-        // Setup watcher for continuous building
+        / Setup watcher for continuous building
         const watcher = setupFileWatcher();
         
-        // Graceful shutdown
+        / Graceful shutdown
         process.on('SIGINT', () => {
             log('Stopping build process...', 'info');
             watcher.close();
             process.exit(0);
         });
         
-        // Keep process alive
+        / Keep process alive
         log('Press Ctrl+C to stop watching...', 'info');
         
     } else {
-        // Single build
+        / Single build
         const success = buildCSS();
         
         if (success) {
@@ -252,7 +252,7 @@ function main() {
     }
 }
 
-// Run if called directly
+/ Run if called directly
 if (require.main === module) {
     main();
 }

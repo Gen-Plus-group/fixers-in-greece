@@ -232,20 +232,20 @@
     100% { transform: rotate(360deg); }
 }
 
-/* Vietnam-specific color enhancements */
-.text-vietnam-orange {
+/* Greece-specific color enhancements */
+.text-greece-blue {
     color: #f9a531 !important;
 }
 
-.bg-vietnam-dark {
+.bg-greece-dark {
     background-color: #1a1a1a !important;
 }
 
-.bg-vietnam-darker {
+.bg-greece-darker {
     background-color: #0f0f0f !important;
 }
 
-.border-vietnam-orange {
+.border-greece-blue {
     border-color: #f9a531 !important;
 }
 

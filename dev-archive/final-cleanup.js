@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Files that still need to be moved to dev-archive
+/ Files that still need to be moved to dev-archive
 const remainingPythonScripts = [
     'add-google-analytics.py',
     'apply-tailwind-to-all-pages.py',
@@ -42,18 +42,18 @@ const remainingPythonScripts = [
     'verify-navigation.py'
 ];
 
-// Additional backup files in root
+/ Additional backup files in root
 const remainingBackupFiles = [
     'about-us-optimized.html',
     'about-us-tailwind.html',
-    'equipment-rental-vietnam-tailwind.html',
+    'equipment-rental-Greece-tailwind.html',
     'film-production-services-tailwind.html',
     'index-modern.html',
     'index-original-backup.html',
     'index-tailwind.html'
 ];
 
-// Test files to remove
+/ Test files to remove
 const remainingTestFiles = [
     'create-test-video.html',
     'form-enhancement-test.html',
@@ -64,14 +64,14 @@ const remainingTestFiles = [
     'video-diagnostic.html'
 ];
 
-// Content files to move to docs
+/ Content files to move to docs
 const remainingContentFiles = [
     'clients-content.html',
     'contact-content.html',
-    'filming-in-vietnam-content.html'
+    'filming-in-Greece-content.html'
 ];
 
-// Design files to move
+/ Design files to move
 const remainingDesignFiles = [
     'homepage-design.pdf',
     'homepage-design.png'
@@ -80,7 +80,7 @@ const remainingDesignFiles = [
 function moveFile(source, destination) {
     try {
         if (fs.existsSync(source)) {
-            // Create destination directory if it doesn't exist
+            / Create destination directory if it doesn't exist
             const destDir = path.dirname(destination);
             if (!fs.existsSync(destDir)) {
                 fs.mkdirSync(destDir, { recursive: true });
@@ -118,7 +118,7 @@ function main() {
     let totalMoved = 0;
     let totalDeleted = 0;
     
-    // Move remaining Python scripts to dev-archive
+    / Move remaining Python scripts to dev-archive
     console.log('\n🔧 Moving remaining Python scripts to dev-archive...');
     remainingPythonScripts.forEach(file => {
         if (moveFile(file, path.join('dev-archive', file))) {
@@ -126,7 +126,7 @@ function main() {
         }
     });
     
-    // Move remaining backup files
+    / Move remaining backup files
     console.log('\n💾 Moving remaining backup files...');
     remainingBackupFiles.forEach(file => {
         if (moveFile(file, path.join('backup', file))) {
@@ -134,7 +134,7 @@ function main() {
         }
     });
     
-    // Delete remaining test files
+    / Delete remaining test files
     console.log('\n🧪 Removing remaining test files...');
     remainingTestFiles.forEach(file => {
         if (deleteFile(file)) {
@@ -142,7 +142,7 @@ function main() {
         }
     });
     
-    // Move remaining content files to docs
+    / Move remaining content files to docs
     console.log('\n📄 Moving remaining content files to docs...');
     remainingContentFiles.forEach(file => {
         if (moveFile(file, path.join('docs', file))) {
@@ -150,7 +150,7 @@ function main() {
         }
     });
     
-    // Move remaining design files
+    / Move remaining design files
     console.log('\n🎨 Moving remaining design files...');
     remainingDesignFiles.forEach(file => {
         if (moveFile(file, path.join('design', file))) {
@@ -158,7 +158,7 @@ function main() {
         }
     });
     
-    // Clean up the cleanup scripts themselves
+    / Clean up the cleanup scripts themselves
     console.log('\n🧹 Moving cleanup scripts to dev-archive...');
     if (moveFile('cleanup-workspace.js', 'dev-archive/cleanup-workspace.js')) {
         totalMoved++;
@@ -177,7 +177,7 @@ function main() {
     console.log('   • Design files in design/');
     console.log('   • Dynamic components system ready');
     
-    // Self-cleanup - move this script to dev-archive too
+    / Self-cleanup - move this script to dev-archive too
     setTimeout(() => {
         if (fs.existsSync('final-cleanup.js')) {
             moveFile('final-cleanup.js', 'dev-archive/final-cleanup.js');

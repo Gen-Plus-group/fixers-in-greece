@@ -1,4 +1,4 @@
-# Enhanced Contact Form Documentation - Fixers in Vietnam
+# Enhanced Contact Form Documentation - Fixers in Greece
 
 ## 🚀 Overview
 The contact form has been significantly enhanced with comprehensive validation, international phone input, and interactive date pickers while maintaining the existing Formspree integration.
@@ -142,7 +142,7 @@ startDatePicker = flatpickr("#shoot-start-date", {
 
 ## 🎨 Design Consistency
 
-### Vietnam Brand Colors
+### Greece Brand Colors
 - **Primary Orange**: #f9a531 (focus states, labels)
 - **Error Red**: #f56565 (validation errors)
 - **Success Green**: #48bb78 (success states)

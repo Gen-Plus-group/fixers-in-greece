@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Optimized Build Script for Fixers in Vietnam
+ * Optimized Build Script for Fixers in Greece
  * Enhanced CSS build process with optimization and monitoring
  */
 
@@ -218,7 +218,7 @@ function monitorPerformance() {
 
 // Main execution
 function main() {
-    log('Fixers in Vietnam - Optimized CSS Build Tool', 'info');
+    log('Fixers in Greece - Optimized CSS Build Tool', 'info');
     log(`Mode: ${config.minify ? 'Production' : 'Development'}`, 'info');
     
     // Monitor performance

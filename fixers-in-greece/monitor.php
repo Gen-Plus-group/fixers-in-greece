@@ -1,11 +1,11 @@
 <?php
 /**
- * Backend Performance Monitor for Fixers in Vietnam
+ * Backend Performance Monitor for Fixers in Greece
  * Provides system status, logs analysis, and performance metrics
  */
 
-// Security check - only allow local access or admin IPs
-$allowed_ips = ['127.0.0.1', '::1']; // Add your admin IPs here
+/ Security check - only allow local access or admin IPs
+$allowed_ips = ['127.0.0.1', '::1']; / Add your admin IPs here
 $client_ip = $_SERVER['REMOTE_ADDR'] ?? '';
 
 if (!in_array($client_ip, $allowed_ips)) {
@@ -13,10 +13,10 @@ if (!in_array($client_ip, $allowed_ips)) {
     die('Access denied');
 }
 
-// Set content type
+/ Set content type
 header('Content-Type: application/json');
 
-// Functions
+/ Functions
 function getSystemInfo() {
     return [
         'php_version' => phpversion(),
@@ -63,15 +63,15 @@ function getContactFormStats() {
             $stats['failed_submissions']++;
         }
         
-        // Count project types
+        / Count project types
         $project_type = $data['project_type'] ?? 'Unknown';
         $project_types[$project_type] = ($project_types[$project_type] ?? 0) + 1;
         
-        // Count by date
+        / Count by date
         $date = date('Y-m-d', strtotime($data['timestamp']));
         $daily_counts[$date] = ($daily_counts[$date] ?? 0) + 1;
         
-        // Recent submissions (last 10)
+        / Recent submissions (last 10)
         if (count($stats['recent_submissions']) < 10) {
             $stats['recent_submissions'][] = [
                 'timestamp' => $data['timestamp'],
@@ -82,11 +82,11 @@ function getContactFormStats() {
         }
     }
     
-    // Sort and limit top project types
+    / Sort and limit top project types
     arsort($project_types);
     $stats['top_project_types'] = array_slice($project_types, 0, 5, true);
     
-    // Sort and limit daily trends (last 7 days)
+    / Sort and limit daily trends (last 7 days)
     krsort($daily_counts);
     $stats['submission_trends'] = array_slice($daily_counts, 0, 7, true);
     
@@ -96,7 +96,7 @@ function getContactFormStats() {
 function getFileSystemInfo() {
     $info = [];
     
-    // Check important directories
+    / Check important directories
     $directories = [
         'logs' => __DIR__ . '/logs',
         'dist' => __DIR__ . '/dist',
@@ -139,7 +139,7 @@ function getSecurityStatus() {
     $security = [
         'https_enabled' => isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on',
         'htaccess_exists' => file_exists(__DIR__ . '/.htaccess'),
-        'logs_protected' => !is_readable(__DIR__ . '/logs/contact_submissions.log'), // Should be false if protected
+        'logs_protected' => !is_readable(__DIR__ . '/logs/contact_submissions.log'), / Should be false if protected
         'php_version_safe' => version_compare(phpversion(), '7.4.0', '>='),
         'session_secure' => ini_get('session.cookie_secure') == '1',
         'expose_php_off' => ini_get('expose_php') == '0'
@@ -153,7 +153,7 @@ function getSecurityStatus() {
 function getPerformanceMetrics() {
     $start_time = microtime(true);
     
-    // Test database-like operations (file I/O)
+    / Test database-like operations (file I/O)
     $test_file = __DIR__ . '/temp_perf_test.txt';
     file_put_contents($test_file, str_repeat('test', 1000));
     $read_data = file_get_contents($test_file);
@@ -174,7 +174,7 @@ function getRecentErrors() {
     $error_log = ini_get('error_log');
     
     if ($error_log && file_exists($error_log)) {
-        $lines = array_slice(file($error_log), -10); // Last 10 lines
+        $lines = array_slice(file($error_log), -10); / Last 10 lines
         foreach ($lines as $line) {
             if (strpos($line, 'fixers') !== false || strpos($line, 'contact') !== false) {
                 $errors[] = trim($line);
@@ -182,10 +182,10 @@ function getRecentErrors() {
         }
     }
     
-    return array_reverse($errors); // Most recent first
+    return array_reverse($errors); / Most recent first
 }
 
-// Main monitoring data
+/ Main monitoring data
 $monitor_data = [
     'status' => 'healthy',
     'timestamp' => date('c'),
@@ -197,7 +197,7 @@ $monitor_data = [
     'recent_errors' => getRecentErrors()
 ];
 
-// Determine overall health status
+/ Determine overall health status
 $security_score = $monitor_data['security']['score'];
 $has_errors = !empty($monitor_data['recent_errors']);
 $file_issues = false;
@@ -217,10 +217,10 @@ if ($security_score < 50 || count($monitor_data['recent_errors']) > 5) {
     $monitor_data['status'] = 'critical';
 }
 
-// Add health score
+/ Add health score
 $monitor_data['health_score'] = $security_score;
 
-// Pretty print if requested
+/ Pretty print if requested
 if (isset($_GET['pretty'])) {
     header('Content-Type: application/json; charset=utf-8');
     echo json_encode($monitor_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);

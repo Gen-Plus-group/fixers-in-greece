@@ -8,33 +8,33 @@
 const fs = require('fs');
 const path = require('path');
 
-// All pages to convert (excluding homepage which already has dynamic components)
+/ All pages to convert (excluding homepage which already has dynamic components)
 const allPages = [
     'about-us/index.html',
     'contact/index.html',
     'film-production-services/index.html',
-    'equipment-rental-vietnam/index.html',
-    'location-scouting-vietnam/index.html',
-    'film-permits-vietnam/index.html',
-    'filming-in-vietnam/index.html',
+    'equipment-rental-Greece/index.html',
+    'location-scouting-Greece/index.html',
+    'film-permits-Greece/index.html',
+    'filming-in-Greece/index.html',
     'portfolio/index.html',
     'clients/index.html',
-    'vietnam-filming-locations/index.html',
-    'vietnam-film-crew/index.html',
-    'documentary-filming-vietnam/index.html',
-    'drone-filming-vietnam/index.html',
-    'commercial-video-production-vietnam/index.html',
-    'news-filming-vietnam/index.html',
+    'Greece-filming-locations/index.html',
+    'Greece-film-crew/index.html',
+    'documentary-filming-Greece/index.html',
+    'drone-filming-Greece/index.html',
+    'commercial-video-production-Greece/index.html',
+    'news-filming-Greece/index.html',
     'ho-chi-minh-city-filming/index.html',
-    'hanoi-film-production/index.html',
-    'casting-services-vietnam/index.html',
-    'corporate-video-vietnam/index.html',
-    'equipment-transport-vietnam/index.html',
-    'event-filming-vietnam/index.html',
-    'live-streaming-vietnam/index.html',
-    'music-video-production-vietnam/index.html',
-    'post-production-vietnam/index.html',
-    'translation-services-vietnam/index.html',
+    'Athens-film-production/index.html',
+    'casting-services-Greece/index.html',
+    'corporate-video-Greece/index.html',
+    'equipment-transport-Greece/index.html',
+    'event-filming-Greece/index.html',
+    'live-streaming-Greece/index.html',
+    'music-video-production-Greece/index.html',
+    'post-production-Greece/index.html',
+    'translation-services-Greece/index.html',
     'hire-film-director/index.html',
     'hire-film-producer/index.html',
     'hire-line-producer/index.html',
@@ -65,21 +65,21 @@ function safelyConvertPage(filePath) {
         let content = fs.readFileSync(filePath, 'utf8');
         console.log(`📄 Processing ${filePath}...`);
 
-        // Check if already converted
+        / Check if already converted
         if (content.includes('id="header-container"') && content.includes('component-loader.js')) {
             console.log(`✅ ${filePath} - Already has dynamic components`);
             return true;
         }
 
-        // Create backup before making changes
+        / Create backup before making changes
         if (!createBackup(filePath)) {
             return false;
         }
 
         let originalContent = content;
 
-        // 1. Replace header section more carefully
-        // Look for the pattern from <!-- Top Bar --> to </header>
+        / 1. Replace header section more carefully
+        / Look for the pattern from <!-- Top Bar --> to </header>
         const headerPattern = /<!-- Top Bar -->[\s\S]*?<\/header>/;
         if (headerPattern.test(content)) {
             const headerMatch = content.match(headerPattern);
@@ -91,7 +91,7 @@ function safelyConvertPage(filePath) {
             console.log(`🔧 ${filePath} - Header section replaced`);
         } else {
             console.log(`⚠️  ${filePath} - No standard header pattern found, trying alternative`);
-            // Try alternative header pattern
+            / Try alternative header pattern
             const altHeaderPattern = /<header[\s\S]*?<\/header>/;
             if (altHeaderPattern.test(content)) {
                 const altHeaderMatch = content.match(altHeaderPattern);
@@ -106,7 +106,7 @@ function safelyConvertPage(filePath) {
             }
         }
 
-        // 2. Replace footer section carefully
+        / 2. Replace footer section carefully
         const footerPattern = /<!-- Footer -->[\s\S]*?<\/footer>/;
         if (footerPattern.test(content)) {
             const footerMatch = content.match(footerPattern);
@@ -118,7 +118,7 @@ function safelyConvertPage(filePath) {
             console.log(`🔧 ${filePath} - Footer section replaced`);
         } else {
             console.log(`⚠️  ${filePath} - No standard footer pattern found, trying alternative`);
-            // Try alternative footer pattern
+            / Try alternative footer pattern
             const altFooterPattern = /<footer[\s\S]*?<\/footer>/;
             if (altFooterPattern.test(content)) {
                 const altFooterMatch = content.match(altFooterPattern);
@@ -130,7 +130,7 @@ function safelyConvertPage(filePath) {
                 console.log(`🔧 ${filePath} - Alternative footer pattern replaced`);
             } else {
                 console.log(`⚠️  ${filePath} - No footer pattern found, adding container before </body>`);
-                // Add footer container before closing body tag if no footer exists
+                / Add footer container before closing body tag if no footer exists
                 content = content.replace('</body>', `    <!-- Dynamic Footer Container -->
     <div id="footer-container">
         <!-- Footer will be loaded here dynamically -->
@@ -141,9 +141,9 @@ function safelyConvertPage(filePath) {
             }
         }
 
-        // 3. Preserve existing JavaScript and add component loader
+        / 3. Preserve existing JavaScript and add component loader
         if (!content.includes('/js/component-loader.js')) {
-            // Find the last script tag or before closing body
+            / Find the last script tag or before closing body
             const lastScriptMatch = content.lastIndexOf('</script>');
             const bodyCloseMatch = content.lastIndexOf('</body>');
             
@@ -153,11 +153,11 @@ function safelyConvertPage(filePath) {
 
     <!-- Page-specific JavaScript Integration -->
     <script>
-        // Wait for components to load before initializing page-specific functionality
+        / Wait for components to load before initializing page-specific functionality
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded for ${filePath}, page functionality ready');
             
-            // Trigger any existing page initialization that might depend on DOM structure
+            / Trigger any existing page initialization that might depend on DOM structure
             if (typeof initializePageFunctionality === 'function') {
                 initializePageFunctionality();
             }
@@ -167,18 +167,18 @@ function safelyConvertPage(filePath) {
 `;
 
             if (lastScriptMatch > bodyCloseMatch) {
-                // Insert after the last script tag
+                / Insert after the last script tag
                 const insertPos = content.indexOf('</script>', lastScriptMatch) + '</script>'.length;
                 content = content.substring(0, insertPos) + componentScript + content.substring(insertPos);
             } else {
-                // Insert before closing body tag
+                / Insert before closing body tag
                 content = content.replace('</body>', componentScript + '</body>');
             }
             
             console.log(`🔧 ${filePath} - Component loader script added`);
         }
 
-        // 4. Ensure proper CSS links are present
+        / 4. Ensure proper CSS links are present
         if (!content.includes('/dist/output.css') && !content.includes('tailwindcss')) {
             const headClosePos = content.indexOf('</head>');
             if (headClosePos !== -1) {
@@ -188,14 +188,14 @@ function safelyConvertPage(filePath) {
             }
         }
 
-        // 5. Validate the conversion
+        / 5. Validate the conversion
         if (!content.includes('header-container') || !content.includes('footer-container')) {
             console.log(`❌ ${filePath} - Conversion validation failed, restoring original`);
             content = originalContent;
             return false;
         }
 
-        // Write the updated content
+        / Write the updated content
         fs.writeFileSync(filePath, content, 'utf8');
         console.log(`✅ ${filePath} - Successfully converted to dynamic components`);
         return true;
@@ -244,7 +244,7 @@ function main() {
     console.log('=' + '='.repeat(60));
 
     if (mode === 'test') {
-        // Test mode: convert only a few pages first
+        / Test mode: convert only a few pages first
         const testPages = [
             'about-us/index.html',
             'contact/index.html',
@@ -265,7 +265,7 @@ function main() {
         }
         
     } else if (mode === 'all') {
-        // Full conversion mode
+        / Full conversion mode
         console.log('\n🚀 RUNNING FULL CONVERSION');
         console.log('Converting all pages...');
         

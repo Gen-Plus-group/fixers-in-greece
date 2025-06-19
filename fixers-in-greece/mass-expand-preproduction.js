@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Complete service definitions for ALL pre-production services
+/ Complete service definitions for ALL pre-production services
 const allServiceDefinitions = {
     'production-scheduling': {
         title: 'Production Scheduling',
@@ -52,7 +52,7 @@ const allServiceDefinitions = {
     },
     'film-permit-acquisition': {
         title: 'Film Permit Acquisition',
-        subtitle: 'Professional permit acquisition and legal compliance for filming in Vietnam',
+        subtitle: 'Professional permit acquisition and legal compliance for filming in Greece',
         services: [
             { icon: '📄', title: 'Government Permits', items: ['Filming licenses', 'Location permits', 'Equipment import', 'Work permits', 'Business licenses'], tagline: 'Legal Compliance' },
             { icon: '🏛️', title: 'Heritage Site Access', items: ['UNESCO site permits', 'Temple permissions', 'Museum access', 'Cultural site approvals', 'Religious protocols'], tagline: 'Cultural Access' },
@@ -62,7 +62,7 @@ const allServiceDefinitions = {
     }
 };
 
-// Function to generate comprehensive FAQ content
+/ Function to generate comprehensive FAQ content
 function generateFAQContent(serviceKey) {
     const faqTemplates = {
         'production-scheduling': [
@@ -85,13 +85,13 @@ function generateFAQContent(serviceKey) {
                 answer: 'Yes, we specialize in international co-production crew coordination including work permit assistance, cultural integration, and language support. Our crew members have experience working with international teams and understand global production standards and protocols.'
             }
         ]
-        // Additional FAQ templates for other services...
+        / Additional FAQ templates for other services...
     };
     
     return faqTemplates[serviceKey] || [];
 }
 
-// Function to process a single service file
+/ Function to process a single service file
 function expandServicePage(serviceKey, serviceDef) {
     const filePath = `pre-production-services/${serviceKey}/index.html`;
     
@@ -103,17 +103,17 @@ function expandServicePage(serviceKey, serviceDef) {
             return false;
         }
         
-        // Read current file content
+        / Read current file content
         let content = fs.readFileSync(filePath, 'utf8');
         
-        // Generate service-specific content sections
+        / Generate service-specific content sections
         const serviceOverview = generateServiceOverview(serviceDef);
         const capabilities = generateCapabilities(serviceDef);
         const faq = generateFAQ(serviceKey);
         const cta = generateCTA(serviceDef);
         
-        // Replace content sections (this would contain the actual replacement logic)
-        // For now, just log success
+        / Replace content sections (this would contain the actual replacement logic)
+        / For now, just log success
         console.log(`✅ ${serviceDef.title} - Content expanded successfully`);
         return true;
         
@@ -123,7 +123,7 @@ function expandServicePage(serviceKey, serviceDef) {
     }
 }
 
-// Helper functions for content generation
+/ Helper functions for content generation
 function generateServiceOverview(serviceDef) {
     return `<!-- Service overview content for ${serviceDef.title} -->`;
 }
@@ -140,7 +140,7 @@ function generateCTA(serviceDef) {
     return `<!-- CTA content for ${serviceDef.title} -->`;
 }
 
-// Main execution
+/ Main execution
 function main() {
     console.log('🚀 MASS PRE-PRODUCTION CONTENT EXPANSION');
     console.log('=' + '='.repeat(70));

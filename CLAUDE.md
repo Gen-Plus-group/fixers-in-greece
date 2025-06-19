@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is a **static HTML website** for "Fixers in Vietnam" - a film production services company. The site uses **Tailwind CSS** for styling and consists of multiple HTML pages with a complex directory structure that includes legacy WordPress-generated content.
+This is a **static HTML website** for "Fixers in Greece" - a film production services company. The site uses **Tailwind CSS** for styling and consists of multiple HTML pages with a complex directory structure that includes legacy WordPress-generated content.
 
 ## Build Commands
 
@@ -24,7 +24,7 @@ npm run build-css-prod
 ### Key Files
 - **Source CSS**: `src/input.css` - Tailwind CSS with custom components and utilities
 - **Output CSS**: `dist/output.css` - Generated CSS file used by HTML pages
-- **Tailwind Config**: `tailwind.config.js` - Custom theme with Vietnam-specific colors and components
+- **Tailwind Config**: `tailwind.config.js` - Custom theme with Greece-specific colors and components
 
 ## Architecture
 
@@ -36,13 +36,13 @@ The project uses a **component-based CSS architecture** with Tailwind:
 - **Utilities Layer**: Custom utilities for backgrounds, animations, shadows
 
 ### Key Tailwind Customizations
-- **Vietnam Brand Colors**: `vietnam-orange` (#f9a531), `vietnam-red` (#ed5050), `vietnam-dark` (#1c1c1c)
+- **Greece Brand Colors**: `greece-blue` (#0080ff), `greece-white` (#ffffff), `greece-dark` (#1c1c1c)
 - **Custom Components**: `.btn-primary`, `.card-hover`, `.nav-link`, `.form-input`, `.portfolio-item`
-- **Custom Utilities**: `.text-gradient-vietnam`, `.bg-gradient-vietnam`, `.glass-effect`, `.hover-lift`
+- **Custom Utilities**: `.text-gradient-greece`, `.bg-gradient-greece`, `.glass-effect`, `.hover-lift`
 
 ### Directory Structure
 - **Main Pages**: Root-level HTML files and directories (`index.html`, `about-us/`, `contact/`, etc.)
-- **Service Pages**: Specialized directories for different services (`film-production-services/`, `equipment-rental-vietnam/`, etc.)
+- **Service Pages**: Specialized directories for different services (`film-production-services/`, `equipment-rental-greece/`, etc.)
 - **Portfolio**: `portfolio-item/` contains individual project showcases
 - **Clients**: `clients/` contains client logo pages
 - **Legacy Content**: `wp-content/` contains WordPress assets and uploads
@@ -58,7 +58,7 @@ The project uses a **component-based CSS architecture** with Tailwind:
 The site uses a **standardized navigation system** across all pages:
 - Desktop navigation with dropdown menus
 - Mobile hamburger menu
-- Consistent styling with Vietnam brand colors
+- Consistent styling with Greece brand colors
 - Navigation standardization scripts available in Python files
 
 ## Development Workflow
@@ -85,7 +85,7 @@ The site uses a **standardized navigation system** across all pages:
 The site includes a **PHP-based contact form** (`contact-form-handler.php`) with:
 - Email validation and security
 - Auto-reply functionality
-- Vietnam branding in email templates
+- Greece branding in email templates
 - Sends to `enquiries@needafixer.com`
 
 ## Important Notes
@@ -94,7 +94,7 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
 - All content is in HTML files with embedded CSS classes
 - Maintain backup files when making changes
 - Navigation should remain consistent across all pages
-- Preserve Vietnam brand colors and styling throughout
+- Preserve Greece brand colors and styling throughout
 - Test contact form functionality when making changes to contact pages
 
 ## Recent Work (2025-06-18)

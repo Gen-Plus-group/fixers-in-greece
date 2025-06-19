@@ -1,7 +1,7 @@
-# Google Analytics Setup Documentation - Fixers in Vietnam
+# Google Analytics Setup Documentation - Fixers in Greece
 
 ## 🎯 Overview
-Google Analytics 4 (GA4) tracking has been installed across all pages of the Fixers in Vietnam website with enhanced event tracking for better insights into user behavior and form conversions.
+Google Analytics 4 (GA4) tracking has been installed across all pages of the Fixers in Greece website with enhanced event tracking for better insights into user behavior and form conversions.
 
 ## ✅ Installation Complete
 
@@ -20,10 +20,10 @@ All HTML pages now include the Google Analytics tracking code:
 
 #### Service Pages
 - ✅ **Film Production Services** (`film-production-services/index.html`)
-- ✅ **Equipment Rental** (`equipment-rental-vietnam/index.html`)
-- ✅ **Location Scouting** (`location-scouting-vietnam/index.html`)
-- ✅ **Film Permits** (`film-permits-vietnam/index.html`)
-- ✅ **Filming in Vietnam** (`filming-in-vietnam/index.html`)
+- ✅ **Equipment Rental** (`equipment-rental-Greece/index.html`)
+- ✅ **Location Scouting** (`location-scouting-Greece/index.html`)
+- ✅ **Film Permits** (`film-permits-Greece/index.html`)
+- ✅ **Filming in Greece** (`filming-in-Greece/index.html`)
 
 #### Portfolio & Client Pages
 - ✅ **Portfolio** (`portfolio/index.html`)
@@ -45,21 +45,21 @@ The contact form includes comprehensive event tracking:
 
 #### Form Submission Events
 ```javascript
-// Form submission start
+/ Form submission start
 gtag('event', 'form_submission', {
     'event_category': 'Contact',
     'event_label': 'Production Enquiry',
     'value': 1
 });
 
-// Form submission success (on thank you page)
+/ Form submission success (on thank you page)
 gtag('event', 'form_submission_success', {
     'event_category': 'Contact',
     'event_label': 'Production Enquiry Success',
     'value': 1
 });
 
-// Conversion tracking
+/ Conversion tracking
 gtag('event', 'conversion', {
     'send_to': 'G-FD4LC3V4DB',
     'event_category': 'Contact',
@@ -82,7 +82,7 @@ Enhanced click tracking on important elements:
 
 #### Implementation Example
 ```javascript
-// Track contact button clicks
+/ Track contact button clicks
 const contactButtons = document.querySelectorAll('a[href="/contact/"]');
 contactButtons.forEach(button => {
     button.addEventListener('click', function() {
@@ -168,7 +168,7 @@ contactButtons.forEach(button => {
 
 ### Debug Mode
 ```javascript
-// Enable debug mode for testing
+/ Enable debug mode for testing
 gtag('config', 'G-FD4LC3V4DB', {
     'debug_mode': true
 });
@@ -229,7 +229,7 @@ gtag('config', 'G-FD4LC3V4DB', {
 
 ## ✅ Installation Summary
 
-Google Analytics 4 is now fully installed and configured on the Fixers in Vietnam website with:
+Google Analytics 4 is now fully installed and configured on the Fixers in Greece website with:
 
 - ✅ **Complete Coverage**: All pages tracked
 - ✅ **Enhanced Events**: Form submissions, clicks, conversions

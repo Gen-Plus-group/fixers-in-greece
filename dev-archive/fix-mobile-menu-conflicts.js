@@ -8,33 +8,33 @@
 const fs = require('fs');
 const path = require('path');
 
-// All pages that were converted to dynamic components
+/ All pages that were converted to dynamic components
 const convertedPages = [
     'about-us/index.html',
     'contact/index.html',
     'film-production-services/index.html',
-    'equipment-rental-vietnam/index.html',
-    'location-scouting-vietnam/index.html',
-    'film-permits-vietnam/index.html',
-    'filming-in-vietnam/index.html',
+    'equipment-rental-Greece/index.html',
+    'location-scouting-Greece/index.html',
+    'film-permits-Greece/index.html',
+    'filming-in-Greece/index.html',
     'portfolio/index.html',
     'clients/index.html',
-    'vietnam-filming-locations/index.html',
-    'vietnam-film-crew/index.html',
-    'documentary-filming-vietnam/index.html',
-    'drone-filming-vietnam/index.html',
-    'commercial-video-production-vietnam/index.html',
-    'news-filming-vietnam/index.html',
+    'Greece-filming-locations/index.html',
+    'Greece-film-crew/index.html',
+    'documentary-filming-Greece/index.html',
+    'drone-filming-Greece/index.html',
+    'commercial-video-production-Greece/index.html',
+    'news-filming-Greece/index.html',
     'ho-chi-minh-city-filming/index.html',
-    'hanoi-film-production/index.html',
-    'casting-services-vietnam/index.html',
-    'corporate-video-vietnam/index.html',
-    'equipment-transport-vietnam/index.html',
-    'event-filming-vietnam/index.html',
-    'live-streaming-vietnam/index.html',
-    'music-video-production-vietnam/index.html',
-    'post-production-vietnam/index.html',
-    'translation-services-vietnam/index.html',
+    'Athens-film-production/index.html',
+    'casting-services-Greece/index.html',
+    'corporate-video-Greece/index.html',
+    'equipment-transport-Greece/index.html',
+    'event-filming-Greece/index.html',
+    'live-streaming-Greece/index.html',
+    'music-video-production-Greece/index.html',
+    'post-production-Greece/index.html',
+    'translation-services-Greece/index.html',
     'hire-film-director/index.html',
     'hire-film-producer/index.html',
     'hire-line-producer/index.html',
@@ -56,7 +56,7 @@ function fixMobileMenuConflicts(filePath) {
         let originalContent = content;
         let changesMade = false;
 
-        // Pattern 1: Remove mobile menu JavaScript blocks that reference mobile-menu-button
+        / Pattern 1: Remove mobile menu JavaScript blocks that reference mobile-menu-button
         const mobileMenuPattern1 = /<!-- Mobile Menu JavaScript -->[\s\S]*?document\.getElementById\('mobile-menu-button'\)[\s\S]*?<\/script>/g;
         if (mobileMenuPattern1.test(content)) {
             content = content.replace(mobileMenuPattern1, '    <!-- Mobile Menu JavaScript - Handled by component loader -->');
@@ -64,49 +64,49 @@ function fixMobileMenuConflicts(filePath) {
             changesMade = true;
         }
 
-        // Pattern 2: Remove standalone mobile menu scripts
+        / Pattern 2: Remove standalone mobile menu scripts
         const mobileMenuPattern2 = /document\.getElementById\('mobile-menu-button'\)\.addEventListener[\s\S]*?}\);/g;
         if (mobileMenuPattern2.test(content)) {
-            content = content.replace(mobileMenuPattern2, '// Mobile menu handled by component loader');
+            content = content.replace(mobileMenuPattern2, '/ Mobile menu handled by component loader');
             console.log(`🔧 ${filePath} - Removed mobile menu event listeners`);
             changesMade = true;
         }
 
-        // Pattern 3: Remove mobile dropdown functions
+        / Pattern 3: Remove mobile dropdown functions
         const mobileDropdownPattern = /function initializeMobileDropdowns\(\)[\s\S]*?function closeAllMobileSubmenus[\s\S]*?}\s*}/g;
         if (mobileDropdownPattern.test(content)) {
-            content = content.replace(mobileDropdownPattern, '// Mobile dropdown functionality handled by component loader');
+            content = content.replace(mobileDropdownPattern, '/ Mobile dropdown functionality handled by component loader');
             console.log(`🔧 ${filePath} - Removed mobile dropdown functions`);
             changesMade = true;
         }
 
-        // Pattern 4: Remove click outside handlers for mobile menu
+        / Pattern 4: Remove click outside handlers for mobile menu
         const clickOutsidePattern = /document\.addEventListener\('click', function\(event\)[\s\S]*?mobile-menu[\s\S]*?}\);/g;
         if (clickOutsidePattern.test(content)) {
-            content = content.replace(clickOutsidePattern, '// Click outside handling managed by component loader');
+            content = content.replace(clickOutsidePattern, '/ Click outside handling managed by component loader');
             console.log(`🔧 ${filePath} - Removed click outside handlers`);
             changesMade = true;
         }
 
-        // Pattern 5: Remove DOMContentLoaded mobile menu initialization
+        / Pattern 5: Remove DOMContentLoaded mobile menu initialization
         const domLoadedPattern = /document\.addEventListener\('DOMContentLoaded', function\(\)[\s\S]*?initializeMobileDropdowns[\s\S]*?}\);/g;
         if (domLoadedPattern.test(content)) {
-            content = content.replace(domLoadedPattern, '// Mobile menu initialization handled by component loader');
+            content = content.replace(domLoadedPattern, '/ Mobile menu initialization handled by component loader');
             console.log(`🔧 ${filePath} - Removed DOMContentLoaded mobile menu init`);
             changesMade = true;
         }
 
-        // Clean up any empty script tags or excessive whitespace
+        / Clean up any empty script tags or excessive whitespace
         content = content.replace(/<script>\s*<\/script>/g, '');
         content = content.replace(/\n\s*\n\s*\n/g, '\n\n');
 
         if (changesMade) {
-            // Create backup
+            / Create backup
             const backupPath = filePath.replace('.html', '-before-mobile-fix.html');
             fs.writeFileSync(backupPath, originalContent, 'utf8');
             console.log(`💾 Created backup: ${backupPath}`);
 
-            // Write fixed content
+            / Write fixed content
             fs.writeFileSync(filePath, content, 'utf8');
             console.log(`✅ ${filePath} - Mobile menu conflicts fixed`);
             return true;

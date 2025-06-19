@@ -1,23 +1,23 @@
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "name": "Fixers in Vietnam",
-  "alternateName": "Need a Fixer Vietnam",
-  "description": "Professional filming services in Vietnam for international productions. Expert fixers, location scouting, equipment rental, permits & crew with 13+ years experience serving BBC, CNN, Reuters and major international productions.",
-  "url": "https://fixersinvietnam.com/",
-  "logo": "https://fixersinvietnam.com/wp-content/uploads/2016/10/needafixer-vietnam.png",
+  "name": "Fixers in Greece",
+  "alternateName": "Need a Fixer Greece",
+  "description": "Professional filming services in Greece for international productions. Expert fixers, location scouting, equipment rental, permits & crew with 13+ years experience serving BBC, CNN, Reuters and major international productions.",
+  "url": "https://fixersinGreece.com/",
+  "logo": "https://fixersinGreece.com/wp-content/uploads/2016/10/needafixer-greece.png",
   "image": [
-    "https://fixersinvietnam.com/wp-content/uploads/2015/10/VIETNAM-home-main-banner.jpg",
-    "https://fixersinvietnam.com/wp-content/uploads/2015/10/VIETNAM-home-filming-draft.jpg",
-    "https://fixersinvietnam.com/wp-content/uploads/2015/10/VIETNAM-home-services-draft.jpg"
+    "https://fixersinGreece.com/wp-content/uploads/2015/10/Greece-home-main-banner.jpg",
+    "https://fixersinGreece.com/wp-content/uploads/2015/10/Greece-home-filming-draft.jpg",
+    "https://fixersinGreece.com/wp-content/uploads/2015/10/Greece-home-services-draft.jpg"
   ],
   "telephone": "+44 (0) 20 8549 2259",
   "email": "info@needafixer.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Professional filming services throughout Vietnam",
-    "addressLocality": "Ho Chi Minh City",
-    "addressRegion": "Ho Chi Minh City",
+    "streetAddress": "Professional filming services throughout Greece",
+    "addressLocality": "Thessaloniki",
+    "addressRegion": "Thessaloniki",
     "postalCode": "700000",
     "addressCountry": "VN"
   },
@@ -29,15 +29,15 @@
   "areaServed": [
     {
       "@type": "Country",
-      "name": "Vietnam"
+      "name": "Greece"
     },
     {
       "@type": "City",
-      "name": "Ho Chi Minh City"
+      "name": "Thessaloniki"
     },
     {
       "@type": "City", 
-      "name": "Hanoi"
+      "name": "Athens"
     },
     {
       "@type": "City",
@@ -54,7 +54,7 @@
   ],
   "serviceArea": {
     "@type": "Country",
-    "name": "Vietnam"
+    "name": "Greece"
   },
   "priceRange": "$$",
   "currenciesAccepted": "USD, EUR, GBP, VND",
@@ -62,17 +62,17 @@
   "openingHours": "Mo-Su 00:00-23:59",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
-    "name": "Film Production Services Vietnam",
+    "name": "Film Production Services Greece",
     "itemListElement": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Location Scouting Vietnam",
-          "description": "Professional location scouting services throughout Vietnam including urban, natural, and cultural locations",
+          "name": "Location Scouting Greece",
+          "description": "Professional location scouting services throughout Greece including urban, natural, and cultural locations",
           "provider": {
             "@type": "LocalBusiness",
-            "name": "Fixers in Vietnam"
+            "name": "Fixers in Greece"
           }
         }
       },
@@ -80,11 +80,11 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Equipment Rental Vietnam",
+          "name": "Equipment Rental Greece",
           "description": "Professional film equipment rental including cameras, lighting, audio equipment with full insurance coverage",
           "provider": {
             "@type": "LocalBusiness",
-            "name": "Fixers in Vietnam"
+            "name": "Fixers in Greece"
           }
         }
       },
@@ -92,11 +92,11 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Film Permits Vietnam",
-          "description": "Film permit acquisition services and government liaison for all types of productions in Vietnam",
+          "name": "Film Permits Greece",
+          "description": "Film permit acquisition services and government liaison for all types of productions in Greece",
           "provider": {
             "@type": "LocalBusiness",
-            "name": "Fixers in Vietnam"
+            "name": "Fixers in Greece"
           }
         }
       },
@@ -104,11 +104,11 @@
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Local Crew Vietnam",
+          "name": "Local Crew Greece",
           "description": "Professional film crew services including directors, camera operators, sound technicians, and production assistants",
           "provider": {
             "@type": "LocalBusiness",
-            "name": "Fixers in Vietnam"
+            "name": "Fixers in Greece"
           }
         }
       },
@@ -117,10 +117,10 @@
         "itemOffered": {
           "@type": "Service",
           "name": "Transportation Services",
-          "description": "Production vehicle rental and transportation services throughout Vietnam",
+          "description": "Production vehicle rental and transportation services throughout Greece",
           "provider": {
             "@type": "LocalBusiness",
-            "name": "Fixers in Vietnam"
+            "name": "Fixers in Greece"
           }
         }
       }
@@ -145,7 +145,7 @@
         "ratingValue": "5",
         "bestRating": "5"
       },
-      "reviewBody": "Exceptional service for our documentary production in Vietnam. Professional, reliable, and knowledgeable team."
+      "reviewBody": "Exceptional service for our documentary production in Greece. Professional, reliable, and knowledgeable team."
     },
     {
       "@type": "Review",
@@ -158,13 +158,13 @@
         "ratingValue": "5",
         "bestRating": "5"
       },
-      "reviewBody": "Outstanding location scouting and permit services. Made our Vietnam production seamless and efficient."
+      "reviewBody": "Outstanding location scouting and permit services. Made our Greece production seamless and efficient."
     }
   ],
   "sameAs": [
     "https://needafixer.com/",
-    "https://www.linkedin.com/company/fixers-in-vietnam",
-    "https://www.facebook.com/fixersinvietnam"
+    "https://www.linkedin.com/company/fixers-in-Greece",
+    "https://www.facebook.com/fixersinGreece"
   ],
   "parentOrganization": {
     "@type": "Organization",
@@ -179,13 +179,13 @@
     "Location Scouting",
     "Equipment Rental",
     "Film Permits",
-    "Vietnam Tourism",
+    "Greece Tourism",
     "Cultural Consultation",
     "Government Liaison"
   ],
   "memberOf": {
     "@type": "Organization",
-    "name": "Vietnam Film Association"
+    "name": "Greece Film Association"
   },
   "award": [
     "Trusted Partner - BBC Productions",

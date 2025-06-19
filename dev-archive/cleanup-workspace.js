@@ -8,9 +8,9 @@
 const fs = require('fs');
 const path = require('path');
 
-// Define file categories for organization
+/ Define file categories for organization
 const fileCategories = {
-    // Development scripts that are no longer needed
+    / Development scripts that are no longer needed
     obsoleteScripts: [
         'add-google-analytics.py',
         'apply-tailwind-to-all-pages.py',
@@ -45,18 +45,18 @@ const fileCategories = {
         'convert-all-to-dynamic-components.js'
     ],
 
-    // Backup and temporary files
+    / Backup and temporary files
     backupFiles: [
         'about-us-optimized.html',
         'about-us-tailwind.html',
-        'equipment-rental-vietnam-tailwind.html',
+        'equipment-rental-Greece-tailwind.html',
         'film-production-services-tailwind.html',
         'index-modern.html',
         'index-original-backup.html',
         'index-tailwind.html'
     ],
 
-    // Test and temporary files
+    / Test and temporary files
     testFiles: [
         'create-test-video.html',
         'form-enhancement-test.html',
@@ -67,21 +67,21 @@ const fileCategories = {
         'video-diagnostic.html'
     ],
 
-    // Content files that should be moved to docs
+    / Content files that should be moved to docs
     contentFiles: [
         'clients-content.html',
         'contact-content.html',
-        'filming-in-vietnam-content.html'
+        'filming-in-Greece-content.html'
     ],
 
-    // Design files
+    / Design files
     designFiles: [
         'homepage-design.pdf',
         'homepage-design.png'
     ]
 };
 
-// Directories to create for organization
+/ Directories to create for organization
 const organizationDirs = {
     'dev-archive': 'Archive of development scripts and tools',
     'docs': 'Documentation and content files',
@@ -101,7 +101,7 @@ function createDirectory(dirPath, description) {
 function moveFile(source, destination) {
     try {
         if (fs.existsSync(source)) {
-            // Create destination directory if it doesn't exist
+            / Create destination directory if it doesn't exist
             const destDir = path.dirname(destination);
             if (!fs.existsSync(destDir)) {
                 fs.mkdirSync(destDir, { recursive: true });
@@ -142,7 +142,7 @@ function cleanupBackupFiles() {
     
     let cleanedCount = 0;
     
-    // Find all subdirectories
+    / Find all subdirectories
     const items = fs.readdirSync('.', { withFileTypes: true });
     const directories = items.filter(item => item.isDirectory() && !item.name.startsWith('.') && item.name !== 'node_modules');
     
@@ -166,7 +166,7 @@ function organizeFiles() {
     
     let totalMoved = 0;
     
-    // Move obsolete scripts to dev-archive
+    / Move obsolete scripts to dev-archive
     console.log('\n🔧 Archiving development scripts...');
     fileCategories.obsoleteScripts.forEach(file => {
         if (moveFile(file, path.join('dev-archive', file))) {
@@ -174,7 +174,7 @@ function organizeFiles() {
         }
     });
     
-    // Move backup files
+    / Move backup files
     console.log('\n💾 Organizing backup files...');
     fileCategories.backupFiles.forEach(file => {
         if (moveFile(file, path.join('backup', file))) {
@@ -182,13 +182,13 @@ function organizeFiles() {
         }
     });
     
-    // Delete test files (they're not needed anymore)
+    / Delete test files (they're not needed anymore)
     console.log('\n🧪 Removing test files...');
     fileCategories.testFiles.forEach(file => {
         deleteFile(file);
     });
     
-    // Move content files to docs
+    / Move content files to docs
     console.log('\n📄 Organizing content files...');
     fileCategories.contentFiles.forEach(file => {
         if (moveFile(file, path.join('docs', file))) {
@@ -196,7 +196,7 @@ function organizeFiles() {
         }
     });
     
-    // Move design files
+    / Move design files
     console.log('\n🎨 Organizing design files...');
     fileCategories.designFiles.forEach(file => {
         if (moveFile(file, path.join('design', file))) {
@@ -276,19 +276,19 @@ function main() {
     console.log('   • Create documentation for each directory');
     console.log('=' + '='.repeat(70));
 
-    // Create organization directories
+    / Create organization directories
     console.log('\n📁 Creating organization directories...');
     Object.entries(organizationDirs).forEach(([dir, description]) => {
         createDirectory(dir, description);
     });
 
-    // Organize files
+    / Organize files
     const totalMoved = organizeFiles();
     
-    // Clean up backup files in subdirectories
+    / Clean up backup files in subdirectories
     cleanupBackupFiles();
     
-    // Create README files
+    / Create README files
     createReadmeFiles();
 
     console.log('\n' + '='.repeat(70));

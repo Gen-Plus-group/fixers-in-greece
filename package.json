@@ -1,7 +1,7 @@
 {
-  "name": "fixers-in-vietnam-tailwind",
+  "name": "fixers-in-greece-tailwind",
   "version": "1.0.0",
-  "description": "Tailwind CSS setup for Fixers in Vietnam website",
+  "description": "Tailwind CSS setup for Fixers in Greece website",
   "main": "index.js",
   "scripts": {
     "build-css": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
@@ -15,11 +15,11 @@
   },
   "keywords": [
     "tailwindcss",
-    "vietnam",
+    "greece",
     "film-production",
     "website"
   ],
-  "author": "Fixers in Vietnam",
+  "author": "Fixers in Greece",
   "license": "MIT",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",

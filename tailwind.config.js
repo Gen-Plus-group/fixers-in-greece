@@ -7,17 +7,17 @@ module.exports = {
     "./clients/*.html",
     "./contact/*.html",
     "./film-production-services/*.html",
-    "./filming-in-vietnam/*.html",
-    "./equipment-rental-vietnam/*.html",
-    "./location-scouting-vietnam/*.html",
-    "./film-permits-vietnam/*.html"
+    "./filming-in-greece/*.html",
+    "./equipment-rental-greece/*.html",
+    "./location-scouting-greece/*.html",
+    "./film-permits-greece/*.html"
   ],
   theme: {
     extend: {
       colors: {
-        'vietnam': {
-          'orange': '#f9a531',
-          'red': '#ed5050',
+        'greece': {
+          'blue': '#0080ff',
+          'white': '#ffffff',
           'dark': '#1c1c1c',
           'darker': '#0a0a0a',
           'gray': '#b4b4b4'
@@ -81,15 +81,15 @@ module.exports = {
         'xs': '2px'
       },
       boxShadow: {
-        'vietnam': '0 4px 6px -1px rgba(249, 165, 49, 0.1), 0 2px 4px -1px rgba(249, 165, 49, 0.06)',
-        'vietnam-lg': '0 10px 15px -3px rgba(249, 165, 49, 0.1), 0 4px 6px -2px rgba(249, 165, 49, 0.05)',
-        'vietnam-xl': '0 20px 25px -5px rgba(249, 165, 49, 0.1), 0 10px 10px -5px rgba(249, 165, 49, 0.04)',
-        'glow': '0 0 20px rgba(249, 165, 49, 0.3)',
-        'glow-lg': '0 0 40px rgba(249, 165, 49, 0.4)'
+        'greece': '0 4px 6px -1px rgba(0, 128, 255, 0.1), 0 2px 4px -1px rgba(0, 128, 255, 0.06)',
+        'greece-lg': '0 10px 15px -3px rgba(0, 128, 255, 0.1), 0 4px 6px -2px rgba(0, 128, 255, 0.05)',
+        'greece-xl': '0 20px 25px -5px rgba(0, 128, 255, 0.1), 0 10px 10px -5px rgba(0, 128, 255, 0.04)',
+        'glow': '0 0 20px rgba(0, 128, 255, 0.3)',
+        'glow-lg': '0 0 40px rgba(0, 128, 255, 0.4)'
       },
       gradientColorStops: {
-        'vietnam-orange': '#f9a531',
-        'vietnam-red': '#ed5050'
+        'greece-blue': '#0080ff',
+        'greece-white': '#ffffff'
       }
     }
   },
@@ -97,19 +97,19 @@ module.exports = {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
-    // Custom plugin for Vietnam-specific utilities
+    // Custom plugin for Greece-specific utilities
     function({ addUtilities, theme }) {
       const newUtilities = {
-        '.text-gradient-vietnam': {
-          'background': 'linear-gradient(135deg, #f9a531 0%, #ed5050 100%)',
+        '.text-gradient-greece': {
+          'background': 'linear-gradient(135deg, #0080ff 0%, #ffffff 100%)',
           '-webkit-background-clip': 'text',
           '-webkit-text-fill-color': 'transparent',
           'background-clip': 'text'
         },
-        '.bg-gradient-vietnam': {
-          'background': 'linear-gradient(135deg, #f9a531 0%, #ed5050 100%)'
+        '.bg-gradient-greece': {
+          'background': 'linear-gradient(135deg, #0080ff 0%, #ffffff 100%)'
         },
-        '.bg-gradient-vietnam-dark': {
+        '.bg-gradient-greece-dark': {
           'background': 'linear-gradient(135deg, #1c1c1c 0%, #0a0a0a 100%)'
         },
         '.hover-lift': {

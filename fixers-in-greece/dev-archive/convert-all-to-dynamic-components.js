@@ -8,33 +8,33 @@
 const fs = require('fs');
 const path = require('path');
 
-// List of all HTML files to update (excluding homepage which already has dynamic components)
+/ List of all HTML files to update (excluding homepage which already has dynamic components)
 const htmlFiles = [
     'about-us/index.html',
     'contact/index.html',
     'film-production-services/index.html',
-    'equipment-rental-vietnam/index.html',
-    'location-scouting-vietnam/index.html',
-    'film-permits-vietnam/index.html',
-    'filming-in-vietnam/index.html',
+    'equipment-rental-Greece/index.html',
+    'location-scouting-Greece/index.html',
+    'film-permits-Greece/index.html',
+    'filming-in-Greece/index.html',
     'portfolio/index.html',
     'clients/index.html',
-    'vietnam-filming-locations/index.html',
-    'vietnam-film-crew/index.html',
-    'documentary-filming-vietnam/index.html',
-    'drone-filming-vietnam/index.html',
-    'commercial-video-production-vietnam/index.html',
-    'news-filming-vietnam/index.html',
+    'Greece-filming-locations/index.html',
+    'Greece-film-crew/index.html',
+    'documentary-filming-Greece/index.html',
+    'drone-filming-Greece/index.html',
+    'commercial-video-production-Greece/index.html',
+    'news-filming-Greece/index.html',
     'ho-chi-minh-city-filming/index.html',
-    'hanoi-film-production/index.html',
-    'casting-services-vietnam/index.html',
-    'corporate-video-vietnam/index.html',
-    'equipment-transport-vietnam/index.html',
-    'event-filming-vietnam/index.html',
-    'live-streaming-vietnam/index.html',
-    'music-video-production-vietnam/index.html',
-    'post-production-vietnam/index.html',
-    'translation-services-vietnam/index.html',
+    'Athens-film-production/index.html',
+    'casting-services-Greece/index.html',
+    'corporate-video-Greece/index.html',
+    'equipment-transport-Greece/index.html',
+    'event-filming-Greece/index.html',
+    'live-streaming-Greece/index.html',
+    'music-video-production-Greece/index.html',
+    'post-production-Greece/index.html',
+    'translation-services-Greece/index.html',
     'hire-film-director/index.html',
     'hire-film-producer/index.html',
     'hire-line-producer/index.html',
@@ -53,13 +53,13 @@ function convertPageToDynamicComponents(filePath) {
         let content = fs.readFileSync(filePath, 'utf8');
         console.log(`📄 Processing ${filePath}...`);
 
-        // Check if already converted
+        / Check if already converted
         if (content.includes('id="header-container"') && content.includes('component-loader.js')) {
             console.log(`✅ ${filePath} - Already has dynamic components`);
             return true;
         }
 
-        // 1. Replace header section (from <!-- Top Bar --> or <header> to </header>)
+        / 1. Replace header section (from <!-- Top Bar --> or <header> to </header>)
         const headerPatterns = [
             /<!-- Top Bar -->.*?<\/header>/gs,
             /<header[^>]*>.*?<\/header>/gs
@@ -81,7 +81,7 @@ function convertPageToDynamicComponents(filePath) {
             console.log(`⚠️  ${filePath} - No header found to replace`);
         }
 
-        // 2. Replace footer section (from <!-- Footer --> or <footer> to </footer>)
+        / 2. Replace footer section (from <!-- Footer --> or <footer> to </footer>)
         const footerPatterns = [
             /<!-- Footer -->.*?<\/footer>/gs,
             /<footer[^>]*>.*?<\/footer>/gs
@@ -100,7 +100,7 @@ function convertPageToDynamicComponents(filePath) {
         }
 
         if (!footerReplaced) {
-            // Add footer container before closing body tag if no footer exists
+            / Add footer container before closing body tag if no footer exists
             content = content.replace('</body>', `    <!-- Dynamic Footer Container -->
     <div id="footer-container">
         <!-- Footer will be loaded here dynamically -->
@@ -110,23 +110,23 @@ function convertPageToDynamicComponents(filePath) {
             console.log(`📝 ${filePath} - Added footer container`);
         }
 
-        // 3. Add component loader script before closing body tag if not present
+        / 3. Add component loader script before closing body tag if not present
         if (!content.includes('/js/component-loader.js')) {
             const scriptTag = `    <!-- Component Loader Script -->
     <script src="/js/component-loader.js"></script>
 
     <!-- Page-specific JavaScript -->
     <script>
-        // Wait for components to load before initializing page-specific functionality
+        / Wait for components to load before initializing page-specific functionality
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded, initializing page functionality...');
             
-            // Any existing page-specific JavaScript can be moved here
+            / Any existing page-specific JavaScript can be moved here
         });
     </script>
 
 `;
-            // Insert before existing scripts or before closing body tag
+            / Insert before existing scripts or before closing body tag
             if (content.includes('<script>')) {
                 const scriptPos = content.lastIndexOf('</body>');
                 const beforeBody = content.substring(0, scriptPos);
@@ -137,9 +137,9 @@ function convertPageToDynamicComponents(filePath) {
             }
         }
 
-        // 4. Ensure proper CSS links are present
+        / 4. Ensure proper CSS links are present
         if (!content.includes('/dist/output.css') && !content.includes('tailwindcss')) {
-            // Add Tailwind CSS if not present
+            / Add Tailwind CSS if not present
             const headClosePos = content.indexOf('</head>');
             if (headClosePos !== -1) {
                 const cssLink = '    <!-- Tailwind CSS -->\n    <link href="/dist/output.css" rel="stylesheet">\n\n';

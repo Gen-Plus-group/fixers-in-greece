@@ -1,4 +1,4 @@
-# Contact Form Setup Guide - Fixers in Vietnam
+# Contact Form Setup Guide - Fixers in Greece
 
 ## Overview
 The contact form has been set up to send nicely formatted emails to `enquiries@needafixer.com`. There are multiple implementation options depending on your hosting environment.
@@ -9,7 +9,7 @@ The contact form has been set up to send nicely formatted emails to `enquiries@n
 - **File**: `contact-form-handler.php`
 - **Sends to**: `enquiries@needafixer.com`
 - **Features**:
-  - Formatted HTML emails with Vietnam branding
+  - Formatted HTML emails with Greece branding
   - Auto-reply to customers
   - Form validation and security
   - Professional email templates
@@ -40,9 +40,9 @@ If your hosting supports PHP:
 
 3. **Configure email settings** (if needed):
    ```php
-   // In contact-form-handler.php, update these if needed:
+   / In contact-form-handler.php, update these if needed:
    $to_email = 'enquiries@needafixer.com';
-   $from_email = 'noreply@fixersinvietnam.com';
+   $from_email = 'noreply@fixersinGreece.com';
    ```
 
 ### Option 2: Formspree (No PHP Required)
@@ -61,7 +61,7 @@ If PHP is not available, use Formspree:
 4. **Add Formspree configuration**:
    ```html
    <!-- Add these hidden fields to the form -->
-   <input type="hidden" name="_subject" value="New Production Enquiry - Fixers Vietnam">
+   <input type="hidden" name="_subject" value="New Production Enquiry - Fixers Greece">
    <input type="hidden" name="_replyto" value="enquiries@needafixer.com">
    <input type="hidden" name="_next" value="/thank-you.html">
    ```
@@ -99,7 +99,7 @@ For client-side email sending:
 
 ### Main Notification Email
 Sent to `enquiries@needafixer.com`:
-- **Professional HTML formatting** with Vietnam branding
+- **Professional HTML formatting** with Greece branding
 - **Complete contact information** (name, email, phone, company)
 - **Project details** (type, services needed, budget, dates)
 - **Formatted message** with proper line breaks
@@ -108,7 +108,7 @@ Sent to `enquiries@needafixer.com`:
 
 ### Auto-Reply Email
 Sent to customer:
-- **Thank you message** with Vietnam branding
+- **Thank you message** with Greece branding
 - **24-hour response commitment**
 - **Emergency contact information**
 - **Professional signature**
@@ -133,7 +133,7 @@ Sent to customer:
 ### Main Notification
 ```
 🎬 NEW PRODUCTION ENQUIRY
-Fixers in Vietnam - Professional Film Production Services
+Fixers in Greece - Professional Film Production Services
 
 CONTACT INFORMATION:
 Name: John Smith
@@ -148,33 +148,33 @@ Planned Shoot Dates: March 2024
 Budget Range: $25,000 - $50,000
 
 PROJECT DESCRIPTION:
-We're planning a documentary about Vietnamese culture...
+We're planning a documentary about Greeceese culture...
 
 NEXT STEPS:
 • Respond to this enquiry within 24 hours
 • Prepare detailed quote based on requirements
 • Schedule consultation call if needed
-• Send follow-up information about Vietnam filming
+• Send follow-up information about Greece filming
 ```
 
 ### Auto-Reply
 ```
 🎬 THANK YOU FOR YOUR ENQUIRY!
-Fixers in Vietnam - Professional Film Production Services
+Fixers in Greece - Professional Film Production Services
 
 Dear John,
 
-Thank you for contacting Fixers in Vietnam regarding your Documentary project.
+Thank you for contacting Fixers in Greece regarding your Documentary project.
 
 We have received your enquiry and our team will respond within 24 hours with:
 • Detailed quote for your requirements
-• Information about filming in Vietnam
+• Information about filming in Greece
 • Next steps for your production
 
 For urgent matters, please call us directly at +44 (0) 20 8549 2259.
 
 Best regards,
-The Fixers in Vietnam Team
+The Fixers in Greece Team
 ```
 
 ## 🔒 Security Features

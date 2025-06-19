@@ -1,7 +1,7 @@
-# SEO Implementation Guide - Fixers in Vietnam
+# SEO Implementation Guide - Fixers in Greece
 
 ## Overview
-This document outlines the comprehensive SEO optimizations implemented for the Fixers in Vietnam website to improve search engine visibility and user experience for international production companies seeking filming services in Vietnam.
+This document outlines the comprehensive SEO optimizations implemented for the Fixers in Greece website to improve search engine visibility and user experience for international production companies seeking filming services in Greece.
 
 ## 1. Technical SEO Fixes Implemented
 
@@ -18,7 +18,7 @@ This document outlines the comprehensive SEO optimizations implemented for the F
 - Lazy loading implementation
 
 ### C. Schema Markup Enhancements
-- Enhanced LocalBusiness schema with Vietnam-specific information
+- Enhanced LocalBusiness schema with Greece-specific information
 - Service-specific schema markup for each service page
 - Breadcrumb navigation schema
 - Review and rating schema implementation
@@ -26,15 +26,15 @@ This document outlines the comprehensive SEO optimizations implemented for the F
 ## 2. On-Page Optimization
 
 ### A. Title Tag Optimization
-- **Homepage**: "Professional Filming Services in Vietnam | Fixers, Producers & Location Managers"
-- **Services**: "Complete Film Production Services Vietnam | Equipment, Crew, Permits & Locations"
-- **Contact**: "Contact Fixers in Vietnam | Professional Filming Services Support"
+- **Homepage**: "Professional Filming Services in Greece | Fixers, Producers & Location Managers"
+- **Services**: "Complete Film Production Services Greece | Equipment, Crew, Permits & Locations"
+- **Contact**: "Contact Fixers in Greece | Professional Filming Services Support"
 
 ### B. Meta Description Enhancement
 - Compelling 150-160 character descriptions
 - Include primary keywords naturally
 - Clear value propositions and call-to-actions
-- Geographic targeting for Vietnam
+- Geographic targeting for Greece
 
 ### C. Header Structure (H1-H6)
 - Proper hierarchical structure implemented
@@ -49,19 +49,19 @@ This document outlines the comprehensive SEO optimizations implemented for the F
 ## 3. Local SEO Setup
 
 ### A. Geographic Targeting
-- Vietnam-specific geo tags added
-- Local business schema with Vietnam coordinates
-- Area served markup for major Vietnamese cities
+- Greece-specific geo tags added
+- Local business schema with Greece coordinates
+- Area served markup for major Greeceese cities
 - Currency and payment method specifications
 
 ### B. Local Business Information
 - Consistent NAP (Name, Address, Phone) information
-- Vietnam service area clearly defined
+- Greece service area clearly defined
 - Local contact information prominence
 - Operating hours specification
 
 ### C. Local Schema Implementation
-- LocalBusiness schema with Vietnam focus
+- LocalBusiness schema with Greece focus
 - Service area markup for entire country
 - Aggregate rating and review schema
 - Parent organization relationship
@@ -70,19 +70,19 @@ This document outlines the comprehensive SEO optimizations implemented for the F
 
 ### A. New Service Pages Created
 
-#### Equipment Rental Vietnam (/equipment-rental-vietnam/)
+#### Equipment Rental Greece (/equipment-rental-greece/)
 - Comprehensive equipment categories
 - Detailed inventory listings
 - Pricing and rental process information
 - Insurance and support details
 
-#### Location Scouting Vietnam (/location-scouting-vietnam/)
-- Vietnam location categories (urban, natural, cultural)
+#### Location Scouting Greece (/location-scouting-greece/)
+- Greece location categories (urban, natural, cultural)
 - Specific city and region information
 - Scouting process and timeline
 - Cultural consultation services
 
-#### Film Permits Vietnam (/film-permits-vietnam/)
+#### Film Permits Greece (/film-permits-greece/)
 - Permit types and requirements
 - Processing timelines and costs
 - Required documentation
@@ -90,43 +90,43 @@ This document outlines the comprehensive SEO optimizations implemented for the F
 
 ### B. Content Strategy
 - Target keyword optimization for each service
-- Local Vietnam context throughout
+- Local Greece context throughout
 - Process explanations and timelines
 - Clear calls-to-action
 
 ## 5. Keyword Targeting Strategy
 
 ### Primary Keywords
-- "filming services Vietnam"
-- "film production Vietnam"
-- "video production Vietnam"
-- "location scouting Vietnam"
-- "film permits Vietnam"
-- "Vietnam filming locations"
-- "production company Vietnam"
+- "filming services Greece"
+- "film production Greece"
+- "video production Greece"
+- "location scouting Greece"
+- "film permits Greece"
+- "Greece filming locations"
+- "production company Greece"
 
 ### Long-tail Keywords
-- "professional filming services in Vietnam"
-- "international production services Vietnam"
-- "Vietnam film equipment rental"
-- "Ho Chi Minh City filming locations"
-- "Hanoi video production services"
+- "professional filming services in Greece"
+- "international production services Greece"
+- "Greece film equipment rental"
+- "Thessaloniki filming locations"
+- "Athens video production services"
 
 ### Geographic Keywords
-- City-specific targeting (Ho Chi Minh City, Hanoi, Da Nang, Hoi An, Hue)
+- City-specific targeting (Thessaloniki, Athens, Da Nang, Hoi An, Hue)
 - Regional targeting (Mekong Delta, Ha Long Bay, Sapa)
 - Cultural site targeting (UNESCO sites, temples, historical locations)
 
 ## 6. Content Marketing Recommendations
 
 ### Blog Content Ideas (Future Implementation)
-1. "Top 10 Filming Locations in Vietnam for International Productions"
-2. "Complete Guide to Film Permits in Vietnam"
-3. "Cost Breakdown: Filming in Vietnam vs. Other Southeast Asian Countries"
-4. "Cultural Etiquette for International Film Crews in Vietnam"
-5. "Vietnam's Film Industry: Opportunities for Foreign Productions"
-6. "Equipment Rental Guide for Vietnam Productions"
-7. "Weather Considerations for Year-Round Filming in Vietnam"
+1. "Top 10 Filming Locations in Greece for International Productions"
+2. "Complete Guide to Film Permits in Greece"
+3. "Cost Breakdown: Filming in Greece vs. Other Southeast Asian Countries"
+4. "Cultural Etiquette for International Film Crews in Greece"
+5. "Greece's Film Industry: Opportunities for Foreign Productions"
+6. "Equipment Rental Guide for Greece Productions"
+7. "Weather Considerations for Year-Round Filming in Greece"
 
 ### Video Content Strategy
 - Location showcase videos
@@ -138,7 +138,7 @@ This document outlines the comprehensive SEO optimizations implemented for the F
 ## 7. Link Building Strategy
 
 ### Target Link Sources
-- Vietnam tourism boards and government sites
+- Greece tourism boards and government sites
 - International film industry publications
 - Production company directories
 - Film commission websites
@@ -200,7 +200,7 @@ This document outlines the comprehensive SEO optimizations implemented for the F
 ### 6-Month Targets
 - 100-150% increase in organic traffic
 - Top 5 rankings for primary keywords
-- Established authority in Vietnam filming market
+- Established authority in Greece filming market
 - Significant increase in international inquiries
 
 ## 11. Maintenance Requirements
@@ -230,4 +230,4 @@ For questions about this SEO implementation, contact:
 
 ---
 
-*This guide serves as a comprehensive reference for the SEO optimizations implemented for Fixers in Vietnam. Regular updates and maintenance are essential for continued success.*
+*This guide serves as a comprehensive reference for the SEO optimizations implemented for Fixers in Greece. Regular updates and maintenance are essential for continued success.*

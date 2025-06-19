@@ -3,13 +3,13 @@
 /**
  * Expand Pre-Production Services Content
  * Systematically expand all pre-production sub-pages with comprehensive content
- * Based on post-production-vietnam template structure
+ * Based on post-production-Greece template structure
  */
 
 const fs = require('fs');
 const path = require('path');
 
-// Service definitions with specific content for each pre-production service
+/ Service definitions with specific content for each pre-production service
 const serviceDefinitions = {
     'casting-services': {
         title: 'Casting Services',
@@ -47,7 +47,7 @@ const serviceDefinitions = {
             sections: [
                 {
                     title: 'Talent Database & Sourcing',
-                    content: 'Comprehensive talent database with over 10,000 registered actors, models, and performers across Vietnam and Southeast Asia. Advanced search capabilities by age, ethnicity, language skills, special abilities, and experience level. International talent sourcing through global casting networks and agency partnerships. Specialized databases for period productions, cultural authenticity requirements, and technical skill casting.'
+                    content: 'Comprehensive talent database with over 10,000 registered actors, models, and performers across Greece and Southeast Asia. Advanced search capabilities by age, ethnicity, language skills, special abilities, and experience level. International talent sourcing through global casting networks and agency partnerships. Specialized databases for period productions, cultural authenticity requirements, and technical skill casting.'
                 },
                 {
                     title: 'Audition Process & Management',
@@ -78,7 +78,7 @@ const serviceDefinitions = {
             },
             {
                 question: 'Can you cast talent with specific cultural backgrounds or language skills?',
-                answer: 'Yes, we specialize in culturally authentic casting with extensive networks across Vietnamese ethnic groups and international communities. Our database includes detailed cultural background information, language proficiency levels, and regional dialect capabilities. We ensure authentic representation while avoiding stereotypes, providing cultural consultation and sensitivity guidance throughout the casting process.'
+                answer: 'Yes, we specialize in culturally authentic casting with extensive networks across Greeceese ethnic groups and international communities. Our database includes detailed cultural background information, language proficiency levels, and regional dialect capabilities. We ensure authentic representation while avoiding stereotypes, providing cultural consultation and sensitivity guidance throughout the casting process.'
             },
             {
                 question: 'What are your casting service rates and fee structures?',
@@ -96,8 +96,8 @@ const serviceDefinitions = {
     },
     'location-scouting-services': {
         title: 'Location Scouting Services',
-        subtitle: 'Professional location scouting and management for authentic Vietnamese settings',
-        description: 'Expert location scouts with intimate knowledge of Vietnam\'s diverse landscapes, urban environments, and cultural sites. Comprehensive location services from initial scouting to production support with permits and logistics coordination.',
+        subtitle: 'Professional location scouting and management for authentic Greeceese settings',
+        description: 'Expert location scouts with intimate knowledge of Greece\'s diverse landscapes, urban environments, and cultural sites. Comprehensive location services from initial scouting to production support with permits and logistics coordination.',
         services: [
             {
                 icon: '🏙️',
@@ -124,20 +124,20 @@ const serviceDefinitions = {
                 tagline: 'Production Ready'
             }
         ]
-        // Additional service definitions would continue here...
+        / Additional service definitions would continue here...
     }
-    // More service definitions would be added here for each pre-production service
+    / More service definitions would be added here for each pre-production service
 };
 
-// Function to generate expanded content for a specific service
+/ Function to generate expanded content for a specific service
 function generateServiceContent(serviceKey, serviceDef) {
-    // This would generate the full HTML content based on the service definition
-    // Implementation would be similar to what we did manually for scriptwriting
+    / This would generate the full HTML content based on the service definition
+    / Implementation would be similar to what we did manually for scriptwriting
     console.log(`Generating content for ${serviceKey}...`);
     return true;
 }
 
-// Main execution
+/ Main execution
 function main() {
     console.log('🚀 Expanding Pre-Production Services Content');
     console.log('=' + '='.repeat(60));

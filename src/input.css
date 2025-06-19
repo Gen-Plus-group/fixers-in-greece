@@ -27,24 +27,24 @@
 @layer components {
   /* Tailwind Button Variants - These work with our CSS architecture */
   .btn-tailwind-primary {
-    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-vietnam-orange hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-vietnam-orange transition-colors duration-200;
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-greece-blue hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-greece-blue transition-colors duration-200;
   }
 
   .btn-tailwind-secondary {
-    @apply inline-flex items-center justify-center px-6 py-3 border border-vietnam-orange text-base font-medium rounded-md text-vietnam-orange bg-transparent hover:bg-vietnam-orange hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-vietnam-orange transition-colors duration-200;
+    @apply inline-flex items-center justify-center px-6 py-3 border border-greece-blue text-base font-medium rounded-md text-greece-blue bg-transparent hover:bg-greece-blue hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-greece-blue transition-colors duration-200;
   }
   
   .btn-danger {
-    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-vietnam-red hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-vietnam-red transition-colors duration-200;
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-greece-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-greece-white transition-colors duration-200;
   }
   
   /* Card Components */
   .card {
-    @apply bg-vietnam-dark border border-gray-700 rounded-lg shadow-lg overflow-hidden;
+    @apply bg-greece-dark border border-gray-700 rounded-lg shadow-lg overflow-hidden;
   }
   
   .card-hover {
-    @apply card transition-all duration-300 hover:shadow-xl hover:border-vietnam-orange hover:-translate-y-1;
+    @apply card transition-all duration-300 hover:shadow-xl hover:border-greece-blue hover:-translate-y-1;
   }
   
   .card-body {
@@ -61,11 +61,11 @@
   
   /* Navigation Components */
   .nav-link {
-    @apply text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200 font-medium;
+    @apply text-greece-gray hover:text-greece-blue transition-colors duration-200 font-medium;
   }
 
   .nav-link-active {
-    @apply text-vietnam-orange font-semibold;
+    @apply text-greece-blue font-semibold;
   }
 
   /* Mega Menu Components */
@@ -78,7 +78,7 @@
     max-width: 1400px;
     min-width: 1200px;
     background: #1a1a1a;
-    border-top: 2px solid theme('colors.vietnam.orange');
+    border-top: 2px solid theme('colors.greece.blue');
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     opacity: 0;
     visibility: hidden;
@@ -118,7 +118,7 @@
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: theme('colors.vietnam.orange');
+    color: theme('colors.Greece.orange');
   }
 
   .mega-menu a {
@@ -130,7 +130,7 @@
   }
 
   .mega-menu a:hover {
-    color: theme('colors.vietnam.orange');
+    color: theme('colors.Greece.orange');
     padding-left: 0.25rem;
   }
 
@@ -155,7 +155,7 @@
   
   /* Form Components */
   .form-input {
-    @apply block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm bg-vietnam-dark text-white placeholder-gray-400 focus:outline-none focus:ring-vietnam-orange focus:border-vietnam-orange;
+    @apply block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm bg-greece-dark text-white placeholder-gray-400 focus:outline-none focus:ring-greece-blue focus:border-greece-blue;
   }
   
   .form-textarea {
@@ -163,7 +163,7 @@
   }
   
   .form-select {
-    @apply form-input pr-10 bg-vietnam-dark;
+    @apply form-input pr-10 bg-greece-dark;
   }
   
   .form-label {
@@ -258,21 +258,21 @@
   
   /* Background Utilities */
   .bg-hero {
-    background-image: url('/wp-content/uploads/2015/10/VIETNAM-home-main-banner.jpg');
+    background-image: url('/wp-content/uploads/2015/10/Greece-home-main-banner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   
   .bg-filming {
-    background-image: url('/wp-content/uploads/2015/10/VIETNAM-home-filming-draft.jpg');
+    background-image: url('/wp-content/uploads/2015/10/Greece-home-filming-draft.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   
   .bg-services {
-    background-image: url('/wp-content/uploads/2015/10/VIETNAM-home-services-draft.jpg');
+    background-image: url('/wp-content/uploads/2015/10/Greece-home-services-draft.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -339,7 +339,7 @@
   
   /* Accessibility Utilities */
   .focus-visible:focus-visible {
-    @apply outline-2 outline-vietnam-orange outline-offset-2;
+    @apply outline-2 outline-greece-blue outline-offset-2;
   }
   
   /* Performance Utilities */
@@ -353,7 +353,7 @@
   
   /* Custom Borders */
   .border-gradient {
-    border-image: linear-gradient(135deg, theme('colors.vietnam.orange'), theme('colors.vietnam.red')) 1;
+    border-image: linear-gradient(135deg, theme('colors.Greece.orange'), theme('colors.Greece.red')) 1;
   }
 }
 

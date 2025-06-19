@@ -1,4 +1,4 @@
-# Formspree Contact Form Setup - Fixers in Vietnam
+# Formspree Contact Form Setup - Fixers in Greece
 
 ## 🎯 Current Status
 The contact form is now configured to use **Formspree.io** service, which will send emails directly to `enquiries@needafixer.com` without requiring any server-side code.
@@ -9,7 +9,7 @@ The contact form is now configured to use **Formspree.io** service, which will s
 - **Service**: Formspree.io (reliable third-party email service)
 - **Sends to**: `enquiries@needafixer.com`
 - **CC**: `info@needafixer.com` (backup)
-- **Subject**: "New Production Enquiry - Fixers in Vietnam"
+- **Subject**: "New Production Enquiry - Fixers in Greece"
 - **Format**: HTML formatted emails
 
 ### Form Features
@@ -28,7 +28,7 @@ User fills form → Formspree processes → Email sent to enquiries@needafixer.c
 
 ### 2. Email Content
 The form sends a professional email with:
-- **Subject**: "New Production Enquiry - Fixers in Vietnam"
+- **Subject**: "New Production Enquiry - Fixers in Greece"
 - **To**: enquiries@needafixer.com
 - **CC**: info@needafixer.com
 - **Content**: All form fields formatted clearly
@@ -43,7 +43,7 @@ The form sends a professional email with:
 ## 📧 Email Format Example
 
 ```
-Subject: New Production Enquiry - Fixers in Vietnam
+Subject: New Production Enquiry - Fixers in Greece
 
 From: [Customer Email]
 To: enquiries@needafixer.com
@@ -58,7 +58,7 @@ Project Type: Documentary
 Services: Location Scouting, Equipment Rental
 Shoot Dates: March 2024
 Budget: $25,000 - $50,000
-Message: We're planning a documentary about Vietnamese culture...
+Message: We're planning a documentary about Greeceese culture...
 ```
 
 ## 🔧 Formspree Configuration
@@ -72,7 +72,7 @@ Message: We're planning a documentary about Vietnamese culture...
 ### Hidden Fields Added
 ```html
 <input type="hidden" name="_to" value="enquiries@needafixer.com">
-<input type="hidden" name="_subject" value="New Production Enquiry - Fixers in Vietnam">
+<input type="hidden" name="_subject" value="New Production Enquiry - Fixers in Greece">
 <input type="hidden" name="_cc" value="info@needafixer.com">
 <input type="hidden" name="_next" value="/contact/?success=true">
 <input type="hidden" name="_format" value="html">
@@ -160,7 +160,7 @@ Message: We're planning a documentary about Vietnamese culture...
 The contact form is now:
 - ✅ **Working reliably** without server-side code
 - ✅ **Sending to correct email** (enquiries@needafixer.com)
-- ✅ **Professional appearance** with Vietnam branding
+- ✅ **Professional appearance** with Greece branding
 - ✅ **Mobile-optimized** for all devices
 - ✅ **Secure and spam-protected**
 - ✅ **Easy to maintain** and monitor

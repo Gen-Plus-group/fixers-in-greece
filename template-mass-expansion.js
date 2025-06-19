@@ -9,7 +9,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// Comprehensive service definitions for ALL remaining pre-production services
+/ Comprehensive service definitions for ALL remaining pre-production services
 const serviceTemplates = {
     'travel-logistics': {
         title: 'Travel Logistics',
@@ -23,7 +23,7 @@ const serviceTemplates = {
         ],
         capabilities: {
             title: 'Professional Travel Coordination Expertise',
-            subtitle: 'Expert logistics coordinators with comprehensive knowledge of international travel requirements, Vietnamese regulations, and production-specific needs.',
+            subtitle: 'Expert logistics coordinators with comprehensive knowledge of international travel requirements, Greeceese regulations, and production-specific needs.',
             sections: [
                 {
                     title: 'International Travel Management',
@@ -48,11 +48,11 @@ const serviceTemplates = {
         faq: [
             {
                 question: 'What visa and work permit assistance do you provide for international productions?',
-                answer: 'Complete visa and work permit services including application preparation, documentation assistance, and government liaison. We handle tourist visas, business visas, and temporary work permits for cast and crew. Services include expedited processing, multiple-entry arrangements, and compliance with Vietnamese immigration requirements for international productions.'
+                answer: 'Complete visa and work permit services including application preparation, documentation assistance, and government liaison. We handle tourist visas, business visas, and temporary work permits for cast and crew. Services include expedited processing, multiple-entry arrangements, and compliance with Greeceese immigration requirements for international productions.'
             },
             {
                 question: 'How do you handle equipment customs clearance and carnets?',
-                answer: 'Expert customs clearance services including carnet preparation, import documentation, and duty management. We coordinate with Vietnamese customs authorities, handle equipment manifests, and ensure proper documentation for temporary imports. Services include equipment tracking, insurance coordination, and secure storage facilities.'
+                answer: 'Expert customs clearance services including carnet preparation, import documentation, and duty management. We coordinate with Greeceese customs authorities, handle equipment manifests, and ensure proper documentation for temporary imports. Services include equipment tracking, insurance coordination, and secure storage facilities.'
             },
             {
                 question: 'What are typical costs for travel logistics coordination?',
@@ -260,7 +260,7 @@ const serviceTemplates = {
     },
     'fixer-services-local': {
         title: 'Local Fixer Services',
-        subtitle: 'Professional local fixer services and production support for Vietnam-based filming',
+        subtitle: 'Professional local fixer services and production support for Greece-based filming',
         description: 'Expert local fixer services providing comprehensive production support and local expertise. Professional coordination ensuring smooth operations and cultural authenticity for international productions.',
         services: [
             { icon: '🗺️', title: 'Local Expertise', items: ['Cultural guidance', 'Language support', 'Local customs', 'Regional knowledge', 'Community relations'], tagline: 'Cultural Authenticity' },
@@ -271,13 +271,13 @@ const serviceTemplates = {
     }
 };
 
-// Function to generate comprehensive content sections
+/ Function to generate comprehensive content sections
 function generateServiceOverview(serviceDef) {
     return `        <!-- ${serviceDef.title} Services Overview -->
         <section id="content" class="py-16">
             <div class="container mx-auto px-4">
                 <div class="text-center mb-12">
-                    <h2 class="text-3xl md:text-4xl font-bold text-vietnam-orange mb-4">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
                         Comprehensive ${serviceDef.title} Solutions
                     </h2>
                     <p class="text-xl text-gray-300 max-w-3xl mx-auto">
@@ -288,14 +288,14 @@ function generateServiceOverview(serviceDef) {
                 <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                     ${serviceDef.services.map(service => `
                     <!-- ${service.title} -->
-                    <div class="bg-vietnam-dark border border-gray-700 rounded-lg p-6">
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
                         <div class="text-4xl mb-4 text-center">${service.icon}</div>
-                        <h3 class="text-xl font-bold text-vietnam-orange mb-3 text-center">${service.title}</h3>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">${service.title}</h3>
                         <ul class="text-gray-300 space-y-2 mb-4">
                             ${service.items.map(item => `<li>• ${item}</li>`).join('\n                            ')}
                         </ul>
                         <div class="text-center">
-                            <span class="text-vietnam-orange font-semibold">${service.tagline}</span>
+                            <span class="text-greece-blue font-semibold">${service.tagline}</span>
                         </div>
                     </div>`).join('\n\n                    ')}
                 </div>
@@ -303,7 +303,7 @@ function generateServiceOverview(serviceDef) {
         </section>`;
 }
 
-// Function to process and expand a single service file
+/ Function to process and expand a single service file
 function expandServiceFile(serviceKey, serviceDef) {
     const filePath = `pre-production-services/${serviceKey}/index.html`;
     
@@ -317,7 +317,7 @@ function expandServiceFile(serviceKey, serviceDef) {
         
         let content = fs.readFileSync(filePath, 'utf8');
         
-        // Find and replace the Introduction Section
+        / Find and replace the Introduction Section
         const introSectionRegex = /<!-- Introduction Section -->\s*<section class="py-16">[\s\S]*?<\/section>/;
         const serviceOverview = generateServiceOverview(serviceDef);
         
@@ -337,7 +337,7 @@ function expandServiceFile(serviceKey, serviceDef) {
     }
 }
 
-// Main execution function
+/ Main execution function
 function main() {
     console.log('🚀 TEMPLATE-BASED MASS CONTENT EXPANSION');
     console.log('=' + '='.repeat(70));
@@ -359,7 +359,7 @@ function main() {
             failCount++;
         }
         
-        // Add small delay to prevent overwhelming the system
+        / Add small delay to prevent overwhelming the system
         setTimeout(() => {}, 100);
     }
     

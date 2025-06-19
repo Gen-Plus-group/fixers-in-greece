@@ -3,23 +3,23 @@
   "@graph": [
     {
       "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
-      "@id": "https://fixersinvietnam.com/#organization",
-      "name": "Fixers in Vietnam",
-      "alternateName": ["Need a Fixer Vietnam", "Vietnam Film Fixers", "Vietnam Production Services"],
-      "url": "https://fixersinvietnam.com/",
+      "@id": "https://fixersinGreece.com/#organization",
+      "name": "Fixers in Greece",
+      "alternateName": ["Need a Fixer Greece", "Greece Film Fixers", "Greece Production Services"],
+      "url": "https://fixersinGreece.com/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://fixersinvietnam.com/wp-content/uploads/2016/10/needafixer-vietnam.png",
+        "url": "https://fixersinGreece.com/wp-content/uploads/2016/10/needafixer-greece.png",
         "width": 184,
         "height": 63
       },
-      "description": "Leading film production fixers in Vietnam with 13+ years experience. We provide comprehensive filming services including permits, crew, equipment, locations, and logistics for international productions across Vietnam.",
+      "description": "Leading film production fixers in Greece with 13+ years experience. We provide comprehensive filming services including permits, crew, equipment, locations, and logistics for international productions across Greece.",
       "foundingDate": "2010",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "VN",
-        "addressLocality": "Ho Chi Minh City",
-        "addressRegion": "Ho Chi Minh City"
+        "addressLocality": "Thessaloniki",
+        "addressRegion": "Thessaloniki"
       },
       "geo": {
         "@type": "GeoCoordinates",
@@ -30,20 +30,20 @@
         "@type": "ContactPoint",
         "email": "enquiries@needafixer.com",
         "contactType": "customer service",
-        "availableLanguage": ["English", "Vietnamese"]
+        "availableLanguage": ["English", "Greeceese"]
       },
       "serviceArea": [
         {
           "@type": "Country",
-          "name": "Vietnam"
+          "name": "Greece"
         },
         {
           "@type": "City",
-          "name": "Ho Chi Minh City"
+          "name": "Thessaloniki"
         },
         {
           "@type": "City",
-          "name": "Hanoi"
+          "name": "Athens"
         },
         {
           "@type": "City",
@@ -56,54 +56,54 @@
         "Documentary Filming",
         "Commercial Production",
         "Location Scouting",
-        "Film Permits Vietnam",
+        "Film Permits Greece",
         "Equipment Rental",
         "Local Crew Services",
-        "Vietnam Filming Locations",
+        "Greece Filming Locations",
         "International Productions"
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
-        "name": "Vietnam Film Production Services",
+        "name": "Greece Film Production Services",
         "itemListElement": [
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Film Permits Vietnam",
-              "description": "Complete film permit acquisition and government liaison services for filming in Vietnam",
+              "name": "Film Permits Greece",
+              "description": "Complete film permit acquisition and government liaison services for filming in Greece",
               "serviceType": "Film Permits",
-              "areaServed": "Vietnam"
+              "areaServed": "Greece"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Location Scouting Vietnam",
-              "description": "Professional location scouting and management services across Vietnam's diverse filming locations",
+              "name": "Location Scouting Greece",
+              "description": "Professional location scouting and management services across Greece's diverse filming locations",
               "serviceType": "Location Scouting",
-              "areaServed": "Vietnam"
+              "areaServed": "Greece"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Equipment Rental Vietnam",
-              "description": "Professional film and video equipment rental with technical support in Vietnam",
+              "name": "Equipment Rental Greece",
+              "description": "Professional film and video equipment rental with technical support in Greece",
               "serviceType": "Equipment Rental",
-              "areaServed": "Vietnam"
+              "areaServed": "Greece"
             }
           },
           {
             "@type": "Offer",
             "itemOffered": {
               "@type": "Service",
-              "name": "Vietnam Film Crew",
-              "description": "Experienced local film crew and production staff for international productions in Vietnam",
+              "name": "Greece Film Crew",
+              "description": "Experienced local film crew and production staff for international productions in Greece",
               "serviceType": "Film Crew",
-              "areaServed": "Vietnam"
+              "areaServed": "Greece"
             }
           }
         ]
@@ -118,19 +118,19 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://fixersinvietnam.com/#website",
-      "url": "https://fixersinvietnam.com/",
-      "name": "Fixers in Vietnam",
-      "description": "Professional film production services in Vietnam",
+      "@id": "https://fixersinGreece.com/#website",
+      "url": "https://fixersinGreece.com/",
+      "name": "Fixers in Greece",
+      "description": "Professional film production services in Greece",
       "publisher": {
-        "@id": "https://fixersinvietnam.com/#organization"
+        "@id": "https://fixersinGreece.com/#organization"
       },
       "potentialAction": [
         {
           "@type": "SearchAction",
           "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://fixersinvietnam.com/?s={search_term_string}"
+            "urlTemplate": "https://fixersinGreece.com/?s={search_term_string}"
           },
           "query-input": "required name=search_term_string"
         }
@@ -139,25 +139,25 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://fixersinvietnam.com/#breadcrumb",
+      "@id": "https://fixersinGreece.com/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://fixersinvietnam.com/"
+          "item": "https://fixersinGreece.com/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://fixersinvietnam.com/services/"
+          "item": "https://fixersinGreece.com/services/"
         },
         {
           "@type": "ListItem",
           "position": 3,
-          "name": "Film Production Services Vietnam",
-          "item": "https://fixersinvietnam.com/film-production-services/"
+          "name": "Film Production Services Greece",
+          "item": "https://fixersinGreece.com/film-production-services/"
         }
       ]
     }

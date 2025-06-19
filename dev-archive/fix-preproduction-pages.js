@@ -8,7 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 
-// All pre-production-services pages that need fixing
+/ All pre-production-services pages that need fixing
 const preProductionPages = [
     'pre-production-services/index.html',
     'pre-production-services/call-sheets/index.html',
@@ -54,7 +54,7 @@ function fixPreProductionPage(filePath) {
         let content = fs.readFileSync(filePath, 'utf8');
         console.log(`📄 Processing ${filePath}...`);
 
-        // Create backup
+        / Create backup
         const backupPath = filePath.replace('.html', '-before-dynamic-fix.html');
         fs.writeFileSync(backupPath, content, 'utf8');
         console.log(`💾 Created backup: ${backupPath}`);
@@ -62,7 +62,7 @@ function fixPreProductionPage(filePath) {
         let originalContent = content;
         let changesMade = false;
 
-        // 1. Replace header section (from <!-- Top Bar --> to </header>)
+        / 1. Replace header section (from <!-- Top Bar --> to </header>)
         const headerPattern = /<!-- Top Bar -->[\s\S]*?<\/header>/;
         if (headerPattern.test(content)) {
             content = content.replace(headerPattern, `    <!-- Dynamic Header Container -->
@@ -73,7 +73,7 @@ function fixPreProductionPage(filePath) {
             changesMade = true;
         }
 
-        // 2. Remove mobile menu JavaScript that conflicts with dynamic loading
+        / 2. Remove mobile menu JavaScript that conflicts with dynamic loading
         const mobileMenuPattern = /<!-- Mobile Menu JavaScript -->[\s\S]*?document\.addEventListener\('DOMContentLoaded'[\s\S]*?}\);[\s\S]*?<\/script>/;
         if (mobileMenuPattern.test(content)) {
             content = content.replace(mobileMenuPattern, '');
@@ -81,7 +81,7 @@ function fixPreProductionPage(filePath) {
             changesMade = true;
         }
 
-        // 3. Add footer container and component loader before closing body tag
+        / 3. Add footer container and component loader before closing body tag
         const bodyClosePattern = /<\/body>/;
         if (bodyClosePattern.test(content)) {
             content = content.replace(bodyClosePattern, `    <!-- Dynamic Footer Container -->
@@ -94,11 +94,11 @@ function fixPreProductionPage(filePath) {
 
     <!-- Page-specific JavaScript Integration -->
     <script>
-        // Wait for components to load before initializing page-specific functionality
+        / Wait for components to load before initializing page-specific functionality
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded for ${filePath}, page functionality ready');
             
-            // Mobile menu and other functionality handled by component loader
+            / Mobile menu and other functionality handled by component loader
         });
     </script>
 
@@ -107,7 +107,7 @@ function fixPreProductionPage(filePath) {
             changesMade = true;
         }
 
-        // 4. Ensure proper CSS links are present
+        / 4. Ensure proper CSS links are present
         if (!content.includes('/dist/output.css')) {
             const headClosePos = content.indexOf('</head>');
             if (headClosePos !== -1) {
@@ -119,7 +119,7 @@ function fixPreProductionPage(filePath) {
         }
 
         if (changesMade) {
-            // Write the updated content
+            / Write the updated content
             fs.writeFileSync(filePath, content, 'utf8');
             console.log(`✅ ${filePath} - Successfully converted to dynamic components with footer`);
             return true;
