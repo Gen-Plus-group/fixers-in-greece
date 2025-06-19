@@ -1,0 +1,20 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": ["/images/*.{png,jpg,gif}", "/css/*", "/js/*", "/assets/*", "/wp-content/*", "/dist/*"]
+  },
+  "mimeTypes": {
+    ".json": "application/json",
+    ".mp4": "video/mp4",
+    ".webm": "video/webm",
+    ".css": "text/css",
+    ".js": "text/javascript",
+    ".html": "text/html"
+  },
+  "globalHeaders": {
+    "Cache-Control": "public, max-age=3600"
+  },
+  "platform": {
+    "apiRuntime": "node:18"
+  }
+}
