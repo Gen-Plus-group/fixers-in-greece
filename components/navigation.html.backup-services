@@ -1,0 +1,1019 @@
+<!-- Desktop Navigation Content -->
+<div id="desktop-navigation">
+    <a href="/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200" data-nav="home">HOME</a>
+    <a href="/about-us/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200" data-nav="about">ABOUT US</a>
+
+    <!-- Pre-Production Mega Menu -->
+    <div class="relative mega-menu-trigger">
+        <a href="/pre-production-services/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200 flex items-center" data-nav="preproduction">
+            PRE-PRODUCTION
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </a>
+        <div class="mega-menu">
+            <div class="mega-menu-content">
+                <div class="text-center mb-8">
+                    <h3 class="text-vietnam-orange">Pre-Production Services</h3>
+                    <p class="text-gray-400 text-base">Planning, creative development, logistics</p>
+                </div>
+                <div class="grid grid-cols-6 gap-10">
+                    <!-- Creative & Development -->
+                    <div class="mega-menu-column">
+                        <h4>Creative & Development</h4>
+                        <ul>
+                            <li><a href="/pre-production-services/scriptwriting/" class="text-gray-300">Scriptwriting</a></li>
+                            <li><a href="/pre-production-services/script-consultation/" class="text-gray-300">Script Consultation</a></li>
+                            <li><a href="/pre-production-services/storyboarding/" class="text-gray-300">Storyboarding</a></li>
+                            <li><a href="/pre-production-services/concept-development/" class="text-gray-300">Concept Development</a></li>
+                            <li><a href="/pre-production-services/creative-direction/" class="text-gray-300">Creative Direction</a></li>
+                            <li><a href="/pre-production-services/moodboard-creation/" class="text-gray-300">Moodboards</a></li>
+                            <li><a href="/pre-production-services/pitch-deck-design/" class="text-gray-300">Pitch Decks</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Casting & Talent -->
+                    <div class="mega-menu-column">
+                        <h4>Casting & Talent</h4>
+                        <ul>
+                            <li><a href="/pre-production-services/casting-services/" class="text-gray-300">Casting Services</a></li>
+                            <li><a href="/pre-production-services/voiceover-casting/" class="text-gray-300">Voiceover Casting</a></li>
+                            <li><a href="/pre-production-services/talent-coordination/" class="text-gray-300">Talent Coordination</a></li>
+                            <li><a href="/pre-production-services/union-talent-management/" class="text-gray-300">Union Management</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Location & Permits -->
+                    <div class="mega-menu-column">
+                        <h4>Location & Permits</h4>
+                        <ul>
+                            <li><a href="/pre-production-services/location-scouting-services/" class="text-gray-300">Location Scouting</a></li>
+                            <li><a href="/pre-production-services/location-management/" class="text-gray-300">Location Management</a></li>
+                            <li><a href="/pre-production-services/film-permit-acquisition/" class="text-gray-300">Permit Acquisition</a></li>
+                            <li><a href="/pre-production-services/site-surveys/" class="text-gray-300">Site Surveys</a></li>
+                            <li><a href="/pre-production-services/production-insurance/" class="text-gray-300">Production Insurance</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Budgeting & Scheduling -->
+                    <div class="mega-menu-column">
+                        <h4>Budgeting & Scheduling</h4>
+                        <ul>
+                            <li><a href="/pre-production-services/production-budgeting/" class="text-gray-300">Production Budgeting</a></li>
+                            <li><a href="/pre-production-services/cost-estimation/" class="text-gray-300">Cost Estimation</a></li>
+                            <li><a href="/pre-production-services/production-scheduling/" class="text-gray-300">Production Scheduling</a></li>
+                            <li><a href="/pre-production-services/call-sheets/" class="text-gray-300">Call Sheets</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Crew & Logistics -->
+                    <div class="mega-menu-column">
+                        <h4>Crew & Logistics</h4>
+                        <ul>
+                            <li><a href="/pre-production-services/line-producing-services/" class="text-gray-300">Line Producing</a></li>
+                            <li><a href="/pre-production-services/crew-hiring/" class="text-gray-300">Crew Hiring</a></li>
+                            <li><a href="/pre-production-services/fixer-services-local/" class="text-gray-300">Local Fixers</a></li>
+                            <li><a href="/pre-production-services/travel-logistics/" class="text-gray-300">Travel Logistics</a></li>
+                            <li><a href="/pre-production-services/equipment-planning/" class="text-gray-300">Equipment Planning</a></li>
+                            <li><a href="/pre-production-services/catering-services/" class="text-gray-300">Catering Services</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Legal & Administrative -->
+                    <div class="mega-menu-column">
+                        <h4>Legal & Administrative</h4>
+                        <ul>
+                            <li><a href="/pre-production-services/contract-management/" class="text-gray-300">Contract Management</a></li>
+                            <li><a href="/pre-production-services/talent-releases/" class="text-gray-300">Talent Releases</a></li>
+                            <li><a href="/pre-production-services/location-agreements/" class="text-gray-300">Location Agreements</a></li>
+                            <li><a href="/pre-production-services/licensing-rights/" class="text-gray-300">Licensing & Rights</a></li>
+                            <li><a href="/pre-production-services/covid-compliance/" class="text-gray-300">COVID Compliance</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Production Services Mega Menu -->
+    <div class="relative mega-menu-trigger">
+        <a href="/production-services/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200 flex items-center" data-nav="production">
+            PRODUCTION
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </a>
+        <div class="mega-menu">
+            <div class="mega-menu-content">
+                <div class="text-center mb-8">
+                    <h3 class="text-vietnam-orange">Production Services</h3>
+                    <p class="text-gray-400 text-base">On-set filming and technical execution</p>
+                </div>
+                <div class="grid grid-cols-6 gap-10">
+                    <!-- Camera & Cinematography -->
+                    <div class="mega-menu-column">
+                        <h4>Camera & Cinematography</h4>
+                        <ul>
+                            <li><a href="/production-services/camera-cinematography/dp-services/" class="text-gray-300">DP Services</a></li>
+                            <li><a href="/production-services/camera-cinematography/multi-camera-shoots/" class="text-gray-300">Multi-Camera Shoots</a></li>
+                            <li><a href="/production-services/camera-cinematography/steadicam-gimbal-operation/" class="text-gray-300">Steadicam & Gimbal</a></li>
+                            <li><a href="/production-services/camera-cinematography/drone-videography/" class="text-gray-300">Drone Videography</a></li>
+                            <li><a href="/production-services/camera-cinematography/underwater-filming/" class="text-gray-300">Underwater Filming</a></li>
+                            <li><a href="/production-services/camera-cinematography/timelapse-hyperlapse/" class="text-gray-300">Time-lapse & Hyperlapse</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Lighting & Grip -->
+                    <div class="mega-menu-column">
+                        <h4>Lighting & Grip</h4>
+                        <ul>
+                            <li><a href="/production-services/lighting-grip/gaffer-lighting-team/" class="text-gray-300">Gaffer & Lighting Team</a></li>
+                            <li><a href="/production-services/lighting-grip/grip-equipment-services/" class="text-gray-300">Grip Services</a></li>
+                            <li><a href="/production-services/lighting-grip/led-lighting-systems/" class="text-gray-300">LED Lighting Systems</a></li>
+                            <li><a href="/production-services/lighting-grip/portable-power-solutions/" class="text-gray-300">Portable Power Solutions</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Sound & Audio -->
+                    <div class="mega-menu-column">
+                        <h4>Sound & Audio</h4>
+                        <ul>
+                            <li><a href="/production-services/sound-audio/location-sound-services/" class="text-gray-300">Location Sound Services</a></li>
+                            <li><a href="/production-services/sound-audio/boom-operators/" class="text-gray-300">Boom Operators</a></li>
+                            <li><a href="/production-services/sound-audio/wireless-audio-systems/" class="text-gray-300">Wireless Audio Systems</a></li>
+                            <li><a href="/production-services/sound-audio/sound-recordist-team/" class="text-gray-300">Sound Recordist Team</a></li>
+                            <li><a href="/production-services/sound-audio/post-production-audio/" class="text-gray-300">Post-Production Audio</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Production Equipment -->
+                    <div class="mega-menu-column">
+                        <h4>Production Equipment</h4>
+                        <ul>
+                            <li><a href="/production-services/production-equipment/camera-equipment-rental/" class="text-gray-300">Camera Equipment</a></li>
+                            <li><a href="/production-services/production-equipment/communication-systems/" class="text-gray-300">Communication Systems</a></li>
+                            <li><a href="/production-services/production-equipment/lighting-equipment-rental/" class="text-gray-300">Lighting Equipment</a></li>
+                            <li><a href="/production-services/production-equipment/power-distribution-systems/" class="text-gray-300">Power Distribution</a></li>
+                            <li><a href="/production-services/production-equipment/data-management-systems/" class="text-gray-300">Data Management</a></li>
+                            <li><a href="/production-services/production-equipment/monitor-video-village-setups/" class="text-gray-300">Monitor & Video Village</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Production Team -->
+                    <div class="mega-menu-column">
+                        <h4>Production Team</h4>
+                        <ul>
+                            <li><a href="/production-services/production-team/line-producers/" class="text-gray-300">Line Producers</a></li>
+                            <li><a href="/production-services/production-team/assistant-directors/" class="text-gray-300">Assistant Directors</a></li>
+                            <li><a href="/production-services/production-team/production-coordinators/" class="text-gray-300">Production Coordinators</a></li>
+                            <li><a href="/production-services/production-team/production-assistants/" class="text-gray-300">Production Assistants</a></li>
+                            <li><a href="/production-services/production-team/locations-managers/" class="text-gray-300">Location Managers</a></li>
+                            <li><a href="/production-services/production-team/casting-directors/" class="text-gray-300">Casting Directors</a></li>
+                            <li><a href="/production-services/production-team/script-supervisors/" class="text-gray-300">Script Supervisors</a></li>
+                            <li><a href="/production-services/production-team/makeup-artists/" class="text-gray-300">Makeup Artists</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Specialized Filming -->
+                    <div class="mega-menu-column">
+                        <h4>Specialized Filming</h4>
+                        <ul>
+                            <li><a href="/production-services/specialized-filming/aerial-drone-services/" class="text-gray-300">Aerial Drone Services</a></li>
+                            <li><a href="/production-services/specialized-filming/high-speed-filming/" class="text-gray-300">High-Speed Filming</a></li>
+                            <li><a href="/production-services/specialized-filming/multi-camera-setups/" class="text-gray-300">Multi-Camera Setups</a></li>
+                            <li><a href="/production-services/specialized-filming/timelapse-hyperlapse/" class="text-gray-300">Timelapse & Hyperlapse</a></li>
+                            <li><a href="/production-services/specialized-filming/underwater-filming/" class="text-gray-300">Underwater Filming</a></li>
+                            <li><a href="/production-services/specialized-filming/virtual-reality-filming/" class="text-gray-300">Virtual Reality Filming</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Post-Production Services Mega Menu -->
+    <div class="relative mega-menu-trigger" style="position: relative;" onmouseover="this.querySelector('.mega-menu').style.opacity='1'; this.querySelector('.mega-menu').style.visibility='visible'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(0)';" onmouseout="this.querySelector('.mega-menu').style.opacity='0'; this.querySelector('.mega-menu').style.visibility='hidden'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(-10px)';">
+        <a href="/post-production-services/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200 flex items-center" data-nav="postproduction">
+            POST-PRODUCTION
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </a>
+        <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #ff6b35; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
+            <div class="mega-menu-content" style="max-width: 1400px; margin: 0 auto; padding: 30px 40px;">
+                <div class="text-center mb-8">
+                    <h3 class="text-vietnam-orange" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Post-Production Services</h3>
+                    <p class="text-gray-400 text-base">Editing, color, VFX, audio, and delivery</p>
+                </div>
+                <div class="grid grid-cols-5 gap-10" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.5rem;">
+                    <!-- Editing & Assembly -->
+                    <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
+                        <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #ff6b35; margin-bottom: 12px;">Editing & Assembly</h4>
+                        <ul>
+                            <li><a href="/post-production-services/editing-assembly/video-editing/" class="text-gray-300">Video Editing</a></li>
+                            <li><a href="/post-production-services/editing-assembly/rough-cut-final-cut/" class="text-gray-300">Rough Cut to Final Cut</a></li>
+                            <li><a href="/post-production-services/editing-assembly/narrative-documentary-editing/" class="text-gray-300">Narrative & Documentary</a></li>
+                            <li><a href="/post-production-services/editing-assembly/multi-cam-sync-editing/" class="text-gray-300">Multi-Cam Sync Editing</a></li>
+                            <li><a href="/post-production-services/editing-assembly/interview-dialogue-editing/" class="text-gray-300">Interview & Dialogue</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Color & Visual Finishing -->
+                    <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
+                        <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #ff6b35; margin-bottom: 12px;">Color & Visual Finishing</h4>
+                        <ul>
+                            <li><a href="/post-production-services/color-visual-finishing/color-correction/" class="text-gray-300">Color Correction</a></li>
+                            <li><a href="/post-production-services/color-visual-finishing/color-grading/" class="text-gray-300">Color Grading</a></li>
+                            <li><a href="/post-production-services/color-visual-finishing/online-conform-qc/" class="text-gray-300">Online Conform & QC</a></li>
+                            <li><a href="/post-production-services/color-visual-finishing/look-development/" class="text-gray-300">Look Development</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Motion & VFX -->
+                    <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
+                        <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #ff6b35; margin-bottom: 12px;">Motion & VFX</h4>
+                        <ul>
+                            <li><a href="/post-production-services/motion-vfx/motion-graphics/" class="text-gray-300">Motion Graphics</a></li>
+                            <li><a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="text-gray-300">VFX Compositing</a></li>
+                            <li><a href="/post-production-services/motion-vfx/cgi-3d-animation/" class="text-gray-300">CGI & 3D Animation</a></li>
+                            <li><a href="/post-production-services/motion-vfx/title-design-credits/" class="text-gray-300">Title Design & Credits</a></li>
+                            <li><a href="/post-production-services/motion-vfx/matte-painting-environments/" class="text-gray-300">Matte Painting</a></li>
+                            <li><a href="/post-production-services/motion-vfx/rotoscoping-cleanup/" class="text-gray-300">Rotoscoping & Cleanup</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Audio Post -->
+                    <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
+                        <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #ff6b35; margin-bottom: 12px;">Audio Post</h4>
+                        <ul>
+                            <li><a href="/post-production-services/audio-post/sound-design/" class="text-gray-300">Sound Design</a></li>
+                            <li><a href="/post-production-services/audio-post/foley-recording/" class="text-gray-300">Foley Recording</a></li>
+                            <li><a href="/post-production-services/audio-post/dialogue-editing-adr/" class="text-gray-300">Dialogue & ADR</a></li>
+                            <li><a href="/post-production-services/audio-post/music-composition-scoring/" class="text-gray-300">Music & Scoring</a></li>
+                            <li><a href="/post-production-services/audio-post/audio-mixing-mastering/" class="text-gray-300">Mixing & Mastering</a></li>
+                            <li><a href="/post-production-services/audio-post/5-1-surround-mixing/" class="text-gray-300">5.1 Surround Mixing</a></li>
+                            <li><a href="/post-production-services/audio-post/audio-restoration/" class="text-gray-300">Audio Restoration</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Delivery & Output -->
+                    <div class="mega-menu-column">
+                        <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #ff6b35; margin-bottom: 12px;">Delivery & Output</h4>
+                        <ul>
+                            <li><a href="/post-production-services/delivery-output/digital-cinema-package-dcp/" class="text-gray-300">DCP Creation</a></li>
+                            <li><a href="/post-production-services/delivery-output/broadcast-delivery/" class="text-gray-300">Broadcast Delivery</a></li>
+                            <li><a href="/post-production-services/delivery-output/streaming-platform-delivery/" class="text-gray-300">Streaming Platforms</a></li>
+                            <li><a href="/post-production-services/delivery-output/archival-preservation/" class="text-gray-300">Archival & Preservation</a></li>
+                            <li><a href="/post-production-services/delivery-output/format-conversion-encoding/" class="text-gray-300">Format Conversion</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Film Crew Services Mega Menu -->
+    <div class="relative mega-menu-trigger" style="position: relative;" onmouseover="this.querySelector('.mega-menu').style.opacity='1'; this.querySelector('.mega-menu').style.visibility='visible'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(0)';" onmouseout="this.querySelector('.mega-menu').style.opacity='0'; this.querySelector('.mega-menu').style.visibility='hidden'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(-10px)';">
+        <a href="/film-crew/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200 flex items-center" data-nav="filmcrew">
+            FILM CREW
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </a>
+        <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #ff6b35; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
+            <div class="mega-menu-content" style="max-width: 1400px; margin: 0 auto; padding: 30px 40px;">
+                <div class="text-center mb-8">
+                    <h3 class="text-vietnam-orange" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Film Crew Services</h3>
+                    <p class="text-gray-400 text-base">Production services by role type</p>
+                </div>
+                <div class="grid grid-cols-3 gap-10" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
+                    <!-- Creative Roles -->
+                    <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
+                        <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #ff6b35; margin-bottom: 12px;">Creative Roles</h4>
+                        <ul>
+                            <li><a href="/film-crew/creative-roles/director/" class="text-gray-300">Director</a></li>
+                            <li><a href="/film-crew/creative-roles/creative-producer/" class="text-gray-300">Creative Producer</a></li>
+                            <li><a href="/film-crew/creative-roles/scriptwriter/" class="text-gray-300">Scriptwriter</a></li>
+                            <li><a href="/film-crew/creative-roles/storyboard-artist/" class="text-gray-300">Storyboard Artist</a></li>
+                            <li><a href="/film-crew/creative-roles/content-creator/" class="text-gray-300">Content Creator</a></li>
+                            <li><a href="/film-crew/creative-roles/editor/" class="text-gray-300">Editor</a></li>
+                            <li><a href="/film-crew/creative-roles/motion-graphics-designer/" class="text-gray-300">Motion Graphics Designer</a></li>
+                            <li><a href="/film-crew/creative-roles/colorist/" class="text-gray-300">Colorist</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Technical Roles -->
+                    <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
+                        <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #ff6b35; margin-bottom: 12px;">Technical Roles</h4>
+                        <ul>
+                            <li><a href="/film-crew/technical-roles/director-of-photography/" class="text-gray-300">Director of Photography</a></li>
+                            <li><a href="/film-crew/technical-roles/film-maker/" class="text-gray-300">Film Maker</a></li>
+                            <li><a href="/film-crew/technical-roles/videographer/" class="text-gray-300">Videographer</a></li>
+                            <li><a href="/film-crew/technical-roles/content-creator-tech/" class="text-gray-300">Content Creator</a></li>
+                            <li><a href="/film-crew/technical-roles/camera-operator/" class="text-gray-300">Camera Operator</a></li>
+                            <li><a href="/film-crew/technical-roles/drone-operator/" class="text-gray-300">Drone Operator</a></li>
+                            <li><a href="/film-crew/technical-roles/sound-mixer/" class="text-gray-300">Sound Mixer</a></li>
+                            <li><a href="/film-crew/technical-roles/lighting-technician/" class="text-gray-300">Lighting Technician</a></li>
+                            <li><a href="/film-crew/technical-roles/vfx-artist/" class="text-gray-300">VFX Artist</a></li>
+                            <li><a href="/film-crew/technical-roles/cgi-artist/" class="text-gray-300">CGI Artist</a></li>
+                            <li><a href="/film-crew/technical-roles/dit-data-technician/" class="text-gray-300">DIT (Data Technician)</a></li>
+                            <li><a href="/film-crew/technical-roles/gaffer-grip/" class="text-gray-300">Gaffer / Grip</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Support Roles -->
+                    <div class="mega-menu-column">
+                        <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #ff6b35; margin-bottom: 12px;">Support Roles</h4>
+                        <ul>
+                            <li><a href="/film-crew/support-roles/fixer/" class="text-gray-300">Fixer</a></li>
+                            <li><a href="/film-crew/support-roles/line-producer/" class="text-gray-300">Line Producer</a></li>
+                            <li><a href="/film-crew/support-roles/production-manager/" class="text-gray-300">Production Manager</a></li>
+                            <li><a href="/film-crew/support-roles/location-scout/" class="text-gray-300">Location Scout</a></li>
+                            <li><a href="/film-crew/support-roles/runner-set-pa/" class="text-gray-300">Runner / Set PA</a></li>
+                            <li><a href="/film-crew/support-roles/catering-logistics/" class="text-gray-300">Catering / Logistics</a></li>
+                            <li><a href="/film-crew/support-roles/travel-coordinator/" class="text-gray-300">Travel Coordinator</a></li>
+                            <li><a href="/film-crew/support-roles/post-production-supervisor/" class="text-gray-300">Post-Production Supervisor</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="relative group">
+        <a href="/film-production-services/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200 flex items-center" data-nav="services">
+            SERVICES
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </a>
+        <div class="absolute top-full left-0 mt-2 w-56 bg-vietnam-dark border border-gray-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+            <a href="/equipment-rental-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Equipment Rental</a>
+            <a href="/location-scouting-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Location Scouting</a>
+            <a href="/film-permits-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Film Permits</a>
+            <a href="/vietnam-film-crew/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Film Crew</a>
+            <a href="/drone-filming-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Drone Filming</a>
+            <a href="/corporate-video-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Corporate Video</a>
+            <a href="/equipment-transport-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Equipment Transport</a>
+            <a href="/translation-services-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Translation Services</a>
+            <a href="/casting-services-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Casting Services</a>
+            <a href="/post-production-vietnam/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Post-Production Services</a>
+            <a href="/hire-film-director/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Hire Film Director</a>
+            <a href="/hire-film-producer/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Hire Film Producer</a>
+            <a href="/hire-line-producer/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Hire Line Producer</a>
+            <a href="/hire-fixer/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Hire Fixer</a>
+            <a href="/hire-dop/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Hire DOP</a>
+            <a href="/hire-location-manager/" class="block px-4 py-3 text-sm text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200">Hire Location Manager</a>
+        </div>
+    </div>
+    <a href="/filming-in-vietnam/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200" data-nav="filming">FILMING IN VIETNAM</a>
+    <a href="/portfolio/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200" data-nav="portfolio">PORTFOLIO</a>
+    <a href="/contact/" class="text-sm text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200" data-nav="contact">CONTACT</a>
+</div>
+
+<!-- Mobile Navigation Content -->
+<div id="mobile-navigation">
+    <div class="space-y-0">
+        <!-- Level 1: Main Navigation Items -->
+        <a href="/" class="block px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="home">
+            <span class="font-medium">HOME</span>
+        </a>
+
+        <a href="/about-us/" class="block px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="about">
+            <span class="font-medium">ABOUT US</span>
+        </a>
+
+        <!-- Pre-Production Menu -->
+        <div class="mobile-mega-menu border-b border-gray-700">
+            <button class="mobile-mega-toggle w-full flex items-center justify-between px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200"
+                    data-target="preproduction-mega"
+                    aria-expanded="false">
+                <span class="font-medium">PRE-PRODUCTION</span>
+                <svg class="mobile-mega-icon h-3 w-3 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+
+            <div id="preproduction-mega" class="mobile-mega-submenu hidden bg-gray-800">
+                <div class="p-3">
+                    <a href="/pre-production-services/" class="block px-3 py-2 text-sm text-vietnam-orange hover:text-white hover:bg-gray-700 rounded transition-colors duration-200 mb-3">
+                        All Pre-Production Services
+                    </a>
+
+                    <!-- Creative & Development Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="creative-development-submenu"
+                                aria-expanded="false">
+                            <span>Creative & Development</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="creative-development-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/pre-production-services/scriptwriting/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Scriptwriting</a>
+                            <a href="/pre-production-services/script-consultation/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Script Consultation</a>
+                            <a href="/pre-production-services/storyboarding/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Storyboarding</a>
+                            <a href="/pre-production-services/concept-development/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Concept Development</a>
+                            <a href="/pre-production-services/creative-direction/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Creative Direction</a>
+                            <a href="/pre-production-services/moodboard-creation/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Moodboards</a>
+                            <a href="/pre-production-services/pitch-deck-design/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Pitch Decks</a>
+                        </div>
+                    </div>
+
+                    <!-- Casting & Talent Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="casting-talent-submenu"
+                                aria-expanded="false">
+                            <span>Casting & Talent</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="casting-talent-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/pre-production-services/casting-services/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Casting Services</a>
+                            <a href="/pre-production-services/voiceover-casting/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Voiceover Casting</a>
+                            <a href="/pre-production-services/talent-coordination/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Talent Coordination</a>
+                            <a href="/pre-production-services/union-talent-management/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Union Management</a>
+                        </div>
+                    </div>
+
+                    <!-- Location & Permits Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="location-permits-submenu"
+                                aria-expanded="false">
+                            <span>Location & Permits</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="location-permits-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/pre-production-services/location-scouting-services/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Location Scouting</a>
+                            <a href="/pre-production-services/location-management/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Location Management</a>
+                            <a href="/pre-production-services/film-permit-acquisition/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Permit Acquisition</a>
+                            <a href="/pre-production-services/site-surveys/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Site Surveys</a>
+                            <a href="/pre-production-services/production-insurance/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Production Insurance</a>
+                        </div>
+                    </div>
+
+                    <!-- Budgeting & Scheduling Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="budgeting-scheduling-submenu"
+                                aria-expanded="false">
+                            <span>Budgeting & Scheduling</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="budgeting-scheduling-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/pre-production-services/production-budgeting/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Production Budgeting</a>
+                            <a href="/pre-production-services/cost-estimation/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Cost Estimation</a>
+                            <a href="/pre-production-services/production-scheduling/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Production Scheduling</a>
+                            <a href="/pre-production-services/call-sheets/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Call Sheets</a>
+                        </div>
+                    </div>
+
+                    <!-- Crew & Logistics Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="crew-logistics-submenu"
+                                aria-expanded="false">
+                            <span>Crew & Logistics</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="crew-logistics-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/pre-production-services/line-producing-services/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Line Producing</a>
+                            <a href="/pre-production-services/crew-hiring/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Crew Hiring</a>
+                            <a href="/pre-production-services/fixer-services-local/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Local Fixers</a>
+                            <a href="/pre-production-services/travel-logistics/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Travel Logistics</a>
+                            <a href="/pre-production-services/equipment-planning/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Equipment Planning</a>
+                            <a href="/pre-production-services/catering-services/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Catering Services</a>
+                        </div>
+                    </div>
+
+                    <!-- Legal & Administrative Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="legal-admin-submenu"
+                                aria-expanded="false">
+                            <span>Legal & Administrative</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="legal-admin-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/pre-production-services/contract-management/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Contract Management</a>
+                            <a href="/pre-production-services/talent-releases/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Talent Releases</a>
+                            <a href="/pre-production-services/location-agreements/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Location Agreements</a>
+                            <a href="/pre-production-services/licensing-rights/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Licensing & Rights</a>
+                            <a href="/pre-production-services/covid-compliance/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">COVID Compliance</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Production Services Menu -->
+        <div class="mobile-mega-menu border-b border-gray-700">
+            <button class="mobile-mega-toggle w-full flex items-center justify-between px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200"
+                    data-target="production-mega"
+                    aria-expanded="false">
+                <span class="font-medium">PRODUCTION</span>
+                <svg class="mobile-mega-icon h-3 w-3 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+
+            <div id="production-mega" class="mobile-mega-submenu hidden bg-gray-800">
+                <div class="p-3">
+                    <a href="/production-services/" class="block px-3 py-2 text-sm text-vietnam-orange hover:text-white hover:bg-gray-700 rounded transition-colors duration-200 mb-3">
+                        All Production Services
+                    </a>
+
+                    <!-- Camera & Cinematography Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="camera-cinematography-submenu"
+                                aria-expanded="false">
+                            <span>Camera & Cinematography</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="camera-cinematography-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/production-services/camera-cinematography/dp-services/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">DP Services</a>
+                            <a href="/production-services/camera-cinematography/multi-camera-shoots/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Multi-Camera Shoots</a>
+                            <a href="/production-services/camera-cinematography/steadicam-gimbal-operation/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Steadicam & Gimbal</a>
+                            <a href="/production-services/camera-cinematography/drone-videography/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Drone Videography</a>
+                            <a href="/production-services/camera-cinematography/underwater-filming/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Underwater Filming</a>
+                            <a href="/production-services/camera-cinematography/timelapse-hyperlapse/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Time-lapse & Hyperlapse</a>
+                        </div>
+                    </div>
+
+                    <!-- Lighting & Grip Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="lighting-grip-submenu"
+                                aria-expanded="false">
+                            <span>Lighting & Grip</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="lighting-grip-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/production-services/lighting-grip/gaffer-lighting-team/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Gaffer & Lighting Team</a>
+                            <a href="/production-services/lighting-grip/grip-equipment-services/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Grip Services</a>
+                            <a href="/production-services/lighting-grip/led-lighting-systems/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">LED Lighting Systems</a>
+                            <a href="/production-services/lighting-grip/portable-power-solutions/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Portable Power Solutions</a>
+                        </div>
+                    </div>
+
+                    <!-- Sound & Audio Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="sound-audio-submenu"
+                                aria-expanded="false">
+                            <span>Sound & Audio</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="sound-audio-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/production-services/sound-audio/location-sound-services/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Location Sound Services</a>
+                            <a href="/production-services/sound-audio/boom-operators/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Boom Operators</a>
+                            <a href="/production-services/sound-audio/wireless-audio-systems/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Wireless Audio Systems</a>
+                            <a href="/production-services/sound-audio/sound-recordist-team/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Sound Recordist Team</a>
+                            <a href="/production-services/sound-audio/post-production-audio/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Post-Production Audio</a>
+                        </div>
+                    </div>
+
+                    <!-- Production Equipment Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="production-equipment-submenu"
+                                aria-expanded="false">
+                            <span>Production Equipment</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="production-equipment-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/production-services/production-equipment/camera-equipment-rental/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Camera Equipment</a>
+                            <a href="/production-services/production-equipment/communication-systems/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Communication Systems</a>
+                            <a href="/production-services/production-equipment/lighting-equipment-rental/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Lighting Equipment</a>
+                            <a href="/production-services/production-equipment/power-distribution-systems/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Power Distribution</a>
+                            <a href="/production-services/production-equipment/data-management-systems/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Data Management</a>
+                            <a href="/production-services/production-equipment/monitor-video-village-setups/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Monitor & Video Village</a>
+                        </div>
+                    </div>
+
+                    <!-- Production Team Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="production-team-submenu"
+                                aria-expanded="false">
+                            <span>Production Team</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="production-team-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/production-services/production-team/line-producers/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Line Producers</a>
+                            <a href="/production-services/production-team/assistant-directors/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Assistant Directors</a>
+                            <a href="/production-services/production-team/production-coordinators/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Production Coordinators</a>
+                            <a href="/production-services/production-team/production-assistants/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Production Assistants</a>
+                            <a href="/production-services/production-team/locations-managers/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Location Managers</a>
+                            <a href="/production-services/production-team/casting-directors/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Casting Directors</a>
+                            <a href="/production-services/production-team/script-supervisors/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Script Supervisors</a>
+                            <a href="/production-services/production-team/makeup-artists/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Makeup Artists</a>
+                        </div>
+                    </div>
+
+                    <!-- Specialized Filming Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="specialized-filming-submenu"
+                                aria-expanded="false">
+                            <span>Specialized Filming</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="specialized-filming-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/production-services/specialized-filming/aerial-drone-services/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Aerial Drone Services</a>
+                            <a href="/production-services/specialized-filming/high-speed-filming/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">High-Speed Filming</a>
+                            <a href="/production-services/specialized-filming/multi-camera-setups/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Multi-Camera Setups</a>
+                            <a href="/production-services/specialized-filming/timelapse-hyperlapse/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Timelapse & Hyperlapse</a>
+                            <a href="/production-services/specialized-filming/underwater-filming/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Underwater Filming</a>
+                            <a href="/production-services/specialized-filming/virtual-reality-filming/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Virtual Reality Filming</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Post-Production Menu -->
+        <div class="mobile-mega-menu border-b border-gray-700">
+            <button class="mobile-mega-toggle w-full flex items-center justify-between px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200"
+                    data-target="postproduction-mega"
+                    aria-expanded="false">
+                <span class="font-medium">POST-PRODUCTION</span>
+                <svg class="mobile-mega-icon h-3 w-3 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+
+            <div id="postproduction-mega" class="mobile-mega-submenu hidden bg-gray-800">
+                <div class="p-3">
+                    <a href="/post-production-services/" class="block px-3 py-2 text-sm text-vietnam-orange hover:text-white hover:bg-gray-700 rounded transition-colors duration-200 mb-3">
+                        All Post-Production Services
+                    </a>
+
+                    <!-- Editing & Assembly Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="editing-assembly-submenu"
+                                aria-expanded="false">
+                            <span>Editing & Assembly</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="editing-assembly-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/post-production-services/editing-assembly/video-editing/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Video Editing</a>
+                            <a href="/post-production-services/editing-assembly/rough-cut-final-cut/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Rough Cut to Final Cut</a>
+                            <a href="/post-production-services/editing-assembly/narrative-documentary-editing/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Narrative & Documentary</a>
+                            <a href="/post-production-services/editing-assembly/multi-cam-sync-editing/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Multi-Cam Sync Editing</a>
+                            <a href="/post-production-services/editing-assembly/interview-dialogue-editing/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Interview & Dialogue</a>
+                        </div>
+                    </div>
+
+                    <!-- Color & Visual Finishing Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="color-visual-finishing-submenu"
+                                aria-expanded="false">
+                            <span>Color & Visual Finishing</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="color-visual-finishing-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/post-production-services/color-visual-finishing/color-correction/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Color Correction</a>
+                            <a href="/post-production-services/color-visual-finishing/color-grading/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Color Grading</a>
+                            <a href="/post-production-services/color-visual-finishing/online-conform-qc/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Online Conform & QC</a>
+                            <a href="/post-production-services/color-visual-finishing/look-development/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Look Development</a>
+                        </div>
+                    </div>
+
+                    <!-- Motion & VFX Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="motion-vfx-submenu"
+                                aria-expanded="false">
+                            <span>Motion & VFX</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="motion-vfx-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/post-production-services/motion-vfx/motion-graphics/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Motion Graphics</a>
+                            <a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">VFX Compositing</a>
+                            <a href="/post-production-services/motion-vfx/cgi-3d-animation/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">CGI & 3D Animation</a>
+                            <a href="/post-production-services/motion-vfx/title-design-credits/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Title Design & Credits</a>
+                            <a href="/post-production-services/motion-vfx/matte-painting-environments/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Matte Painting</a>
+                            <a href="/post-production-services/motion-vfx/rotoscoping-cleanup/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Rotoscoping & Cleanup</a>
+                        </div>
+                    </div>
+
+                    <!-- Audio Post Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="audio-post-submenu"
+                                aria-expanded="false">
+                            <span>Audio Post</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="audio-post-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/post-production-services/audio-post/sound-design/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Sound Design</a>
+                            <a href="/post-production-services/audio-post/foley-recording/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Foley Recording</a>
+                            <a href="/post-production-services/audio-post/dialogue-editing-adr/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Dialogue & ADR</a>
+                            <a href="/post-production-services/audio-post/music-composition-scoring/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Music & Scoring</a>
+                            <a href="/post-production-services/audio-post/audio-mixing-mastering/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Mixing & Mastering</a>
+                            <a href="/post-production-services/audio-post/5-1-surround-mixing/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">5.1 Surround Mixing</a>
+                            <a href="/post-production-services/audio-post/audio-restoration/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Audio Restoration</a>
+                        </div>
+                    </div>
+
+                    <!-- Delivery & Output Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="delivery-output-submenu"
+                                aria-expanded="false">
+                            <span>Delivery & Output</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="delivery-output-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/post-production-services/delivery-output/digital-cinema-package-dcp/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">DCP Creation</a>
+                            <a href="/post-production-services/delivery-output/broadcast-delivery/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Broadcast Delivery</a>
+                            <a href="/post-production-services/delivery-output/streaming-platform-delivery/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Streaming Platforms</a>
+                            <a href="/post-production-services/delivery-output/archival-preservation/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Archival & Preservation</a>
+                            <a href="/post-production-services/delivery-output/format-conversion-encoding/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Format Conversion</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Film Crew Menu -->
+        <div class="mobile-mega-menu border-b border-gray-700">
+            <button class="mobile-mega-toggle w-full flex items-center justify-between px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200"
+                    data-target="filmcrew-mega"
+                    aria-expanded="false">
+                <span class="font-medium">FILM CREW</span>
+                <svg class="mobile-mega-icon h-3 w-3 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+
+            <div id="filmcrew-mega" class="mobile-mega-submenu hidden bg-gray-800">
+                <div class="p-3">
+                    <a href="/film-crew/" class="block px-3 py-2 text-sm text-vietnam-orange hover:text-white hover:bg-gray-700 rounded transition-colors duration-200 mb-3">
+                        All Film Crew Services
+                    </a>
+
+                    <!-- Creative Roles Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="creative-roles-submenu"
+                                aria-expanded="false">
+                            <span>Creative Roles</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="creative-roles-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/film-crew/creative-roles/director/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Director</a>
+                            <a href="/film-crew/creative-roles/creative-producer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Creative Producer</a>
+                            <a href="/film-crew/creative-roles/scriptwriter/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Scriptwriter</a>
+                            <a href="/film-crew/creative-roles/editor/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Editor</a>
+                            <a href="/film-crew/creative-roles/colorist/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Colorist</a>
+                            <a href="/film-crew/creative-roles/motion-graphics-designer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Motion Graphics Designer</a>
+                            <a href="/film-crew/creative-roles/content-creator/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Content Creator</a>
+                            <a href="/film-crew/creative-roles/storyboard-artist/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Storyboard Artist</a>
+                        </div>
+                    </div>
+
+                    <!-- Technical Roles Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="technical-roles-submenu"
+                                aria-expanded="false">
+                            <span>Technical Roles</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="technical-roles-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/film-crew/technical-roles/director-of-photography/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Director of Photography</a>
+                            <a href="/film-crew/technical-roles/camera-operator/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Camera Operator</a>
+                            <a href="/film-crew/technical-roles/gaffer-grip/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Gaffer & Grip</a>
+                            <a href="/film-crew/technical-roles/lighting-technician/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Lighting Technician</a>
+                            <a href="/film-crew/technical-roles/sound-mixer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Sound Mixer</a>
+                            <a href="/film-crew/technical-roles/drone-operator/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Drone Operator</a>
+                            <a href="/film-crew/technical-roles/dit-data-technician/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">DIT/Data Technician</a>
+                            <a href="/film-crew/technical-roles/videographer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Videographer</a>
+                            <a href="/film-crew/technical-roles/film-maker/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Film Maker</a>
+                            <a href="/film-crew/technical-roles/vfx-artist/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">VFX Artist</a>
+                            <a href="/film-crew/technical-roles/cgi-artist/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">CGI Artist</a>
+                            <a href="/film-crew/technical-roles/content-creator-tech/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Content Creator (Tech)</a>
+                        </div>
+                    </div>
+
+                    <!-- Support Roles Category -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="support-roles-submenu"
+                                aria-expanded="false">
+                            <span>Support Roles</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="support-roles-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/film-crew/support-roles/line-producer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Line Producer</a>
+                            <a href="/film-crew/support-roles/production-manager/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Production Manager</a>
+                            <a href="/film-crew/support-roles/fixer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Fixer</a>
+                            <a href="/film-crew/support-roles/location-scout/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Location Scout</a>
+                            <a href="/film-crew/support-roles/post-production-supervisor/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Post-Production Supervisor</a>
+                            <a href="/film-crew/support-roles/travel-coordinator/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Travel Coordinator</a>
+                            <a href="/film-crew/support-roles/catering-logistics/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Catering & Logistics</a>
+                            <a href="/film-crew/support-roles/runner-set-pa/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Runner/Set PA</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Menu -->
+        <div class="mobile-mega-menu border-b border-gray-700">
+            <button class="mobile-mega-toggle w-full flex items-center justify-between px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200"
+                    data-target="services-mega"
+                    aria-expanded="false">
+                <span class="font-medium">SERVICES</span>
+                <svg class="mobile-mega-icon h-3 w-3 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+
+            <div id="services-mega" class="mobile-mega-submenu hidden bg-gray-800">
+                <div class="p-3">
+                    <a href="/film-production-services/" class="block px-3 py-2 text-sm text-vietnam-orange hover:text-white hover:bg-gray-700 rounded transition-colors duration-200 mb-3">
+                        All Production Services
+                    </a>
+
+                    <!-- Equipment & Technical -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="equipment-technical-submenu"
+                                aria-expanded="false">
+                            <span>Equipment & Technical</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="equipment-technical-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/equipment-rental-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Equipment Rental</a>
+                            <a href="/equipment-transport-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Equipment Transport</a>
+                            <a href="/drone-filming-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Drone Filming</a>
+                        </div>
+                    </div>
+
+                    <!-- Production Services -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="production-services-submenu"
+                                aria-expanded="false">
+                            <span>Production Services</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="production-services-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/location-scouting-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Location Scouting</a>
+                            <a href="/film-permits-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Film Permits</a>
+                            <a href="/vietnam-film-crew/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Film Crew</a>
+                            <a href="/casting-services-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Casting Services</a>
+                        </div>
+                    </div>
+
+                    <!-- Specialized Production -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="specialized-production-submenu"
+                                aria-expanded="false">
+                            <span>Specialized Production</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="specialized-production-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/corporate-video-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Corporate Video</a>
+                            <a href="/translation-services-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Translation Services</a>
+                            <a href="/post-production-vietnam/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Post-Production</a>
+                        </div>
+                    </div>
+
+                    <!-- Hire Professionals -->
+                    <div class="mobile-category mb-2">
+                        <button class="mobile-category-toggle w-full flex items-center justify-between px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200"
+                                data-target="hire-professionals-submenu"
+                                aria-expanded="false">
+                            <span>Hire Professionals</span>
+                            <svg class="mobile-category-icon h-2 w-2 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="hire-professionals-submenu" class="mobile-category-submenu hidden pl-4 mt-1 space-y-1">
+                            <a href="/hire-film-director/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Film Director</a>
+                            <a href="/hire-film-producer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Film Producer</a>
+                            <a href="/hire-line-producer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Line Producer</a>
+                            <a href="/hire-fixer/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Fixer</a>
+                            <a href="/hire-dop/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">DOP</a>
+                            <a href="/hire-location-manager/" class="block px-3 py-1 text-xs text-gray-400 hover:text-vietnam-orange transition-colors duration-200">Location Manager</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Media Production Menu -->
+        <div class="mobile-mega-menu border-b border-gray-700">
+            <button class="mobile-mega-toggle w-full flex items-center justify-between px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200"
+                    data-target="media-production-mega"
+                    aria-expanded="false">
+                <span class="font-medium">MEDIA PRODUCTION</span>
+                <svg class="mobile-mega-icon h-3 w-3 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+
+            <div id="media-production-mega" class="mobile-mega-submenu hidden bg-gray-800">
+                <div class="p-3 space-y-1">
+                    <a href="/documentary-filming-vietnam/" class="block px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200">Documentary Services</a>
+                    <a href="/commercial-video-production-vietnam/" class="block px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200">Commercial Production</a>
+                    <a href="/news-filming-vietnam/" class="block px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200">News & Current Affairs</a>
+                    <a href="/music-video-production-vietnam/" class="block px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200">Music Video Production</a>
+                    <a href="/event-filming-vietnam/" class="block px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200">Event Filming</a>
+                    <a href="/live-streaming-vietnam/" class="block px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200">Live Streaming</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Locations Menu -->
+        <div class="mobile-mega-menu border-b border-gray-700">
+            <button class="mobile-mega-toggle w-full flex items-center justify-between px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200"
+                    data-target="locations-mega"
+                    aria-expanded="false">
+                <span class="font-medium">LOCATIONS</span>
+                <svg class="mobile-mega-icon h-3 w-3 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+
+            <div id="locations-mega" class="mobile-mega-submenu hidden bg-gray-800">
+                <div class="p-3 space-y-1">
+                    <a href="/vietnam-filming-locations/" class="block px-3 py-2 text-sm text-vietnam-orange hover:text-white hover:bg-gray-700 rounded transition-colors duration-200">All Vietnam Locations</a>
+                    <a href="/ho-chi-minh-city-filming/" class="block px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200">Ho Chi Minh City</a>
+                    <a href="/hanoi-film-production/" class="block px-3 py-2 text-sm text-gray-300 hover:text-vietnam-orange hover:bg-gray-700 rounded transition-colors duration-200">Hanoi</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Simple Navigation Items -->
+        <a href="/filming-in-vietnam/" class="block px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="filming">
+            <span class="font-medium">FILMING GUIDE</span>
+        </a>
+
+        <a href="/portfolio/" class="block px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="portfolio">
+            <span class="font-medium">PORTFOLIO</span>
+        </a>
+
+        <a href="/clients/" class="block px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700">
+            <span class="font-medium">CLIENTS</span>
+        </a>
+
+        <a href="/contact/" class="block px-4 py-3 text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="contact">
+            <span class="font-medium">CONTACT</span>
+        </a>
+    </div>
+</div>

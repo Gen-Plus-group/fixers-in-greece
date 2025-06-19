@@ -1,0 +1,165 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
+      "@id": "https://fixersinvietnam.com/#organization",
+      "name": "Fixers in Vietnam",
+      "alternateName": ["Need a Fixer Vietnam", "Vietnam Film Fixers", "Vietnam Production Services"],
+      "url": "https://fixersinvietnam.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://fixersinvietnam.com/wp-content/uploads/2016/10/needafixer-vietnam.png",
+        "width": 184,
+        "height": 63
+      },
+      "description": "Leading film production fixers in Vietnam with 13+ years experience. We provide comprehensive filming services including permits, crew, equipment, locations, and logistics for international productions across Vietnam.",
+      "foundingDate": "2010",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "VN",
+        "addressLocality": "Ho Chi Minh City",
+        "addressRegion": "Ho Chi Minh City"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "10.8231",
+        "longitude": "106.6297"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "enquiries@needafixer.com",
+        "contactType": "customer service",
+        "availableLanguage": ["English", "Vietnamese"]
+      },
+      "serviceArea": [
+        {
+          "@type": "Country",
+          "name": "Vietnam"
+        },
+        {
+          "@type": "City",
+          "name": "Ho Chi Minh City"
+        },
+        {
+          "@type": "City",
+          "name": "Hanoi"
+        },
+        {
+          "@type": "City",
+          "name": "Da Nang"
+        }
+      ],
+      "knowsAbout": [
+        "Film Production",
+        "Video Production",
+        "Documentary Filming",
+        "Commercial Production",
+        "Location Scouting",
+        "Film Permits Vietnam",
+        "Equipment Rental",
+        "Local Crew Services",
+        "Vietnam Filming Locations",
+        "International Productions"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Vietnam Film Production Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Film Permits Vietnam",
+              "description": "Complete film permit acquisition and government liaison services for filming in Vietnam",
+              "serviceType": "Film Permits",
+              "areaServed": "Vietnam"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Location Scouting Vietnam",
+              "description": "Professional location scouting and management services across Vietnam's diverse filming locations",
+              "serviceType": "Location Scouting",
+              "areaServed": "Vietnam"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Equipment Rental Vietnam",
+              "description": "Professional film and video equipment rental with technical support in Vietnam",
+              "serviceType": "Equipment Rental",
+              "areaServed": "Vietnam"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Vietnam Film Crew",
+              "description": "Experienced local film crew and production staff for international productions in Vietnam",
+              "serviceType": "Film Crew",
+              "areaServed": "Vietnam"
+            }
+          }
+        ]
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "50",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://fixersinvietnam.com/#website",
+      "url": "https://fixersinvietnam.com/",
+      "name": "Fixers in Vietnam",
+      "description": "Professional film production services in Vietnam",
+      "publisher": {
+        "@id": "https://fixersinvietnam.com/#organization"
+      },
+      "potentialAction": [
+        {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://fixersinvietnam.com/?s={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      ],
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://fixersinvietnam.com/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://fixersinvietnam.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://fixersinvietnam.com/services/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Film Production Services Vietnam",
+          "item": "https://fixersinvietnam.com/film-production-services/"
+        }
+      ]
+    }
+  ]
+}

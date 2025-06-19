@@ -1,0 +1,84 @@
+<!-- Top Bar -->
+<div class="bg-vietnam-dark border-b border-gray-700 text-sm">
+    <div class="container mx-auto px-4 py-3">
+        <div class="flex flex-col md:flex-row md:justify-end items-center space-y-2 md:space-y-0 md:space-x-6 text-center md:text-right">
+            <div class="flex items-center space-x-2">
+                <span class="text-vietnam-orange">📞</span>
+                <span>+44 (0) 20 8549 2259</span>
+            </div>
+            <div class="flex items-center space-x-2">
+                <span class="text-vietnam-orange">✉️</span>
+                <span>enquiries@needafixer.com</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Header -->
+<header class="bg-vietnam-dark border-b border-gray-700 sticky top-0 z-40 backdrop-blur-sm bg-opacity-95">
+    <div class="container mx-auto px-4">
+        <div class="flex items-center justify-between py-4">
+            <!-- Logo -->
+            <div class="flex-shrink-0">
+                <a href="/" class="block">
+                    <img src="/wp-content/uploads/2016/10/needafixer-vietnam.png"
+                         alt="Fixers in Vietnam"
+                         width="184"
+                         height="63"
+                         class="h-12 w-auto">
+                </a>
+            </div>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden lg:flex items-center space-x-4" aria-label="Main navigation" id="desktop-nav">
+                <!-- Navigation will be loaded here -->
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <button class="lg:hidden flex items-center justify-center w-10 h-10 rounded-md text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-all duration-200"
+                    id="mobile-menu-button"
+                    aria-label="Toggle mobile menu"
+                    aria-expanded="false">
+                <svg class="h-6 w-6 transition-transform duration-200" id="mobile-menu-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation Overlay -->
+    <div class="lg:hidden fixed inset-0 z-50 hidden" id="mobile-menu-overlay">
+        <!-- Background overlay -->
+        <div class="fixed inset-0 bg-black bg-opacity-50 transition-opacity duration-300" id="mobile-menu-backdrop"></div>
+
+        <!-- Mobile menu panel -->
+        <nav class="fixed top-0 right-0 h-full w-80 max-w-sm bg-vietnam-darker border-l border-gray-700 transform translate-x-full transition-transform duration-300 ease-in-out flex flex-col"
+             id="mobile-menu"
+             aria-label="Mobile navigation">
+
+            <!-- Mobile menu header -->
+            <div class="flex items-center justify-between p-4 border-b border-gray-700">
+                <div class="flex items-center space-x-3">
+                    <img src="/wp-content/uploads/2016/10/needafixer-vietnam.png"
+                         alt="Fixers in Vietnam"
+                         width="184"
+                         height="63"
+                         class="h-8 w-auto">
+                    <span class="text-vietnam-orange font-semibold">Menu</span>
+                </div>
+                <button class="flex items-center justify-center w-8 h-8 rounded-md text-vietnam-gray hover:text-vietnam-orange hover:bg-gray-800 transition-colors duration-200"
+                        id="mobile-menu-close"
+                        aria-label="Close mobile menu">
+                    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile navigation content -->
+            <div class="flex-1 overflow-y-auto p-4" id="mobile-navigation-content">
+                <!-- Mobile navigation will be loaded here -->
+            </div>
+        </nav>
+    </div>
+</header>

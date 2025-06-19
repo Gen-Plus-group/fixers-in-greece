@@ -1,0 +1,669 @@
+/* Dark Theme for Fixers in Vietnam Website */
+/* Main Background and Body Styles */
+body {
+    background-color: #0a0a0a !important;
+    color: #ffffff !important;
+}
+
+/* Header and Navigation */
+#site-header {
+    background-color: #111111 !important;
+    border-bottom: 1px solid #333333;
+}
+
+#site-header-sticky-wrapper {
+    background-color: #111111 !important;
+}
+
+#site-header-sticky-wrapper.is-sticky #site-header {
+    background-color: #111111 !important;
+}
+
+#top-bar-wrap {
+    background-color: #000000 !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+#top-bar-content {
+    color: #ffffff !important;
+}
+
+#top-bar-content strong {
+    color: #ffffff !important;
+}
+
+/* Navigation Menu */
+#site-navigation .dropdown-menu > li.menu-item > a {
+    color: #ffffff !important;
+}
+
+#site-navigation .dropdown-menu > li.menu-item > a:hover {
+    color: #f9a531 !important;
+    background-color: rgba(249, 165, 49, 0.1) !important;
+}
+
+#site-navigation .dropdown-menu > li.menu-item.current-menu-item > a,
+#site-navigation .dropdown-menu > li.menu-item.current-menu-parent > a {
+    color: #f9a531 !important;
+}
+
+/* Sub-menu styling */
+.sub-menu {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+}
+
+.sub-menu li a {
+    color: #ffffff !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+.sub-menu li a:hover {
+    color: #f9a531 !important;
+    background-color: rgba(249, 165, 49, 0.1) !important;
+}
+
+/* Main Content Areas */
+.container,
+#content-wrap,
+#primary,
+#content {
+    background-color: transparent !important;
+}
+
+/* Typography - Headlines and Headings */
+h1, h2, h3, h4, h5, h6,
+.theme-heading,
+.page-header-title,
+.wpex-heading,
+.vcex-heading,
+.entry-title {
+    color: #f9a531 !important;
+}
+
+/* Body Text */
+p, li, span, div {
+    color: #ffffff !important;
+}
+
+/* Links - REMOVED GLOBAL !important OVERRIDE */
+/* Links are now handled by our CSS architecture in theme.css */
+/* This prevents button text visibility issues */
+
+/* Buttons */
+.theme-button,
+button,
+.button,
+input[type=submit] {
+    background-color: #f9a531 !important;
+    color: #000000 !important;
+    border: none !important;
+}
+
+.theme-button:hover,
+button:hover,
+.button:hover,
+input[type=submit]:hover {
+    background-color: #ed5050 !important;
+    color: #ffffff !important;
+}
+
+/* Cards and Content Blocks */
+.wpb_wrapper,
+.vc_column-inner,
+.wpb_content_element {
+    background-color: transparent !important;
+}
+
+/* Hero/Banner Sections */
+.vc_row {
+    background-color: transparent !important;
+}
+
+.vc_custom_1476296910659 {
+    background-color: #1a1a1a !important;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/wp-content/uploads/2015/10/VIETNAM-services.jpg) !important;
+}
+
+/* Homepage Specific White Background Sections - Convert to Dark */
+.vc_custom_1476117189753 {
+    background-color: #1a1a1a !important;
+}
+
+.vc_custom_1476117195781 {
+    background-color: #1a1a1a !important;
+}
+
+/* Additional homepage sections that might have white backgrounds */
+.vc_custom_1476117189753.vc_row,
+.vc_custom_1476117195781.vc_row {
+    background-color: #1a1a1a !important;
+}
+
+/* Override any white background colors in homepage sections only */
+.vc_row[class*="vc_custom_"]:not(.vc_custom_1476296873760):not(.vc_custom_1447093769178) {
+    /* background-color: #1a1a1a !important; */
+}
+
+/* Ensure content within these sections displays properly */
+.vc_custom_1476117189753 .wpb_wrapper,
+.vc_custom_1476117195781 .wpb_wrapper,
+.vc_custom_1476117189753 .vc_column-inner,
+.vc_custom_1476117195781 .vc_column-inner {
+    background-color: transparent !important;
+}
+
+/* Text content within these sections */
+.vc_custom_1476117189753 p,
+.vc_custom_1476117195781 p,
+.vc_custom_1476117189753 .wpb_text_column,
+.vc_custom_1476117195781 .wpb_text_column {
+    color: #ffffff !important;
+}
+
+/* Headings within these sections */
+.vc_custom_1476117189753 h2,
+.vc_custom_1476117195781 h2,
+.vc_custom_1476117189753 .vcex-heading,
+.vc_custom_1476117195781 .vcex-heading {
+    color: #f9a531 !important;
+}
+
+/* Footer */
+#footer {
+    background-color: #111111 !important;
+    color: #ffffff !important;
+    border-top: 1px solid #333333;
+}
+
+#footer-bottom {
+    background-color: #000000 !important;
+    color: #ffffff !important;
+}
+
+.footer-widget .widget-title {
+    color: #f9a531 !important;
+}
+
+/* Footer Callout */
+#footer-callout-wrap {
+    background-color: #1a1a1a !important;
+    border-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+#footer-callout-left {
+    color: #ffffff !important;
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+input[type="search"],
+textarea,
+select {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #f9a531 !important;
+    box-shadow: 0 0 5px rgba(249, 165, 49, 0.3) !important;
+}
+
+/* Mobile Menu */
+#mobile-menu-search {
+    background-color: #111111 !important;
+}
+
+.mobile-menu-searchform input {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+}
+
+/* Scroll to Top Button */
+#site-scroll-top {
+    background-color: #1a1a1a !important;
+    color: #f9a531 !important;
+    border: 1px solid #333333 !important;
+}
+
+#site-scroll-top:hover {
+    background-color: #f9a531 !important;
+    color: #000000 !important;
+}
+
+/* Tables - Override theme styles */
+table th, table td {
+    text-align: inherit;
+    padding: .769em 1em;
+    border: none !important;
+}
+
+table {
+    /* background-color: #1a1a1a !important; */
+    color: #ffffff !important;
+}
+
+th {
+    background-color: #333333 !important;
+    color: #f9a531 !important;
+}
+
+td {
+    border-color: #333333 !important;
+}
+
+/* Lists */
+ul, ol {
+    color: #ffffff !important;
+}
+
+/* Blockquotes */
+blockquote {
+    background-color: #1a1a1a !important;
+    border-left: 4px solid #f9a531 !important;
+    color: #ffffff !important;
+}
+
+/* Code blocks */
+code, pre {
+    background-color: #1a1a1a !important;
+    color: #f9a531 !important;
+    border: 1px solid #333333 !important;
+}
+
+/* Images and Media */
+img {
+    border-radius: 8px;
+}
+
+/* Accent Colors Override */
+.wpex-text-accent,
+.wpex-hover-text-accent:hover,
+.wpex-accent-color {
+    color: #f9a531 !important;
+}
+
+.wpex-bg-accent,
+.wpex-hover-bg-accent:hover,
+.wpex-accent-bg {
+    background-color: #f9a531 !important;
+}
+
+/* Equipment Rental Page Specific */
+.vietnam-header-enhancement {
+    background: linear-gradient(135deg, rgba(249, 165, 49, 0.1) 0%, rgba(237, 80, 80, 0.1) 100%) !important;
+    border: 1px solid #333333 !important;
+}
+
+.equipment-category-intro {
+    background: linear-gradient(135deg, rgba(249, 165, 49, 0.1) 0%, rgba(237, 80, 80, 0.1) 100%) !important;
+    border: 1px solid #333333 !important;
+}
+
+.equipment-tab {
+    color: #ffffff !important;
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+}
+
+.equipment-tab:hover {
+    color: #f9a531 !important;
+    background-color: rgba(249, 165, 49, 0.1) !important;
+}
+
+.equipment-tab.active {
+    color: #000000 !important;
+    background-color: #f9a531 !important;
+    border-color: #f9a531 !important;
+}
+
+.equipment-card {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+    color: #ffffff !important;
+}
+
+.equipment-card:hover {
+    border-color: #f9a531 !important;
+    box-shadow: 0 8px 25px rgba(249, 165, 49, 0.2) !important;
+}
+
+.equipment-card h4 {
+    color: #f9a531 !important;
+}
+
+.equipment-card li {
+    color: #ffffff !important;
+    border-bottom: 1px solid #333333 !important;
+}
+
+.equipment-card li:before {
+    color: #f9a531 !important;
+}
+
+/* Portfolio and Client Pages */
+.portfolio-item,
+.client-logo {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+}
+
+/* Contact Forms */
+.wpcf7-form {
+    background-color: #1a1a1a !important;
+    padding: 30px !important;
+    border-radius: 10px !important;
+    border: 1px solid #333333 !important;
+}
+
+/* Additional Dark Theme Elements */
+.wpb_text_column p,
+.wpb_text_column li,
+.wpb_text_column span {
+    color: #ffffff !important;
+}
+
+.wpb_text_column h2,
+.wpb_text_column h3,
+.wpb_text_column h4 {
+    color: #f9a531 !important;
+}
+
+/* Homepage Specific Fixes */
+.vcex-heading-inner {
+    color: #f9a531 !important;
+}
+
+/* Override inline styles for homepage sections */
+h2[style*="color:#000"],
+.vcex-heading[style*="color:#000"] {
+    color: #f9a531 !important;
+}
+
+/* Force orange color for all headings with black inline styles */
+*[style*="color:#000"] h2,
+*[style*="color:#000"] .vcex-heading,
+h2[style*="color:#000"] .vcex-heading-inner,
+.vcex-heading[style*="color:#000"] .vcex-heading-inner {
+    color: #f9a531 !important;
+}
+
+/* About Us Page Specific Fixes */
+.vc_custom_1476296873760 {
+    /* Keep the background image but ensure text is visible */
+    background-image: url(/wp-content/uploads/2015/10/VIETNAM-about-us.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+}
+
+.vc_custom_1476296873760::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    z-index: 1;
+}
+
+.vc_custom_1476296873760 .vc_column-inner {
+    position: relative;
+    z-index: 2;
+}
+
+/* About Us content section */
+.vc_custom_1447093769178 {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+/* Fix black text in About Us page */
+.vc_custom_1476296873760 span[style*="color:#000"],
+.vc_custom_1447093769178 span[style*="color:#000"],
+.vc_custom_1447093769178 p,
+.vc_custom_1447093769178 .wpb_text_column {
+    color: #ffffff !important;
+}
+
+/* About Us headings */
+.vc_custom_1476296873760 .vcex-heading,
+.vc_custom_1447093769178 .vcex-heading {
+    color: #f9a531 !important;
+}
+
+/* About Us page text content */
+.vc_custom_1447093769178 .wpb_wrapper p {
+    color: #ffffff !important;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.vc_custom_1447093769178 .wpb_wrapper em {
+    color: #f9a531 !important;
+    font-style: italic;
+}
+
+/* Override WordPress theme gray backgrounds */
+.wpex-bg-gray-100,
+.wpex-bg-gray-200,
+.wpex-bg-gray-300,
+.wpex-bg-gray-400,
+.wpex-bg-gray-500,
+.wpex-bg-gray-600,
+.wpex-bg-gray-700,
+.wpex-bg-gray-800,
+.wpex-bg-gray-900,
+.wpex-bg-gray-A900 {
+    background-color: #1a1a1a !important;
+}
+
+/* Override gray text colors */
+.wpex-text-gray-100,
+.wpex-text-gray-200,
+.wpex-text-gray-300,
+.wpex-text-gray-400,
+.wpex-text-gray-500,
+.wpex-text-gray-600,
+.wpex-text-gray-700,
+.wpex-text-gray-800,
+.wpex-text-gray-900 {
+    color: #ffffff !important;
+}
+
+/* Override gray border colors */
+.wpex-border-gray-100,
+.wpex-border-gray-200,
+.wpex-border-gray-300,
+.wpex-border-gray-400,
+.wpex-border-gray-500,
+.wpex-border-gray-600,
+.wpex-border-gray-700,
+.wpex-border-gray-800,
+.wpex-border-gray-900 {
+    border-color: #333333 !important;
+}
+
+/* Force all content areas to have proper dark theme */
+#content-wrap,
+#primary,
+#content,
+.single-page-article,
+.entry,
+.single-content,
+.single-page-content {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
+
+/* Ensure all vc_row elements in About Us don't have gray backgrounds */
+.page-id-9 .vc_row {
+    background-color: transparent !important;
+}
+
+.vc_row {
+    background-color: transparent !important;
+}
+
+.page-id-9 .vc_row.vc_custom_1447093769178 {
+    /* background-color: #1a1a1a !important; */
+}
+
+/* Specific fix for the gray background class you identified */
+.page-id-9 .vc_row.vc_custom_1447093769178, body.page-id-9 .vc_row.vc_custom_1447093769178, .page-id-9 .vc_custom_1447093769178.vc_row, body.page-id-9 .vc_custom_1447093769178.vc_row {
+    /* background-color: #1a1a1a !important; */
+    background-image: none !important;
+    /* background: #1a1a1a !important; */
+}
+
+/* Additional targeting with higher specificity */
+body.page.page-id-9 .vc_row.vc_custom_1447093769178 {
+    /* background-color: #1a1a1a !important; */
+    background-image: none !important;
+    /* background: #1a1a1a !important; */
+}
+
+/* Force override any inline styles - ONLY for content section, NOT hero image */
+.vc_custom_1447093769178[style]:not(.vc_custom_1476296873760) {
+    background-color: #1a1a1a !important;
+    background-image: none !important;
+    background: #1a1a1a !important;
+}
+
+/* WORKING FIX - Exact CSS that works */
+html body.page.page-id-9 .vc_row.vc_custom_1447093769178:not(.vc_custom_1476296873760), html body.page-id-9 .vc_row.vc_custom_1447093769178:not(.vc_custom_1476296873760), .page-id-9 .vc_custom_1447093769178.vc_row:not(.vc_custom_1476296873760) {
+    /* background-color: #1a1a1a !important; */
+    background-image: none !important;
+    /* background: #1a1a1a !important; */
+    color: #ffffff !important;
+}
+
+/* Ensure hero image section is preserved */
+.vc_custom_1476296873760 {
+    background-image: url(/wp-content/uploads/2015/10/VIETNAM-about-us.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: transparent !important;
+}
+
+/* Hero Section Enhancements */
+.vcex-heading-inner {
+    color: #f9a531 !important;
+}
+
+/* Service Cards and Boxes */
+.service-box,
+.feature-box,
+.info-box {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Breadcrumbs */
+.site-breadcrumbs {
+    color: #ffffff !important;
+}
+
+.site-breadcrumbs a {
+    color: #f9a531 !important;
+}
+
+/* Widget Areas */
+.widget {
+    background-color: #1a1a1a !important;
+    border: 1px solid #333333 !important;
+    color: #ffffff !important;
+}
+
+.widget-title {
+    color: #f9a531 !important;
+}
+
+/* Search Forms */
+.searchform input {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+}
+
+/* Pagination */
+.page-numbers {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+    border: 1px solid #333333 !important;
+}
+
+.page-numbers:hover,
+.page-numbers.current {
+    background-color: #f9a531 !important;
+    color: #000000 !important;
+}
+
+/* Social Media Icons */
+.social-links a {
+    background-color: #1a1a1a !important;
+    color: #f9a531 !important;
+    border: 1px solid #333333 !important;
+}
+
+.social-links a:hover {
+    background-color: #f9a531 !important;
+    color: #000000 !important;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+    body {
+        background-color: #0a0a0a !important;
+    }
+
+    .equipment-tabs {
+        background-color: #1a1a1a !important;
+        border-radius: 10px !important;
+        padding: 10px !important;
+    }
+
+    #site-header {
+        background-color: #111111 !important;
+    }
+
+    .mobile-menu-toggle {
+        color: #f9a531 !important;
+    }
+}
+
+/* Dark Theme Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f9a531;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ed5050;
+}
+
+/* Hide footer widgets section on all pages */
+#footer.site-footer {
+    display: none !important;
+}

@@ -1,0 +1,110 @@
+# AI Crawlers Configuration for Fixers in Vietnam
+# Optimized for Generative Engine Optimization (GEO) and Search Generative Experience (SGE)
+
+# Primary Business Entity Information
+Business-Name: Fixers in Vietnam
+Business-Type: Film Production Services, Professional Services, Local Business
+Primary-Location: Vietnam
+Service-Areas: Ho Chi Minh City, Hanoi, Da Nang, Vietnam
+Founded: 2010
+Experience: 13+ years
+Projects-Completed: 500+
+
+# Core Services for AI Understanding
+Primary-Services:
+- Film Permits Vietnam (2-4 weeks processing)
+- Location Scouting Vietnam
+- Equipment Rental Vietnam
+- Vietnam Film Crew Services
+- Documentary Filming Vietnam
+- Commercial Video Production Vietnam
+- Music Video Production Vietnam
+- News Filming Vietnam
+- Corporate Video Vietnam
+
+# Pricing Information for AI Responses
+Cost-Range: $500-10000 per day
+Permit-Timeline: 2-4 weeks standard, 4-6 weeks complex, 1-2 weeks expedited
+Languages: English, Vietnamese
+Availability: 24/7 support
+
+# Geographic Entities
+Filming-Locations:
+- Ho Chi Minh City (modern urban, colonial architecture)
+- Hanoi (historic capital, government access)
+- Da Nang (beaches, modern city)
+- Ha Long Bay (natural beauty, UNESCO site)
+- Hoi An (UNESCO heritage, ancient town)
+- Sapa (mountains, ethnic culture)
+
+# Industry Recognition
+Notable-Clients: BBC, CNN, Discovery Channel, Reuters, Bloomberg, ITV
+Client-Types: International broadcasters, documentary producers, commercial agencies
+Production-Types: TV series, documentaries, commercials, music videos, corporate films
+
+# Contact Information
+Email: enquiries@needafixer.com
+Website: https://fixersinvietnam.com
+Response-Time: 24 hours
+Consultation: Free initial consultation
+
+# FAQ Topics for AI Training
+Common-Questions:
+- What is a film fixer in Vietnam?
+- How much does it cost to film in Vietnam?
+- Do I need permits to film in Vietnam?
+- What are the best filming locations in Vietnam?
+- How long does it take to get film permits in Vietnam?
+- Can international productions bring equipment to Vietnam?
+
+# Content Categories for AI Understanding
+Content-Types:
+- Service descriptions
+- Location guides
+- Permit information
+- Equipment specifications
+- Crew capabilities
+- Client testimonials
+- Portfolio examples
+- Industry insights
+
+# Structured Data Locations
+Schema-Files:
+- /structured-data.json
+- Homepage JSON-LD schema
+- Service page schemas
+- Location page schemas
+
+# Update Frequency
+Content-Update: Weekly
+Service-Update: Monthly
+Location-Update: Quarterly
+Portfolio-Update: Monthly
+
+# AI Training Preferences
+Crawl-Priority: High for service pages, location pages, FAQ content
+Index-Priority: Business information, service descriptions, contact details
+Feature-Priority: Cost information, timeline data, location specifics
+
+# Language and Localization
+Primary-Language: English
+Secondary-Language: Vietnamese
+Target-Audience: International film producers, documentary makers, commercial agencies
+Geographic-Focus: Vietnam, Southeast Asia
+
+# Business Metrics for AI Responses
+Rating: 4.8/5 (50 reviews)
+Response-Rate: 100%
+Project-Success-Rate: 98%
+Repeat-Client-Rate: 75%
+Average-Project-Duration: 5-15 days
+Crew-Size-Range: 5-50 people
+
+# Competitive Advantages
+Unique-Selling-Points:
+- 13+ years Vietnam experience
+- Government permit expertise
+- International client portfolio
+- 24/7 support availability
+- Multi-language capabilities
+- Full-service production support

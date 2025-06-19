@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    <!-- OPTIMIZED SITEMAP INDEX - Updated 2025-06-18 -->
+    <!-- Comprehensive website indexing for search engines -->
+    
+    <!-- PRIORITY 1: MAIN PAGES (Homepage, Core Categories) -->
+    <sitemap>
+        <loc>https://fixersinvietnam.com/sitemap-main-pages.xml</loc>
+        <lastmod>2025-06-18T12:00:00+00:00</lastmod>
+        <!-- Critical business pages including homepage and main service categories -->
+    </sitemap>
+    
+    <!-- PRIORITY 2: SPECIALIZED SERVICES -->
+    <sitemap>
+        <loc>https://fixersinvietnam.com/sitemap-specialized-services.xml</loc>
+        <lastmod>2025-06-18T12:00:00+00:00</lastmod>
+        <!-- Industry-specific and high-value service pages -->
+    </sitemap>
+    
+    <!-- PRIORITY 3: PRE-PRODUCTION SERVICES (31 pages) -->
+    <sitemap>
+        <loc>https://fixersinvietnam.com/sitemap-pre-production-services.xml</loc>
+        <lastmod>2025-06-18T12:00:00+00:00</lastmod>
+        <!-- Planning, development, and preparation services -->
+    </sitemap>
+    
+    <!-- PRIORITY 4: PRODUCTION SERVICES (40 pages) -->
+    <sitemap>
+        <loc>https://fixersinvietnam.com/sitemap-production-services.xml</loc>
+        <lastmod>2025-06-18T12:00:00+00:00</lastmod>
+        <!-- On-set filming and technical execution services -->
+    </sitemap>
+    
+    <!-- PRIORITY 5: POST-PRODUCTION SERVICES (27 pages) -->
+    <sitemap>
+        <loc>https://fixersinvietnam.com/sitemap-post-production-services.xml</loc>
+        <lastmod>2025-06-18T12:00:00+00:00</lastmod>
+        <!-- Editing, finishing, and delivery services -->
+    </sitemap>
+    
+    <!-- PRIORITY 6: FILM CREW SERVICES (28 pages) -->
+    <sitemap>
+        <loc>https://fixersinvietnam.com/sitemap-film-crew-services.xml</loc>
+        <lastmod>2025-06-18T12:00:00+00:00</lastmod>
+        <!-- Production services organized by role type -->
+    </sitemap>
+    
+    <!-- PRIORITY 7: PORTFOLIO & MISCELLANEOUS -->
+    <sitemap>
+        <loc>https://fixersinvietnam.com/sitemap-portfolio-misc.xml</loc>
+        <lastmod>2025-06-18T12:00:00+00:00</lastmod>
+        <!-- Portfolio items, secondary pages, and system pages -->
+    </sitemap>
+    
+    <!-- LEGACY SITEMAPS (kept for compatibility) -->
+    <sitemap>
+        <loc>https://fixersinvietnam.com/post-sitemap.xml</loc>
+        <lastmod>2015-10-28T15:18:14+00:00</lastmod>
+        <!-- Legacy blog posts -->
+    </sitemap>
+    
+    <sitemap>
+        <loc>https://fixersinvietnam.com/attachment-sitemap.xml</loc>
+        <lastmod>2024-09-30T12:02:44+00:00</lastmod>
+        <!-- Media attachments -->
+    </sitemap>
+    
+    <sitemap>
+        <loc>https://fixersinvietnam.com/category-sitemap.xml</loc>
+        <lastmod>2015-10-28T15:18:14+00:00</lastmod>
+        <!-- Content categories -->
+    </sitemap>
+    
+    <sitemap>
+        <loc>https://fixersinvietnam.com/author-sitemap.xml</loc>
+        <lastmod>2020-07-10T14:35:48+00:00</lastmod>
+        <!-- Author pages -->
+    </sitemap>
+    
+</sitemapindex>

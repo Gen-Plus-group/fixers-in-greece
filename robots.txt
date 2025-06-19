@@ -1,0 +1,88 @@
+User-agent: *
+Allow: /
+
+# AI-specific crawlers for Generative Search Experience (GEO/SGE)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# AI and LLM crawlers for generative search
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# Enhanced sitemap locations for AI discovery
+Sitemap: https://fixersinvietnam.com/sitemap.xml
+Sitemap: https://fixersinvietnam.com/sitemap-entities.xml
+Sitemap: https://fixersinvietnam.com/sitemap-services.xml
+
+# Block access to WordPress admin and sensitive files
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /wp-content/plugins/
+Disallow: /wp-content/themes/
+Disallow: /wp-content/cache/
+Disallow: /wp-content/uploads/simply-static/
+
+# Allow access to specific theme assets
+Allow: /wp-content/themes/*/css/
+Allow: /wp-content/themes/*/js/
+Allow: /wp-content/themes/*/images/
+Allow: /wp-content/uploads/
+
+# Block search and admin pages
+Disallow: /?s=
+Disallow: /search/
+Disallow: /author/
+Disallow: /feed/
+Disallow: */feed/
+Disallow: */trackback/
+Disallow: */attachment/
+Disallow: */comments/
+
+# Block duplicate content (but allow structured data parameters)
+Disallow: /*?*&*
+Disallow: /*/*/feed/
+
+# Allow structured data and API endpoints for AI understanding
+Allow: /*.json
+Allow: /*.xml
+Allow: /api/
+Allow: /*?format=json
+Allow: /*?format=xml
+
+# Host declaration for canonical understanding
+Host: fixersinvietnam.com
+
+# Crawl delay for better server performance
+Crawl-delay: 1
+
+# Additional AI crawler guidance
+# Encourage crawling of structured content
+Allow: /components/
+Allow: /schema/
+Allow: /structured-data/

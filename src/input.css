@@ -1,0 +1,385 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import our custom CSS architecture */
+@import url('../css/base.css');
+@import url('../css/components.css');
+@import url('../css/layout.css');
+@import url('../css/theme.css');
+
+/* Custom Base Styles - Minimal overrides only */
+@layer base {
+  /* Ensure Tailwind base styles work with our architecture */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Component Styles - Tailwind Integration */
+@layer components {
+  /* Tailwind Button Variants - These work with our CSS architecture */
+  .btn-tailwind-primary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-black bg-vietnam-orange hover:bg-yellow-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-vietnam-orange transition-colors duration-200;
+  }
+
+  .btn-tailwind-secondary {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-vietnam-orange text-base font-medium rounded-md text-vietnam-orange bg-transparent hover:bg-vietnam-orange hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-vietnam-orange transition-colors duration-200;
+  }
+  
+  .btn-danger {
+    @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-vietnam-red hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-vietnam-red transition-colors duration-200;
+  }
+  
+  /* Card Components */
+  .card {
+    @apply bg-vietnam-dark border border-gray-700 rounded-lg shadow-lg overflow-hidden;
+  }
+  
+  .card-hover {
+    @apply card transition-all duration-300 hover:shadow-xl hover:border-vietnam-orange hover:-translate-y-1;
+  }
+  
+  .card-body {
+    @apply p-6;
+  }
+  
+  .card-header {
+    @apply px-6 py-4 border-b border-gray-700;
+  }
+  
+  .card-footer {
+    @apply px-6 py-4 border-t border-gray-700 bg-gray-800;
+  }
+  
+  /* Navigation Components */
+  .nav-link {
+    @apply text-vietnam-gray hover:text-vietnam-orange transition-colors duration-200 font-medium;
+  }
+
+  .nav-link-active {
+    @apply text-vietnam-orange font-semibold;
+  }
+
+  /* Mega Menu Components */
+  .mega-menu {
+    position: absolute;
+    top: calc(100% + 12px);
+    left: 50%;
+    transform: translateX(-50%) translateY(-10px);
+    width: 100vw;
+    max-width: 1400px;
+    min-width: 1200px;
+    background: #1a1a1a;
+    border-top: 2px solid theme('colors.vietnam.orange');
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    z-index: 50;
+    margin-top: 8px;
+  }
+
+  .mega-menu-trigger:hover .mega-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .mega-menu-column {
+    border-right: 1px solid #333;
+    min-width: 0;
+  }
+
+  .mega-menu-column:last-child {
+    border-right: none;
+  }
+
+  .mega-menu-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1.5rem 1rem;
+  }
+
+  .mega-menu h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .mega-menu h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: theme('colors.vietnam.orange');
+  }
+
+  .mega-menu a {
+    font-size: 0.875rem;
+    line-height: 1.5;
+    padding: 0.25rem 0;
+    display: block;
+    transition: all 0.2s ease;
+  }
+
+  .mega-menu a:hover {
+    color: theme('colors.vietnam.orange');
+    padding-left: 0.25rem;
+  }
+
+  .mega-menu ul {
+    margin-top: 0.5rem;
+  }
+
+  .mega-menu li {
+    margin-bottom: 0.5rem;
+  }
+
+  .mega-menu-trigger {
+    position: static;
+  }
+
+  /* Responsive mega menu */
+  @media (max-width: 1024px) {
+    .mega-menu {
+      display: none;
+    }
+  }
+  
+  /* Form Components */
+  .form-input {
+    @apply block w-full px-3 py-2 border border-gray-600 rounded-md shadow-sm bg-vietnam-dark text-white placeholder-gray-400 focus:outline-none focus:ring-vietnam-orange focus:border-vietnam-orange;
+  }
+  
+  .form-textarea {
+    @apply form-input resize-y;
+  }
+  
+  .form-select {
+    @apply form-input pr-10 bg-vietnam-dark;
+  }
+  
+  .form-label {
+    @apply block text-sm font-medium text-gray-300 mb-2;
+  }
+  
+  .form-error {
+    @apply text-red-400 text-sm mt-1;
+  }
+  
+  /* Portfolio Components */
+  .portfolio-item {
+    @apply relative overflow-hidden rounded-lg shadow-lg group cursor-pointer;
+  }
+  
+  .portfolio-overlay {
+    @apply absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center;
+  }
+  
+  .portfolio-content {
+    @apply text-center text-white p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300;
+  }
+  
+  /* Client Logo Components */
+  .client-logo {
+    @apply flex items-center justify-center p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200;
+  }
+  
+  .client-logo img {
+    @apply max-w-full max-h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-200;
+  }
+  
+  /* Hero Components */
+  .hero-overlay {
+    @apply absolute inset-0 bg-black bg-opacity-60;
+  }
+  
+  .hero-content {
+    @apply relative z-10 text-center px-4;
+  }
+  
+  /* Section Components */
+  .section {
+    @apply py-16;
+  }
+  
+  .section-header {
+    @apply text-center mb-12;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-4;
+  }
+  
+  .section-subtitle {
+    @apply text-sm text-gray-400 uppercase tracking-wide;
+  }
+  
+  /* Container Components */
+  .container-custom {
+    @apply container mx-auto px-4;
+  }
+  
+  /* Animation Components */
+  .fade-in {
+    @apply opacity-0 animate-fade-in;
+  }
+  
+  .slide-in-left {
+    @apply transform -translate-x-full opacity-0 animate-slide-in-left;
+  }
+  
+  .slide-in-right {
+    @apply transform translate-x-full opacity-0 animate-slide-in-right;
+  }
+  
+  .slide-up {
+    @apply transform translate-y-full opacity-0 animate-slide-up;
+  }
+}
+
+/* Custom Utility Classes */
+@layer utilities {
+  /* Text Utilities */
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .text-shadow-lg {
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Background Utilities */
+  .bg-hero {
+    background-image: url('/wp-content/uploads/2015/10/VIETNAM-home-main-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bg-filming {
+    background-image: url('/wp-content/uploads/2015/10/VIETNAM-home-filming-draft.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bg-services {
+    background-image: url('/wp-content/uploads/2015/10/VIETNAM-home-services-draft.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Aspect Ratio Utilities */
+  .aspect-video {
+    aspect-ratio: 16 / 9;
+  }
+  
+  .aspect-square {
+    aspect-ratio: 1 / 1;
+  }
+  
+  .aspect-photo {
+    aspect-ratio: 4 / 3;
+  }
+  
+  /* Scroll Utilities */
+  .scroll-smooth {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom Grid Utilities */
+  .grid-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .grid-auto-fill {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+  
+  /* Backdrop Utilities */
+  .backdrop-blur-xs {
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+  
+  /* Custom Spacing */
+  .space-y-18 > :not([hidden]) ~ :not([hidden]) {
+    margin-top: 4.5rem;
+  }
+  
+  /* Custom Transforms */
+  .transform-gpu {
+    transform: translateZ(0);
+  }
+  
+  /* Print Utilities */
+  @media print {
+    .print-hidden {
+      display: none !important;
+    }
+    
+    .print-visible {
+      display: block !important;
+    }
+  }
+  
+  /* Dark Mode Utilities */
+  .dark-mode-toggle {
+    @apply bg-gray-800 text-white border-gray-600;
+  }
+  
+  /* Accessibility Utilities */
+  .focus-visible:focus-visible {
+    @apply outline-2 outline-vietnam-orange outline-offset-2;
+  }
+  
+  /* Performance Utilities */
+  .will-change-transform {
+    will-change: transform;
+  }
+  
+  .will-change-opacity {
+    will-change: opacity;
+  }
+  
+  /* Custom Borders */
+  .border-gradient {
+    border-image: linear-gradient(135deg, theme('colors.vietnam.orange'), theme('colors.vietnam.red')) 1;
+  }
+}
+
+/* Custom Media Queries */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Additional dark mode styles if needed */
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .btn-primary {
+    @apply border-2 border-black;
+  }
+  
+  .nav-link {
+    @apply border-b border-transparent hover:border-current;
+  }
+}

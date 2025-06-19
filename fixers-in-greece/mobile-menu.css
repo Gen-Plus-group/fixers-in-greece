@@ -1,0 +1,255 @@
+/* Mobile Menu Styles for 3-Level Navigation */
+
+/* Mobile Menu Overlay */
+#mobile-menu-overlay {
+    z-index: 9999;
+}
+
+/* Mobile Menu Panel */
+#mobile-menu {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Mobile Menu Header */
+#mobile-menu .border-b {
+    background: rgba(249, 165, 49, 0.1);
+    backdrop-filter: blur(5px);
+}
+
+/* Mobile Navigation Content */
+#mobile-navigation-content {
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #f9a531 #2d2d2d;
+    position: relative;
+}
+
+/* Ensure mobile navigation container is scrollable */
+#mobile-navigation {
+    min-height: 100%;
+}
+
+#mobile-navigation-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+#mobile-navigation-content::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+#mobile-navigation-content::-webkit-scrollbar-thumb {
+    background: #f9a531;
+    border-radius: 3px;
+}
+
+/* Level 1: Main Navigation Items */
+.mobile-navigation a[href]:not(.mobile-mega-toggle):not(.mobile-category-toggle) {
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile-navigation a[href]:not(.mobile-mega-toggle):not(.mobile-category-toggle)::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    background: linear-gradient(90deg, rgba(249, 165, 49, 0.1) 0%, rgba(249, 165, 49, 0.05) 100%);
+    transition: width 0.3s ease;
+}
+
+.mobile-navigation a[href]:not(.mobile-mega-toggle):not(.mobile-category-toggle):hover::before {
+    width: 100%;
+}
+
+/* Level 2: Mega Menu Toggles */
+.mobile-mega-toggle {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.mobile-mega-toggle:hover {
+    background: linear-gradient(90deg, rgba(249, 165, 49, 0.1) 0%, rgba(249, 165, 49, 0.05) 100%);
+    transform: translateX(4px);
+}
+
+.mobile-mega-toggle[aria-expanded="true"] {
+    background: rgba(249, 165, 49, 0.15);
+    color: #f9a531;
+}
+
+/* Level 2: Mega Menu Submenus */
+.mobile-mega-submenu {
+    background: linear-gradient(135deg, #2d2d2d 0%, #3a3a3a 100%);
+    border-left: 3px solid #f9a531;
+    margin: 0 -1rem;
+    animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Level 3: Category Toggles */
+.mobile-category-toggle {
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.mobile-category-toggle:hover {
+    background: rgba(249, 165, 49, 0.1);
+    transform: translateX(2px);
+}
+
+.mobile-category-toggle[aria-expanded="true"] {
+    background: rgba(249, 165, 49, 0.2);
+    color: #f9a531;
+}
+
+/* Level 3: Category Submenus */
+.mobile-category-submenu {
+    background: rgba(0, 0, 0, 0.3);
+    border-left: 2px solid rgba(249, 165, 49, 0.5);
+    border-radius: 0 8px 8px 0;
+    animation: fadeIn 0.2s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Level 3: Individual Service Links */
+.mobile-category-submenu a {
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.mobile-category-submenu a:hover {
+    background: rgba(249, 165, 49, 0.15);
+    color: #f9a531;
+}
+
+/* Icons */
+.mobile-mega-icon,
+.mobile-category-icon {
+    transition: transform 0.3s ease;
+    flex-shrink: 0;
+}
+
+/* Ensure proper icon sizing */
+.mobile-mega-icon {
+    width: 12px;
+    height: 12px;
+}
+
+.mobile-category-icon {
+    width: 8px;
+    height: 8px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    #mobile-menu {
+        width: 100vw;
+        max-width: none;
+    }
+    
+    .mobile-mega-submenu {
+        margin: 0;
+    }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+    .mobile-mega-toggle,
+    .mobile-category-toggle,
+    .mobile-category-submenu a {
+        min-height: 48px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Dark theme enhancements */
+.mobile-mega-submenu {
+    border-top: 1px solid rgba(249, 165, 49, 0.2);
+    border-bottom: 1px solid rgba(249, 165, 49, 0.2);
+}
+
+/* Focus states for accessibility */
+.mobile-mega-toggle:focus,
+.mobile-category-toggle:focus,
+.mobile-category-submenu a:focus {
+    outline: 2px solid #f9a531;
+    outline-offset: 2px;
+}
+
+/* Loading states */
+.mobile-navigation-loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    color: #f9a531;
+}
+
+.mobile-navigation-loading::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f9a531;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Vietnam-specific color enhancements */
+.text-vietnam-orange {
+    color: #f9a531 !important;
+}
+
+.bg-vietnam-dark {
+    background-color: #1a1a1a !important;
+}
+
+.bg-vietnam-darker {
+    background-color: #0f0f0f !important;
+}
+
+.border-vietnam-orange {
+    border-color: #f9a531 !important;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+    transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+}

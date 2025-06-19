@@ -1,0 +1,195 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Fixers in Vietnam",
+  "alternateName": "Need a Fixer Vietnam",
+  "description": "Professional filming services in Vietnam for international productions. Expert fixers, location scouting, equipment rental, permits & crew with 13+ years experience serving BBC, CNN, Reuters and major international productions.",
+  "url": "https://fixersinvietnam.com/",
+  "logo": "https://fixersinvietnam.com/wp-content/uploads/2016/10/needafixer-vietnam.png",
+  "image": [
+    "https://fixersinvietnam.com/wp-content/uploads/2015/10/VIETNAM-home-main-banner.jpg",
+    "https://fixersinvietnam.com/wp-content/uploads/2015/10/VIETNAM-home-filming-draft.jpg",
+    "https://fixersinvietnam.com/wp-content/uploads/2015/10/VIETNAM-home-services-draft.jpg"
+  ],
+  "telephone": "+44 (0) 20 8549 2259",
+  "email": "info@needafixer.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Professional filming services throughout Vietnam",
+    "addressLocality": "Ho Chi Minh City",
+    "addressRegion": "Ho Chi Minh City",
+    "postalCode": "700000",
+    "addressCountry": "VN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "10.8231",
+    "longitude": "106.6297"
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "Vietnam"
+    },
+    {
+      "@type": "City",
+      "name": "Ho Chi Minh City"
+    },
+    {
+      "@type": "City", 
+      "name": "Hanoi"
+    },
+    {
+      "@type": "City",
+      "name": "Da Nang"
+    },
+    {
+      "@type": "City",
+      "name": "Hoi An"
+    },
+    {
+      "@type": "City",
+      "name": "Hue"
+    }
+  ],
+  "serviceArea": {
+    "@type": "Country",
+    "name": "Vietnam"
+  },
+  "priceRange": "$$",
+  "currenciesAccepted": "USD, EUR, GBP, VND",
+  "paymentAccepted": "Cash, Credit Card, Bank Transfer",
+  "openingHours": "Mo-Su 00:00-23:59",
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Film Production Services Vietnam",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Location Scouting Vietnam",
+          "description": "Professional location scouting services throughout Vietnam including urban, natural, and cultural locations",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Fixers in Vietnam"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Equipment Rental Vietnam",
+          "description": "Professional film equipment rental including cameras, lighting, audio equipment with full insurance coverage",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Fixers in Vietnam"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Film Permits Vietnam",
+          "description": "Film permit acquisition services and government liaison for all types of productions in Vietnam",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Fixers in Vietnam"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Local Crew Vietnam",
+          "description": "Professional film crew services including directors, camera operators, sound technicians, and production assistants",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Fixers in Vietnam"
+          }
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Transportation Services",
+          "description": "Production vehicle rental and transportation services throughout Vietnam",
+          "provider": {
+            "@type": "LocalBusiness",
+            "name": "Fixers in Vietnam"
+          }
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "50",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Organization",
+        "name": "BBC Productions"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Exceptional service for our documentary production in Vietnam. Professional, reliable, and knowledgeable team."
+    },
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Organization",
+        "name": "CNN International"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "reviewBody": "Outstanding location scouting and permit services. Made our Vietnam production seamless and efficient."
+    }
+  ],
+  "sameAs": [
+    "https://needafixer.com/",
+    "https://www.linkedin.com/company/fixers-in-vietnam",
+    "https://www.facebook.com/fixersinvietnam"
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Need a Fixer",
+    "url": "https://needafixer.com/"
+  },
+  "knowsAbout": [
+    "Film Production",
+    "Video Production",
+    "Documentary Filming",
+    "Commercial Production",
+    "Location Scouting",
+    "Equipment Rental",
+    "Film Permits",
+    "Vietnam Tourism",
+    "Cultural Consultation",
+    "Government Liaison"
+  ],
+  "memberOf": {
+    "@type": "Organization",
+    "name": "Vietnam Film Association"
+  },
+  "award": [
+    "Trusted Partner - BBC Productions",
+    "Preferred Vendor - CNN International",
+    "Excellence in Service - Reuters"
+  ]
+}
