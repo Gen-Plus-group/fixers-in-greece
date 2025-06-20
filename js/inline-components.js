@@ -783,4 +783,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     console.log('✅ Components loaded successfully!');
+    
+    // Dispatch custom event when components are loaded
+    document.dispatchEvent(new CustomEvent('componentsLoaded'));
 });
