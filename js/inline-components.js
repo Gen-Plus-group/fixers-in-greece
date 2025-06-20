@@ -16,7 +16,7 @@ const megaMenuStyles = `
     max-width: 1400px;
     min-width: 1200px;
     background: #1a1a1a;
-    border-top: 2px solid #ff6b35;
+    border-top: 2px solid #0080ff;
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     opacity: 0;
     visibility: hidden;
@@ -57,7 +57,7 @@ const megaMenuStyles = `
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #ff6b35;
+    color: #0080ff;
 }
 
 .mega-menu a {
@@ -69,7 +69,7 @@ const megaMenuStyles = `
 }
 
 .mega-menu a:hover {
-    color: #ff6b35;
+    color: #0080ff;
     padding-left: 0.25rem;
 }
 
