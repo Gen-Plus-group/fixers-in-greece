@@ -28,7 +28,7 @@
       },
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "enquiries@needafixer.com",
+        "email": "greece@needafixer.com",
         "contactType": "customer service",
         "availableLanguage": ["English", "Greeceese"]
       },

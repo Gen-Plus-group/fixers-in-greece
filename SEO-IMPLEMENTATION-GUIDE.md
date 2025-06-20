@@ -226,7 +226,7 @@ This document outlines the comprehensive SEO optimizations implemented for the F
 ## Contact Information
 For questions about this SEO implementation, contact:
 - Email: info@needafixer.com
-- Phone: +44 (0) 20 8549 2259
+- Phone: +30 211 1983 725
 
 ---
 

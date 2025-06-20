@@ -2,7 +2,7 @@
 /**
  * Contact Form Handler for Fixers in Greece
  * Optimized Backend with Security, Performance & Logging
- * Sends formatted emails to enquiries@needafixer.com
+ * Sends formatted emails to greece@needafixer.com
  */
 
 / Start session for rate limiting
@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 / Configuration
-$to_email = 'enquiries@needafixer.com';
+$to_email = 'greece@needafixer.com';
 $from_email = 'noreply@fixersinGreece.com';
 $subject_prefix = '[Fixers Greece] New Production Enquiry';
 
@@ -340,7 +340,7 @@ $auto_reply_message = '
             <li>Next steps for your production</li>
         </ul>
         
-        <p>For urgent matters, please call us directly at <strong>+44 (0) 20 8549 2259</strong>.</p>
+        <p>For urgent matters, please call us directly at <strong>+30 211 1983 725</strong>.</p>
         
         <p>We look forward to helping make your Greece production a success!</p>
         
@@ -350,7 +350,7 @@ $auto_reply_message = '
     
     <div class="footer">
         <p>Fixers in Greece | Professional Film Production Services</p>
-        <p>Email: enquiries@needafixer.com | Phone: +44 (0) 20 8549 2259</p>
+        <p>Email: greece@needafixer.com | Phone: +30 211 1983 725</p>
         <p>Website: www.fixersinGreece.com</p>
     </div>
 </body>

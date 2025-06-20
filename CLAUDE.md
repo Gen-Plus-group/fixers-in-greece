@@ -86,7 +86,7 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
 - Email validation and security
 - Auto-reply functionality
 - Greece branding in email templates
-- Sends to `enquiries@needafixer.com`
+- Sends to `greece@needafixer.com`
 
 ## Important Notes
 

@@ -116,7 +116,7 @@ startDatePicker = flatpickr("#shoot-start-date", {
 
 ### Maintained Functionality
 - **Form Action**: `https://formspree.io/f/xpwavykd`
-- **Email Destination**: `enquiries@needafixer.com`
+- **Email Destination**: `greece@needafixer.com`
 - **Reply-to**: Automatically set to customer's email
 - **Hidden Fields**: All Formspree configuration preserved
 
@@ -178,7 +178,7 @@ startDatePicker = flatpickr("#shoot-start-date", {
 4. **Form Submission**:
    - Fill all fields correctly → Should submit
    - Check loading state → Should show "Sending..."
-   - Verify email delivery → Check enquiries@needafixer.com
+   - Verify email delivery → Check greece@needafixer.com
 
 ### Browser Compatibility
 - **Chrome**: ✅ Full support
@@ -222,6 +222,6 @@ startDatePicker = flatpickr("#shoot-start-date", {
 - **Form Completion Rate**: Percentage of users who complete the form
 - **Validation Error Rate**: Frequency of validation errors
 - **Mobile Usage**: Percentage of mobile form submissions
-- **Email Delivery Rate**: Successful email delivery to enquiries@needafixer.com
+- **Email Delivery Rate**: Successful email delivery to greece@needafixer.com
 
 The enhanced contact form now provides a professional, user-friendly experience that maintains all existing functionality while adding significant improvements to validation, phone input, and date selection.

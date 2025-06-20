@@ -1,13 +1,13 @@
 # Contact Form Setup Guide - Fixers in Greece
 
 ## Overview
-The contact form has been set up to send nicely formatted emails to `enquiries@needafixer.com`. There are multiple implementation options depending on your hosting environment.
+The contact form has been set up to send nicely formatted emails to `greece@needafixer.com`. There are multiple implementation options depending on your hosting environment.
 
 ## 🎯 Current Implementation
 
 ### Primary Solution: PHP Handler
 - **File**: `contact-form-handler.php`
-- **Sends to**: `enquiries@needafixer.com`
+- **Sends to**: `greece@needafixer.com`
 - **Features**:
   - Formatted HTML emails with Greece branding
   - Auto-reply to customers
@@ -36,12 +36,12 @@ If your hosting supports PHP:
 
 2. **Test the form**:
    - Visit `/test-contact-form.html` to test functionality
-   - Check if emails are received at `enquiries@needafixer.com`
+   - Check if emails are received at `greece@needafixer.com`
 
 3. **Configure email settings** (if needed):
    ```php
    / In contact-form-handler.php, update these if needed:
-   $to_email = 'enquiries@needafixer.com';
+   $to_email = 'greece@needafixer.com';
    $from_email = 'noreply@fixersinGreece.com';
    ```
 
@@ -62,7 +62,7 @@ If PHP is not available, use Formspree:
    ```html
    <!-- Add these hidden fields to the form -->
    <input type="hidden" name="_subject" value="New Production Enquiry - Fixers Greece">
-   <input type="hidden" name="_replyto" value="enquiries@needafixer.com">
+   <input type="hidden" name="_replyto" value="greece@needafixer.com">
    <input type="hidden" name="_next" value="/thank-you.html">
    ```
 
@@ -98,7 +98,7 @@ For client-side email sending:
 ## 📧 Email Template Features
 
 ### Main Notification Email
-Sent to `enquiries@needafixer.com`:
+Sent to `greece@needafixer.com`:
 - **Professional HTML formatting** with Greece branding
 - **Complete contact information** (name, email, phone, company)
 - **Project details** (type, services needed, budget, dates)
@@ -119,7 +119,7 @@ Sent to customer:
 1. Visit `/test-contact-form.html`
 2. Fill out the test form
 3. Check for:
-   - Email received at `enquiries@needafixer.com`
+   - Email received at `greece@needafixer.com`
    - Auto-reply sent to test email
    - Proper formatting and branding
 
@@ -171,7 +171,7 @@ We have received your enquiry and our team will respond within 24 hours with:
 • Information about filming in Greece
 • Next steps for your production
 
-For urgent matters, please call us directly at +44 (0) 20 8549 2259.
+For urgent matters, please call us directly at +30 211 1983 725.
 
 Best regards,
 The Fixers in Greece Team
@@ -199,4 +199,4 @@ The Fixers in Greece Team
 3. **Monitor email delivery** and response times
 4. **Consider adding** additional features like file uploads if needed
 
-The contact form is now professional, secure, and ready to handle production enquiries with properly formatted emails sent to `enquiries@needafixer.com`!
+The contact form is now professional, secure, and ready to handle production enquiries with properly formatted emails sent to `greece@needafixer.com`!

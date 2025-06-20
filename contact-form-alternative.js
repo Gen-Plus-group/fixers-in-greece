@@ -108,7 +108,7 @@ async function handleAlternativeSubmission(e) {
         
     } catch (error) {
         console.error('Form submission error:', error);
-        showMessage('There was an error sending your message. Please try again or contact us directly at enquiries@needafixer.com', 'error');
+        showMessage('There was an error sending your message. Please try again or contact us directly at greece@needafixer.com', 'error');
     } finally {
         / Reset button state
         submitButton.disabled = false;
@@ -180,7 +180,7 @@ async function submitToEmailJS(form) {
     }
     
     / Add additional template parameters
-    templateParams.to_email = 'enquiries@needafixer.com';
+    templateParams.to_email = 'greece@needafixer.com';
     templateParams.reply_to = templateParams.email;
     
     try {

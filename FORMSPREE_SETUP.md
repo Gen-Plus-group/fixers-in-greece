@@ -1,13 +1,13 @@
 # Formspree Contact Form Setup - Fixers in Greece
 
 ## 🎯 Current Status
-The contact form is now configured to use **Formspree.io** service, which will send emails directly to `enquiries@needafixer.com` without requiring any server-side code.
+The contact form is now configured to use **Formspree.io** service, which will send emails directly to `greece@needafixer.com` without requiring any server-side code.
 
 ## ✅ What's Working Now
 
 ### Form Configuration
 - **Service**: Formspree.io (reliable third-party email service)
-- **Sends to**: `enquiries@needafixer.com`
+- **Sends to**: `greece@needafixer.com`
 - **CC**: `info@needafixer.com` (backup)
 - **Subject**: "New Production Enquiry - Fixers in Greece"
 - **Format**: HTML formatted emails
@@ -23,13 +23,13 @@ The contact form is now configured to use **Formspree.io** service, which will s
 
 ### 1. Form Submission Flow
 ```
-User fills form → Formspree processes → Email sent to enquiries@needafixer.com → Thank you page → Auto-redirect
+User fills form → Formspree processes → Email sent to greece@needafixer.com → Thank you page → Auto-redirect
 ```
 
 ### 2. Email Content
 The form sends a professional email with:
 - **Subject**: "New Production Enquiry - Fixers in Greece"
-- **To**: enquiries@needafixer.com
+- **To**: greece@needafixer.com
 - **CC**: info@needafixer.com
 - **Content**: All form fields formatted clearly
 
@@ -46,7 +46,7 @@ The form sends a professional email with:
 Subject: New Production Enquiry - Fixers in Greece
 
 From: [Customer Email]
-To: enquiries@needafixer.com
+To: greece@needafixer.com
 CC: info@needafixer.com
 
 First Name: John
@@ -71,7 +71,7 @@ Message: We're planning a documentary about Greeceese culture...
 
 ### Hidden Fields Added
 ```html
-<input type="hidden" name="_to" value="enquiries@needafixer.com">
+<input type="hidden" name="_to" value="greece@needafixer.com">
 <input type="hidden" name="_subject" value="New Production Enquiry - Fixers in Greece">
 <input type="hidden" name="_cc" value="info@needafixer.com">
 <input type="hidden" name="_next" value="/contact/?success=true">
@@ -88,12 +88,12 @@ Message: We're planning a documentary about Greeceese culture...
    - Thank you page appears
    - Auto-redirect after 5 seconds
    - Success message on contact page
-   - Email received at `enquiries@needafixer.com`
+   - Email received at `greece@needafixer.com`
 
 ### Expected Results
 - ✅ Form submits without errors
 - ✅ Thank you page displays
-- ✅ Email arrives at enquiries@needafixer.com
+- ✅ Email arrives at greece@needafixer.com
 - ✅ Professional formatting in email
 - ✅ All form fields included
 
@@ -103,7 +103,7 @@ Message: We're planning a documentary about Greeceese culture...
 1. **Check browser console** for JavaScript errors
 2. **Try the fallback mailto link** at bottom of form
 3. **Contact Formspree support** if service is down
-4. **Use direct email** to enquiries@needafixer.com
+4. **Use direct email** to greece@needafixer.com
 
 ### Common Issues
 - **Spam folder**: Check spam/junk folder for emails
@@ -137,14 +137,14 @@ Message: We're planning a documentary about Greeceese culture...
 4. **Custom PHP handler** (if server supports PHP)
 
 ### Backup Contact Methods
-- **Direct email**: enquiries@needafixer.com
-- **Phone**: +44 (0) 20 8549 2259
+- **Direct email**: greece@needafixer.com
+- **Phone**: +30 211 1983 725
 - **Emergency contact**: Available 24/7
 
 ## 📊 Monitoring
 
 ### What to Monitor
-- **Email delivery** - Check enquiries@needafixer.com regularly
+- **Email delivery** - Check greece@needafixer.com regularly
 - **Form submissions** - Monitor Formspree dashboard
 - **Error rates** - Check for form submission errors
 - **Response times** - Ensure 24-hour response commitment
@@ -159,7 +159,7 @@ Message: We're planning a documentary about Greeceese culture...
 
 The contact form is now:
 - ✅ **Working reliably** without server-side code
-- ✅ **Sending to correct email** (enquiries@needafixer.com)
+- ✅ **Sending to correct email** (greece@needafixer.com)
 - ✅ **Professional appearance** with Greece branding
 - ✅ **Mobile-optimized** for all devices
 - ✅ **Secure and spam-protected**
