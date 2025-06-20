@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Footer HTML
     const footerHTML = `
     <!-- Footer -->
-    <footer class="bg-greece-blue border-t border-gray-700 py-12">
+    <footer class="bg-gray-900 border-t border-gray-800 py-12">
         <div class="container mx-auto px-4">
             <div class="grid md:grid-cols-4 gap-8">
                 <!-- Company Info -->
@@ -208,12 +208,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div>
                     <h3 class="text-white font-semibold mb-4">Main Navigation</h3>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="/" class="text-gray-400 hover:text-white transition-colors">Home</a></li>
-                        <li><a href="/about-us/" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
-                        <li><a href="/film-production-services/" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
-                        <li><a href="/filming-in-greece/" class="text-gray-400 hover:text-white transition-colors">Filming in Greece</a></li>
-                        <li><a href="/portfolio/" class="text-gray-400 hover:text-white transition-colors">Portfolio</a></li>
-                        <li><a href="/contact/" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="/" class="text-gray-400 hover:text-greece-blue transition-colors">Home</a></li>
+                        <li><a href="/about-us/" class="text-gray-400 hover:text-greece-blue transition-colors">About Us</a></li>
+                        <li><a href="/film-production-services/" class="text-gray-400 hover:text-greece-blue transition-colors">Services</a></li>
+                        <li><a href="/filming-in-greece/" class="text-gray-400 hover:text-greece-blue transition-colors">Filming in Greece</a></li>
+                        <li><a href="/portfolio/" class="text-gray-400 hover:text-greece-blue transition-colors">Portfolio</a></li>
+                        <li><a href="/contact/" class="text-gray-400 hover:text-greece-blue transition-colors">Contact</a></li>
                     </ul>
                 </div>
                 
@@ -221,11 +221,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div>
                     <h3 class="text-white font-semibold mb-4">Our Services</h3>
                     <ul class="space-y-2 text-sm">
-                        <li><a href="/pre-production-services/" class="text-gray-400 hover:text-white transition-colors">Pre-Production</a></li>
-                        <li><a href="/production-services/" class="text-gray-400 hover:text-white transition-colors">Production</a></li>
-                        <li><a href="/post-production-services/" class="text-gray-400 hover:text-white transition-colors">Post-Production</a></li>
-                        <li><a href="/film-crew/" class="text-gray-400 hover:text-white transition-colors">Film Crew</a></li>
-                        <li><a href="/content-production/" class="text-gray-400 hover:text-white transition-colors">Content Production</a></li>
+                        <li><a href="/pre-production-services/" class="text-gray-400 hover:text-greece-blue transition-colors">Pre-Production</a></li>
+                        <li><a href="/production-services/" class="text-gray-400 hover:text-greece-blue transition-colors">Production</a></li>
+                        <li><a href="/post-production-services/" class="text-gray-400 hover:text-greece-blue transition-colors">Post-Production</a></li>
+                        <li><a href="/film-crew/" class="text-gray-400 hover:text-greece-blue transition-colors">Film Crew</a></li>
+                        <li><a href="/content-production/" class="text-gray-400 hover:text-greece-blue transition-colors">Content Production</a></li>
                     </ul>
                 </div>
                 
@@ -234,23 +234,23 @@ document.addEventListener('DOMContentLoaded', function() {
                     <h3 class="text-white font-semibold mb-4">Contact Us</h3>
                     <ul class="space-y-3 text-sm">
                         <li class="flex items-start">
-                            <svg class="w-5 h-5 text-gray-400 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-4 h-4 text-gray-500 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                             </svg>
                             <div class="text-gray-400">
-                                <a href="tel:+442085492259" class="hover:text-white transition-colors">+44 (0) 20 8549 2259</a>
+                                <a href="tel:+442085492259" class="hover:text-greece-blue transition-colors">+44 (0) 20 8549 2259</a>
                             </div>
                         </li>
                         <li class="flex items-start">
-                            <svg class="w-5 h-5 text-gray-400 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-4 h-4 text-gray-500 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
                             </svg>
                             <div class="text-gray-400">
-                                <a href="mailto:enquiries@needafixer.com" class="hover:text-white transition-colors">enquiries@needafixer.com</a>
+                                <a href="mailto:enquiries@needafixer.com" class="hover:text-greece-blue transition-colors">enquiries@needafixer.com</a>
                             </div>
                         </li>
                         <li class="flex items-start">
-                            <svg class="w-5 h-5 text-gray-400 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <svg class="w-4 h-4 text-gray-500 mt-0.5 mr-2 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                             </svg>
@@ -263,10 +263,10 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             
             <!-- Bottom Bar -->
-            <div class="mt-8 pt-8 border-t border-gray-700 text-center text-sm text-gray-400">
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center text-sm text-gray-400">
                 <p>&copy; 2010-2025 NEEDaFIXER. All rights reserved. | 
-                    <a href="/privacy-policy/" class="hover:text-white transition-colors">Privacy Policy</a> | 
-                    <a href="/terms-of-service/" class="hover:text-white transition-colors">Terms of Service</a>
+                    <a href="/privacy-policy/" class="hover:text-greece-blue transition-colors">Privacy Policy</a> | 
+                    <a href="/terms-of-service/" class="hover:text-greece-blue transition-colors">Terms of Service</a>
                 </p>
             </div>
         </div>
