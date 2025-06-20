@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <!-- Logo -->
                 <div class="flex-shrink-0">
                     <a href="/" class="flex items-center">
-                        <img src="/assets/images/2016/10/needafixer-greece.png" 
+                        <img src="/assets/images/needafixer-greece-white.png" 
                              alt="NEEDaFIXER" 
                              class="h-12 w-auto">
                     </a>
@@ -166,7 +166,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="p-4">
                 <!-- Close Button -->
                 <div class="flex items-center justify-between mb-8">
-                    <img src="/assets/images/2016/10/needafixer-greece.png" 
+                    <img src="/assets/images/needafixer-greece-white.png" 
                          alt="NEEDaFIXER" 
                          class="h-10 w-auto">
                     <button id="mobile-menu-close" 
@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="grid md:grid-cols-4 gap-8">
                 <!-- Company Info -->
                 <div>
-                    <img src="/assets/images/2016/10/needafixer-greece.png" 
+                    <img src="/assets/images/needafixer-greece-white.png" 
                          alt="NEEDaFIXER" 
                          class="h-12 w-auto mb-4">
                     <p class="text-gray-400 text-sm leading-relaxed">
