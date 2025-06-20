@@ -1197,25 +1197,25 @@
 
     <!-- Page-specific JavaScript -->
     <script>
-        / Optimize video loading for performance and prevent layout shifts
+        // Optimize video loading for performance and prevent layout shifts
         window.addEventListener('load', function() {
             const video = document.querySelector('.hero-video');
             if (video) {
-                / Ensure video dimensions are set before loading
+                // Ensure video dimensions are set before loading
                 video.style.width = '100%';
                 video.style.height = '100%';
                 video.style.objectFit = 'cover';
 
-                / Load video after page load to improve initial performance
+                // Load video after page load to improve initial performance
                 video.load();
 
-                / Add loaded class and start playing after video is ready
+                // Add loaded class and start playing after video is ready
                 video.addEventListener('loadeddata', function() {
                     video.classList.add('loaded');
                     video.style.opacity = '1';
                 });
 
-                / Start playing after a short delay to ensure smooth loading
+                // Start playing after a short delay to ensure smooth loading
                 setTimeout(function() {
                     video.play().catch(function(error) {
                         console.log('Video autoplay prevented:', error);
@@ -1224,11 +1224,11 @@
             }
         });
 
-        / Wait for components to load before initializing page-specific functionality
+        // Wait for components to load before initializing page-specific functionality
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded, initializing page functionality...');
 
-            / Page-specific functionality is preserved above
+            // Page-specific functionality is preserved above
         });
     </script>
 </body>
