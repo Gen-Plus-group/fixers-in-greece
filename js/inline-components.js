@@ -106,6 +106,22 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.insertAdjacentHTML('beforeend', megaMenuStyles);
     // Header HTML
     const headerHTML = `
+    <!-- Top Bar -->
+    <div class="bg-greece-dark border-b border-gray-700 text-sm">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex flex-col md:flex-row md:justify-end items-center space-y-2 md:space-y-0 md:space-x-6 text-center md:text-right">
+                <div class="flex items-center space-x-2">
+                    <span class="text-greece-blue">📞</span>
+                    <a href="tel:+442085492259" class="text-gray-300 hover:text-greece-blue transition-colors">+44 (0) 20 8549 2259</a>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span class="text-greece-blue">✉️</span>
+                    <a href="mailto:enquiries@needafixer.com" class="text-gray-300 hover:text-greece-blue transition-colors">enquiries@needafixer.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Header -->
     <header class="bg-greece-dark border-b border-gray-800 sticky top-0 z-50">
         <div class="container mx-auto px-4">
