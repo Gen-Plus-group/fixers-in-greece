@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', function() {
     <!-- Header -->
     <header class="bg-greece-dark border-b border-gray-800 sticky top-0 z-50">
         <div class="container mx-auto px-4">
-            <div class="flex items-center justify-between h-20">
+            <div class="flex items-center justify-between h-20 py-4">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
                     <a href="/" class="flex items-center">
