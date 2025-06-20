@@ -125,3 +125,34 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
 ### Testing Commands
 - Build CSS: `npm run dev` (watch mode) or `npm run build` (production)
 - Lint/Typecheck: Need to ask user for specific commands if issues arise
+
+## Recent Work (2025-06-19)
+
+### Complete Localization from Vietnam to Greece
+- **Renamed all directories and files** containing 'vietnam' to 'greece'
+- **Updated 765 files** with Greece-specific content and branding
+- **Replaced brand colors**: 
+  - Primary: `greece-blue` (#0080ff) replacing vietnam-orange
+  - Secondary: `greece-white` (#ffffff) replacing vietnam-red
+- **Updated city references**:
+  - Hanoi → Athens
+  - Ho Chi Minh City/Saigon → Thessaloniki
+- **Fixed build script**: Corrected comment syntax errors in `build-optimized.js`
+- **Rebuilt CSS**: Successfully compiled with new Greece brand colors
+- **Updated all internal links**: All paths now reference Greece locations
+- **Modified configuration files**: `tailwind.config.js`, `package.json`, and sitemap.xml
+- **Git repository**: Committed and pushed all changes to https://github.com/Gen-Plus-group/fixers-in-greece
+
+### Files and Directories Renamed
+- `filming-in-vietnam/` → `filming-in-greece/`
+- `commercial-video-production-vietnam/` → `commercial-video-production-greece/`
+- `documentary-filming-vietnam/` → `documentary-filming-greece/`
+- `equipment-rental-vietnam/` → `equipment-rental-greece/`
+- And all other Vietnam-specific directories and files
+
+### Next Steps
+- Update contact form handler with Greece-specific information
+- Review and update meta tags for Greece SEO
+- Update Google Analytics for Greece market
+- Create Greece-specific content for key pages
+- Update logo and visual assets for Greece branding

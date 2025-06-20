@@ -258,21 +258,21 @@
   
   /* Background Utilities */
   .bg-hero {
-    background-image: url('/wp-content/uploads/2015/10/Greece-home-main-banner.jpg');
+    background-image: url('/assets/images/2015/10/Greece-home-main-banner.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   
   .bg-filming {
-    background-image: url('/wp-content/uploads/2015/10/Greece-home-filming-draft.jpg');
+    background-image: url('/assets/images/2015/10/Greece-home-filming-draft.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
   
   .bg-services {
-    background-image: url('/wp-content/uploads/2015/10/Greece-home-services-draft.jpg');
+    background-image: url('/assets/images/2015/10/Greece-home-services-draft.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

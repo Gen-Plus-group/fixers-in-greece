@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Component Test</title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <style>
+        body { background: #1a1a1a; color: white; }
+        .test-section { padding: 20px; margin: 20px; border: 2px solid #ccc; }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; padding: 20px;">Component Loading Test</h1>
+    
+    <div class="test-section">
+        <h2>Header Container:</h2>
+        <div id="header-container" style="border: 1px solid red; min-height: 50px;">
+            Loading header...
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Navigation:</h2>
+        <div id="desktop-nav" style="border: 1px solid green; min-height: 50px;">
+            Loading navigation...
+        </div>
+        <div id="mobile-navigation-content" style="border: 1px solid yellow; min-height: 50px;">
+            Loading mobile nav...
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Footer Container:</h2>
+        <div id="footer-container" style="border: 1px solid blue; min-height: 50px;">
+            Loading footer...
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Console Output:</h2>
+        <pre id="console-output" style="background: #333; padding: 10px; overflow: auto; max-height: 300px;"></pre>
+    </div>
+    
+    <script>
+        // Capture console logs
+        const output = document.getElementById('console-output');
+        const originalLog = console.log;
+        const originalError = console.error;
+        
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            output.textContent += '✅ ' + args.join(' ') + '\n';
+        };
+        
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            output.textContent += '❌ ' + args.join(' ') + '\n';
+        };
+    </script>
+    
+    <script src="/js/component-loader.js"></script>
+</body>
+</html>
