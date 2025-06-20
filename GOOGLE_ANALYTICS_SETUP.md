@@ -6,7 +6,7 @@ Google Analytics 4 (GA4) tracking has been installed across all pages of the Fix
 ## ✅ Installation Complete
 
 ### Google Analytics ID
-- **Tracking ID**: `G-FD4LC3V4DB`
+- **Tracking ID**: `G-DHKLL1DWRN`
 - **Property Type**: Google Analytics 4 (GA4)
 - **Implementation**: Global Site Tag (gtag.js)
 
@@ -61,7 +61,7 @@ gtag('event', 'form_submission_success', {
 
 / Conversion tracking
 gtag('event', 'conversion', {
-    'send_to': 'G-FD4LC3V4DB',
+    'send_to': 'G-DHKLL1DWRN',
     'event_category': 'Contact',
     'event_label': 'Lead Generated'
 });
@@ -169,7 +169,7 @@ contactButtons.forEach(button => {
 ### Debug Mode
 ```javascript
 / Enable debug mode for testing
-gtag('config', 'G-FD4LC3V4DB', {
+gtag('config', 'G-DHKLL1DWRN', {
     'debug_mode': true
 });
 ```
