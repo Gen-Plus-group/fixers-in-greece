@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## IMPORTANT: Always Push Changes
+
+**ALWAYS run `git push` after making commits. The user expects all changes to be pushed automatically after committing.**
+
 ## Project Overview
 
 This is a **static HTML website** for "Fixers in Greece" - a film production services company. The site uses **Tailwind CSS** for styling and consists of multiple HTML pages with a complex directory structure that includes legacy WordPress-generated content.
