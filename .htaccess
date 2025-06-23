@@ -1,8 +1,17 @@
-# Fixers in Vietnam - Backend Optimizations
+# Fixers in Greece - Backend Optimizations
 # Performance, Security & SEO Enhancements
 
 # Enable mod_rewrite
 RewriteEngine On
+
+# Force redirect from any WordPress URLs to static site
+RewriteCond %{REQUEST_URI} ^/wp-admin [OR]
+RewriteCond %{REQUEST_URI} ^/wp-login [OR]
+RewriteCond %{REQUEST_URI} ^/wp-content
+RewriteRule ^(.*)$ / [R=301,L]
+
+# Ensure DirectoryIndex is set properly
+DirectoryIndex index.html index.htm
 
 # Security Headers
 <IfModule mod_headers.c>
@@ -100,6 +109,20 @@ RewriteEngine On
 # Remove index.html from URLs
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(.+/)?index\.html[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L]
+
+# Handle thank-you page specifically
+RewriteRule ^thank-you/?$ /thank-you/index.html [L]
+
+# Handle clean URLs - check if directory exists with index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html [L]
+
+# Handle directory URLs - serve index.html if it exists
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.html -f
+RewriteRule ^(.*)$ $1/index.html [L]
 
 # Block common exploit attempts
 RewriteCond %{QUERY_STRING} (<|%3C).*script.*(>|%3E) [NC,OR]

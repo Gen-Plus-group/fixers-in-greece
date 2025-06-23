@@ -1,4 +1,10 @@
 {
+  "routes": [
+    {
+      "route": "/thank-you",
+      "rewrite": "/thank-you/index.html"
+    }
+  ],
   "navigationFallback": {
     "rewrite": "/index.html",
     "exclude": ["/images/*.{png,jpg,gif}", "/css/*", "/js/*", "/assets/*", "/wp-content/*", "/dist/*"]

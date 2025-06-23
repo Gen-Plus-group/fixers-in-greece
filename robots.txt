@@ -36,17 +36,26 @@ User-agent: YouBot
 Allow: /
 
 # Enhanced sitemap locations for AI discovery
-Sitemap: https://fixersinvietnam.com/sitemap.xml
-Sitemap: https://fixersinvietnam.com/sitemap-entities.xml
-Sitemap: https://fixersinvietnam.com/sitemap-services.xml
+Sitemap: https://fixersingreece.com/sitemap.xml
 
-# Block access to WordPress admin and sensitive files
+# Block access to WordPress admin and sensitive files (legacy)
 Disallow: /wp-admin/
 Disallow: /wp-includes/
 Disallow: /wp-content/plugins/
 Disallow: /wp-content/themes/
 Disallow: /wp-content/cache/
 Disallow: /wp-content/uploads/simply-static/
+
+# Block development and backup files
+Disallow: /backup/
+Disallow: /dev-archive/
+Disallow: /wordpress-backup*/
+Disallow: /*.backup
+Disallow: /*-backup.html
+Disallow: /*-original-backup.html
+Disallow: /*before-dynamic*.html
+Disallow: /*before-footer*.html
+Disallow: /*before-mobile*.html
 
 # Allow access to specific theme assets
 Allow: /wp-content/themes/*/css/
@@ -76,7 +85,7 @@ Allow: /*?format=json
 Allow: /*?format=xml
 
 # Host declaration for canonical understanding
-Host: fixersinvietnam.com
+Host: fixersingreece.com
 
 # Crawl delay for better server performance
 Crawl-delay: 1
@@ -86,3 +95,27 @@ Crawl-delay: 1
 Allow: /components/
 Allow: /schema/
 Allow: /structured-data/
+
+# Block test and temporary files
+Disallow: /test.html
+Disallow: /test-*.html
+Disallow: /css-test.html
+Disallow: /template-page.html
+Disallow: /*.py
+Disallow: /*.sh
+Disallow: /*.md
+Disallow: /*.json
+Disallow: /*.txt
+Allow: /robots.txt
+
+# Specific directories to allow for Greece site
+Allow: /filming-in-greece/
+Allow: /athens-filming/
+Allow: /thessaloniki-filming/
+Allow: /santorini-film-production/
+Allow: /film-production-services/
+Allow: /film-crew/
+Allow: /production-services/
+Allow: /post-production-services/
+Allow: /pre-production-services/
+Allow: /content-production/
