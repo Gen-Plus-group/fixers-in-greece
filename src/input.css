@@ -175,6 +175,14 @@
   }
   
   /* Portfolio Components */
+  .portfolio-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin-top: 2rem;
+  }
+  
   .portfolio-item {
     @apply relative overflow-hidden rounded-lg shadow-lg group cursor-pointer;
   }

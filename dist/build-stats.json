@@ -1,9 +1,9 @@
 {
-  "timestamp": "2025-06-23T12:31:12.107Z",
-  "buildTime": "1348ms",
-  "inputSize": "8.82 KB",
+  "timestamp": "2025-06-23T12:43:12.765Z",
+  "buildTime": "1296ms",
+  "inputSize": "9.03 KB",
   "outputSize": "54.64 KB",
-  "compression": "-519.37%",
+  "compression": "-505.24%",
   "files": {
     "input": "src/input.css",
     "output": "dist/output.css"
