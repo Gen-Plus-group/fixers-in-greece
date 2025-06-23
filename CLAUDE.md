@@ -160,3 +160,62 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
 - Update Google Analytics for Greece market
 - Create Greece-specific content for key pages
 - Update logo and visual assets for Greece branding
+
+## Recent Work (2025-06-23)
+
+### Portfolio Updates - Commercials & Branded Content
+- **Created 20 portfolio pages** for commercial projects from NAF Greece
+- **Downloaded and stored GIF thumbnails** in `/assets/images/portfolio/` directory
+- **Updated category page** to display all 20 projects without pagination
+- **Added video embeds** for 18 projects (17 Vimeo, 1 YouTube)
+- **Fixed layout issues**: Centered titles, updated project count, removed Load More button
+- **Created 7 additional portfolio pages** for missing projects:
+  - Elounda Gulf Happiness
+  - Kenshō Awakening  
+  - Abaton Sanctuary
+  - Santanna Mykonos
+  - Canaves Time Stops
+  - Angsana Corfu
+  - Galileo Wige
+
+### Music Videos Category
+- **Updated Music Videos category page** with 3 real projects from NAF Greece:
+  - Keen'V: Dis toi que c'est la vie
+  - The Temper Trap: Fall Together
+  - Alesha Dixon: The Way We Are
+- **Created portfolio pages** for all 3 music video projects
+- **Added video embeds**: All 3 projects now have Vimeo videos embedded
+- **Updated thumbnails** with correct images from Squarespace CDN
+- **Removed filter menu** (All Projects, International, Greek Artists) for cleaner UI
+
+### Homepage Updates
+- **Fixed portfolio-hero CSS class** with margin-top: 2rem
+- **Updated company introduction**: 
+  - Changed to exclusive focus on Greece (removed Southeast Asia)
+  - Fixed language from "Greeceese" to "Greek"
+- **Replaced portfolio section** with 4-category grid from portfolio page:
+  - Music Videos (3 Projects)
+  - Drama & Entertainment (12 Projects)
+  - Documentaries (25 Projects)
+  - Commercials & Branded Content (20 Projects)
+
+### Content Production Page Redesign
+- **Reorganized layout** to match Post-Production Services page style
+- **Created 4 main categories** from 17 individual services:
+  - Broadcast & Television (6 services)
+  - Commercial & Corporate (4 services)
+  - Documentary & Factual (3 services)
+  - Digital & Creative Content (5 services)
+- **Changed to compact grid layout** (3-4 columns) from large cards
+- **Removed "Learn More" links** for cleaner presentation
+
+### Form Updates
+- **Updated contact form** with new Formspree ID: xkgbqrdp
+- **Maintained form structure** and validation
+
+### Key Technical Updates
+- **Always push after commits** - Added to configuration as per user preference
+- **Consistent portfolio page template** with hero, video embed, services, and related projects
+- **Responsive aspect-video containers** for all video embeds
+- **Schema.org markup** for all portfolio pages
+- **Navigation between portfolio items** maintained throughout
