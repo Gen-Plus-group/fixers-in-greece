@@ -49,6 +49,9 @@
         <div class="test-item" id="counter-test">
             <span class="pending">⏳</span> Character Counter
         </div>
+        <div class="test-item" id="select2-test">
+            <span class="pending">⏳</span> Searchable Multi-Select (Select2)
+        </div>
     </div>
 
     <div class="test-section">
@@ -97,6 +100,13 @@
                 document.querySelector('#date-test .pending').innerHTML = '<span class="pass">✓</span>';
             } else {
                 document.querySelector('#date-test .pending').innerHTML = '<span class="fail">✗</span>';
+            }
+
+            // Check Select2
+            if (typeof jQuery !== 'undefined' && jQuery.fn.select2) {
+                document.querySelector('#select2-test .pending').innerHTML = '<span class="pass">✓</span>';
+            } else {
+                document.querySelector('#select2-test .pending').innerHTML = '<span class="fail">✗</span>';
             }
 
             // These would need actual form testing

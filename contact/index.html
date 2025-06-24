@@ -33,6 +33,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
     
+    <!-- Select2 CSS for searchable multi-select -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
     <script>
@@ -282,6 +285,76 @@
                 display: none; /* Hide on mobile/tablet - use mobile menu instead */
             overflow-x: hidden;}
         }
+        
+        /* Select2 Custom Dark Theme Styling */
+        .select2-container--default .select2-selection--multiple {
+            background-color: #2d3748;
+            border: 1px solid #4a5568;
+            border-radius: 0.375rem;
+            min-height: 42px;
+            padding: 2px 8px;
+        }
+        
+        .select2-container--default.select2-container--focus .select2-selection--multiple {
+            border-color: #f9a531;
+        }
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__choice {
+            background-color: #f9a531;
+            color: #000;
+            border: none;
+            border-radius: 0.25rem;
+            padding: 2px 8px;
+            margin: 3px 4px 3px 0;
+        }
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+            color: #000;
+            margin-right: 5px;
+            font-weight: bold;
+        }
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+            color: #ff0000;
+        }
+        
+        .select2-dropdown {
+            background-color: #2d3748;
+            border: 1px solid #4a5568;
+        }
+        
+        .select2-container--default .select2-results__option {
+            color: #e2e8f0;
+            padding: 8px 12px;
+        }
+        
+        .select2-container--default .select2-results__option--highlighted[aria-selected] {
+            background-color: #f9a531;
+            color: #000;
+        }
+        
+        .select2-container--default .select2-results__option[aria-selected=true] {
+            background-color: #4a5568;
+        }
+        
+        .select2-container--default .select2-search--inline .select2-search__field {
+            color: #fff;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            padding: 3px 0;
+            margin-top: 0;
+        }
+        
+        .select2-container--default .select2-results__group {
+            color: #f9a531;
+            font-weight: bold;
+            padding: 6px 12px;
+        }
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__placeholder {
+            color: #a0aec0;
+        }
         </style>
 </head>
 
@@ -414,7 +487,7 @@
                                             class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200">
                                         <option value="">Select Project Type</option>
                                         <option value="documentary">Documentary</option>
-                                        <option value="commercial">commercial production Greece</option>
+                                        <option value="commercial">Commercial Production</option>
                                         <option value="news">News/Current Affairs</option>
                                         <option value="corporate">Corporate Video</option>
                                         <option value="music-video">Music Video</option>
@@ -428,95 +501,36 @@
                                 
                                 <div>
                                     <label for="services" class="block text-sm font-medium text-gray-300 mb-2">Services Needed</label>
-                                    <div class="grid md:grid-cols-2 gap-2">
-                                        <!-- Core production services Greece -->
-                                        <div class="space-y-2">
-                                            <h4 class="text-sm font-semibold text-greece-blue mb-2">Core Production</h4>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="location-scouting" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">location scouting Greece</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="equipment-rental" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Equipment Rental</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="permits" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">film permits Greece</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="crew" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Local Crew</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="drone-filming" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Drone Filming</span>
-                                            </label>
-                                        </div>
-                                        
-                                        <!-- Media production services Greece -->
-                                        <div class="space-y-2">
-                                            <h4 class="text-sm font-semibold text-greece-blue mb-2">Media Production</h4>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="documentary" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Documentary Services</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="commercial-production" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">commercial production Greece</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="corporate-video" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Corporate Video</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="music-video" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Music video production Greece</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="event-filming" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Event Filming</span>
-                                            </label>
-                                        </div>
-                                        
-                                        <!-- Specialized Services -->
-                                        <div class="space-y-2">
-                                            <h4 class="text-sm font-semibold text-greece-blue mb-2">Specialized Services</h4>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="live-streaming" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Live Streaming</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="news-filming" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">News & Current Affairs</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="post-production" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Post-Production</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="translation" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Translation Services</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="casting" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Casting Services</span>
-                                            </label>
-                                        </div>
-                                        
-                                        <!-- Support Services -->
-                                        <div class="space-y-2">
-                                            <h4 class="text-sm font-semibold text-greece-blue mb-2">Support Services</h4>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="equipment-transport" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Equipment Transport</span>
-                                            </label>
-                                            <label class="flex items-center">
-                                                <input type="checkbox" name="services[]" value="full-production" class="mr-2 text-greece-blue">
-                                                <span class="text-gray-300 text-sm">Full Production Support</span>
-                                            </label>
-                                        </div>
-                                    </div>
+                                    <select id="services" name="services[]" multiple="multiple"
+                                            class="w-full services-select"
+                                            placeholder="Search and select services...">
+                                        <optgroup label="Core Production">
+                                            <option value="location-scouting">Location Scouting Greece</option>
+                                            <option value="equipment-rental">Equipment Rental</option>
+                                            <option value="permits">Film Permits Greece</option>
+                                            <option value="crew">Local Crew</option>
+                                            <option value="drone-filming">Drone Filming</option>
+                                        </optgroup>
+                                        <optgroup label="Media Production">
+                                            <option value="documentary">Documentary Services</option>
+                                            <option value="commercial-production">Commercial Production Greece</option>
+                                            <option value="corporate-video">Corporate Video</option>
+                                            <option value="music-video">Music Video Production Greece</option>
+                                            <option value="event-filming">Event Filming</option>
+                                        </optgroup>
+                                        <optgroup label="Specialized Services">
+                                            <option value="live-streaming">Live Streaming</option>
+                                            <option value="news-filming">News & Current Affairs</option>
+                                            <option value="post-production">Post-Production</option>
+                                            <option value="translation">Translation Services</option>
+                                            <option value="casting">Casting Services</option>
+                                        </optgroup>
+                                        <optgroup label="Support Services">
+                                            <option value="equipment-transport">Equipment Transport</option>
+                                            <option value="full-production">Full Production Support</option>
+                                        </optgroup>
+                                    </select>
+                                    <div class="error-message text-red-400 text-sm mt-1 hidden" id="services-error"></div>
                                 </div>
                                 
                                 <!-- Date Range Picker -->
@@ -702,6 +716,12 @@
 
     <!-- Flatpickr Date Picker -->
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    
+    <!-- jQuery (required for Select2) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Select2 for searchable multi-select -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 
     <!-- JavaScript -->
     <script>
@@ -771,6 +791,22 @@
                 formatOnDisplay: true,
                 autoPlaceholder: "aggressive"
             });
+            
+            / Initialize Select2 for services multi-select
+            $('#services').select2({
+                placeholder: "Search and select services...",
+                allowClear: true,
+                width: '100%',
+                closeOnSelect: false,
+                tags: false,
+                maximumSelectionLength: 0,
+                minimumInputLength: 0,
+                language: {
+                    noResults: function() {
+                        return "No services found";
+                    }
+                }
+            });
 
             / Initialize Date Pickers
             const today = new Date();
@@ -826,7 +862,7 @@
             const originalButtonText = submitButton.textContent;
 
             / Add real-time validation to all form fields
-            const fields = ['first-name', 'last-name', 'email', 'company', 'phone', 'project-type', 'message'];
+            const fields = ['first-name', 'last-name', 'email', 'company', 'phone', 'project-type', 'services', 'message'];
 
             fields.forEach(fieldId => {
                 const field = document.getElementById(fieldId);
@@ -839,6 +875,11 @@
                         }
                     });
                 }
+            });
+            
+            // Special handling for Select2 change events
+            $('#services').on('change', function() {
+                clearFieldError('services');
             });
 
             / Form submission handler
@@ -935,6 +976,10 @@
                         isValid = false;
                         errorMessage = 'Please select a project type.';
                     }
+                    break;
+                    
+                case 'services':
+                    // Services is optional, no validation needed
                     break;
 
                 case 'message':
