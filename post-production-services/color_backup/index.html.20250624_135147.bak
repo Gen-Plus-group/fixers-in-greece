@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Post-Production Services Greece | Professional Video Editing & Finishing Greece | NEEDaFIXER</title>
+    <meta name="description" content="Comprehensive post-production services including video editing, color grading, VFX, audio post, and delivery. Professional editing and finishing solutions worldwide. in Greece">
+    <meta name="keywords" content="post-production services, video editing, color grading, VFX, audio post, film editing, video finishing">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Post-Production Services | Professional Video Editing & Finishing | NEEDaFIXER">
+    <meta property="og:description" content="Comprehensive post-production services including video editing, color grading, VFX, audio post, and delivery. Professional editing and finishing solutions worldwide. in Greece">
+    <meta property="og:url" content="/post-production-services/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/post-production-services/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/31.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+        /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px);
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px;
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0;
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 30px 40px;
+        }
+        
+        .mega-menu h4 {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #0080ff;
+            margin-bottom: 12px;
+        }
+        
+        .mega-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .mega-menu ul li {
+            margin-bottom: 8px;
+        }
+        
+        .mega-menu ul li a {
+            color: #ccc;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+            display: block;
+            padding: 2px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        .mega-menu ul li a:hover {
+            color: #0080ff;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Post-Production Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Transform your raw footage into polished, professional content with our comprehensive post-production solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Our comprehensive post-production services transform raw footage into polished, professional content that captivates audiences and achieves creative objectives. From initial assembly through final delivery, our experienced post-production team combines technical expertise with artistic vision to craft compelling narratives, enhance visual aesthetics, and ensure pristine audio quality. We offer complete editing solutions, advanced color grading, sophisticated visual effects, professional audio post-production, and multi-platform delivery services that bring your creative vision to life while meeting the highest industry standards for broadcast, theatrical, and digital distribution worldwide.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Post-production excellence requires seamless integration of creative storytelling, technical precision, and efficient workflow management to transform raw production elements into finished masterpieces. Our state-of-the-art facilities feature cutting-edge editing suites, color grading theaters, audio mixing studios, and VFX workstations equipped with industry-standard software and calibrated monitoring systems. We collaborate closely with directors, producers, and creative teams to understand narrative goals, refine visual aesthetics, and optimize technical specifications while maintaining project schedules and budgetary requirements throughout the post-production process.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Whether you're producing feature films, television series, commercials, documentaries, or digital content, our post-production services adapt to any genre, format, and distribution platform while maintaining consistency and quality across all deliverables. We provide end-to-end post-production solutions including offline and online editing, color correction and creative grading, motion graphics and visual effects, sound design and mixing, subtitling and versioning, plus comprehensive quality control and delivery services that ensure your content meets technical specifications and creative expectations for successful distribution across global markets.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Complete Post-Production Solutions</h2>
+                    
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <div class="text-3xl mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Creative Excellence</h3>
+                            <p class="text-gray-300">Award-winning editors and artists bringing stories to life with technical precision and artistic vision.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <div class="text-3xl mb-4">🎨</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">State-of-the-Art Facilities</h3>
+                            <p class="text-gray-300">Industry-standard software and calibrated systems ensuring broadcast-quality results.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <div class="text-3xl mb-4">🌐</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Standards</h3>
+                            <p class="text-gray-300">Meeting international specifications for theatrical, broadcast, and streaming distribution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid Section -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Our Post-Production Services</h2>
+                    
+                    <!-- Editing & Assembly -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Editing & Assembly</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/post-production-services/editing-assembly/video-editing/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Video Editing</h4>
+                                <p class="text-gray-300 text-sm">Professional editing services</p>
+                            </a>
+                            <a href="/post-production-services/editing-assembly/rough-cut-final-cut/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Rough Cut to Final Cut</h4>
+                                <p class="text-gray-300 text-sm">Complete editing workflow</p>
+                            </a>
+                            <a href="/post-production-services/editing-assembly/narrative-documentary-editing/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Narrative & Documentary</h4>
+                                <p class="text-gray-300 text-sm">Specialized genre editing</p>
+                            </a>
+                            <a href="/post-production-services/editing-assembly/multi-cam-sync-editing/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Multi-Cam Sync Editing</h4>
+                                <p class="text-gray-300 text-sm">Multi-angle synchronization</p>
+                            </a>
+                            <a href="/post-production-services/editing-assembly/interview-dialogue-editing/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Interview & Dialogue</h4>
+                                <p class="text-gray-300 text-sm">Conversation editing expertise</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Color & Visual Finishing -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Color & Visual Finishing</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/post-production-services/color-visual-finishing/color-correction/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Color Correction</h4>
+                                <p class="text-gray-300 text-sm">Technical color balancing</p>
+                            </a>
+                            <a href="/post-production-services/color-visual-finishing/color-grading/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Color Grading</h4>
+                                <p class="text-gray-300 text-sm">Creative color enhancement</p>
+                            </a>
+                            <a href="/post-production-services/color-visual-finishing/online-conform-qc/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Online Conform & QC</h4>
+                                <p class="text-gray-300 text-sm">Finishing and quality control</p>
+                            </a>
+                            <a href="/post-production-services/color-visual-finishing/look-development/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Look Development</h4>
+                                <p class="text-gray-300 text-sm">Visual style creation</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Motion & VFX -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Motion & VFX</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/post-production-services/motion-vfx/motion-graphics/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Motion Graphics</h4>
+                                <p class="text-gray-300 text-sm">Dynamic animation design</p>
+                            </a>
+                            <a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">VFX Compositing</h4>
+                                <p class="text-gray-300 text-sm">Visual effects integration</p>
+                            </a>
+                            <a href="/post-production-services/motion-vfx/cgi-3d-animation/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">CGI & 3D Animation</h4>
+                                <p class="text-gray-300 text-sm">Computer-generated imagery</p>
+                            </a>
+                            <a href="/post-production-services/motion-vfx/title-design-credits/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Title Design & Credits</h4>
+                                <p class="text-gray-300 text-sm">Opening titles and end credits</p>
+                            </a>
+                            <a href="/post-production-services/motion-vfx/matte-painting-environments/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Matte Painting</h4>
+                                <p class="text-gray-300 text-sm">Digital environment creation</p>
+                            </a>
+                            <a href="/post-production-services/motion-vfx/rotoscoping-cleanup/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Rotoscoping & Cleanup</h4>
+                                <p class="text-gray-300 text-sm">Precision masking and cleanup</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Audio Post -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Audio Post</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/post-production-services/audio-post/sound-design/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Sound Design</h4>
+                                <p class="text-gray-300 text-sm">Creative audio landscapes</p>
+                            </a>
+                            <a href="/post-production-services/audio-post/foley-recording/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Foley Recording</h4>
+                                <p class="text-gray-300 text-sm">Custom sound effects</p>
+                            </a>
+                            <a href="/post-production-services/audio-post/dialogue-editing-adr/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Dialogue & ADR</h4>
+                                <p class="text-gray-300 text-sm">Voice recording and sync</p>
+                            </a>
+                            <a href="/post-production-services/audio-post/music-composition-scoring/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Music & Scoring</h4>
+                                <p class="text-gray-300 text-sm">Original music composition</p>
+                            </a>
+                            <a href="/post-production-services/audio-post/audio-mixing-mastering/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Mixing & Mastering</h4>
+                                <p class="text-gray-300 text-sm">Professional audio finishing</p>
+                            </a>
+                            <a href="/post-production-services/audio-post/5-1-surround-mixing/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">5.1 Surround Mixing</h4>
+                                <p class="text-gray-300 text-sm">Immersive audio experiences</p>
+                            </a>
+                            <a href="/post-production-services/audio-post/audio-restoration/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Audio Restoration</h4>
+                                <p class="text-gray-300 text-sm">Noise reduction and cleanup</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Delivery & Output -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Delivery & Output</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/post-production-services/delivery-output/digital-cinema-package-dcp/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">DCP Creation</h4>
+                                <p class="text-gray-300 text-sm">Cinema distribution packages</p>
+                            </a>
+                            <a href="/post-production-services/delivery-output/broadcast-delivery/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Broadcast Delivery</h4>
+                                <p class="text-gray-300 text-sm">TV broadcast specifications</p>
+                            </a>
+                            <a href="/post-production-services/delivery-output/streaming-platform-delivery/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Streaming Platforms</h4>
+                                <p class="text-gray-300 text-sm">Netflix, Amazon, and more</p>
+                            </a>
+                            <a href="/post-production-services/delivery-output/archival-preservation/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Archival & Preservation</h4>
+                                <p class="text-gray-300 text-sm">Long-term storage solutions</p>
+                            </a>
+                            <a href="/post-production-services/delivery-output/format-conversion-encoding/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Format Conversion</h4>
+                                <p class="text-gray-300 text-sm">Multi-format transcoding</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our Post-Production Services</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🏆</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Award-Winning Team</h3>
+                            <p class="text-gray-300">Industry-recognized editors and artists with extensive experience in all genres.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Fast Turnaround</h3>
+                            <p class="text-gray-300">Efficient workflows and dedicated teams ensure timely delivery without compromising quality.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🔧</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Latest Technology</h3>
+                            <p class="text-gray-300">State-of-the-art facilities with industry-standard software and calibrated systems.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Standards</h3>
+                            <p class="text-gray-300">Meeting international broadcast and streaming specifications for worldwide distribution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Ready to Polish Your Production?</h2>
+                <p class="text-xl text-white mb-8">Let's transform your raw footage into stunning finished content.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for post-production-services, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

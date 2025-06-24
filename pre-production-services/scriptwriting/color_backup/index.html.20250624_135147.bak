@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Professional Scriptwriting Services | Expert Screenwriters | NEEDaFIXER</title>
+    <meta name="description" content="Professional scriptwriting services for films, TV, commercials, and digital content. Expert screenwriters worldwide.">
+    <meta name="keywords" content="scriptwriting, pre-production services, film production Greece, creative & development">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Professional Scriptwriting Services | Expert Screenwriters | NEEDaFIXER">
+    <meta property="og:description" content="Professional scriptwriting services for films, TV, commercials, and digital content. Expert screenwriters worldwide.">
+    <meta property="og:url" content="/pre-production-services/scriptwriting/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/scriptwriting/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/47.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Professional Scriptwriting Services",
+        "description": "Professional scriptwriting services for films, TV, commercials, and digital content. Expert screenwriters worldwide.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Creative & Development",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Professional Scriptwriting Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Expert screenwriters for films, TV, commercials, and digital content worldwide.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scriptwriting Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Scriptwriting Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Professional scriptwriting services for films, commercials, documentaries, and digital content. Expert screenwriters delivering compelling narratives with international standards and cultural authenticity.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Feature Film Scripts -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎬</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Feature Film Scripts</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Original screenplay development</li>
+                            <li>• Adaptation from novels/stories</li>
+                            <li>• Script doctoring & rewrites</li>
+                            <li>• Character development</li>
+                            <li>• Dialogue enhancement</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Cinematic Storytelling</span>
+                        </div>
+                    </div>
+
+                    <!-- Commercial Scripts -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📺</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Commercial Scripts</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• TV commercial concepts</li>
+                            <li>• Digital advertising copy</li>
+                            <li>• Brand storytelling</li>
+                            <li>• Product demonstration scripts</li>
+                            <li>• Multi-format adaptations</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Brand Messaging</span>
+                        </div>
+                    </div>
+
+                    <!-- Documentary Scripts -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📖</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Documentary Scripts</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Treatment development</li>
+                            <li>• Interview question design</li>
+                            <li>• Narrative structure planning</li>
+                            <li>• Voice-over scripts</li>
+                            <li>• Research integration</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Factual Storytelling</span>
+                        </div>
+                    </div>
+
+                    <!-- Digital Content Scripts -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">💻</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Digital Content Scripts</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Web series episodes</li>
+                            <li>• Social media content</li>
+                            <li>• Corporate videos</li>
+                            <li>• Training materials</li>
+                            <li>• Interactive content</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Digital Engagement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Writing Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Scriptwriting Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Experienced screenwriters with deep understanding of narrative structure, character development, and genre conventions delivering scripts that resonate with audiences and meet production requirements.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Writing Expertise & Process</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Narrative Development</h4>
+                                <p class="text-gray-300">Expert story structure development using proven methodologies including three-act structure, hero's journey, and genre-specific conventions. Character arc development, conflict escalation, and thematic integration ensuring compelling narratives that engage audiences. Extensive experience across genres including drama, comedy, thriller, documentary, and commercial content with cultural sensitivity for international productions.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Research & Authenticity</h4>
+                                <p class="text-gray-300">Comprehensive research capabilities for historical accuracy, cultural authenticity, and technical precision. Access to local experts, cultural consultants, and subject matter specialists ensuring authentic representation of Greeceese culture and international perspectives. Fact-checking, source verification, and cultural sensitivity review processes maintaining credibility and avoiding stereotypes or misrepresentation.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Collaboration & Revision</h4>
+                                <p class="text-gray-300">Collaborative writing process with directors, producers, and stakeholders ensuring creative vision alignment. Multiple draft iterations, feedback integration, and script polishing services. Real-time collaboration tools, version control systems, and detailed revision tracking. Professional script formatting using industry-standard software including Final Draft, WriterDuet, and Celtx ensuring proper presentation and production readiness.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Project Statistics</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">500+</div>
+                                    <div class="text-sm text-gray-300">Scripts Written</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">72h</div>
+                                    <div class="text-sm text-gray-300">Rush Script Delivery</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">15+</div>
+                                    <div class="text-sm text-gray-300">Languages Supported</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">98%</div>
+                                    <div class="text-sm text-gray-300">Client Satisfaction</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Industry-standard formatting and presentation</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Cultural authenticity and sensitivity review</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Multiple revision rounds included</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Confidentiality and IP protection guaranteed</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scriptwriting Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Scriptwriting</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">✍️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Award-Winning Writers</h3>
+                                <p class="text-gray-300">Professional screenwriters with international recognition, film festival awards, and produced credits across multiple genres and formats.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🌏</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Cultural Expertise</h3>
+                                <p class="text-gray-300">Deep understanding of Greeceese culture and international perspectives enabling authentic cross-cultural storytelling and market-specific content.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Turnaround</h3>
+                                <p class="text-gray-300">Fast delivery without compromising quality. Rush projects completed in 72 hours, standard projects within 1-2 weeks depending on scope.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎯</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Genre Specialization</h3>
+                                <p class="text-gray-300">Specialized expertise across all genres including drama, comedy, action, horror, documentary, and commercial content with proven track records.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Scriptwriting Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Story Development</h3>
+                                <p class="text-gray-300">Concept refinement, character development, and narrative structure planning with detailed treatment creation.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">First Draft</h3>
+                                <p class="text-gray-300">Professional script writing with proper formatting, dialogue crafting, and scene construction following industry standards.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Revision & Polish</h3>
+                                <p class="text-gray-300">Multiple revision rounds incorporating feedback, dialogue enhancement, and structural refinements for optimal impact.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Final Delivery</h3>
+                                <p class="text-gray-300">Production-ready script with shooting script formatting, scene breakdowns, and character notes for seamless production transition.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">The script exceeded our expectations. The dialogue was natural and the story structure was perfect for our international co-production. Their understanding of both Greeceese and Western storytelling conventions was invaluable.</p>
+                                <p class="text-greece-blue font-semibold">— James Chen, Producer</p>
+                                <p class="text-gray-400 text-sm">Feature Film Project</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Fast turnaround without compromising quality. They delivered our commercial scripts in 48 hours and every single one was production-ready. Professional formatting and creative concepts that resonated with our target audience.</p>
+                                <p class="text-greece-blue font-semibold">— Lisa Nguyen, Creative Director</p>
+                                <p class="text-gray-400 text-sm">Commercial Campaign</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their documentary treatment and interview scripts helped us secure funding and streamline our production process. The research depth and cultural sensitivity were exactly what we needed for our Greece-focused project.</p>
+                                <p class="text-greece-blue font-semibold">— Michael Rodriguez, Director</p>
+                                <p class="text-gray-400 text-sm">Documentary Series</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scriptwriting FAQ -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Scriptwriting FAQ
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Essential information for planning your scriptwriting project in Greece.
+                    </p>
+                </div>
+
+                <div class="max-w-4xl mx-auto space-y-6">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What are typical turnaround times for scriptwriting projects?</h3>
+                        <p class="text-gray-300">
+                            Turnaround times depend on project scope and complexity. Short commercial scripts: 24-48 hours. Feature film treatments: 1-2 weeks. Full feature screenplays: 4-8 weeks. Documentary scripts and treatments: 1-3 weeks. TV episode scripts: 3-7 days. Rush projects available with 50% premium pricing. We provide detailed timelines during initial consultation including revision rounds and feedback integration periods.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you ensure cultural authenticity in Greeceese-themed projects?</h3>
+                        <p class="text-gray-300">
+                            Our team includes native Greeceese writers and cultural consultants ensuring authentic representation. We conduct thorough research on historical periods, social customs, and contemporary Greeceese culture. Language authenticity review for dialogue, cultural sensitivity screening, and local expert consultation. We avoid stereotypes and ensure respectful portrayal while maintaining dramatic effectiveness and international appeal for co-productions.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What are your pricing structures for scriptwriting services?</h3>
+                        <p class="text-gray-300">
+                            Pricing varies by project type and length. Commercial scripts: $500-2,000 USD. Short film scripts (under 30 minutes): $1,500-5,000 USD. Feature film screenplays: $5,000-25,000 USD. Documentary treatments and scripts: $2,000-8,000 USD. TV episode scripts: $2,000-7,000 USD. Package deals available for series or multiple projects. Rush delivery incurs 50-100% premium. Payment plans available for larger projects.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Can you adapt existing material or work from treatments?</h3>
+                        <p class="text-gray-300">
+                            Yes, we specialize in adaptations from novels, short stories, true events, and existing treatments. Rights clearance consultation, source material analysis, and adaptation strategy development. We maintain the essence of original material while optimizing for visual storytelling. Experience with international co-productions requiring cultural adaptation and market-specific modifications. Legal consultation available for rights and adaptation agreements.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How many revision rounds are included in your scriptwriting services?</h3>
+                        <p class="text-gray-300">
+                            Standard packages include 3 revision rounds after first draft delivery. Additional revisions available at hourly rates. Major structural changes may require renegotiation. We use collaborative platforms for feedback integration, version control, and real-time comments. Revision scope clearly defined in contracts including dialogue polish, scene restructuring, and character development refinements. Rush revisions available for urgent production schedules.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide script formatting and industry-standard presentation?</h3>
+                        <p class="text-gray-300">
+                            All scripts delivered in industry-standard formatting using Final Draft, WriterDuet, or client-preferred software. Proper scene headings, character names, dialogue formatting, and action lines. Shooting script formatting available including scene numbers, camera directions, and production notes. PDF and editable formats provided. Script breakdown services available for production planning including character lists, location requirements, and prop inventories.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Can you write scripts in multiple languages or provide translation services?</h3>
+                        <p class="text-gray-300">
+                            We write original scripts in English and Greeceese with native-level fluency. Translation services available for existing scripts between Greeceese, English, and other major languages. Bilingual script development for international co-productions. Cultural adaptation beyond literal translation ensuring dialogue authenticity and cultural relevance. Subtitle-friendly writing for international distribution and localization requirements.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you handle intellectual property and confidentiality?</h3>
+                        <p class="text-gray-300">
+                            Comprehensive NDAs signed before project commencement. All intellectual property rights transfer to client upon final payment unless otherwise specified. Secure file handling, encrypted communications, and confidential project management. No script content shared or used for promotional purposes without explicit permission. Legal consultation available for complex IP arrangements and co-development agreements. Professional discretion maintained throughout development process.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Bring Your Story to Life?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional scriptwriting that transforms ideas into compelling narratives, crafted with cultural authenticity and international appeal for successful productions.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Start Your Script
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Our Work
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/scriptwriting, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

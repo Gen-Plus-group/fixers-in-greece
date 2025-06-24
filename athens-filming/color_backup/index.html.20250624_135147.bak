@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Athens Filming Services | Greece video production Greece</title>
+    <meta name="description" content="Professional filming services in Athens, Greece. Ancient landmarks, modern cityscape, and Mediterranean settings for your film production Greece.">
+    <meta name="keywords" content="Athens filming, Greece film production Greece, Athens video production Greece, Acropolis filming, Plaka filming, Greek urban filming">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/athens-filming/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Athens Filming Services | Greece video production Greece">
+    <meta property="og:description" content="Professional filming services in Athens, Greece. Ancient landmarks, modern cityscape, and Mediterranean settings for your film production Greece.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/athens-filming/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/20.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-6">
+                    Athens Filming Services
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8">
+                    Professional filming services in Athens, Greece. Ancient landmarks, modern cityscape, and Mediterranean settings for your film production Greece.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#content" 
+                       class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                        Learn More
+                    </a>
+                    <a href="/contact/" 
+                       class="inline-block bg-transparent border-2 border-greece-blue text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-greece-blue hover:text-black transition-colors duration-200">
+                        Get Quote
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Athens Services -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Athens Filming Services
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Professional filming services in Greece's historic capital, offering ancient monuments, modern architecture, and vibrant Mediterranean culture.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Ancient Landmarks -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🏛️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Ancient Landmarks</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Acropolis & Parthenon</li>
+                            <li>• Ancient Agora</li>
+                            <li>• Temple of Olympian Zeus</li>
+                            <li>• Odeon of Herodes Atticus</li>
+                            <li>• National Archaeological Museum</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Historic Heritage</span>
+                        </div>
+                    </div>
+
+                    <!-- Modern Athens -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🏙️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Modern Cityscape</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Syntagma Square</li>
+                            <li>• Athens Riviera</li>
+                            <li>• Stavros Niarchos Foundation</li>
+                            <li>• Business district</li>
+                            <li>• Contemporary architecture</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Urban Settings</span>
+                        </div>
+                    </div>
+
+                    <!-- Mediterranean Life -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🌊</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Mediterranean Culture</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Plaka neighborhood</li>
+                            <li>• Traditional tavernas</li>
+                            <li>• Central Market</li>
+                            <li>• Monastiraki flea market</li>
+                            <li>• Coastal locations</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Authentic Greece</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- District Guide -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Filming by Neighborhood
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Each Athenian neighborhood offers unique filming opportunities from ancient quarters to modern districts.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Plaka -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏺</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Plaka</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Old town charm</li>
+                            <li>• Neoclassical architecture</li>
+                            <li>• Traditional streets</li>
+                            <li>• Acropolis views</li>
+                            <li>• Tourist atmosphere</li>
+                        </ul>
+                    </div>
+
+                    <!-- Kolonaki -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">💎</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Kolonaki</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Upscale district</li>
+                            <li>• Designer boutiques</li>
+                            <li>• Art galleries</li>
+                            <li>• Lycabettus Hill</li>
+                            <li>• Elegant cafes</li>
+                        </ul>
+                    </div>
+
+                    <!-- Psyrri -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🎨</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Psyrri</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Arts district</li>
+                            <li>• Street art murals</li>
+                            <li>• Nightlife venues</li>
+                            <li>• Creative spaces</li>
+                            <li>• Alternative culture</li>
+                        </ul>
+                    </div>
+
+                    <!-- Glyfada -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏖️</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Glyfada</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Athens Riviera</li>
+                            <li>• Beach settings</li>
+                            <li>• Marina locations</li>
+                            <li>• Seaside promenades</li>
+                            <li>• Modern suburbs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Iconic Athens Locations -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Iconic Athens filming locations Greece
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        World-renowned archaeological sites and modern landmarks that showcase Athens' unique blend of ancient history and contemporary life.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Landmark Locations</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Acropolis & Parthenon</h4>
+                                <p class="text-gray-300">The crown jewel of Athens offering breathtaking views and iconic ancient Greek architecture. UNESCO World Heritage site perfect for historical documentaries, establishing shots, and cultural productions with special permits for sunrise/sunset filming.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">National Gardens & Zappeion</h4>
+                                <p class="text-gray-300">15-hectare green oasis in the city center featuring neoclassical Zappeion Hall. Tranquil paths, ancient ruins, and Mediterranean flora provide versatile filming locations Greece for romantic scenes, period dramas, and contemporary narratives.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Stavros Niarchos Foundation Cultural Center</h4>
+                                <p class="text-gray-300">Stunning modern architecture by Renzo Piano featuring the National Opera House and National Library. Glass facades, artificial hill park, and canal offer contemporary urban backdrops perfect for modern productions and architectural showcases.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Athenian Character</h3>
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">2,500+</div>
+                                    <div class="text-sm text-gray-300">Years of History</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">300+</div>
+                                    <div class="text-sm text-gray-300">Days of Sunshine</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">4M</div>
+                                    <div class="text-sm text-gray-300">Metro Population</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100+</div>
+                                    <div class="text-sm text-gray-300">Archaeological Sites</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Ancient monuments with modern cityscape</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Mediterranean light perfect for filming</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Diverse architectural styles spanning millennia</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Vibrant street life and cultural authenticity</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filming Logistics -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Athens Filming Logistics & Support
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Comprehensive production support tailored to Athens' unique filming environment and regulations.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Permits & Access -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Permits & Access</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Archaeological site permits</li>
+                            <li>• Ministry of Culture approvals</li>
+                            <li>• Municipality filming licenses</li>
+                            <li>• Street closure coordination</li>
+                            <li>• Drone flight permissions</li>
+                            <li>• Monument access scheduling</li>
+                        </ul>
+                    </div>
+
+                    <!-- Local Crew Network -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">👥</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Local Crew Network</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Athens-based cinematographers</li>
+                            <li>• English-speaking crew members</li>
+                            <li>• Experienced gaffers & grips</li>
+                            <li>• Location scouts & managers</li>
+                            <li>• Archaeological consultants</li>
+                            <li>• Production coordinators</li>
+                        </ul>
+                    </div>
+
+                    <!-- Equipment & Services -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎬</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Equipment & Services</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Professional camera packages</li>
+                            <li>• Drone equipment with operators</li>
+                            <li>• Lighting for ancient sites</li>
+                            <li>• Steadicam & gimbal systems</li>
+                            <li>• Sound recording equipment</li>
+                            <li>• Post-production facilities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Considerations -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Cultural Filming Guidance
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Navigate Athens' cultural landscape with sensitivity and authenticity for compelling storytelling.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Cultural Sensitivity -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-4">Cultural Sensitivity Guidelines</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Archaeological Sites Protocol</h4>
+                                <p class="text-gray-300 text-sm">Strict regulations protect ancient monuments. No touching artifacts, respectful behavior, and adherence to designated paths ensure preservation while capturing these historic locations.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Religious Sites Etiquette</h4>
+                                <p class="text-gray-300 text-sm">Orthodox churches require modest dress and quiet conduct. Photography restrictions apply in many religious sites, with special permissions needed for professional filming.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Local Neighborhood Respect</h4>
+                                <p class="text-gray-300 text-sm">Siesta hours (2-5 PM) require quiet filming. Local business cooperation and resident communication ensure smooth production and maintain positive community relations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Best Filming Times -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-4">Optimal Filming Schedule</h3>
+                        <div class="space-y-4">
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-greece-blue mb-2">Golden Hour Magic</h4>
+                                <p class="text-gray-300 text-sm mb-2">Sunrise: 6:30-8:00 AM | Sunset: 6:00-8:30 PM</p>
+                                <p class="text-gray-300 text-sm">Mediterranean light creates stunning visuals for Acropolis shots, marble monuments, and coastal scenes with warm, golden tones.</p>
+                            </div>
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-greece-blue mb-2">Tourist Considerations</h4>
+                                <p class="text-gray-300 text-sm mb-2">Peak Hours: 10 AM-2 PM, 5-7 PM</p>
+                                <p class="text-gray-300 text-sm">Major sites are crowded during peak hours. Early morning and late afternoon offer better access and authentic local atmosphere.</p>
+                            </div>
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-greece-blue mb-2">Seasonal Planning</h4>
+                                <p class="text-gray-300 text-sm mb-2">Best: Apr-Jun, Sep-Nov | Hot: Jul-Aug</p>
+                                <p class="text-gray-300 text-sm">Spring and autumn provide ideal weather. Summer requires heat management and hydration planning for crew and equipment.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Athens Production FAQ -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Athens Filming FAQ
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Essential information for planning your Athens filming project.
+                    </p>
+                </div>
+
+                <div class="max-w-4xl mx-auto space-y-6">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What permits are required for filming in Athens?</h3>
+                        <p class="text-gray-300">
+                            Filming permits vary by location type. Archaeological sites require Ministry of Culture approval with 30-45 day advance notice. Public spaces need municipality permits, while the Acropolis and major monuments have special regulations and fees. Street filming requires police notification and traffic management plans. We handle all permit applications and government liaison to ensure compliance with Greek filming regulations.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Which Athens areas are best for different filming needs?</h3>
+                        <p class="text-gray-300">
+                            Plaka offers authentic old town atmosphere with neoclassical architecture and Acropolis views. Kolonaki provides upscale modern settings with designer shops and elegant cafes. Psyrri showcases street art and alternative culture perfect for contemporary narratives. The Athens Riviera in Glyfada offers beach and marina locations. Each neighborhood provides unique visual storytelling opportunities from ancient to ultra-modern.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you handle archaeological site filming?</h3>
+                        <p class="text-gray-300">
+                            Archaeological site filming requires specialized expertise and strict protocol adherence. We coordinate with the Hellenic Ministry of Culture, arrange archaeological supervision, and ensure all crew members understand preservation requirements. Equipment must be carried by hand, no vehicles allowed on sites, and protective measures for monuments are mandatory. Our experienced team navigates these requirements while maximizing your creative vision.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What are the costs for filming in Athens?</h3>
+                        <p class="text-gray-300">
+                            Athens filming costs vary by location and requirements. Daily crew rates range from €500-1,000 for cinematographer and assistant. Archaeological site fees range from €500-3,000 per day depending on the monument. Equipment rental packages start from €350 daily. Street filming permits cost €200-500. Private location fees vary from €300-1,500 daily. We provide detailed budgets optimized for your specific project needs while maintaining international production standards.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Can you arrange access to the Acropolis and other monuments?</h3>
+                        <p class="text-gray-300">
+                            Yes, we arrange access to the Acropolis, Ancient Agora, National Gardens, and other major monuments. Special filming hours (usually early morning before public opening) can be arranged for exclusive access. Each site has specific rules regarding equipment, crew size, and filming areas. We coordinate all permissions, provide required archaeological supervision, and ensure your production captures these iconic locations while respecting their cultural significance.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you ensure cultural authenticity in Athens filming?</h3>
+                        <p class="text-gray-300">
+                            Our local Athens team provides authentic cultural guidance ensuring accurate representation of Greek life, traditions, and contemporary culture. We offer insights into local customs, festival timing, neighborhood characteristics, and social dynamics. Our cultural consultants help avoid stereotypes while capturing genuine aspects of Athenian life, from ancient heritage to modern Mediterranean lifestyle, resonating with both Greek and international audiences.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What equipment is specifically useful for Athens filming?</h3>
+                        <p class="text-gray-300">
+                            Athens filming benefits from specialized equipment including lightweight gear for archaeological sites where vehicles are prohibited, sun control equipment for intense Mediterranean light, drone systems with CAA permits for aerial monument shots, and stabilization equipment for uneven ancient surfaces. Weather protection for occasional rain and dust, plus backup power solutions for remote locations, ensure uninterrupted production in diverse Athenian environments.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How far in advance should Athens filming be planned?</h3>
+                        <p class="text-gray-300">
+                            Athens filming projects require 6-8 weeks advance planning for archaeological sites and 3-4 weeks for general locations. Ministry of Culture permits need 45 days minimum processing time. Tourist season (June-September) requires earlier booking for crew and equipment. Rush projects can be accommodated with 2-week notice for non-archaeological locations but may have limited options and higher costs. Early planning ensures best locations, permits, and optimal seasonal conditions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Film in Athens?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Capture the timeless beauty and modern energy of Athens with our expert local knowledge and professional filming services.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Get Athens Quote
+                    </a>
+                    <a href="/Greece-filming-locations/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        All Greece Locations
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+            <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        / Mobile menu functionality
+                / Mobile menu main toggle
+        / Mobile menu handled by component loader
+
+        / Mobile dropdown functionality
+        / Mobile dropdown functionality handled by component loader);
+            
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+            
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Initialize mobile dropdowns when DOM is loaded
+        / Mobile menu initialization handled by component loader
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for athens-filming/index.html, page functionality ready');
+            
+            / Trigger any existing page initialization that might depend on DOM structure
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>ipt>
+
+</body>
+</html>

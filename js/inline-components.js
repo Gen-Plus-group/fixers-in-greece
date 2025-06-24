@@ -16,7 +16,7 @@ const megaMenuStyles = `
     max-width: 1400px;
     min-width: 1200px;
     background: #1a1a1a;
-    border-top: 2px solid #0080ff;
+    border-top: 2px solid #f9a531;
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     opacity: 0;
     visibility: hidden;
@@ -57,7 +57,7 @@ const megaMenuStyles = `
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #0080ff;
+    color: #f9a531;
 }
 
 .mega-menu a {
@@ -69,7 +69,7 @@ const megaMenuStyles = `
 }
 
 .mega-menu a:hover {
-    color: #0080ff;
+    color: #f9a531;
     padding-left: 0.25rem;
 }
 
@@ -474,7 +474,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </a>
-            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #0080ff; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
+            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #f9a531; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
                 <div class="mega-menu-content" style="max-width: 1400px; margin: 0 auto; padding: 30px 40px;">
                     <div class="text-center mb-8">
                         <h3 class="text-greece-blue" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Post-Production Services</h3>
@@ -483,7 +483,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="grid grid-cols-5 gap-10" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.5rem;">
                         <!-- Editing & Assembly -->
                         <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Editing & Assembly</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Editing & Assembly</h4>
                             <ul>
                                 <li><a href="/post-production-services/editing-assembly/video-editing/" class="text-gray-300">Video Editing</a></li>
                                 <li><a href="/post-production-services/editing-assembly/rough-cut-final-cut/" class="text-gray-300">Rough Cut to Final Cut</a></li>
@@ -495,7 +495,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Color & Visual Finishing -->
                         <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Color & Visual Finishing</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Color & Visual Finishing</h4>
                             <ul>
                                 <li><a href="/post-production-services/color-visual-finishing/color-correction/" class="text-gray-300">Color Correction</a></li>
                                 <li><a href="/post-production-services/color-visual-finishing/color-grading/" class="text-gray-300">Color Grading</a></li>
@@ -506,7 +506,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Motion & VFX -->
                         <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Motion & VFX</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Motion & VFX</h4>
                             <ul>
                                 <li><a href="/post-production-services/motion-vfx/motion-graphics/" class="text-gray-300">Motion Graphics</a></li>
                                 <li><a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="text-gray-300">VFX Compositing</a></li>
@@ -519,7 +519,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Audio Post -->
                         <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Audio Post</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Audio Post</h4>
                             <ul>
                                 <li><a href="/post-production-services/audio-post/sound-design/" class="text-gray-300">Sound Design</a></li>
                                 <li><a href="/post-production-services/audio-post/foley-recording/" class="text-gray-300">Foley Recording</a></li>
@@ -533,7 +533,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Delivery & Output -->
                         <div class="mega-menu-column">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Delivery & Output</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Delivery & Output</h4>
                             <ul>
                                 <li><a href="/post-production-services/delivery-output/digital-cinema-package-dcp/" class="text-gray-300">DCP Creation</a></li>
                                 <li><a href="/post-production-services/delivery-output/broadcast-delivery/" class="text-gray-300">Broadcast Delivery</a></li>
@@ -555,7 +555,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </a>
-            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #0080ff; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
+            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #f9a531; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
                 <div class="mega-menu-content" style="max-width: 1400px; margin: 0 auto; padding: 30px 40px;">
                     <div class="text-center mb-8">
                         <h3 class="text-greece-blue" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Content Production Services</h3>
@@ -564,7 +564,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="grid grid-cols-3 gap-10" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
                         <!-- Column 1: TV & Film -->
                         <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">TV & Film Production</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">TV & Film Production</h4>
                             <ul>
                                 <li><a href="/content-production/tv-shows-broadcast-series/" class="text-gray-300">TV Shows & Broadcast Series</a></li>
                                 <li><a href="/content-production/feature-films/" class="text-gray-300">Feature Films</a></li>
@@ -577,7 +577,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Column 2: Commercial & Corporate -->
                         <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Commercial & Corporate</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Commercial & Corporate</h4>
                             <ul>
                                 <li><a href="/content-production/commercials-advertising/" class="text-gray-300">Commercials & Advertising</a></li>
                                 <li><a href="/content-production/corporate-videos/" class="text-gray-300">Corporate Videos</a></li>
@@ -590,7 +590,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Column 3: Lifestyle & Creative -->
                         <div class="mega-menu-column">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Lifestyle & Creative</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Lifestyle & Creative</h4>
                             <ul>
                                 <li><a href="/content-production/music-videos/" class="text-gray-300">Music Videos</a></li>
                                 <li><a href="/content-production/fashion-videos/" class="text-gray-300">Fashion Videos</a></li>
@@ -612,7 +612,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </a>
-            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #0080ff; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
+            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #f9a531; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
                 <div class="mega-menu-content" style="max-width: 1400px; margin: 0 auto; padding: 30px 40px;">
                     <div class="text-center mb-8">
                         <h3 class="text-greece-blue" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Film Crew Services</h3>
@@ -621,7 +621,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="grid grid-cols-3 gap-10" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
                         <!-- Creative Roles -->
                         <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Creative Roles</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Creative Roles</h4>
                             <ul>
                                 <li><a href="/film-crew/creative-roles/director/" class="text-gray-300">Director</a></li>
                                 <li><a href="/film-crew/creative-roles/creative-producer/" class="text-gray-300">Creative Producer</a></li>
@@ -636,7 +636,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Technical Roles -->
                         <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Technical Roles</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Technical Roles</h4>
                             <ul>
                                 <li><a href="/film-crew/technical-roles/director-of-photography/" class="text-gray-300">Director of Photography</a></li>
                                 <li><a href="/film-crew/technical-roles/film-maker/" class="text-gray-300">Film Maker</a></li>
@@ -655,7 +655,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Support Roles -->
                         <div class="mega-menu-column">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #0080ff; margin-bottom: 12px;">Support Roles</h4>
+                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Support Roles</h4>
                             <ul>
                                 <li><a href="/film-crew/support-roles/fixer/" class="text-gray-300">Fixer</a></li>
                                 <li><a href="/film-crew/support-roles/line-producer/" class="text-gray-300">Line Producer</a></li>

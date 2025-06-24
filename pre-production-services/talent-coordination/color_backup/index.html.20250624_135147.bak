@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Talent Coordination Services | Artist Management | NEEDaFIXER</title>
+    <meta name="description" content="Professional talent coordination services. Expert artist management for productions worldwide.">
+    <meta name="keywords" content="talent coordination, pre-production services, film production, casting & talent">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Talent Coordination Services | Artist Management | NEEDaFIXER">
+    <meta property="og:description" content="Professional talent coordination services. Expert artist management for productions worldwide.">
+    <meta property="og:url" content="/pre-production-services/talent-coordination/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/talent-coordination/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/22.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Talent Coordination Services",
+        "description": "Professional talent coordination services. Expert artist management for productions worldwide.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Casting & Talent",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Talent Coordination Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Expert coordination and management of talent throughout production.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Talent Coordination Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Talent Coordination Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert talent coordination services ensuring smooth talent management and production efficiency. Professional coordination of all talent-related logistics and requirements.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Talent Scheduling -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎭</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Talent Scheduling</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Availability coordination</li>
+                            <li>• Schedule optimization</li>
+                            <li>• Conflict resolution</li>
+                            <li>• Travel coordination</li>
+                            <li>• Rehearsal scheduling</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Schedule Mastery</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Logistics Management -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🏨</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Logistics Management</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Accommodation booking</li>
+                            <li>• Transportation</li>
+                            <li>• Meal coordination</li>
+                            <li>• Wardrobe fittings</li>
+                            <li>• Makeup scheduling</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Complete Care</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Contract Coordination -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Contract Coordination</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Deal negotiations</li>
+                            <li>• Contract management</li>
+                            <li>• Payment coordination</li>
+                            <li>• Rights management</li>
+                            <li>• Legal compliance</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Professional Management</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Relationship Management -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🤝</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Relationship Management</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Talent relations</li>
+                            <li>• Agent coordination</li>
+                            <li>• Manager liaison</li>
+                            <li>• Publicity coordination</li>
+                            <li>• Special requests</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Relationship Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Talent Coordination Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Talent Coordination Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert talent coordinators with comprehensive experience in talent management, artist relations, and production coordination ensuring seamless talent integration and professional support throughout all productions.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Talent Management</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Artist Relations & Communication</h4>
+                                <p class="text-gray-300">Comprehensive talent relations including artist communication, expectation management, and professional liaison services. Manager coordination, agent communication, and publicist collaboration. Contract negotiation support, rider management, and special requirements coordination. VIP services, hospitality management, and personalized attention ensuring exceptional talent experience.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Schedule & Logistics Coordination</h4>
+                                <p class="text-gray-300">Professional schedule management including call times, wardrobe fittings, and rehearsal coordination. Transportation logistics, accommodation arrangements, and travel coordination. On-set support, timing management, and production flow optimization. Emergency scheduling, last-minute changes, and contingency planning with seamless coordination capabilities.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Production Support & Compliance</h4>
+                                <p class="text-gray-300">Complete production support including union compliance, labor regulations, and contract adherence. Safety protocols, insurance coordination, and risk management. Performance monitoring, quality assurance, and professional standards maintenance. Documentation management, reporting coordination, and ongoing production support ensuring smooth talent integration.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Talent Coordination Performance</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">2,500+</div>
+                                    <div class="text-sm text-gray-300">Talent Coordinated</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">98%</div>
+                                    <div class="text-sm text-gray-300">Satisfaction Rate</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24/7</div>
+                                    <div class="text-sm text-gray-300">Support Available</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100%</div>
+                                    <div class="text-sm text-gray-300">Professional Standards</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Artist relations and communication management</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Schedule and logistics coordination</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Production support and compliance management</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Emergency response and crisis management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Talent Coordination Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Talent Coordination</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎭</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Expert Relations</h3>
+                                <p class="text-gray-300">Professional talent coordinators with extensive experience in artist relations, talent management, and production coordination across all entertainment sectors.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⭐</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">High Satisfaction</h3>
+                                <p class="text-gray-300">98% talent satisfaction rate with 2,500+ talent coordinated ensuring exceptional artist experience and professional relationship management.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🚨</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">24/7 Support</h3>
+                                <p class="text-gray-300">Round-the-clock talent support with emergency response, crisis management, and immediate assistance for all talent needs and concerns.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">📋</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Complete Compliance</h3>
+                                <p class="text-gray-300">100% professional standards with union compliance, contract adherence, and regulatory coordination ensuring legal protection and industry standards.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Talent Coordination Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Talent Assessment</h3>
+                                <p class="text-gray-300">Comprehensive talent evaluation including requirements analysis, expectation management, and coordination planning.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Relationship Building</h3>
+                                <p class="text-gray-300">Professional relationship establishment with artist communication, manager coordination, and expectation alignment.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Production Integration</h3>
+                                <p class="text-gray-300">Seamless production integration with schedule coordination, logistics management, and on-set support throughout filming.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Ongoing Support</h3>
+                                <p class="text-gray-300">Continuous talent support with 24/7 assistance, emergency response, and professional relationship maintenance.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional talent coordination services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive talent management including artist communication, expectation management, and professional liaison services. Schedule coordination, logistics management, and transportation arrangements. Contract support, rider management, and special requirements coordination. VIP services, hospitality management, and personalized attention. On-set support, timing management, and production flow optimization throughout filming.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How do you ensure high talent satisfaction and professional relationships?</h3>
+                                <p class="text-gray-300">
+                                    98% talent satisfaction rate through professional relationship management, personalized attention, and exceptional service delivery. Expert communication, expectation management, and proactive problem-solving. VIP treatment, hospitality coordination, and special requirements fulfillment. Manager liaison, agent communication, and publicist collaboration. Continuous feedback, relationship monitoring, and service optimization ensuring positive talent experience.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide 24/7 talent support and emergency assistance?</h3>
+                                <p class="text-gray-300">
+                                    Round-the-clock talent support with 24/7 availability, emergency response, and immediate assistance for all talent needs. Crisis management, problem resolution, and urgent coordination capabilities. Emergency scheduling, last-minute changes, and contingency planning. Medical assistance, security coordination, and personal support. Immediate communication, rapid response, and comprehensive emergency protocols.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How do you handle union compliance and contract management?</h3>
+                                <p class="text-gray-300">
+                                    100% professional standards with complete union compliance, labor regulations adherence, and contract management. SAG-AFTRA coordination, union requirements fulfillment, and regulatory compliance. Contract negotiation support, rider management, and legal coordination. Work hour monitoring, break requirements, and overtime management. Documentation, reporting, and compliance verification ensuring legal protection and industry standards.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for talent coordination services?</h3>
+                                <p class="text-gray-300">
+                                    Talent coordination fees typically $300-1,500 per day depending on talent level and service scope. Basic coordination $300-800 daily, comprehensive management $800-1,500 daily. A-list talent and complex requirements may require premium pricing. 24/7 support, emergency services, and specialized coordination available with additional fees. Volume discounts for multiple talent and long-term productions.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you coordinate with managers, agents, and publicists?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive industry coordination including manager liaison, agent communication, and publicist collaboration. Professional relationship management with talent representatives, legal teams, and business managers. Contract coordination, scheduling alignment, and expectation management. Industry protocol adherence, professional communication, and relationship building. Ongoing coordination, update management, and stakeholder communication throughout production.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their talent coordination was flawless for our A-list cast. Professional relationship management and 24/7 support made our complex production seamless and stress-free.</p>
+                                <p class="text-greece-blue font-semibold">— Rachel Martinez, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding talent relations and emergency response. When our lead actor faced personal issues, they coordinated immediate support and kept production on track.</p>
+                                <p class="text-greece-blue font-semibold">— James Wilson, Production Manager</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional, discreet, and incredibly effective. Their union compliance and contract management expertise protected our production and maintained industry standards.</p>
+                                <p class="text-greece-blue font-semibold">— Maria Santos, Line Producer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Elevate Your Talent Management?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional talent coordination that ensures exceptional artist experience, seamless production integration, and comprehensive support through expert relationship management, logistics coordination, and 24/7 assistance.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Coordinate Talent
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Talent Success
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/talent-coordination/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

@@ -40,7 +40,7 @@ The project uses a **component-based CSS architecture** with Tailwind:
 - **Utilities Layer**: Custom utilities for backgrounds, animations, shadows
 
 ### Key Tailwind Customizations
-- **Greece Brand Colors**: `greece-blue` (#0080ff), `greece-white` (#ffffff), `greece-dark` (#1c1c1c)
+- **Greece Brand Colors**: `greece-blue` (#f9a531), `greece-white` (#ffffff), `greece-dark` (#1c1c1c)
 - **Custom Components**: `.btn-primary`, `.card-hover`, `.nav-link`, `.form-input`, `.portfolio-item`
 - **Custom Utilities**: `.text-gradient-greece`, `.bg-gradient-greece`, `.glass-effect`, `.hover-lift`
 
@@ -136,7 +136,7 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
 - **Renamed all directories and files** containing 'vietnam' to 'greece'
 - **Updated 765 files** with Greece-specific content and branding
 - **Replaced brand colors**: 
-  - Primary: `greece-blue` (#0080ff) replacing vietnam-orange
+  - Primary: `greece-blue` (#f9a531) replacing vietnam-orange
   - Secondary: `greece-white` (#ffffff) replacing vietnam-red
 - **Updated city references**:
   - Hanoi → Athens

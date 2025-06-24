@@ -74,9 +74,9 @@
     top: calc(100% + 12px);
     left: 50%;
     transform: translateX(-50%) translateY(-10px);
-    width: 100vw;
+    width: 100%;
     max-width: 1400px;
-    min-width: 1200px;
+    /* min-width: 1200px - removed to fix horizontal scroll */;
     background: #1a1a1a;
     border-top: 2px solid theme('colors.greece.blue');
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);

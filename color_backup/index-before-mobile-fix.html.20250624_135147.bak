@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Professional Filming Services in Greece | Fixers, Producers & Location Managers</title>
+    <meta name="description" content="Expert filming services in Greece for international productions. Professional fixers, location scouting, equipment rental, permits & crew. 13+ years experience serving BBC, CNN, Reuters.">
+    <meta name="keywords" content="filming services Greece, film production Greece, video production Greece, location scouting Greece, film permits Greece, Greece filming locations, production company Greece, fixers Greece">
+    <meta name="author" content="Fixers in Greece">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    <meta name="geo.position" content="37.9838;23.7275">
+    <meta name="ICBM" content="37.9838, 23.7275">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fixers in Greece - Fixers, Producers, Location managers">
+    <meta property="og:description" content="Our team of fixers in Greece are all experts in production in Greece. Ranging from young creatives to experienced production coordinators and producers.">
+    <meta property="og:url" content="/">
+    <meta property="og:site_name" content="Fixers in Greece">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/index-before-mobile-fix/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        /* Hero section - background image as fallback only */
+        .hero-bg {
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            transition: background-image 0.3s ease;
+        }
+        
+        /* Show background image when no video is loaded */
+        .hero-bg.no-video {
+            background-image: url('/assets/images/2015/10/Greece-home-main-banner.jpg');
+        }
+        
+        /* Hide background when video is playing */
+        .hero-bg.has-video {
+            background-image: none;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+            opacity: 1;
+            transition: opacity 0.5s ease;
+        }
+        
+        /* Show video when loaded */
+        .hero-video.loaded {
+            opacity: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 10;
+        }
+
+
+        .filming-bg {
+            background-image: url('/assets/images/2015/10/Greece-home-filming-draft.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .services-bg {
+            background-image: url('/assets/images/2015/10/Greece-home-services-draft.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "LocalBusiness",
+                "@id": "/#organization",
+                "name": "Fixers in Greece",
+                "alternateName": "Need a Fixer Greece",
+                "url": "https://fixersinGreece.com/",
+                "sameAs": ["https://needafixer.com/"],
+                "logo": {
+                    "@type": "ImageObject",
+                    "inLanguage": "en-US",
+                    "@id": "/#/schema/logo/image/",
+                    "url": "https://fixersinGreece.com/assets/images/needafixer-greece-white.png",
+                    "contentUrl": "https://fixersinGreece.com/assets/images/needafixer-greece-white.png",
+                    "width": 184,
+                    "height": 63,
+                    "caption": "Fixers in Greece"
+                },
+                "image": {"@id": "/#/schema/logo/image/"},
+                "description": "Professional filming services in Greece for international productions. Expert fixers, location scouting, equipment rental, permits & crew with 13+ years experience.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Professional filming services throughout Greece",
+                    "addressLocality": "Thessaloniki",
+                    "addressRegion": "Thessaloniki",
+                    "addressCountry": "GR"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "37.9838",
+                    "longitude": "23.7275"
+                },
+                "telephone": "+30-xxx-xxx-xxxx",
+                "email": "greece@needafixer.com",
+                "priceRange": "$$",
+                "openingHours": "Mo-Su 00:00-23:59",
+                "serviceArea": {
+                    "@type": "Country",
+                    "name": "Greece"
+                },
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Film Production Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Location Scouting",
+                                "description": "Professional location scouting services throughout Greece"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Equipment Rental",
+                                "description": "Professional film equipment rental in Greece"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Film Permits",
+                                "description": "Film permit acquisition services in Greece"
+                            }
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Local Crew",
+                                "description": "Professional film crew services in Greece"
+                            }
+                        }
+                    ]
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.8",
+                    "reviewCount": "50"
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-bg has-video relative min-h-screen flex items-center justify-center overflow-hidden">
+            <!-- Video Background -->
+            <video
+                class="hero-video"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="auto">
+                <source src="/assets/home-video.mp4" type="video/mp4">
+                <!-- Fallback for browsers that don't support video -->
+                Your browser does not support the video tag.
+            </video>
+
+            <!-- Video Status Indicator (for debugging) -->
+            <div id="video-status" class="absolute top-4 right-4 z-20 bg-black bg-opacity-75 text-white px-3 py-1 rounded text-sm" style="display: none;">
+                Video Status: <span id="video-status-text">Loading...</span>
+            </div>
+
+            <!-- Video Upload Instructions (only shows when no video found) -->
+            <div id="video-instructions" class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white bg-black bg-opacity-70 p-6 rounded-lg max-w-md z-20" style="display: none;">
+                <h3 class="text-lg font-bold mb-2">🎬 Video Missing</h3>
+                <p class="text-sm mb-4">Upload your <code>home-video.mp4</code> file to the <code>/assets/</code> directory to enable video background.</p>
+                <a href="/video-diagnostic.html" class="inline-block bg-greece-blue text-black px-4 py-2 rounded text-sm font-semibold hover:bg-yellow-500 transition-colors">
+                    Video Diagnostic Tool
+                </a>
+            </div>
+
+
+            <!-- Content -->
+            <div class="hero-content text-center px-4">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-white mb-4">
+                    Fixers in Greece
+                </h1>
+                <h2 class="text-2xl md:text-3xl font-semibold text-greece-white mb-8">
+                    We make it happen!
+                </h2>
+            </div>
+        </section>
+
+        <!-- Company Introduction Section -->
+        <section class="bg-greece-white py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-8">
+                        FIXERS IN Greece
+                    </h2>
+                </div>
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div class="text-white">
+                        <p class="text-base leading-relaxed mb-6">
+                            We are a Greece based production fixing company with a combined 50 years of experience.
+                            We provide production companies around the world with filming services in Greece and abroad.
+                        </p>
+                    </div>
+                    <div class="text-white">
+                        <p class="text-base leading-relaxed mb-6">
+                            You name it, we've done it. From TV series to music videos, corporate video and broadcasting,
+                            our services are endless. No Job is too big or small for Fixers in Greece.
+                        </p>
+                    </div>
+                </div>
+                <div class="text-center mt-8">
+                    <a href="/about-us/"
+                       class="inline-block bg-white text-greece-white px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors duration-200">
+                        MORE
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filming in Greece Section -->
+        <section class="bg-white py-16">
+            <div class="container mx-auto px-4">
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div class="order-2 lg:order-1">
+                        <img src="/assets/images/2015/10/Greece-home-filming-draft.jpg"
+                             alt="Filming in Greece"
+                             class="w-full h-auto rounded-lg shadow-lg">
+                    </div>
+                    <div class="order-1 lg:order-2 text-gray-900">
+                        <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-6">
+                            <a href="/filming-in-greece/" class="hover:text-greece-white transition-colors duration-200">
+                                FILMING IN Greece
+                            </a>
+                        </h2>
+                        <div class="mb-6">
+                            <p class="font-bold text-lg mb-4">AT A GLANCE, USEFUL INFO</p>
+                            <p class="text-base leading-relaxed">
+                                Shooting a film in Greece whether big or small can present a lot of challenges.
+                                Fixers in Greece make bringing your production to Greece the simplest it can be.
+                            </p>
+                        </div>
+                        <div>
+                            <a href="/filming-in-greece/"
+                               class="inline-block bg-greece-white text-white px-8 py-3 rounded-md font-semibold hover:bg-red-600 transition-colors duration-200">
+                                MORE
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Comprehensive Services Showcase -->
+        <section class="bg-greece-darker py-20">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl md:text-5xl font-bold text-greece-blue mb-6">
+                        Complete Film Production Services
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed">
+                        From concept to delivery, we provide comprehensive film production services across Greece. 
+                        Our experienced team handles every aspect of your production with professional excellence and local expertise.
+                    </p>
+                </div>
+
+                <!-- Core Services Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+                    <!-- Film Production -->
+                    <div class="group bg-greece-dark border border-gray-700 rounded-xl p-6 hover:border-greece-blue transition-all duration-300 hover:transform hover:scale-105">
+                        <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform duration-300">🎬</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Film Production</h3>
+                        <div class="space-y-2 text-sm text-gray-300">
+                            <a href="/film-permits-greece/" class="block hover:text-greece-blue transition-colors">• Film Permits</a>
+                            <a href="/Greece-film-crew/" class="block hover:text-greece-blue transition-colors">• Professional Crew</a>
+                            <a href="/location-scouting-greece/" class="block hover:text-greece-blue transition-colors">• Location Scouting</a>
+                            <a href="/equipment-rental-greece/" class="block hover:text-greece-blue transition-colors">• Equipment Rental</a>
+                        </div>
+                    </div>
+
+                    <!-- Media Production -->
+                    <div class="group bg-greece-dark border border-gray-700 rounded-xl p-6 hover:border-greece-blue transition-all duration-300 hover:transform hover:scale-105">
+                        <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform duration-300">📺</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Media Production</h3>
+                        <div class="space-y-2 text-sm text-gray-300">
+                            <a href="/documentary-filming-greece/" class="block hover:text-greece-blue transition-colors">• Documentary Services</a>
+                            <a href="/commercial-video-production-greece/" class="block hover:text-greece-blue transition-colors">• Commercial Production</a>
+                            <a href="/news-filming-greece/" class="block hover:text-greece-blue transition-colors">• News & Current Affairs</a>
+                            <a href="/corporate-video-Greece/" class="block hover:text-greece-blue transition-colors">• Corporate Videos</a>
+                        </div>
+                    </div>
+
+                    <!-- Specialized Services -->
+                    <div class="group bg-greece-dark border border-gray-700 rounded-xl p-6 hover:border-greece-blue transition-all duration-300 hover:transform hover:scale-105">
+                        <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform duration-300">🎵</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Specialized Content</h3>
+                        <div class="space-y-2 text-sm text-gray-300">
+                            <a href="/music-video-production-greece/" class="block hover:text-greece-blue transition-colors">• Music Videos</a>
+                            <a href="/event-filming-greece/" class="block hover:text-greece-blue transition-colors">• Event Filming</a>
+                            <a href="/live-streaming-greece/" class="block hover:text-greece-blue transition-colors">• Live Streaming</a>
+                            <a href="/drone-filming-Greece/" class="block hover:text-greece-blue transition-colors">• Drone Filming</a>
+                        </div>
+                    </div>
+
+                    <!-- Production Support -->
+                    <div class="group bg-greece-dark border border-gray-700 rounded-xl p-6 hover:border-greece-blue transition-all duration-300 hover:transform hover:scale-105">
+                        <div class="text-4xl mb-4 text-center group-hover:scale-110 transition-transform duration-300">⚙️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Production Support</h3>
+                        <div class="space-y-2 text-sm text-gray-300">
+                            <a href="/post-production-Greece/" class="block hover:text-greece-blue transition-colors">• Post-Production</a>
+                            <a href="/translation-services-Greece/" class="block hover:text-greece-blue transition-colors">• Translation Services</a>
+                            <a href="/casting-services-Greece/" class="block hover:text-greece-blue transition-colors">• Casting Services</a>
+                            <a href="/equipment-transport-Greece/" class="block hover:text-greece-blue transition-colors">• Equipment Transport</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Key Statistics -->
+                <div class="bg-gradient-to-r from-greece-blue to-yellow-500 rounded-2xl p-8 mb-16">
+                    <div class="grid md:grid-cols-4 gap-8 text-center text-black">
+                        <div>
+                            <div class="text-4xl font-bold mb-2">13+</div>
+                            <div class="text-lg font-semibold">Years Experience</div>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-bold mb-2">500+</div>
+                            <div class="text-lg font-semibold">Projects Completed</div>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-bold mb-2">17</div>
+                            <div class="text-lg font-semibold">Service Categories</div>
+                        </div>
+                        <div>
+                            <div class="text-4xl font-bold mb-2">24/7</div>
+                            <div class="text-lg font-semibold">Support Available</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Featured Locations -->
+                <div class="text-center mb-12">
+                    <h3 class="text-3xl font-bold text-greece-blue mb-6">Prime Filming Locations</h3>
+                    <p class="text-lg text-gray-300 mb-8">Professional filming services across Greece's most sought-after destinations</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8 mb-12">
+                    <!-- Thessaloniki -->
+                    <div class="group relative overflow-hidden rounded-xl bg-greece-dark border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-r from-greece-blue/20 to-yellow-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div class="relative p-8">
+                            <div class="flex items-center mb-4">
+                                <div class="text-3xl mr-4">🏙️</div>
+                                <h4 class="text-2xl font-bold text-greece-blue">Thessaloniki</h4>
+                            </div>
+                            <p class="text-gray-300 mb-4">Modern urban settings, historic districts, and vibrant street life in Greece's largest city.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="px-3 py-1 bg-greece-blue/20 text-greece-blue rounded-full text-sm">Skyscrapers</span>
+                                <span class="px-3 py-1 bg-greece-blue/20 text-greece-blue rounded-full text-sm">Colonial Architecture</span>
+                                <span class="px-3 py-1 bg-greece-blue/20 text-greece-blue rounded-full text-sm">Street Culture</span>
+                            </div>
+                            <a href="/ho-chi-minh-city-filming/" 
+                               class="inline-block bg-greece-blue text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                                Explore HCMC
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Athens -->
+                    <div class="group relative overflow-hidden rounded-xl bg-greece-dark border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-r from-greece-blue/20 to-yellow-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div class="relative p-8">
+                            <div class="flex items-center mb-4">
+                                <div class="text-3xl mr-4">🏛️</div>
+                                <h4 class="text-2xl font-bold text-greece-blue">Athens</h4>
+                            </div>
+                            <p class="text-gray-300 mb-4">Ancient capital with 1000 years of heritage, government access, and cultural authenticity.</p>
+                            <div class="flex flex-wrap gap-2 mb-6">
+                                <span class="px-3 py-1 bg-greece-blue/20 text-greece-blue rounded-full text-sm">Imperial Sites</span>
+                                <span class="px-3 py-1 bg-greece-blue/20 text-greece-blue rounded-full text-sm">Government Access</span>
+                                <span class="px-3 py-1 bg-greece-blue/20 text-greece-blue rounded-full text-sm">Old Quarter</span>
+                            </div>
+                            <a href="/Athens-film-production/" 
+                               class="inline-block bg-greece-blue text-black px-6 py-3 rounded-lg font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                                Explore Athens
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action -->
+                <div class="text-center">
+                    <h3 class="text-2xl font-bold text-white mb-4">Ready to Start Your Production?</h3>
+                    <p class="text-lg text-gray-300 mb-8">Get a custom quote for your Greece filming project</p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="/contact/" 
+                           class="inline-block bg-greece-blue text-black px-8 py-4 rounded-lg font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                            Get Quote
+                        </a>
+                        <a href="/film-production-services/" 
+                           class="inline-block bg-transparent border-2 border-greece-blue text-greece-blue px-8 py-4 rounded-lg font-semibold hover:bg-greece-blue hover:text-black transition-colors duration-200">
+                            View All Services
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section class="bg-gray-800 py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-yellow-500 mb-4">
+                        OUR PORTFOLIO
+                    </h2>
+                    <h3 class="text-sm text-gray-400 uppercase tracking-wide">
+                        TAKE A LOOK AT OUR LATEST PROJECTS
+                    </h3>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                    <!-- Portfolio Item 1 -->
+                    <div class="group relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/assets/images/2015/10/heineken-wallpapers_26740_1280x800.jpg"
+                             alt="Heineken House Corporate Film"
+                             class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div class="text-center text-white p-6">
+                                <h4 class="text-lg font-bold mb-2">HEINEKEN HOUSE- CORPORATE FILM</h4>
+                                <p class="text-sm italic">CLIENT: BOOMERANG CREATIVE<br>LOCATION: Greece</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio-item/test2/" class="absolute inset-0" aria-label="View Heineken House project"></a>
+                    </div>
+
+                    <!-- Portfolio Item 2 -->
+                    <div class="group relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/assets/images/2015/11/wolf.jpg"
+                             alt="Wolf Blass Commercial"
+                             class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div class="text-center text-white p-6">
+                                <h4 class="text-lg font-bold mb-2">WOLF BLASS, HERE'S TO THE CHASE- COMMERCIAL</h4>
+                                <p class="text-sm italic">CLIENT: w/ INFINITY<br>LOCATION: FRANCE</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio-item/wolf-blass-heres-to-the-chase-commercial/" class="absolute inset-0" aria-label="View Wolf Blass project"></a>
+                    </div>
+
+                    <!-- Portfolio Item 3 -->
+                    <div class="group relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/assets/images/2015/11/bbc-world1.jpg"
+                             alt="BBC Panorama"
+                             class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div class="text-center text-white p-6">
+                                <h4 class="text-lg font-bold mb-2">PANORAMA "EUROPE'S BORDER CRISIS- THE LONG ROAD"</h4>
+                                <p class="text-sm italic">CLIENT: BBC<br>LOCATION: GREECE / SERBIA / HUNGARY</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio-item/panorama-europes-border-crisis-the-long-road-curent-affairs-television/" class="absolute inset-0" aria-label="View BBC Panorama project"></a>
+                    </div>
+
+                    <!-- Portfolio Item 4 -->
+                    <div class="group relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/assets/images/2015/11/direct-asia.jpg"
+                             alt="Direct Asia Commercial"
+                             class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div class="text-center text-white p-6">
+                                <h4 class="text-lg font-bold mb-2">DIRECT ASIA- COMMERCIAL</h4>
+                                <p class="text-sm italic">CLIENT: w/ INFINITY<br>LOCATION: SINGAPORE</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio-item/direct-asia-commercial/" class="absolute inset-0" aria-label="View Direct Asia project"></a>
+                    </div>
+
+                    <!-- Portfolio Item 5 -->
+                    <div class="group relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/assets/images/2015/11/p12.jpg"
+                             alt="Josef Salvat Music Video"
+                             class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div class="text-center text-white p-6">
+                                <h4 class="text-lg font-bold mb-2">OPEN SEASON, JOSEF SALVAT- MUSIC VIDEO</h4>
+                                <p class="text-sm italic">CLIENT: CAVIAR & SONY EMI<br>LOCATION: SPAIN</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio-item/open-season-josef-salvat-music-video/" class="absolute inset-0" aria-label="View Josef Salvat project"></a>
+                    </div>
+
+                    <!-- Portfolio Item 6 -->
+                    <div class="group relative overflow-hidden rounded-lg shadow-lg">
+                        <img src="/assets/images/2015/11/huans-world.jpg"
+                             alt="Huang's World"
+                             class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-black bg-opacity-70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <div class="text-center text-white p-6">
+                                <h4 class="text-lg font-bold mb-2">HUANG'S WORLD</h4>
+                                <p class="text-sm italic">CLIENT: w/ VICE<br>LOCATION: ITALY</p>
+                            </div>
+                        </div>
+                        <a href="/portfolio-item/huangs-world/" class="absolute inset-0" aria-label="View Huang's World project"></a>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a href="/portfolio/"
+                       class="inline-block bg-greece-white text-white px-8 py-3 rounded-md font-semibold hover:bg-red-600 transition-colors duration-200">
+                        MORE
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Clients Section -->
+        <section class="bg-greece-darker py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-white mb-4">
+                        OUR CLIENTS
+                    </h2>
+                    <h3 class="text-sm text-gray-400 uppercase tracking-wide">
+                        SOME OF THE CLIENTS WE HAVE WORKED FOR
+                    </h3>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
+                    <!-- Client Logo 1 -->
+                    <div class="flex items-center justify-center p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200">
+                        <img src="/assets/images/2015/10/BBC_logo1-150x108.jpg"
+                             alt="BBC"
+                             class="max-w-full max-h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-200">
+                    </div>
+
+                    <!-- Client Logo 2 -->
+                    <div class="flex items-center justify-center p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200">
+                        <img src="/assets/images/2015/10/Reuters_logo11.png"
+                             alt="Reuters"
+                             class="max-w-full max-h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-200">
+                    </div>
+
+                    <!-- Client Logo 3 -->
+                    <div class="flex items-center justify-center p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200">
+                        <img src="/assets/images/2015/10/ITV_logo1.jpg"
+                             alt="ITV"
+                             class="max-w-full max-h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-200">
+                    </div>
+
+                    <!-- Client Logo 4 -->
+                    <div class="flex items-center justify-center p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200">
+                        <img src="/assets/images/2015/10/Discovery_Ch_logo1.jpg"
+                             alt="Discovery Channel"
+                             class="max-w-full max-h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-200">
+                    </div>
+
+                    <!-- Client Logo 5 -->
+                    <div class="flex items-center justify-center p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200">
+                        <img src="/assets/images/2015/10/CNN_logo-300x143.jpg"
+                             alt="CNN"
+                             class="max-w-full max-h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-200">
+                    </div>
+
+                    <!-- Client Logo 6 -->
+                    <div class="flex items-center justify-center p-4 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-200">
+                        <img src="/assets/images/2015/10/Bloomberg_television-300x78.jpg"
+                             alt="Bloomberg Television"
+                             class="max-w-full max-h-16 object-contain filter grayscale hover:grayscale-0 transition-all duration-200">
+                    </div>
+                </div>
+
+                <div class="text-center mt-12">
+                    <a href="/clients/"
+                       class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                        VIEW ALL CLIENTS
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Mobile Menu JavaScript -->
+    <script>
+        / Google Analytics Enhanced Tracking
+        function trackEvent(action, category, label, value) {
+            if (typeof gtag !== 'undefined') {
+                gtag('event', action, {
+                    'event_category': category,
+                    'event_label': label,
+                    'value': value || 1
+                });
+            }
+        }
+
+        / Hero Video Handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const heroVideo = document.querySelector('.hero-video');
+            const heroSection = document.querySelector('.hero-bg');
+            const videoStatus = document.getElementById('video-status');
+            const videoStatusText = document.getElementById('video-status-text');
+            const videoInstructions = document.getElementById('video-instructions');
+
+            / Show debug info in development (remove in production)
+            const showDebug = window.location.hostname === 'localhost' || window.location.hostname.includes('127.0.0.1');
+            if (showDebug && videoStatus) {
+                videoStatus.style.display = 'block';
+            }
+
+            function updateVideoStatus(status) {
+                console.log('Video Status:', status);
+                if (videoStatusText) {
+                    videoStatusText.textContent = status;
+                }
+            }
+
+            function showVideoInstructions() {
+                if (videoInstructions && showDebug) {
+                    videoInstructions.style.display = 'block';
+                    / Hide after 10 seconds
+                    setTimeout(() => {
+                        videoInstructions.style.display = 'none';
+                    }, 10000);
+                }
+            }
+
+            function showVideo() {
+                heroVideo.classList.add('loaded');
+                heroSection.classList.remove('no-video');
+                heroSection.classList.add('has-video');
+            }
+
+            function hideVideo() {
+                heroVideo.classList.remove('loaded');
+                heroSection.classList.remove('has-video');
+                heroSection.classList.add('no-video');
+            }
+
+            if (heroVideo && heroSection) {
+                updateVideoStatus('Initializing...');
+
+                / Set a timeout to check if video loads
+                let videoLoadTimeout = setTimeout(function() {
+                    updateVideoStatus('Timeout - Using fallback image');
+                    hideVideo();
+                    showVideoInstructions();
+                    if (videoStatus) videoStatus.style.display = 'none';
+                }, 5000); / 5 second timeout
+
+                / Handle video load error - fallback to background image
+                heroVideo.addEventListener('error', function() {
+                    updateVideoStatus('Error - Using fallback image');
+                    clearTimeout(videoLoadTimeout);
+                    hideVideo();
+                    showVideoInstructions();
+                    setTimeout(() => {
+                        if (videoStatus) videoStatus.style.display = 'none';
+                    }, 3000);
+                });
+
+                / Handle video load success
+                heroVideo.addEventListener('loadeddata', function() {
+                    updateVideoStatus('Video loaded successfully');
+                    clearTimeout(videoLoadTimeout);
+                    showVideo();
+                    / Ensure video plays (some browsers may block autoplay)
+                    heroVideo.play().catch(function(error) {
+                        updateVideoStatus('Autoplay blocked - Showing poster');
+                        console.log('Video autoplay blocked:', error);
+                    });
+                    setTimeout(() => {
+                        if (videoStatus) videoStatus.style.display = 'none';
+                    }, 3000);
+                });
+
+                / Handle when video can start playing
+                heroVideo.addEventListener('canplay', function() {
+                    updateVideoStatus('Video ready to play');
+                    clearTimeout(videoLoadTimeout);
+                    showVideo();
+                });
+
+                / Handle video metadata loaded
+                heroVideo.addEventListener('loadedmetadata', function() {
+                    updateVideoStatus('Video metadata loaded');
+                    showVideo();
+                });
+
+                / Handle video started playing
+                heroVideo.addEventListener('playing', function() {
+                    updateVideoStatus('Video playing');
+                    setTimeout(() => {
+                        if (videoStatus) videoStatus.style.display = 'none';
+                    }, 2000);
+                });
+
+                / Pause video when not in viewport (performance optimization)
+                const observer = new IntersectionObserver(function(entries) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting && heroVideo.style.display !== 'none') {
+                            heroVideo.play().catch(function(error) {
+                                console.log('Video play failed:', error);
+                            });
+                        } else {
+                            heroVideo.pause();
+                        }
+                    });
+                }, { threshold: 0.1 });
+
+                observer.observe(heroSection);
+
+                / Check multiple video source paths
+                const videoPaths = ['/assets/home-video.mp4', '/home-video.mp4', '/videos/home-video.mp4'];
+                let pathIndex = 0;
+                let videoFound = false;
+
+                function checkNextVideoPath() {
+                    if (pathIndex >= videoPaths.length) {
+                        if (!videoFound) {
+                            updateVideoStatus('No video file found - Using fallback image');
+                            hideVideo();
+                            showVideoInstructions();
+                            setTimeout(() => {
+                                if (videoStatus) videoStatus.style.display = 'none';
+                            }, 3000);
+                        }
+                        return;
+                    }
+
+                    const currentPath = videoPaths[pathIndex];
+                    updateVideoStatus(`Checking: ${currentPath}`);
+
+                    fetch(currentPath, { method: 'HEAD' })
+                        .then(response => {
+                            if (response.ok) {
+                                videoFound = true;
+                                updateVideoStatus(`Found video at: ${currentPath}`);
+                                / Update video source if different from current
+                                const firstSource = heroVideo.querySelector('source');
+                                if (firstSource && !firstSource.src.includes(currentPath)) {
+                                    firstSource.src = currentPath;
+                                    heroVideo.load(); / Reload video with new source
+                                }
+                            } else {
+                                pathIndex++;
+                                checkNextVideoPath();
+                            }
+                        })
+                        .catch(error => {
+                            pathIndex++;
+                            checkNextVideoPath();
+                        });
+                }
+
+                / Start checking for video file
+                checkNextVideoPath();
+            }
+        });
+
+        / Track important button clicks
+        document.addEventListener('DOMContentLoaded', function() {
+            / Track contact button clicks
+            const contactButtons = document.querySelectorAll('a[href="/contact/"], a[href*="contact"]');
+            contactButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    trackEvent('click', 'Navigation', 'Contact Button', 1);
+                });
+            });
+
+            / Track phone number clicks
+            const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+            phoneLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    trackEvent('click', 'Contact', 'Phone Call', 1);
+                });
+            });
+
+            / Track email clicks
+            const emailLinks = document.querySelectorAll('a[href^="mailto:"]');
+            emailLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    trackEvent('click', 'Contact', 'Email', 1);
+                });
+            });
+
+            / Track service page visits
+            const serviceLinks = document.querySelectorAll('a[href*="equipment-rental"], a[href*="location-scouting"], a[href*="film-permits"]');
+            serviceLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    const service = this.href.includes('equipment') ? 'Equipment Rental' :
+                                   this.href.includes('location') ? 'Location Scouting' : 'Film Permits';
+                    trackEvent('click', 'Services', service, 1);
+                });
+            });
+        });
+    </script>
+
+    <script>
+        / Mobile menu main toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const isHidden = mobileMenu.classList.contains('hidden');
+
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                this.setAttribute('aria-expanded', 'true');
+            } else {
+                mobileMenu.classList.add('hidden');
+                this.setAttribute('aria-expanded', 'false');
+                / Close all submenus when main menu closes
+                closeAllMobileSubmenus();
+            }
+        });
+
+        / Mobile dropdown functionality
+        function initializeMobileDropdowns() {
+            const dropdownToggles = document.querySelectorAll('.mobile-dropdown-toggle');
+
+            dropdownToggles.forEach(function(toggle) {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const targetId = this.getAttribute('data-target');
+                    const submenu = document.getElementById(targetId);
+                    const icon = this.querySelector('.mobile-dropdown-icon');
+                    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+                    / Close other submenus
+                    closeAllMobileSubmenus(targetId);
+
+                    if (isExpanded) {
+                        / Close this submenu
+                        submenu.classList.add('hidden');
+                        this.setAttribute('aria-expanded', 'false');
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        / Open this submenu
+                        submenu.classList.remove('hidden');
+                        this.setAttribute('aria-expanded', 'true');
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+        }
+
+        function closeAllMobileSubmenus(exceptId) {
+            const allSubmenus = document.querySelectorAll('.mobile-submenu');
+            const allToggles = document.querySelectorAll('.mobile-dropdown-toggle');
+            const allIcons = document.querySelectorAll('.mobile-dropdown-icon');
+
+            allSubmenus.forEach(function(submenu) {
+                if (!exceptId || submenu.id !== exceptId) {
+                    submenu.classList.add('hidden');
+                }
+            });
+
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+
+            if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+                mobileMenuButton.setAttribute('aria-expanded', 'false');
+                closeAllMobileSubmenus();
+            }
+        });
+
+        / Initialize mobile dropdowns when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeMobileDropdowns();
+        });
+
+        / Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/component-loader.js"></script>
+
+    <!-- Page-specific JavaScript -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded, initializing page functionality...');
+
+            / Page-specific functionality is preserved above
+        });
+    </script>
+</body>
+</html>

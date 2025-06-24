@@ -1,0 +1,404 @@
+/* ==========================================================================
+   LAYOUT STYLES - Fixers in Greece
+   ========================================================================== */
+
+/* Container System */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 var(--spacing-md);
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0 var(--spacing-md);
+}
+
+.container-sm {
+  max-width: 576px;
+}
+
+.container-md {
+  max-width: 768px;
+}
+
+.container-lg {
+  max-width: 992px;
+}
+
+.container-xl {
+  max-width: 1200px;
+}
+
+/* Grid System */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 calc(-1 * var(--spacing-md));
+}
+
+.col {
+  flex: 1 0 0%;
+  padding: 0 var(--spacing-md);
+}
+
+.col-auto {
+  flex: 0 0 auto;
+  width: auto;
+}
+
+/* Column Sizes */
+.col-1 { flex: 0 0 8.333333%; max-width: 8.333333%; }
+.col-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+.col-3 { flex: 0 0 25%; max-width: 25%; }
+.col-4 { flex: 0 0 33.333333%; max-width: 33.333333%; }
+.col-5 { flex: 0 0 41.666667%; max-width: 41.666667%; }
+.col-6 { flex: 0 0 50%; max-width: 50%; }
+.col-7 { flex: 0 0 58.333333%; max-width: 58.333333%; }
+.col-8 { flex: 0 0 66.666667%; max-width: 66.666667%; }
+.col-9 { flex: 0 0 75%; max-width: 75%; }
+.col-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+.col-11 { flex: 0 0 91.666667%; max-width: 91.666667%; }
+.col-12 { flex: 0 0 100%; max-width: 100%; }
+
+/* Header Layout */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  background-color: var(--color-surface);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--spacing-md) 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+/* Navigation Layout */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  display: block;
+  padding: var(--spacing-sm) var(--spacing-md);
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: color var(--transition-normal);
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--color-primary);
+}
+
+/* Mega Menu Layout - Matches working inline styles exactly */
+.mega-menu {
+  position: absolute;
+  top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+  left: 50%;
+  transform: translateX(-50%) translateY(-10px);
+  width: 90vw;
+  max-width: 1400px;
+  background: #1a1a1a;
+  border-top: 2px solid #0080ff;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 50;
+  margin-top: 8px; /* Additional top margin for visual separation */
+}
+
+.mega-menu-trigger:hover .mega-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.mega-menu-column {
+  border-right: 1px solid #333;
+  min-width: 0; /* Allow columns to shrink */
+}
+
+.mega-menu-column:last-child {
+  border-right: none;
+}
+
+.mega-menu-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem; /* Increased padding for better spacing */
+}
+
+/* Mega Menu Typography Improvements */
+.mega-menu h3 {
+  font-size: 1.5rem; /* Larger main title */
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.mega-menu h4 {
+  font-size: 1rem; /* Increased from text-sm to text-base */
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #0080ff;
+}
+
+.mega-menu a {
+  font-size: 0.875rem; /* Increased from text-xs to text-sm */
+  line-height: 1.5;
+  padding: 0.25rem 0;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.mega-menu a:hover {
+  color: #0080ff;
+  padding-left: 0.25rem;
+}
+
+.mega-menu ul {
+  margin-top: 0.5rem;
+}
+
+.mega-menu li {
+  margin-bottom: 0.5rem; /* Better spacing between links */
+}
+
+/* Ensure mega menu doesn't get clipped */
+.mega-menu-trigger {
+  position: static;
+}
+
+/* Navigation container needs to allow overflow for mega menu */
+nav {
+  position: relative;
+  overflow: visible;
+}
+
+/* Mobile Menu Toggle */
+.mobile-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.mobile-menu-toggle span {
+  width: 24px;
+  height: 2px;
+  background-color: var(--color-text);
+  transition: all var(--transition-normal);
+}
+
+/* Hero Section Layout */
+.hero-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.hero-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 3;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 4;
+  text-align: center;
+  max-width: 800px;
+  padding: var(--spacing-xl);
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: var(--font-weight-medium);
+  color: #ffffff;
+  margin-bottom: var(--spacing-xl);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Section Layout */
+.section {
+  padding: var(--spacing-2xl) 0;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.section-subtitle {
+  font-size: 1.25rem;
+  color: var(--color-text-muted);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Footer Layout */
+.site-footer {
+  background-color: var(--color-surface);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: var(--spacing-2xl) 0 var(--spacing-md) 0;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+}
+
+.footer-section h3 {
+  color: var(--color-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: var(--spacing-md);
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+/* Responsive mega menu */
+@media (max-width: 1024px) {
+  .mega-menu {
+    display: none; /* Hide on mobile/tablet - use mobile menu instead */
+  }
+  
+  .mobile-menu-toggle {
+    display: flex;
+  }
+  
+  .main-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.125rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+  
+  /* Stack columns on mobile */
+  .col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+  .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 var(--spacing-xs);
+  }
+  
+  .hero-content {
+    padding: var(--spacing-lg);
+  }
+  
+  .section {
+    padding: var(--spacing-xl) 0;
+  }
+}

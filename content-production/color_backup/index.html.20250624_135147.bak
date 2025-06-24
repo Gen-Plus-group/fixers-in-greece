@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Content Production Services Greece | Film Fixers in Greece</title>
+    <meta name="description" content="Professional content production services in Greece for TV shows, feature films, commercials, documentaries, corporate videos, and digital content. Experienced crews and state-of-the-art equipment.">
+    <meta name="keywords" content="content production Greece, TV production Greece, film production services, commercial production Greece, documentary production">
+    <meta name="author" content="Fixers in Greece">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Content Production Services | Fixers in Greece">
+    <meta property="og:description" content="Full-service content production in Greece for TV, film, commercial, and digital projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fixersingreece.com/content-production/">
+    <meta property="og:image" content="/assets/images/content-production-og.jpg">
+    
+    <!-- Canonical -->
+    <link rel="canonical" href="https://fixersingreece.com/content-production/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/content-production-hero.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .service-card {
+            transition: all 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 128, 255, 0.2);
+        }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-4">
+                    Content Production Services
+                </h1>
+                <p class="text-xl text-gray-200 max-w-3xl mx-auto">
+                    Comprehensive production services for TV, film, commercial, and digital content. From concept to delivery, we bring your vision to life with professional crews and state-of-the-art equipment.
+                </p>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center mb-12">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-6">Full-Service Content Production</h2>
+                    <p class="text-lg text-gray-300 mb-6">
+                        Whether you're producing a TV series, feature film, commercial campaign, or digital content, our comprehensive production services cover every aspect of your project. With experienced crews, cutting-edge equipment, and deep local knowledge, we ensure smooth, efficient productions that deliver exceptional results.
+                    </p>
+                    <p class="text-lg text-gray-300">
+                        From scripted dramas to unscripted reality shows, from viral social media content to cinematic documentaries, we have the expertise and resources to handle productions of any scale throughout Greece.
+                    </p>
+                </div>
+
+                <!-- Services by Category -->
+                <div class="max-w-7xl mx-auto">
+                    <!-- Broadcast & Television -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Broadcast & Television</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/content-production/tv-shows-broadcast-series/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">TV Shows & Series</h4>
+                                <p class="text-gray-300 text-sm">Broadcast series production</p>
+                            </a>
+                            <a href="/content-production/feature-films/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Feature Films</h4>
+                                <p class="text-gray-300 text-sm">Cinema & streaming films</p>
+                            </a>
+                            <a href="/content-production/drama-series/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Drama Series</h4>
+                                <p class="text-gray-300 text-sm">Scripted drama production</p>
+                            </a>
+                            <a href="/content-production/cookery-shows-food-content/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Cookery Shows</h4>
+                                <p class="text-gray-300 text-sm">Food & culinary content</p>
+                            </a>
+                            <a href="/content-production/talk-shows-panel-shows/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Talk Shows</h4>
+                                <p class="text-gray-300 text-sm">Studio & panel shows</p>
+                            </a>
+                            <a href="/content-production/competition-reality-shows/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Reality Shows</h4>
+                                <p class="text-gray-300 text-sm">Competition & reality TV</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Commercial & Corporate -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Commercial & Corporate</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/content-production/commercials-advertising/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">TV Commercials</h4>
+                                <p class="text-gray-300 text-sm">Advertising campaigns</p>
+                            </a>
+                            <a href="/content-production/corporate-videos/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Corporate Videos</h4>
+                                <p class="text-gray-300 text-sm">Business communications</p>
+                            </a>
+                            <a href="/content-production/live-events-brand-activations/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Brand Activations</h4>
+                                <p class="text-gray-300 text-sm">Live events & experiences</p>
+                            </a>
+                            <a href="/content-production/educational-explainer-videos/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Explainer Videos</h4>
+                                <p class="text-gray-300 text-sm">Educational content</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Documentary & Factual -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Documentary & Factual</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/content-production/documentaries-docuseries/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Documentaries</h4>
+                                <p class="text-gray-300 text-sm">Feature documentaries</p>
+                            </a>
+                            <a href="/content-production/documentaries-docuseries/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Docuseries</h4>
+                                <p class="text-gray-300 text-sm">Multi-episode factual</p>
+                            </a>
+                            <a href="/content-production/travel-lifestyle-marketing/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Travel Content</h4>
+                                <p class="text-gray-300 text-sm">Destination marketing</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Digital & Creative Content -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Digital & Creative Content</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/content-production/social-media-content/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Social Media</h4>
+                                <p class="text-gray-300 text-sm">Viral & influencer content</p>
+                            </a>
+                            <a href="/content-production/narrative-films-web-series/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Web Series</h4>
+                                <p class="text-gray-300 text-sm">Digital narrative content</p>
+                            </a>
+                            <a href="/content-production/music-videos/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Music Videos</h4>
+                                <p class="text-gray-300 text-sm">Artist visual content</p>
+                            </a>
+                            <a href="/content-production/fashion-videos/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Fashion Videos</h4>
+                                <p class="text-gray-300 text-sm">Fashion & beauty content</p>
+                            </a>
+                            <a href="/content-production/hotel-videos-reels/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Hotel Videos</h4>
+                                <p class="text-gray-300 text-sm">Hospitality marketing</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our Content Production Services</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">📺</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">17+ Content Types</h3>
+                            <p class="text-gray-300">From TV shows to social media, we produce all content formats.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">👥</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Expert Crews</h3>
+                            <p class="text-gray-300">Specialized teams for each production type with proven experience.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">✅</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">End-to-End Service</h3>
+                            <p class="text-gray-300">From concept development to final delivery and distribution.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Greece Expertise</h3>
+                            <p class="text-gray-300">Deep local knowledge with international production standards.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Ready to Create Exceptional Content?</h2>
+                <p class="text-xl text-white mb-8">Let's bring your vision to life with professional production services.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>js" defer></script>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

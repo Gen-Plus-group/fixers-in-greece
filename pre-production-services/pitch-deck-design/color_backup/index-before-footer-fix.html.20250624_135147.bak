@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Pitch Deck & Treatment Design | Presentation Services | NEEDaFIXER</title>
+    <meta name="description" content="Professional pitch deck and treatment design services. Compelling presentations for your projects.">
+    <meta name="keywords" content="pitch deck design, pre-production services, film production Greece, creative & development">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pitch Deck & Treatment Design | Presentation Services | NEEDaFIXER">
+    <meta property="og:description" content="Professional pitch deck and treatment design services. Compelling presentations for your projects.">
+    <meta property="og:url" content="/pre-production-services/pitch-deck-design/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="/pre-production-services/pitch-deck-design/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/2015/10/Greece-home-main-banner.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Pitch Deck & Treatment Design",
+        "description": "Professional pitch deck and treatment design services. Compelling presentations for your projects.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Creative & Development",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Pitch Deck & Treatment Design
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Compelling presentations and treatments to secure funding and partnerships.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-6">
+                        Expert Creative & Development Services
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto mb-8">
+                        Professional pitch deck & treatment design services for films, commercials, TV series, and digital content. Our expert team delivers exceptional results for productions worldwide.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 mb-16">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-4">Professional Excellence</h3>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Our creative & development specialists bring years of industry experience and proven expertise to every project. We understand the unique requirements of different production types and deliver tailored solutions that meet your specific needs.
+                        </p>
+                        <p class="text-gray-300 leading-relaxed">
+                            From independent films to major studio productions, our team has the skills and resources to handle projects of any scale and complexity, ensuring professional results that exceed expectations.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-4">Global Reach & Support</h3>
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            With our worldwide network of professionals, we provide comprehensive creative & development services across multiple countries and regions. Our global presence ensures consistent quality and reliable support wherever your production takes you.
+                        </p>
+                        <p class="text-gray-300 leading-relaxed">
+                            Our experienced team coordinates seamlessly across time zones and cultures, providing the local expertise and international standards that modern productions demand.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">✅</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Proven Expertise</h3>
+                                <p class="text-gray-300">Industry-leading professionals with extensive experience across all production types and budgets.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🌍</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Network</h3>
+                                <p class="text-gray-300">Worldwide coverage with local expertise and international quality standards.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Fast Response</h3>
+                                <p class="text-gray-300">Quick turnaround times with 24-48 hour response for urgent projects.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">💼</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Full Service</h3>
+                                <p class="text-gray-300">Comprehensive solutions from concept to completion with ongoing support.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">How It Works</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Consultation</h3>
+                                <p class="text-gray-300">Discuss your project requirements and objectives.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Planning</h3>
+                                <p class="text-gray-300">Develop customized solutions for your needs.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Execution</h3>
+                                <p class="text-gray-300">Professional delivery with quality assurance.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Support</h3>
+                                <p class="text-gray-300">Ongoing assistance and project coordination.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Testimonials</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Exceptional service and professional results.</p>
+                                <p class="text-greece-blue font-semibold">— Sarah M.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Delivered exactly what we needed on time.</p>
+                                <p class="text-greece-blue font-semibold">— David L.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding expertise and global reach.</p>
+                                <p class="text-greece-blue font-semibold">— Maria R.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>

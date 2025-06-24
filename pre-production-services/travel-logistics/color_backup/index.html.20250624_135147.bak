@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Travel & Accommodation Logistics Greece | Production Travel Greece | NEEDaFIXER</title>
+    <meta name="description" content="Professional travel and accommodation logistics. Expert coordination for production travel.">
+    <meta name="keywords" content="travel logistics, pre-production services, film production Greece, crew & logistics">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Travel & Accommodation Logistics | Production Travel | NEEDaFIXER">
+    <meta property="og:description" content="Professional travel and accommodation logistics. Expert coordination for production travel.">
+    <meta property="og:url" content="/pre-production-services/travel-logistics/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/travel-logistics/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/39.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Travel & Accommodation Logistics",
+        "description": "Professional travel and accommodation logistics. Expert coordination for production travel.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Crew & Logistics",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Travel & Accommodation Logistics
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Expert coordination of travel and accommodation for productions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Travel Logistics Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Travel Logistics Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert travel coordination for cast, crew, and equipment. Complete logistics management including visas, transportation, accommodation, and customs clearance.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- International Travel -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">✈️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">International Travel</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Flight bookings</li>
+                            <li>• Visa assistance</li>
+                            <li>• Work permits</li>
+                            <li>• Travel insurance</li>
+                            <li>• Airport transfers</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Global Mobility</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Accommodation -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🏨</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Accommodation</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Hotel bookings</li>
+                            <li>• Long-term rentals</li>
+                            <li>• Crew housing</li>
+                            <li>• Location proximity</li>
+                            <li>• Budget optimization</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Comfortable Stays</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Ground Transportation -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🚐</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Ground Transportation</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Vehicle rentals</li>
+                            <li>• Driver services</li>
+                            <li>• Equipment transport</li>
+                            <li>• Location shuttles</li>
+                            <li>• Emergency transport</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Reliable Transport</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Equipment Logistics -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📦</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Equipment Logistics</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Customs clearance</li>
+                            <li>• Carnet documentation</li>
+                            <li>• Equipment shipping</li>
+                            <li>• Local rentals</li>
+                            <li>• Storage facilities</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Equipment Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Travel Logistics Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Travel Logistics Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert travel coordinators with comprehensive experience in international production logistics, visa management, and seamless transportation solutions ensuring efficient crew and equipment movement worldwide.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Travel Coordination</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">International Travel Management</h4>
+                                <p class="text-gray-300">Comprehensive travel planning including flight bookings, accommodation arrangements, and ground transportation coordination. Visa application assistance, work permit processing, and immigration support for international crews. Travel insurance coordination, medical requirements, and emergency evacuation planning. Multi-destination itinerary optimization and cost-effective routing solutions.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Equipment & Cargo Logistics</h4>
+                                <p class="text-gray-300">Professional equipment shipping including customs clearance, carnet coordination, and specialized transport for sensitive gear. International freight management, insurance coverage, and tracking systems. Temporary import permits, duty management, and compliance with local regulations. Emergency equipment shipping and expedited customs processing for urgent requirements.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Local Transportation & Support</h4>
+                                <p class="text-gray-300">Complete ground transportation including crew shuttles, equipment trucks, and specialized vehicle coordination. Local driver coordination, route planning, and traffic management for efficient location access. Airport transfers, hotel coordination, and 24/7 transportation support. Emergency transportation services and backup vehicle arrangements for production continuity.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Travel Logistics Statistics</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">2,000+</div>
+                                    <div class="text-sm text-gray-300">Travel Arrangements</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">48h</div>
+                                    <div class="text-sm text-gray-300">Visa Processing</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">99%</div>
+                                    <div class="text-sm text-gray-300">On-Time Arrival Rate</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24/7</div>
+                                    <div class="text-sm text-gray-300">Support Coverage</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>International travel and visa coordination</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Equipment shipping and customs clearance</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Local transportation and ground support</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Emergency support and backup arrangements</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Travel Logistics Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Travel Logistics</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">✈️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Expertise</h3>
+                                <p class="text-gray-300">Extensive experience with international travel coordination, visa processing, and customs clearance across all major production territories worldwide.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">📦</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Equipment Specialists</h3>
+                                <p class="text-gray-300">Professional equipment shipping with specialized handling for sensitive gear, comprehensive insurance, and expedited customs processing.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🚐</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Local Networks</h3>
+                                <p class="text-gray-300">Comprehensive local transportation networks with reliable drivers, specialized vehicles, and 24/7 support ensuring seamless ground logistics.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Emergency Response</h3>
+                                <p class="text-gray-300">24/7 emergency support with rapid response capabilities, backup arrangements, and crisis management for travel disruptions.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Travel Logistics Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Travel Planning</h3>
+                                <p class="text-gray-300">Comprehensive travel assessment including crew requirements, equipment needs, and destination logistics coordination.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Documentation & Visas</h3>
+                                <p class="text-gray-300">Visa applications, work permits, and travel documentation processing with expedited services for urgent requirements.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Booking & Coordination</h3>
+                                <p class="text-gray-300">Flight bookings, accommodation arrangements, and ground transportation coordination with real-time tracking and updates.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Travel Support</h3>
+                                <p class="text-gray-300">24/7 travel assistance, emergency support, and real-time coordination throughout the entire travel period.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional travel logistics services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive travel coordination including flight bookings, accommodation arrangements, and ground transportation. Visa application assistance, work permit processing, and immigration support. Equipment shipping, customs clearance, and carnet coordination. Travel insurance, medical requirements, and emergency evacuation planning. 24/7 travel support and real-time assistance throughout travel period.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How quickly can you process visas and travel documentation?</h3>
+                                <p class="text-gray-300">
+                                    Standard visa processing takes 5-10 business days for most countries, 3-5 days for expedited services. Emergency visa processing available within 24-48 hours for urgent requirements. Work permit processing varies by country, typically 10-21 days. Rush services available with premium pricing. We maintain relationships with consulates and embassies for priority processing when needed.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you handle equipment shipping and customs clearance?</h3>
+                                <p class="text-gray-300">
+                                    Complete equipment logistics including international shipping, customs clearance, and carnet coordination. Specialized handling for sensitive equipment, comprehensive insurance coverage, and tracking systems. Temporary import permits, duty management, and compliance with local regulations. Emergency shipping services and expedited customs processing for urgent equipment requirements.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Can you coordinate travel for large international crews?</h3>
+                                <p class="text-gray-300">
+                                    Specialized coordination for large crew movements including group bookings, charter arrangements, and multi-destination itineraries. Crew manifest management, immigration coordination, and group visa processing. Accommodation block bookings, ground transportation fleets, and centralized travel management. Experience with crews of 50+ people across multiple countries and time zones.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for travel logistics services?</h3>
+                                <p class="text-gray-300">
+                                    Service fees typically 5-10% of total travel costs for comprehensive coordination. Flat rates for visa processing ($200-500 per person), equipment shipping (varies by weight/destination), and ground transportation. Volume discounts for large crews and long-term projects. Emergency services carry premium pricing. Transparent pricing with detailed breakdowns and no hidden fees.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide emergency travel support and crisis management?</h3>
+                                <p class="text-gray-300">
+                                    24/7 emergency travel support including flight changes, accommodation adjustments, and crisis management. Medical emergency coordination, evacuation planning, and emergency repatriation services. Travel disruption management, alternative routing, and backup arrangements. Emergency equipment shipping and expedited customs clearance. Dedicated emergency hotline and immediate response capabilities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">They coordinated travel for our 60-person international crew flawlessly. Every visa was processed on time, and the logistics ran like clockwork across 4 countries.</p>
+                                <p class="text-greece-blue font-semibold">— Michael Torres, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">When flights were cancelled due to weather, they had our entire crew rerouted and accommodated within 3 hours. Outstanding crisis management and support.</p>
+                                <p class="text-greece-blue font-semibold">— Sarah Kim, Line Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their equipment shipping expertise saved our production. Complex customs clearance for $2M in gear was handled seamlessly with zero delays.</p>
+                                <p class="text-greece-blue font-semibold">— David Chen, Technical Producer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Streamline Your Travel Logistics?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional travel logistics that ensures seamless crew movement, efficient equipment shipping, and comprehensive support through expert coordination, visa processing, and 24/7 assistance.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Plan Your Travel
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Logistics Solutions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/travel-logistics/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>

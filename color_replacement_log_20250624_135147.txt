@@ -1,0 +1,565 @@
+Color Replacement Log - 2025-06-24 13:51:47.612966
+============================================================
+
+Modified Files:
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/licensing-rights/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/licensing-rights/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/creative-direction/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/creative-direction/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/portfolio-category/category-template.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/portfolio-category/color_backup/category-template.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/contract-management/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/contract-management/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/voiceover-casting/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/voiceover-casting/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-agreements/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-agreements/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-budgeting/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-budgeting/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/film-production-services/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/film-production-services/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/call-sheets/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/call-sheets/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/travel-logistics/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/travel-logistics/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/voiceover-casting/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/voiceover-casting/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/about-us/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/about-us/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/concept-development/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/concept-development/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/contract-management/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/contract-management/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/site-surveys/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/site-surveys/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/line-producing-services/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/line-producing-services/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/documentary-filming-greece/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/documentary-filming-greece/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/documentary-filming-greece/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/documentary-filming-greece/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/crew-hiring/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/crew-hiring/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/covid-compliance/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/covid-compliance/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/news-filming-greece/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/news-filming-greece/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/pitch-deck-design/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/pitch-deck-design/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/pitch-deck-design/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/pitch-deck-design/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/event-filming-greece/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/event-filming-greece/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/fixer-services-local/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/fixer-services-local/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/voiceover-casting/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/voiceover-casting/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-scheduling/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-scheduling/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/casting-services/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/casting-services/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/licensing-rights/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/licensing-rights/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/cost-estimation/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/cost-estimation/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/casting-services/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/casting-services/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/film-production-services/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/film-production-services/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-releases/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-releases/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/commercial-video-production-greece/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/commercial-video-production-greece/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/licensing-rights/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/licensing-rights/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/crew-hiring/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/crew-hiring/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/news-filming-greece/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/news-filming-greece/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/catering-services/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/catering-services/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/concept-development/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/concept-development/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-management/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-management/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/portfolio/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/portfolio/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/equipment-planning/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/equipment-planning/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-coordination/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-coordination/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-scheduling/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-scheduling/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/CLAUDE.md
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/color_backup/CLAUDE.md.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/event-filming-greece/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/event-filming-greece/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/union-talent-management/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/union-talent-management/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-insurance/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-insurance/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/contact/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/contact/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-coordination/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-coordination/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/fixer-services-local/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/fixer-services-local/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/line-producing-services/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/line-producing-services/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/catering-services/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/catering-services/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/athens-filming/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/athens-filming/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-agreements/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-agreements/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/covid-compliance/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/covid-compliance/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/storyboarding/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/storyboarding/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/travel-logistics/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/travel-logistics/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/components/navigation.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/components/color_backup/navigation.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/script-consultation/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/script-consultation/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/fixer-services-local/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/fixer-services-local/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/scriptwriting/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/scriptwriting/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/contact/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/contact/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/clients/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/clients/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/travel-logistics/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/travel-logistics/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-releases/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-releases/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/concept-development/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/concept-development/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-scheduling/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-scheduling/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-management/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-management/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/clients/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/clients/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/css/layout.css
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/css/color_backup/layout.css.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/script-consultation/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/script-consultation/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/line-producing-services/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/line-producing-services/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/live-streaming-greece/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/live-streaming-greece/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/news-filming-greece/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/news-filming-greece/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/film-crew/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/film-crew/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/event-filming-greece/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/event-filming-greece/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/music-video-production-greece/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/music-video-production-greece/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/moodboard-creation/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/moodboard-creation/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/film-permit-acquisition/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/film-permit-acquisition/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/js/inline-components.js
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/js/color_backup/inline-components.js.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-insurance/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-insurance/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/contract-management/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/contract-management/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/cost-estimation/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/cost-estimation/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/music-video-production-greece/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/music-video-production-greece/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/union-talent-management/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/union-talent-management/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/commercial-video-production-greece/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/commercial-video-production-greece/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/contact/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/contact/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-insurance/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-insurance/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/film-permit-acquisition/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/film-permit-acquisition/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/scriptwriting/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/scriptwriting/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/equipment-planning/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/equipment-planning/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/commercial-video-production-greece/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/commercial-video-production-greece/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/documentary-filming-greece/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/documentary-filming-greece/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/site-surveys/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/site-surveys/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/film-permit-acquisition/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/film-permit-acquisition/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/portfolio/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/portfolio/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/creative-direction/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/creative-direction/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/content-production/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/content-production/color_backup/index.html.20250624_135147.bak
+  rgba\(\s*0\s*,?\s*128\s*,?\s*255\s*, -> rgba(249, 165, 49,
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/storyboarding/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/storyboarding/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-scouting-services/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-scouting-services/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/live-streaming-greece/index-before-mobile-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/live-streaming-greece/color_backup/index-before-mobile-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/thessaloniki-filming/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/thessaloniki-filming/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/pitch-deck-design/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/pitch-deck-design/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/storyboarding/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/storyboarding/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/union-talent-management/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/union-talent-management/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/moodboard-creation/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/moodboard-creation/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/template-page.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/color_backup/template-page.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/catering-services/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/catering-services/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-scouting-services/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-scouting-services/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/film-production-services/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/film-production-services/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-agreements/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-agreements/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/moodboard-creation/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/moodboard-creation/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/production-services/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/production-services/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-management/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-management/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/covid-compliance/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/covid-compliance/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/script-consultation/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/script-consultation/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/creative-direction/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/creative-direction/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-releases/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-releases/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/call-sheets/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/call-sheets/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/clients/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/clients/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/cost-estimation/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/cost-estimation/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/casting-services/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/casting-services/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-coordination/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/talent-coordination/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/portfolio/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/portfolio/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-scouting-services/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/location-scouting-services/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/crew-hiring/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/crew-hiring/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/music-video-production-greece/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/music-video-production-greece/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/equipment-planning/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/equipment-planning/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-budgeting/index-before-dynamic-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-budgeting/color_backup/index-before-dynamic-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/site-surveys/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/site-surveys/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/call-sheets/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/call-sheets/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-budgeting/index-before-footer-fix.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/pre-production-services/production-budgeting/color_backup/index-before-footer-fix.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/tailwind.config.js
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/color_backup/tailwind.config.js.20250624_135147.bak
+  #0080ff -> #f9a531
+  rgba\(\s*0\s*,?\s*128\s*,?\s*255\s*, -> rgba(249, 165, 49,
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/santorini-film-production/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/santorini-film-production/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/live-streaming-greece/index-backup-before-dynamic.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/live-streaming-greece/color_backup/index-backup-before-dynamic.html.20250624_135147.bak
+  #0080ff -> #f9a531
+
+- /workspaces/codespaces-blank/coding/fixers-in-greece/post-production-services/index.html
+  Backup: /workspaces/codespaces-blank/coding/fixers-in-greece/post-production-services/color_backup/index.html.20250624_135147.bak
+  #0080ff -> #f9a531
+

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Catering & On-Set Services Greece | Production Catering Greece | NEEDaFIXER</title>
+    <meta name="description" content="Professional catering and on-set services. Expert coordination of production catering.">
+    <meta name="keywords" content="catering services, pre-production services, film production, crew & logistics">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Catering & On-Set Services | Production Catering | NEEDaFIXER">
+    <meta property="og:description" content="Professional catering and on-set services. Expert coordination of production catering.">
+    <meta property="og:url" content="/pre-production-services/catering-services/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/catering-services/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/28.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Catering & On-Set Services",
+        "description": "Professional catering and on-set services. Expert coordination of production catering.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Crew & Logistics",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Catering & On-Set Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Professional catering and on-set service coordination for productions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Catering Services Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Catering Services Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert catering services ensuring quality food service and crew satisfaction. Professional coordination of all food and beverage needs with focus on nutrition, dietary requirements, and production schedules.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Meal Planning -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🍽️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Meal Planning</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Menu development</li>
+                            <li>• Nutritional planning</li>
+                            <li>• Dietary accommodations</li>
+                            <li>• Cultural preferences</li>
+                            <li>• Budget optimization</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Culinary Excellence</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Service Coordination -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🚚</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Service Coordination</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Delivery scheduling</li>
+                            <li>• Setup management</li>
+                            <li>• Service staff</li>
+                            <li>• Equipment provision</li>
+                            <li>• Cleanup coordination</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Service Management</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Special Requirements -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🥗</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Special Requirements</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Dietary restrictions</li>
+                            <li>• Allergies management</li>
+                            <li>• Cultural foods</li>
+                            <li>• Healthy options</li>
+                            <li>• Special occasions</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Custom Solutions</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Logistics Management -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Logistics Management</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Vendor coordination</li>
+                            <li>• Quality control</li>
+                            <li>• Food safety</li>
+                            <li>• Permit compliance</li>
+                            <li>• Cost management</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Operational Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Catering Services Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Catering Services Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert culinary professionals with comprehensive experience in production catering, dietary management, and food safety ensuring exceptional meals and crew satisfaction throughout filming periods.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Catering Solutions</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Professional Production Catering</h4>
+                                <p class="text-gray-300">Comprehensive catering services including breakfast, lunch, dinner, and craft services for productions of all sizes. Professional kitchen setup, equipment provision, and food preparation facilities. Specialized dietary accommodations including vegetarian, vegan, gluten-free, and cultural preferences. Hot meals, fresh ingredients, and nutritious options maintaining crew energy and morale throughout long shooting days.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Food Safety & Compliance</h4>
+                                <p class="text-gray-300">Certified food safety protocols with HACCP compliance and health department coordination. Professional food handling, temperature control, and hygiene standards. Permit acquisition, health inspections, and regulatory compliance for all filming locations. Allergen management, food labeling, and dietary restriction coordination ensuring safe dining for all crew members.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Location & Logistics Coordination</h4>
+                                <p class="text-gray-300">Mobile catering solutions for remote locations including generator power, water supply, and waste management. Equipment transportation, setup coordination, and breakdown services. Multi-location catering with synchronized meal times and consistent quality. Emergency meal services, backup catering plans, and weather contingency arrangements for uninterrupted service.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Catering Performance Statistics</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">50,000+</div>
+                                    <div class="text-sm text-gray-300">Meals Served</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100%</div>
+                                    <div class="text-sm text-gray-300">Food Safety Record</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">96%</div>
+                                    <div class="text-sm text-gray-300">Crew Satisfaction</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24/7</div>
+                                    <div class="text-sm text-gray-300">Service Availability</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Professional production catering and dietary management</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Certified food safety and regulatory compliance</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Mobile catering and remote location services</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Emergency services and backup catering plans</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catering Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Catering Services</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">👨‍🍳</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Culinary Excellence</h3>
+                                <p class="text-gray-300">Professional chefs with extensive production catering experience, specialized dietary expertise, and commitment to exceptional meal quality and presentation.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🛡️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Food Safety Certified</h3>
+                                <p class="text-gray-300">HACCP certified operations with 100% food safety record, health department compliance, and comprehensive allergen management protocols.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🚐</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Mobile Solutions</h3>
+                                <p class="text-gray-300">Complete mobile catering capabilities for remote locations with self-sufficient kitchen setups, power generation, and waste management systems.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⏰</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Flexible Scheduling</h3>
+                                <p class="text-gray-300">24/7 service availability with flexible meal timing, emergency catering services, and rapid deployment for changing production schedules.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Catering Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Menu Planning</h3>
+                                <p class="text-gray-300">Comprehensive menu development including dietary requirements, cultural preferences, and nutritional planning for optimal crew satisfaction.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Setup & Preparation</h3>
+                                <p class="text-gray-300">Professional kitchen setup, equipment installation, and food preparation with certified safety protocols and quality control measures.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Service Delivery</h3>
+                                <p class="text-gray-300">Timely meal service with hot food delivery, buffet management, and continuous craft services throughout production schedule.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Cleanup & Support</h3>
+                                <p class="text-gray-300">Complete cleanup services, waste management, and ongoing support with flexibility for schedule changes and emergency requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional production catering services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive catering including breakfast, lunch, dinner, and craft services with professional kitchen setup and equipment. Specialized dietary accommodations, allergen management, and cultural menu preferences. Food safety compliance, health permits, and certified food handling. Mobile catering solutions for remote locations with power generation and waste management. Emergency meal services and backup catering plans.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Can you accommodate special dietary requirements and allergies?</h3>
+                                <p class="text-gray-300">
+                                    Complete dietary accommodation including vegetarian, vegan, gluten-free, kosher, halal, and cultural preferences. Professional allergen management with separate preparation areas and certified protocols. Detailed ingredient labeling, cross-contamination prevention, and specialized menu planning. Medical dietary requirements coordination with nutritionist consultation. Custom meal preparation for specific health conditions and restrictions.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide catering for remote and challenging locations?</h3>
+                                <p class="text-gray-300">
+                                    Specialized mobile catering for remote locations including mountain areas, beaches, and jungle environments. Self-sufficient kitchen setups with generator power, water supply, and refrigeration systems. Equipment transportation, setup coordination, and environmental compliance. Weather-resistant facilities, backup power systems, and emergency food storage. Experience with extreme locations and challenging access conditions.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are your food safety and health compliance standards?</h3>
+                                <p class="text-gray-300">
+                                    HACCP certified operations with 100% food safety record and health department compliance. Certified food handlers, temperature monitoring, and hygiene protocols. Regular health inspections, permit maintenance, and regulatory compliance. Comprehensive allergen management, food labeling, and contamination prevention. Emergency response protocols and food safety incident management procedures.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for production catering services?</h3>
+                                <p class="text-gray-300">
+                                    Catering costs typically $25-50 per person per day depending on menu complexity and service level. Basic craft services $10-15 per person, full meal service $35-60 per person daily. Remote location catering includes setup fees $500-2,000 depending on accessibility. Volume discounts for large crews and long-term productions. Transparent pricing with detailed menu and service breakdowns.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide 24/7 catering and emergency meal services?</h3>
+                                <p class="text-gray-300">
+                                    24/7 catering availability for night shoots, overtime filming, and extended production schedules. Emergency meal services, rapid deployment capabilities, and backup catering plans. Late-night craft services, early morning breakfast, and flexible meal timing. Emergency food delivery, weather contingency meals, and crisis management support. Dedicated catering coordinator and emergency contact system.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding catering for our 80-person crew over 6 weeks. Every dietary requirement was met perfectly, and the food quality kept morale high throughout challenging shoots.</p>
+                                <p class="text-greece-blue font-semibold">— Jennifer Walsh, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their mobile catering setup in remote mountain locations was incredible. Hot meals delivered on time despite challenging access and weather conditions.</p>
+                                <p class="text-greece-blue font-semibold">— Carlos Rodriguez, Location Manager</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional food safety standards and exceptional allergen management. They handled complex dietary requirements for our international cast and crew flawlessly.</p>
+                                <p class="text-greece-blue font-semibold">— Sarah Kim, Production Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Elevate Your Production Catering?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional catering services that ensure exceptional meals, crew satisfaction, and food safety through expert culinary teams, dietary management, and comprehensive mobile solutions.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Plan Your Catering
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Catering Solutions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/catering-services/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>ma -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

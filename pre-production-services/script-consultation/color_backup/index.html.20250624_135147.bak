@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Script Consultation & Polishing Services | Expert Script Doctors | NEEDaFIXER</title>
+    <meta name="description" content="Professional script consultation and polishing services. Expert script doctors to refine your screenplay.">
+    <meta name="keywords" content="script consultation, pre-production services, film production, creative & development">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Script Consultation & Polishing Services | Expert Script Doctors | NEEDaFIXER">
+    <meta property="og:description" content="Professional script consultation and polishing services. Expert script doctors to refine your screenplay.">
+    <meta property="og:url" content="/pre-production-services/script-consultation/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/script-consultation/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/27.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Script Consultation & Polishing Services",
+        "description": "Professional script consultation and polishing services. Expert script doctors to refine your screenplay.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Creative & Development",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Script Consultation & Polishing Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Expert script doctors to refine, polish, and perfect your screenplay.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Script Consultation Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Script Consultation Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert script consultation services providing detailed analysis, feedback, and development guidance. Professional story development ensuring compelling narratives and production readiness.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Script Analysis -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📖</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Script Analysis</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Story structure review</li>
+                            <li>• Character development analysis</li>
+                            <li>• Dialogue assessment</li>
+                            <li>• Pacing evaluation</li>
+                            <li>• Theme exploration</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Story Expertise</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Development Notes -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">✍️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Development Notes</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Detailed feedback</li>
+                            <li>• Improvement suggestions</li>
+                            <li>• Rewrite guidance</li>
+                            <li>• Character notes</li>
+                            <li>• Plot recommendations</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Professional Guidance</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Genre Expertise -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎭</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Genre Expertise</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Genre conventions</li>
+                            <li>• Market analysis</li>
+                            <li>• Audience expectations</li>
+                            <li>• Commercial viability</li>
+                            <li>• Cultural adaptation</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Genre Mastery</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Revision Support -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🔄</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Revision Support</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Multiple draft reviews</li>
+                            <li>• Ongoing consultation</li>
+                            <li>• Progress tracking</li>
+                            <li>• Final polish</li>
+                            <li>• Production preparation</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Continuous Support</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Script Consultation Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Script Consultation Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert script consultants with comprehensive experience in screenplay development, story structure, and narrative enhancement ensuring compelling storytelling and professional script quality for all productions.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Script Development</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Story Structure & Narrative Development</h4>
+                                <p class="text-gray-300">Comprehensive story analysis including three-act structure, character development, and narrative arc optimization. Plot development, pacing analysis, and dramatic tension enhancement. Theme exploration, conflict resolution, and emotional journey mapping. Genre conventions, audience targeting, and commercial viability assessment with professional storytelling expertise.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Character Development & Dialogue Enhancement</h4>
+                                <p class="text-gray-300">Expert character analysis including motivation, backstory, and character arc development. Dialogue refinement, voice consistency, and authentic conversation creation. Character relationships, ensemble dynamics, and supporting character integration. Dialogue coaching, subtext development, and natural speech patterns with professional character development techniques.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Production Readiness & Industry Standards</h4>
+                                <p class="text-gray-300">Professional script formatting, industry standard compliance, and production preparation. Budget considerations, location requirements, and casting implications analysis. Market research, genre analysis, and commercial potential assessment. Script coverage, reader reports, and industry feedback integration ensuring production-ready screenplay quality.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Script Consultation Performance</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">1,200+</div>
+                                    <div class="text-sm text-gray-300">Scripts Consulted</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">90%</div>
+                                    <div class="text-sm text-gray-300">Client Satisfaction</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">48h</div>
+                                    <div class="text-sm text-gray-300">Feedback Delivery</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100%</div>
+                                    <div class="text-sm text-gray-300">Professional Quality</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Story structure and narrative development</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Character development and dialogue enhancement</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Production readiness and industry standards</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Commercial viability and market analysis</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Script Consultation Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Script Consultation</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">📝</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Expert Analysis</h3>
+                                <p class="text-gray-300">Professional script consultants with extensive experience in screenplay development, story structure, and narrative enhancement across all genres and formats.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Feedback</h3>
+                                <p class="text-gray-300">48-hour feedback delivery with 90% client satisfaction ensuring quick turnaround and comprehensive script analysis for urgent projects.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎭</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Industry Standards</h3>
+                                <p class="text-gray-300">100% professional quality with industry standard compliance, production readiness, and commercial viability assessment ensuring market-ready scripts.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">💡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Creative Enhancement</h3>
+                                <p class="text-gray-300">Comprehensive creative development with character enhancement, dialogue refinement, and story structure optimization for compelling narratives.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Script Consultation Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Script Analysis</h3>
+                                <p class="text-gray-300">Comprehensive script evaluation including story structure, character development, and narrative flow analysis.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Detailed Feedback</h3>
+                                <p class="text-gray-300">Professional feedback with specific recommendations, improvement suggestions, and creative enhancement strategies.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Revision Support</h3>
+                                <p class="text-gray-300">Ongoing revision support with implementation guidance, rewrite assistance, and continuous improvement coordination.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Production Preparation</h3>
+                                <p class="text-gray-300">Production readiness assessment with industry compliance, formatting verification, and final polish coordination.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional script consultation services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive script analysis including story structure, character development, and narrative flow evaluation. Detailed feedback with specific recommendations, improvement suggestions, and creative enhancement strategies. Dialogue refinement, pacing analysis, and dramatic tension optimization. Industry standard compliance, production readiness assessment, and commercial viability analysis. Ongoing revision support and implementation guidance.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How quickly can you provide script feedback and analysis?</h3>
+                                <p class="text-gray-300">
+                                    Standard script consultation feedback delivered within 48-72 hours for most projects with comprehensive analysis and recommendations. Rush services available within 24-48 hours for urgent productions. Complex feature-length scripts may require 3-5 days depending on scope and depth of analysis. Emergency consultation available same-day for critical production decisions. Immediate consultation and strategic guidance available throughout development.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide ongoing revision support and development guidance?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive ongoing revision support including implementation guidance, rewrite assistance, and continuous improvement coordination. Multiple revision rounds, feedback integration, and development tracking. Creative workshops, brainstorming sessions, and collaborative development. Progress monitoring, milestone tracking, and final polish coordination. Ongoing consultation throughout entire script development lifecycle.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What types of scripts and formats do you work with?</h3>
+                                <p class="text-gray-300">
+                                    Complete script consultation across all formats including feature films, television series, documentaries, and commercial content. Short films, web series, and digital content development. Genre expertise including drama, comedy, thriller, horror, and action. International formats, cultural adaptations, and multi-language projects. Industry-specific requirements and specialized content development with professional formatting standards.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for script consultation services?</h3>
+                                <p class="text-gray-300">
+                                    Script consultation fees typically $500-3,000 depending on script length and analysis depth. Short scripts $500-1,200, feature-length $1,200-3,000. Ongoing development support and multiple revision rounds may require additional fees. Rush services and emergency consultation available with premium pricing. Volume discounts for multiple projects and long-term development partnerships.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide commercial viability and market analysis?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive commercial viability assessment including market research, genre analysis, and audience targeting. Competitive landscape analysis, distribution potential, and revenue projections. Industry trends, market positioning, and commercial optimization strategies. Budget considerations, production implications, and financial feasibility analysis. Strategic recommendations for market success and commercial appeal enhancement.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their script consultation transformed our screenplay from good to exceptional. The character development and dialogue enhancement made all the difference in our production success.</p>
+                                <p class="text-greece-blue font-semibold">— Rachel Martinez, Writer-Director</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding story structure analysis and rapid feedback. When we needed emergency script revisions, they delivered comprehensive improvements within 24 hours.</p>
+                                <p class="text-greece-blue font-semibold">— James Wilson, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional, insightful, and incredibly thorough. Their commercial viability analysis and market positioning guidance helped secure our funding and distribution.</p>
+                                <p class="text-greece-blue font-semibold">— Maria Santos, Producer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Perfect Your Script?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional script consultation that ensures compelling storytelling, character development, and production readiness through expert analysis, creative enhancement, and industry-standard optimization.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Enhance Your Script
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Script Success
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/script-consultation/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

@@ -16,7 +16,7 @@ module.exports = {
     extend: {
       colors: {
         'greece': {
-          'blue': '#0080ff',
+          'blue': '#f9a531',
           'white': '#ffffff',
           'dark': '#1c1c1c',
           'darker': '#0a0a0a',
@@ -81,14 +81,14 @@ module.exports = {
         'xs': '2px'
       },
       boxShadow: {
-        'greece': '0 4px 6px -1px rgba(0, 128, 255, 0.1), 0 2px 4px -1px rgba(0, 128, 255, 0.06)',
-        'greece-lg': '0 10px 15px -3px rgba(0, 128, 255, 0.1), 0 4px 6px -2px rgba(0, 128, 255, 0.05)',
-        'greece-xl': '0 20px 25px -5px rgba(0, 128, 255, 0.1), 0 10px 10px -5px rgba(0, 128, 255, 0.04)',
-        'glow': '0 0 20px rgba(0, 128, 255, 0.3)',
-        'glow-lg': '0 0 40px rgba(0, 128, 255, 0.4)'
+        'greece': '0 4px 6px -1px rgba(249, 165, 49, 0.1), 0 2px 4px -1px rgba(249, 165, 49, 0.06)',
+        'greece-lg': '0 10px 15px -3px rgba(249, 165, 49, 0.1), 0 4px 6px -2px rgba(249, 165, 49, 0.05)',
+        'greece-xl': '0 20px 25px -5px rgba(249, 165, 49, 0.1), 0 10px 10px -5px rgba(249, 165, 49, 0.04)',
+        'glow': '0 0 20px rgba(249, 165, 49, 0.3)',
+        'glow-lg': '0 0 40px rgba(249, 165, 49, 0.4)'
       },
       gradientColorStops: {
-        'greece-blue': '#0080ff',
+        'greece-blue': '#f9a531',
         'greece-white': '#ffffff'
       }
     }
@@ -101,13 +101,13 @@ module.exports = {
     function({ addUtilities, theme }) {
       const newUtilities = {
         '.text-gradient-greece': {
-          'background': 'linear-gradient(135deg, #0080ff 0%, #ffffff 100%)',
+          'background': 'linear-gradient(135deg, #f9a531 0%, #ffffff 100%)',
           '-webkit-background-clip': 'text',
           '-webkit-text-fill-color': 'transparent',
           'background-clip': 'text'
         },
         '.bg-gradient-greece': {
-          'background': 'linear-gradient(135deg, #0080ff 0%, #ffffff 100%)'
+          'background': 'linear-gradient(135deg, #f9a531 0%, #ffffff 100%)'
         },
         '.bg-gradient-greece-dark': {
           'background': 'linear-gradient(135deg, #1c1c1c 0%, #0a0a0a 100%)'

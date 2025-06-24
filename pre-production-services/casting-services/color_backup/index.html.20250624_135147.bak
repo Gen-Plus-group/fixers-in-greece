@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Casting Services | Actors, Models, Extras | NEEDaFIXER</title>
+    <meta name="description" content="Professional casting services for actors, models, and extras. Global talent casting for all productions.">
+    <meta name="keywords" content="casting services, pre-production services, film production, casting & talent">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Casting Services | Actors, Models, Extras | NEEDaFIXER">
+    <meta property="og:description" content="Professional casting services for actors, models, and extras. Global talent casting for all productions.">
+    <meta property="og:url" content="/pre-production-services/casting-services/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/casting-services/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/3.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #0080ff;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #0080ff;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #0080ff;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Casting Services",
+        "description": "Professional casting services for actors, models, and extras. Global talent casting for all productions.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Casting & Talent",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Casting Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Professional casting for actors, models, and extras across all production types.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Casting Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Casting Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert casting directors connecting productions with perfect talent. Comprehensive casting services for films, commercials, TV series, and digital content with extensive talent databases and professional audition processes. Our <a href="/pre-production-services/talent-coordination/" class="text-greece-blue hover:text-yellow-300 transition-colors">talent coordination services</a> ensure seamless integration with your <a href="/film-production-services/" class="text-greece-blue hover:text-yellow-300 transition-colors">production workflow</a>.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Actor Casting -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎭</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Actor Casting</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Lead role casting</li>
+                            <li>• Supporting character selection</li>
+                            <li>• Background <a href="/pre-production-services/talent-coordination/" class="text-gray-300 hover:text-greece-blue transition-colors">talent coordination</a></li>
+                            <li>• Child actor specialists</li>
+                            <li>• International talent sourcing across <a href="/Greece-filming-locations/" class="text-gray-300 hover:text-greece-blue transition-colors">Greece locations</a></li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Perfect Performances</span>
+                        </div>
+                    </div>
+
+                    <!-- Model Casting -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📸</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Model Casting</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Fashion model selection</li>
+                            <li>• Commercial model casting</li>
+                            <li>• Lifestyle model coordination</li>
+                            <li>• Product demonstration talent</li>
+                            <li>• Brand ambassador casting</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Visual Appeal</span>
+                        </div>
+                    </div>
+
+                    <!-- Extras & Background -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">👥</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Extras & Background</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Crowd scene coordination</li>
+                            <li>• Period-specific extras</li>
+                            <li>• Specialized background talent</li>
+                            <li>• Cultural authenticity casting for <a href="/Greece-filming-locations/" class="text-gray-300 hover:text-greece-blue transition-colors">Greece filming</a></li>
+                            <li>• Large group management</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Authentic Atmosphere</span>
+                        </div>
+                    </div>
+
+                    <!-- Voice Talent -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎤</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Voice Talent</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Voice-over artist casting</li>
+                            <li>• Narrator selection</li>
+                            <li>• Character voice matching</li>
+                            <li>• Multi-language voice talent</li>
+                            <li>• Audio commercial casting</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Perfect Voice Match</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Casting Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Casting Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Experienced casting directors with extensive talent networks and proven track record in discovering and managing talent for productions of all scales.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Talent Database & Sourcing</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Comprehensive Talent Database</h4>
+                                <p class="text-gray-300">Over 10,000 registered actors, models, and performers across <a href="/Greece-filming-locations/" class="text-gray-300 hover:text-greece-blue transition-colors">Greece</a> and Southeast Asia, working alongside our <a href="/film-crew/" class="text-gray-300 hover:text-greece-blue transition-colors">professional film crews</a>. Advanced search capabilities by age, ethnicity, language skills, special abilities, and experience level. International talent sourcing through global casting networks and agency partnerships. Specialized databases for period productions, cultural authenticity requirements, and technical skill casting.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Audition Process & Management</h4>
+                                <p class="text-gray-300">Professional audition facilities with high-quality recording equipment, multiple audition rooms, and live streaming capabilities for remote client participation. Structured audition processes including initial screenings, callback sessions, and chemistry reads. Digital audition management with secure client portals, talent scheduling systems, and comprehensive audition archives.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Talent Coordination & Support</h4>
+                                <p class="text-gray-300">Full talent management including contract negotiations, <a href="/pre-production-services/talent-releases/" class="text-gray-300 hover:text-greece-blue transition-colors">talent releases</a>, scheduling coordination, and on-set support with our <a href="/film-crew/" class="text-gray-300 hover:text-greece-blue transition-colors">experienced crew</a>. Wardrobe fittings, makeup tests, and rehearsal coordination. Travel arrangements for out-of-town talent, accommodation booking, and transportation management across all <a href="/Greece-filming-locations/" class="text-gray-300 hover:text-greece-blue transition-colors">Greece filming locations</a>. Talent welfare support, dietary requirements management, and professional representation throughout your <a href="/film-production-services/" class="text-gray-300 hover:text-greece-blue transition-colors">film production</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Casting Statistics</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">10,000+</div>
+                                    <div class="text-sm text-gray-300">Registered Talent</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24h</div>
+                                    <div class="text-sm text-gray-300">Casting Response Time</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">50+</div>
+                                    <div class="text-sm text-gray-300">Casting Categories</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">99%</div>
+                                    <div class="text-sm text-gray-300">Successful Placements</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Professional audition facilities and equipment</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Comprehensive talent database and search capabilities</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>International talent sourcing and coordination</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Complete talent management and on-set support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Casting Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Casting</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎯</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Expert Casting Directors</h3>
+                                <p class="text-gray-300">Award-winning casting directors with international experience and deep understanding of Greeceese and international talent markets, integrated with our <a href="/film-production-services/" class="text-gray-300 hover:text-greece-blue transition-colors">comprehensive production services</a>.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🌏</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Cultural Authenticity</h3>
+                                <p class="text-gray-300">Specialized expertise in culturally authentic casting with extensive networks across Greeceese ethnic groups and international communities throughout our <a href="/Greece-filming-locations/" class="text-gray-300 hover:text-greece-blue transition-colors">diverse filming locations</a>.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Response</h3>
+                                <p class="text-gray-300">24-hour casting response times with emergency casting services available for urgent production requirements.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎬</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Production Integration</h3>
+                                <p class="text-gray-300">Seamless integration with production workflows including scheduling, contracts, <a href="/pre-production-services/talent-releases/" class="text-gray-300 hover:text-greece-blue transition-colors">talent releases</a>, and on-set talent management with our <a href="/film-crew/" class="text-gray-300 hover:text-greece-blue transition-colors">professional crews</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">How It Works</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Consultation</h3>
+                                <p class="text-gray-300">Discuss your project requirements and objectives.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Planning</h3>
+                                <p class="text-gray-300">Develop customized solutions for your needs.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Execution</h3>
+                                <p class="text-gray-300">Professional delivery with quality assurance.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Support</h3>
+                                <p class="text-gray-300">Ongoing assistance and project coordination.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Testimonials</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Exceptional service and professional results.</p>
+                                <p class="text-greece-blue font-semibold">— Sarah M.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Delivered exactly what we needed on time.</p>
+                                <p class="text-greece-blue font-semibold">— David L.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding expertise and global reach.</p>
+                                <p class="text-greece-blue font-semibold">— Maria R.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional casting services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive casting solutions including talent database access, audition coordination, and professional casting direction integrated with our <a href="/pre-production-services/talent-coordination/" class="text-gray-300 hover:text-greece-blue transition-colors">talent coordination services</a>. Complete talent management from initial casting calls through final selection, contract negotiation, and <a href="/pre-production-services/talent-releases/" class="text-gray-300 hover:text-greece-blue transition-colors">talent release management</a>. Audition facility provision, recording services, and client consultation throughout the casting process. Background checks, talent verification, and professional representation coordination.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How long does the casting process typically take?</h3>
+                                <p class="text-gray-300">
+                                    Standard casting process takes 5-10 days for lead roles, 3-5 days for supporting characters, and 1-3 days for background talent. Rush casting available with 24-48 hour turnaround for urgent requirements. Complex character casting or specialized talent may require 2-3 weeks. International talent sourcing adds additional time for visa coordination and travel arrangements to <a href="/Greece-filming-locations/" class="text-gray-300 hover:text-greece-blue transition-colors">Greece filming locations</a>.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide international talent and cultural authenticity casting?</h3>
+                                <p class="text-gray-300">
+                                    Extensive international talent networks with cultural authenticity specialists and ethnic casting expertise. Multi-language casting capabilities and cultural consultant coordination across all <a href="/Greece-filming-locations/" class="text-gray-300 hover:text-greece-blue transition-colors">Greece regions</a>. International talent visa assistance, travel coordination, and accommodation arrangements. Specialized casting for period productions, cultural representations, and authentic regional casting requirements.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Can you handle large-scale casting for crowd scenes and extras?</h3>
+                                <p class="text-gray-300">
+                                    Professional crowd casting and extras coordination for <a href="/film-production-services/" class="text-gray-300 hover:text-greece-blue transition-colors">productions</a> of all scales with our experienced <a href="/film-crew/" class="text-gray-300 hover:text-greece-blue transition-colors">film crews</a>. Mass casting events, background talent management, and crowd scene coordination. Specialized extras casting including period-specific, cultural, and technical skill requirements. Crowd control, scheduling coordination, and on-set extras management services available.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's the pricing structure for casting services?</h3>
+                                <p class="text-gray-300">
+                                    Flexible pricing based on casting scope, talent level, and project requirements. Package deals for comprehensive casting including auditions, talent coordination, and management. Per-role pricing for individual casting needs and hourly rates for casting consultation. Volume discounts for series casting and ongoing production partnerships. Transparent pricing with detailed quotes provided after project assessment.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide on-set talent management and coordination?</h3>
+                                <p class="text-gray-300">
+                                    Complete on-set <a href="/pre-production-services/talent-coordination/" class="text-gray-300 hover:text-greece-blue transition-colors">talent management</a> including scheduling coordination, talent welfare, and professional representation. Wardrobe coordination, makeup scheduling, and talent transportation arrangements. Contract management, payment coordination, <a href="/pre-production-services/talent-releases/" class="text-gray-300 hover:text-greece-blue transition-colors">talent releases</a>, and talent relations throughout <a href="/film-production-services/" class="text-gray-300 hover:text-greece-blue transition-colors">production</a>. Emergency talent replacement and last-minute casting adjustments available.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Find Perfect Talent?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional casting services that connect <a href="/film-production-services/" class="text-greece-blue hover:text-yellow-300 transition-colors">productions</a> with perfect talent through comprehensive databases, expert casting direction, and seamless <a href="/pre-production-services/talent-coordination/" class="text-greece-blue hover:text-yellow-300 transition-colors">talent management</a> for successful projects across <a href="/Greece-filming-locations/" class="text-greece-blue hover:text-yellow-300 transition-colors">Greece</a>.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Start Casting
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Portfolio
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/casting-services/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>ipt>
+
+</body>
+</html>
