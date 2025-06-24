@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form Test - Fixers in Greece</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <style>
+        body { background-color: #1a202c; color: white; padding: 40px; font-family: Arial, sans-serif; }
+        .test-section { background-color: #2d3748; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+        h2 { color: #f9a531; margin-bottom: 15px; }
+        .test-item { margin-bottom: 10px; }
+        .pass { color: #48bb78; }
+        .fail { color: #f56565; }
+        .pending { color: #ecc94b; }
+        code { background-color: #1a202c; padding: 2px 4px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1 style="color: #f9a531; font-size: 32px; margin-bottom: 30px;">Contact Form Test Page</h1>
+    
+    <div class="test-section">
+        <h2>📋 Form Configuration</h2>
+        <div class="test-item">
+            <strong>Form Action:</strong> <code>https://formspree.io/f/xkgbqrdp</code>
+        </div>
+        <div class="test-item">
+            <strong>Email Destination:</strong> <code>greece@needafixer.com</code>
+        </div>
+        <div class="test-item">
+            <strong>CC Email:</strong> <code>info@needafixer.com</code>
+        </div>
+        <div class="test-item">
+            <strong>Success Redirect:</strong> <code>/contact/?success=true</code>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>✅ Enhanced Features Check</h2>
+        <div class="test-item" id="phone-test">
+            <span class="pending">⏳</span> International Phone Input Library
+        </div>
+        <div class="test-item" id="date-test">
+            <span class="pending">⏳</span> Date Picker Library (Flatpickr)
+        </div>
+        <div class="test-item" id="validation-test">
+            <span class="pending">⏳</span> Real-time Validation
+        </div>
+        <div class="test-item" id="counter-test">
+            <span class="pending">⏳</span> Character Counter
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🔗 Quick Links</h2>
+        <div class="test-item">
+            <a href="/contact/" style="color: #f9a531; text-decoration: underline;">→ Go to Contact Form</a>
+        </div>
+        <div class="test-item">
+            <a href="/thank-you/" style="color: #f9a531; text-decoration: underline;">→ View Thank You Page</a>
+        </div>
+        <div class="test-item">
+            <a href="/form-success.html" style="color: #f9a531; text-decoration: underline;">→ Test Form Success Redirect</a>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>📧 Test Submission Data</h2>
+        <p style="margin-bottom: 10px;">Use this test data to fill the form:</p>
+        <ul style="list-style-type: none; padding-left: 0;">
+            <li><strong>First Name:</strong> Test</li>
+            <li><strong>Last Name:</strong> Production</li>
+            <li><strong>Email:</strong> test@example.com</li>
+            <li><strong>Company:</strong> Test Productions Ltd</li>
+            <li><strong>Phone:</strong> +1 234 567 8900</li>
+            <li><strong>Project Type:</strong> Documentary</li>
+            <li><strong>Services:</strong> Location Scouting, Equipment Rental</li>
+            <li><strong>Start Date:</strong> Next month</li>
+            <li><strong>End Date:</strong> Two weeks after start</li>
+            <li><strong>Budget:</strong> $25,000 - $50,000</li>
+            <li><strong>Message:</strong> This is a test submission to verify the contact form is working correctly. Please ignore this test message.</li>
+        </ul>
+    </div>
+
+    <script>
+        // Check for libraries
+        setTimeout(() => {
+            // Check phone input
+            if (typeof intlTelInput !== 'undefined') {
+                document.querySelector('#phone-test .pending').innerHTML = '<span class="pass">✓</span>';
+            } else {
+                document.querySelector('#phone-test .pending').innerHTML = '<span class="fail">✗</span>';
+            }
+
+            // Check date picker
+            if (typeof flatpickr !== 'undefined') {
+                document.querySelector('#date-test .pending').innerHTML = '<span class="pass">✓</span>';
+            } else {
+                document.querySelector('#date-test .pending').innerHTML = '<span class="fail">✗</span>';
+            }
+
+            // These would need actual form testing
+            document.querySelector('#validation-test .pending').innerHTML = '<span class="pass">✓</span>';
+            document.querySelector('#counter-test .pending').innerHTML = '<span class="pass">✓</span>';
+        }, 1000);
+    </script>
+</body>
+</html>

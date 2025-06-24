@@ -116,12 +116,15 @@ Sent to customer:
 ## 🔧 Testing
 
 ### Test the Form
-1. Visit `/test-contact-form.html`
-2. Fill out the test form
-3. Check for:
+1. Visit `/test-contact-form.html` for a comprehensive test checklist
+2. Go to `/contact/` to test the actual form
+3. Fill out the test form with sample data
+4. Check for:
    - Email received at `greece@needafixer.com`
-   - Auto-reply sent to test email
-   - Proper formatting and branding
+   - Success message appears on contact page after submission
+   - Thank you page displays with proper messaging
+   - Auto-redirect after 5 seconds back to contact page
+   - All enhanced features working (phone input, date picker, validation)
 
 ### Troubleshooting
 - **PHP errors**: Check server error logs
