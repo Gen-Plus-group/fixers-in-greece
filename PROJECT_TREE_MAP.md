@@ -2,11 +2,12 @@
 
 ## Project Statistics
 - **Total Size**: 588MB (including node_modules)
-- **HTML Files**: 323
+- **HTML Files**: 329 (added 6 documentary portfolio pages)
 - **CSS Files**: 27
 - **JavaScript Files**: 1,057 (mostly in node_modules)
-- **All Code Files**: 392 (excluding node_modules)
+- **All Code Files**: 398 (excluding node_modules)
 - **Root Level Files**: 21
+- **Last Updated**: 2025-06-24
 
 ## Directory Structure
 
@@ -85,14 +86,20 @@ fixers-in-greece/
 ├── 🎬 Portfolio System
 │   ├── portfolio/ (Main gallery)
 │   ├── portfolio-category/ (4 categories)
-│   │   ├── commercials-branded/
-│   │   ├── documentaries/
-│   │   ├── drama-entertainment/
-│   │   └── music-videos/
-│   └── portfolio-item/ (23+ projects)
+│   │   ├── commercials-branded/ (20 projects)
+│   │   ├── documentaries/ (6 projects)
+│   │   ├── drama-entertainment/ (12 projects)
+│   │   └── music-videos/ (3 projects)
+│   └── portfolio-item/ (41+ projects)
 │       ├── nike-dream-crazier/
 │       ├── jet2holidays-greece/
-│       └── ...
+│       ├── cunk-on-earth/
+│       ├── greek-island-odyssey-bettany-hughes/
+│       ├── ancient-treasures-bettany-hughes/
+│       ├── medusa-natalie-haynes/
+│       ├── last-woman-earth/
+│       ├── greg-wallace-big-weekends/
+│       └── ... (33 more projects)
 │
 ├── 📝 Pre-Production Services (30 services)
 │   ├── location-scouting-services/

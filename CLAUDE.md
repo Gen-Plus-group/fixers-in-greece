@@ -219,3 +219,26 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
 - **Responsive aspect-video containers** for all video embeds
 - **Schema.org markup** for all portfolio pages
 - **Navigation between portfolio items** maintained throughout
+
+## Recent Work (2025-06-24)
+
+### Documentary Portfolio Updates
+- **Replaced 6 demo documentary projects** with real projects from nafgreece.plus
+- **Created 6 portfolio pages** for documentary projects:
+  - Cunk on Earth (BBC comedy documentary)
+  - Greek Island Odyssey with Bettany Hughes (Channel 5)
+  - Ancient Treasures with Bettany Hughes (Channel 5)
+  - Medusa with Natalie Haynes (BBC)
+  - Last Woman on Earth (Channel 4)
+  - Greg Wallace: Big Weekends Away (Channel 5)
+- **Added Vimeo video embeds** to all documentary pages with actual video IDs
+- **Updated project count** from 25 to 6 to reflect actual content
+- **Maintained consistent structure** with production details, services provided, and key locations
+
+### Performance Optimization
+- **Use parallel processing** whenever possible for optimal speed:
+  - Run multiple tool calls simultaneously (e.g., multiple file reads/writes)
+  - Execute independent bash commands in parallel
+  - Create multiple files/directories concurrently
+  - Batch operations instead of sequential execution
+- **Example**: When creating 6 portfolio pages, use a Python script to generate all files at once rather than creating them one by one
