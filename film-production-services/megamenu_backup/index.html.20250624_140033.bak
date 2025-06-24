@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Greece film production Greece Services | Athens Crew & Equipment</title>
+    <meta name="description" content="Complete film production services in Greece. Athens-based crew, equipment rental, permits & locations. 13+ years serving BBC, CNN, Reuters. Get quote!">
+    <meta name="keywords" content="film production services Greece, equipment rental Greece, film crew Greece, location scouting Greece, film permits Greece, video production Greece, documentary filming Greece">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/film-production-services/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Service + Organization Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Service",
+                "@id": "https://fixersingreece.com/film-production-services/#service",
+                "name": "Film Production Services Greece",
+                "description": "Complete film production services in Greece including equipment rental, crew coordination, permits, and location scouting for international productions.",
+                "provider": {
+                    "@type": ["LocalBusiness", "ProfessionalService", "Organization"],
+                    "@id": "https://fixersingreece.com/#organization",
+                    "name": "Fixers in Greece",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Athens",
+                        "addressRegion": "Attica",
+                        "addressCountry": "GR"
+                    },
+                    "telephone": "+30 211 1983 725",
+                    "email": "greece@needafixer.com"
+                },
+                "serviceType": "Film Production Services",
+                "areaServed": [
+                    {
+                        "@type": "Country",
+                        "name": "Greece"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Athens"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Thessaloniki"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Santorini"
+                    }
+                ],
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Film Production Services",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Equipment Rental",
+                                "description": "Professional film and video equipment rental including cameras, lighting, sound, and grip equipment"
+                            },
+                            "priceRange": "€100-€5000/day"
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service", 
+                                "name": "Film Crew Services",
+                                "description": "Experienced local film crew including directors of photography, sound engineers, camera operators, and production assistants"
+                            },
+                            "priceRange": "€200-€800/day"
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Location Scouting",
+                                "description": "Professional location scouting and management services across Greece's diverse filming locations"
+                            },
+                            "priceRange": "€300-€800/day"
+                        },
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "Film Permits Greece",
+                                "description": "Complete film permit acquisition and government liaison services for filming in Greece"
+                            },
+                            "priceRange": "€500-€2000"
+                        }
+                    ]
+                },
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "reviewCount": "45",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://fixersingreece.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Film Production Services",
+                "item": "https://fixersingreece.com/film-production-services/"
+            }
+        ]
+    }
+    </script>
+
+    <!-- FAQPage Schema for Services -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What film production services do you offer in Greece?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "We offer comprehensive film production services including equipment rental (cameras, lighting, sound), professional crew coordination, film permits, location scouting, logistics, and post-production services across all of Greece."
+                }
+            },
+            {
+                "@type": "Question", 
+                "name": "How much does film equipment rental cost in Greece?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Equipment rental costs vary by type and duration. Basic camera packages start from €100/day, while complete production packages can range from €500-5000/day depending on equipment specifications and duration."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you provide film crew in Athens and Thessaloniki?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, we provide experienced film crew throughout Greece including Athens, Thessaloniki, and all major cities. Our crew includes directors of photography, camera operators, sound engineers, gaffers, and production assistants."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .services-hero-bg {
+            background-image: url('/assets/images/2015/10/Greece-services.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="services-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center max-w-full">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-4">
+                    Greece film production Greece Services & Equipment Rental
+                </h1>
+                <p class="text-xl text-gray-200 max-w-2xl mx-auto">
+                    Complete film production services in Greece for international productions
+                </p>
+            </div>
+        </section>
+
+        <!-- Services Content -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-4xl mx-auto">
+                    <!-- Introduction -->
+                    <div class="mb-12">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-6">Complete Film Production Services in Athens & Greece</h2>
+                        <p class="text-lg leading-relaxed mb-6">
+                            Although <a href="/Greece-filming-locations/" class="text-greece-blue hover:text-yellow-300 transition-colors">Greece</a> is one of the most important and beautiful <a href="/Greece-filming-locations/" class="text-greece-blue hover:text-yellow-300 transition-colors">filming locations Greece</a> in the world its high end, bustling and competitive nature can make it a daunting place to bring a production of any scale. <a href="/about-us/" class="text-greece-blue hover:text-yellow-300 transition-colors">Fixers in Greece</a> can cater to all of your film production Greece needs making your production run smoothly and efficiently with a dedicated and knowledgeable team of <a href="/film-crew/support-roles/fixer/" class="text-greece-blue hover:text-yellow-300 transition-colors">local fixers</a>.
+                        </p>
+                        <p class="text-lg leading-relaxed mb-6">
+                            We are here to make your production be the best it can possibly be and guide your project through from initial research and <a href="/pre-production-services/" class="text-greece-blue hover:text-yellow-300 transition-colors">pre production</a> right up to <a href="/post-production-services/" class="text-greece-blue hover:text-yellow-300 transition-colors">post production</a>. We will provide you with a <a href="/film-crew/support-roles/fixer/" class="text-greece-blue hover:text-yellow-300 transition-colors">fixer in Greece</a> from our expert team who is entirely dedicated to your production and will deliver everything you need for <a href="/filming-in-greece/" class="text-greece-blue hover:text-yellow-300 transition-colors">filming in Greece</a>.
+                        </p>
+                        <p class="text-lg leading-relaxed">
+                            <a href="/Greece-filming-locations/" class="text-greece-blue hover:text-yellow-300 transition-colors">Film locations in Greece</a> are plentiful and stunning- from the breath taking landscapes to the bustling urban centers. With each region of Greece having its own rules and regulations on permitting it can be a challenge to get a <a href="/pre-production-services/film-permit-acquisition/" class="text-greece-blue hover:text-yellow-300 transition-colors">permit in Greece</a>. Our Greece production teams vast experience and knowledge means we can secure <a href="/pre-production-services/film-permit-acquisition/" class="text-greece-blue hover:text-yellow-300 transition-colors">filming permits</a> and <a href="/pre-production-services/location-agreements/" class="text-greece-blue hover:text-yellow-300 transition-colors">location permits</a> wherever you require in the quickest possible time regardless of the challenges they may offer.
+                        </p>
+                    </div>
+
+                    <!-- Services Grid -->
+                    <div class="grid md:grid-cols-2 gap-8 mb-16">
+                        <!-- Equipment Rental -->
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 hover:border-greece-blue transition-colors duration-200">
+                            <h3 class="text-2xl font-bold text-greece-blue mb-4">Professional Equipment Rental Greece</h3>
+                            <p class="text-gray-300 mb-4">
+                                <a href="/about-us/" class="text-gray-200 hover:text-greece-blue transition-colors">Fixers in Greece</a> have accounts and a great relationship with all of the top <a href="/production-services/production-equipment/" class="text-gray-200 hover:text-greece-blue transition-colors">equipment rental</a> houses in the city. With our amazing contacts for equipment hire in Greece we can provide you with any kit you require at hugely competitive rates.
+                            </p>
+                            <p class="text-gray-300 mb-6">
+                                We are happy to deal with the smallest of camera hire requests to a full kit list for high end productions. We have full worldwide production and equipment insurance meaning any equipment you hire through us is fully covered and protected.
+                            </p>
+                            <a href="/equipment-rental-greece/" class="inline-block bg-greece-blue text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                                Learn More
+                            </a>
+                        </div>
+
+                        <!-- location scouting Greece -->
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 hover:border-greece-blue transition-colors duration-200">
+                            <h3 class="text-2xl font-bold text-greece-blue mb-4">Greece Filming location scouting Greece</h3>
+                            <p class="text-gray-300 mb-4">
+                                <a href="/Greece-filming-locations/" class="text-gray-200 hover:text-greece-blue transition-colors">Greece</a> offers some of the world's most diverse and stunning <a href="/Greece-filming-locations/" class="text-gray-200 hover:text-greece-blue transition-colors">filming locations Greece</a>. Our expert <a href="/pre-production-services/location-scouting-services/" class="text-gray-200 hover:text-greece-blue transition-colors">location scouting Greece</a> team knows every corner of Greece and can find unique locations that match your creative vision.
+                            </p>
+                            <p class="text-gray-300 mb-6">
+                                From bustling <a href="/athens-filming/" class="text-gray-200 hover:text-greece-blue transition-colors">urban centers</a> to pristine natural landscapes, ancient temples to modern architecture - we'll find the perfect backdrop for your <a href="/content-production/" class="text-gray-200 hover:text-greece-blue transition-colors">production</a>.
+                            </p>
+                            <a href="/location-scouting-greece/" class="inline-block bg-greece-blue text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                                Explore Locations
+                            </a>
+                        </div>
+
+                        <!-- film permits Greece -->
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 hover:border-greece-blue transition-colors duration-200">
+                            <h3 class="text-2xl font-bold text-greece-blue mb-4">Greece film permits Greece & Government Relations</h3>
+                            <p class="text-gray-300 mb-4">
+                                Navigating <a href="/pre-production-services/film-permit-acquisition/" class="text-gray-200 hover:text-greece-blue transition-colors">Greece's film permit requirements</a> can be complex for international productions. Our experienced team handles all <a href="/pre-production-services/film-permit-acquisition/" class="text-gray-200 hover:text-greece-blue transition-colors">government liaison</a>, documentation, and compliance requirements.
+                            </p>
+                            <p class="text-gray-300 mb-6">
+                                With established relationships with Greeceese authorities and deep understanding of local regulations, we ensure your production obtains all necessary permits quickly and efficiently.
+                            </p>
+                            <a href="/film-permits-greece/" class="inline-block bg-greece-blue text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                                Get Permits
+                            </a>
+                        </div>
+
+                        <!-- Crew Services -->
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 hover:border-greece-blue transition-colors duration-200">
+                            <h3 class="text-2xl font-bold text-greece-blue mb-4">Local Greece Film Crews & Support Staff</h3>
+                            <p class="text-gray-300 mb-4">
+                                <a href="/film-crew/" class="text-gray-200 hover:text-greece-blue transition-colors">Filming crew in Greece</a> is some of the best in the world and because of this the best crew in Greece are often booked up. This isn't a problem for our team- <a href="/about-us/" class="text-gray-200 hover:text-greece-blue transition-colors">Fixers in Greece</a> will find the crew you want and need.
+                            </p>
+                            <p class="text-gray-300 mb-6">
+                                We are constantly in contact with the leading crew in Greece including <a href="/film-crew/creative-roles/director/" class="text-gray-200 hover:text-greece-blue transition-colors">directors</a>, <a href="/film-crew/technical-roles/director-of-photography/" class="text-gray-200 hover:text-greece-blue transition-colors">DOPs</a>, <a href="/film-crew/technical-roles/camera-operator/" class="text-gray-200 hover:text-greece-blue transition-colors">camera operators</a>, <a href="/film-crew/technical-roles/gaffer-grip/" class="text-gray-200 hover:text-greece-blue transition-colors">gaffers</a>, <a href="/film-crew/technical-roles/sound-mixer/" class="text-gray-200 hover:text-greece-blue transition-colors">sound operators</a>, <a href="/film-crew/technical-roles/gaffer-grip/" class="text-gray-200 hover:text-greece-blue transition-colors">grips</a>, hair and make up, art directors, and much more.
+                            </p>
+                            <a href="/contact/" class="inline-block bg-greece-blue text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                                Find Crew
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Transportation Section -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-4">Production Transportation & Logistics</h3>
+                        <p class="text-gray-300 mb-4">
+                            <a href="/about-us/" class="text-gray-200 hover:text-greece-blue transition-colors">Fixers in Greece</a> work closely with many vehicle rental companies and can provide anything you may need from a fully equipped <a href="/pre-production-services/travel-logistics/" class="text-gray-200 hover:text-greece-blue transition-colors">production vehicle</a> to a simple mini van. Due to our links around the city we will, as always, provide the best rates.
+                        </p>
+                        <p class="text-gray-300">
+                            Our team and all of the crew we work with have clean full driving licenses and are knowledgeable of all reaches of the city making getting around Greece easy and efficient.
+                        </p>
+                    </div>
+
+                    <!-- Call to Action -->
+                    <div class="bg-gradient-to-r from-greece-blue to-yellow-500 rounded-lg p-8 text-center">
+                        <h3 class="text-2xl font-bold text-black mb-4">
+                            Ready to Start Your Greece Production?
+                        </h3>
+                        <p class="text-black mb-6 text-lg">
+                            Whatever you may need Fixers in Greece are here to help. To make your Greece production the best it can be, contact us today.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="/contact/"
+                               class="inline-block bg-black text-white px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                                Contact Us
+                            </a>
+                            <a href="tel:+442085492259"
+                               class="inline-block bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                +30 211 1983 725
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- NEEDaFIXER Network -->
+                    <div class="mt-12 text-center">
+                        <p class="text-gray-400 mb-4">
+                            Fixers in Greece is part of the NEEDaFIXER network. NEEDaFIXER is one of the biggest international fixing productions in the world.
+                        </p>
+                        <p class="text-gray-400">
+                            If you require any filming services around the world, please contact
+                            <a href="mailto:info@needafixer.com" class="text-greece-blue hover:text-yellow-400 underline">info@needafixer.com</a>
+                            or visit
+                            <a href="http://needafixer.com/" class="text-greece-blue hover:text-yellow-400 underline">www.needafixer.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Call-to-Action -->
+    <section class="bg-gray-800 border-t border-gray-700 py-8">
+        <div class="container mx-auto px-4 max-w-full">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:flex-grow text-center md:text-left">
+                    <p class="text-xl text-gray-300 mb-4 md:mb-0">
+                        Ready to shoot? We'd love to help and are just a click away! All enquiries will be answered within 24 hours!
+                    </p>
+                </div>
+                <div class="text-center md:text-right">
+                    <a href="/contact/"
+                       class="inline-block bg-greece-white text-white px-8 py-3 rounded-md font-semibold hover:bg-red-600 transition-colors duration-200">
+                        Contact us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+        <!-- Mobile Menu JavaScript - Handled by component loader -->
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for film-production-services/index.html, page functionality ready');
+            
+            / Trigger any existing page initialization that might depend on DOM structure
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+
+</body>
+</html>
+    "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

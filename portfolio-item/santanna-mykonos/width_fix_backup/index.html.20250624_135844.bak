@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>SantAnna Mykonos: Dive Right In - Beach Club Commercial | Fixers in Greece</title>
+    <meta name="description" content="Professional beach club commercial production Greece for SantAnna Mykonos 'Dive Right In' campaign. Music video-style brand film capturing the chic, energetic atmosphere of Mykonos' premium beach club scene.">
+    <meta name="keywords" content="SantAnna Mykonos commercial, beach club advertising Mykonos, Dive Right In campaign, lifestyle filming Greece">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="SantAnna Mykonos: Dive Right In - Beach Club Commercial">
+    <meta property="og:description" content="Professional beach club commercial showcasing vibrant atmosphere and lively social scene at SantAnna Mykonos.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://fixersingreece.com/portfolio-item/santanna-mykonos/">
+    <meta property="og:image" content="/assets/images/portfolio/santanna-mykonos-thumb.gif">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SantAnna Mykonos: Dive Right In - Beach Club Commercial">
+    <meta name="twitter:description" content="Professional beach club commercial for SantAnna Mykonos.">
+    <meta name="twitter:image" content="/assets/images/portfolio/santanna-mykonos-thumb.gif">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/portfolio-item/santanna-mykonos/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        .portfolio-hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "SantAnna Mykonos: Dive Right In",
+        "description": "Music video-style beach club commercial blending vibrant visuals with pulsating soundtrack, capturing the chic, energetic atmosphere and lively social scene.",
+        "creator": {
+            "@type": "Organization",
+            "name": "Fixers in Greece",
+            "url": "https://fixersingreece.com"
+        },
+        "contributor": [
+            {
+                "@type": "Organization",
+                "name": "SantAnna Mykonos",
+                "role": "Client"
+            }
+        ],
+        "dateCreated": "2024",
+        "genre": "Commercial",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Mykonos, Greece"
+        }
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="portfolio-hero relative py-32 md:py-48" style="border: none; border-top: none; margin-top: 0; padding-top: 2rem;">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-4xl">
+                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8 pt-24">
+                        SantAnna Mykonos: Dive Right In
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12">
+                        Music video-style brand film blending vibrant visuals with a pulsating soundtrack, capturing the chic, energetic atmosphere of Mykonos' most iconic beach club.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Section -->
+        <section class="py-16 bg-greece-dark border-y border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">End Client</h3>
+                        <p class="text-xl font-bold text-greece-blue">SantAnna Mykonos</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Campaign</h3>
+                        <p class="text-xl font-bold text-white">Dive Right In</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Type</h3>
+                        <p class="text-xl font-bold text-white">Beach Club Music Video</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Film Services</h3>
+                        <p class="text-xl font-bold text-greece-blue">Fixers in Greece</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-5xl mx-auto">
+                    <div class="aspect-video bg-gray-800 rounded-lg overflow-hidden shadow-2xl mb-12">
+                        <iframe src="https://player.vimeo.com/video/241223494?h=0&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="w-full h-full"></iframe>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-gray-400 italic">
+                            Watch the music video-style commercial showcasing the ultimate beach club experience. For high-resolution files and behind-the-scenes content, please <a href="/contact/" class="text-greece-blue hover:text-yellow-400 underline">contact us</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-gradient-to-r from-greece-blue to-yellow-500 rounded-lg p-8 md:p-12 text-center">
+                        <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">
+                            Ready to Create Your Beach Club Campaign?
+                        </h2>
+                        <p class="text-xl text-black mb-8">
+                            Professional beach club and lifestyle commercial production services throughout Greece's most vibrant destinations.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="/contact/" class="inline-block bg-black text-white px-8 py-4 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                                Start Your Project
+                            </a>
+                            <a href="/portfolio-category/commercials-branded/" class="inline-block bg-white text-black px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                View More Commercials
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation -->
+        <section class="py-8 border-t border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <a href="/portfolio-item/abaton-sanctuary/" class="group flex items-center text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        <svg class="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        <span class="hidden sm:inline">Previous Project</span>
+                        <span class="sm:hidden">Previous</span>
+                    </a>
+                    <a href="/portfolio-category/commercials-branded/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        All Commercials
+                    </a>
+                    <a href="/portfolio-item/canaves-time-stops/" class="group flex items-center text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        <span class="hidden sm:inline">Next Project</span>
+                        <span class="sm:hidden">Next</span>
+                        <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+</body>
+</html>

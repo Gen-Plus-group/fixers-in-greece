@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Visual Effects Compositing | Professional VFX Services | NEEDaFIXER</title>
+    <meta name="description" content="Expert visual effects compositing services. Professional green screen, rotoscoping, tracking, and seamless VFX integration for film and video worldwide.">
+    <meta name="keywords" content="visual effects, VFX compositing, green screen, rotoscoping, motion tracking, digital compositing">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Visual Effects Compositing | Professional VFX Services | NEEDaFIXER">
+    <meta property="og:description" content="Expert visual effects compositing services. Professional green screen, rotoscoping, tracking, and seamless VFX integration for film and video worldwide.">
+    <meta property="og:url" content="/post-production-services/motion-vfx/visual-effects-compositing/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/post-production-services/motion-vfx/visual-effects-compositing/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/49.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Visual Effects Compositing
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Seamless visual effects integration through professional compositing, creating invisible effects that enhance storytelling.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional visual effects compositing services combine multiple visual elements into seamless, photorealistic shots that transport audiences into extraordinary worlds and enhance narrative storytelling. Our expert VFX compositors possess the technical mastery and artistic vision to integrate computer-generated imagery, practical effects, and live-action footage with invisible precision, creating believable visual experiences that support creative vision without drawing attention to the technical craft. From subtle sky replacements and wire removals to complex multi-layer composites featuring digital creatures and environments, we deliver visual effects solutions that maintain the suspension of disbelief while pushing creative boundaries.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Visual effects compositing encompasses sophisticated techniques including green screen keying, rotoscoping, motion tracking, matte painting integration, particle simulation, and color matching that require both technical expertise and artistic sensibility. Our compositors utilize industry-leading software including Nuke, After Effects, Fusion, and Flame to create complex node-based compositions that seamlessly blend multiple elements while maintaining photographic realism. We implement advanced workflows including deep compositing, 3D camera projection, optical flow retiming, and machine learning-enhanced tools to achieve results that meet the exacting standards of feature film production Greece, premium television, and high-end commercial projects.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Whether creating invisible effects that enhance reality or spectacular visual sequences that defy physics, our visual effects compositing services adapt to any creative challenge and technical requirement. We provide comprehensive VFX solutions including pre-visualization consultation, on-set supervision, element preparation, full compositing services, and final quality control that ensure seamless integration from production through post. Our commitment to technical excellence and creative problem-solving ensures that every visual effects shot receives the meticulous attention to detail necessary to achieve photorealistic results that serve the story while maintaining the highest standards of visual quality across all delivery formats.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">VFX Compositing Excellence</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Invisible Effects</h3>
+                            <p class="text-gray-300">Seamless integration that enhances without distraction.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🟢</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Green Screen</h3>
+                            <p class="text-gray-300">Professional keying and edge refinement techniques.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎯</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Motion Tracking</h3>
+                            <p class="text-gray-300">Precise 2D and 3D camera and object tracking.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🔧</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Node-Based</h3>
+                            <p class="text-gray-300">Advanced compositing with complete control.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VFX Compositing Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Compositing Techniques</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Green Screen Keying:</strong> Advanced chroma key with edge refinement</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Rotoscoping:</strong> Precise masking and element isolation</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Wire/Rig Removal:</strong> Clean plate reconstruction and paint</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Set Extensions:</strong> Digital matte painting integration</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Sky Replacement:</strong> Natural environment enhancement</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">CG Integration:</strong> 3D element compositing with live action</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Technical Capabilities</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">2D/3D Tracking:</strong> Camera solving and match moving</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Deep Compositing:</strong> Multi-layer depth integration</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Particle Systems:</strong> Atmospheric effects and simulations</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Color Matching:</strong> Seamless element integration</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Lens Effects:</strong> Distortion, flares, and optical artifacts</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">4K/8K Pipeline:</strong> High-resolution VFX workflows</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our VFX Compositing</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎯</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Photorealism</h3>
+                            <p class="text-gray-300">Invisible effects that maintain believability.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎨</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Artistic Vision</h3>
+                            <p class="text-gray-300">Creative problem-solving for complex shots.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🔧</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Technical Expertise</h3>
+                            <p class="text-gray-300">Advanced tools and proven workflows.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Film Quality</h3>
+                            <p class="text-gray-300">Feature film standards for all projects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Ready for Professional VFX?</h2>
+                <p class="text-xl text-white mb-8">Let's create seamless visual effects that enhance your story.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for post-production-services/motion-vfx/visual-effects-compositing, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Director of Photography (DP) Services | Cinematography Experts | NEEDaFIXER</title>
+    <meta name="description" content="Professional Director of Photography services for films, TV, commercials, and digital content. Expert cinematographers worldwide delivering cinematic excellence.">
+    <meta name="keywords" content="director of photography, DP services, cinematographer, production services Greece, camera & cinematography">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Director of Photography (DP) Services | Cinematography Experts | NEEDaFIXER">
+    <meta property="og:description" content="Professional Director of Photography services for films, TV, commercials, and digital content. Expert cinematographers worldwide delivering cinematic excellence.">
+    <meta property="og:url" content="/production-services/camera-cinematography/dp-services/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/production-services/camera-cinematography/dp-services/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/42.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Director of Photography Services Greece | Professional DP
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Cinematic vision and technical expertise from award-winning cinematographers.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Director of Photography (DP) services represent the creative and technical pinnacle of cinematography, combining artistic vision with cutting-edge technology to capture compelling visual narratives. Our award-winning DPs bring decades of experience across feature films, television productions, commercials, and digital content, working with industry-leading camera systems including RED, Arri Alexa, Sony FX series, and specialized cinema cameras to deliver broadcast-quality results.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional DP services encompass comprehensive visual storytelling through expert camera operation, lens selection, lighting design, color workflow management, and technical planning. Our Directors of Photography collaborate closely with directors and producers to establish the visual language of your project, creating custom shooting approaches that enhance narrative impact while maintaining production efficiency and staying within budget constraints.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            From intimate interview setups to large-scale multi-camera productions, our DP services adapt to any project scope and creative requirement. We provide complete camera department leadership, including focus pullers, camera operators, and technical support, ensuring seamless integration with lighting, sound, and production teams while delivering cinematic excellence that elevates your content above the competition.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Expert Greece Cinematography & DP Services</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Creative Cinematography Greece</h3>
+                            <p class="text-gray-300">Creative visual storytelling with artistic composition and lighting design expertise.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">📹</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Professional Camera Operation</h3>
+                            <p class="text-gray-300">Expert knowledge of cameras, lenses, and technical workflow optimization.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎨</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Visual Style</h3>
+                            <p class="text-gray-300">Development and execution of unique visual language and aesthetic approach.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">👥</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Team Leadership</h3>
+                            <p class="text-gray-300">Camera department leadership and collaboration with directors and producers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Expertise -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Greece Cinematography Equipment & Expertise</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Camera Operation:</strong> RED, Arri Alexa, Sony FX series, and cinema camera expertise</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Lens Selection:</strong> Prime and zoom lens packages for every creative requirement</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Lighting Design:</strong> Creative lighting solutions for any environment or mood</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Color Workflow:</strong> LUT creation and color pipeline management</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Movement Systems:</strong> Steadicam, gimbal, drone, and traditional camera support</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Visual Storytelling:</strong> Shot composition and visual narrative techniques</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Advanced Production Technology Greece</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">8K Production:</strong> Ultra-high-resolution capture for premium content</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">HDR Workflow:</strong> High dynamic range capture and monitoring</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Multi-Camera Sync:</strong> Complex multi-camera setup coordination</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Virtual Production:</strong> LED wall and virtual set cinematography</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Live Streaming:</strong> Real-time broadcast quality capture</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Data Management:</strong> On-set backup and workflow optimization</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our DP Services</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🏆</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Award-Winning DPs</h3>
+                            <p class="text-gray-300">Internationally recognized cinematographers with proven track records.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">📱</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Latest Technology</h3>
+                            <p class="text-gray-300">State-of-the-art camera systems and cutting-edge techniques.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Setup</h3>
+                            <p class="text-gray-300">Efficient workflow and quick adaptation to any production environment.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Availability</h3>
+                            <p class="text-gray-300">Professional DPs available worldwide with local expertise.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Our DP Service Process</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Creative Consultation</h3>
+                            <p class="text-gray-300">Discuss vision, style, and technical requirements with director and producers.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Technical Planning</h3>
+                            <p class="text-gray-300">Camera, lens, and lighting package selection for optimal results.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">On-Set Execution</h3>
+                            <p class="text-gray-300">Professional cinematography with department leadership and collaboration.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Post Collaboration</h3>
+                            <p class="text-gray-300">Color workflow support and post-production consultation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Client Testimonials</h2>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <div class="flex items-center mb-4">
+                                <div class="text-greece-blue text-2xl mr-2">★★★★★</div>
+                            </div>
+                            <p class="text-gray-300 mb-4 italic">"Exceptional cinematography that elevated our commercial beyond expectations. The DP's creative vision and technical expertise delivered stunning results."</p>
+                            <div class="text-greece-blue font-semibold">Sarah Chen</div>
+                            <div class="text-gray-400 text-sm">Creative Director, AdVision Studios</div>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <div class="flex items-center mb-4">
+                                <div class="text-greece-blue text-2xl mr-2">★★★★★</div>
+                            </div>
+                            <p class="text-gray-300 mb-4 italic">"Professional, efficient, and incredibly talented. The DP understood our vision immediately and brought it to life with cinematic excellence."</p>
+                            <div class="text-greece-blue font-semibold">Marcus Rodriguez</div>
+                            <div class="text-gray-400 text-sm">Director, Independent Films</div>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <div class="flex items-center mb-4">
+                                <div class="text-greece-blue text-2xl mr-2">★★★★★</div>
+                            </div>
+                            <p class="text-gray-300 mb-4 italic">"Outstanding technical knowledge and creative problem-solving. The cinematography quality was broadcast-ready and exceeded our expectations."</p>
+                            <div class="text-greece-blue font-semibold">Jennifer Walsh</div>
+                            <div class="text-gray-400 text-sm">Producer, Documentary Network</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Frequently Asked Questions</h2>
+                    <div class="space-y-6">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">What camera systems do your DPs work with?</h3>
+                            <p class="text-gray-300">Our DPs are experienced with all major cinema cameras including RED (Komodo, V-Raptor, Monstro), Arri Alexa (Mini LF, 35, SXT), Sony FX series (FX9, FX6, FX3), and Blackmagic cameras. We select the best system for each project's requirements and budget.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Do you provide camera equipment or just the DP?</h3>
+                            <p class="text-gray-300">We offer both options - DP services only or complete camera packages with experienced operators. Our DPs can work with your existing equipment or we can provide full camera, lens, and support gear packages.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">What's included in pre-production consultation?</h3>
+                            <p class="text-gray-300">Our DPs provide creative consultation, technical planning, equipment recommendations, lighting design, shot list development, and workflow planning. This ensures your vision is achievable within budget and timeline constraints.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Can you handle multi-camera productions?</h3>
+                            <p class="text-gray-300">Yes, our DPs are experienced in complex multi-camera setups for live events, concerts, sports, and narrative productions. We coordinate camera positions, matching, sync, and ensure consistent visual quality across all angles.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">What's the typical project timeline?</h3>
+                            <p class="text-gray-300">Timeline varies by project scope. Single-day shoots can be arranged with 48-hour notice, while feature films require 2-4 weeks pre-production planning. We accommodate urgent requests and extended productions equally.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Do you provide color workflow support?</h3>
+                            <p class="text-gray-300">Absolutely. Our DPs create custom LUTs, establish color pipelines, and provide post-production collaboration. We ensure consistent color from capture through final delivery, working closely with colorists and editors.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Are your DPs available internationally?</h3>
+                            <p class="text-gray-300">Yes, we have experienced DPs available worldwide. Our network includes local professionals with international experience, ensuring you get world-class cinematography with local knowledge and efficiency.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">What's the pricing structure for DP services?</h3>
+                            <p class="text-gray-300">Pricing varies based on project scope, duration, equipment requirements, and location. We offer competitive day rates, weekly rates, and project-based pricing. Contact us for a detailed quote tailored to your specific needs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Ready to Elevate Your Cinematography?</h2>
+                <p class="text-xl text-white mb-8">Let's discuss your vision and create stunning visuals together.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for production-services/camera-cinematography/dp-services, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>ss Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

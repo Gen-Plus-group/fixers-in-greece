@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Thessaloniki Filming Services | Northern Greece Video Production</title>
+    <meta name="description" content="Professional filming services in Thessaloniki. Byzantine heritage, modern port city, vibrant waterfront, and film-friendly infrastructure for your Greece production.">
+    <meta name="keywords" content="Thessaloniki filming, Northern Greece film production, Thessaloniki video production, White Tower filming, Aristotelous Square filming, Byzantine filming locations">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/thessaloniki-filming/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Thessaloniki Filming Services | Northern Greece Video Production">
+    <meta property="og:description" content="Professional filming services in Thessaloniki. Byzantine heritage, modern port city, vibrant waterfront, and film-friendly infrastructure for your Greece production.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/thessaloniki-filming/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/47.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center max-w-full">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-6">
+                    Thessaloniki Filming Services
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8">
+                    Professional filming services in Thessaloniki. Byzantine heritage, modern port city, vibrant waterfront, and film-friendly infrastructure for your Greece production.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#content" 
+                       class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                        Learn More
+                    </a>
+                    <a href="/contact/" 
+                       class="inline-block bg-transparent border-2 border-greece-blue text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-greece-blue hover:text-black transition-colors duration-200">
+                        Get Quote
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Thessaloniki Services -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Thessaloniki Filming Services
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Professional filming services in Greece's second-largest city, offering Byzantine heritage, modern port facilities, and vibrant cultural life.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Byzantine Heritage -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🏛️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Byzantine Heritage</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• UNESCO World Heritage churches</li>
+                            <li>• Rotunda of Galerius</li>
+                            <li>• Byzantine walls and towers</li>
+                            <li>• Hagia Sophia church</li>
+                            <li>• Ancient Roman monuments</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Historic Authenticity</span>
+                        </div>
+                    </div>
+
+                    <!-- Modern Port City -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">⚓</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Modern Port City</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Active commercial port</li>
+                            <li>• Modern business district</li>
+                            <li>• Technology parks</li>
+                            <li>• Contemporary architecture</li>
+                            <li>• International trade hub</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Dynamic Infrastructure</span>
+                        </div>
+                    </div>
+
+                    <!-- Vibrant Culture -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎭</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Vibrant Culture</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Ladadika entertainment district</li>
+                            <li>• Traditional markets</li>
+                            <li>• Student quarter life</li>
+                            <li>• Waterfront promenade</li>
+                            <li>• Festival venues</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Living Culture</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- District Guide -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Filming by Neighborhood
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Each neighborhood offers unique filming opportunities from historic quarters to modern developments.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- City Center -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏢</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">City Center</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Aristotelous Square</li>
+                            <li>• Shopping districts</li>
+                            <li>• Historic buildings</li>
+                            <li>• Government offices</li>
+                            <li>• Urban life</li>
+                        </ul>
+                    </div>
+
+                    <!-- Waterfront -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🌊</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Waterfront</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• White Tower area</li>
+                            <li>• Seaside promenade</li>
+                            <li>• Concert Hall</li>
+                            <li>• Marina facilities</li>
+                            <li>• Sunset views</li>
+                        </ul>
+                    </div>
+
+                    <!-- Ano Poli -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏘️</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Ano Poli (Upper Town)</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Traditional Ottoman houses</li>
+                            <li>• Byzantine walls</li>
+                            <li>• Panoramic city views</li>
+                            <li>• Narrow cobblestone streets</li>
+                            <li>• Authentic neighborhoods</li>
+                        </ul>
+                    </div>
+
+                    <!-- Ladadika -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🍷</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Ladadika</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Historic warehouse district</li>
+                            <li>• Entertainment venues</li>
+                            <li>• Traditional tavernas</li>
+                            <li>• Nightlife scenes</li>
+                            <li>• Cultural events</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Iconic Thessaloniki Locations -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Iconic Thessaloniki Filming Locations
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        World-renowned landmarks and hidden gems that showcase the city's unique blend of Byzantine heritage and modern Mediterranean life.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Landmark Locations</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">White Tower & Waterfront</h4>
+                                <p class="text-gray-300">Thessaloniki's most iconic monument, the 15th-century White Tower offers 360-degree city views from its top floor. The 5km waterfront promenade provides dynamic filming opportunities with cafes, sculptures, and the Thermaic Gulf as backdrop.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Aristotelous Square</h4>
+                                <p class="text-gray-300">Grand waterfront square designed in 1918, featuring neoclassical architecture, arcaded buildings, and vibrant cafe culture. Perfect for establishing shots, period productions, and capturing the city's cosmopolitan character.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Rotunda of Galerius</h4>
+                                <p class="text-gray-300">Massive 4th-century Roman monument with stunning Byzantine mosaics. Its unique cylindrical architecture and historical layers provide exceptional settings for historical productions and architectural documentaries.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">City Dynamics</h3>
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">15</div>
+                                    <div class="text-sm text-gray-300">UNESCO Monuments</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">5km</div>
+                                    <div class="text-sm text-gray-300">Waterfront Length</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">2,300</div>
+                                    <div class="text-sm text-gray-300">Years of History</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">1M+</div>
+                                    <div class="text-sm text-gray-300">Metro Population</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Byzantine churches with golden mosaics</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Active port with maritime atmosphere</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Vibrant student life and cultural scene</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Mix of Ottoman, Byzantine & modern</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filming Logistics -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Thessaloniki Filming Logistics & Support
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Comprehensive production support leveraging Thessaloniki's film-friendly infrastructure and experienced local crews.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Permits & Access -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Permits & Access</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Thessaloniki Film Office support</li>
+                            <li>• Archaeological site permissions</li>
+                            <li>• Port authority coordination</li>
+                            <li>• Public space filming permits</li>
+                            <li>• Church and monastery access</li>
+                            <li>• Municipal building permissions</li>
+                        </ul>
+                    </div>
+
+                    <!-- Local Crew Network -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">👥</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Local Crew Network</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Experienced Greek cinematographers</li>
+                            <li>• English-speaking production teams</li>
+                            <li>• Film school graduate talent pool</li>
+                            <li>• Location scouts with local knowledge</li>
+                            <li>• Cultural and historical consultants</li>
+                            <li>• Maritime filming specialists</li>
+                        </ul>
+                    </div>
+
+                    <!-- Equipment & Services -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎬</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Equipment & Services</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Professional camera rental houses</li>
+                            <li>• Drone operations with CAA permits</li>
+                            <li>• Marine filming equipment</li>
+                            <li>• Lighting for ancient sites</li>
+                            <li>• Sound recording facilities</li>
+                            <li>• Post-production studios</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cultural Considerations -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Cultural Filming Guidance
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Navigate Thessaloniki's rich cultural landscape with sensitivity and authenticity for compelling Mediterranean storytelling.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Cultural Sensitivity -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-4">Cultural Sensitivity Guidelines</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Religious Sites Protocol</h4>
+                                <p class="text-gray-300 text-sm">Byzantine churches and monasteries require modest dress, quiet filming during services, and special permissions for interior photography. Respect Orthodox traditions and iconography rules.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Archaeological Sites</h4>
+                                <p class="text-gray-300 text-sm">UNESCO sites require advance permits, protective measures for monuments, and coordination with archaeological services. No equipment touching ancient surfaces.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Local Communities</h4>
+                                <p class="text-gray-300 text-sm">Thessalonians are film-friendly but appreciate courtesy. Coordinate with local businesses, respect siesta hours (3-5 PM), and engage neighborhoods before filming.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Best Filming Times -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-4">Optimal Filming Schedule</h3>
+                        <div class="space-y-4">
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-greece-blue mb-2">Golden Hour Opportunities</h4>
+                                <p class="text-gray-300 text-sm mb-2">Summer: 6:00-8:00 AM | 7:00-9:00 PM</p>
+                                <p class="text-gray-300 text-sm">Waterfront sunsets, Byzantine church facades glowing, and Ano Poli panoramic views at their most photogenic.</p>
+                            </div>
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-greece-blue mb-2">Seasonal Considerations</h4>
+                                <p class="text-gray-300 text-sm mb-2">Best: Apr-Jun, Sep-Nov | Hot: Jul-Aug</p>
+                                <p class="text-gray-300 text-sm">Spring and autumn offer ideal weather, fewer tourists, and comfortable filming conditions. Summer requires heat management.</p>
+                            </div>
+                            <div class="bg-gray-800 rounded-lg p-4">
+                                <h4 class="font-semibold text-greece-blue mb-2">Festival Calendar</h4>
+                                <p class="text-gray-300 text-sm mb-2">Film Festival: November | White Night: September</p>
+                                <p class="text-gray-300 text-sm">Major cultural events provide vibrant backgrounds but require advance planning for crowd management and permissions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Thessaloniki Production FAQ -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Thessaloniki Filming FAQ
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Essential information for planning your Thessaloniki filming project.
+                    </p>
+                </div>
+
+                <div class="max-w-4xl mx-auto space-y-6">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What permits are required for filming in Thessaloniki?</h3>
+                        <p class="text-gray-300">
+                            Filming permits depend on location type. Public spaces require municipal permits through the Thessaloniki Film Office. Archaeological sites need Ministry of Culture approval (2-4 weeks advance). Port areas require Port Authority permits. Churches need Metropolitan approval. Private locations require owner consent. EU productions benefit from simplified procedures. We handle all permit applications and government liaison.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Which Thessaloniki areas are best for different filming needs?</h3>
+                        <p class="text-gray-300">
+                            The waterfront and White Tower area offer iconic Mediterranean views and modern city life. Ano Poli provides authentic traditional architecture and panoramic city views. Aristotelous Square delivers grand neoclassical settings. Ladadika offers vibrant nightlife and historic warehouse aesthetics. The port provides industrial and maritime backdrops. Byzantine churches throughout the city offer historical authenticity.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How film-friendly is Thessaloniki compared to Athens?</h3>
+                        <p class="text-gray-300">
+                            Thessaloniki offers several advantages including less bureaucracy, more accessible officials, lower location fees, easier parking and equipment transport, less tourist congestion, and a compact city center. The Thessaloniki Film Office actively supports productions, and the city hosts Greece's premier documentary festival. Local crews are experienced with international productions, and the city's film school provides fresh talent.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What are the costs for filming in Thessaloniki?</h3>
+                        <p class="text-gray-300">
+                            Thessaloniki offers competitive rates compared to Western Europe. Daily crew rates range from €400-800 for experienced cinematographer and assistant. Location fees vary from €200-1,500 per day depending on site significance. Equipment rental packages start from €300 daily. Permit costs range from €100-500 per location. The 25% cash rebate for qualifying productions significantly reduces overall costs.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Can you arrange access to Byzantine churches and UNESCO sites?</h3>
+                        <p class="text-gray-300">
+                            Yes, we have established relationships with the Metropolis of Thessaloniki and archaeological authorities. This includes access to Rotunda, Byzantine churches with mosaics, city walls and towers, and Roman monuments. We coordinate special opening hours, lighting permissions, and protective measures. Advance planning (3-4 weeks) ensures proper approvals while respecting religious services and visitor access.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you ensure authentic Greek cultural representation?</h3>
+                        <p class="text-gray-300">
+                            Our Thessaloniki team includes cultural consultants who ensure accurate portrayal of local customs, traditions, and contemporary life. We provide insights into Byzantine heritage, modern Greek society, local dialects and expressions, festival traditions, and culinary authenticity. This expertise helps avoid stereotypes while capturing genuine Thessalonian character that resonates with both Greek and international audiences.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What equipment is specifically useful for Thessaloniki filming?</h3>
+                        <p class="text-gray-300">
+                            Thessaloniki filming benefits from specialized equipment including drone systems for waterfront and city panoramas, low-light cameras for Byzantine church interiors, stabilizers for cobblestone street filming, weather protection for seaside shoots, and portable lighting respecting monument restrictions. We provide equipment packages optimized for Mediterranean conditions and historical site requirements.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How far in advance should Thessaloniki filming be planned?</h3>
+                        <p class="text-gray-300">
+                            Optimal planning time is 6-8 weeks for complex productions involving multiple heritage sites. Archaeological permits require 3-4 weeks minimum. Church permissions need 2-3 weeks. Peak season (June-September) requires earlier booking for crews and equipment. The Thessaloniki International Film Festival (November) affects availability. Rush projects possible with 2-week notice but may have limited options.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center max-w-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Film in Thessaloniki?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Capture the Byzantine heritage and modern Mediterranean spirit of Greece's cultural capital with our expert local knowledge and professional filming services.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Get Thessaloniki Quote
+                    </a>
+                    <a href="/greece-filming-locations/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        All Greece Locations
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+            <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        / Mobile menu functionality
+                / Mobile menu main toggle
+        / Mobile menu handled by component loader
+
+        / Mobile dropdown functionality
+        / Mobile dropdown functionality handled by component loader);
+            
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+            
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Initialize mobile dropdowns when DOM is loaded
+        / Mobile menu initialization handled by component loader
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for thessaloniki-filming/index.html, page functionality ready');
+            
+            / Trigger any existing page initialization that might depend on DOM structure
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Audio Mixing & Mastering | Professional Sound Finishing | NEEDaFIXER</title>
+    <meta name="description" content="Expert audio mixing and mastering services for film, TV, and digital media. Final mix, stems delivery, broadcast mastering, and cinema-quality sound worldwide.">
+    <meta name="keywords" content="audio mixing, mastering, final mix, sound mixing, stems, broadcast audio, cinema sound, audio post-production">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Audio Mixing & Mastering | Professional Sound Finishing | NEEDaFIXER">
+    <meta property="og:description" content="Expert audio mixing and mastering services for film, TV, and digital media. Final mix, stems delivery, broadcast mastering, and cinema-quality sound worldwide.">
+    <meta property="og:url" content="/post-production-services/audio-post/audio-mixing-mastering/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/post-production-services/audio-post/audio-mixing-mastering/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/27.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Audio Mixing & Mastering
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Professional audio finishing that delivers perfect balance, clarity, and impact across all playback systems from cinema to streaming platforms.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional audio mixing and mastering services represent the crucial final stage of post-production where all sonic elements unite into a cohesive, powerful soundtrack that delivers maximum emotional impact and technical excellence. Our expert mix engineers combine artistic sensitivity with technical precision to balance dialogue, music, sound effects, and ambiences into seamless audio experiences that translate perfectly across all playback environments. From intimate dialogue scenes requiring subtle dynamic control to explosive action sequences demanding complex spatial positioning, we deliver mixes that maintain clarity, depth, and emotional resonance while meeting stringent broadcast standards and platform-specific requirements for worldwide distribution.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Audio mixing encompasses comprehensive signal processing including EQ sculpting, dynamic range control, spatial positioning, reverb design, automated level adjustments, and creative effects processing that transform individual elements into unified soundscapes. Our mixing facilities feature industry-leading equipment including Avid S6 consoles, Pro Tools HDX systems, and extensive plugin collections from Waves, FabFilter, and Universal Audio, alongside hardware processors from Neve, SSL, and Manley. We implement advanced techniques including stem mixing, parallel processing, sidechain compression, and loudness management to achieve mixes that maintain dialogue intelligibility, musical impact, and effects clarity while creating immersive sonic environments that support visual narrative without overwhelming it.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Whether mixing intimate indie films requiring naturalistic sound treatment, blockbuster features demanding spectacular sonic landscapes, or streaming content needing optimized loudness standards, our mixing and mastering services adapt to any creative vision and technical specification. We provide complete audio finishing solutions including dialogue premixes, music and effects stems, M&E tracks for international versioning, printmasters for theatrical release, and format-specific deliverables for broadcast, streaming, and home entertainment platforms. Our commitment to sonic excellence and quality control ensures that every project receives the meticulous attention necessary to create final mixes that showcase your content at its absolute best while maintaining consistency across all distribution channels.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Mixing & Mastering Excellence</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎚️</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Perfect Balance</h3>
+                            <p class="text-gray-300">Optimal levels for every element.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🔊</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Dynamic Control</h3>
+                            <p class="text-gray-300">Professional compression and limiting.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎧</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Format Ready</h3>
+                            <p class="text-gray-300">Optimized for all platforms.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">✨</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Pristine Quality</h3>
+                            <p class="text-gray-300">Cinema-standard audio delivery.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mixing & Mastering Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Mixing Services</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Final Mix:</strong> Complete stereo and surround mixing</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Dialogue Premix:</strong> Voice clarity and intelligibility</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Music Integration:</strong> Score and source music balance</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Effects Mixing:</strong> Ambience and hard effects placement</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Stem Creation:</strong> Dialogue, music, and effects separation</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">M&E Track:</strong> Music and effects for dubbing</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Mastering & Delivery</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Loudness Standards:</strong> EBU R128, ATSC A/85 compliance</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Format Optimization:</strong> Cinema, broadcast, streaming specs</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Quality Control:</strong> Technical verification and listening tests</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Multi-Format:</strong> Stereo, 5.1, 7.1, Atmos deliverables</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Platform Masters:</strong> Netflix, Amazon, theatrical specs</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Archive Package:</strong> Complete project backup and stems</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our Mixing & Mastering</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🏆</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Award-Winning</h3>
+                            <p class="text-gray-300">Recognized mixing excellence.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Cinema Quality</h3>
+                            <p class="text-gray-300">Theatrical-grade sound finishing.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">📱</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Multi-Platform</h3>
+                            <p class="text-gray-300">Optimized for every format.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Fast Delivery</h3>
+                            <p class="text-gray-300">Efficient workflow management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Ready for Professional Audio Finishing?</h2>
+                <p class="text-xl text-white mb-8">Let's create a final mix that showcases your content at its absolute best.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for post-production-services/audio-post/audio-mixing-mastering, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

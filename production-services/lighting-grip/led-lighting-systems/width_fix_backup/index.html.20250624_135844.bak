@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>LED Lighting Systems | Professional LED Production Lighting | NEEDaFIXER</title>
+    <meta name="description" content="Professional LED lighting systems for film, TV, and commercial productions. Energy-efficient LED panels, tubes, and specialty lighting solutions worldwide.">
+    <meta name="keywords" content="LED lighting systems, LED panels, LED tubes, professional lighting, energy-efficient lighting, film lighting">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="LED Lighting Systems | Professional LED Production Lighting | NEEDaFIXER">
+    <meta property="og:description" content="Professional LED lighting systems for film, TV, and commercial productions. Energy-efficient LED panels, tubes, and specialty lighting solutions worldwide.">
+    <meta property="og:url" content="/production-services/lighting-grip/led-lighting-systems/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/production-services/lighting-grip/led-lighting-systems/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/24.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        LED Lighting Systems Greece | Professional Film Lighting
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Energy-efficient professional LED lighting solutions for modern productions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional LED lighting systems represent the cutting edge of production lighting technology, offering energy-efficient, color-accurate, and versatile lighting solutions for film, television, commercial, and digital content creation. Our comprehensive LED lighting inventory includes high-output panel systems, tunable white fixtures, RGB color-changing units, and specialty LED products that deliver broadcast-quality illumination while reducing power consumption and heat generation compared to traditional lighting systems.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Modern LED lighting technology provides unprecedented control over color temperature, intensity, and color rendering, enabling cinematographers and lighting designers to achieve precise visual aesthetics with instant adjustability and reliable performance. Our LED systems feature advanced features including DMX control capabilities, wireless operation, battery power options, and modular configurations that adapt to any production requirement, from intimate interview setups to large-scale studio productions and challenging location work.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            From portable LED panels for run-and-gun documentary work to sophisticated studio LED arrays for controlled environments, our LED lighting systems deliver consistent, flicker-free illumination that integrates seamlessly with digital cameras and modern production workflows. We provide complete LED lighting solutions including fixtures, control systems, mounting hardware, and technical support, ensuring your production benefits from the latest advances in solid-state lighting technology while maintaining the highest standards of visual quality.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Professional LED Lighting Equipment Greece</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">💡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Professional LED Panel Rental</h3>
+                            <p class="text-gray-300">High-output LED panel systems for studio and location lighting.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🌈</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Advanced Color Management Systems</h3>
+                            <p class="text-gray-300">RGB and tunable white systems for precise color management.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Energy Efficient</h3>
+                            <p class="text-gray-300">Low power consumption with high light output and reduced heat.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">📱</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Smart Control</h3>
+                            <p class="text-gray-300">DMX, wireless, and app-based control systems for easy operation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LED Technology Features -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Advanced LED Technology & Features</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">High CRI/TLCI:</strong> Exceptional color rendering for accurate skin tones and colors</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Tunable White:</strong> 3200K-5600K color temperature adjustment</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">RGB Systems:</strong> Full color spectrum control for creative lighting</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Flicker-Free:</strong> High-frequency operation for digital camera compatibility</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Dimming Control:</strong> Smooth 0-100% intensity adjustment</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Battery Power:</strong> Portable LED systems with battery operation</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Greece film production Greece LED Applications</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Studio Production:</strong> Large LED arrays for controlled lighting environments</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Location Work:</strong> Portable LED panels for on-location filming</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Interview Setups:</strong> Soft LED panels for flattering portrait lighting</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Background Lighting:</strong> LED strips and tubes for creative backgrounds</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Product Photography:</strong> High-CRI LED systems for commercial work</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Live Streaming:</strong> Compact LED solutions for content creation</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our LED Systems</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🔬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Latest Technology</h3>
+                            <p class="text-gray-300">Cutting-edge LED fixtures with the newest features and capabilities.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎨</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Color Accuracy</h3>
+                            <p class="text-gray-300">High CRI/TLCI ratings ensuring accurate color reproduction.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Efficient Operation</h3>
+                            <p class="text-gray-300">Energy-efficient systems reducing power costs and heat generation.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Availability</h3>
+                            <p class="text-gray-300">LED lighting systems available worldwide with local support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Ready to Go LED for Your Production?</h2>
+                <p class="text-xl text-white mb-8">Let's illuminate your project with modern LED technology.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for production-services/lighting-grip/led-lighting-systems, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>

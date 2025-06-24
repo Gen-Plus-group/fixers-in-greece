@@ -58,7 +58,7 @@
             transform: translateX(-50%) translateY(-10px);
             width: 100%;
             max-width: 1400px;
-            min-width: 100%;
+            
             background: #1a1a1a;
             border-top: 2px solid #f9a531;
             box-shadow: 0 10px 25px rgba(0,0,0,0.3);
@@ -67,42 +67,42 @@
             transition: all 0.3s ease;
             z-index: 50;
             margin-top: 8px; /* Additional top margin for visual separation */
-        }
+        overflow-x: hidden;}
         
         .mega-menu-trigger:hover .mega-menu {
             opacity: 1;
             visibility: visible;
             transform: translateX(-50%) translateY(0);
-        }
+        overflow-x: hidden;}
         
         .mega-menu-column {
             border-right: 1px solid #333;
             min-width: 0; /* Allow columns to shrink */
-        }
+        overflow-x: hidden;}
         
         .mega-menu-column:last-child {
             border-right: none;
-        }
+        overflow-x: hidden;}
         
         .mega-menu-content {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 1.5rem 1rem; /* Increased padding for better spacing */
-        }
+        overflow-x: hidden;}
         
         /* Mega Menu Typography Improvements */
         .mega-menu h3 {
             font-size: 1.5rem; /* Larger main title */
             font-weight: 700;
             margin-bottom: 0.75rem;
-        }
+        overflow-x: hidden;}
         
         .mega-menu h4 {
             font-size: 1rem; /* Increased from text-sm to text-base */
             font-weight: 600;
             margin-bottom: 1rem;
             color: #f9a531;
-        }
+        overflow-x: hidden;}
         
         .mega-menu a {
             font-size: 0.875rem; /* Increased from text-xs to text-sm */
@@ -110,25 +110,25 @@
             padding: 0.25rem 0;
             display: block;
             transition: all 0.2s ease;
-        }
+        overflow-x: hidden;}
         
         .mega-menu a:hover {
             color: #f9a531;
             padding-left: 0.25rem;
-        }
+        overflow-x: hidden;}
         
         .mega-menu ul {
             margin-top: 0.5rem;
-        }
+        overflow-x: hidden;}
         
         .mega-menu li {
             margin-bottom: 0.5rem; /* Better spacing between links */
-        }
+        overflow-x: hidden;}
         
         /* Ensure mega menu doesn't get clipped */
         .mega-menu-trigger {
             position: static;
-        }
+        overflow-x: hidden;}
         
         /* Navigation container needs to allow overflow for mega menu */
         nav {
@@ -140,20 +140,20 @@
         @media (max-width: 1024px) {
             .mega-menu {
                 display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            }
+            overflow-x: hidden;}
         }
         
         /* Responsive mega menu */
         @media (max-width: 1024px) {
             .mega-menu {
                 display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            }
+            overflow-x: hidden;}
         }
         
         /* Ensure mega menu doesn't get clipped */
         .mega-menu-trigger {
             position: static;
-        }
+        overflow-x: hidden;}
         
         /* Navigation container needs to allow overflow for mega menu */
         nav {
@@ -165,7 +165,7 @@
         @media (max-width: 1024px) {
             .mega-menu {
                 display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            }
+            overflow-x: hidden;}
         }
         </style>
 </head>
@@ -186,7 +186,7 @@
         <!-- Hero Section -->
         <section class="page-hero-bg relative py-20 md:py-32">
             <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-            <div class="relative z-10 container mx-auto px-4 text-center">
+            <div class="relative z-10 container mx-auto px-4 text-center max-w-full">
                 <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-6">
                     Music Video Production Greece
                 </h1>
@@ -208,7 +208,7 @@
 
         <!-- Music Video Services -->
         <section id="content" class="py-16">
-            <div class="container mx-auto px-4">
+            <div class="container mx-auto px-4 max-w-full">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
                         Music Video Production Services
@@ -288,7 +288,7 @@
 
         <!-- Greece Music Scene -->
         <section class="py-16 bg-greece-dark">
-            <div class="container mx-auto px-4">
+            <div class="container mx-auto px-4 max-w-full">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
                         Greece's Dynamic Music Scene
@@ -364,7 +364,7 @@
 
         <!-- Music Video FAQ -->
         <section class="py-16">
-            <div class="container mx-auto px-4">
+            <div class="container mx-auto px-4 max-w-full">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
                         Music Video Production FAQ
@@ -444,7 +444,7 @@
 
         <!-- Call to Action -->
         <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
-            <div class="container mx-auto px-4 text-center">
+            <div class="container mx-auto px-4 text-center max-w-full">
                 <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
                     Ready to Create Your Next Hit Music Video?
                 </h2>

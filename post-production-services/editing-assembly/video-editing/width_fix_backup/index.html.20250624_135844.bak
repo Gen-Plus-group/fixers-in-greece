@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Video Editing | Professional Post-Production Editing Services | NEEDaFIXER</title>
+    <meta name="description" content="Professional video editing services for film, TV, and digital content. Expert editors transform raw footage into compelling stories with precision and creativity worldwide.">
+    <meta name="keywords" content="video editing, film editing, post-production, video editor, professional editing, content editing">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Video Editing | Professional Post-Production Editing Services | NEEDaFIXER">
+    <meta property="og:description" content="Professional video editing services for film, TV, and digital content. Expert editors transform raw footage into compelling stories with precision and creativity worldwide.">
+    <meta property="og:url" content="/post-production-services/editing-assembly/video-editing/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/post-production-services/editing-assembly/video-editing/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/4.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Video Editing
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Transform raw footage into compelling visual narratives with professional editing expertise and creative storytelling.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional video editing services transform raw footage into polished, engaging content through expert storytelling techniques, precise timing, and creative vision. Our experienced <a href="/film-crew/post-production-roles/editor/" class="text-greece-blue hover:text-yellow-300 transition-colors">editors</a> combine technical proficiency with artistic sensibility to craft compelling narratives that captivate audiences and achieve communication objectives across all media platforms. From feature films and television series to commercials, documentaries, and digital content, we deliver editing solutions that enhance story flow, maintain viewer engagement, and elevate production value while meeting strict deadlines and technical specifications for global <a href="/post-production-services/delivery-output/" class="text-greece-blue hover:text-yellow-300 transition-colors">delivery and output</a>.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Video editing excellence requires seamless integration of multiple production elements including footage selection, pacing control, transition design, and narrative structure to create cohesive and impactful visual stories. Our editors work with industry-standard software including Adobe Premiere Pro, Avid Media Composer, DaVinci Resolve, and Final Cut Pro, utilizing advanced techniques such as <a href="/post-production-services/editing-assembly/multi-cam-sync-editing/" class="text-greece-blue hover:text-yellow-300 transition-colors">multi-camera synchronization</a>, proxy workflow management, and collaborative editing systems supported by robust <a href="/production-services/production-equipment/data-management-systems/" class="text-greece-blue hover:text-yellow-300 transition-colors">data management systems</a>. We maintain close communication with <a href="/film-crew/creative-roles/director/" class="text-greece-blue hover:text-yellow-300 transition-colors">directors</a>, producers, and creative teams throughout the editing process to ensure creative vision alignment while optimizing technical workflow efficiency.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Whether producing long-form narratives requiring complex story arcs and character development or creating short-form content demanding immediate impact and viral potential, our video editing services adapt to any genre, style, and platform requirement. We provide comprehensive editing solutions including assembly edits, rough cuts, fine cuts, and final delivery preparation, incorporating client feedback at every stage while maintaining version control and project organization. Our post-production workflow seamlessly integrates with <a href="/post-production-services/color-visual-finishing/color-correction/" class="text-greece-blue hover:text-yellow-300 transition-colors">color correction</a>, <a href="/post-production-services/audio-post/" class="text-greece-blue hover:text-yellow-300 transition-colors">audio post-production</a>, and <a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="text-greece-blue hover:text-yellow-300 transition-colors">visual effects</a> services. Our commitment to excellence ensures that every project receives meticulous attention to detail, creative problem-solving, and technical precision that transforms raw material into powerful visual communication.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Professional Video Editing Services</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">✂️</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Creative Editing</h3>
+                            <p class="text-gray-300">Artistic editing that enhances storytelling and emotional impact.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Fast Turnaround</h3>
+                            <p class="text-gray-300">Efficient workflows ensuring timely delivery without quality compromise.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Multi-Format</h3>
+                            <p class="text-gray-300">Expertise across all formats from cinema to social media content.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🔧</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Technical Precision</h3>
+                            <p class="text-gray-300">Industry-standard software and calibrated monitoring systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Editing Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Editing Capabilities</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Narrative Editing:</strong> Feature films, documentaries, and episodic content editing</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Commercial Editing:</strong> Dynamic commercial and promotional content creation</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Corporate Content:</strong> Professional corporate video and presentation editing</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Social Media:</strong> Platform-optimized content for maximum engagement</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Music Videos:</strong> Creative music video editing with <a href="/post-production-services/motion-vfx/motion-graphics/" class="text-gray-300 hover:text-greece-blue transition-colors">motion graphics</a> and visual effects integration</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Educational Content:</strong> E-learning and instructional video development</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Technical Services</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Assembly Editing:</strong> Initial footage organization and rough assembly creation</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Fine Cut Refinement:</strong> Precision timing and pacing adjustments</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Transition Design:</strong> Creative transitions and visual flow enhancement with <a href="/post-production-services/color-visual-finishing/color-grading/" class="text-gray-300 hover:text-greece-blue transition-colors">color grading</a> for seamless continuity</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Format Optimization:</strong> Multi-platform format preparation and export</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Project Management:</strong> Timeline organization and version control systems</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Collaborative Workflow:</strong> Remote editing and review platform integration supporting <a href="/film-production-services/" class="text-gray-300 hover:text-greece-blue transition-colors">film production services</a> worldwide</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our Video Editing</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Experienced Editors</h3>
+                            <p class="text-gray-300">Award-winning <a href="/film-crew/post-production-roles/editor/" class="text-gray-300 hover:text-greece-blue transition-colors">editors</a> with diverse genre expertise and creative vision.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Efficient Workflow</h3>
+                            <p class="text-gray-300">Streamlined processes ensuring fast turnaround without compromising quality.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🔧</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Latest Technology</h3>
+                            <p class="text-gray-300">State-of-the-art editing suites with industry-standard software and systems, integrated with professional <a href="/post-production-services/audio-post/sound-design/" class="text-gray-300 hover:text-greece-blue transition-colors">sound design</a> and <a href="/post-production-services/audio-post/audio-mixing-mastering/" class="text-gray-300 hover:text-greece-blue transition-colors">audio mixing</a> facilities.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Standards</h3>
+                            <p class="text-gray-300">Meeting international broadcast and streaming specifications worldwide.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Ready to Transform Your Footage?</h2>
+                <p class="text-xl text-white mb-8">Let's create compelling visual stories with professional video editing.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for post-production-services/editing-assembly/video-editing, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Greece Film Portfolio | Athens Production Work BBC & CNN</title>
+    <meta name="description" content="Explore our Greece film production Greece portfolio. 13+ years of documentaries, commercials & features for BBC, CNN, Reuters. Athens-based fixers with proven results!">
+    <meta name="keywords" content="Greece film portfolio, production showcase Greece, film projects Greece, documentary filming Greece, commercial production Greece">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/portfolio/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        .portfolio-hero-bg {
+            background-image: url('/assets/images/2015/10/Greece-services.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- CreativeWork Schema for Portfolio -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "CreativeWorkSeries",
+                "@id": "https://fixersingreece.com/portfolio/#portfolio",
+                "name": "Fixers in Greece Film Production Portfolio",
+                "description": "Showcase of film and video productions completed by Fixers in Greece for international clients including BBC, CNN, and Discovery Channel.",
+                "creator": {
+                    "@type": ["LocalBusiness", "ProfessionalService", "Organization"],
+                    "@id": "https://fixersingreece.com/#organization",
+                    "name": "Fixers in Greece"
+                },
+                "hasPart": [
+                    {
+                        "@type": "VideoObject",
+                        "name": "BBC Panorama - Europe's Border Crisis",
+                        "description": "BBC Panorama documentary series filmed across Greece, Serbia, and Hungary showcasing Europe's border crisis.",
+                        "creator": {
+                            "@id": "https://fixersingreece.com/#organization"
+                        },
+                        "datePublished": "2016",
+                        "genre": "Documentary",
+                        "inLanguage": "en",
+                        "locationCreated": [
+                            {
+                                "@type": "Place",
+                                "name": "Greece"
+                            },
+                            {
+                                "@type": "Place", 
+                                "name": "Serbia"
+                            },
+                            {
+                                "@type": "Place",
+                                "name": "Hungary"
+                            }
+                        ],
+                        "productionCompany": {
+                            "@type": "Organization",
+                            "name": "BBC"
+                        }
+                    },
+                    {
+                        "@type": "VideoObject",
+                        "name": "Huang's World - Vice Media",
+                        "description": "Travel and culture documentary series filmed in Greece for Vice Media featuring local culture and cuisine.",
+                        "creator": {
+                            "@id": "https://fixersingreece.com/#organization"
+                        },
+                        "datePublished": "2015",
+                        "genre": "Documentary",
+                        "inLanguage": "en",
+                        "locationCreated": {
+                            "@type": "Place",
+                            "name": "Greece"
+                        },
+                        "productionCompany": {
+                            "@type": "Organization",
+                            "name": "Vice Media"
+                        }
+                    },
+                    {
+                        "@type": "VideoObject",
+                        "name": "Heineken House Corporate Film",
+                        "description": "Corporate promotional film for Heineken featuring Greece locations and local production crew.",
+                        "creator": {
+                            "@id": "https://fixersingreece.com/#organization"
+                        },
+                        "datePublished": "2015",
+                        "genre": "Commercial",
+                        "inLanguage": "en",
+                        "locationCreated": {
+                            "@type": "Place",
+                            "name": "Greece"
+                        },
+                        "productionCompany": {
+                            "@type": "Organization",
+                            "name": "Boomerang Creative"
+                        }
+                    },
+                    {
+                        "@type": "VideoObject",
+                        "name": "Wolf Blass - Here's to the Chase",
+                        "description": "Commercial production for Wolf Blass wine featuring high-end production values and international crew coordination.",
+                        "creator": {
+                            "@id": "https://fixersingreece.com/#organization"
+                        },
+                        "datePublished": "2015",
+                        "genre": "Commercial",
+                        "inLanguage": "en",
+                        "locationCreated": {
+                            "@type": "Place",
+                            "name": "France"
+                        },
+                        "productionCompany": {
+                            "@type": "Organization",
+                            "name": "Infinity"
+                        }
+                    }
+                ],
+                "workExample": [
+                    {
+                        "@type": "Service",
+                        "name": "Documentary production services Greece",
+                        "description": "Complete documentary filming services for international broadcasters"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "Commercial production services Greece", 
+                        "description": "High-end commercial production for international brands"
+                    },
+                    {
+                        "@type": "Service",
+                        "name": "News production services Greece",
+                        "description": "Fast-turnaround news and current affairs production support"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://fixersingreece.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Portfolio",
+                "item": "https://fixersingreece.com/portfolio/"
+            }
+        ]
+    }
+    </script>
+    
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="portfolio-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center max-w-full">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-4">
+                    Greece film production Greece Portfolio & Case Studies
+                </h1>
+                <p class="text-xl text-gray-200 max-w-2xl mx-auto">
+                    Showcasing successful international productions filmed in Greece
+                </p>
+            </div>
+        </section>
+
+        <!-- Portfolio Content -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-6xl mx-auto">
+                    
+                    <!-- Introduction -->
+                    <div class="text-center mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-6">13+ Years of Greece film production Greece Excellence</h2>
+                        <p class="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                            Over the past 13 years, Fixers in Greece has supported hundreds of international productions, from major network documentaries to commercial campaigns and feature films. Our portfolio showcases the diversity and quality of projects we've helped bring to life in Greece.
+                        </p>
+                    </div>
+
+                    <!-- Production Types -->
+                    <div class="grid md:grid-cols-3 gap-8 mb-16">
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">📺</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">Documentary Production in Greece</h3>
+                            <p class="text-gray-300 mb-4">
+                                International broadcasters trust us with their most important documentary projects, from historical investigations to cultural explorations.
+                            </p>
+                            <ul class="text-sm text-gray-400 space-y-1">
+                                <li>• BBC Productions</li>
+                                <li>• CNN Features</li>
+                                <li>• National Geographic</li>
+                                <li>• Discovery Channel</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">📰</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">International News Coverage Greece</h3>
+                            <p class="text-gray-300 mb-4">
+                                Supporting international news organizations with breaking news coverage, feature stories, and investigative journalism.
+                            </p>
+                            <ul class="text-sm text-gray-400 space-y-1">
+                                <li>• Reuters News</li>
+                                <li>• International Networks</li>
+                                <li>• Breaking News Coverage</li>
+                                <li>• Political Reporting</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">🎬</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">Commercial Production Services Greece</h3>
+                            <p class="text-gray-300 mb-4">
+                                From global brand campaigns to corporate videos, we provide full production support for commercial projects of all scales.
+                            </p>
+                            <ul class="text-sm text-gray-400 space-y-1">
+                                <li>• Brand Campaigns</li>
+                                <li>• Corporate Videos</li>
+                                <li>• Tourism Promotions</li>
+                                <li>• Product Launches</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Our Portfolio -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Portfolio</h2>
+                        
+                        <!-- Portfolio Categories Grid -->
+                        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <!-- Music Videos Category -->
+                            <a href="/portfolio-category/music-videos/" class="group block h-full">
+                                <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex flex-col">
+                                    <div class="relative overflow-hidden flex-shrink-0">
+                                        <div class="aspect-video bg-gray-800">
+                                            <img src="/assets/images/portfolio/categories/music-videos.gif" alt="Music Videos Production Greece" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                        </div>
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                            <div class="absolute bottom-4 left-4 right-4">
+                                                <p class="text-white text-sm">View Projects →</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-6 flex-grow flex flex-col">
+                                        <h3 class="text-xl font-bold text-greece-blue mb-2 group-hover:text-yellow-400 transition-colors duration-200">Music Videos</h3>
+                                        <p class="text-gray-400 text-sm mb-4 flex-grow">
+                                            High-energy music video productions for international and Greek artists.
+                                        </p>
+                                        <div class="flex flex-wrap gap-2 mt-auto">
+                                            <span class="bg-purple-700 text-purple-100 px-2 py-1 rounded text-xs">Music</span>
+                                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">8 Projects</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- Drama & Entertainment Category -->
+                            <a href="/portfolio-category/drama-entertainment/" class="group block h-full">
+                                <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex flex-col">
+                                    <div class="relative overflow-hidden flex-shrink-0">
+                                        <div class="aspect-video bg-gray-800">
+                                            <img src="/assets/images/portfolio/categories/drama-entertainment.gif" alt="Drama Entertainment Production Greece" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                        </div>
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                            <div class="absolute bottom-4 left-4 right-4">
+                                                <p class="text-white text-sm">View Projects →</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-6 flex-grow flex flex-col">
+                                        <h3 class="text-xl font-bold text-greece-blue mb-2 group-hover:text-yellow-400 transition-colors duration-200">Drama & Entertainment</h3>
+                                        <p class="text-gray-400 text-sm mb-4 flex-grow">
+                                            Feature films, series, and entertainment productions filmed in Greece.
+                                        </p>
+                                        <div class="flex flex-wrap gap-2 mt-auto">
+                                            <span class="bg-red-700 text-red-100 px-2 py-1 rounded text-xs">Drama</span>
+                                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">12 Projects</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- Documentaries Category -->
+                            <a href="/portfolio-category/documentaries/" class="group block h-full">
+                                <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex flex-col">
+                                    <div class="relative overflow-hidden flex-shrink-0">
+                                        <div class="aspect-video bg-gray-800">
+                                            <img src="/assets/images/portfolio/categories/documentaries.gif" alt="Documentary Production Greece" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                        </div>
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                            <div class="absolute bottom-4 left-4 right-4">
+                                                <p class="text-white text-sm">View Projects →</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-6 flex-grow flex flex-col">
+                                        <h3 class="text-xl font-bold text-greece-blue mb-2 group-hover:text-yellow-400 transition-colors duration-200">Documentaries</h3>
+                                        <p class="text-gray-400 text-sm mb-4 flex-grow">
+                                            Award-winning documentaries for BBC, CNN, Discovery Channel and more.
+                                        </p>
+                                        <div class="flex flex-wrap gap-2 mt-auto">
+                                            <span class="bg-green-700 text-green-100 px-2 py-1 rounded text-xs">Documentary</span>
+                                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">25 Projects</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <!-- Commercials & Branded Content Category -->
+                            <a href="/portfolio-category/commercials-branded/" class="group block h-full">
+                                <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex flex-col">
+                                    <div class="relative overflow-hidden flex-shrink-0">
+                                        <div class="aspect-video bg-gray-800">
+                                            <img src="/assets/images/portfolio/categories/commercials-branded.gif" alt="Commercial Branded Content Production Greece" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                        </div>
+                                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                            <div class="absolute bottom-4 left-4 right-4">
+                                                <p class="text-white text-sm">View Projects →</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="p-6 flex-grow flex flex-col">
+                                        <h3 class="text-xl font-bold text-greece-blue mb-2 group-hover:text-yellow-400 transition-colors duration-200">Commercials & Branded Content</h3>
+                                        <p class="text-gray-400 text-sm mb-4 flex-grow">
+                                            High-end commercials and branded content for global brands like NIKE.
+                                        </p>
+                                        <div class="flex flex-wrap gap-2 mt-auto">
+                                            <span class="bg-blue-700 text-blue-100 px-2 py-1 rounded text-xs">Commercial</span>
+                                            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">18 Projects</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Services Provided -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Complete Greece film production Greece Services</h2>
+                        
+                        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 text-center">
+                                <div class="text-3xl mb-3">🗺️</div>
+                                <h4 class="text-lg font-semibold text-greece-blue mb-2">location scouting Greece</h4>
+                                <p class="text-gray-300 text-sm">Finding perfect filming locations across Greece's diverse landscapes</p>
+                            </div>
+                            
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 text-center">
+                                <div class="text-3xl mb-3">📋</div>
+                                <h4 class="text-lg font-semibold text-greece-blue mb-2">Permits & Liaison</h4>
+                                <p class="text-gray-300 text-sm">Government relations and all necessary filming permits</p>
+                            </div>
+                            
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 text-center">
+                                <div class="text-3xl mb-3">🎥</div>
+                                <h4 class="text-lg font-semibold text-greece-blue mb-2">Equipment Rental</h4>
+                                <p class="text-gray-300 text-sm">Professional cameras, lighting, and audio equipment</p>
+                            </div>
+                            
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 text-center">
+                                <div class="text-3xl mb-3">👥</div>
+                                <h4 class="text-lg font-semibold text-greece-blue mb-2">Local Crews</h4>
+                                <p class="text-gray-300 text-sm">Experienced Greeceese film crews and technical specialists</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Call to Action -->
+                    <div class="bg-gradient-to-r from-greece-blue to-yellow-500 rounded-lg p-8 text-center">
+                        <h3 class="text-2xl font-bold text-black mb-4">
+                            Ready to Add Your Project to Our Portfolio?
+                        </h3>
+                        <p class="text-black mb-6 text-lg">
+                            Join the hundreds of successful productions we've supported in Greece. Let's discuss your project requirements.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="/contact/" 
+                               class="inline-block bg-black text-white px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                                Contact Us
+                            </a>
+                            <a href="tel:+442085492259" 
+                               class="inline-block bg-white text-black px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                +30 211 1983 725
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- NEEDaFIXER Network -->
+                    <div class="mt-12 text-center">
+                        <p class="text-gray-400 mb-4">
+                            Fixers in Greece is part of the NEEDaFIXER network. NEEDaFIXER is one of the biggest international fixing productions in the world.
+                        </p>
+                        <p class="text-gray-400">
+                            If you require any filming services around the world, please contact 
+                            <a href="mailto:info@needafixer.com" class="text-greece-blue hover:text-yellow-400 underline">info@needafixer.com</a> 
+                            or visit 
+                            <a href="http://needafixer.com/" class="text-greece-blue hover:text-yellow-400 underline">www.needafixer.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Call-to-Action -->
+    <section class="bg-gray-800 border-t border-gray-700 py-8">
+        <div class="container mx-auto px-4 max-w-full">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:flex-grow text-center md:text-left">
+                    <p class="text-xl text-gray-300 mb-4 md:mb-0">
+                        Ready to shoot? We'd love to help and are just a click away! All enquiries will be answered within 24 hours!
+                    </p>
+                </div>
+                <div class="text-center md:text-right">
+                    <a href="/contact/" 
+                       class="inline-block bg-greece-white text-white px-8 py-3 rounded-md font-semibold hover:bg-red-600 transition-colors duration-200">
+                        Contact us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        / Mobile menu functionality
+                / Mobile menu main toggle
+        / Mobile menu handled by component loader
+
+        / Mobile dropdown functionality
+        / Mobile dropdown functionality handled by component loader);
+            
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+            
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Initialize mobile dropdowns when DOM is loaded
+        / Mobile menu initialization handled by component loader
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for portfolio/index.html, page functionality ready');
+            
+            / Trigger any existing page initialization that might depend on DOM structure
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

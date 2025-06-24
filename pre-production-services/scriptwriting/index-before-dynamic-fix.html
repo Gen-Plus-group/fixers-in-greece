@@ -69,7 +69,7 @@
             transform: translateX(-50%) translateY(-10px);
             width: 100%;
             max-width: 1400px;
-            min-width: 100%;
+            
             background: #1a1a1a;
             border-top: 2px solid #f9a531;
             box-shadow: 0 10px 25px rgba(0,0,0,0.3);
@@ -78,42 +78,42 @@
             transition: all 0.3s ease;
             z-index: 50;
             margin-top: 8px; /* Additional top margin for visual separation */
-        }
+        overflow-x: hidden;}
         
         .mega-menu-trigger:hover .mega-menu {
             opacity: 1;
             visibility: visible;
             transform: translateX(-50%) translateY(0);
-        }
+        overflow-x: hidden;}
         
         .mega-menu-column {
             border-right: 1px solid #333;
             min-width: 0; /* Allow columns to shrink */
-        }
+        overflow-x: hidden;}
         
         .mega-menu-column:last-child {
             border-right: none;
-        }
+        overflow-x: hidden;}
         
         .mega-menu-content {
-            max-width: 1400px;
+            max-width: 1200px;
             margin: 0 auto;
             padding: 1.5rem 1rem; /* Increased padding for better spacing */
-        }
+        overflow-x: hidden;}
         
         /* Mega Menu Typography Improvements */
         .mega-menu h3 {
             font-size: 1.5rem; /* Larger main title */
             font-weight: 700;
             margin-bottom: 0.75rem;
-        }
+        overflow-x: hidden;}
         
         .mega-menu h4 {
             font-size: 1rem; /* Increased from text-sm to text-base */
             font-weight: 600;
             margin-bottom: 1rem;
             color: #f9a531;
-        }
+        overflow-x: hidden;}
         
         .mega-menu a {
             font-size: 0.875rem; /* Increased from text-xs to text-sm */
@@ -121,25 +121,25 @@
             padding: 0.25rem 0;
             display: block;
             transition: all 0.2s ease;
-        }
+        overflow-x: hidden;}
         
         .mega-menu a:hover {
             color: #f9a531;
             padding-left: 0.25rem;
-        }
+        overflow-x: hidden;}
         
         .mega-menu ul {
             margin-top: 0.5rem;
-        }
+        overflow-x: hidden;}
         
         .mega-menu li {
             margin-bottom: 0.5rem; /* Better spacing between links */
-        }
+        overflow-x: hidden;}
         
         /* Ensure mega menu doesn't get clipped */
         .mega-menu-trigger {
             position: static;
-        }
+        overflow-x: hidden;}
         
         /* Navigation container needs to allow overflow for mega menu */
         nav {
@@ -151,20 +151,20 @@
         @media (max-width: 1024px) {
             .mega-menu {
                 display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            }
+            overflow-x: hidden;}
         }
         
         /* Responsive mega menu */
         @media (max-width: 1024px) {
             .mega-menu {
                 display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            }
+            overflow-x: hidden;}
         }
         
         /* Ensure mega menu doesn't get clipped */
         .mega-menu-trigger {
             position: static;
-        }
+        overflow-x: hidden;}
         
         /* Navigation container needs to allow overflow for mega menu */
         nav {
@@ -176,7 +176,7 @@
         @media (max-width: 1024px) {
             .mega-menu {
                 display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            }
+            overflow-x: hidden;}
         }
     </style>
     
@@ -206,7 +206,7 @@
 
     <!-- Top Bar -->
     <div class="bg-greece-dark border-b border-gray-700 text-sm">
-        <div class="container mx-auto px-4 py-3">
+        <div class="container mx-auto px-4 py-3 max-w-full">
             <div class="flex flex-col md:flex-row md:justify-end items-center space-y-2 md:space-y-0 md:space-x-6 text-center md:text-right">
                 <div class="flex items-center space-x-2">
                     <span class="text-greece-blue">📞</span>
@@ -222,7 +222,7 @@
 
     <!-- Header -->
     <header class="bg-greece-dark border-b border-gray-700 sticky top-0 z-40">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto px-4 max-w-full">
             <div class="flex items-center justify-between h-20">
                 <!-- Logo -->
                 <div class="flex-shrink-0">
@@ -436,7 +436,7 @@
         <!-- Hero Section -->
         <section class="page-hero-bg relative py-24 md:py-32">
             <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-            <div class="container mx-auto px-4 relative z-10">
+            <div class="container mx-auto px-4 relative z-10 max-w-full">
                 <div class="text-center">
                     <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
                         Professional Scriptwriting Services
@@ -450,7 +450,7 @@
 
         <!-- Introduction Section -->
         <section class="py-16">
-            <div class="container mx-auto px-4">
+            <div class="container mx-auto px-4 max-w-full">
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-6">
                         Expert Creative & Development Services
@@ -485,7 +485,7 @@
 
         <!-- Services Section -->
         <section class="py-16">
-            <div class="container mx-auto px-4">
+            <div class="container mx-auto px-4 max-w-full">
                 <div class="max-w-6xl mx-auto">
                     <!-- Why Choose NEEDaFIXER -->
                     <div class="mb-16">

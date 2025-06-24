@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Keen'V: Dis toi que c'est la vie - Music Video | Fixers in Greece</title>
+    <meta name="description" content="Professional music video production Greece for French pop artist Keen'V. Vibrant visuals showcasing stunning Greek coastline and traditional architecture.">
+    <meta name="keywords" content="Keen'V music video Greece, French pop music video production, music video filming Greece, Dis toi que c'est la vie">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Keen'V: Dis toi que c'est la vie - Music Video">
+    <meta property="og:description" content="Professional music video production Greece for French pop artist Keen'V filmed in stunning Greek locations.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://fixersingreece.com/portfolio-item/keenv-dis-toi/">
+    <meta property="og:image" content="https://images.squarespace-cdn.com/content/v1/666c037b9a686f5d42d5d456/1722447556149-F9VDPTTY51J9OTMAGX6L/Distoi+que+cest+la+vie.gif?format=1500w">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Keen'V: Dis toi que c'est la vie - Music Video">
+    <meta name="twitter:description" content="Professional music video production Greece for French pop artist Keen'V.">
+    <meta name="twitter:image" content="https://images.squarespace-cdn.com/content/v1/666c037b9a686f5d42d5d456/1722447556149-F9VDPTTY51J9OTMAGX6L/Distoi+que+cest+la+vie.gif?format=1500w">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/portfolio-item/keenv-dis-toi/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        .portfolio-hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MusicVideoObject",
+        "name": "Keen'V: Dis toi que c'est la vie",
+        "description": "Music video production for French pop artist Keen'V showcasing stunning Greek coastal locations and traditional architecture.",
+        "creator": {
+            "@type": "Organization",
+            "name": "Fixers in Greece",
+            "url": "https://fixersingreece.com"
+        },
+        "contributor": [
+            {
+                "@type": "MusicGroup",
+                "name": "Keen'V",
+                "role": "Artist"
+            },
+            {
+                "@type": "Organization",
+                "name": "NAF Greece",
+                "role": "Production"
+            }
+        ],
+        "genre": "Music Video",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Greek Islands, Greece"
+        }
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container"></div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="portfolio-hero relative py-32 md:py-48" style="border: none; border-top: none; margin-top: 0; padding-top: 2rem;">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-4xl">
+                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8 pt-24">
+                        Keen'V: Dis toi que c'est la vie
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12">
+                        Vibrant French pop music video featuring stunning Greek coastlines, traditional architecture, and the crystal-clear waters of the Mediterranean.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Section -->
+        <section class="py-16 bg-greece-dark border-y border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Artist</h3>
+                        <p class="text-xl font-bold text-greece-blue">Keen'V</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Song Title</h3>
+                        <p class="text-xl font-bold text-white">Dis toi que c'est la vie</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Type</h3>
+                        <p class="text-xl font-bold text-white">Music Video</p>
+                    </div>
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Film Services</h3>
+                        <p class="text-xl font-bold text-greece-blue">Fixers in Greece</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-5xl mx-auto">
+                    <div class="aspect-video bg-gray-800 rounded-lg overflow-hidden shadow-2xl mb-12">
+                        <iframe src="https://player.vimeo.com/video/949090997?h=0&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="w-full h-full"></iframe>
+                    </div>
+                    <div class="text-center">
+                        <p class="text-gray-400 italic">
+                            Watch the vibrant music video for "Dis toi que c'est la vie". For high-resolution files and behind-the-scenes content, please <a href="/contact/" class="text-greece-blue hover:text-yellow-400 underline">contact us</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About The Project -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-4xl font-bold text-white mb-8">About The Project</h2>
+                    <div class="prose prose-lg prose-invert">
+                        <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                            This vibrant music video for French pop sensation Keen'V was filmed across multiple stunning locations in Greece, capturing the essence of summer and the joie de vivre that defines the artist's upbeat style.
+                        </p>
+                        <p class="text-lg text-gray-300 leading-relaxed mb-6">
+                            The production showcased Greece's diverse landscapes, from pristine beaches with crystal-clear waters to charming traditional villages with their iconic white-washed buildings and blue-domed churches. Our team coordinated complex logistics across multiple islands to capture the perfect blend of natural beauty and authentic Greek culture.
+                        </p>
+                        <p class="text-lg text-gray-300 leading-relaxed">
+                            Working with international crews and local talent, we delivered a high-energy production that perfectly complemented the song's uplifting message and Keen'V's dynamic performance style.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Provided -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-5xl mx-auto">
+                    <h2 class="text-3xl font-bold text-white mb-12 text-center">Services Provided</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="bg-greece-dark rounded-lg p-6 border border-gray-800">
+                            <div class="text-greece-blue text-3xl mb-4">🏝️</div>
+                            <h3 class="text-xl font-bold text-white mb-2">location scouting Greece</h3>
+                            <p class="text-gray-400">Identified and secured stunning coastal locations and traditional Greek villages for filming.</p>
+                        </div>
+                        <div class="bg-greece-dark rounded-lg p-6 border border-gray-800">
+                            <div class="text-greece-blue text-3xl mb-4">🎥</div>
+                            <h3 class="text-xl font-bold text-white mb-2">Production Support</h3>
+                            <p class="text-gray-400">Full production services Greece including crew, equipment, and logistics coordination.</p>
+                        </div>
+                        <div class="bg-greece-dark rounded-lg p-6 border border-gray-800">
+                            <div class="text-greece-blue text-3xl mb-4">📋</div>
+                            <h3 class="text-xl font-bold text-white mb-2">Permits & Clearances</h3>
+                            <p class="text-gray-400">Secured all necessary filming permits for multiple island locations.</p>
+                        </div>
+                        <div class="bg-greece-dark rounded-lg p-6 border border-gray-800">
+                            <div class="text-greece-blue text-3xl mb-4">🚁</div>
+                            <h3 class="text-xl font-bold text-white mb-2">Aerial Filming</h3>
+                            <p class="text-gray-400">Drone operations for breathtaking aerial shots of Greek coastlines.</p>
+                        </div>
+                        <div class="bg-greece-dark rounded-lg p-6 border border-gray-800">
+                            <div class="text-greece-blue text-3xl mb-4">👥</div>
+                            <h3 class="text-xl font-bold text-white mb-2">Local Talent</h3>
+                            <p class="text-gray-400">Casting and coordination of local extras and dancers.</p>
+                        </div>
+                        <div class="bg-greece-dark rounded-lg p-6 border border-gray-800">
+                            <div class="text-greece-blue text-3xl mb-4">🚢</div>
+                            <h3 class="text-xl font-bold text-white mb-2">Marine Coordination</h3>
+                            <p class="text-gray-400">Boat rentals and marine logistics for water-based scenes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Projects -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-white mb-12 text-center">Related Music Videos</h2>
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <!-- Related Project 1 -->
+                        <a href="/portfolio-item/temper-trap-fall-together/" class="block group">
+                            <div class="bg-greece-darker border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300">
+                                <div class="aspect-video bg-gray-800 overflow-hidden">
+                                    <img src="https://images.squarespace-cdn.com/content/v1/666c037b9a686f5d42d5d456/1722983695777-8MUG90ZE1OU7V4P3CIUL/Temper-Trap.gif?format=1500w" alt="The Temper Trap" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold text-greece-blue group-hover:text-yellow-400 transition-colors duration-200">
+                                        The Temper Trap: Fall Together
+                                    </h3>
+                                    <p class="text-gray-400 text-sm mt-2">Indie Rock</p>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <!-- Related Project 2 -->
+                        <a href="/portfolio-item/alesha-dixon-the-way-we-are/" class="block group">
+                            <div class="bg-greece-darker border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300">
+                                <div class="aspect-video bg-gray-800 overflow-hidden">
+                                    <img src="/assets/images/portfolio/categories/music-videos.gif" alt="Alesha Dixon" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold text-greece-blue group-hover:text-yellow-400 transition-colors duration-200">
+                                        Alesha Dixon: The Way We Are
+                                    </h3>
+                                    <p class="text-gray-400 text-sm mt-2">British Pop</p>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <!-- View All -->
+                        <a href="/portfolio-category/music-videos/" class="block group">
+                            <div class="bg-greece-darker border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex items-center justify-center">
+                                <div class="text-center p-6">
+                                    <div class="text-5xl text-greece-blue mb-4 group-hover:text-yellow-400 transition-colors duration-200">
+                                        →
+                                    </div>
+                                    <h3 class="text-xl font-bold text-white">
+                                        View All Music Videos
+                                    </h3>
+                                    <p class="text-gray-400 text-sm mt-2">See more projects</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation -->
+        <section class="py-12 border-t border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <a href="/portfolio-category/music-videos/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        ← Back to Music Videos
+                    </a>
+                    <a href="/portfolio-item/temper-trap-fall-together/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        Next Project →
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-24 bg-gradient-to-br from-purple-600 to-pink-600">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">
+                    Ready to Create Your Music Video?
+                </h2>
+                <p class="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
+                    From concept to completion, we provide full music video production services throughout Greece.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/" class="inline-block bg-white text-purple-700 px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-colors duration-200">
+                        Get in Touch
+                    </a>
+                    <a href="/portfolio/" class="inline-block bg-purple-800 text-white px-8 py-4 rounded-md font-semibold hover:bg-purple-900 transition-colors duration-200">
+                        View Portfolio
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container"></div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+</body>
+</html>

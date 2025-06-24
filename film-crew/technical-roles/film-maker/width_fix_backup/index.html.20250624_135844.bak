@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Film Maker Services Greece | Complete Production Expertise Greece | NEEDaFIXER</title>
+    <meta name="description" content="Professional film maker services combining technical mastery with creative vision. Expert film makers handling all production aspects from camera operation to post-production for films, documentaries, and digital content worldwide.">
+    <meta name="keywords" content="film maker, filmmaker services, production expertise, technical filmmaker, video production, complete production">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Film Maker Services | Complete Production Expertise | NEEDaFIXER">
+    <meta property="og:description" content="Professional film maker services combining technical mastery with creative vision. Expert film makers handling all production aspects from camera operation to post-production for films, documentaries, and digital content worldwide.">
+    <meta property="og:url" content="/film-crew/technical-roles/film-maker/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/film-crew/technical-roles/film-maker/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/29.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Film Maker Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Complete production expertise from concept to delivery with technical mastery across all filmmaking disciplines.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional film maker services encompass comprehensive technical expertise across all aspects of production, from pre-production planning through final delivery. Our film makers are multi-disciplinary professionals who master camera operation, lighting techniques, audio recording, and post-production workflows. They bring deep technical knowledge of professional equipment including cinema cameras, lighting systems, audio gear, and editing software, combined with practical experience managing complex productions. Whether working as solo operators on documentary projects or leading technical teams on larger productions, our film makers excel at balancing technical requirements with creative objectives while maintaining efficient workflows and delivering broadcast-quality content.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Our film makers specialize in end-to-end production management, combining technical proficiency with creative problem-solving across diverse production environments. They possess expertise in camera systems ranging from DSLRs to high-end cinema cameras, professional audio recording equipment, lighting setups from basic three-point to complex scenarios, and comprehensive post-production skills including editing, color grading, audio mixing, and delivery formatting. This technical versatility enables them to adapt to various production scales and requirements, from run-and-gun documentary shooting to controlled studio environments, while maintaining consistent quality standards and optimizing resources throughout the production pipeline.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Each film maker in our network brings hands-on experience with cutting-edge production technology and workflows, staying current with industry developments in camera technology, recording formats, and post-production standards. They excel at technical troubleshooting, equipment selection, and workflow optimization while maintaining focus on storytelling objectives. Our film makers understand the importance of technical preparation, from equipment testing and backup systems to codec selection and archive management, ensuring smooth productions and reliable delivery. Their comprehensive technical knowledge combined with practical production experience enables them to deliver exceptional results across diverse project types while managing budgets efficiently and meeting tight deadlines.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Technical Expertise</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Production Technology</h3>
+                            <p class="text-gray-300">Complete mastery of production equipment and workflows.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">📹</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Multi-Format Expertise</h3>
+                            <p class="text-gray-300">Professional handling of various camera systems.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎚️</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Post-Production Skills</h3>
+                            <p class="text-gray-300">Advanced editing and finishing capabilities.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">⚙️</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Technical Solutions</h3>
+                            <p class="text-gray-300">Problem-solving and workflow optimization.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Technical Services</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Complete Production:</strong> End-to-end technical management</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Camera Operation:</strong> Multi-camera system expertise</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Technical Direction:</strong> Equipment and workflow planning</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Audio Production:</strong> Professional sound recording</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Post-Production:</strong> Editing, grading, and finishing</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Format Delivery:</strong> Multi-platform optimization</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Technical Process</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Technical Assessment:</strong> Project requirements analysis</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Equipment Planning:</strong> Gear selection and testing</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Production Setup:</strong> System configuration and calibration</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Quality Control:</strong> Technical monitoring and checks</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Data Management:</strong> Media handling and backup</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Final Delivery:</strong> Format conversion and archiving</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our Film Makers</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🏆</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Technical Excellence</h3>
+                            <p class="text-gray-300">Comprehensive production expertise.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎯</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Equipment Mastery</h3>
+                            <p class="text-gray-300">Professional gear and workflow knowledge.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Versatile Skills</h3>
+                            <p class="text-gray-300">Multi-disciplinary production capabilities.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">💡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Problem Solving</h3>
+                            <p class="text-gray-300">Technical solutions for any challenge.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Need a Professional Film Maker?</h2>
+                <p class="text-xl text-white mb-8">Let's bring your vision to life with technical excellence.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for film-crew/technical-roles/film-maker, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Production Insurance Services Greece | Coverage Solutions Greece | NEEDaFIXER</title>
+    <meta name="description" content="Professional production insurance services. Comprehensive coverage solutions for film productions.">
+    <meta name="keywords" content="production insurance, pre-production services, film production, location & permits">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Production Insurance Services | Coverage Solutions | NEEDaFIXER">
+    <meta property="og:description" content="Professional production insurance services. Comprehensive coverage solutions for film productions.">
+    <meta property="og:url" content="/pre-production-services/production-insurance/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/production-insurance/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/8.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Production Insurance Services",
+        "description": "Professional production insurance services. Comprehensive coverage solutions for film productions.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Location & Permits",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Production Insurance Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Comprehensive insurance coverage and risk management for productions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Production Insurance Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Production Insurance Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert insurance coordination and risk management services. Complete coverage solutions including <a href="/production-services/production-equipment/" class="text-greece-blue hover:text-yellow-300 transition-colors">equipment</a>, liability, and production-specific insurance ensuring comprehensive protection.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Equipment Insurance -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🛡️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Equipment Insurance</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Camera equipment coverage</li>
+                            <li>• Lighting gear protection</li>
+                            <li>• Audio equipment insurance</li>
+                            <li>• Drone coverage</li>
+                            <li>• <a href="/production-services/production-equipment/" class="text-gray-300 hover:text-greece-blue transition-colors">Rental equipment</a> protection</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Equipment Protection</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Liability Coverage -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">👥</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Liability Coverage</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• General liability</li>
+                            <li>• Professional indemnity</li>
+                            <li>• Public liability</li>
+                            <li>• Employer liability</li>
+                            <li>• Product liability</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Comprehensive Liability</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Production Insurance -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎬</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Production Insurance</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Completion bonds</li>
+                            <li>• Errors & omissions</li>
+                            <li>• Cast insurance</li>
+                            <li>• Weather coverage</li>
+                            <li>• <a href="/pre-production-services/location-agreements/" class="text-gray-300 hover:text-greece-blue transition-colors">Location damage</a></li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Production Security</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- International Coverage -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🌍</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">International Coverage</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Multi-territory policies</li>
+                            <li>• Travel insurance</li>
+                            <li>• Medical coverage</li>
+                            <li>• Evacuation insurance</li>
+                            <li>• Currency protection</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Global Protection</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Production Insurance Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Production Insurance Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert insurance specialists with comprehensive knowledge of production risks, coverage requirements, and claims management ensuring complete protection and peace of mind for all <a href="/pre-production-services/film-permit-acquisition/" class="text-gray-300 hover:text-greece-blue transition-colors">production activities</a>.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Comprehensive Risk Management</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Complete Coverage Assessment</h4>
+                                <p class="text-gray-300">Comprehensive risk analysis including <a href="/production-services/production-equipment/" class="text-gray-300 hover:text-greece-blue transition-colors">equipment protection</a>, liability coverage, and cast insurance. Professional assessment of production-specific risks, <a href="/pre-production-services/location-agreements/" class="text-gray-300 hover:text-greece-blue transition-colors">location hazards</a>, and international coverage requirements. Specialized coverage for high-value equipment, celebrity talent, and unique production circumstances. Weather insurance, completion bonds, and errors & omissions protection.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Insurance Coordination & Claims</h4>
+                                <p class="text-gray-300">Expert coordination with leading insurance providers and specialized entertainment insurers. Policy negotiation, premium optimization, and coverage customization for specific production needs. Claims management, documentation support, and rapid resolution services. Emergency coverage activation and on-site claims assistance throughout production period.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">International & Specialized Coverage</h4>
+                                <p class="text-gray-300">International production insurance including multi-territory coverage, currency protection, and political risk insurance. Specialized coverage for extreme locations, underwater filming, aerial cinematography, and hazardous activities. Medical evacuation insurance, <a href="/film-crew/" class="text-gray-300 hover:text-greece-blue transition-colors">crew travel coverage</a>, and emergency repatriation services. Compliance with <a href="/pre-production-services/film-permit-acquisition/" class="text-gray-300 hover:text-greece-blue transition-colors">local insurance requirements</a> and international standards.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Insurance Performance Statistics</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">400+</div>
+                                    <div class="text-sm text-gray-300">Productions Insured</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24h</div>
+                                    <div class="text-sm text-gray-300">Coverage Activation</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">98%</div>
+                                    <div class="text-sm text-gray-300">Claims Success Rate</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">$50M+</div>
+                                    <div class="text-sm text-gray-300">Coverage Managed</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Comprehensive risk assessment and coverage planning</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Expert insurance coordination and claims management</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>International and specialized coverage solutions</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>24/7 emergency support and rapid claims processing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Production Insurance Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Production Insurance</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🛡️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Complete Protection</h3>
+                                <p class="text-gray-300">Comprehensive insurance solutions covering all production risks including <a href="/production-services/production-equipment/" class="text-gray-300 hover:text-greece-blue transition-colors">equipment</a>, liability, cast, and specialized coverage for unique circumstances.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🏆</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Expert Claims Management</h3>
+                                <p class="text-gray-300">Professional claims handling with 98% success rate, rapid processing, and dedicated support ensuring maximum recovery and minimal disruption.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🌍</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Coverage</h3>
+                                <p class="text-gray-300">International insurance solutions with multi-territory coverage, currency protection, and compliance with <a href="/pre-production-services/film-permit-acquisition/" class="text-gray-300 hover:text-greece-blue transition-colors">local requirements</a> worldwide.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Response</h3>
+                                <p class="text-gray-300">24-hour coverage activation with emergency support, immediate claims processing, and on-site assistance for critical situations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Insurance Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Risk Assessment</h3>
+                                <p class="text-gray-300">Comprehensive analysis of production risks, coverage requirements, and specialized protection needs for optimal planning.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Coverage Design</h3>
+                                <p class="text-gray-300">Custom insurance package development with optimal coverage levels, competitive pricing, and specialized protection elements.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Policy Activation</h3>
+                                <p class="text-gray-300">Rapid policy implementation with documentation, certificate issuance, and team briefing on coverage details and procedures.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Ongoing Support</h3>
+                                <p class="text-gray-300">Continuous coverage monitoring, claims assistance, and emergency support throughout production with expert guidance.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What types of production insurance coverage do you provide?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive coverage including general liability, <a href="/production-services/production-equipment/" class="text-gray-300 hover:text-greece-blue transition-colors">equipment insurance</a>, cast protection, and errors & omissions. Specialized coverage for weather delays, completion bonds, and political risk insurance. International coverage, medical evacuation insurance, and currency protection. Drone insurance, underwater filming coverage, and extreme <a href="/pre-production-services/location-agreements/" class="text-gray-300 hover:text-greece-blue transition-colors">location protection</a>. Custom policies for unique production requirements and high-risk activities.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How quickly can you activate production insurance coverage?</h3>
+                                <p class="text-gray-300">
+                                    Standard coverage activation within 24-48 hours for most production requirements. Emergency coverage available within 12-24 hours for urgent projects. Complex international productions may require 3-5 days for comprehensive coverage setup. Immediate temporary coverage available for critical situations. Rush services with premium pricing for same-day coverage activation when required.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you handle international productions and multi-territory coverage?</h3>
+                                <p class="text-gray-300">
+                                    Complete international insurance solutions including multi-territory coverage, cross-border protection, and <a href="/pre-production-services/film-permit-acquisition/" class="text-gray-300 hover:text-greece-blue transition-colors">local compliance requirements</a>. Currency hedging, political risk insurance, and international medical coverage. Coordination with local insurers, regulatory compliance, and documentation in multiple languages. Experience with co-production treaties and international <a href="/pre-production-services/film-permit-acquisition/" class="text-gray-300 hover:text-greece-blue transition-colors">filming protocols</a> across all major production territories.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How do you handle claims and what's your success rate?</h3>
+                                <p class="text-gray-300">
+                                    Professional claims management with 98% success rate and rapid processing capabilities. Dedicated claims specialists, documentation support, and direct insurer coordination. On-site claims assistance, emergency response, and immediate coverage verification. Expert negotiation, maximum recovery optimization, and minimal production disruption. 24/7 claims hotline and emergency support throughout production period.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for production insurance?</h3>
+                                <p class="text-gray-300">
+                                    Insurance costs typically 1-3% of production budget depending on coverage scope and risk factors. Basic liability coverage from $2,000-5,000 USD, comprehensive packages $5,000-25,000 USD. High-value <a href="/production-services/production-equipment/" class="text-gray-300 hover:text-greece-blue transition-colors">equipment</a> and cast insurance calculated based on declared values. International productions and extreme <a href="/pre-production-services/location-agreements/" class="text-gray-300 hover:text-greece-blue transition-colors">locations</a> require premium adjustments. Volume discounts for series productions and ongoing partnerships available.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide risk assessment and safety consultation?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive risk assessment services including <a href="/pre-production-services/location-agreements/" class="text-gray-300 hover:text-greece-blue transition-colors">location safety analysis</a>, <a href="/production-services/production-equipment/" class="text-gray-300 hover:text-greece-blue transition-colors">equipment risk evaluation</a>, and activity hazard assessment. Safety protocol development, <a href="/film-crew/" class="text-gray-300 hover:text-greece-blue transition-colors">crew training coordination</a>, and emergency response planning. Regular safety audits, compliance monitoring, and risk mitigation strategies. Expert consultation on insurance requirements, coverage optimization, and cost-effective protection strategies throughout production lifecycle.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">When our <a href="/production-services/production-equipment/" class="text-gray-300 hover:text-greece-blue transition-colors">equipment</a> was damaged in a typhoon, they processed our $200K claim within 48 hours. Their emergency response and claims expertise saved our production schedule.</p>
+                                <p class="text-greece-blue font-semibold">— Amanda Foster, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Comprehensive international coverage for our 5-country production. Their multi-territory expertise and local compliance knowledge made complex insurance coordination seamless.</p>
+                                <p class="text-greece-blue font-semibold">— Roberto Silva, International Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding risk assessment and safety consultation. Their proactive approach prevented potential issues and optimized our insurance costs by 30%.</p>
+                                <p class="text-greece-blue font-semibold">— Sarah Kim, Risk Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Protect Your Production?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional production insurance that provides comprehensive protection, expert claims management, and peace of mind through specialized coverage solutions and rapid response support.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Get Coverage Quote
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Coverage Solutions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/production-insurance/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>ma -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

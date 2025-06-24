@@ -1,0 +1,1083 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Documentary Filming in Greece | Expert Services for International Broadcasters</title>
+    <meta name="description" content="Professional documentary filming services in Greece. Trusted by BBC, CNN, National Geographic. Expert fixers, research support, and local knowledge for your documentary production.">
+    <meta name="keywords" content="documentary filming Greece, Greece documentary production, BBC documentary Greece, CNN Greece filming, National Geographic Greece, documentary permits Greece">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="/documentary-filming-greece/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Documentary Filming in Greece | Expert Services for Broadcasters">
+    <meta property="og:description" content="Professional documentary filming services trusted by BBC, CNN, and National Geographic. Expert local knowledge and production support in Greece.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/documentary-filming-greece/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/wp-content/uploads/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/wp-content/uploads/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/wp-content/uploads/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .documentary-hero-bg {
+            background-image: url('/wp-content/uploads/2015/10/Greece-services.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .case-study-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .case-study-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(249, 165, 49, 0.2);
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            max-width: 1200px;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+    
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Documentary Filming in Greece",
+        "description": "Professional documentary filming services in Greece for international broadcasters",
+        "provider": {
+            "@type": "Organization",
+            "name": "Fixers in Greece",
+            "url": "/"
+        },
+        "areaServed": {
+            "@type": "Country",
+            "name": "Greece"
+        },
+        "serviceType": "Documentary Film Production Services"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Top Bar -->
+    <div class="bg-greece-dark border-b border-gray-700 text-sm">
+        <div class="container mx-auto px-4 py-3 max-w-full">
+            <div class="flex flex-col md:flex-row md:justify-end items-center space-y-2 md:space-y-0 md:space-x-6 text-center md:text-right">
+                <div class="flex items-center space-x-2">
+                    <span class="text-greece-blue">📞</span>
+                    <span>+30 211 1983 725</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <span class="text-greece-blue">✉️</span>
+                    <span>greece@needafixer.com</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="bg-greece-dark border-b border-gray-700 sticky top-0 z-40 backdrop-blur-sm bg-opacity-95">
+        <div class="container mx-auto px-4 max-w-full">
+            <div class="flex items-center justify-between py-4">
+                <!-- Logo -->
+                <div class="flex-shrink-0">
+                    <a href="/" class="block">
+                        <img src="/assets/images/needafixer-greece-white.png" 
+                             alt="Fixers in Greece" 
+                             class="h-12 w-auto">
+                    </a>
+                </div>
+
+                                                                <!-- Desktop Navigation -->
+                <nav class="hidden lg:flex items-center space-x-8" aria-label="Main navigation">
+                    <a href="/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">HOME</a>
+                    <a href="/about-us/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">ABOUT US</a>
+                    
+                    <!-- Pre-Production Mega Menu -->
+                    <div class="relative mega-menu-trigger">
+                        <a href="/pre-production-services/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200 flex items-center">
+                            PRE-PRODUCTION
+                            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </a>
+                        <div class="mega-menu">
+                            <div class="mega-menu-content">
+                                <div class="text-center mb-8">
+                                    <h3 class="text-greece-blue">Pre-Production Services</h3>
+                                    <p class="text-gray-400 text-base">Planning, creative development, logistics</p>
+                                </div>
+                                <div class="grid grid-cols-6 gap-10">
+                                    <!-- Creative & Development -->
+                                    <div class="mega-menu-column">
+                                        <h4>Creative & Development</h4>
+                                        <ul>
+                                            <li><a href="/pre-production-services/scriptwriting/" class="text-gray-300">Scriptwriting</a></li>
+                                            <li><a href="/pre-production-services/script-consultation/" class="text-gray-300">Script Consultation</a></li>
+                                            <li><a href="/pre-production-services/storyboarding/" class="text-gray-300">Storyboarding</a></li>
+                                            <li><a href="/pre-production-services/concept-development/" class="text-gray-300">Concept Development</a></li>
+                                            <li><a href="/pre-production-services/creative-direction/" class="text-gray-300">Creative Direction</a></li>
+                                            <li><a href="/pre-production-services/moodboard-creation/" class="text-gray-300">Moodboards</a></li>
+                                            <li><a href="/pre-production-services/pitch-deck-design/" class="text-gray-300">Pitch Decks</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <!-- Casting & Talent -->
+                                    <div class="mega-menu-column">
+                                        <h4>Casting & Talent</h4>
+                                        <ul>
+                                            <li><a href="/pre-production-services/casting-services/" class="text-gray-300">Casting Services</a></li>
+                                            <li><a href="/pre-production-services/voiceover-casting/" class="text-gray-300">Voiceover Casting</a></li>
+                                            <li><a href="/pre-production-services/talent-coordination/" class="text-gray-300">Talent Coordination</a></li>
+                                            <li><a href="/pre-production-services/union-talent-management/" class="text-gray-300">Union Management</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <!-- Location & Permits -->
+                                    <div class="mega-menu-column">
+                                        <h4>Location & Permits</h4>
+                                        <ul>
+                                            <li><a href="/pre-production-services/location-scouting-services/" class="text-gray-300">Location Scouting</a></li>
+                                            <li><a href="/pre-production-services/location-management/" class="text-gray-300">Location Management</a></li>
+                                            <li><a href="/pre-production-services/film-permit-acquisition/" class="text-gray-300">Permit Acquisition</a></li>
+                                            <li><a href="/pre-production-services/site-surveys/" class="text-gray-300">Site Surveys</a></li>
+                                            <li><a href="/pre-production-services/production-insurance/" class="text-gray-300">Production Insurance</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <!-- Budgeting & Scheduling -->
+                                    <div class="mega-menu-column">
+                                        <h4>Budgeting & Scheduling</h4>
+                                        <ul>
+                                            <li><a href="/pre-production-services/production-budgeting/" class="text-gray-300">Production Budgeting</a></li>
+                                            <li><a href="/pre-production-services/cost-estimation/" class="text-gray-300">Cost Estimation</a></li>
+                                            <li><a href="/pre-production-services/production-scheduling/" class="text-gray-300">Production Scheduling</a></li>
+                                            <li><a href="/pre-production-services/call-sheets/" class="text-gray-300">Call Sheets</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <!-- Crew & Logistics -->
+                                    <div class="mega-menu-column">
+                                        <h4>Crew & Logistics</h4>
+                                        <ul>
+                                            <li><a href="/pre-production-services/line-producing-services/" class="text-gray-300">Line Producing</a></li>
+                                            <li><a href="/pre-production-services/crew-hiring/" class="text-gray-300">Crew Hiring</a></li>
+                                            <li><a href="/pre-production-services/fixer-services-local/" class="text-gray-300">Local Fixers</a></li>
+                                            <li><a href="/pre-production-services/travel-logistics/" class="text-gray-300">Travel Logistics</a></li>
+                                            <li><a href="/pre-production-services/equipment-planning/" class="text-gray-300">Equipment Planning</a></li>
+                                            <li><a href="/pre-production-services/catering-services/" class="text-gray-300">Catering Services</a></li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <!-- Legal & Administrative -->
+                                    <div class="mega-menu-column">
+                                        <h4>Legal & Administrative</h4>
+                                        <ul>
+                                            <li><a href="/pre-production-services/contract-management/" class="text-gray-300">Contract Management</a></li>
+                                            <li><a href="/pre-production-services/talent-releases/" class="text-gray-300">Talent Releases</a></li>
+                                            <li><a href="/pre-production-services/location-agreements/" class="text-gray-300">Location Agreements</a></li>
+                                            <li><a href="/pre-production-services/licensing-rights/" class="text-gray-300">Licensing & Rights</a></li>
+                                            <li><a href="/pre-production-services/covid-compliance/" class="text-gray-300">COVID Compliance</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="relative group">
+                        <a href="/film-production-services/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200 flex items-center">
+                            SERVICES
+                            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </a>
+                        <div class="absolute top-full left-0 mt-2 w-56 bg-greece-dark border border-gray-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                            <a href="/equipment-rental-greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Equipment Rental</a>
+                            <a href="/location-scouting-greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Location Scouting</a>
+                            <a href="/film-permits-greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Film Permits</a>
+                            <a href="/Greece-film-crew/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Film Crew</a>
+                            <a href="/drone-filming-Greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Drone Filming</a>
+                            <a href="/corporate-video-Greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Corporate Video</a>
+                            <a href="/equipment-transport-Greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Equipment Transport</a>
+                            <a href="/translation-services-Greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Translation Services</a>
+                            <a href="/casting-services-Greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Casting Services</a>
+                            <a href="/post-production-Greece/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Post-Production Services</a>
+                            <a href="/hire-film-director/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire Film Director</a>
+                            <a href="/hire-film-producer/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire Film Producer</a>
+                            <a href="/hire-line-producer/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire Line Producer</a>
+                            <a href="/hire-fixer/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire Fixer</a>
+                            <a href="/hire-dop/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire DOP</a>
+                            <a href="/hire-location-manager/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire Location Manager</a>
+                        </div>
+                    </div>
+                    <a href="/filming-in-greece/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">FILMING IN Greece</a>
+                    <a href="/portfolio/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">PORTFOLIO</a>
+                    <a href="/contact/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">CONTACT</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="lg:hidden flex items-center px-3 py-2 border border-gray-600 rounded text-greece-gray hover:text-white hover:border-white" 
+                        id="mobile-menu-button" 
+                        aria-label="Toggle mobile menu"
+                        aria-expanded="false">
+                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+
+                                                <!-- Mobile Navigation -->
+            <nav class="lg:hidden hidden" id="mobile-menu" aria-label="Mobile navigation">
+                <div class="px-2 pt-2 pb-3 space-y-1 border-t border-gray-700">
+                    <a href="/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">HOME</a>
+                    <a href="/about-us/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">ABOUT US</a>
+
+                    <!-- Services Dropdown -->
+                    <div class="mobile-dropdown">
+                        <button class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200"
+                                data-target="services-submenu"
+                                aria-expanded="false">
+                            <span>SERVICES</span>
+                            <svg class="mobile-dropdown-icon h-4 w-4 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="services-submenu" class="mobile-submenu hidden pl-4 space-y-1">
+                            <a href="/film-production-services/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">All Services</a>
+                            <a href="/equipment-rental-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Equipment Rental</a>
+                            <a href="/location-scouting-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Location Scouting</a>
+                            <a href="/film-permits-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Film Permits</a>
+                            <a href="/Greece-film-crew/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Film Crew</a>
+                            <a href="/drone-filming-Greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Drone Filming</a>
+                            <a href="/corporate-video-Greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Corporate Video</a>
+                            <a href="/equipment-transport-Greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Equipment Transport</a>
+                            <a href="/translation-services-Greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Translation Services</a>
+                            <a href="/casting-services-Greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Casting Services</a>
+                            <a href="/post-production-Greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Post-Production Services</a>
+                            <a href="/hire-film-director/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Hire Film Director</a>
+                            <a href="/hire-film-producer/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Hire Film Producer</a>
+                            <a href="/hire-line-producer/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire Line Producer</a>
+                            <a href="/hire-fixer/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire Fixer</a>
+                            <a href="/hire-dop/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire DOP</a>
+                            <a href="/hire-location-manager/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Hire Location Manager</a>
+                        </div>
+                    </div>
+
+                    <!-- Documentaries Dropdown -->
+                    <div class="mobile-dropdown">
+                        <button class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200"
+                                data-target="documentaries-submenu"
+                                aria-expanded="false">
+                            <span class="text-greece-blue hover:text-white">MEDIA PRODUCTION</span>
+                            <svg class="mobile-dropdown-icon h-4 w-4 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="documentaries-submenu" class="mobile-submenu hidden pl-4 space-y-1">
+                            <a href="/documentary-filming-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200" class="text-greece-blue hover:text-white">Documentary Services</a>
+                            <a href="/commercial-video-production-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Commercial Production</a>
+                            <a href="/news-filming-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">News & Current Affairs</a>
+                            <a href="/music-video-production-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Music Video Production</a>
+                            <a href="/event-filming-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Event Filming</a>
+                            <a href="/live-streaming-greece/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Live Streaming</a>
+                        </div>
+                    </div>
+
+                    <!-- Locations Dropdown -->
+                    <div class="mobile-dropdown">
+                        <button class="mobile-dropdown-toggle w-full flex items-center justify-between px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200"
+                                data-target="locations-submenu"
+                                aria-expanded="false">
+                            <span>LOCATIONS</span>
+                            <svg class="mobile-dropdown-icon h-4 w-4 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div id="locations-submenu" class="mobile-submenu hidden pl-4 space-y-1">
+                            <a href="/Greece-filming-locations/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">All Locations</a>
+                            <a href="/ho-chi-minh-city-filming/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Thessaloniki</a>
+                            <a href="/Athens-film-production/" class="block px-3 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Athens</a>
+                        </div>
+                    </div>
+
+                    <a href="/filming-in-greece/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">FILMING GUIDE</a>
+                    <a href="/portfolio/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">PORTFOLIO</a>
+                    <a href="/clients/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">CLIENTS</a>
+                    <a href="/contact/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">CONTACT</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="documentary-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center max-w-full">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-6">
+                    Documentary Filming in Greece
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8">
+                    Trusted by BBC, CNN, and National Geographic. Expert documentary production services with deep local knowledge and international broadcasting standards.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#documentary-services" 
+                       class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                        Explore Services
+                    </a>
+                    <a href="/contact/" 
+                       class="inline-block bg-transparent border-2 border-greece-blue text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-greece-blue hover:text-black transition-colors duration-200">
+                        Get Documentary Quote
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted by Major Broadcasters -->
+        <section class="py-12 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl font-bold text-greece-blue mb-4">Trusted by Leading Broadcasters</h2>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                    <div>
+                        <div class="text-3xl font-bold text-greece-blue mb-2">BBC</div>
+                        <div class="text-gray-300 text-sm">Documentaries</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-greece-blue mb-2">CNN</div>
+                        <div class="text-gray-300 text-sm">News Features</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-greece-blue mb-2">Reuters</div>
+                        <div class="text-gray-300 text-sm">International News</div>
+                    </div>
+                    <div>
+                        <div class="text-3xl font-bold text-greece-blue mb-2">Nat Geo</div>
+                        <div class="text-gray-300 text-sm">Nature Docs</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Documentary Specializations -->
+        <section id="documentary-services" class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Documentary Specializations
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert production support for all types of documentaries, from historical investigations to contemporary social issues.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Historical Documentaries -->
+                    <div class="case-study-card bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📜</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Historical Documentaries</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Greece War documentaries</li>
+                            <li>• French colonial period</li>
+                            <li>• Ancient Greeceese history</li>
+                            <li>• Archive footage access</li>
+                            <li>• Expert historian interviews</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Expert Research Support</span>
+                        </div>
+                    </div>
+
+                    <!-- Cultural Documentaries -->
+                    <div class="case-study-card bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎭</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Cultural Documentaries</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Traditional arts and crafts</li>
+                            <li>• Ethnic minority cultures</li>
+                            <li>• Religious practices</li>
+                            <li>• Food and cuisine traditions</li>
+                            <li>• Cultural festival coverage</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Cultural Sensitivity</span>
+                        </div>
+                    </div>
+
+                    <!-- Environmental Documentaries -->
+                    <div class="case-study-card bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🌿</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Environmental Documentaries</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Climate change impacts</li>
+                            <li>• Biodiversity conservation</li>
+                            <li>• Mekong Delta ecosystem</li>
+                            <li>• Marine conservation</li>
+                            <li>• Sustainable development</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Scientific Accuracy</span>
+                        </div>
+                    </div>
+
+                    <!-- Social Issue Documentaries -->
+                    <div class="case-study-card bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">👥</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Social Issue Documentaries</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Economic development</li>
+                            <li>• Education and healthcare</li>
+                            <li>• Urban migration</li>
+                            <li>• Human rights stories</li>
+                            <li>• Youth and technology</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Ethical Storytelling</span>
+                        </div>
+                    </div>
+
+                    <!-- Business & Economy -->
+                    <div class="case-study-card bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">💼</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Business & Economy</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Economic transformation</li>
+                            <li>• Manufacturing industry</li>
+                            <li>• Technology sector growth</li>
+                            <li>• International trade</li>
+                            <li>• Entrepreneurship stories</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Business Access</span>
+                        </div>
+                    </div>
+
+                    <!-- Travel & Adventure -->
+                    <div class="case-study-card bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🗺️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Travel & Adventure</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Adventure travel stories</li>
+                            <li>• Hidden destinations</li>
+                            <li>• Extreme sports coverage</li>
+                            <li>• Cultural immersion</li>
+                            <li>• Culinary journeys</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Adventure Logistics</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trusted by Major Broadcasters -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-8 text-center">
+                        Trusted by Leading International Broadcasters
+                    </h2>
+                    
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-8 mb-8">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-4">13+ Years of Documentary Excellence</h3>
+                        <p class="text-gray-300 mb-4">
+                            Since 2011, we've been the go-to documentary production partner for major international broadcasters including 
+                            BBC, CNN, National Geographic, Discovery Channel, Reuters, and Bloomberg. Our deep understanding of Greece's 
+                            complex history, cultural nuances, and access to restricted locations makes us uniquely qualified for serious 
+                            documentary work.
+                        </p>
+                        <p class="text-gray-300">
+                            From hard-hitting investigative journalism to cultural explorations, we've supported productions that have won 
+                            international awards and shaped global understanding of Greece and Southeast Asia.
+                        </p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-8 mb-8">
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">🏆 Award-Winning Productions</h3>
+                            <ul class="text-gray-300 space-y-2">
+                                <li>• Emmy-nominated documentary series</li>
+                                <li>• BAFTA-recognized historical documentaries</li>
+                                <li>• Asia Pacific Film Festival winners</li>
+                                <li>• International journalism awards</li>
+                                <li>• UNESCO cultural preservation projects</li>
+                                <li>• Human rights documentation recognition</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">📺 Major Network Partners</h3>
+                            <ul class="text-gray-300 space-y-2">
+                                <li>• BBC World Service documentaries</li>
+                                <li>• National Geographic Channel specials</li>
+                                <li>• Discovery Channel investigations</li>
+                                <li>• CNN International features</li>
+                                <li>• Arte and ZDF co-productions</li>
+                                <li>• NHK historical programming</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-8">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Specialized Documentary Expertise</h3>
+                        
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="text-lg font-semibold text-greece-blue mb-3">Historical Documentaries</h4>
+                                <ul class="text-gray-300 space-y-1 text-sm">
+                                    <li>• Greece War documentation and survivor interviews</li>
+                                    <li>• French colonial period historical sites</li>
+                                    <li>• Ancient Greeceese civilizations and archaeology</li>
+                                    <li>• Ho Chi Minh trail and historical battlefields</li>
+                                    <li>• Cultural revolution and modern development</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h4 class="text-lg font-semibold text-greece-blue mb-3">Environmental & Wildlife</h4>
+                                <ul class="text-gray-300 space-y-1 text-sm">
+                                    <li>• Mekong River ecosystem documentation</li>
+                                    <li>• Endangered species in Phong Nha caves</li>
+                                    <li>• Climate change impact on agriculture</li>
+                                    <li>• Marine conservation in Ha Long Bay</li>
+                                    <li>• Biodiversity in national parks and reserves</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Research & Development Support -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-12 text-center">
+                        Research & Development Support
+                    </h2>
+
+                    <div class="grid md:grid-cols-3 gap-8 mb-8">
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 text-center">
+                            <div class="text-4xl mb-4">📚</div>
+                            <h3 class="text-lg font-bold text-greece-blue mb-3">Historical Research</h3>
+                            <ul class="text-gray-300 space-y-1 text-sm">
+                                <li>• National archives access</li>
+                                <li>• University research partnerships</li>
+                                <li>• Government document retrieval</li>
+                                <li>• Expert historian interviews</li>
+                                <li>• Fact verification and sourcing</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 text-center">
+                            <div class="text-4xl mb-4">🔬</div>
+                            <h3 class="text-lg font-bold text-greece-blue mb-3">Scientific Collaboration</h3>
+                            <ul class="text-gray-300 space-y-1 text-sm">
+                                <li>• Environmental research institutes</li>
+                                <li>• Medical and health studies</li>
+                                <li>• Agricultural innovation centers</li>
+                                <li>• Technology development hubs</li>
+                                <li>• International research coordination</li>
+                            </ul>
+                        </div>
+
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 text-center">
+                            <div class="text-4xl mb-4">🎭</div>
+                            <h3 class="text-lg font-bold text-greece-blue mb-3">Cultural Documentation</h3>
+                            <ul class="text-gray-300 space-y-1 text-sm">
+                                <li>• Traditional craft preservation</li>
+                                <li>• Language and dialect studies</li>
+                                <li>• Religious and spiritual practices</li>
+                                <li>• Contemporary art movements</li>
+                                <li>• Social change documentation</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-8">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Access & Permissions</h3>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <h4 class="text-lg font-semibold text-greece-blue mb-3">Exclusive Access</h4>
+                                <ul class="text-gray-300 space-y-2 text-sm">
+                                    <li>• Government and military facilities</li>
+                                    <li>• Restricted historical sites</li>
+                                    <li>• Private collections and archives</li>
+                                    <li>• Religious institutions and ceremonies</li>
+                                    <li>• Industrial and infrastructure sites</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-semibold text-greece-blue mb-3">Subject Matter Expertise</h4>
+                                <ul class="text-gray-300 space-y-2 text-sm">
+                                    <li>• Political and diplomatic contacts</li>
+                                    <li>• Academic and research networks</li>
+                                    <li>• Community leader relationships</li>
+                                    <li>• Industry insider access</li>
+                                    <li>• Cultural sensitivity guidance</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Production Case Studies -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-12 text-center">
+                        Featured Documentary Productions
+                    </h2>
+
+                    <div class="space-y-8">
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-lg font-bold text-greece-blue mb-2">BBC World Service - "The Long Road Home"</h3>
+                            <p class="text-gray-300 mb-4">
+                                A powerful 90-minute documentary examining the lasting impact of Agent Orange on Greeceese communities. 
+                                Our team facilitated sensitive interviews with affected families, coordinated medical expert access, 
+                                and navigated complex government approvals for filming in contaminated areas.
+                            </p>
+                            <div class="text-sm text-greece-blue">
+                                Duration: 6 weeks | Locations: 12 provinces | Interviews: 47 subjects
+                            </div>
+                        </div>
+
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-lg font-bold text-greece-blue mb-2">National Geographic - "Hidden Kingdoms of Greece"</h3>
+                            <p class="text-gray-300 mb-4">
+                                An unprecedented wildlife documentary exploring newly discovered cave systems in Phong Nha-Ke Bang National Park. 
+                                Required specialized cave filming equipment, safety protocols, and coordination with international spelunking teams 
+                                and Greeceese conservation authorities.
+                            </p>
+                            <div class="text-sm text-greece-blue">
+                                Duration: 8 weeks | Cave systems: 15 locations | 4K underwater footage
+                            </div>
+                        </div>
+
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-lg font-bold text-greece-blue mb-2">Discovery Channel - "Mekong: Lifeline Under Threat"</h3>
+                            <p class="text-gray-300 mb-4">
+                                A comprehensive investigation into the environmental and social impacts of upstream dam construction on the Mekong River. 
+                                The production required diplomatic coordination with multiple countries, scientific data gathering, 
+                                and extensive community outreach in affected regions.
+                            </p>
+                            <div class="text-sm text-greece-blue">
+                                Duration: 12 weeks | Countries: 4 | River distance: 1,200km documented
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Documentary FAQ -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-12 text-center">
+                        Documentary Production FAQ
+                    </h2>
+
+                    <div class="space-y-6">
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-lg font-bold text-greece-blue mb-2">How do you handle sensitive historical subjects?</h3>
+                            <p class="text-gray-300">
+                                We approach sensitive topics with cultural sensitivity, thorough research, and respect for all perspectives. 
+                                Our team includes cultural consultants and historians who ensure accurate representation while maintaining 
+                                journalistic integrity. We work closely with government liaisons and community leaders to build trust and access.
+                            </p>
+                        </div>
+
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-lg font-bold text-greece-blue mb-2">Can you arrange interviews with government officials?</h3>
+                            <p class="text-gray-300">
+                                Yes, we have established relationships with various government departments and can facilitate interviews with appropriate 
+                                officials. This process typically requires advance notice, formal requests through proper channels, and sometimes 
+                                involves preliminary meetings to discuss the documentary's scope and objectives.
+                            </p>
+                        </div>
+
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-lg font-bold text-greece-blue mb-2">What about access to restricted or sensitive locations?</h3>
+                            <p class="text-gray-300">
+                                We specialize in obtaining access to locations that are typically off-limits to foreign media. This includes 
+                                military historical sites, government facilities, private institutions, and culturally sensitive areas. 
+                                Each location requires specific permits and protocols, which we handle through our established networks.
+                            </p>
+                        </div>
+
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-lg font-bold text-greece-blue mb-2">How do you ensure factual accuracy in historical documentaries?</h3>
+                            <p class="text-gray-300">
+                                We maintain rigorous fact-checking protocols including multiple source verification, academic expert consultation, 
+                                and cross-referencing with official historical records. Our research team works with Greeceese historians, 
+                                international scholars, and primary source materials to ensure documentary accuracy and historical context.
+                            </p>
+                        </div>
+
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-lg font-bold text-greece-blue mb-2">What languages do you provide for interviews and research?</h3>
+                            <p class="text-gray-300">
+                                Our team provides professional Greeceese-English interpretation and translation services. We also have access to 
+                                interpreters for ethnic minority languages when documenting diverse communities. All translations maintain cultural 
+                                context and nuance, essential for authentic documentary storytelling.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center max-w-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Create Your Greece Documentary?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Partner with Greece's most trusted documentary production team. From concept development to final delivery, 
+                    we provide the expertise, access, and cultural knowledge your story deserves.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Start Your Project
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Our Work
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+        <!-- Footer -->
+    <footer class="bg-greece-dark border-t border-gray-700 py-12">
+        <div class="container mx-auto px-4 max-w-full">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <img src="/assets/images/needafixer-greece-white.png" 
+                         alt="NEEDaFIXER" 
+                         class="h-12 w-auto mb-4">
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Global film production services connecting you with expert directors, producers, and crew in 100+ countries.
+                    </p>
+                </div>
+                
+                <!-- Talent Services -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Talent Services</h3>
+                    <ul>
+                        <li><a href="/hire-film-director/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Hire Film Director</a></li>
+                        <li><a href="/hire-film-producer/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Hire Film Producer</a></li>
+                        <li><a href="/hire-line-producer/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Hire Line Producer</a></li>
+                        <li><a href="/hire-dop/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Hire DOP</a></li>
+                        <li><a href="/hire-fixer/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Hire Fixer</a></li>
+                        <li><a href="/hire-location-manager/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Hire Location Manager</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Production Services -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Production Services</h3>
+                    <ul>
+                        <li><a href="/film-production-services/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">All Services</a></li>
+                        <li><a href="/equipment-rental-greece/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Equipment Rental</a></li>
+                        <li><a href="/location-scouting-greece/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Location Scouting</a></li>
+                        <li><a href="/film-permits-greece/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Film Permits</a></li>
+                        <li><a href="/Greece-film-crew/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Film Crew</a></li>
+                        <li><a href="/post-production-Greece/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Post-Production</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company & Contact -->
+                <div>
+                    <h3 class="text-white font-semibold mb-4">Company</h3>
+                    <ul class="space-y-2 mb-4">
+                        <li><a href="/about-us/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">About Us</a></li>
+                        <li><a href="/filming-in-greece/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Filming in Greece</a></li>
+                        <li><a href="/portfolio/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Portfolio</a></li>
+                        <li><a href="/contact/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Contact</a></li>
+                    </ul>
+                    <div class="space-y-2 text-gray-400 text-sm">
+                        <div class="flex items-center space-x-2">
+                            <span class="text-greece-blue">📞</span>
+                            <span>+30 211 1983 725</span>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <span class="text-greece-blue">✉️</span>
+                            <span>greece@needafixer.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    © 2024 NEEDaFIXER. All rights reserved. | Global film production services and talent management.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        / Mobile menu main toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const isHidden = mobileMenu.classList.contains('hidden');
+
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                this.setAttribute('aria-expanded', 'true');
+            } else {
+                mobileMenu.classList.add('hidden');
+                this.setAttribute('aria-expanded', 'false');
+                / Close all submenus when main menu closes
+                closeAllMobileSubmenus();
+            }
+        });
+
+        / Mobile dropdown functionality
+        function initializeMobileDropdowns() {
+            const dropdownToggles = document.querySelectorAll('.mobile-dropdown-toggle');
+
+            dropdownToggles.forEach(function(toggle) {
+                toggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+
+                    const targetId = this.getAttribute('data-target');
+                    const submenu = document.getElementById(targetId);
+                    const icon = this.querySelector('.mobile-dropdown-icon');
+                    const isExpanded = this.getAttribute('aria-expanded') === 'true';
+
+                    / Close other submenus
+                    closeAllMobileSubmenus(targetId);
+
+                    if (isExpanded) {
+                        / Close this submenu
+                        submenu.classList.add('hidden');
+                        this.setAttribute('aria-expanded', 'false');
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        / Open this submenu
+                        submenu.classList.remove('hidden');
+                        this.setAttribute('aria-expanded', 'true');
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                });
+            });
+        }
+
+        function closeAllMobileSubmenus(exceptId) {
+            const allSubmenus = document.querySelectorAll('.mobile-submenu');
+            const allToggles = document.querySelectorAll('.mobile-dropdown-toggle');
+            const allIcons = document.querySelectorAll('.mobile-dropdown-icon');
+
+            allSubmenus.forEach(function(submenu) {
+                if (!exceptId || submenu.id !== exceptId) {
+                    submenu.classList.add('hidden');
+                }
+            });
+
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+
+            if (!mobileMenu.contains(event.target) && !mobileMenuButton.contains(event.target)) {
+                mobileMenu.classList.add('hidden');
+                mobileMenuButton.setAttribute('aria-expanded', 'false');
+                closeAllMobileSubmenus();
+            }
+        });
+
+        / Initialize mobile dropdowns when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeMobileDropdowns();
+        });
+
+        / Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

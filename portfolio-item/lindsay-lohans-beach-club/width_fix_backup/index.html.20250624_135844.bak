@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Lindsay Lohan's Beach Club - MTV Reality Series | Fixers in Greece</title>
+    <meta name="description" content="Professional production services for Lindsay Lohan's Beach Club MTV reality series. Luxury lifestyle show filmed in Mykonos by Fixers in Greece.">
+    <meta name="keywords" content="Lindsay Lohan Beach Club, MTV Greece, Mykonos reality TV, celebrity show Greece, beach club series">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Lindsay Lohan's Beach Club - MTV Reality Series">
+    <meta property="og:description" content="Professional production services for Lindsay Lohan's MTV reality series in Mykonos, Greece.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://fixersingreece.com/portfolio-item/lindsay-lohans-beach-club/">
+    <meta property="og:image" content="/assets/images/portfolio/lindsay-lohans-beach-club-thumb.gif">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lindsay Lohan's Beach Club - MTV Reality Series">
+    <meta name="twitter:description" content="Professional production services for celebrity reality series in Mykonos.">
+    <meta name="twitter:image" content="/assets/images/portfolio/lindsay-lohans-beach-club-thumb.gif">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/portfolio-item/lindsay-lohans-beach-club/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        .portfolio-hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin-top: 2rem;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Schema.org markup for portfolio item -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Lindsay Lohan's Beach Club",
+        "description": "MTV reality series following Lindsay Lohan's luxury beach club venture in Mykonos, Greece.",
+        "creator": {
+            "@type": "Organization",
+            "name": "Fixers in Greece",
+            "url": "https://fixersingreece.com"
+        },
+        "contributor": [
+            {
+                "@type": "Organization",
+                "name": "MTV",
+                "role": "Network"
+            },
+            {
+                "@type": "Person",
+                "name": "Lindsay Lohan",
+                "role": "Star"
+            }
+        ],
+        "dateCreated": "2019",
+        "genre": "Reality TV",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Mykonos, Greece"
+        }
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="portfolio-hero relative py-32 md:py-48">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-4xl">
+                    <!-- Title -->
+                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8 pt-24">
+                        Lindsay Lohan's Beach Club
+                    </h1>
+                    
+                    <!-- Subtitle -->
+                    <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12">
+                        MTV reality series following Lindsay Lohan as she launches her exclusive beach club in Mykonos, featuring drama, luxury lifestyle, and the stunning Greek island backdrop.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Section -->
+        <section class="py-16 bg-greece-dark border-y border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <!-- Network -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Network</h3>
+                        <p class="text-xl font-bold text-greece-blue">MTV</p>
+                    </div>
+                    
+                    <!-- Star -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Star</h3>
+                        <p class="text-xl font-bold text-white">Lindsay Lohan</p>
+                    </div>
+                    
+                    <!-- Episodes -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Episodes</h3>
+                        <p class="text-xl font-bold text-white">8 Episodes</p>
+                    </div>
+                    
+                    <!-- Film Services -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Film Services</h3>
+                        <p class="text-xl font-bold text-greece-blue">Fixers in Greece</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-5xl mx-auto">
+                    <!-- Video Showcase -->
+                    <div class="aspect-video bg-gray-800 rounded-lg overflow-hidden shadow-2xl mb-12">
+                        <iframe src="https://player.vimeo.com/video/985590369?h=b33ae25f34&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="w-full h-full"></iframe>
+                    </div>
+                    
+                    <!-- Video Description -->
+                    <div class="text-center">
+                        <p class="text-gray-400 italic">
+                            Watch the drama unfold at Lindsay Lohan's Beach Club in Mykonos. For high-resolution files and additional content, please <a href="/contact/" class="text-greece-blue hover:text-yellow-400 underline">contact us</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Overview -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-8">Project Overview</h2>
+                    
+                    <div class="prose prose-lg prose-invert max-w-none">
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Fixers in Greece served as the primary production partner for MTV's "Lindsay Lohan's Beach Club," providing comprehensive support for this high-profile celebrity reality series. Set in the glamorous party island of Mykonos, the show followed Lindsay Lohan as she managed her exclusive beach club venue.
+                        </p>
+                        
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Our team coordinated all aspects of the Mykonos production, from securing the beach club location and managing celebrity logistics to handling the complex requirements of filming in one of Greece's most exclusive destinations. The production demanded seamless coordination between international crews, local authorities, and the luxury hospitality sector.
+                        </p>
+                        
+                        <p class="text-gray-300 leading-relaxed">
+                            Working with MTV's production standards, we ensured smooth operations throughout the season, capturing the drama, luxury lifestyle, and stunning Mykonos scenery that made the show a compelling viewing experience for international audiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Provided -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-12">Services Provided</h2>
+                    
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="bg-greece-dark rounded-lg p-8 border border-gray-800">
+                            <h3 class="text-xl font-bold text-white mb-4">Production Support</h3>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    Beach club location management
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    Celebrity security coordination
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    Mykonos filming permits
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    24/7 production support
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-greece-dark rounded-lg p-8 border border-gray-800">
+                            <h3 class="text-xl font-bold text-white mb-4">Luxury Services</h3>
+                            <ul class="space-y-3 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    VIP accommodation arrangements
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    Yacht and luxury transport
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    Exclusive venue access
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    Cast and crew logistics
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Projects -->
+        <section class="py-16 bg-greece-darker">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-12 text-center">Related Projects</h2>
+                
+                <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <!-- Related Project 1 -->
+                    <a href="/portfolio-item/million-dollar-listing/" class="group">
+                        <div class="bg-greece-dark rounded-lg overflow-hidden border border-gray-800 hover:border-greece-blue transition-all duration-300">
+                            <div class="aspect-video bg-gray-800">
+                                <img src="/assets/images/portfolio/million-dollar-listing-thumb.gif" alt="Million Dollar Listing" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-white group-hover:text-greece-blue transition-colors duration-200">
+                                    Million Dollar Listing
+                                </h3>
+                                <p class="text-gray-400 mt-2">Real Estate Reality</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Related Project 2 -->
+                    <a href="/portfolio-item/greeces-next-top-model/" class="group">
+                        <div class="bg-greece-dark rounded-lg overflow-hidden border border-gray-800 hover:border-greece-blue transition-all duration-300">
+                            <div class="aspect-video bg-gray-800">
+                                <img src="/assets/images/portfolio/greeces-next-top-model-thumb.gif" alt="Greece's Next Top Model" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-white group-hover:text-greece-blue transition-colors duration-200">
+                                    Greece's Next Top Model
+                                </h3>
+                                <p class="text-gray-400 mt-2">Competition Series</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <!-- Related Project 3 -->
+                    <a href="/portfolio-item/mykonos-riviera-destination/" class="group">
+                        <div class="bg-greece-dark rounded-lg overflow-hidden border border-gray-800 hover:border-greece-blue transition-all duration-300">
+                            <div class="aspect-video bg-gray-800">
+                                <img src="/assets/images/portfolio/mykonos-riviera-thumb.gif" alt="Mykonos Riviera" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                            </div>
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold text-white group-hover:text-greece-blue transition-colors duration-200">
+                                    Mykonos Riviera
+                                </h3>
+                                <p class="text-gray-400 mt-2">Hotel Campaign</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+                        Planning a Celebrity Production in Greece?
+                    </h2>
+                    <p class="text-xl text-gray-300 mb-8">
+                        Let's discuss how we can provide world-class production services for your high-profile reality series.
+                    </p>
+                    <a href="/contact/" class="inline-block bg-greece-blue text-white px-8 py-4 rounded-md font-semibold hover:bg-blue-600 transition-colors duration-200">
+                        Start Your Project
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for lindsay-lohans-beach-club/index.html, page functionality ready');
+            
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Location Management Services | On-Site Coordination | NEEDaFIXER</title>
+    <meta name="description" content="Professional location management services. Expert on-site coordination for filming locations Greece.">
+    <meta name="keywords" content="location management, pre-production services, film production Greece, location & permits">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Location Management Services | On-Site Coordination | NEEDaFIXER">
+    <meta property="og:description" content="Professional location management services. Expert on-site coordination for filming locations Greece.">
+    <meta property="og:url" content="/pre-production-services/location-management/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/location-management/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/16.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Location Management Services",
+        "description": "Professional location management services. Expert on-site coordination for filming locations Greece.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Location & Permits",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10 max-w-full">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Location Management Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Expert on-site coordination and management of filming locations Greece.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Management Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Location Management Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Professional location coordination and on-site management for seamless production workflows. Expert logistics coordination, crew facilities, and production support ensuring smooth daily operations.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Site Coordination -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📍</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Site Coordination</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Location logistics planning</li>
+                            <li>• Access coordination</li>
+                            <li>• Crew facility setup</li>
+                            <li>• Equipment staging areas</li>
+                            <li>• Security arrangements</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Operational Excellence</span>
+                        </div>
+                    </div>
+
+                    <!-- Logistics Management -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🚛</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Logistics Management</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Transportation coordination</li>
+                            <li>• Equipment delivery</li>
+                            <li>• Catering arrangements</li>
+                            <li>• Parking management</li>
+                            <li>• Waste disposal</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Seamless Operations</span>
+                        </div>
+                    </div>
+
+                    <!-- Crew Support -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">👥</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Crew Support</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Base camp setup</li>
+                            <li>• Restroom facilities</li>
+                            <li>• Power distribution</li>
+                            <li>• Communication systems</li>
+                            <li>• Weather protection</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Crew Comfort</span>
+                        </div>
+                    </div>
+
+                    <!-- Production Liaison -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Production Liaison</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Local authority coordination</li>
+                            <li>• Community relations</li>
+                            <li>• Permit compliance</li>
+                            <li>• Safety protocols</li>
+                            <li>• Emergency procedures</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Professional Relations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Location Management Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Location Management Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert location coordinators with comprehensive experience in location management, logistics coordination, and on-site operations ensuring seamless location access and optimal production efficiency throughout filming.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Location Operations</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">On-Site Location Coordination</h4>
+                                <p class="text-gray-300">Comprehensive on-site location management including setup coordination, access control, and facility management. Equipment staging, crew coordination, and workflow optimization. Security management, crowd control, and public relations coordination. Weather monitoring, backup planning, and emergency response protocols ensuring smooth operations throughout production.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Logistics & Infrastructure Management</h4>
+                                <p class="text-gray-300">Professional logistics coordination including power supply, water access, and waste management. Parking coordination, traffic management, and transportation logistics. Catering setup, restroom facilities, and crew comfort arrangements. Equipment delivery, storage coordination, and technical infrastructure management with comprehensive support services.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Community Relations & Compliance</h4>
+                                <p class="text-gray-300">Expert community relations including neighbor coordination, noise management, and local stakeholder communication. Permit compliance, regulatory coordination, and inspection management. Environmental protection, restoration planning, and sustainability protocols. Cultural sensitivity, local customs awareness, and community impact minimization ensuring positive relationships.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Location Management Performance</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">2,000+</div>
+                                    <div class="text-sm text-gray-300">Locations Managed</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">99%</div>
+                                    <div class="text-sm text-gray-300">On-Time Setup Rate</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100%</div>
+                                    <div class="text-sm text-gray-300">Compliance Record</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24/7</div>
+                                    <div class="text-sm text-gray-300">On-Site Support</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>On-site coordination and facility management</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Logistics and infrastructure coordination</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Community relations and compliance management</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Emergency response and crisis management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location Management Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Location Management</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎯</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Expert Coordination</h3>
+                                <p class="text-gray-300">Professional location coordinators with extensive experience in on-site management, logistics coordination, and production operations worldwide.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Setup</h3>
+                                <p class="text-gray-300">99% on-time setup rate with efficient logistics coordination, equipment staging, and crew management ensuring seamless production start.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🤝</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Community Relations</h3>
+                                <p class="text-gray-300">Expert community relations with local stakeholder coordination, cultural sensitivity, and positive relationship building ensuring smooth operations.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🛡️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Complete Support</h3>
+                                <p class="text-gray-300">24/7 on-site support with emergency response, crisis management, and comprehensive assistance throughout entire production period.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Location Management Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Pre-Production Planning</h3>
+                                <p class="text-gray-300">Comprehensive location assessment including logistics planning, infrastructure evaluation, and coordination requirements analysis.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Setup Coordination</h3>
+                                <p class="text-gray-300">Professional setup management with equipment staging, crew coordination, and facility preparation for optimal production efficiency.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Production Support</h3>
+                                <p class="text-gray-300">Continuous on-site management with logistics coordination, community relations, and operational support throughout filming.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Wrap & Restoration</h3>
+                                <p class="text-gray-300">Complete wrap coordination with equipment removal, location restoration, and final compliance verification ensuring proper closure.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional location management services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive on-site location management including setup coordination, access control, and facility management. Equipment staging, crew coordination, and workflow optimization. Security management, crowd control, and public relations coordination. Logistics coordination including power supply, water access, and waste management. Community relations, permit compliance, and emergency response protocols throughout production.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How do you ensure efficient setup and production operations?</h3>
+                                <p class="text-gray-300">
+                                    99% on-time setup rate through efficient logistics coordination, equipment staging, and crew management. Pre-production planning with infrastructure evaluation and coordination requirements analysis. Professional setup management with facility preparation and workflow optimization. Real-time coordination, problem-solving, and operational support ensuring seamless production efficiency and minimal delays.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you handle community relations and local coordination?</h3>
+                                <p class="text-gray-300">
+                                    Expert community relations including neighbor coordination, noise management, and local stakeholder communication. Cultural sensitivity, local customs awareness, and community impact minimization. Public relations coordination, media management, and positive relationship building. Local authority liaison, permit compliance, and regulatory coordination ensuring smooth community interactions throughout production.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What logistics and infrastructure support do you provide?</h3>
+                                <p class="text-gray-300">
+                                    Complete logistics coordination including power supply, water access, and waste management. Parking coordination, traffic management, and transportation logistics. Catering setup, restroom facilities, and crew comfort arrangements. Equipment delivery, storage coordination, and technical infrastructure management. Emergency services coordination and backup planning for comprehensive operational support.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for location management services?</h3>
+                                <p class="text-gray-300">
+                                    Location management fees typically $500-2,000 per day depending on location complexity and crew size. Basic coordination $500-1,000 daily, comprehensive management $1,000-2,000 daily. Multi-location productions and complex logistics require additional coordination fees. Emergency services and extended hours available with premium pricing. Volume discounts for long-term productions and multiple locations.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide 24/7 on-site support and emergency response?</h3>
+                                <p class="text-gray-300">
+                                    24/7 on-site support with emergency response, crisis management, and comprehensive assistance throughout production. Weather monitoring, backup planning, and emergency protocols. Immediate problem resolution, equipment coordination, and operational support. Emergency contact systems, rapid response capabilities, and crisis management ensuring continuous production support and safety.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding location management for our 6-week production. Their on-site coordination and community relations made filming in challenging locations seamless and stress-free.</p>
+                                <p class="text-greece-blue font-semibold">— Rachel Martinez, Location Manager</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Incredible logistics coordination and problem-solving. When weather threatened our outdoor shoot, they had backup plans activated within minutes and kept us on schedule.</p>
+                                <p class="text-greece-blue font-semibold">— James Wilson, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional, efficient, and incredibly reliable. Their 24/7 support and emergency response capabilities gave us complete confidence throughout production.</p>
+                                <p class="text-greece-blue font-semibold">— Maria Santos, Production Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center max-w-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Streamline Your Location Operations?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional location management that ensures seamless operations, efficient coordination, and comprehensive support through expert on-site management, logistics coordination, and community relations.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Optimize Location Operations
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Management Solutions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/location-management/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>

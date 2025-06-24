@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Director of Photography (DOP) Services | Cinematography Excellence | NEEDaFIXER</title>
+    <meta name="description" content="Professional Director of Photography services for cinematic excellence and visual mastery. Expert DOPs with cutting-edge camera technology and artistic vision for films, commercials, and digital content worldwide.">
+    <meta name="keywords" content="director of photography, DOP services, cinematographer, camera department head, lighting design, visual storytelling">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Director of Photography (DOP) Services | Cinematography Excellence | NEEDaFIXER">
+    <meta property="og:description" content="Professional Director of Photography services for cinematic excellence and visual mastery. Expert DOPs with cutting-edge camera technology and artistic vision for films, commercials, and digital content worldwide.">
+    <meta property="og:url" content="/film-crew/technical-roles/director-of-photography/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/film-crew/technical-roles/director-of-photography/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/5.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Director of Photography Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Cinematic excellence through masterful camera work, lighting design, and visual storytelling expertise.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional Director of Photography services combine technical mastery with artistic vision to create compelling visual narratives through expert camera operation and <a href="/production-services/production-equipment/lighting-equipment-rental/" class="text-greece-blue hover:text-yellow-300 transition-colors">lighting design</a>. Our DOPs bring extensive knowledge of cinematography equipment, from cutting-edge <a href="/production-services/production-equipment/camera-equipment-rental/" class="text-greece-blue hover:text-yellow-300 transition-colors">digital cinema cameras</a> like ARRI Alexa, RED, and Sony FX series to specialized lenses, lighting systems, and grip equipment. They excel at translating <a href="/film-crew/creative-roles/director/" class="text-greece-blue hover:text-yellow-300 transition-colors">directorial vision</a> into stunning imagery through precise control of camera movement, exposure, color temperature, and visual composition while managing complex technical workflows including color management, data handling, and on-set monitoring systems that ensure consistent quality throughout production.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Our Directors of Photography specialize in advanced cinematographic techniques including multi-camera setups, complex lighting scenarios with our <a href="/film-crew/technical-roles/gaffer-grip/" class="text-greece-blue hover:text-yellow-300 transition-colors">gaffer and grip teams</a>, and specialized equipment operation such as Steadicam, gimbal systems, and technocranes. They possess deep understanding of sensor technology, lens characteristics, filtration systems, and color science, enabling them to achieve specific visual aesthetics while maintaining technical excellence. From intimate handheld documentary work to elaborate studio productions with extensive <a href="/production-services/lighting-grip/gaffer-lighting-team/" class="text-greece-blue hover:text-yellow-300 transition-colors">lighting rigs</a>, our DOPs adapt their technical approach to serve each project's unique visual requirements while optimizing workflows for efficiency and maintaining the highest standards of image quality throughout capture and post-production pipelines.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Each DOP in our network brings comprehensive technical expertise in camera systems, lighting design, and on-set workflow management combined with artistic sensibility and collaborative skills. They excel at pre-production planning including shot lists, lighting diagrams, and equipment specifications while maintaining flexibility to adapt to changing conditions during production. Our DOPs understand the critical relationship between cinematography and post-production, ensuring proper exposure, color management, and technical specifications that provide maximum flexibility in <a href="/post-production-services/color-visual-finishing/color-grading/" class="text-greece-blue hover:text-yellow-300 transition-colors">color grading</a> and visual effects integration while delivering footage that exceeds technical requirements and achieves the desired emotional impact through masterful visual storytelling.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Technical Expertise</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">📷</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Camera Systems</h3>
+                            <p class="text-gray-300">Expert operation of <a href="/production-services/production-equipment/camera-equipment-rental/" class="text-gray-300 hover:text-greece-blue transition-colors">cinema cameras</a> and lens systems.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">💡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Lighting Design</h3>
+                            <p class="text-gray-300">Advanced <a href="/production-services/production-equipment/lighting-equipment-rental/" class="text-gray-300 hover:text-greece-blue transition-colors">lighting techniques</a> and equipment mastery.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎨</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Color Science</h3>
+                            <p class="text-gray-300">Professional <a href="/post-production-services/color-visual-finishing/color-correction/" class="text-gray-300 hover:text-greece-blue transition-colors">color management</a> and LUT creation.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🔧</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Technical Workflows</h3>
+                            <p class="text-gray-300">Efficient data management and quality control.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Technical Services</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Camera Operation:</strong> Cinema camera systems and specialty rigs with our <a href="/film-crew/technical-roles/camera-operator/" class="text-gray-300 hover:text-greece-blue transition-colors">camera operators</a></span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Lighting Design:</strong> Complex setups and atmospheric creation</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Lens Selection:</strong> Prime, zoom, and specialty lens expertise</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Color Management:</strong> LUT creation and on-set grading</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Multi-Camera Setup:</strong> Synchronized systems and workflows</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Specialized Equipment:</strong> Steadicam, gimbals, motion control, and <a href="/production-services/camera-cinematography/drone-videography/" class="text-gray-300 hover:text-greece-blue transition-colors">drone systems</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Technical Process</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Pre-Production Planning:</strong> Equipment lists and technical specs</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Camera Testing:</strong> Lens tests and look development</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Lighting Diagrams:</strong> Detailed setup plans and power requirements</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">On-Set Monitoring:</strong> Waveform, vectorscope, and false color</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Data Management:</strong> Camera media handling and backup protocols</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Quality Control:</strong> Technical checks and dailies review for <a href="/post-production-services/editing-assembly/video-editing/" class="text-gray-300 hover:text-greece-blue transition-colors">seamless editing</a></span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our DOPs</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🏆</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Award-Winning Cinematography</h3>
+                            <p class="text-gray-300">Recognized excellence in visual storytelling.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎯</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Technical Innovation</h3>
+                            <p class="text-gray-300">Cutting-edge equipment and techniques.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Standards</h3>
+                            <p class="text-gray-300">International <a href="/film-production-services/" class="text-gray-300 hover:text-greece-blue transition-colors">production experience</a>.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">💡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Creative Solutions</h3>
+                            <p class="text-gray-300">Innovative approaches to visual challenges across <a href="/Greece-filming-locations/" class="text-gray-300 hover:text-greece-blue transition-colors">diverse locations</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Need a Director of Photography?</h2>
+                <p class="text-xl text-white mb-8">Let's create stunning visuals for your next production.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for film-crew/technical-roles/director-of-photography, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Digital Cinema Package (DCP) | Professional DCP Creation | NEEDaFIXER</title>
+    <meta name="description" content="Expert DCP creation and mastering services. Professional digital cinema packages for theatrical release, film festivals, and cinema distribution worldwide.">
+    <meta name="keywords" content="DCP creation, digital cinema package, DCP mastering, theatrical delivery, cinema distribution, film festival DCP">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Digital Cinema Package (DCP) | Professional DCP Creation | NEEDaFIXER">
+    <meta property="og:description" content="Expert DCP creation and mastering services. Professional digital cinema packages for theatrical release, film festivals, and cinema distribution worldwide.">
+    <meta property="og:url" content="/post-production-services/delivery-output/digital-cinema-package-dcp/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/2016/10/needafixer-greece-retina.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/2016/10/needafixer-greece-retina.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/post-production-services/delivery-output/digital-cinema-package-dcp/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/38.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Digital Cinema Package (DCP)
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Professional DCP creation ensuring flawless theatrical presentation and worldwide cinema distribution.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional Digital Cinema Package (DCP) creation services deliver the industry-standard format for theatrical exhibition, ensuring your film is presented with the highest quality in cinemas worldwide. Our expert DCP technicians combine technical precision with deep understanding of cinema standards to create secure, encrypted packages that meet all specifications for commercial theaters, film festivals, and specialty venues. From independent features requiring festival DCPs to major theatrical releases demanding multi-version packages with subtitles and alternate audio tracks, we deliver DCP solutions that guarantee flawless projection while protecting your content through robust encryption and key management systems.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            DCP creation encompasses complex technical processes including image encoding, audio packaging, subtitle integration, encryption, and composition playlist assembly that must conform to strict Digital Cinema Initiatives (DCI) specifications. Our technicians utilize professional DCP creation systems and validation tools to ensure frame-accurate encoding at 2K or 4K resolution, with proper color space conversion, audio channel mapping, and metadata implementation. We perform comprehensive quality control including full playback verification on cinema servers, technical compliance checking, and multi-point validation to guarantee that every DCP plays perfectly in any DCI-compliant projection system, avoiding costly screening failures and ensuring optimal presentation quality.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Whether preparing DCPs for international film festival submission, creating encrypted packages for commercial theatrical release, or developing specialized versions with multiple language options and accessibility features, our DCP services adapt to any distribution requirement and technical specification. We provide complete DCP solutions including source material preparation, format conversion, package creation, encryption and KDM generation, quality control verification, and physical media or electronic delivery options. Our commitment to technical excellence and reliability ensures that every DCP receives meticulous attention to detail necessary for successful theatrical presentation, maintaining the artistic integrity of your production while meeting all technical requirements for global cinema distribution.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">DCP Creation Excellence</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Cinema Quality</h3>
+                            <p class="text-gray-300">DCI-compliant packages for perfect projection.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🔒</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Secure Encryption</h3>
+                            <p class="text-gray-300">Content protection with KDM management.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Standards</h3>
+                            <p class="text-gray-300">Compatible with all cinema systems worldwide.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">✓</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Verified Quality</h3>
+                            <p class="text-gray-300">Comprehensive testing and validation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DCP Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">DCP Services</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">2K/4K DCPs:</strong> Standard and high-resolution cinema packages</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">3D DCPs:</strong> Stereoscopic content for 3D projection</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Festival DCPs:</strong> Unencrypted packages for festival submission</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Theatrical Release:</strong> Encrypted commercial distribution packages</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Multi-Version:</strong> Multiple languages and format variations</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Trailer DCPs:</strong> Preview and marketing content packages</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Technical Specifications</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">JPEG 2000:</strong> Lossless image compression standard</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">XYZ Color Space:</strong> Cinema-specific color encoding</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Audio Formats:</strong> 5.1, 7.1, and immersive audio support</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Subtitle/Caption:</strong> Timed text and burned-in options</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">KDM Generation:</strong> Key delivery for secure playback</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Validation Testing:</strong> Complete compliance verification</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our DCP Services</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎯</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">100% Reliability</h3>
+                            <p class="text-gray-300">Guaranteed playback in all DCI theaters.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Fast Turnaround</h3>
+                            <p class="text-gray-300">Quick delivery for urgent deadlines.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🔐</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Secure Handling</h3>
+                            <p class="text-gray-300">Protected workflow and delivery.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌟</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Festival Ready</h3>
+                            <p class="text-gray-300">Experience with major festival requirements.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Ready for Cinema Distribution?</h2>
+                <p class="text-xl text-white mb-8">Let's create perfect DCPs for your theatrical release.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for post-production-services/delivery-output/digital-cinema-package-dcp, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

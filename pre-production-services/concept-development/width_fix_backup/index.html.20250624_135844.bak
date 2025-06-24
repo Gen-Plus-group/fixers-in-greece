@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Concept Development Services | Creative Ideation | NEEDaFIXER</title>
+    <meta name="description" content="Professional concept development services for films, commercials, and digital content. Creative ideation experts.">
+    <meta name="keywords" content="concept development, pre-production services, film production, creative & development">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Concept Development Services | Creative Ideation | NEEDaFIXER">
+    <meta property="og:description" content="Professional concept development services for films, commercials, and digital content. Creative ideation experts.">
+    <meta property="og:url" content="/pre-production-services/concept-development/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/concept-development/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/7.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Concept Development Services",
+        "description": "Professional concept development services for films, commercials, and digital content. Creative ideation experts.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Creative & Development",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Concept Development Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Creative ideation and concept development for compelling visual narratives.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Concept Development Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Concept Development Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert creative development services transforming ideas into compelling visual concepts. Professional ideation, concept refinement, and creative strategy ensuring strong foundations for successful productions.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Creative Ideation -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">💡</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Creative Ideation</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Brainstorming sessions</li>
+                            <li>• Concept generation</li>
+                            <li>• Creative workshops</li>
+                            <li>• Idea refinement</li>
+                            <li>• Concept validation</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Creative Innovation</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Visual Development -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎨</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Visual Development</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Visual style guides</li>
+                            <li>• Color palettes</li>
+                            <li>• Typography selection</li>
+                            <li>• Visual references</li>
+                            <li>• Aesthetic direction</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Visual Identity</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Narrative Structure -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📖</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Narrative Structure</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Story architecture</li>
+                            <li>• Character development</li>
+                            <li>• Plot structure</li>
+                            <li>• Theme exploration</li>
+                            <li>• Message clarity</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Story Foundation</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Strategic Planning -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎯</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Strategic Planning</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Target audience analysis</li>
+                            <li>• Market positioning</li>
+                            <li>• Creative strategy</li>
+                            <li>• Brand alignment</li>
+                            <li>• Competitive analysis</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Strategic Direction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Concept Development Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Concept Development Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert creative strategists and concept developers with extensive experience in transforming ideas into compelling visual narratives across all media formats.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Creative Strategy & Development</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Strategic Creative Planning</h4>
+                                <p class="text-gray-300">Comprehensive creative strategy development including target audience analysis, market positioning, and brand alignment. Expert consultation on creative direction, visual style, and narrative approach. Competitive analysis and trend research ensuring contemporary relevance and market appeal. Cultural sensitivity and international adaptation for global productions.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Concept Ideation & Refinement</h4>
+                                <p class="text-gray-300">Professional brainstorming sessions with experienced creative directors and concept artists. Structured ideation processes using proven creative methodologies and innovation frameworks. Concept validation through market research, focus groups, and industry expert consultation. Iterative refinement ensuring optimal creative solutions aligned with project objectives.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Visual Identity & Style Development</h4>
+                                <p class="text-gray-300">Complete visual identity creation including color palettes, typography, and aesthetic direction. Mood board development, style guides, and visual reference compilation. Brand integration and consistency across all creative elements. Technical specifications for production teams including camera styles, lighting approaches, and post-production guidelines.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Concept Development Statistics</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">300+</div>
+                                    <div class="text-sm text-gray-300">Concepts Developed</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">72h</div>
+                                    <div class="text-sm text-gray-300">Average Development Time</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">25+</div>
+                                    <div class="text-sm text-gray-300">Industry Sectors</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">95%</div>
+                                    <div class="text-sm text-gray-300">Concept Approval Rate</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Strategic creative planning and market analysis</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Professional ideation and concept refinement</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Visual identity and style guide development</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>International market adaptation and cultural sensitivity</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Concept Development Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Concept Development</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🧠</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Creative Innovation</h3>
+                                <p class="text-gray-300">Award-winning creative directors and concept developers with proven track records in breakthrough creative solutions across diverse industries and markets.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎯</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Strategic Approach</h3>
+                                <p class="text-gray-300">Data-driven concept development combining creative intuition with market research, audience analysis, and strategic positioning for maximum impact.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🌍</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Perspective</h3>
+                                <p class="text-gray-300">International experience with cultural adaptation expertise, ensuring concepts resonate across diverse markets while maintaining authentic local relevance.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Innovation</h3>
+                                <p class="text-gray-300">Accelerated concept development processes with 72-hour turnaround capabilities and emergency creative services for urgent project requirements.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Concept Development Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Discovery & Research</h3>
+                                <p class="text-gray-300">Comprehensive brief analysis, market research, and audience profiling to establish creative foundation and strategic direction.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Ideation & Brainstorming</h3>
+                                <p class="text-gray-300">Structured creative sessions using proven methodologies to generate innovative concepts aligned with project objectives and brand values.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Concept Refinement</h3>
+                                <p class="text-gray-300">Iterative development and refinement of selected concepts with client collaboration, market validation, and technical feasibility assessment.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Final Presentation</h3>
+                                <p class="text-gray-300">Professional concept presentation with visual materials, implementation guidelines, and production roadmap for seamless execution.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional concept development services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive creative strategy including market research, audience analysis, and competitive positioning. Professional ideation sessions, concept refinement, and visual identity development. Detailed concept presentations with mood boards, style guides, and implementation roadmaps. Strategic recommendations for production approach, budget considerations, and timeline planning. Multiple concept variations and revision rounds included.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How long does concept development typically take?</h3>
+                                <p class="text-gray-300">
+                                    Standard concept development takes 5-7 days for comprehensive projects, 3-5 days for focused concepts. Rush services available with 72-hour delivery for urgent requirements. Complex multi-platform concepts may require 10-14 days. Timeline depends on project scope, research requirements, and revision complexity. International market adaptation adds 2-3 additional days for cultural research and localization.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide market research and audience analysis?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive market research including industry trends, competitive analysis, and audience demographics. Focus group coordination, survey development, and consumer insight analysis. Cultural research for international markets and localization strategies. Brand positioning analysis and market opportunity assessment. Data-driven recommendations supporting creative concept development and strategic positioning.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Can you adapt concepts for different markets and cultures?</h3>
+                                <p class="text-gray-300">
+                                    Expert cultural adaptation services with local market specialists and cultural consultants. International concept localization maintaining core message while ensuring cultural relevance. Multi-market concept development for global campaigns with regional variations. Language adaptation, visual adjustments, and cultural sensitivity review. Experience across Asian, European, American, and emerging markets.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's the pricing structure for concept development?</h3>
+                                <p class="text-gray-300">
+                                    Flexible pricing based on project scope, complexity, and timeline requirements. Package deals for comprehensive concept development including research, ideation, and presentation. Hourly rates for consultation and concept refinement sessions. Volume discounts for multi-concept projects and ongoing creative partnerships. Transparent pricing with detailed quotes provided after initial consultation and brief review.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide ongoing support during production implementation?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive implementation support including creative direction during production, concept integrity maintenance, and adaptation guidance. Regular consultation sessions, creative problem-solving, and concept evolution as projects develop. Quality assurance reviews, brand consistency monitoring, and creative troubleshooting. Post-production concept evaluation and optimization recommendations for future projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">The concept development process was incredibly thorough and strategic. They transformed our vague ideas into a compelling, market-ready concept that exceeded all expectations.</p>
+                                <p class="text-greece-blue font-semibold">— Jennifer Walsh, Brand Director</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding creative innovation combined with strategic thinking. The concepts were not only visually stunning but also commercially viable and culturally relevant.</p>
+                                <p class="text-greece-blue font-semibold">— Marcus Thompson, Creative Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional, insightful, and incredibly creative. They understood our brand perfectly and delivered concepts that resonated across multiple international markets.</p>
+                                <p class="text-greece-blue font-semibold">— Lisa Chen, Marketing Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Transform Your Ideas?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional concept development that transforms creative visions into strategic, market-ready concepts with cultural authenticity and international appeal for successful productions.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Start Your Concept
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Portfolio
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/concept-development/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

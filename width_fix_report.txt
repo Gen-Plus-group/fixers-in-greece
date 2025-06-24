@@ -1,0 +1,542 @@
+Width Issues Fix Report
+Generated: 2025-06-24 13:58:45
+
+Files Processed: 313
+Files Fixed: 310
+
+Issues Found and Fixed:
+
+./index-before-mobile-fix.html:
+  - large fixed width found
+  - translate-x with large value found
+
+./news-filming-greece/index-before-mobile-fix.html:
+  - large fixed width found
+
+./template-page.html:
+  - large fixed width found
+
+./index.html:
+  - min-width with fixed pixels found
+  - translate-x with large value found
+
+./news-filming-greece/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./news-filming-greece/index.html:
+  - large fixed width found
+
+./thessaloniki-filming/index.html:
+  - large fixed width found
+
+./documentary-filming-greece/index-before-mobile-fix.html:
+  - large fixed width found
+
+./documentary-filming-greece/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./portfolio-item/canaves-oia-luxury/index.html:
+  - translate-x with large value found
+
+./portfolio-item/greek-island-odyssey-bettany-hughes/index.html:
+  - translate-x with large value found
+
+./portfolio-item/portfolio-template.html:
+  - translate-x with large value found
+
+./documentary-filming-greece/index.html:
+  - large fixed width found
+
+./portfolio-item/medusa-natalie-haynes/index.html:
+  - translate-x with large value found
+
+./portfolio-item/nyx-hotels-athens/index.html:
+  - translate-x with large value found
+
+./portfolio-item/elounda-gulf-happiness/index.html:
+  - translate-x with large value found
+
+./portfolio-item/abaton-bootcamp/index.html:
+  - translate-x with large value found
+
+./portfolio-item/atrium-hotels-in-love/index.html:
+  - translate-x with large value found
+
+./portfolio-item/lidl-see-you-athens/index.html:
+  - translate-x with large value found
+
+./portfolio-item/canaves-time-stops/index.html:
+  - translate-x with large value found
+
+./portfolio-item/angsana-corfu/index.html:
+  - translate-x with large value found
+
+./portfolio-item/jet2holidays-greece/index.html:
+  - translate-x with large value found
+
+./portfolio-item/canaves-epitome-life/index.html:
+  - translate-x with large value found
+
+./portfolio-item/galileo-wige/index.html:
+  - translate-x with large value found
+
+./portfolio-item/andronis-exclusive-moments/index.html:
+  - translate-x with large value found
+
+./portfolio-item/greg-wallace-big-weekends/index.html:
+  - translate-x with large value found
+
+./portfolio-item/ancient-treasures-bettany-hughes/index.html:
+  - translate-x with large value found
+
+./portfolio-item/capsis-elite-blue/index.html:
+  - translate-x with large value found
+
+./portfolio-item/h-hotels-moments/index.html:
+  - translate-x with large value found
+
+./portfolio-item/nike-dream-crazier/index.html:
+  - translate-x with large value found
+
+./portfolio-item/santanna-mykonos/index.html:
+  - translate-x with large value found
+
+./portfolio-item/kensho-awakening/index.html:
+  - translate-x with large value found
+
+./portfolio-item/abaton-sanctuary/index.html:
+  - translate-x with large value found
+
+./portfolio-item/mykonos-riviera-destination/index.html:
+  - translate-x with large value found
+
+./portfolio-item/carpe-diem-settle/index.html:
+  - translate-x with large value found
+
+./portfolio-item/cunk-on-earth/index.html:
+  - translate-x with large value found
+
+./portfolio-item/last-woman-earth/index.html:
+  - translate-x with large value found
+
+./event-filming-greece/index.html:
+  - large fixed width found
+
+./event-filming-greece/index-before-mobile-fix.html:
+  - large fixed width found
+
+./event-filming-greece/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./santorini-film-production/index.html:
+  - large fixed width found
+
+./production-services/index.html:
+  - large fixed width found
+
+./film-production-services/index-before-mobile-fix.html:
+  - large fixed width found
+
+./portfolio/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./film-production-services/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./portfolio/index-before-mobile-fix.html:
+  - large fixed width found
+
+./portfolio/index.html:
+  - large fixed width found
+
+./post-production-services/index.html:
+  - large fixed width found
+
+./film-production-services/index.html:
+  - large fixed width found
+
+./portfolio-category/category-template.html:
+  - large fixed width found
+
+./commercial-video-production-greece/index.html:
+  - large fixed width found
+
+./about-us/index.html:
+  - large fixed width found
+
+./live-streaming-greece/index-before-mobile-fix.html:
+  - large fixed width found
+
+./commercial-video-production-greece/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./live-streaming-greece/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./commercial-video-production-greece/index-before-mobile-fix.html:
+  - large fixed width found
+
+./live-streaming-greece/index.html:
+  - large fixed width found
+
+./music-video-production-greece/index-before-mobile-fix.html:
+  - large fixed width found
+
+./music-video-production-greece/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./music-video-production-greece/index.html:
+  - large fixed width found
+
+./clients/index.html:
+  - large fixed width found
+
+./athens-filming/index.html:
+  - large fixed width found
+
+./pre-production-services/union-talent-management/index.html:
+  - large fixed width found
+
+./clients/index-before-mobile-fix.html:
+  - large fixed width found
+
+./pre-production-services/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/union-talent-management/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./clients/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./pre-production-services/index.html:
+  - large fixed width found
+
+./pre-production-services/covid-compliance/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/covid-compliance/index.html:
+  - large fixed width found
+
+./pre-production-services/union-talent-management/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/covid-compliance/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/location-management/index.html:
+  - large fixed width found
+
+./pre-production-services/pitch-deck-design/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/pitch-deck-design/index.html:
+  - large fixed width found
+
+./pre-production-services/production-budgeting/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/location-management/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/storyboarding/index.html:
+  - large fixed width found
+
+./pre-production-services/storyboarding/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/production-budgeting/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/location-management/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/pitch-deck-design/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/site-surveys/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/storyboarding/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/site-surveys/index.html:
+  - large fixed width found
+
+./pre-production-services/production-budgeting/index.html:
+  - large fixed width found
+
+./pre-production-services/production-scheduling/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/equipment-planning/index.html:
+  - large fixed width found
+
+./pre-production-services/site-surveys/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/production-scheduling/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/production-scheduling/index.html:
+  - large fixed width found
+
+./pre-production-services/talent-releases/index.html:
+  - large fixed width found
+
+./pre-production-services/equipment-planning/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/film-permit-acquisition/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/talent-releases/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/film-permit-acquisition/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/talent-releases/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/equipment-planning/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/scriptwriting/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/scriptwriting/index.html:
+  - large fixed width found
+
+./pre-production-services/film-permit-acquisition/index.html:
+  - large fixed width found
+
+./pre-production-services/licensing-rights/index.html:
+  - large fixed width found
+
+./pre-production-services/licensing-rights/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/licensing-rights/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/catering-services/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/catering-services/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/catering-services/index.html:
+  - large fixed width found
+
+./pre-production-services/crew-hiring/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/crew-hiring/index.html:
+  - large fixed width found
+
+./pre-production-services/crew-hiring/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/voiceover-casting/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/voiceover-casting/index.html:
+  - large fixed width found
+
+./pre-production-services/location-scouting-services/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/voiceover-casting/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/location-scouting-services/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/location-scouting-services/index.html:
+  - large fixed width found
+
+./pre-production-services/moodboard-creation/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/moodboard-creation/index.html:
+  - large fixed width found
+
+./pre-production-services/production-insurance/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/moodboard-creation/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/location-agreements/index.html:
+  - large fixed width found
+
+./pre-production-services/production-insurance/index.html:
+  - large fixed width found
+
+./pre-production-services/location-agreements/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/casting-services/index.html:
+  - large fixed width found
+
+./pre-production-services/casting-services/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/creative-direction/index.html:
+  - large fixed width found
+
+./pre-production-services/production-insurance/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/location-agreements/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/contract-management/index.html:
+  - large fixed width found
+
+./pre-production-services/creative-direction/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/creative-direction/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/contract-management/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/casting-services/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/script-consultation/index.html:
+  - large fixed width found
+
+./pre-production-services/contract-management/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/talent-coordination/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/script-consultation/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/fixer-services-local/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/talent-coordination/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/fixer-services-local/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/line-producing-services/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/line-producing-services/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/script-consultation/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/talent-coordination/index.html:
+  - large fixed width found
+
+./pre-production-services/line-producing-services/index.html:
+  - large fixed width found
+
+./pre-production-services/fixer-services-local/index.html:
+  - large fixed width found
+
+./pre-production-services/call-sheets/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/call-sheets/index.html:
+  - large fixed width found
+
+./pre-production-services/cost-estimation/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/cost-estimation/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/call-sheets/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/concept-development/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/concept-development/index.html:
+  - large fixed width found
+
+./pre-production-services/cost-estimation/index.html:
+  - large fixed width found
+
+./film-crew/index.html:
+  - large fixed width found
+
+./contact/index-before-mobile-fix.html:
+  - large fixed width found
+
+./pre-production-services/travel-logistics/index.html:
+  - large fixed width found
+
+./pre-production-services/travel-logistics/index-before-footer-fix.html:
+  - large fixed width found
+
+./pre-production-services/concept-development/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./pre-production-services/travel-logistics/index-before-dynamic-fix.html:
+  - large fixed width found
+
+./contact/index-backup-before-dynamic.html:
+  - width: 100vw found
+  - min-width with fixed pixels found
+  - large fixed width found
+
+./contact/index.html:
+  - large fixed width found
+
+./seo-optimizations.css:
+  - CSS overflow fixes added
+
+./src/input.css:
+  - CSS overflow fixes added
+
+./css/layout.css:
+  - CSS overflow fixes added
+
+./portfolio-spacing-fix.css:
+  - CSS overflow fixes added
+
+./mobile-menu.css:
+  - CSS overflow fixes added
+
+./css/base.css:
+  - CSS overflow fixes added
+
+./css/components.css:
+  - CSS overflow fixes added
+
+./dark-theme.css:
+  - CSS overflow fixes added
+
+./css/theme.css:
+  - CSS overflow fixes added

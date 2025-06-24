@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>NIKE: Dream Crazier - Greece Film Production | Fixers in Greece</title>
+    <meta name="description" content="Professional film production services for NIKE's Dream Crazier campaign featuring Elina Svitolina. Filmed in Athens by Fixers in Greece for Wieden+Kennedy and Conscious Minds.">
+    <meta name="keywords" content="NIKE commercial Greece, Dream Crazier campaign, Athens film production, sports commercial filming Greece">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="NIKE: Dream Crazier - Greece Film Production">
+    <meta property="og:description" content="Professional film production services for NIKE's Dream Crazier campaign featuring Elina Svitolina. Filmed in Athens by Fixers in Greece.">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://fixersingreece.com/portfolio-item/nike-dream-crazier/">
+    <meta property="og:image" content="/assets/images/portfolio/nike-dream-crazier-hero.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="NIKE: Dream Crazier - Greece Film Production">
+    <meta name="twitter:description" content="Professional film production services for NIKE's Dream Crazier campaign featuring Elina Svitolina.">
+    <meta name="twitter:image" content="/assets/images/portfolio/nike-dream-crazier-hero.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/portfolio-item/nike-dream-crazier/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        .portfolio-hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Schema.org markup for portfolio item -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "NIKE: Dream Crazier",
+        "description": "Professional film production services for NIKE's Dream Crazier campaign featuring Elina Svitolina, celebrating women athletes pushing boundaries.",
+        "creator": {
+            "@type": "Organization",
+            "name": "Fixers in Greece",
+            "url": "https://fixersingreece.com"
+        },
+        "contributor": [
+            {
+                "@type": "Organization",
+                "name": "NIKE",
+                "role": "Client"
+            },
+            {
+                "@type": "Organization",
+                "name": "Wieden+Kennedy",
+                "role": "Creative Agency"
+            },
+            {
+                "@type": "Organization",
+                "name": "Conscious Minds",
+                "role": "Production Company"
+            }
+        ],
+        "dateCreated": "2023",
+        "genre": "Commercial",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Athens, Greece"
+        }
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="portfolio-hero relative py-32 md:py-48" style="border: none; border-top: none; margin-top: 0; padding-top: 2rem;">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-4xl">
+                    <!-- Title -->
+                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8 pt-24">
+                        NIKE: Dream Crazier
+                    </h1>
+                    
+                    <!-- Subtitle -->
+                    <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12">
+                        Celebrating tennis star Elina Svitolina's determination and resilience, as she defies expectations and pushes boundaries in her return to professional sports after motherhood.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Section -->
+        <section class="py-16 bg-greece-dark border-y border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <!-- End Client -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">End Client</h3>
+                        <p class="text-xl font-bold text-greece-blue">NIKE</p>
+                    </div>
+                    
+                    <!-- Creative Agency -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Creative Agency</h3>
+                        <p class="text-xl font-bold text-white">Wieden+Kennedy</p>
+                    </div>
+                    
+                    <!-- Production -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Production</h3>
+                        <p class="text-xl font-bold text-white">Conscious Minds</p>
+                    </div>
+                    
+                    <!-- Film Services -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Film Services</h3>
+                        <p class="text-xl font-bold text-greece-blue">Fixers in Greece</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-5xl mx-auto">
+                    <!-- Video Embed -->
+                    <div class="video-container mb-12 rounded-lg overflow-hidden shadow-2xl">
+                        <iframe 
+                            src="https://player.vimeo.com/video/911561361?h=0&title=0&byline=0&portrait=0" 
+                            frameborder="0" 
+                            allow="autoplay; fullscreen; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    
+                    <!-- Video Description -->
+                    <div class="text-center">
+                        <p class="text-gray-400 italic">
+                            Watch the full commercial above. For high-resolution files and behind-the-scenes content, please <a href="/contact/" class="text-greece-blue hover:text-yellow-400 underline">contact us</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Overview -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-8">Project Overview</h2>
+                    
+                    <div class="prose prose-lg prose-invert max-w-none">
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Fixers in Greece provided comprehensive production services for NIKE's powerful "Dream Crazier" campaign, featuring Ukrainian tennis champion Elina Svitolina. This emotionally charged commercial was filmed across multiple locations in Athens, capturing both the athletic prowess and personal journey of a mother returning to professional sports.
+                        </p>
+                        
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Our team coordinated complex logistics including securing permits for iconic Athens locations, managing a crew of over 50 professionals, and ensuring seamless production despite challenging weather conditions. The project required specialized equipment for high-speed tennis action shots and intimate documentary-style moments.
+                        </p>
+                        
+                        <p class="text-gray-300 leading-relaxed">
+                            Working closely with Wieden+Kennedy's creative team and Conscious Minds production, we delivered a visually stunning commercial that resonates with audiences worldwide, showcasing Greece's versatile filming locations from modern sports facilities to atmospheric urban landscapes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Provided -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-8">Services Provided</h2>
+                    
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- Production Services -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-4 flex items-center">
+                                <span class="text-greece-blue mr-3">🎬</span>
+                                Production Services
+                            </h3>
+                            <ul class="space-y-2 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Location scouting & management
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Film permits & government liaison
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Local crew hiring (50+ professionals)
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Equipment rental coordination
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Transportation & logistics
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Technical Services -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-4 flex items-center">
+                                <span class="text-greece-blue mr-3">🎥</span>
+                                Technical Services
+                            </h3>
+                            <ul class="space-y-2 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    High-speed camera operation
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Drone cinematography
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Specialized sports filming equipment
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    On-set safety coordination
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Data management & backup
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Locations -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-8">Key Filming Locations</h2>
+                    
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-3">🏟️</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Olympic Tennis Centre</h3>
+                            <p class="text-gray-400 text-sm">Professional tennis courts with international standards for athletic performance shots.</p>
+                        </div>
+                        
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-3">🏛️</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Athens City Center</h3>
+                            <p class="text-gray-400 text-sm">Urban landscapes showcasing modern Greece alongside historic architecture.</p>
+                        </div>
+                        
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-3">🌅</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Coastal Training Facility</h3>
+                            <p class="text-gray-400 text-sm">Private beachfront location for intimate training and reflection scenes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-3xl mx-auto text-center">
+                    <div class="bg-gradient-to-r from-greece-blue to-yellow-500 p-1 rounded-lg">
+                        <div class="bg-greece-darker rounded-lg p-8 md:p-12">
+                            <div class="text-5xl text-greece-blue mb-6">"</div>
+                            <blockquote class="text-xl md:text-2xl text-gray-300 italic leading-relaxed mb-6">
+                                Fixers in Greece delivered exceptional production support for our NIKE campaign. Their local expertise, professional crew, and problem-solving abilities made filming in Athens seamless despite our ambitious schedule. They truly understood our creative vision and helped bring it to life.
+                            </blockquote>
+                            <cite class="text-lg text-white font-semibold">
+                                — Production Team, Conscious Minds
+                            </cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-gradient-to-r from-greece-blue to-yellow-500 rounded-lg p-8 md:p-12 text-center">
+                        <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">
+                            Ready to Create Your Next Campaign in Greece?
+                        </h2>
+                        <p class="text-xl text-black mb-8">
+                            From global brands to independent productions, we provide world-class film services throughout Greece.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="/contact/" 
+                               class="inline-block bg-black text-white px-8 py-4 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                                Start Your Project
+                            </a>
+                            <a href="/portfolio/" 
+                               class="inline-block bg-white text-black px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                View More Work
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation -->
+        <section class="py-8 border-t border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <!-- Previous -->
+                    <a href="/portfolio-item/capsis-elite-blue/" class="group flex items-center text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        <svg class="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        <span class="hidden sm:inline">Previous Project</span>
+                        <span class="sm:hidden">Previous</span>
+                    </a>
+                    
+                    <!-- Back to Portfolio -->
+                    <a href="/portfolio-category/commercials-branded/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        All Commercials
+                    </a>
+                    
+                    <!-- Next -->
+                    <a href="/portfolio-item/jet2holidays-greece/" class="group flex items-center text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        <span class="hidden sm:inline">Next Project</span>
+                        <span class="sm:hidden">Next</span>
+                        <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu functionality will be handled by component loader
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html><script src="/js/inline-components.js" defer></script>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

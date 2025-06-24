@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Voiceover Casting Services | Professional Voice Talent | NEEDaFIXER</title>
+    <meta name="description" content="Professional voiceover casting services. Expert voice talent for commercials, films, and digital content.">
+    <meta name="keywords" content="voiceover casting, pre-production services, film production, casting & talent">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Voiceover Casting Services | Professional Voice Talent | NEEDaFIXER">
+    <meta property="og:description" content="Professional voiceover casting services. Expert voice talent for commercials, films, and digital content.">
+    <meta property="og:url" content="/pre-production-services/voiceover-casting/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/voiceover-casting/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/32.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Voiceover Casting Services",
+        "description": "Professional voiceover casting services. Expert voice talent for commercials, films, and digital content.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Casting & Talent",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10 max-w-full">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Voiceover Casting Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Expert voice talent casting for commercials, films, and digital content.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Voiceover Casting Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Voiceover Casting Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert voiceover casting services connecting productions with exceptional voice talent. Professional audio casting with comprehensive talent databases and quality assurance.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Voice Talent Casting -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎤</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Voice Talent Casting</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Narrator casting</li>
+                            <li>• Character voices</li>
+                            <li>• Commercial voices</li>
+                            <li>• Documentary narration</li>
+                            <li>• Animation voices</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Voice Excellence</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Multi-Language Casting -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🌍</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Multi-Language Casting</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Native speakers</li>
+                            <li>• Accent specialists</li>
+                            <li>• Dialect coaching</li>
+                            <li>• Translation services</li>
+                            <li>• Cultural authenticity</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Global Voices</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Audio Production -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎧</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Audio Production</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Recording coordination</li>
+                            <li>• Studio booking</li>
+                            <li>• Audio direction</li>
+                            <li>• Quality control</li>
+                            <li>• Post-production</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Audio Quality</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Talent Management -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Talent Management</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Audition coordination</li>
+                            <li>• Contract management</li>
+                            <li>• Schedule coordination</li>
+                            <li>• Payment processing</li>
+                            <li>• Rights management</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Professional Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Voiceover Casting Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Voiceover Casting Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert voiceover specialists with comprehensive experience in voice talent casting, audio production, and vocal performance coordination ensuring exceptional voice talent selection and professional audio excellence.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Voice Talent Management</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Voice Talent Discovery & Casting</h4>
+                                <p class="text-gray-300">Comprehensive voice talent database including professional voice actors, narrators, and specialty performers. Audition coordination, voice matching, and character development. Multilingual capabilities, accent specialization, and cultural authenticity. Celebrity voice talent, union coordination, and professional representation ensuring perfect voice casting for all projects and requirements.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Audio Production & Direction</h4>
+                                <p class="text-gray-300">Professional audio production including recording coordination, studio management, and technical direction. Voice coaching, performance guidance, and creative direction. Audio engineering, sound design, and post-production coordination. Quality control, audio mastering, and delivery optimization ensuring exceptional audio quality and professional voice performance throughout production.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Project Management & Delivery</h4>
+                                <p class="text-gray-300">Complete project coordination including schedule management, talent coordination, and delivery optimization. Contract management, rights coordination, and usage licensing. Budget management, cost optimization, and financial coordination. Emergency services, rush delivery, and comprehensive project support ensuring seamless voiceover production and client satisfaction.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Voiceover Casting Performance</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">5,000+</div>
+                                    <div class="text-sm text-gray-300">Voice Talents Cast</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">96%</div>
+                                    <div class="text-sm text-gray-300">Client Satisfaction</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">48h</div>
+                                    <div class="text-sm text-gray-300">Casting Delivery</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">50+</div>
+                                    <div class="text-sm text-gray-300">Languages Available</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Voice talent discovery and casting</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Audio production and direction</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Project management and delivery</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Multilingual and specialty voice services</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Voiceover Casting Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Voiceover Casting</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎙️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Voice Expertise</h3>
+                                <p class="text-gray-300">Specialized voice casting professionals with extensive database of 5,000+ voice talents across all genres, languages, and specialty requirements.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⭐</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">High Satisfaction</h3>
+                                <p class="text-gray-300">96% client satisfaction with professional voice matching, exceptional audio quality, and comprehensive production support ensuring perfect voice casting.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Casting</h3>
+                                <p class="text-gray-300">48-hour casting delivery with emergency services, rush auditions, and expedited voice talent coordination for time-sensitive productions.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🌍</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Reach</h3>
+                                <p class="text-gray-300">50+ languages available with multilingual capabilities, cultural authenticity, and international voice talent coordination worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Voiceover Casting Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Voice Requirements</h3>
+                                <p class="text-gray-300">Comprehensive voice requirements analysis including character development, tone specification, and project coordination.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Talent Selection</h3>
+                                <p class="text-gray-300">Professional talent selection with database search, audition coordination, and voice matching ensuring perfect casting.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Production Coordination</h3>
+                                <p class="text-gray-300">Complete production coordination with recording management, audio direction, and quality control throughout recording process.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Delivery & Support</h3>
+                                <p class="text-gray-300">Professional delivery with audio mastering, format optimization, and ongoing support ensuring exceptional final results.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional voiceover casting services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive voice talent casting including database search, audition coordination, and voice matching. Professional audio production with recording coordination, studio management, and technical direction. Voice coaching, performance guidance, and creative direction. Contract management, rights coordination, and usage licensing. Complete project coordination with delivery optimization and ongoing support.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How extensive is your voice talent database and capabilities?</h3>
+                                <p class="text-gray-300">
+                                    5,000+ voice talents across all genres, languages, and specialty requirements with professional voice actors, narrators, and specialty performers. 50+ languages available with multilingual capabilities, accent specialization, and cultural authenticity. Celebrity voice talent, union coordination, and professional representation. Character voices, commercial narration, and documentary expertise with comprehensive voice casting capabilities.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide audio production and recording coordination?</h3>
+                                <p class="text-gray-300">
+                                    Complete audio production including recording coordination, studio management, and technical direction. Professional audio engineering, sound design, and post-production coordination. Voice coaching, performance guidance, and creative direction. Quality control, audio mastering, and delivery optimization. Remote recording capabilities, home studio coordination, and professional audio standards ensuring exceptional quality.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How quickly can you deliver voice casting and production?</h3>
+                                <p class="text-gray-300">
+                                    Standard voice casting delivery within 48-72 hours for most projects with comprehensive talent selection and audition coordination. Rush services available within 24-48 hours for urgent productions. Complex multi-character projects may require 3-5 days depending on scope and requirements. Emergency services available same-day for critical production needs with premium coordination and expedited delivery.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for voiceover casting services?</h3>
+                                <p class="text-gray-300">
+                                    Voiceover casting fees typically $300-2,000 depending on project scope and talent requirements. Basic casting $300-800, comprehensive production $800-2,000. Celebrity talent and complex multi-character projects may require additional coordination fees. Rush services and emergency casting available with premium pricing. Volume discounts for multiple projects and long-term voice talent relationships.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you handle international and multilingual voice casting?</h3>
+                                <p class="text-gray-300">
+                                    Complete international voice casting with 50+ languages available, cultural authenticity coordination, and native speaker expertise. Accent specialization, dialect coordination, and regional voice talent. International recording coordination, time zone management, and global talent coordination. Cultural consultation, localization expertise, and authentic voice representation ensuring perfect international voice casting and cultural accuracy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their voiceover casting expertise delivered the perfect voice for our international campaign. Exceptional talent selection, professional production, and flawless multilingual coordination.</p>
+                                <p class="text-greece-blue font-semibold">— Rachel Martinez, Creative Director</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding voice talent database and rapid casting delivery. When we needed emergency voiceover for our documentary, they delivered exceptional talent within hours.</p>
+                                <p class="text-greece-blue font-semibold">— James Wilson, Documentary Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional, creative, and incredibly thorough. Their audio production expertise and voice direction created the perfect sound for our animated series.</p>
+                                <p class="text-greece-blue font-semibold">— Maria Santos, Animation Producer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center max-w-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Find the Perfect Voice?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional voiceover casting that ensures exceptional voice talent selection, audio production excellence, and comprehensive support through expert casting, professional direction, and seamless delivery.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Cast Voice Talent
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        Hear Voice Portfolio
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/voiceover-casting/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

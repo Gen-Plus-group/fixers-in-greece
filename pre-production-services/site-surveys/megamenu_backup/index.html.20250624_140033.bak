@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Site Surveys & Tech Scouting | Location Assessment | NEEDaFIXER</title>
+    <meta name="description" content="Professional site surveys and tech scouting services. Comprehensive location assessment for productions.">
+    <meta name="keywords" content="site surveys, pre-production services, film production, location & permits">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Site Surveys & Tech Scouting | Location Assessment | NEEDaFIXER">
+    <meta property="og:description" content="Professional site surveys and tech scouting services. Comprehensive location assessment for productions.">
+    <meta property="og:url" content="/pre-production-services/site-surveys/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/site-surveys/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/35.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Site Surveys & Tech Scouting",
+        "description": "Professional site surveys and tech scouting services. Comprehensive location assessment for productions.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Location & Permits",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10 max-w-full">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Site Surveys & Tech Scouting
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Comprehensive technical assessment and surveying of filming locations.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Site Surveys Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Site Surveys Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert site survey services providing detailed technical assessments and production planning data. Comprehensive location analysis ensuring informed decision-making and efficient production workflows.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Technical Measurements -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📏</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Technical Measurements</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Dimensional surveys</li>
+                            <li>• Space planning</li>
+                            <li>• Equipment placement</li>
+                            <li>• Access measurements</li>
+                            <li>• Capacity assessments</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Precise Measurements</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Infrastructure Assessment -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">⚡</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Infrastructure Assessment</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Power availability</li>
+                            <li>• Network connectivity</li>
+                            <li>• Utilities mapping</li>
+                            <li>• Safety systems</li>
+                            <li>• Emergency access</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Infrastructure Analysis</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Environmental Analysis -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📊</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Environmental Analysis</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Lighting conditions</li>
+                            <li>• Acoustic properties</li>
+                            <li>• Weather patterns</li>
+                            <li>• Traffic analysis</li>
+                            <li>• Noise levels</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Environmental Data</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Documentation -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Documentation</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Survey reports</li>
+                            <li>• Technical drawings</li>
+                            <li>• Photo documentation</li>
+                            <li>• Recommendation reports</li>
+                            <li>• Risk assessments</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Comprehensive Reports</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Site Surveys Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Site Surveys Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert location specialists with comprehensive experience in site surveys, technical assessments, and location analysis ensuring optimal location selection and production planning through detailed evaluation and documentation.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Site Assessment</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Technical & Infrastructure Analysis</h4>
+                                <p class="text-gray-300">Comprehensive technical assessment including power supply evaluation, water access, and infrastructure capabilities. Equipment access analysis, load-bearing capacity, and structural integrity evaluation. Network connectivity, communication systems, and technology infrastructure assessment. Environmental conditions, weather patterns, and seasonal considerations with detailed technical documentation.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Safety & Risk Assessment</h4>
+                                <p class="text-gray-300">Professional safety evaluation including hazard identification, risk assessment, and safety protocol development. Emergency access, evacuation routes, and medical facility proximity analysis. Security assessment, crime statistics, and safety infrastructure evaluation. Environmental hazards, natural disaster risks, and weather-related safety considerations with comprehensive risk mitigation strategies.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Documentation & Reporting</h4>
+                                <p class="text-gray-300">Detailed site documentation including high-resolution photography, video walkthroughs, and 360-degree captures. Comprehensive reports with technical specifications, measurements, and layout diagrams. Permit requirements, legal restrictions, and regulatory compliance documentation. Cost analysis, logistics planning, and production recommendations with actionable insights and strategic guidance.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Site Surveys Performance</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">3,500+</div>
+                                    <div class="text-sm text-gray-300">Sites Surveyed</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">48h</div>
+                                    <div class="text-sm text-gray-300">Report Delivery</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">95%</div>
+                                    <div class="text-sm text-gray-300">Location Approval Rate</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100%</div>
+                                    <div class="text-sm text-gray-300">Safety Compliance</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Technical and infrastructure analysis</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Safety and risk assessment protocols</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Comprehensive documentation and reporting</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Strategic recommendations and planning</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Site Surveys Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Site Surveys</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🔍</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Expert Analysis</h3>
+                                <p class="text-gray-300">Professional location specialists with extensive experience in site surveys, technical assessments, and location analysis across diverse environments and production types.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Delivery</h3>
+                                <p class="text-gray-300">48-hour report delivery with comprehensive documentation, technical specifications, and actionable recommendations for immediate decision-making.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">📊</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Detailed Documentation</h3>
+                                <p class="text-gray-300">Comprehensive site documentation with high-resolution photography, video walkthroughs, technical specifications, and detailed analysis reports.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🛡️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Safety Focus</h3>
+                                <p class="text-gray-300">100% safety compliance with comprehensive risk assessment, hazard identification, and safety protocol development ensuring secure production environments.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Site Surveys Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Initial Assessment</h3>
+                                <p class="text-gray-300">Comprehensive site evaluation including location analysis, accessibility assessment, and initial feasibility determination.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Technical Survey</h3>
+                                <p class="text-gray-300">Detailed technical analysis including infrastructure evaluation, safety assessment, and documentation with professional equipment.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Documentation</h3>
+                                <p class="text-gray-300">Comprehensive documentation with photography, measurements, technical specifications, and detailed analysis reports.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Recommendations</h3>
+                                <p class="text-gray-300">Strategic recommendations with cost analysis, logistics planning, and production guidance for optimal location utilization.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional site survey services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive site assessment including technical infrastructure analysis, power supply evaluation, and equipment access assessment. Safety evaluation with hazard identification, risk assessment, and emergency access analysis. Detailed documentation with high-resolution photography, video walkthroughs, and technical specifications. Permit requirements, legal restrictions, and regulatory compliance documentation with strategic recommendations and cost analysis.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How quickly can you deliver site survey reports?</h3>
+                                <p class="text-gray-300">
+                                    Standard site survey reports delivered within 48-72 hours for most locations. Rush services available within 24-48 hours for urgent productions. Complex multi-location surveys may require 3-5 days depending on scope and accessibility. Emergency assessments available same-day for critical decisions. Comprehensive documentation with actionable recommendations and immediate consultation available upon delivery.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you conduct safety and risk assessments for all locations?</h3>
+                                <p class="text-gray-300">
+                                    100% safety compliance with comprehensive risk assessment, hazard identification, and safety protocol development. Emergency access evaluation, evacuation routes, and medical facility proximity analysis. Security assessment, crime statistics, and safety infrastructure evaluation. Environmental hazards, natural disaster risks, and weather-related safety considerations with detailed mitigation strategies and emergency planning.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What technical documentation do you provide?</h3>
+                                <p class="text-gray-300">
+                                    Detailed technical documentation including high-resolution photography, video walkthroughs, and 360-degree captures. Comprehensive reports with technical specifications, measurements, and layout diagrams. Infrastructure analysis, power requirements, and equipment access documentation. Network connectivity, communication systems, and technology infrastructure assessment with detailed technical drawings and specifications.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for site survey services?</h3>
+                                <p class="text-gray-300">
+                                    Site survey fees typically $300-1,500 per location depending on complexity and documentation requirements. Basic surveys $300-800, comprehensive assessments $800-1,500. Multi-location surveys and remote locations require additional travel and coordination fees. Rush services and same-day assessments available with premium pricing. Volume discounts for multiple locations and long-term projects.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide ongoing consultation and location support?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive ongoing support including location consultation, production planning assistance, and technical guidance. Follow-up assessments, seasonal evaluations, and updated documentation as needed. Strategic recommendations for location optimization, cost reduction, and efficiency improvements. Emergency consultation, problem-solving support, and expert guidance throughout production planning and execution phases.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their detailed site surveys saved us weeks of planning time. The comprehensive documentation and technical analysis helped us avoid costly mistakes and optimize our location choices.</p>
+                                <p class="text-greece-blue font-semibold">— Michael Chen, Location Manager</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding technical expertise and rapid delivery. When we needed emergency site assessments for backup locations, they delivered comprehensive reports within 24 hours.</p>
+                                <p class="text-greece-blue font-semibold">— Sarah Rodriguez, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional, thorough, and incredibly detailed. Their safety assessments and risk analysis gave us complete confidence in our location decisions and production planning.</p>
+                                <p class="text-greece-blue font-semibold">— David Kim, Safety Coordinator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center max-w-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Optimize Your Location Selection?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional site surveys that ensure optimal location selection, comprehensive safety assessment, and detailed technical analysis through expert evaluation, documentation, and strategic recommendations.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Schedule Site Survey
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Survey Solutions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/site-surveys/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>ipt>
+
+</body>
+</html>

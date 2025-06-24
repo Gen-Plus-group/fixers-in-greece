@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Contract Management Services | Legal Documentation | NEEDaFIXER</title>
+    <meta name="description" content="Professional contract management services. Expert handling of legal documentation.">
+    <meta name="keywords" content="contract management, pre-production services, film production Greece, legal & administrative">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contract Management Services | Legal Documentation | NEEDaFIXER">
+    <meta property="og:description" content="Professional contract management services. Expert handling of legal documentation.">
+    <meta property="og:url" content="/pre-production-services/contract-management/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/contract-management/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/36.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Contract Management Services",
+        "description": "Professional contract management services. Expert handling of legal documentation.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Legal & Administrative",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Contract Management Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Expert management of contracts and legal documentation for productions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Contract Management Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Contract Management Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert contract management services ensuring comprehensive legal protection and compliance. Professional coordination of all production agreements with focus on risk mitigation and legal security.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Contract Drafting -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📄</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Contract Drafting</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Agreement preparation</li>
+                            <li>• Terms negotiation</li>
+                            <li>• Legal compliance</li>
+                            <li>• Risk mitigation</li>
+                            <li>• Clause optimization</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Legal Drafting</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Negotiation Support -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🤝</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Negotiation Support</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Contract negotiations</li>
+                            <li>• Terms optimization</li>
+                            <li>• Dispute resolution</li>
+                            <li>• Amendment management</li>
+                            <li>• Renewal coordination</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Negotiation Excellence</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Compliance Management -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Compliance Management</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Legal compliance</li>
+                            <li>• Regulatory adherence</li>
+                            <li>• Documentation control</li>
+                            <li>• Audit preparation</li>
+                            <li>• Risk assessment</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Compliance Assurance</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Contract Security -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🔒</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Contract Security</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Document security</li>
+                            <li>• Version control</li>
+                            <li>• Access management</li>
+                            <li>• Confidentiality protection</li>
+                            <li>• Digital signatures</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Secure Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Contract Management Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Contract Management Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert legal professionals with comprehensive experience in entertainment law, contract negotiation, and production agreements ensuring complete legal protection and compliance throughout all project phases.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Legal Documentation</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Contract Development & Negotiation</h4>
+                                <p class="text-gray-300">Comprehensive contract drafting including production agreements, talent contracts, and vendor agreements. Expert negotiation services, terms optimization, and risk mitigation strategies. International contract compliance, multi-territory agreements, and cross-border legal coordination. Specialized entertainment law expertise with industry-standard contract templates and customization.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Legal Compliance & Documentation</h4>
+                                <p class="text-gray-300">Complete legal documentation management including permits, licenses, and regulatory compliance. Intellectual property protection, copyright management, and trademark coordination. Privacy agreements, confidentiality contracts, and data protection compliance. Legal research, regulatory analysis, and compliance monitoring throughout production lifecycle.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Digital Contract Management</h4>
+                                <p class="text-gray-300">Advanced contract management systems with digital signatures, version control, and secure document storage. Automated contract tracking, deadline monitoring, and renewal notifications. Cloud-based access, mobile compatibility, and real-time collaboration tools. Contract analytics, performance monitoring, and compliance reporting for comprehensive oversight.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Contract Management Statistics</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">1,500+</div>
+                                    <div class="text-sm text-gray-300">Contracts Managed</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100%</div>
+                                    <div class="text-sm text-gray-300">Legal Compliance</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">48h</div>
+                                    <div class="text-sm text-gray-300">Contract Turnaround</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24/7</div>
+                                    <div class="text-sm text-gray-300">Legal Support</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Contract development and expert negotiation</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Legal compliance and documentation management</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Digital contract systems and secure storage</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>24/7 legal support and emergency assistance</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contract Management Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Contract Management</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚖️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Legal Expertise</h3>
+                                <p class="text-gray-300">Specialized entertainment law professionals with extensive experience in production contracts, talent agreements, and international legal compliance.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🔒</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Secure Systems</h3>
+                                <p class="text-gray-300">Advanced digital contract management with encrypted storage, secure access controls, and comprehensive audit trails for complete confidentiality.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🌍</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">International Compliance</h3>
+                                <p class="text-gray-300">Multi-territory legal expertise with knowledge of international production laws, cross-border agreements, and regulatory compliance worldwide.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Response</h3>
+                                <p class="text-gray-300">48-hour contract turnaround with emergency legal support, urgent negotiation services, and 24/7 availability for critical situations.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Contract Management Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Legal Assessment</h3>
+                                <p class="text-gray-300">Comprehensive legal requirements analysis including contract needs, compliance requirements, and risk assessment for optimal protection.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Contract Development</h3>
+                                <p class="text-gray-300">Professional contract drafting with industry-standard templates, customization, and expert legal review for comprehensive coverage.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Negotiation & Execution</h3>
+                                <p class="text-gray-300">Expert negotiation services with terms optimization, digital signature coordination, and secure contract execution and storage.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Ongoing Management</h3>
+                                <p class="text-gray-300">Continuous contract monitoring, compliance tracking, and legal support with deadline management and renewal coordination.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What types of contracts do you manage for productions?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive contract management including production agreements, talent contracts, crew agreements, and vendor contracts. Location agreements, equipment rental contracts, and service provider agreements. Distribution contracts, licensing agreements, and international co-production contracts. Confidentiality agreements, non-disclosure contracts, and intellectual property agreements. Specialized entertainment law contracts with industry-standard terms and customization.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How quickly can you draft and negotiate contracts?</h3>
+                                <p class="text-gray-300">
+                                    Standard contract drafting within 24-48 hours for most production requirements. Emergency contract services available within 12-24 hours for urgent negotiations. Complex international contracts may require 3-5 days for comprehensive legal review. Rush services with premium pricing for same-day contract development. Expert negotiation services with rapid turnaround and flexible scheduling.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you handle international contracts and multi-territory agreements?</h3>
+                                <p class="text-gray-300">
+                                    Complete international contract management including multi-territory production agreements, cross-border talent contracts, and international distribution agreements. Local law compliance, regulatory requirements, and cultural considerations. Currency provisions, tax implications, and international dispute resolution. Co-production treaties, government incentive contracts, and international financing agreements with expert legal coordination.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What digital contract management systems do you use?</h3>
+                                <p class="text-gray-300">
+                                    Advanced digital contract platforms with encrypted storage, secure access controls, and comprehensive audit trails. Digital signature integration, version control, and automated workflow management. Cloud-based access with mobile compatibility and real-time collaboration tools. Contract analytics, deadline tracking, and automated renewal notifications. Compliance monitoring and performance reporting for complete oversight.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for contract management services?</h3>
+                                <p class="text-gray-300">
+                                    Contract management fees typically $500-2,000 per contract depending on complexity and negotiation requirements. Flat rates for standard production contracts, hourly rates for complex negotiations. Package deals for comprehensive contract suites including all production agreements. Volume discounts for large productions and ongoing partnerships. Transparent pricing with detailed legal service breakdowns and no hidden fees.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide ongoing legal support and contract monitoring?</h3>
+                                <p class="text-gray-300">
+                                    24/7 legal support including contract monitoring, compliance tracking, and deadline management. Ongoing contract administration, amendment coordination, and renewal services. Legal consultation, dispute resolution support, and emergency legal assistance. Contract performance monitoring, compliance audits, and legal risk assessment. Dedicated legal coordinator and emergency contact system for immediate support.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their contract expertise saved us from major legal issues. Complex international agreements were handled flawlessly with expert negotiation that protected our interests completely.</p>
+                                <p class="text-greece-blue font-semibold">— Robert Chen, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding legal support and contract management. Their digital systems and rapid response capabilities kept our production moving smoothly through complex negotiations.</p>
+                                <p class="text-greece-blue font-semibold">— Maria Santos, Legal Affairs Director</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional contract negotiation and management that exceeded expectations. Their expertise in entertainment law and international agreements was invaluable.</p>
+                                <p class="text-greece-blue font-semibold">— David Kim, Production Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Secure Your Legal Protection?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional contract management that ensures complete legal protection, expert negotiation, and comprehensive compliance through specialized entertainment law expertise and secure digital systems.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Secure Your Contracts
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Legal Solutions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/contract-management/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>

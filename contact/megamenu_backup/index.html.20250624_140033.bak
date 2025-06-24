@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Contact Fixers in Greece | film production Greece Quote Athens</title>
+    <meta name="description" content="Get your Greece film production Greece quote today! Athens-based fixers for equipment, crew, permits & locations. 24/7 support. BBC, CNN trusted. Call +30 211 1983 725">
+    <meta name="keywords" content="contact fixers Greece, Greece film production contact, get quote Greece filming, production services contact Greece">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/contact/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- International Phone Input CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
+
+    <!-- Flatpickr CSS for Date Pickers -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- ContactPoint + LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": ["LocalBusiness", "ProfessionalService", "Organization"],
+                "@id": "https://fixersingreece.com/#organization",
+                "name": "Fixers in Greece",
+                "alternateName": ["Need a Fixer Greece", "Greece Film Fixers", "Athens Film Production"],
+                "url": "https://fixersingreece.com/",
+                "description": "Professional film production services in Greece. Contact us for permits, crew, equipment, and locations across Athens, Thessaloniki, and all of Greece.",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "Professional filming services throughout Greece",
+                    "addressLocality": "Athens",
+                    "addressRegion": "Attica",
+                    "postalCode": "10431",
+                    "addressCountry": "GR"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": "37.9755",
+                    "longitude": "23.7348"
+                },
+                "contactPoint": [
+                    {
+                        "@type": "ContactPoint",
+                        "telephone": "+30 211 1983 725",
+                        "email": "greece@needafixer.com",
+                        "contactType": "customer service",
+                        "availableLanguage": ["English", "Greek"],
+                        "hoursAvailable": {
+                            "@type": "OpeningHoursSpecification",
+                            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                            "opens": "00:00",
+                            "closes": "23:59"
+                        },
+                        "areaServed": "Greece"
+                    },
+                    {
+                        "@type": "ContactPoint",
+                        "email": "greece@needafixer.com",
+                        "contactType": "sales",
+                        "availableLanguage": ["English", "Greek"],
+                        "areaServed": "Greece"
+                    },
+                    {
+                        "@type": "ContactPoint",
+                        "telephone": "+30 211 1983 725",
+                        "contactType": "technical support",
+                        "availableLanguage": ["English", "Greek"],
+                        "areaServed": "Greece"
+                    }
+                ],
+                "priceRange": "€500-€10000",
+                "currenciesAccepted": ["EUR", "USD"],
+                "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
+                "serviceArea": [
+                    {
+                        "@type": "Country",
+                        "name": "Greece"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Athens"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Thessaloniki"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Santorini"
+                    },
+                    {
+                        "@type": "City",
+                        "name": "Mykonos"
+                    }
+                ],
+                "aggregateRating": {
+                    "@type": "AggregateRating",
+                    "ratingValue": "4.9",
+                    "reviewCount": "50",
+                    "bestRating": "5",
+                    "worstRating": "1"
+                }
+            }
+        ]
+    }
+    </script>
+
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://fixersingreece.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Contact",
+                "item": "https://fixersingreece.com/contact/"
+            }
+        ]
+    }
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .contact-hero-bg {
+            background-image: url('/assets/images/2015/10/Greece-services.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="contact-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center max-w-full">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-4">
+                    Contact Greece Film Fixers for Production Quote
+                </h1>
+                <p class="text-xl text-gray-200 max-w-2xl mx-auto">
+                    Ready to start your Greece production? Get in touch for a personalized quote
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Content -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-6xl mx-auto">
+                    
+                    <!-- Contact Methods -->
+                    <div class="grid md:grid-cols-3 gap-8 mb-16">
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">📞</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">Athens Office Phone</h3>
+                            <p class="text-gray-300 mb-4">
+                                Call us directly for immediate assistance and urgent production needs.
+                            </p>
+                            <a href="tel:+442085492259" class="text-greece-blue hover:text-yellow-400 text-lg font-semibold">
+                                +30 211 1983 725
+                            </a>
+                        </div>
+                        
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">✉️</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">Greece Production Email</h3>
+                            <p class="text-gray-300 mb-4">
+                                Send us detailed project requirements and we'll respond within 24 hours.
+                            </p>
+                            <a href="mailto:info@needafixer.com" class="text-greece-blue hover:text-yellow-400 text-lg font-semibold">
+                                info@needafixer.com
+                            </a>
+                        </div>
+                        
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">⏰</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">Response Time</h3>
+                            <p class="text-gray-300 mb-4">
+                                All enquiries answered within 24 hours. Emergency support available 24/7.
+                            </p>
+                            <span class="text-greece-blue text-lg font-semibold">
+                                24 Hour Response
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form and Info -->
+                    <div class="grid lg:grid-cols-2 gap-12">
+                        <!-- Contact Form -->
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8">
+                            <h2 class="text-2xl font-bold text-greece-blue mb-6">Greece film production Greece Quote Request</h2>
+                            <form class="space-y-6" action="https://formspree.io/f/xkgbqrdp" method="POST" id="contact-form" name="contact">
+                                <!-- Formspree Configuration -->
+                                <input type="hidden" name="_to" value="greece@needafixer.com">
+                                <input type="hidden" name="_subject" value="New Production Enquiry - Fixers in Greece">
+                                <input type="hidden" name="_cc" value="info@needafixer.com">
+                                <input type="hidden" name="_next" value="/form-success.html">
+                                <input type="hidden" name="_format" value="html">
+
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="first-name" class="block text-sm font-medium text-gray-300 mb-2">First Name *</label>
+                                        <input type="text" id="first-name" name="first-name" required minlength="2" maxlength="50"
+                                               class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200"
+                                               placeholder="Enter your first name">
+                                        <div class="error-message text-red-400 text-sm mt-1 hidden" id="first-name-error"></div>
+                                    </div>
+                                    <div>
+                                        <label for="last-name" class="block text-sm font-medium text-gray-300 mb-2">Last Name *</label>
+                                        <input type="text" id="last-name" name="last-name" required minlength="2" maxlength="50"
+                                               class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200"
+                                               placeholder="Enter your last name">
+                                        <div class="error-message text-red-400 text-sm mt-1 hidden" id="last-name-error"></div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <label for="email" class="block text-sm font-medium text-gray-300 mb-2">Email Address *</label>
+                                    <input type="email" id="email" name="email" required
+                                           class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200"
+                                           placeholder="your.email@company.com"
+                                           pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                                    <div class="error-message text-red-400 text-sm mt-1 hidden" id="email-error"></div>
+                                </div>
+                                
+                                <div>
+                                    <label for="company" class="block text-sm font-medium text-gray-300 mb-2">Company/Organization</label>
+                                    <input type="text" id="company" name="company" maxlength="100"
+                                           class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200"
+                                           placeholder="Your company or organization">
+                                    <div class="error-message text-red-400 text-sm mt-1 hidden" id="company-error"></div>
+                                </div>
+
+                                <div>
+                                    <label for="phone" class="block text-sm font-medium text-gray-300 mb-2">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone"
+                                           class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200"
+                                           placeholder="Enter your phone number">
+                                    <div class="error-message text-red-400 text-sm mt-1 hidden" id="phone-error"></div>
+                                    <input type="hidden" id="phone-full" name="phone-full">
+                                </div>
+                                
+                                <div>
+                                    <label for="project-type" class="block text-sm font-medium text-gray-300 mb-2">Project Type *</label>
+                                    <select id="project-type" name="project-type" required
+                                            class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200">
+                                        <option value="">Select Project Type</option>
+                                        <option value="documentary">Documentary</option>
+                                        <option value="commercial">commercial production Greece</option>
+                                        <option value="news">News/Current Affairs</option>
+                                        <option value="corporate">Corporate Video</option>
+                                        <option value="music-video">Music Video</option>
+                                        <option value="event">Event Filming</option>
+                                        <option value="live-streaming">Live Streaming</option>
+                                        <option value="feature">Feature Film</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <div class="error-message text-red-400 text-sm mt-1 hidden" id="project-type-error"></div>
+                                </div>
+                                
+                                <div>
+                                    <label for="services" class="block text-sm font-medium text-gray-300 mb-2">Services Needed</label>
+                                    <div class="grid md:grid-cols-2 gap-2">
+                                        <!-- Core production services Greece -->
+                                        <div class="space-y-2">
+                                            <h4 class="text-sm font-semibold text-greece-blue mb-2">Core Production</h4>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="location-scouting" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">location scouting Greece</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="equipment-rental" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Equipment Rental</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="permits" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">film permits Greece</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="crew" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Local Crew</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="drone-filming" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Drone Filming</span>
+                                            </label>
+                                        </div>
+                                        
+                                        <!-- Media production services Greece -->
+                                        <div class="space-y-2">
+                                            <h4 class="text-sm font-semibold text-greece-blue mb-2">Media Production</h4>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="documentary" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Documentary Services</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="commercial-production" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">commercial production Greece</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="corporate-video" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Corporate Video</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="music-video" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Music video production Greece</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="event-filming" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Event Filming</span>
+                                            </label>
+                                        </div>
+                                        
+                                        <!-- Specialized Services -->
+                                        <div class="space-y-2">
+                                            <h4 class="text-sm font-semibold text-greece-blue mb-2">Specialized Services</h4>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="live-streaming" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Live Streaming</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="news-filming" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">News & Current Affairs</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="post-production" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Post-Production</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="translation" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Translation Services</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="casting" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Casting Services</span>
+                                            </label>
+                                        </div>
+                                        
+                                        <!-- Support Services -->
+                                        <div class="space-y-2">
+                                            <h4 class="text-sm font-semibold text-greece-blue mb-2">Support Services</h4>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="equipment-transport" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Equipment Transport</span>
+                                            </label>
+                                            <label class="flex items-center">
+                                                <input type="checkbox" name="services[]" value="full-production" class="mr-2 text-greece-blue">
+                                                <span class="text-gray-300 text-sm">Full Production Support</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Date Range Picker -->
+                                <div class="grid md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label for="shoot-start-date" class="block text-sm font-medium text-gray-300 mb-2">Shoot Start Date</label>
+                                        <input type="text" id="shoot-start-date" name="shoot-start-date"
+                                               class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200"
+                                               placeholder="Select start date"
+                                               readonly>
+                                        <div class="error-message text-red-400 text-sm mt-1 hidden" id="shoot-start-date-error"></div>
+                                    </div>
+                                    <div>
+                                        <label for="shoot-end-date" class="block text-sm font-medium text-gray-300 mb-2">Shoot End Date</label>
+                                        <input type="text" id="shoot-end-date" name="shoot-end-date"
+                                               class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200"
+                                               placeholder="Select end date"
+                                               readonly>
+                                        <div class="error-message text-red-400 text-sm mt-1 hidden" id="shoot-end-date-error"></div>
+                                    </div>
+                                </div>
+                                
+                                <div>
+                                    <label for="budget" class="block text-sm font-medium text-gray-300 mb-2">Estimated Budget Range</label>
+                                    <select id="budget" name="budget"
+                                            class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200">
+                                        <option value="">Select Budget Range</option>
+                                        <option value="under-10k">Under $10,000</option>
+                                        <option value="10k-25k">$10,000 - $25,000</option>
+                                        <option value="25k-50k">$25,000 - $50,000</option>
+                                        <option value="50k-100k">$50,000 - $100,000</option>
+                                        <option value="over-100k">Over $100,000</option>
+                                        <option value="discuss">Prefer to Discuss</option>
+                                    </select>
+                                    <div class="error-message text-red-400 text-sm mt-1 hidden" id="budget-error"></div>
+                                </div>
+
+                                <div>
+                                    <label for="message" class="block text-sm font-medium text-gray-300 mb-2">Project Details *</label>
+                                    <textarea id="message" name="message" rows="4" required minlength="20" maxlength="2000"
+                                              placeholder="Please describe your project, specific requirements, and any questions you have..."
+                                              class="w-full px-3 py-2 bg-greece-darker border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none resize-y transition-colors duration-200"></textarea>
+                                    <div class="error-message text-red-400 text-sm mt-1 hidden" id="message-error"></div>
+                                    <div class="text-gray-400 text-xs mt-1">
+                                        <span id="message-count">0</span>/2000 characters (minimum 20 required)
+                                    </div>
+                                </div>
+                                
+                                <button type="submit"
+                                        class="w-full bg-greece-blue text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                                    Send Message
+                                </button>
+
+                                <!-- Fallback Email Link -->
+                                <div class="text-center mt-4">
+                                    <p class="text-gray-400 text-sm mb-2">Having trouble with the form?</p>
+                                    <a href="mailto:greece@needafixer.com?subject=Production Enquiry&body=Please include:%0A%0A- Your name and company%0A- Project type (documentary, commercial, etc.)%0A- Services needed%0A- Planned shoot dates%0A- Budget range%0A- Project description%0A%0AThank you!"
+                                       class="text-greece-blue hover:text-yellow-400 underline text-sm">
+                                        Send email directly to greece@needafixer.com
+                                    </a>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Contact Information -->
+                        <div class="space-y-8">
+                            <!-- Office Information -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-8">
+                                <h3 class="text-xl font-bold text-greece-blue mb-6">Greece film production Greece Office</h3>
+                                <div class="space-y-4">
+                                    <div class="flex items-start space-x-3">
+                                        <span class="text-greece-blue text-xl">🏢</span>
+                                        <div>
+                                            <p class="font-semibold text-white">Fixers in Greece</p>
+                                            <p class="text-gray-300">Professional film production Greece Services</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex items-start space-x-3">
+                                        <span class="text-greece-blue text-xl">📍</span>
+                                        <div>
+                                            <p class="font-semibold text-white">Coverage Area</p>
+                                            <p class="text-gray-300">Nationwide Greece Coverage</p>
+                                            <p class="text-gray-300">Thessaloniki, Athens, Da Nang & All Provinces</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="flex items-start space-x-3">
+                                        <span class="text-greece-blue text-xl">🌐</span>
+                                        <div>
+                                            <p class="font-semibold text-white">International Network</p>
+                                            <p class="text-gray-300">Part of NEEDaFIXER Global Network</p>
+                                            <a href="http://needafixer.com/" class="text-greece-blue hover:text-yellow-400">www.needafixer.com</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Why Choose Us -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-8">
+                                <h3 class="text-xl font-bold text-greece-blue mb-6">Why Choose Greece Film Fixers</h3>
+                                <ul class="space-y-3">
+                                    <li class="flex items-start space-x-3">
+                                        <span class="text-greece-blue">✓</span>
+                                        <span class="text-gray-300">13+ years of experience in Greece</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <span class="text-greece-blue">✓</span>
+                                        <span class="text-gray-300">Trusted by BBC, CNN, Reuters</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <span class="text-greece-blue">✓</span>
+                                        <span class="text-gray-300">Government relations & permits</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <span class="text-greece-blue">✓</span>
+                                        <span class="text-gray-300">24/7 production support</span>
+                                    </li>
+                                    <li class="flex items-start space-x-3">
+                                        <span class="text-greece-blue">✓</span>
+                                        <span class="text-gray-300">Competitive rates & full insurance</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Emergency Contact -->
+                            <div class="bg-red-900 border border-red-600 rounded-lg p-8">
+                                <h3 class="text-xl font-bold text-white mb-4">🚨 Emergency Support</h3>
+                                <p class="text-red-100 mb-4">
+                                    For urgent production needs or breaking news coverage, contact us immediately:
+                                </p>
+                                <a href="tel:+302111983725" class="inline-block bg-white text-red-900 px-6 py-3 rounded-md font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                    Emergency: +30 211 1983 725
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- NEEDaFIXER Network -->
+                    <div class="mt-16 text-center">
+                        <p class="text-gray-400 mb-4">
+                            Fixers in Greece is part of the NEEDaFIXER network. NEEDaFIXER is one of the biggest international fixing productions in the world.
+                        </p>
+                        <p class="text-gray-400">
+                            If you require any filming services around the world, please contact 
+                            <a href="mailto:info@needafixer.com" class="text-greece-blue hover:text-yellow-400 underline">info@needafixer.com</a> 
+                            or visit 
+                            <a href="http://needafixer.com/" class="text-greece-blue hover:text-yellow-400 underline">www.needafixer.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Call-to-Action -->
+    <section class="bg-gray-800 border-t border-gray-700 py-8">
+        <div class="container mx-auto px-4 max-w-full">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:flex-grow text-center md:text-left">
+                    <p class="text-xl text-gray-300 mb-4 md:mb-0">
+                        Ready to shoot? We'd love to help and are just a click away! All enquiries will be answered within 24 hours!
+                    </p>
+                </div>
+                <div class="text-center md:text-right">
+                    <a href="tel:+442085492259"
+                       class="inline-block bg-greece-white text-white px-8 py-3 rounded-md font-semibold hover:bg-red-600 transition-colors duration-200">
+                        Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+            <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- External JavaScript Libraries -->
+    <!-- International Phone Input -->
+    <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/intlTelInput.min.js"></script>
+
+    <!-- Flatpickr Date Picker -->
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+    <!-- JavaScript -->
+    <script>
+        / Global variables for form components
+        let phoneInput;
+        let startDatePicker;
+        let endDatePicker;
+
+        / Mobile menu functionality
+                / Mobile menu main toggle
+        / Mobile menu handled by component loader
+
+        / Mobile dropdown functionality
+        / Mobile dropdown functionality handled by component loader);
+            
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+            
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Initialize mobile dropdowns when DOM is loaded
+        / Mobile menu initialization handled by component loader
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Enhanced form validation and initialization
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeFormComponents();
+            initializeFormValidation();
+
+            / Check for success parameter in URL
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.get('success') === 'true') {
+                showMessage('Thank you for your enquiry! We will respond within 24 hours.', 'success');
+                window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        });
+
+        / Initialize form components (phone input, date pickers)
+        function initializeFormComponents() {
+            / Initialize International Phone Input
+            const phoneInputElement = document.querySelector("#phone");
+            phoneInput = window.intlTelInput(phoneInputElement, {
+                initialCountry: "auto",
+                geoIpLookup: function(callback) {
+                    fetch('https://ipapi.co/json')
+                        .then(res => res.json())
+                        .then(data => callback(data.country_code))
+                        .catch(() => callback("us"));
+                },
+                utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+                preferredCountries: ["us", "gb", "vn", "au", "ca"],
+                separateDialCode: true,
+                formatOnDisplay: true,
+                autoPlaceholder: "aggressive"
+            });
+
+            / Initialize Date Pickers
+            const today = new Date();
+
+            startDatePicker = flatpickr("#shoot-start-date", {
+                dateFormat: "M d, Y",
+                minDate: today,
+                theme: "dark",
+                onChange: function(selectedDates, dateStr, instance) {
+                    if (selectedDates.length > 0) {
+                        / Update end date minimum to be the start date
+                        endDatePicker.set('minDate', selectedDates[0]);
+                        validateField('shoot-start-date');
+                    }
+                }
+            });
+
+            endDatePicker = flatpickr("#shoot-end-date", {
+                dateFormat: "M d, Y",
+                minDate: today,
+                theme: "dark",
+                onChange: function(selectedDates, dateStr, instance) {
+                    if (selectedDates.length > 0) {
+                        validateField('shoot-end-date');
+                    }
+                }
+            });
+
+            / Initialize character counter for message field
+            const messageField = document.getElementById('message');
+            const messageCounter = document.getElementById('message-count');
+
+            messageField.addEventListener('input', function() {
+                const count = this.value.length;
+                messageCounter.textContent = count;
+
+                if (count < 20) {
+                    messageCounter.parentElement.classList.add('text-red-400');
+                    messageCounter.parentElement.classList.remove('text-gray-400');
+                } else {
+                    messageCounter.parentElement.classList.remove('text-red-400');
+                    messageCounter.parentElement.classList.add('text-gray-400');
+                }
+
+                validateField('message');
+            });
+        }
+
+        / Initialize form validation
+        function initializeFormValidation() {
+            const form = document.getElementById('contact-form');
+            const submitButton = form.querySelector('button[type="submit"]');
+            const originalButtonText = submitButton.textContent;
+
+            / Add real-time validation to all form fields
+            const fields = ['first-name', 'last-name', 'email', 'company', 'phone', 'project-type', 'message'];
+
+            fields.forEach(fieldId => {
+                const field = document.getElementById(fieldId);
+                if (field) {
+                    field.addEventListener('blur', () => validateField(fieldId));
+                    field.addEventListener('input', () => {
+                        clearFieldError(fieldId);
+                        if (fieldId === 'phone') {
+                            updatePhoneValidation();
+                        }
+                    });
+                }
+            });
+
+            / Form submission handler
+            form.addEventListener('submit', function(e) {
+                if (!validateForm()) {
+                    e.preventDefault();
+                    showMessage('Please correct the errors below before submitting.', 'error');
+                    return;
+                }
+
+                / Set phone number in full international format
+                if (phoneInput && phoneInput.isValidNumber()) {
+                    document.getElementById('phone-full').value = phoneInput.getNumber();
+                }
+
+                / Set reply-to field
+                const emailField = document.querySelector('#email');
+                let replyToField = form.querySelector('input[name="_replyto"]');
+                if (!replyToField) {
+                    replyToField = document.createElement('input');
+                    replyToField.type = 'hidden';
+                    replyToField.name = '_replyto';
+                    form.appendChild(replyToField);
+                }
+                replyToField.value = emailField.value;
+
+                    / Track form submission for analytics
+                    if (typeof gtag !== 'undefined') {
+                        gtag('event', 'form_submission', {
+                            'event_category': 'Contact',
+                            'event_label': 'Production Enquiry',
+                            'value': 1
+                        });
+                    }
+                    
+                    / Show loading state
+                submitButton.disabled = true;
+                submitButton.textContent = 'Sending...';
+                submitButton.classList.add('opacity-75');
+            });
+        }
+
+        / Comprehensive field validation
+        function validateField(fieldId) {
+            const field = document.getElementById(fieldId);
+            const value = field.value.trim();
+            let isValid = true;
+            let errorMessage = '';
+
+            switch (fieldId) {
+                case 'first-name':
+                case 'last-name':
+                    if (!value) {
+                        isValid = false;
+                        errorMessage = 'This field is required.';
+                    } else if (value.length < 2) {
+                        isValid = false;
+                        errorMessage = 'Must be at least 2 characters long.';
+                    } else if (!/^[a-zA-Z\s'-]+$/.test(value)) {
+                        isValid = false;
+                        errorMessage = 'Only letters, spaces, hyphens, and apostrophes allowed.';
+                    }
+                    break;
+
+                case 'email':
+                    if (!value) {
+                        isValid = false;
+                        errorMessage = 'Email address is required.';
+                    } else if (!isValidEmail(value)) {
+                        isValid = false;
+                        errorMessage = 'Please enter a valid email address.';
+                    }
+                    break;
+
+                case 'company':
+                    / Company is optional, but if provided, validate length
+                    if (value && value.length > 100) {
+                        isValid = false;
+                        errorMessage = 'Company name must be less than 100 characters.';
+                    }
+                    break;
+
+                case 'phone':
+                    if (value && phoneInput) {
+                        if (!phoneInput.isValidNumber()) {
+                            isValid = false;
+                            errorMessage = 'Please enter a valid phone number.';
+                        }
+                    }
+                    break;
+
+                case 'project-type':
+                    if (!value) {
+                        isValid = false;
+                        errorMessage = 'Please select a project type.';
+                    }
+                    break;
+
+                case 'message':
+                    if (!value) {
+                        isValid = false;
+                        errorMessage = 'Project details are required.';
+                    } else if (value.length < 20) {
+                        isValid = false;
+                        errorMessage = 'Please provide at least 20 characters describing your project.';
+                    } else if (value.length > 2000) {
+                        isValid = false;
+                        errorMessage = 'Message must be less than 2000 characters.';
+                    }
+                    break;
+
+                case 'shoot-start-date':
+                    if (value) {
+                        const startDate = new Date(value);
+                        const today = new Date();
+                        today.setHours(0, 0, 0, 0);
+
+                        if (startDate < today) {
+                            isValid = false;
+                            errorMessage = 'Start date cannot be in the past.';
+                        }
+                    }
+                    break;
+
+                case 'shoot-end-date':
+                    if (value) {
+                        const endDate = new Date(value);
+                        const startDateValue = document.getElementById('shoot-start-date').value;
+
+                        if (startDateValue) {
+                            const startDate = new Date(startDateValue);
+                            if (endDate < startDate) {
+                                isValid = false;
+                                errorMessage = 'End date cannot be earlier than start date.';
+                            }
+                        }
+                    }
+                    break;
+            }
+
+            showFieldError(fieldId, isValid, errorMessage);
+            return isValid;
+        }
+
+        / Validate entire form
+        function validateForm() {
+            const fields = ['first-name', 'last-name', 'email', 'project-type', 'message'];
+            let isFormValid = true;
+
+            fields.forEach(fieldId => {
+                if (!validateField(fieldId)) {
+                    isFormValid = false;
+                }
+            });
+
+            / Validate optional fields if they have values
+            if (document.getElementById('phone').value.trim()) {
+                if (!validateField('phone')) {
+                    isFormValid = false;
+                }
+            }
+
+            / Validate date range if provided
+            const startDate = document.getElementById('shoot-start-date').value;
+            const endDate = document.getElementById('shoot-end-date').value;
+
+            if (startDate && !validateField('shoot-start-date')) {
+                isFormValid = false;
+            }
+
+            if (endDate && !validateField('shoot-end-date')) {
+                isFormValid = false;
+            }
+
+            return isFormValid;
+        }
+
+        / Show/hide field errors
+        function showFieldError(fieldId, isValid, errorMessage) {
+            const field = document.getElementById(fieldId);
+            const errorDiv = document.getElementById(fieldId + '-error');
+
+            if (isValid) {
+                field.classList.remove('border-red-500');
+                field.classList.add('border-gray-600');
+                if (errorDiv) {
+                    errorDiv.classList.add('hidden');
+                    errorDiv.textContent = '';
+                }
+            } else {
+                field.classList.add('border-red-500');
+                field.classList.remove('border-gray-600');
+                if (errorDiv) {
+                    errorDiv.classList.remove('hidden');
+                    errorDiv.textContent = errorMessage;
+                }
+            }
+        }
+
+        / Clear field error
+        function clearFieldError(fieldId) {
+            const field = document.getElementById(fieldId);
+            const errorDiv = document.getElementById(fieldId + '-error');
+
+            field.classList.remove('border-red-500');
+            field.classList.add('border-gray-600');
+            if (errorDiv) {
+                errorDiv.classList.add('hidden');
+                errorDiv.textContent = '';
+            }
+        }
+
+        / Update phone validation
+        function updatePhoneValidation() {
+            const phoneField = document.getElementById('phone');
+            const value = phoneField.value.trim();
+
+            if (value && phoneInput) {
+                if (phoneInput.isValidNumber()) {
+                    showFieldError('phone', true, '');
+                } else {
+                    showFieldError('phone', false, 'Please enter a valid phone number.');
+                }
+            } else {
+                clearFieldError('phone');
+            }
+        }
+
+        / Email validation function
+        function isValidEmail(email) {
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            return emailRegex.test(email);
+        }
+
+        / Show message function
+        function showMessage(message, type) {
+            / Remove existing messages
+            const existingMessages = document.querySelectorAll('.form-message');
+            existingMessages.forEach(msg => msg.remove());
+
+            / Create message element
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `form-message p-4 rounded-md mb-6 ${type === 'success' ? 'bg-green-600 text-white' : 'bg-red-600 text-white'}`;
+            messageDiv.textContent = message;
+
+            / Insert message before form
+            const form = document.getElementById('contact-form');
+            form.parentNode.insertBefore(messageDiv, form);
+
+            / Auto-remove message after 10 seconds
+            setTimeout(() => {
+                messageDiv.remove();
+            }, 10000);
+
+            / Scroll to message
+            messageDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for contact/index.html, page functionality ready');
+            
+            / Trigger any existing page initialization that might depend on DOM structure
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+
+</body>
+</html>
+: "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>
+pt>
+
+</body>
+</html>

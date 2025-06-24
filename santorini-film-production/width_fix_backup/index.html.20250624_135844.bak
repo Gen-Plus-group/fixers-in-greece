@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Santorini Film Production Services | Island Paradise Filming Greece</title>
+    <meta name="description" content="Professional film production services in Santorini, Greece's iconic island. White-washed buildings, caldera views, and stunning sunsets with expert local knowledge.">
+    <meta name="keywords" content="Santorini filming, Santorini video production, caldera filming Greece, Oia filming, sunset filming Santorini, Santorini documentary production">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/santorini-film-production/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Santorini Film Production Services | Island Paradise Filming Greece">
+    <meta property="og:description" content="Professional film production services in Santorini, Greece's iconic island. White-washed buildings, caldera views, and stunning sunsets with expert local knowledge.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/santorini-film-production/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/27.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-6">
+                    Santorini film production Greece Services
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8">
+                    Professional film production services in Santorini, Greece's iconic island. White-washed buildings, caldera views, and stunning sunsets with expert local knowledge.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#content" 
+                       class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                        Learn More
+                    </a>
+                    <a href="/contact/" 
+                       class="inline-block bg-transparent border-2 border-greece-blue text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-greece-blue hover:text-black transition-colors duration-200">
+                        Get Quote
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Santorini Services -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Santorini film production Greece Services
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Professional filming services on Greece's most photogenic island, featuring iconic white architecture, dramatic caldera views, and world-famous sunsets.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Iconic Architecture -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🏛️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Iconic Architecture</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• White-washed cave houses</li>
+                            <li>• Blue-domed churches</li>
+                            <li>• Traditional windmills</li>
+                            <li>• Cliff-side villages</li>
+                            <li>• Venetian castles</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Cycladic Beauty</span>
+                        </div>
+                    </div>
+
+                    <!-- Caldera Views -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🌊</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Caldera Views</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Dramatic cliff locations</li>
+                            <li>• Volcanic landscapes</li>
+                            <li>• Azure Aegean Sea</li>
+                            <li>• Infinity pool settings</li>
+                            <li>• Aerial perspectives</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Breathtaking Vistas</span>
+                        </div>
+                    </div>
+
+                    <!-- Island Lifestyle -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🌅</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Island Lifestyle</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• World-famous sunsets</li>
+                            <li>• Beach and coastal scenes</li>
+                            <li>• Wine terraces</li>
+                            <li>• Traditional tavernas</li>
+                            <li>• Luxury resorts</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Mediterranean Life</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Santorini Locations -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Iconic Santorini filming locations Greece
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        From picturesque villages to dramatic coastlines, Santorini offers unmatched filming opportunities.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Oia Village -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏘️</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Oia Village</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Famous sunset point</li>
+                            <li>• Blue-domed churches</li>
+                            <li>• Cliff-side pathways</li>
+                            <li>• Art galleries</li>
+                            <li>• Luxury cave hotels</li>
+                        </ul>
+                    </div>
+
+                    <!-- Fira Town -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏛️</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Fira Town</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Capital city views</li>
+                            <li>• Cable car scenes</li>
+                            <li>• Shopping streets</li>
+                            <li>• Orthodox cathedral</li>
+                            <li>• Nightlife venues</li>
+                        </ul>
+                    </div>
+
+                    <!-- Red Beach -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏖️</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Red Beach</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Unique red cliffs</li>
+                            <li>• Volcanic landscapes</li>
+                            <li>• Crystal clear waters</li>
+                            <li>• Archaeological site</li>
+                            <li>• Dramatic coastline</li>
+                        </ul>
+                    </div>
+
+                    <!-- Akrotiri -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏺</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Akrotiri</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Ancient Minoan city</li>
+                            <li>• Archaeological ruins</li>
+                            <li>• Lighthouse location</li>
+                            <li>• Traditional village</li>
+                            <li>• Historical backdrop</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Island Paradise Filming -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Santorini's Island Paradise Filming
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Greece's most photographed island offers unparalleled access to volcanic landscapes, traditional architecture, and Mediterranean beauty.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Architectural Wonders</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Cycladic Architecture</h4>
+                                <p class="text-gray-300">Iconic white-washed buildings with blue accents, cave houses carved into cliffs, traditional windmills, and narrow cobblestone pathways creating the perfect backdrop for romantic productions and architectural documentaries.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Caldera Views</h4>
+                                <p class="text-gray-300">Dramatic 300-meter cliffs overlooking the volcanic caldera, offering breathtaking panoramic views of the Aegean Sea, neighboring islands, and spectacular sunsets that attract filmmakers worldwide.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Venetian Heritage</h4>
+                                <p class="text-gray-300">Historical castles, fortified settlements, and maritime heritage showcasing centuries of Venetian influence, providing authentic period settings for historical productions and cultural documentaries.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Island Filming Capabilities</h3>
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">250+</div>
+                                    <div class="text-sm text-gray-300">Days of Sunshine</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">5</div>
+                                    <div class="text-sm text-gray-300">Distinct Villages</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">360°</div>
+                                    <div class="text-sm text-gray-300">Caldera Views</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">18km</div>
+                                    <div class="text-sm text-gray-300">Scenic Coastline</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Year-round Mediterranean climate filming</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Luxury resort and villa location access</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Helicopter and drone filming permits</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Marine and underwater filming support</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Santorini Production Specializations -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Santorini Production Specializations
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Specialized filming services leveraging Santorini's unique position as Greece's most iconic island destination.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Luxury Travel Productions -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🏖️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Luxury Travel Productions</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Five-star resort showcases</li>
+                            <li>• Private villa tours</li>
+                            <li>• Yacht and sailing footage</li>
+                            <li>• Infinity pool cinematography</li>
+                            <li>• Gourmet dining experiences</li>
+                            <li>• Spa and wellness retreats</li>
+                        </ul>
+                    </div>
+
+                    <!-- Romance & Wedding Films -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">💕</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Romance & Wedding Films</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Sunset ceremony locations</li>
+                            <li>• Cliff-side venue access</li>
+                            <li>• Blue-domed church weddings</li>
+                            <li>• Romantic proposal settings</li>
+                            <li>• Honeymoon destination films</li>
+                            <li>• Couple portrait sessions</li>
+                        </ul>
+                    </div>
+
+                    <!-- Wine & Culinary </h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Volcanic vineyard tours</li>
+                            <li>• Traditional winery access</li>
+                            <li>• Local cuisine documentation</li>
+                            <li>• Farm-to-table experiences</li>
+                            <li>• Seafood and fishing culture</li>
+                            <li>• Wine tasting cinematography</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seasonal Filming Opportunities -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Seasonal Santorini Filming Calendar
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Santorini's Mediterranean climate and seasonal variations offer unique filming opportunities throughout the year.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Summer Peak Season -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-4">Summer Peak Season</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">High Season (June-September)</h4>
+                                <p class="text-gray-300 text-sm">Perfect weather with guaranteed sunshine, crystal-clear waters ideal for beach and marine filming, vibrant tourist atmosphere, and world-famous sunset ceremonies creating magical golden hour opportunities daily.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Festival Season</h4>
+                                <p class="text-gray-300 text-sm">Traditional Greek festivals, religious celebrations in blue-domed churches, local wine harvest events, and cultural performances providing authentic island life documentation opportunities.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Marine Activities</h4>
+                                <p class="text-gray-300 text-sm">Optimal conditions for yacht filming, underwater cinematography, cliff diving scenes, and water sports coverage with calm seas and excellent visibility.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Shoulder & Winter Seasons -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-4">Shoulder & Winter Seasons</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Spring Beauty (April-May)</h4>
+                                <p class="text-gray-300 text-sm">Wildflower blooms across volcanic landscapes, fewer tourists allowing exclusive location access, mild temperatures perfect for extended shoots, and dramatic cloud formations enhancing cinematography.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Autumn Light (October-November)</h4>
+                                <p class="text-gray-300 text-sm">Exceptional lighting conditions with softer sun angles, warm sea temperatures for water scenes, harvest season in vineyards, and intimate atmosphere for luxury productions.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-4">
+                                <h4 class="font-semibold text-white mb-2">Winter Serenity (December-March)</h4>
+                                <p class="text-gray-300 text-sm">Dramatic weather for moody cinematography, exclusive access to normally crowded locations, authentic local life without tourist crowds, and unique perspectives of this summer destination.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Santorini Filming FAQ -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Santorini Filming FAQ
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Essential information for planning your Santorini filming project.
+                    </p>
+                </div>
+
+                <div class="max-w-4xl mx-auto space-y-6">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you manage filming in crowded tourist locations like Oia?</h3>
+                        <p class="text-gray-300">
+                            We coordinate early morning and sunset shoots when tourist traffic is minimal, arrange private access to exclusive viewpoints, and work with local authorities for crowd control when needed. Our team knows alternative angles and hidden spots that capture Santorini's beauty without the crowds. We also arrange off-season filming for maximum privacy and can coordinate temporary closures of specific areas for high-profile productions.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What makes Santorini ideal for luxury and romance productions?</h3>
+                        <p class="text-gray-300">
+                            Santorini offers unmatched romantic ambiance with world-famous sunsets, intimate cliff-side settings, and exclusive luxury venues. The island's white-washed architecture provides perfect contrast for fashion and wedding photography. High-end resorts offer private filming locations Greece with infinity pools and caldera views. The consistent golden hour light and Mediterranean atmosphere create naturally romantic scenes without extensive set design or lighting equipment.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Can you arrange helicopter and drone filming over the caldera?</h3>
+                        <p class="text-gray-300">
+                            Yes, we coordinate all aerial filming permits through Greek Civil Aviation Authority and local authorities. Helicopter filming requires advance booking and weather clearance but provides spectacular caldera perspectives. Drone operations follow strict guidelines protecting privacy and safety, with designated flight zones and altitude restrictions. We provide certified drone pilots familiar with Santorini's wind patterns and no-fly zones around archaeological sites.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What are the best months for filming in Santorini?</h3>
+                        <p class="text-gray-300">
+                            May-June and September-October offer ideal filming conditions with perfect weather, fewer tourists, and warm lighting. July-August provide guaranteed sunshine but require early morning shoots to avoid crowds and heat. April and November offer dramatic skies and exclusive location access. Winter months (December-March) provide unique perspectives with moody weather but require flexibility for weather delays. Each season offers distinct advantages depending on production needs.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you handle equipment transport on the island's steep terrain?</h3>
+                        <p class="text-gray-300">
+                            Our experienced crew uses specialized transport including donkeys for traditional village access, cable car systems for cliff locations, and modified vehicles for narrow streets. We maintain equipment storage facilities in Fira and Oia for quick access. For heavy equipment, we coordinate boat transport to beach locations. Our team includes local porters familiar with safe equipment handling on steep stairs and provides protective cases designed for Santorini's unique transportation challenges.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What are typical costs for Santorini filming projects?</h3>
+                        <p class="text-gray-300">
+                            Santorini filming costs vary by season and location exclusivity. Professional crew rates range from €800-1,500 EUR daily for camera operator and assistant. Location permits for public areas cost €200-500 EUR per day. Private venue access ranges from €500-3,000 EUR depending on exclusivity and duration. Aerial filming adds €2,000-5,000 EUR for helicopter services. We provide transparent pricing including all permits, insurance, and logistical support for accurate budget planning.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide styling and production design for Santorini shoots?</h3>
+                        <p class="text-gray-300">
+                            Yes, our network includes experienced stylists, production designers, and prop masters specializing in Greek island aesthetics. We source authentic local props, arrange traditional costumes, and coordinate with local artisans for custom set pieces. Our styling team understands how to complement Santorini's natural beauty without overwhelming the iconic backdrop. We also provide location scouting Greece packages identifying optimal settings matching your creative vision.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How far in advance should Santorini filming be planned?</h3>
+                        <p class="text-gray-300">
+                            Summer season filming requires 3-4 months advance planning for optimal accommodation and location access. Luxury venue bookings need 2-3 months minimum, especially for exclusive sunset slots. Aerial permits require 6-8 weeks processing time. Off-season filming can be arranged with 4-6 weeks notice but weather contingencies are essential. Early planning ensures best rates, preferred locations, and coordination with local events that might affect filming schedules.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Film in Paradise?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Capture the magic of Santorini's iconic beauty with our expert knowledge of the island's most photogenic locations and exclusive access.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Get Santorini Quote
+                    </a>
+                    <a href="/Greece-filming-locations/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        All Greece Locations
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+            <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        / Mobile menu functionality
+                / Mobile menu main toggle
+        / Mobile menu handled by component loader
+
+        / Mobile dropdown functionality
+        / Mobile dropdown functionality handled by component loader);
+            
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+            
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Initialize mobile dropdowns when DOM is loaded
+        / Mobile menu initialization handled by component loader
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for santorini-film-production/index.html, page functionality ready');
+            
+            / Trigger any existing page initialization that might depend on DOM structure
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+
+</body>
+</html>pe="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

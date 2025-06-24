@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Architecture Test - Fixers in Greece</title>
+    
+    <!-- Our new CSS architecture -->
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/theme.css">
+    
+    <!-- Tailwind CSS -->
+    <link rel="stylesheet" href="/dist/output.css">
+</head>
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <div class="container mx-auto px-4 py-8">
+        <h1 class="text-4xl font-bold text-greece-blue mb-8 text-center">
+            CSS Architecture Test Page
+        </h1>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Button Component Tests -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Button Components</h2>
+                </div>
+                <div class="card-body space-y-4">
+                    <a href="#" class="btn btn-primary">Primary Button</a>
+                    <a href="#" class="btn btn-secondary">Secondary Button</a>
+                    <a href="#" class="btn btn-outline">Outline Button</a>
+                    <a href="#" class="btn btn-ghost">Ghost Button</a>
+                    
+                    <div class="mt-6">
+                        <h3 class="text-lg font-semibold mb-3">Button Sizes</h3>
+                        <div class="space-y-2">
+                            <a href="#" class="btn btn-primary btn-sm">Small Button</a>
+                            <a href="#" class="btn btn-primary">Regular Button</a>
+                            <a href="#" class="btn btn-primary btn-lg">Large Button</a>
+                            <a href="#" class="btn btn-primary btn-xl">Extra Large Button</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Typography Tests -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Typography</h2>
+                </div>
+                <div class="card-body">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                    
+                    <p>This is a paragraph with <a href="#">a link</a> that should have proper colors without !important overrides.</p>
+                    
+                    <ul>
+                        <li>List item 1</li>
+                        <li>List item 2 with <a href="#">a link</a></li>
+                        <li>List item 3</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Form Components Tests -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Form Components</h2>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label class="form-label">Text Input</label>
+                        <input type="text" class="form-control" placeholder="Enter text">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Textarea</label>
+                        <textarea class="form-control" rows="3" placeholder="Enter message"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="form-label">Select</label>
+                        <select class="form-control">
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary">Submit Form</button>
+                </div>
+            </div>
+            
+            <!-- Badge Tests -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Badges & Alerts</h2>
+                </div>
+                <div class="card-body space-y-4">
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2">Badges</h3>
+                        <span class="badge badge-primary">Primary</span>
+                        <span class="badge badge-secondary">Secondary</span>
+                        <span class="badge badge-outline">Outline</span>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-lg font-semibold mb-2">Alerts</h3>
+                        <div class="alert alert-success">Success message</div>
+                        <div class="alert alert-warning">Warning message</div>
+                        <div class="alert alert-error">Error message</div>
+                        <div class="alert alert-info">Info message</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Tailwind Integration Test -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Tailwind Integration</h2>
+                </div>
+                <div class="card-body">
+                    <p class="text-gray-300 mb-4">This text uses Tailwind classes and should work properly with our architecture.</p>
+                    
+                    <div class="bg-greece-blue text-black p-4 rounded-md mb-4">
+                        Tailwind Greece Orange Background
+                    </div>
+                    
+                    <div class="bg-greece-white text-white p-4 rounded-md mb-4">
+                        Tailwind Greece Red Background
+                    </div>
+                    
+                    <a href="#" class="btn-tailwind-primary">Tailwind Primary Button</a>
+                    <a href="#" class="btn-tailwind-secondary">Tailwind Secondary Button</a>
+                </div>
+            </div>
+            
+            <!-- Link Tests -->
+            <div class="card">
+                <div class="card-header">
+                    <h2 class="card-title">Link Color Tests</h2>
+                </div>
+                <div class="card-body">
+                    <p>This paragraph contains <a href="#">a regular link</a> that should be orange.</p>
+                    
+                    <div class="content">
+                        <p>This is content with <a href="#">a link inside content class</a>.</p>
+                    </div>
+                    
+                    <ul>
+                        <li><a href="#">List link 1</a></li>
+                        <li><a href="#">List link 2</a></li>
+                        <li><a href="#">List link 3</a></li>
+                    </ul>
+                    
+                    <div class="text-center mt-4">
+                        <p class="text-sm text-gray-400">All links should be orange (#f9a531) without any !important declarations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Test Results -->
+        <div class="mt-12 p-6 bg-gray-800 rounded-lg">
+            <h2 class="text-2xl font-bold text-greece-blue mb-4">CSS Architecture Test Results</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold text-green-400 mb-2">✅ Should Work:</h3>
+                    <ul class="text-sm space-y-1">
+                        <li>• All buttons have proper colors without inline styles</li>
+                        <li>• Links are orange without !important overrides</li>
+                        <li>• Typography follows design system</li>
+                        <li>• Form elements have proper styling</li>
+                        <li>• Tailwind utilities work alongside custom CSS</li>
+                        <li>• No CSS specificity conflicts</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold text-red-400 mb-2">❌ Previous Issues Fixed:</h3>
+                    <ul class="text-sm space-y-1">
+                        <li>• No more invisible button text</li>
+                        <li>• No global !important link overrides</li>
+                        <li>• No CSS architecture conflicts</li>
+                        <li>• No inline style dependencies</li>
+                        <li>• No unmaintainable CSS structure</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

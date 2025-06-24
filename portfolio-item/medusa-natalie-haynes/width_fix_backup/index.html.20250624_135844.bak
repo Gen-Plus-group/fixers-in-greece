@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Medusa with Natalie Haynes - Greece Film Production | Fixers in Greece</title>
+    <meta name="description" content="Professional documentary production services for Medusa with Natalie Haynes in Greece - Mythological documentary exploring the legend of Medusa">
+    <meta name="keywords" content="Medusa documentary, Natalie Haynes, BBC, Greek mythology documentary">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Medusa with Natalie Haynes - Greece Film Production">
+    <meta property="og:description" content="Classical scholar Natalie Haynes explores the myth and meaning of Medusa">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://fixersingreece.com/portfolio-item/medusa-natalie-haynes/">
+    <meta property="og:image" content="/assets/images/portfolio/medusa-natalie-haynes-hero.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Medusa with Natalie Haynes - Greece Film Production">
+    <meta name="twitter:description" content="Classical scholar Natalie Haynes explores the myth and meaning of Medusa">
+    <meta name="twitter:image" content="/assets/images/portfolio/medusa-natalie-haynes-hero.jpg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/portfolio-item/medusa-natalie-haynes/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        .portfolio-hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/assets/images/portfolio/medusa-natalie-haynes-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            border: none;
+            border-top: none;
+        }
+        
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Schema.org markup for portfolio item -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "name": "Medusa with Natalie Haynes",
+        "description": "Mythological documentary exploring the legend of Medusa",
+        "creator": {
+            "@type": "Organization",
+            "name": "Fixers in Greece",
+            "url": "https://fixersingreece.com"
+        },
+        "contributor": [
+            {
+                "@type": "Organization",
+                "name": "BBC",
+                "role": "Client"
+            },
+            {
+                "@type": "Organization",
+                "name": "BBC Studios",
+                "role": "Creative Agency"
+            },
+            {
+                "@type": "Organization",
+                "name": "BBC Studios",
+                "role": "Production Company"
+            }
+        ],
+        "dateCreated": "2023",
+        "genre": "Documentary",
+        "locationCreated": {
+            "@type": "Place",
+            "name": "Greece"
+        }
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="portfolio-hero relative py-32 md:py-48">
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="max-w-4xl">
+                    <!-- Title -->
+                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8 pt-12">
+                        Medusa with Natalie Haynes
+                    </h1>
+                    
+                    <!-- Subtitle -->
+                    <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12">
+                        A captivating exploration of one of Greek mythology's most misunderstood figures, presented by classical scholar Natalie Haynes.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Details Section -->
+        <section class="py-16 bg-greece-dark border-y border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="grid md:grid-cols-4 gap-8">
+                    <!-- End Client -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">End Client</h3>
+                        <p class="text-xl font-bold text-greece-blue">BBC</p>
+                    </div>
+                    
+                    <!-- Creative Agency -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Creative Agency</h3>
+                        <p class="text-xl font-bold text-white">BBC Studios</p>
+                    </div>
+                    
+                    <!-- Production -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Production</h3>
+                        <p class="text-xl font-bold text-white">BBC Studios</p>
+                    </div>
+                    
+                    <!-- Film Services -->
+                    <div class="text-center md:text-left">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Film Services</h3>
+                        <p class="text-xl font-bold text-greece-blue">Fixers in Greece</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Section (Optional - remove if no video) -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-5xl mx-auto">
+                    <!-- Video Embed -->
+                    <div class="video-container mb-12 rounded-lg overflow-hidden shadow-2xl">
+                        <iframe 
+                            src="https://player.vimeo.com/video/985637198/5df08ddb1c" 
+                            frameborder="0" 
+                            allow="autoplay; fullscreen; picture-in-picture" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    
+                    <!-- Video Description -->
+                    <div class="text-center">
+                        <p class="text-gray-400 italic">
+                            Watch the full documentary above. For high-resolution files and behind-the-scenes content, please <a href="/contact/" class="text-greece-blue hover:text-yellow-400 underline">contact us</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project Overview -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-8">Project Overview</h2>
+                    
+                    <div class="prose prose-lg prose-invert max-w-none">
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            Fixers in Greece supported the BBC in creating this thought-provoking documentary about Medusa, facilitating filming at mythologically significant locations and museums housing ancient artifacts.
+                        </p>
+                        
+                        <p class="text-gray-300 leading-relaxed mb-6">
+                            The production required careful coordination with museums and archaeological sites to film precious artifacts and ancient representations of Medusa. Our team ensured smooth operations while maintaining the highest standards of cultural sensitivity.
+                        </p>
+                        
+                        <p class="text-gray-300 leading-relaxed">
+                            This documentary offers a fresh perspective on classical mythology, examining how ancient stories continue to resonate in contemporary culture, with Greece's landscapes providing an authentic backdrop.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Provided -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-8">Services Provided</h2>
+                    
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <!-- Production Services -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-4 flex items-center">
+                                <span class="text-greece-blue mr-3">🎬</span>
+                                Production Services
+                            </h3>
+                            <ul class="space-y-2 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Location scouting and management
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Filming permits and permissions
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Local crew and equipment
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Transportation and logistics
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Accommodation arrangements
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Technical Services -->
+                        <div>
+                            <h3 class="text-xl font-semibold text-white mb-4 flex items-center">
+                                <span class="text-greece-blue mr-3">🎥</span>
+                                Technical Services
+                            </h3>
+                            <ul class="space-y-2 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Camera and lighting equipment
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Drone operations
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Sound recording
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Production coordination
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-2">•</span>
+                                    Post-production support
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Locations -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-8">Key Filming Locations</h2>
+                    
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-3">🏛️</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Historical Sites</h3>
+                            <p class="text-gray-400 text-sm">Ancient ruins and archaeological locations</p>
+                        </div>
+                        
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-3">🏝️</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Greek Islands</h3>
+                            <p class="text-gray-400 text-sm">Stunning island locations and coastal scenes</p>
+                        </div>
+                        
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-3">🎬</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Modern Greece</h3>
+                            <p class="text-gray-400 text-sm">Contemporary urban and rural settings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial (Optional - remove if no testimonial) -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-3xl mx-auto text-center">
+                    <div class="bg-gradient-to-r from-greece-blue to-yellow-500 p-1 rounded-lg">
+                        <div class="bg-greece-darker rounded-lg p-8 md:p-12">
+                            <div class="text-5xl text-greece-blue mb-6">"</div>
+                            <blockquote class="text-xl md:text-2xl text-gray-300 italic leading-relaxed mb-6">
+                                Working with Fixers in Greece was an absolute pleasure. Their local expertise and professional approach made our production run smoothly from start to finish.
+                            </blockquote>
+                            <cite class="text-lg text-white font-semibold">
+                                — Production Manager
+                            </cite>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-gradient-to-r from-greece-blue to-yellow-500 rounded-lg p-8 md:p-12 text-center">
+                        <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">
+                            Ready to Create Your Next Campaign in Greece?
+                        </h2>
+                        <p class="text-xl text-black mb-8">
+                            From global brands to independent productions, we provide world-class film services throughout Greece.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="/contact/" 
+                               class="inline-block bg-black text-white px-8 py-4 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                                Start Your Project
+                            </a>
+                            <a href="/portfolio/" 
+                               class="inline-block bg-white text-black px-8 py-4 rounded-md font-semibold hover:bg-gray-100 transition-colors duration-200">
+                                View More Work
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Navigation -->
+        <section class="py-8 border-t border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="flex justify-between items-center">
+                    <!-- Previous -->
+                    <a href="/portfolio-item/previous-project/" class="group flex items-center text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        <svg class="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                        </svg>
+                        <span class="hidden sm:inline">Previous Project</span>
+                        <span class="sm:hidden">Previous</span>
+                    </a>
+                    
+                    <!-- Back to Portfolio -->
+                    <a href="/portfolio/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        All Projects
+                    </a>
+                    
+                    <!-- Next -->
+                    <a href="/portfolio-item/next-project/" class="group flex items-center text-gray-400 hover:text-greece-blue transition-colors duration-200">
+                        <span class="hidden sm:inline">Next Project</span>
+                        <span class="sm:hidden">Next</span>
+                        <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu functionality will be handled by component loader
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

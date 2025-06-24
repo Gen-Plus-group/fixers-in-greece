@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Music Videos Production Greece | Fixers in Greece Portfolio</title>
+    <meta name="description" content="Explore our music video production portfolio in Greece. Professional film services for international and Greek artists with high-energy productions and cutting-edge equipment.">
+    <meta name="keywords" content="music videos Greece, music video production Greece, film services Greece, music video filming Athens">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Music Videos Production Greece | Fixers in Greece">
+    <meta property="og:description" content="Professional music video production services in Greece with experienced crews and equipment.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fixersingreece.com/portfolio-category/music-videos/">
+    <meta property="og:image" content="/assets/images/portfolio/categories/music-videos.gif">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Music Videos Production Greece | Fixers in Greece">
+    <meta name="twitter:description" content="Professional music video production services in Greece.">
+    <meta name="twitter:image" content="/assets/images/portfolio/categories/music-videos.gif">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/portfolio-category/music-videos/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Custom Styles -->
+    <style>
+        .category-hero {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('/assets/images/portfolio/categories/music-videos.gif');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    </style>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Schema.org markup for portfolio category -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Music Videos Production Portfolio - Fixers in Greece",
+        "description": "Portfolio of music video productions completed by Fixers in Greece for international and Greek artists.",
+        "url": "https://fixersingreece.com/portfolio-category/music-videos/",
+        "mainEntity": {
+            "@type": "ItemList",
+            "name": "Music Video Projects",
+            "numberOfItems": "3"
+        },
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://fixersingreece.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Portfolio",
+                    "item": "https://fixersingreece.com/portfolio/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Music Videos",
+                    "item": "https://fixersingreece.com/portfolio-category/music-videos/"
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Breadcrumbs -->
+        <section class="py-4 bg-greece-dark border-b border-gray-700">
+            <div class="container mx-auto px-4">
+                <nav class="flex items-center space-x-2 text-sm text-gray-400" aria-label="Breadcrumb">
+                    <a href="/" class="hover:text-greece-blue transition-colors duration-200">Home</a>
+                    <span>›</span>
+                    <a href="/portfolio/" class="hover:text-greece-blue transition-colors duration-200">Portfolio</a>
+                    <span>›</span>
+                    <span class="text-white">Music Videos</span>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Hero Section -->
+        <section class="category-hero relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-4">
+                    Music Videos Production
+                </h1>
+                <p class="text-xl text-gray-200 max-w-2xl mx-auto mb-8">
+                    High-energy music video productions for international and Greek artists, featuring cutting-edge cinematography and creative storytelling in stunning Greek locations.
+                </p>
+                <div class="flex flex-wrap justify-center gap-4 text-sm">
+                    <span class="bg-purple-700 text-white px-4 py-2 rounded-full">3 Projects</span>
+                    <span class="bg-gray-700 text-gray-200 px-4 py-2 rounded-full">International Artists</span>
+                    <span class="bg-gray-700 text-gray-200 px-4 py-2 rounded-full">13+ Years Experience</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-7xl mx-auto">
+                    
+                    <!-- Category Info -->
+                    <div class="text-center mb-12">
+                        <h2 class="text-3xl font-bold text-white mb-4">Our Music Videos Portfolio</h2>
+                        <p class="text-lg text-gray-300 max-w-3xl mx-auto">
+                            From international pop stars to emerging Greek artists, we provide full-service music video production with state-of-the-art equipment, experienced crews, and access to Greece's most photogenic locations. Our portfolio showcases dynamic performances, creative concepts, and high-production value content.
+                        </p>
+                    </div>
+
+
+                    <!-- Projects Grid -->
+                    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+                        
+                        <!-- Project 1: Keen'V -->
+                        <a href="/portfolio-item/keenv-dis-toi/" class="group block">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300">
+                                <div class="relative overflow-hidden">
+                                    <div class="aspect-video bg-gray-800">
+                                        <img src="https://images.squarespace-cdn.com/content/v1/666c037b9a686f5d42d5d456/1722447556149-F9VDPTTY51J9OTMAGX6L/Distoi+que+cest+la+vie.gif?format=1500w" alt="Keen'V Music Video" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                    </div>
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <div class="absolute bottom-4 left-4 right-4">
+                                            <p class="text-white text-sm">View Project →</p>
+                                        </div>
+                                    </div>
+                                    <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <div class="bg-black bg-opacity-60 rounded-full p-4">
+                                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold text-greece-blue mb-2 group-hover:text-yellow-400 transition-colors duration-200">
+                                        Keen'V: Dis toi que c'est la vie
+                                    </h3>
+                                    <p class="text-gray-400 text-sm mb-4">
+                                        Vibrant French pop music video showcasing the stunning Greek coastline and traditional architecture.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2 mb-3">
+                                        <span class="bg-purple-700 text-purple-100 px-2 py-1 rounded text-xs">Music Video</span>
+                                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">Keen'V</span>
+                                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">French Pop</span>
+                                    </div>
+                                    <div class="flex items-center justify-between text-xs text-gray-500">
+                                        <span>Greek Islands</span>
+                                        <span>NAF Greece</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Project 2: The Temper Trap -->
+                        <a href="/portfolio-item/temper-trap-fall-together/" class="group block">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300">
+                                <div class="relative overflow-hidden">
+                                    <div class="aspect-video bg-gray-800">
+                                        <img src="https://images.squarespace-cdn.com/content/v1/666c037b9a686f5d42d5d456/1722983695777-8MUG90ZE1OU7V4P3CIUL/Temper-Trap.gif?format=1500w" alt="The Temper Trap Music Video" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                    </div>
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <div class="absolute bottom-4 left-4 right-4">
+                                            <p class="text-white text-sm">View Project →</p>
+                                        </div>
+                                    </div>
+                                    <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <div class="bg-black bg-opacity-60 rounded-full p-4">
+                                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold text-greece-blue mb-2 group-hover:text-yellow-400 transition-colors duration-200">
+                                        The Temper Trap: Fall Together
+                                    </h3>
+                                    <p class="text-gray-400 text-sm mb-4">
+                                        Atmospheric indie rock music video featuring dramatic Greek landscapes and ancient ruins.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2 mb-3">
+                                        <span class="bg-purple-700 text-purple-100 px-2 py-1 rounded text-xs">Music Video</span>
+                                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">The Temper Trap</span>
+                                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">Indie Rock</span>
+                                    </div>
+                                    <div class="flex items-center justify-between text-xs text-gray-500">
+                                        <span>Athens & Delphi</span>
+                                        <span>NAF Greece</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Project 3: Alesha Dixon -->
+                        <a href="/portfolio-item/alesha-dixon-the-way-we-are/" class="group block">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300">
+                                <div class="relative overflow-hidden">
+                                    <div class="aspect-video bg-gray-800">
+                                        <img src="/assets/images/portfolio/categories/music-videos.gif" alt="Alesha Dixon Music Video" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                    </div>
+                                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <div class="absolute bottom-4 left-4 right-4">
+                                            <p class="text-white text-sm">View Project →</p>
+                                        </div>
+                                    </div>
+                                    <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                        <div class="bg-black bg-opacity-60 rounded-full p-4">
+                                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                                <path d="M8 5v14l11-7z"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-6">
+                                    <h3 class="text-xl font-bold text-greece-blue mb-2 group-hover:text-yellow-400 transition-colors duration-200">
+                                        Alesha Dixon: The Way We Are
+                                    </h3>
+                                    <p class="text-gray-400 text-sm mb-4">
+                                        Powerful British pop music video with stunning choreography filmed across multiple Greek locations.
+                                    </p>
+                                    <div class="flex flex-wrap gap-2 mb-3">
+                                        <span class="bg-purple-700 text-purple-100 px-2 py-1 rounded text-xs">Music Video</span>
+                                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">Alesha Dixon</span>
+                                        <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">British Pop</span>
+                                    </div>
+                                    <div class="flex items-center justify-between text-xs text-gray-500">
+                                        <span>Various Locations</span>
+                                        <span>NAF Greece</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Category Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8">
+                        Music video production Greece Services
+                    </h2>
+                    <p class="text-lg text-gray-300 mb-12">
+                        Specialized services for music video productions in Greece
+                    </p>
+                    
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-4">🎥</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">High-Speed Cameras</h3>
+                            <p class="text-gray-400 text-sm">Professional 4K and slow-motion camera equipment for dynamic music video shots</p>
+                        </div>
+                        
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-4">💃</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Choreography Support</h3>
+                            <p class="text-gray-400 text-sm">Local dancers, choreographers and performance coordination services</p>
+                        </div>
+                        
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-4">🏝️</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Iconic Locations</h3>
+                            <p class="text-gray-400 text-sm">Access to Greece's most beautiful islands, beaches, and historic sites</p>
+                        </div>
+                        
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-800">
+                            <div class="text-3xl mb-4">🎬</div>
+                            <h3 class="text-lg font-semibold text-white mb-2">Post-Production</h3>
+                            <p class="text-gray-400 text-sm">Complete editing, color grading, and visual effects services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-4xl mx-auto">
+                    <div class="bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg p-8 md:p-12 text-center">
+                        <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                            Ready to Start Your Music Video Project?
+                        </h2>
+                        <p class="text-xl text-purple-100 mb-8">
+                            Professional music video production services throughout Greece with experienced crews and cutting-edge equipment.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                            <a href="/contact/" 
+                               class="inline-block bg-greece-blue text-white px-8 py-4 rounded-md font-semibold hover:bg-blue-600 transition-colors duration-200">
+                                Get Quote
+                            </a>
+                            <a href="/portfolio/" 
+                               class="inline-block bg-purple-800 text-white px-8 py-4 rounded-md font-semibold hover:bg-purple-900 transition-colors duration-200">
+                                View All Categories
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Categories -->
+        <section class="py-12 border-t border-gray-800">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h3 class="text-2xl font-bold text-white mb-8 text-center">Explore Other Categories</h3>
+                    
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <a href="/portfolio-category/drama-entertainment/" class="group block">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300">
+                                <div class="aspect-video bg-gray-800">
+                                    <img src="/assets/images/portfolio/categories/drama-entertainment.gif" alt="Drama & Entertainment" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                </div>
+                                <div class="p-4">
+                                    <h4 class="text-lg font-bold text-greece-blue group-hover:text-yellow-400 transition-colors duration-200">
+                                        Drama & Entertainment
+                                    </h4>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a href="/portfolio-category/documentaries/" class="group block">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300">
+                                <div class="aspect-video bg-gray-800">
+                                    <img src="/assets/images/portfolio/categories/documentaries.gif" alt="Documentaries" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                </div>
+                                <div class="p-4">
+                                    <h4 class="text-lg font-bold text-greece-blue group-hover:text-yellow-400 transition-colors duration-200">
+                                        Documentaries
+                                    </h4>
+                                </div>
+                            </div>
+                        </a>
+                        
+                        <a href="/portfolio-category/commercials-branded/" class="group block">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300">
+                                <div class="aspect-video bg-gray-800">
+                                    <img src="/assets/images/portfolio/categories/commercials-branded.gif" alt="Commercials & Branded Content" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                </div>
+                                <div class="p-4">
+                                    <h4 class="text-lg font-bold text-greece-blue group-hover:text-yellow-400 transition-colors duration-200">
+                                        Commercials & Branded Content
+                                    </h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for music-videos/index.html, page functionality ready');
+            
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+</body>
+</html>ss Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

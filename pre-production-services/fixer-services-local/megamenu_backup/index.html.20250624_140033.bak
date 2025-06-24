@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Local Fixer Services | Production Support | NEEDaFIXER</title>
+    <meta name="description" content="Professional local fixer services. Expert production support and local coordination.">
+    <meta name="keywords" content="fixer services local, pre-production services, film production Greece, crew & logistics">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Local Fixer Services | Production Support | NEEDaFIXER">
+    <meta property="og:description" content="Professional local fixer services. Expert production support and local coordination.">
+    <meta property="og:url" content="/pre-production-services/fixer-services-local/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/fixer-services-local/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/29.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Local Fixer Services",
+        "description": "Professional local fixer services. Expert production support and local coordination.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Crew & Logistics",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10 max-w-full">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Local Fixer Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Expert local production support and coordination services worldwide.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Local Fixer Services Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Local Fixer Services Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert local fixer services providing comprehensive production support and local expertise. Professional coordination ensuring smooth operations and cultural authenticity for international productions.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Local Expertise -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🗺️</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Local Expertise</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Cultural guidance</li>
+                            <li>• Language support</li>
+                            <li>• Local customs</li>
+                            <li>• Regional knowledge</li>
+                            <li>• Community relations</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Cultural Authenticity</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Government Relations -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🤝</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Government Relations</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Official liaison</li>
+                            <li>• Permit assistance</li>
+                            <li>• Regulatory compliance</li>
+                            <li>• Authority coordination</li>
+                            <li>• Legal support</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Official Relations</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Production Support -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Production Support</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Logistics coordination</li>
+                            <li>• Vendor management</li>
+                            <li>• Crew coordination</li>
+                            <li>• Equipment sourcing</li>
+                            <li>• Problem solving</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Production Excellence</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Emergency Support -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🚨</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Emergency Support</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Crisis management</li>
+                            <li>• Emergency response</li>
+                            <li>• Medical assistance</li>
+                            <li>• Security coordination</li>
+                            <li>• 24/7 support</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Emergency Readiness</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Local Fixer Services Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Local Fixer Services Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert local fixers with comprehensive experience in production coordination, cultural navigation, and local expertise ensuring seamless international productions through deep local knowledge and professional support services.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Local Production Support</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Cultural Navigation & Local Expertise</h4>
+                                <p class="text-gray-300">Comprehensive cultural guidance including local customs, business practices, and social protocols. Language interpretation, translation services, and communication facilitation. Cultural sensitivity training, etiquette guidance, and relationship building. Local market knowledge, industry connections, and professional networking with deep understanding of regional production landscapes.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Government Relations & Permit Coordination</h4>
+                                <p class="text-gray-300">Expert government relations including permit acquisition, regulatory compliance, and official coordination. Local authority liaison, bureaucratic navigation, and administrative support. Visa assistance, work permit coordination, and immigration support. Tax incentive guidance, rebate coordination, and financial compliance with local regulations and requirements.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Emergency Support & Crisis Management</h4>
+                                <p class="text-gray-300">24/7 emergency support including medical assistance, security coordination, and crisis management. Local emergency services coordination, hospital liaison, and medical evacuation support. Security assessment, risk management, and safety protocol implementation. Emergency communication, evacuation planning, and comprehensive crisis response capabilities.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Local Fixer Services Performance</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">500+</div>
+                                    <div class="text-sm text-gray-300">Productions Supported</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">50+</div>
+                                    <div class="text-sm text-gray-300">Countries Covered</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24/7</div>
+                                    <div class="text-sm text-gray-300">Emergency Support</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100%</div>
+                                    <div class="text-sm text-gray-300">Cultural Compliance</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Cultural navigation and local expertise</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Government relations and permit coordination</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Emergency support and crisis management</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Professional networking and industry connections</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Local Fixer Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Local Fixer Services</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🌍</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Network</h3>
+                                <p class="text-gray-300">Extensive network of professional local fixers across 50+ countries with deep cultural knowledge and industry expertise worldwide.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🤝</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Cultural Expertise</h3>
+                                <p class="text-gray-300">100% cultural compliance with expert navigation of local customs, business practices, and social protocols ensuring respectful production operations.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🏛️</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Government Relations</h3>
+                                <p class="text-gray-300">Expert government relations with permit acquisition, regulatory compliance, and official coordination ensuring smooth bureaucratic processes.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🚨</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Emergency Support</h3>
+                                <p class="text-gray-300">24/7 emergency support with medical assistance, security coordination, and comprehensive crisis management capabilities worldwide.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Local Fixer Services Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Local Assessment</h3>
+                                <p class="text-gray-300">Comprehensive local analysis including cultural requirements, regulatory landscape, and production feasibility assessment.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Cultural Integration</h3>
+                                <p class="text-gray-300">Cultural navigation support with local customs guidance, relationship building, and professional networking coordination.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Production Support</h3>
+                                <p class="text-gray-300">Comprehensive production coordination with permit acquisition, government relations, and local logistics management.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Ongoing Assistance</h3>
+                                <p class="text-gray-300">24/7 support with emergency assistance, crisis management, and continuous coordination throughout production period.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional local fixer services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive cultural guidance including local customs, business practices, and social protocols. Language interpretation, translation services, and communication facilitation. Government relations with permit acquisition, regulatory compliance, and official coordination. Local industry connections, professional networking, and vendor relationships. Emergency support, crisis management, and 24/7 assistance throughout production.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How do you ensure cultural compliance and local expertise?</h3>
+                                <p class="text-gray-300">
+                                    100% cultural compliance through expert local fixers with deep understanding of regional customs, business practices, and social protocols. Cultural sensitivity training, etiquette guidance, and relationship building support. Local market knowledge, industry connections, and professional networking. Continuous cultural consultation, protocol guidance, and respectful production operations ensuring positive community relations.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide government relations and permit coordination?</h3>
+                                <p class="text-gray-300">
+                                    Expert government relations including permit acquisition, regulatory compliance, and official coordination. Local authority liaison, bureaucratic navigation, and administrative support. Visa assistance, work permit coordination, and immigration support. Tax incentive guidance, rebate coordination, and financial compliance. Direct relationships with government agencies and regulatory bodies ensuring efficient processing.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What emergency support and crisis management do you offer?</h3>
+                                <p class="text-gray-300">
+                                    24/7 emergency support including medical assistance, security coordination, and comprehensive crisis management. Local emergency services coordination, hospital liaison, and medical evacuation support. Security assessment, risk management, and safety protocol implementation. Emergency communication, evacuation planning, and rapid response capabilities for any production emergencies or unexpected situations.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for local fixer services?</h3>
+                                <p class="text-gray-300">
+                                    Local fixer services typically $300-1,500 per day depending on location complexity and service scope. Basic cultural guidance $300-600 daily, comprehensive coordination $600-1,500 daily. Government relations, permit coordination, and emergency services included. Remote locations and specialized requirements may require additional fees. Volume discounts for long-term productions and multi-location projects.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you cover international locations and multiple countries?</h3>
+                                <p class="text-gray-300">
+                                    Extensive global network covering 50+ countries with professional local fixers and deep cultural expertise. Multi-country coordination, cross-border logistics, and international production support. Regional specialists, language capabilities, and local industry connections worldwide. Consistent quality standards, professional protocols, and seamless coordination across all international locations and territories.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their local fixer in Greece was incredible. Deep cultural knowledge, government connections, and 24/7 support made our complex international production seamless and successful.</p>
+                                <p class="text-greece-blue font-semibold">— Michael Chen, International Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding cultural navigation and emergency support. When our crew faced medical issues, their local fixer coordinated hospital care and evacuation within hours.</p>
+                                <p class="text-greece-blue font-semibold">— Sarah Rodriguez, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional, knowledgeable, and incredibly connected. Their government relations expertise saved us months of permit delays and bureaucratic challenges.</p>
+                                <p class="text-greece-blue font-semibold">— David Kim, Location Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center max-w-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Navigate Local Production Challenges?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional local fixer services that ensure seamless international productions, cultural compliance, and comprehensive support through expert local knowledge, government relations, and emergency assistance.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Connect with Local Fixers
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Global Solutions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/fixer-services-local/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html>/body>
+</html>ma -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

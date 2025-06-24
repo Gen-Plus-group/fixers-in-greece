@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Travel Coordinator Services | Transportation & Accommodation Management | NEEDaFIXER</title>
+    <meta name="description" content="Professional travel coordinator services providing comprehensive transportation planning, accommodation management, and travel logistics for film productions worldwide.">
+    <meta name="keywords" content="travel coordinator, transportation services, accommodation management, travel logistics, production travel, crew transportation">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Travel Coordinator Services | Transportation & Accommodation Management | NEEDaFIXER">
+    <meta property="og:description" content="Professional travel coordinator services providing comprehensive transportation planning, accommodation management, and travel logistics for film productions worldwide.">
+    <meta property="og:url" content="/film-crew/support-roles/travel-coordinator/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/film-crew/support-roles/travel-coordinator/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/36.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Travel Coordinator Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Comprehensive transportation and accommodation management ensuring seamless travel logistics for international productions.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional travel coordinator services provide comprehensive transportation and accommodation management that ensures seamless movement of cast, crew, and equipment while optimizing costs, schedules, and comfort throughout production travel requirements. Our experienced travel coordinators bring extensive knowledge of international travel requirements, local transportation networks, and accommodation options that enables productions to focus on creative objectives while having confidence that all travel-related logistics are being managed efficiently and professionally. From initial travel planning through final departure coordination, travel coordinators serve as essential support specialists who understand both the complexities of production travel and the importance of maintaining crew comfort and productivity while managing costs and schedules effectively.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Travel coordinators excel at managing complex multi-destination itineraries, coordinating diverse transportation requirements, and securing appropriate accommodations that meet production needs while maintaining budget constraints and schedule requirements with attention to detail and proactive problem-solving capabilities. Our coordinators understand the unique challenges of production travel, including equipment transport, varying arrival and departure schedules, group coordination, and the need for flexibility in changing production requirements while maintaining cost efficiency and quality service standards. They provide strategic planning and coordination that anticipates potential challenges, offers contingency solutions, and ensures that all travel arrangements support production goals while maintaining positive experiences for traveling personnel and efficient operations throughout all phases of travel coordination.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Each travel coordinator in our network combines travel industry expertise with production knowledge and strong organizational skills, offering proven ability to manage large-scale travel operations, negotiate favorable rates, and maintain positive relationships with travel service providers while delivering consistent results under tight deadlines and changing requirements. They serve as dedicated travel specialists who understand both the logistical complexities of production travel and the importance of maintaining crew satisfaction and productivity through well-planned and executed travel arrangements. Our travel coordinators pride themselves on being detail-oriented professionals who maintain the highest standards of service, efficiency, and cost management throughout every aspect of travel planning and coordination, ensuring that productions can maintain focus on creative excellence while having confidence that all travel needs are being handled by knowledgeable specialists who appreciate both operational requirements and traveler comfort.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Travel Coordinator Expertise</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">✈️</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Travel Planning</h3>
+                            <p class="text-gray-300">Comprehensive itinerary and logistics coordination.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🏨</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Accommodation Management</h3>
+                            <p class="text-gray-300">Quality lodging and comfort optimization.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🚗</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Transportation Solutions</h3>
+                            <p class="text-gray-300">Ground transport and vehicle coordination.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">💰</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Cost Optimization</h3>
+                            <p class="text-gray-300">Budget management and rate negotiations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Travel Coordinator Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Coordination Services</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Flight Coordination:</strong> Air travel booking and schedule management</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Accommodation Booking:</strong> Hotel and lodging arrangements</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Ground Transportation:</strong> Vehicle rental and transfer coordination</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Group Coordination:</strong> Multi-person travel and logistics management</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Equipment Transport:</strong> Gear shipping and customs coordination</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Emergency Support:</strong> Travel assistance and problem resolution</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Coordination Process</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Requirements Assessment:</strong> Travel needs and schedule analysis</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Route Planning:</strong> Optimal itinerary and connection coordination</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Booking Management:</strong> Reservation coordination and confirmations</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Documentation Support:</strong> Travel documents and visa assistance</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Real-Time Monitoring:</strong> Travel status tracking and updates</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Arrival Coordination:</strong> Ground support and logistics management</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our Travel Coordinators</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Networks</h3>
+                            <p class="text-gray-300">Worldwide travel partnerships and connections.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">📋</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Production Experience</h3>
+                            <p class="text-gray-300">Understanding of film industry travel needs.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">24/7 Support</h3>
+                            <p class="text-gray-300">Round-the-clock assistance and coordination.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">💡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Cost Efficiency</h3>
+                            <p class="text-gray-300">Optimal rates and budget-conscious planning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Need Travel Coordination for Your Production?</h2>
+                <p class="text-xl text-white mb-8">Get expert travel management and seamless logistics coordination.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for film-crew/support-roles/travel-coordinator, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

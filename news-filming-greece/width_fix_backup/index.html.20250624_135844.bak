@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>News and Current Affairs Filming Greece | Breaking News Support</title>
+    <meta name="description" content="Fast-turnaround news filming services in Greece. 24/7 support for breaking news, current affairs, and live broadcasting with experienced local crews.">
+    <meta name="keywords" content="news filming Greece, current affairs production Greece, breaking news Greece, CNN Greece filming, Reuters Greece bureau, live broadcasting Greece">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/news-filming-greece/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="News and Current Affairs Filming Greece | Breaking News Support">
+    <meta property="og:description" content="Fast-turnaround news filming services in Greece. 24/7 support for breaking news, current affairs, and live broadcasting with experienced local crews.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/news-filming-greece/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+    
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/8.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+                                    /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        </style>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-orange text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-20 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="relative z-10 container mx-auto px-4 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-6">
+                    News and Current Affairs Filming Greece
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8">
+                    Fast-turnaround news filming services in Greece. 24/7 support for breaking news, current affairs, and live broadcasting with experienced local crews.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#content" 
+                       class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                        Learn More
+                    </a>
+                    <a href="/contact/" 
+                       class="inline-block bg-transparent border-2 border-greece-blue text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-greece-blue hover:text-black transition-colors duration-200">
+                        Get Quote
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Services -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        News and Current Affairs Filming
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Fast-turnaround news filming services with 24/7 availability for breaking news, current affairs, and live broadcasting.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Breaking News Support -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">⚡</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Breaking News Support</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• 24/7 rapid deployment</li>
+                            <li>• 2-hour response time</li>
+                            <li>• Mobile broadcast units</li>
+                            <li>• Live streaming capabilities</li>
+                            <li>• Satellite uplink services</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Always Ready</span>
+                        </div>
+                    </div>
+
+                    <!-- Current Affairs Production -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📰</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Current Affairs Production</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• In-depth investigative support</li>
+                            <li>• Expert interview coordination</li>
+                            <li>• Government access facilitation</li>
+                            <li>• Archive footage research</li>
+                            <li>• Multi-language interpretation</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Expert Research</span>
+                        </div>
+                    </div>
+
+                    <!-- Live Broadcasting -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📡</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Live Broadcasting</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• HD/4K live transmission</li>
+                            <li>• Multiple camera setups</li>
+                            <li>• Professional audio mixing</li>
+                            <li>• Backup transmission systems</li>
+                            <li>• Technical director support</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Broadcast Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Specializations -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        News Coverage Specializations
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Comprehensive news coverage across all major story categories with local expertise and international standards.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Political Coverage -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🏛️</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Political Coverage</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Government press conferences</li>
+                            <li>• Political events</li>
+                            <li>• Election coverage</li>
+                            <li>• Diplomatic meetings</li>
+                            <li>• Policy announcements</li>
+                        </ul>
+                    </div>
+
+                    <!-- Economic News -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">💼</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Economic News</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Business developments</li>
+                            <li>• Market analysis</li>
+                            <li>• Trade agreements</li>
+                            <li>• Corporate announcements</li>
+                            <li>• Economic indicators</li>
+                        </ul>
+                    </div>
+
+                    <!-- Social Issues -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">👥</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Social Issues</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Human interest stories</li>
+                            <li>• Social movements</li>
+                            <li>• Community events</li>
+                            <li>• Cultural developments</li>
+                            <li>• Public health issues</li>
+                        </ul>
+                    </div>
+
+                    <!-- Breaking Events -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6 text-center hover:border-greece-blue transition-colors duration-200">
+                        <div class="text-4xl mb-4">🚨</div>
+                        <h3 class="text-lg font-bold text-greece-blue mb-2">Breaking Events</h3>
+                        <ul class="text-sm text-gray-300 space-y-1">
+                            <li>• Natural disasters</li>
+                            <li>• Emergency situations</li>
+                            <li>• Accidents and incidents</li>
+                            <li>• Crisis coverage</li>
+                            <li>• Emergency response</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- International News Partnerships -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        International News Bureau Support
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Trusted partner for international news organizations, providing comprehensive support for correspondents and bureau operations.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">News Bureau Services</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-orange pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">CNN International Partnership</h4>
+                                <p class="text-gray-300">Regular support for CNN Athens bureau covering EU politics, migration crisis, economic developments, and breaking news across Greece and the Balkans with live transmission capabilities.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-orange pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Reuters News Agency Support</h4>
+                                <p class="text-gray-300">Professional filming services for Reuters Greece operations covering Eurozone developments, shipping industry news, migration stories, and regional politics with rapid international distribution.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-orange pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">BBC World Service</h4>
+                                <p class="text-gray-300">Technical support and crew services for BBC correspondents covering Greek and EU affairs with expertise in political analysis, economic reporting, and cultural programming.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">24/7 Response Capabilities</h3>
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">2hrs</div>
+                                    <div class="text-sm text-gray-300">Emergency Response</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24/7</div>
+                                    <div class="text-sm text-gray-300">Availability</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">30min</div>
+                                    <div class="text-sm text-gray-300">Live Setup</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">15+</div>
+                                    <div class="text-sm text-gray-300">News Partners</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-orange mr-3">✓</span>
+                                    <span>Mobile satellite uplinks across mainland and islands</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-orange mr-3">✓</span>
+                                    <span>Professional news crews in Athens, Thessaloniki, and islands</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-orange mr-3">✓</span>
+                                    <span>Emergency backup systems and redundancy</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-orange mr-3">✓</span>
+                                    <span>Greek, English, and EU language interpretation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Infrastructure -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        News Broadcasting Technology
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        State-of-the-art broadcasting equipment and transmission capabilities for professional news coverage.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Live Broadcast Equipment -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📡</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Live Broadcast Equipment</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Mobile satellite trucks (Ku-band)</li>
+                            <li>• HD/4K live encoding systems</li>
+                            <li>• Multi-camera wireless systems</li>
+                            <li>• Professional audio mixing consoles</li>
+                            <li>• Backup power and generators</li>
+                            <li>• Weather-resistant equipment</li>
+                        </ul>
+                    </div>
+
+                    <!-- Field Production Gear -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🎥</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Field Production Gear</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Sony FX cameras with news lenses</li>
+                            <li>• Wireless microphone systems</li>
+                            <li>• Portable lighting kits</li>
+                            <li>• Tripods and stabilization gear</li>
+                            <li>• Field monitors and recorders</li>
+                            <li>• Memory cards and storage</li>
+                        </ul>
+                    </div>
+
+                    <!-- Transmission Systems -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📶</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Transmission Systems</h3>
+                        <ul class="text-gray-300 text-sm space-y-2">
+                            <li>• Satellite uplink capabilities</li>
+                            <li>• 5G/4G cellular bonding</li>
+                            <li>• IP-based streaming</li>
+                            <li>• File transfer acceleration</li>
+                            <li>• Redundant transmission paths</li>
+                            <li>• Real-time quality monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recent News Coverage -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Recent News Coverage Examples
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Professional news coverage for major international networks across diverse story categories.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Major Political Event -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-4xl">🏛️</div>
+                            <div class="flex-1">
+                                <h3 class="text-xl font-bold text-greece-orange mb-2">EU Council Summit Coverage</h3>
+                                <p class="text-gray-300 mb-3">
+                                    Comprehensive coverage of EU leadership meetings in Athens including live broadcasts, press conferences, and bilateral meetings between European leaders.
+                                </p>
+                                <div class="text-sm text-gray-400 space-y-1">
+                                    <div>• 3-day summit coverage</div>
+                                    <div>• Multiple broadcast positions</div>
+                                    <div>• 27 EU delegation coverage</div>
+                                    <div>• Real-time Brussels links</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Economic Development Story -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-4xl">💼</div>
+                            <div class="flex-1">
+                                <h3 class="text-xl font-bold text-greece-orange mb-2">Eurozone Economic Coverage</h3>
+                                <p class="text-gray-300 mb-3">
+                                    In-depth analysis of Greek economic recovery, EU bailout programs, tourism sector developments, and shipping industry news for financial networks.
+                                </p>
+                                <div class="text-sm text-gray-400 space-y-1">
+                                    <div>• Ministry of Finance access</div>
+                                    <div>• Athens Stock Exchange coverage</div>
+                                    <div>• Bank of Greece interviews</div>
+                                    <div>• Piraeus port operations</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Natural Disaster Response -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-4xl">🌊</div>
+                            <div class="flex-1">
+                                <h3 class="text-xl font-bold text-greece-orange mb-2">Migration Crisis Coverage</h3>
+                                <p class="text-gray-300 mb-3">
+                                    24/7 coverage of refugee arrivals on Greek islands, EU border agency operations, and humanitarian response with sensitive reporting standards.
+                                </p>
+                                <div class="text-sm text-gray-400 space-y-1">
+                                    <div>• Lesbos and Samos coverage</div>
+                                    <div>• Frontex operations access</div>
+                                    <div>• NGO coordination</div>
+                                    <div>• Integration story development</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Cultural Event Coverage -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="flex items-start space-x-4">
+                            <div class="text-4xl">🎭</div>
+                            <div class="flex-1">
+                                <h3 class="text-xl font-bold text-greece-orange mb-2">Archaeological Discoveries</h3>
+                                <p class="text-gray-300 mb-3">
+                                    Exclusive coverage of archaeological finds, ancient site excavations, and cultural heritage stories connecting modern Greece with its classical past.
+                                </p>
+                                <div class="text-sm text-gray-400 space-y-1">
+                                    <div>• Excavation site access</div>
+                                    <div>• Archaeologist interviews</div>
+                                    <div>• Ministry of Culture coordination</div>
+                                    <div>• 3D reconstruction coverage</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Production FAQ -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        News Production FAQ
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Common questions about news filming and broadcasting services in Greece.
+                    </p>
+                </div>
+
+                <div class="max-w-4xl mx-auto space-y-6">
+                    <!-- FAQ Item 1 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How quickly can you respond to breaking news?</h3>
+                        <p class="text-gray-300">
+                            Our emergency response time is 2 hours for breaking news coverage in Thessaloniki and Athens, with nationwide coverage available within 4-6 hours. We maintain 24/7 standby crews and equipment ready for immediate deployment. Our mobile satellite units can be operational within 30 minutes of arrival on location, providing live broadcast capabilities for urgent news events.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 2 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Do you work with international news networks?</h3>
+                        <p class="text-gray-300">
+                            Yes, we regularly support major international news organizations including CNN, BBC, Reuters, Associated Press, and other leading networks. We have established relationships with news bureaus and correspondents throughout the region, providing consistent technical support, local knowledge, and cultural guidance for accurate news coverage that meets international broadcasting standards.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 3 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What live broadcasting capabilities do you offer?</h3>
+                        <p class="text-gray-300">
+                            We provide comprehensive live broadcasting services including HD/4K satellite uplinks, multi-camera live productions, cellular bonding for IP streaming, and backup transmission systems. Our mobile satellite trucks offer Ku-band transmission capabilities, while our 5G/4G bonding systems provide reliable streaming for breaking news. We also offer technical director services and real-time quality monitoring.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 4 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Can you provide interpretation and translation services?</h3>
+                        <p class="text-gray-300">
+                            Yes, we offer professional interpretation services in Greeceese, English, and other major languages. Our team includes experienced news interpreters familiar with political, economic, and technical terminology. We provide simultaneous interpretation for live broadcasts, consecutive interpretation for interviews, and rapid translation services for written materials, press releases, and official documents.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 5 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you handle government and official access?</h3>
+                        <p class="text-gray-300">
+                            Our experienced team has established relationships with government agencies, official spokespersons, and media liaison offices. We assist with press accreditation, interview arrangements, access to official events, and coordination with security personnel. Our local knowledge ensures proper protocol adherence while maintaining professional journalism standards and respecting cultural sensitivities in official settings.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 6 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">What are your rates for news production services?</h3>
+                        <p class="text-gray-300">
+                            News production rates vary based on urgency, location, crew size, and technical requirements. Standard day rates range from $800-1,500 USD for camera operator and equipment. Breaking news emergency response includes premium rates of 150-200% of standard pricing. Live broadcasting with satellite uplink ranges from $2,000-4,000 USD per day. We offer competitive package rates for multi-day coverage and established news bureau clients.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 7 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide archival footage and research support?</h3>
+                        <p class="text-gray-300">
+                            Yes, we maintain extensive archives of Greeceese news footage and provide research support for historical context. Our team can source archival materials, coordinate access to government archives, and provide background research for complex stories. We also offer fact-checking services, source verification, and cultural context to ensure accurate and comprehensive news coverage that meets international journalism standards.
+                        </p>
+                    </div>
+
+                    <!-- FAQ Item 8 -->
+                    <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-greece-blue mb-3">How do you ensure safety during crisis coverage?</h3>
+                        <p class="text-gray-300">
+                            Safety is our top priority during crisis and emergency coverage. Our crews receive specialized training in hostile environment awareness, emergency evacuation procedures, and crisis communication protocols. We maintain safety equipment including protective gear, emergency communication devices, and medical supplies. We coordinate with local authorities and emergency services to ensure safe access while maintaining professional coverage standards.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Need Fast News Coverage in Greece?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Our experienced news crews are ready 24/7 for breaking news, current affairs, and live broadcasting. Fast response times and professional quality guaranteed.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Emergency News Support
+                    </a>
+                    <a href="/documentary-filming-greece/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        Documentary Services
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+            <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        / Mobile menu functionality
+                / Mobile menu main toggle
+        / Mobile menu handled by component loader
+
+        / Mobile dropdown functionality
+        / Mobile dropdown functionality handled by component loader);
+            
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+            
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Initialize mobile dropdowns when DOM is loaded
+        / Mobile menu initialization handled by component loader
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for news-filming-Greece/index.html, page functionality ready');
+            
+            / Trigger any existing page initialization that might depend on DOM structure
+            if (typeof initializePageFunctionality === 'function') {
+                initializePageFunctionality();
+            }
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

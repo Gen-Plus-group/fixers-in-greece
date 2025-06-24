@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Pre-Production Services Greece | Planning, Creative Development, Logistics Greece | NEEDaFIXER</title>
+    <meta name="description" content="Comprehensive pre-production services for films, TV, commercials, and digital content. Expert planning, creative development, and logistics worldwide. in Greece">
+    <meta name="keywords" content="pre-production services, film planning, creative development, production logistics, scriptwriting, casting, location scouting">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pre-Production Services | Planning, Creative Development, Logistics | NEEDaFIXER">
+    <meta property="og:description" content="Comprehensive pre-production services for films, TV, commercials, and digital content. Expert planning, creative development, and logistics worldwide. in Greece">
+    <meta property="og:url" content="/pre-production-services/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/34.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        .service-card {
+            transition: all 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(255, 107, 53, 0.2);
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Pre-Production Services",
+        "description": "Comprehensive pre-production services for films, TV, commercials, and digital content. Expert planning, creative development, and logistics worldwide.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Pre-Production Services",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+    <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+
+
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10 max-w-full">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Pre-Production Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto mb-8">
+                        Planning, creative development, and logistics for exceptional productions worldwide
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <a href="/contact/" class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                            Start Your Project
+                        </a>
+                        <a href="tel:+442085492259" class="inline-block border-2 border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-white hover:text-black transition-colors duration-200">
+                            Call +44 20 8549 2259
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Introduction Section -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-6">
+                        Comprehensive Pre-Production Services
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto mb-8">
+                        From initial concept to production-ready planning, our expert team provides comprehensive pre-production services that set the foundation for successful films, TV shows, commercials, and digital content worldwide.
+                    </p>
+                </div>
+                
+                <div class="grid md:grid-cols-3 gap-8 mb-16">
+                    <div class="text-center">
+                        <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎬</div>
+                        <h3 class="text-xl font-semibold text-greece-blue mb-3">Creative Excellence</h3>
+                        <p class="text-gray-300">Expert scriptwriting, storyboarding, and creative development services that bring your vision to life with professional precision.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">📋</div>
+                        <h3 class="text-xl font-semibold text-greece-blue mb-3">Strategic Planning</h3>
+                        <p class="text-gray-300">Comprehensive budgeting, scheduling, and logistics coordination that ensures your production runs smoothly from day one.</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                        <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Reach</h3>
+                        <p class="text-gray-300">Worldwide network of professionals providing local expertise and international quality standards for productions anywhere.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Grid Section -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Our Pre-Production Services</h2>
+                    
+                    <!-- Creative & Development -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Creative & Development</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/pre-production-services/scriptwriting/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Scriptwriting</h4>
+                                <p class="text-gray-300 text-sm">Professional screenwriting services</p>
+                            </a>
+                            <a href="/pre-production-services/script-consultation/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Script Consultation</h4>
+                                <p class="text-gray-300 text-sm">Expert script polishing and refinement</p>
+                            </a>
+                            <a href="/pre-production-services/storyboarding/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Storyboarding</h4>
+                                <p class="text-gray-300 text-sm">Visual storytelling and planning</p>
+                            </a>
+                            <a href="/pre-production-services/concept-development/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Concept Development</h4>
+                                <p class="text-gray-300 text-sm">Creative ideation and planning</p>
+                            </a>
+                            <a href="/pre-production-services/creative-direction/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Creative Direction</h4>
+                                <p class="text-gray-300 text-sm">Artistic vision and leadership</p>
+                            </a>
+                            <a href="/pre-production-services/moodboard-creation/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Moodboards</h4>
+                                <p class="text-gray-300 text-sm">Visual style guides and lookbooks</p>
+                            </a>
+                            <a href="/pre-production-services/pitch-deck-design/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Pitch Decks</h4>
+                                <p class="text-gray-300 text-sm">Compelling presentations and treatments</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Casting & Talent -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Casting & Talent</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/pre-production-services/casting-services/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Casting Services</h4>
+                                <p class="text-gray-300 text-sm">Actors, models, and extras</p>
+                            </a>
+                            <a href="/pre-production-services/voiceover-casting/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Voiceover Casting</h4>
+                                <p class="text-gray-300 text-sm">Professional voice talent</p>
+                            </a>
+                            <a href="/pre-production-services/talent-coordination/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Talent Coordination</h4>
+                                <p class="text-gray-300 text-sm">Artist management and scheduling</p>
+                            </a>
+                            <a href="/pre-production-services/union-talent-management/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Union Management</h4>
+                                <p class="text-gray-300 text-sm">Union and non-union talent handling</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Location & Permits -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Location & Permits</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/pre-production-services/location-scouting-services/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Location Scouting</h4>
+                                <p class="text-gray-300 text-sm">Perfect filming locations worldwide</p>
+                            </a>
+                            <a href="/pre-production-services/location-management/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Location Management</h4>
+                                <p class="text-gray-300 text-sm">On-site coordination and management</p>
+                            </a>
+                            <a href="/pre-production-services/film-permit-acquisition/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Permit Acquisition</h4>
+                                <p class="text-gray-300 text-sm">Filming permits and licenses</p>
+                            </a>
+                            <a href="/pre-production-services/site-surveys/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Site Surveys</h4>
+                                <p class="text-gray-300 text-sm">Technical location assessment</p>
+                            </a>
+                            <a href="/pre-production-services/production-insurance/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Production Insurance</h4>
+                                <p class="text-gray-300 text-sm">Comprehensive coverage solutions</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Budgeting & Scheduling -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Budgeting & Scheduling</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/pre-production-services/production-budgeting/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Production Budgeting</h4>
+                                <p class="text-gray-300 text-sm">Financial planning and management</p>
+                            </a>
+                            <a href="/pre-production-services/cost-estimation/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Cost Estimation</h4>
+                                <p class="text-gray-300 text-sm">Accurate budget analysis</p>
+                            </a>
+                            <a href="/pre-production-services/production-scheduling/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Production Scheduling</h4>
+                                <p class="text-gray-300 text-sm">Timeline management and coordination</p>
+                            </a>
+                            <a href="/pre-production-services/call-sheets/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Call Sheets</h4>
+                                <p class="text-gray-300 text-sm">Shooting schedules and coordination</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Crew & Logistics -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Crew & Logistics</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/pre-production-services/line-producing-services/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Line Producing</h4>
+                                <p class="text-gray-300 text-sm">Production management expertise</p>
+                            </a>
+                            <a href="/pre-production-services/crew-hiring/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Crew Hiring</h4>
+                                <p class="text-gray-300 text-sm">Professional crew recruitment</p>
+                            </a>
+                            <a href="/pre-production-services/fixer-services-local/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Local Fixers</h4>
+                                <p class="text-gray-300 text-sm">Local production support</p>
+                            </a>
+                            <a href="/pre-production-services/travel-logistics/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Travel Logistics</h4>
+                                <p class="text-gray-300 text-sm">Travel and accommodation coordination</p>
+                            </a>
+                            <a href="/pre-production-services/equipment-planning/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Equipment Planning</h4>
+                                <p class="text-gray-300 text-sm">Production gear coordination</p>
+                            </a>
+                            <a href="/pre-production-services/catering-services/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Catering Services</h4>
+                                <p class="text-gray-300 text-sm">On-set catering coordination</p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Legal & Administrative -->
+                    <div class="mb-12">
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Legal & Administrative</h3>
+                        <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-4">
+                            <a href="/pre-production-services/contract-management/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Contract Management</h4>
+                                <p class="text-gray-300 text-sm">Legal documentation handling</p>
+                            </a>
+                            <a href="/pre-production-services/talent-releases/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Talent Releases</h4>
+                                <p class="text-gray-300 text-sm">Legal agreements and releases</p>
+                            </a>
+                            <a href="/pre-production-services/location-agreements/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Location Agreements</h4>
+                                <p class="text-gray-300 text-sm">Location contracts and agreements</p>
+                            </a>
+                            <a href="/pre-production-services/licensing-rights/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">Licensing & Rights</h4>
+                                <p class="text-gray-300 text-sm">Intellectual property management</p>
+                            </a>
+                            <a href="/pre-production-services/covid-compliance/" class="service-card bg-greece-darker border border-gray-700 rounded-lg p-4 hover:border-greece-blue transition-all duration-300">
+                                <h4 class="text-greece-blue font-semibold mb-2">COVID Compliance</h4>
+                                <p class="text-gray-300 text-sm">Safety protocols and compliance</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose NEEDaFIXER for Pre-Production</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">✅</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Proven Expertise</h3>
+                            <p class="text-gray-300">Industry-leading professionals with extensive experience across all production types and budgets.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌍</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Global Network</h3>
+                            <p class="text-gray-300">Worldwide coverage with local expertise and international quality standards.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Fast Response</h3>
+                            <p class="text-gray-300">Quick turnaround times with 24-48 hour response for urgent projects.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">💼</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Full Service</h3>
+                            <p class="text-gray-300">Comprehensive solutions from concept to completion with ongoing support.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4 max-w-full">
+                <div class="max-w-4xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Pre-Production FAQs</h2>
+                    <div class="space-y-6">
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">What's included in pre-production services?</h3>
+                            <p class="text-gray-300">Comprehensive planning including scriptwriting, casting, location scouting, budgeting, scheduling, crew hiring, and all legal documentation needed for production.</p>
+                        </div>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">How long does pre-production take?</h3>
+                            <p class="text-gray-300">Timeline varies by project scope, typically 4-12 weeks for feature films, 2-6 weeks for commercials, and 1-3 weeks for smaller projects.</p>
+                        </div>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Do you work internationally?</h3>
+                            <p class="text-gray-300">Yes, we provide pre-production services worldwide with local expertise and international quality standards in 100+ countries.</p>
+                        </div>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Can you handle specific budget requirements?</h3>
+                            <p class="text-gray-300">Absolutely. We work with all budget levels from independent films to major studio productions, providing scalable solutions that fit your financial parameters.</p>
+                        </div>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">What makes your pre-production services different?</h3>
+                            <p class="text-gray-300">Our integrated approach combines creative excellence with strategic planning, backed by a global network of vetted professionals and proven project management methodologies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center max-w-full">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Start Your Pre-Production?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Contact us today to discuss your project requirements and discover how our comprehensive pre-production services can bring your vision to life.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/" class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Start Your Project
+                    </a>
+                    <a href="tel:+442085492259" class="inline-block border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        Call +44 20 8549 2259
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/index.html, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+</body>
+</html>
+pe="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>

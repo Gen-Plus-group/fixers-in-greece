@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Call Sheets & Shooting Schedules | Production Coordination | NEEDaFIXER</title>
+    <meta name="description" content="Professional call sheet and shooting schedule services. Expert production coordination.">
+    <meta name="keywords" content="call sheets, pre-production services, film production Greece, budgeting & scheduling">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Call Sheets & Shooting Schedules | Production Coordination | NEEDaFIXER">
+    <meta property="og:description" content="Professional call sheet and shooting schedule services. Expert production coordination.">
+    <meta property="og:url" content="/pre-production-services/call-sheets/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/pre-production-services/call-sheets/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/2.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        
+                                /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            min-width: 100%;
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px; /* Additional top margin for visual separation */
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0; /* Allow columns to shrink */
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        .mega-menu-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        }
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        }
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        }
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        }
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        }
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
+        }
+        
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            }
+        }
+    </style>
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        "name": "Call Sheets & Shooting Schedules",
+        "description": "Professional call sheet and shooting schedule services. Expert production coordination.",
+        "provider": {
+            "@type": "Organization",
+            "name": "NEEDaFIXER",
+            "url": "https://needafixer.com/"
+        },
+        "serviceType": "Budgeting & Scheduling",
+        "areaServed": "Worldwide"
+    }
+    </script>
+</head>
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
+    </div>
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Call Sheets & Shooting Schedules
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Professional call sheets and detailed shooting schedule coordination.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+                <!-- Call Sheets Services Overview -->
+        <section id="content" class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Comprehensive Call Sheets Solutions
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+                        Expert call sheet services ensuring clear communication and efficient production coordination. Professional scheduling and information management for seamless daily operations.
+                    </p>
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    
+                    <!-- Schedule Coordination -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📅</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Schedule Coordination</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Daily scheduling</li>
+                            <li>• Crew calls</li>
+                            <li>• Talent coordination</li>
+                            <li>• Equipment scheduling</li>
+                            <li>• Location timing</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Perfect Timing</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Information Management -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📋</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Information Management</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Contact details</li>
+                            <li>• Location information</li>
+                            <li>• Weather updates</li>
+                            <li>• Special instructions</li>
+                            <li>• Emergency contacts</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Complete Information</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Digital Distribution -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">📱</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Digital Distribution</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Mobile optimization</li>
+                            <li>• Real-time updates</li>
+                            <li>• Push notifications</li>
+                            <li>• Cloud synchronization</li>
+                            <li>• Offline access</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Digital Efficiency</span>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Update Management -->
+                    <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                        <div class="text-4xl mb-4 text-center">🔄</div>
+                        <h3 class="text-xl font-bold text-greece-blue mb-3 text-center">Update Management</h3>
+                        <ul class="text-gray-300 space-y-2 mb-4">
+                            <li>• Last-minute changes</li>
+                            <li>• Version control</li>
+                            <li>• Change notifications</li>
+                            <li>• Revision tracking</li>
+                            <li>• Communication logs</li>
+                        </ul>
+                        <div class="text-center">
+                            <span class="text-greece-blue font-semibold">Dynamic Updates</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Professional Call Sheets Capabilities -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold text-greece-blue mb-4">
+                        Professional Call Sheets Expertise
+                    </h2>
+                    <p class="text-xl text-gray-300 max-w-4xl mx-auto">
+                        Expert production coordinators with comprehensive experience in call sheet creation, crew communication, and production scheduling ensuring seamless daily operations and efficient crew coordination throughout filming.
+                    </p>
+                </div>
+
+                <div class="grid lg:grid-cols-2 gap-12 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Complete Call Sheet Management</h3>
+                        <div class="space-y-6">
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Daily Production Coordination</h4>
+                                <p class="text-gray-300">Comprehensive daily call sheet creation including crew schedules, location details, and production requirements. Talent call times, equipment lists, and crew assignments with detailed contact information. Weather monitoring, backup planning, and contingency scheduling. Real-time updates, change notifications, and emergency communication protocols ensuring smooth daily operations.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Digital Distribution & Communication</h4>
+                                <p class="text-gray-300">Professional digital distribution systems with automated delivery, read receipts, and confirmation tracking. Multi-platform communication including email, SMS, and mobile app notifications. Real-time updates, revision tracking, and change management with instant crew notification. Emergency communication systems and urgent update protocols for critical information.</p>
+                            </div>
+                            <div class="border-l-4 border-greece-blue pl-6">
+                                <h4 class="text-xl font-semibold text-white mb-2">Schedule Optimization & Efficiency</h4>
+                                <p class="text-gray-300">Advanced scheduling optimization including crew efficiency analysis, travel time coordination, and resource allocation. Union compliance, labor regulations, and overtime management. Cost optimization, budget tracking, and efficiency improvements. Performance analytics, timing analysis, and continuous improvement recommendations for enhanced production workflow.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="text-2xl font-bold text-greece-blue mb-6">Call Sheets Performance</h3>
+                        <div class="bg-greece-darker border border-gray-700 rounded-lg p-6">
+                            <div class="grid grid-cols-2 gap-6 mb-6">
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">5,000+</div>
+                                    <div class="text-sm text-gray-300">Call Sheets Created</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">99%</div>
+                                    <div class="text-sm text-gray-300">On-Time Delivery</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">24/7</div>
+                                    <div class="text-sm text-gray-300">Update Support</div>
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-3xl font-bold text-greece-blue mb-2">100%</div>
+                                    <div class="text-sm text-gray-300">Crew Notification</div>
+                                </div>
+                            </div>
+                            <div class="space-y-3">
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Daily production coordination and scheduling</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Digital distribution and communication systems</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Schedule optimization and efficiency analysis</span>
+                                </div>
+                                <div class="flex items-center text-gray-300">
+                                    <span class="text-greece-blue mr-3">✓</span>
+                                    <span>Emergency updates and crisis communication</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call Sheets Services -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <!-- Why Choose NEEDaFIXER -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Why Choose NEEDaFIXER for Call Sheets</h2>
+                        <div class="grid md:grid-cols-2 gap-8">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">📋</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Expert Coordination</h3>
+                                <p class="text-gray-300">Professional production coordinators with extensive experience in call sheet creation, crew communication, and daily production scheduling.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">⚡</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Rapid Updates</h3>
+                                <p class="text-gray-300">99% on-time delivery with real-time updates, instant notifications, and emergency communication systems ensuring crew coordination.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">📱</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Digital Systems</h3>
+                                <p class="text-gray-300">Advanced digital distribution with automated delivery, read receipts, and multi-platform communication including mobile apps and SMS.</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6 hover:border-greece-blue transition-colors duration-200">
+                                <div class="text-3xl mb-4">🎯</div>
+                                <h3 class="text-xl font-semibold text-greece-blue mb-3">Optimization Focus</h3>
+                                <p class="text-gray-300">Schedule optimization with efficiency analysis, cost management, and continuous improvement for enhanced production workflow.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- How It Works -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Our Call Sheets Process</h2>
+                        <div class="grid md:grid-cols-4 gap-6">
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">1</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Schedule Planning</h3>
+                                <p class="text-gray-300">Comprehensive schedule analysis including crew requirements, location details, and production timeline coordination.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">2</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Call Sheet Creation</h3>
+                                <p class="text-gray-300">Professional call sheet development with detailed information, contact lists, and comprehensive production requirements.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">3</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Digital Distribution</h3>
+                                <p class="text-gray-300">Automated distribution with multi-platform delivery, confirmation tracking, and real-time update capabilities.</p>
+                            </div>
+                            <div class="text-center">
+                                <div class="bg-greece-blue text-black rounded-full w-12 h-12 flex items-center justify-center text-xl font-bold mx-auto mb-4">4</div>
+                                <h3 class="text-lg font-semibold text-greece-blue mb-2">Ongoing Support</h3>
+                                <p class="text-gray-300">24/7 update support with change management, emergency communication, and continuous coordination throughout production.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Section -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Frequently Asked Questions</h2>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- FAQ Item 1 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What's included in professional call sheet services?</h3>
+                                <p class="text-gray-300">
+                                    Comprehensive daily call sheet creation including crew schedules, location details, and production requirements. Talent call times, equipment lists, and crew assignments with detailed contact information. Weather monitoring, backup planning, and contingency scheduling. Digital distribution systems with automated delivery, read receipts, and real-time updates. Emergency communication protocols and change management throughout production.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 2 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How do you ensure timely delivery and crew notification?</h3>
+                                <p class="text-gray-300">
+                                    99% on-time delivery with automated distribution systems, multi-platform communication, and instant notification capabilities. Email, SMS, and mobile app delivery with read receipts and confirmation tracking. Real-time updates, revision tracking, and change management with immediate crew notification. Emergency communication systems and urgent update protocols for critical information and last-minute changes.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 3 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide digital distribution and mobile access?</h3>
+                                <p class="text-gray-300">
+                                    Advanced digital distribution with automated delivery, read receipts, and multi-platform communication including mobile apps and SMS. Cloud-based access, offline viewing capabilities, and cross-device synchronization. Real-time updates, push notifications, and emergency communication systems. Digital archive, revision history, and comprehensive communication logs for production documentation.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 4 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">How do you handle schedule changes and emergency updates?</h3>
+                                <p class="text-gray-300">
+                                    24/7 update support with real-time change management, instant crew notification, and emergency communication protocols. Automated revision tracking, change notifications, and update confirmation systems. Weather monitoring, contingency planning, and backup scheduling coordination. Crisis communication, emergency contact systems, and rapid response capabilities for urgent production changes.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 5 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">What are the typical costs for call sheet services?</h3>
+                                <p class="text-gray-300">
+                                    Call sheet services typically $200-800 per day depending on crew size and complexity. Basic call sheets $200-400 daily, comprehensive coordination $400-800 daily. Digital distribution systems, mobile apps, and advanced features included. Emergency updates and 24/7 support available with premium pricing. Volume discounts for long-term productions and large crew sizes.
+                                </p>
+                            </div>
+
+                            <!-- FAQ Item 6 -->
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <h3 class="text-xl font-bold text-greece-blue mb-3">Do you provide schedule optimization and efficiency analysis?</h3>
+                                <p class="text-gray-300">
+                                    Advanced scheduling optimization including crew efficiency analysis, travel time coordination, and resource allocation. Union compliance, labor regulations, and overtime management. Cost optimization, budget tracking, and efficiency improvements. Performance analytics, timing analysis, and continuous improvement recommendations for enhanced production workflow and reduced operational costs.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Client Testimonials -->
+                    <div class="mb-16">
+                        <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Client Success Stories</h2>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Their call sheet coordination kept our 80-person crew perfectly synchronized for 12 weeks. The digital distribution and real-time updates were game-changing for our production.</p>
+                                <p class="text-greece-blue font-semibold">— Rachel Martinez, Production Manager</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Outstanding coordination and emergency response. When weather forced last-minute changes, they had updated call sheets distributed to the entire crew within minutes.</p>
+                                <p class="text-greece-blue font-semibold">— James Wilson, Executive Producer</p>
+                            </div>
+                            <div class="bg-greece-dark border border-gray-700 rounded-lg p-6">
+                                <div class="text-greece-blue text-4xl mb-4">"</div>
+                                <p class="text-gray-300 mb-4 italic">Professional, efficient, and incredibly reliable. Their schedule optimization and digital systems improved our production efficiency by 25% and reduced coordination costs.</p>
+                                <p class="text-greece-blue font-semibold">— Maria Santos, Line Producer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-yellow-500">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-black mb-6">
+                    Ready to Streamline Your Production Coordination?
+                </h2>
+                <p class="text-xl text-black mb-8 max-w-3xl mx-auto">
+                    Professional call sheet services that ensure seamless crew coordination, efficient communication, and optimal production scheduling through expert coordination, digital distribution, and real-time updates.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="/contact/"
+                       class="inline-block bg-black text-greece-blue px-8 py-3 rounded-md font-semibold hover:bg-gray-800 transition-colors duration-200">
+                        Optimize Coordination
+                    </a>
+                    <a href="/portfolio/"
+                       class="inline-block bg-transparent border-2 border-black text-black px-8 py-3 rounded-md font-semibold hover:bg-black hover:text-greece-blue transition-colors duration-200">
+                        View Coordination Solutions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for pre-production-services/call-sheets/index.html, page functionality ready');
+            
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+</body>
+</html></html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Post-Production Supervisor Services | Editorial Management & Delivery | NEEDaFIXER</title>
+    <meta name="description" content="Professional post-production supervisor services providing editorial oversight, workflow management, and delivery coordination for seamless post-production operations worldwide.">
+    <meta name="keywords" content="post-production supervisor, editorial management, post workflow, delivery coordination, post-production oversight, editorial supervision">
+    <meta name="author" content="NEEDaFIXER">
+    
+    <!-- Geographic Meta Tags -->
+    <meta name="geo.region" content="GLOBAL">
+    <meta name="geo.placename" content="Worldwide">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Post-Production Supervisor Services | Editorial Management & Delivery | NEEDaFIXER">
+    <meta property="og:description" content="Professional post-production supervisor services providing editorial oversight, workflow management, and delivery coordination for seamless post-production operations worldwide.">
+    <meta property="og:url" content="/film-crew/support-roles/post-production-supervisor/">
+    <meta property="og:site_name" content="NEEDaFIXER">
+    <meta property="og:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="/assets/images/needafixer-greece-white.png">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://fixersingreece.com/film-crew/support-roles/post-production-supervisor/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DHKLL1DWRN');
+    </script>
+
+    <!-- Custom Styles -->
+    <style>
+        .page-hero-bg {
+            background-image: url('/assets/images/webp/3.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden bg-greece-dark text-white font-sans">
+    <!-- Dynamic Header -->
+    <div id="header-container"></div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="page-hero-bg relative py-24 md:py-32">
+            <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+            <div class="container mx-auto px-4 relative z-10">
+                <div class="text-center">
+                    <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+                        Post-Production Supervisor Services
+                    </h1>
+                    <p class="text-xl md:text-2xl text-gray-200 max-w-4xl mx-auto">
+                        Editorial oversight and workflow management ensuring efficient post-production operations and timely project delivery.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Overview -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="mb-12">
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Professional post-production supervisor services provide essential editorial oversight and workflow management that ensures seamless transition from production to delivery, coordinating complex post-production workflows, managing multiple vendor relationships, and maintaining quality standards throughout the editorial process while meeting deadlines and budget requirements. Our experienced post-production supervisors bring comprehensive understanding of editorial workflows, technical specifications, and delivery requirements that enables productions to navigate the complex post-production landscape efficiently while maintaining creative vision and technical excellence. From initial editorial planning through final delivery coordination, post-production supervisors serve as crucial liaisons who bridge the gap between creative objectives and technical execution, ensuring that all post-production elements work harmoniously toward successful project completion.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-6 leading-relaxed">
+                            Post-production supervisors excel at coordinating diverse editorial teams, managing complex schedules, and ensuring seamless integration of editing, sound design, visual effects, color correction, and finishing processes while maintaining clear communication between all stakeholders and vendors throughout the post-production pipeline. Our supervisors understand the intricate relationships between different post-production disciplines and work proactively to prevent bottlenecks, optimize workflows, and ensure that creative decisions are implemented effectively while maintaining technical standards and delivery specifications. They provide strategic oversight that anticipates potential challenges, coordinates resource allocation, and maintains project momentum while ensuring that all post-production activities contribute to the overall success and timely completion of the project within established quality parameters and budget constraints.
+                        </p>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            Each post-production supervisor in our network combines extensive editorial experience with strong project management skills and technical knowledge, offering proven ability to coordinate complex multi-vendor workflows, manage demanding schedules, and maintain positive relationships with creative and technical teams while delivering exceptional results under pressure and tight deadlines. They serve as trusted coordinators who understand both the creative process and technical requirements of modern post-production, ensuring that productions can focus on creative excellence while having confidence that all operational aspects are being managed by knowledgeable professionals who appreciate the importance of both artistic vision and technical precision. Our post-production supervisors pride themselves on being detail-oriented project leaders who maintain the highest standards of quality, efficiency, and communication throughout every phase of editorial supervision and workflow coordination, ensuring successful delivery that meets all creative, technical, and business objectives.
+                        </p>
+                    </div>
+                    
+                    <h2 class="text-3xl font-bold text-greece-blue mb-8 text-center">Post-Production Supervisor Expertise</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🎬</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Editorial Oversight</h3>
+                            <p class="text-gray-300">Comprehensive post-production workflow management.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">⏱️</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Schedule Management</h3>
+                            <p class="text-gray-300">Timeline coordination and deadline optimization.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">🔗</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Vendor Coordination</h3>
+                            <p class="text-gray-300">Multi-vendor relationship and workflow management.</p>
+                        </div>
+                        <div class="bg-greece-darker rounded-lg p-6 border border-gray-700 hover:border-greece-blue transition-all duration-300">
+                            <div class="text-3xl mb-4">✅</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Quality Assurance</h3>
+                            <p class="text-gray-300">Technical standards and delivery compliance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Post-Production Supervisor Services -->
+        <section class="py-16 bg-greece-dark">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <div class="grid md:grid-cols-2 gap-12">
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Supervisor Services</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Workflow Design:</strong> Post-production pipeline planning and optimization</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Editorial Coordination:</strong> Multi-department scheduling and management</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Vendor Management:</strong> Facility coordination and relationship oversight</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Quality Control:</strong> Technical review and standards compliance</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Delivery Coordination:</strong> Final output and distribution management</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Budget Oversight:</strong> Post-production cost tracking and control</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h2 class="text-3xl font-bold text-greece-blue mb-6">Supervision Process</h2>
+                            <ul class="space-y-4 text-gray-300">
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Project Assessment:</strong> Post-production requirements and scope analysis</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Pipeline Design:</strong> Workflow architecture and resource planning</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Team Coordination:</strong> Editorial and technical team management</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Progress Monitoring:</strong> Milestone tracking and schedule management</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Quality Review:</strong> Technical and creative standards validation</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <span class="text-greece-blue mr-3">•</span>
+                                    <span><strong class="text-white">Final Delivery:</strong> Master creation and distribution coordination</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose NEEDaFIXER -->
+        <section class="py-16">
+            <div class="container mx-auto px-4">
+                <div class="max-w-6xl mx-auto">
+                    <h2 class="text-3xl font-bold text-greece-blue mb-12 text-center">Why Choose Our Post-Production Supervisors</h2>
+                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🎓</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Technical Expertise</h3>
+                            <p class="text-gray-300">Deep knowledge of post-production workflows.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">📈</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Project Management</h3>
+                            <p class="text-gray-300">Proven leadership and coordination skills.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">🌐</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Industry Networks</h3>
+                            <p class="text-gray-300">Strong relationships with top facilities.</p>
+                        </div>
+                        <div class="text-center">
+                            <div class="bg-greece-blue text-black rounded-full w-16 h-16 flex items-center justify-center text-2xl font-bold mx-auto mb-4">⚡</div>
+                            <h3 class="text-xl font-semibold text-greece-blue mb-3">Efficient Delivery</h3>
+                            <p class="text-gray-300">On-time completion and quality assurance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-16 bg-gradient-to-r from-greece-blue to-greece-white">
+            <div class="container mx-auto px-4 text-center">
+                <h2 class="text-3xl font-bold text-white mb-4">Need Post-Production Supervision for Your Project?</h2>
+                <p class="text-xl text-white mb-8">Get expert editorial oversight and seamless post-production coordination.</p>
+                <div class="flex justify-center space-x-4">
+                    <a href="/contact/" class="bg-white text-greece-blue px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">Get Started</a>
+                    <a href="/portfolio/" class="bg-transparent border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-greece-blue transition duration-300">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Dynamic Footer -->
+    <div id="footer-container"></div>
+
+    <!-- Scripts -->
+    <script src="/js/inline-components.js" defer></script>
+    <script>
+        / Wait for components to load before initializing page-specific functionality
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for film-crew/support-roles/post-production-supervisor, page functionality ready');
+
+            / Mobile menu and other functionality handled by component loader
+        });
+    </script>
+
+
+    <!-- Local Business Schema -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>/body>
+</html>
