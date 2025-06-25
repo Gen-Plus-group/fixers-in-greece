@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug Select2</title>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+    
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
+    
+    <style>
+        body {
+            padding: 50px;
+            background: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        
+        select {
+            width: 100%;
+        }
+        
+        #log {
+            margin-top: 20px;
+            padding: 20px;
+            background: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .test-button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .test-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select2 Debug Test</h1>
+        
+        <div class="form-group">
+            <label for="test-select">Test Select2 (Multiple)</label>
+            <select id="test-select" multiple="multiple">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+                <option value="4">Option 4</option>
+                <option value="5">Option 5</option>
+            </select>
+        </div>
+        
+        <button class="test-button" onclick="testSelect2()">Test Select2</button>
+        <button class="test-button" onclick="openSelect2()">Open Dropdown</button>
+        <button class="test-button" onclick="destroySelect2()">Destroy</button>
+        <button class="test-button" onclick="reinitSelect2()">Reinitialize</button>
+        
+        <div id="log"></div>
+    </div>
+    
+    <script>
+        function log(message) {
+            var logDiv = document.getElementById('log');
+            var time = new Date().toLocaleTimeString();
+            logDiv.innerHTML = time + ' - ' + message + '<br>' + logDiv.innerHTML;
+            console.log(message);
+        }
+        
+        // Initialize on page load
+        $(document).ready(function() {
+            log('Document ready');
+            log('jQuery version: ' + $.fn.jquery);
+            log('Select2 available: ' + (typeof $.fn.select2 !== 'undefined'));
+            
+            $('#test-select').select2({
+                placeholder: 'Select options...',
+                allowClear: true,
+                width: '100%'
+            });
+            
+            log('Select2 initialized');
+            
+            // Event listeners
+            $('#test-select').on('select2:open', function() {
+                log('EVENT: Dropdown opened');
+            });
+            
+            $('#test-select').on('select2:close', function() {
+                log('EVENT: Dropdown closed');
+            });
+            
+            $('#test-select').on('select2:select', function(e) {
+                log('EVENT: Selected - ' + e.params.data.text);
+            });
+            
+            $('#test-select').on('change', function() {
+                log('EVENT: Change - Selected values: ' + $(this).val());
+            });
+        });
+        
+        function testSelect2() {
+            var instance = $('#test-select').data('select2');
+            log('Select2 instance exists: ' + (instance !== undefined));
+            if (instance) {
+                log('Is open: ' + instance.isOpen());
+                log('Container: ' + instance.$container.length);
+                log('Dropdown: ' + instance.$dropdown.length);
+            }
+        }
+        
+        function openSelect2() {
+            $('#test-select').select2('open');
+            log('Called select2("open")');
+        }
+        
+        function destroySelect2() {
+            $('#test-select').select2('destroy');
+            log('Select2 destroyed');
+        }
+        
+        function reinitSelect2() {
+            $('#test-select').select2({
+                placeholder: 'Select options...',
+                allowClear: true,
+                width: '100%'
+            });
+            log('Select2 reinitialized');
+        }
+    </script>
+</body>
+</html>

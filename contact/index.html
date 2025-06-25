@@ -627,6 +627,10 @@
                                         </optgroup>
                                     </select>
                                     <div class="error-message text-red-400 text-sm mt-1 hidden" id="services-error"></div>
+                                    <!-- Debug button -->
+                                    <button type="button" onclick="testSelect2Debug()" style="margin-top: 10px; padding: 8px 16px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                                        Test Select2
+                                    </button>
                                 </div>
                                 
                                 <!-- Date Range Picker -->
@@ -818,6 +822,58 @@
     <script>
         // Global variables for form components
         let phoneInput;
+        
+        // Debug function for Select2
+        function testSelect2Debug() {
+            console.log('=== SELECT2 DEBUG ===');
+            
+            // Check jQuery
+            console.log('jQuery loaded:', typeof jQuery !== 'undefined');
+            console.log('jQuery version:', jQuery.fn.jquery);
+            
+            // Check Select2
+            console.log('Select2 loaded:', typeof jQuery.fn.select2 !== 'undefined');
+            
+            // Check element
+            var $services = jQuery('#services');
+            console.log('Services element found:', $services.length > 0);
+            console.log('Services element visible:', $services.is(':visible'));
+            console.log('Services element display:', $services.css('display'));
+            
+            // Check Select2 instance
+            var instance = $services.data('select2');
+            console.log('Select2 instance exists:', instance !== undefined);
+            
+            if (instance) {
+                console.log('Select2 is open:', instance.isOpen());
+                console.log('Select2 container:', instance.$container.length);
+                console.log('Container visible:', instance.$container.is(':visible'));
+                
+                // Try to open
+                console.log('Attempting to open Select2...');
+                $services.select2('open');
+                
+                setTimeout(function() {
+                    console.log('After open - is open:', instance.isOpen());
+                    var dropdown = jQuery('.select2-dropdown');
+                    console.log('Dropdown found:', dropdown.length);
+                    console.log('Dropdown visible:', dropdown.is(':visible'));
+                    
+                    var searchField = jQuery('.select2-search__field');
+                    console.log('Search field found:', searchField.length);
+                    console.log('Search field visible:', searchField.is(':visible'));
+                }, 500);
+            } else {
+                console.log('No Select2 instance - trying to initialize...');
+                $services.select2({
+                    placeholder: 'Select services...',
+                    width: '100%'
+                });
+                console.log('Initialized Select2');
+            }
+            
+            console.log('=== END DEBUG ===');
+        }
         let startDatePicker;
         let endDatePicker;
 
@@ -958,11 +1014,31 @@
                         if (select2Data) {
                             console.log('Select2 instance confirmed:', select2Data);
                             console.log('Select2 options:', select2Data.options.options);
+                            
+                            // Check if the container was created
+                            var container = $('#services').next('.select2-container');
+                            console.log('Select2 container found:', container.length > 0);
+                            if (container.length > 0) {
+                                console.log('Container classes:', container.attr('class'));
+                                console.log('Container visible:', container.is(':visible'));
+                            }
+                            
+                            // Try to open programmatically
+                            setTimeout(function() {
+                                console.log('Attempting to open Select2 programmatically...');
+                                $('#services').select2('open');
+                            }, 2000);
+                        } else {
+                            console.error('No Select2 instance found on #services');
+                            
+                            // Check if the original select is still there
+                            console.log('Original select element exists:', $('#services').length);
+                            console.log('Original select visible:', $('#services').is(':visible'));
                         }
                         
-                        // Try to open and close programmatically
-                        $('#services').on('click', function() {
-                            console.log('Select element clicked directly');
+                        // Monitor clicks on the Select2 container
+                        $(document).on('click', '.select2-container', function() {
+                            console.log('Select2 container clicked');
                         });
                         
                         return true;
