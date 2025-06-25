@@ -377,6 +377,25 @@
         }
         
         /* Force search input to be visible */
+        .select2-container--open .select2-search--dropdown {
+            display: block !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+        
+        .select2-container--open .select2-search__field {
+            display: block !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+            pointer-events: auto !important;
+        }
+        
+        /* Ensure dropdown is properly positioned */
+        .select2-container--open .select2-dropdown--below {
+            display: block !important;
+        }
+        
+        /* Force search input to be visible */
         .select2-search--dropdown {
             display: block !important;
         }
@@ -846,18 +865,34 @@
                             allowClear: true,
                             width: '100%',
                             closeOnSelect: false,
-                            dropdownParent: $('body'),
                             minimumResultsForSearch: 0,
-                            dropdownCssClass: 'select2-dropdown-high'
+                            dropdownCssClass: 'select2-dropdown-high',
+                            language: {
+                                searching: function() {
+                                    return 'Searching...';
+                                },
+                                noResults: function() {
+                                    return 'No services found';
+                                }
+                            }
                         });
                         
                         // Add debug event listeners
-                        $('#services').on('select2:open', function() {
+                        $('#services').on('select2:open', function(e) {
                             console.log('Select2 dropdown opened');
-                            // Force focus on search field when dropdown opens
+                            // Force search field to be visible and focused
                             setTimeout(function() {
-                                $('.select2-search__field').focus().click();
-                            }, 100);
+                                var searchField = $('.select2-container--open .select2-search__field');
+                                if (searchField.length > 0) {
+                                    searchField.prop('disabled', false);
+                                    searchField.show();
+                                    searchField.focus();
+                                    searchField.click();
+                                    console.log('Search field focused');
+                                } else {
+                                    console.error('Search field not found');
+                                }
+                            }, 50);
                         });
                         
                         $('#services').on('select2:close', function() {

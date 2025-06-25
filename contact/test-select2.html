@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select2 Test</title>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Select2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    
+    <!-- Select2 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    
+    <style>
+        body {
+            padding: 50px;
+            background: #1a1a1a;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        select {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Select2 Test Page</h1>
+    
+    <div class="form-group">
+        <label for="services">Services Needed (Select Multiple)</label>
+        <select id="services" name="services[]" multiple="multiple">
+            <option value="film-production">Film Production Support</option>
+            <option value="location-scouting">Location Scouting</option>
+            <option value="permits">Permits & Permissions</option>
+            <option value="equipment">Equipment Rental</option>
+            <option value="crew">Local Crew</option>
+            <option value="transportation">Transportation</option>
+            <option value="accommodation">Accommodation</option>
+            <option value="translation">Translation Services</option>
+            <option value="drone">Drone Services</option>
+            <option value="post-production">Post Production</option>
+            <option value="other">Other Services</option>
+        </select>
+    </div>
+    
+    <div id="console"></div>
+    
+    <script>
+        $(document).ready(function() {
+            console.log('jQuery version:', $.fn.jquery);
+            console.log('Select2 available:', typeof $.fn.select2);
+            
+            // Basic Select2 initialization
+            $('#services').select2({
+                placeholder: 'Search and select services...',
+                allowClear: true
+            });
+            
+            $('#services').on('select2:open', function() {
+                console.log('Dropdown opened');
+                document.getElementById('console').innerHTML += '<p>Dropdown opened</p>';
+            });
+            
+            $('#services').on('select2:close', function() {
+                console.log('Dropdown closed');
+                document.getElementById('console').innerHTML += '<p>Dropdown closed</p>';
+            });
+        });
+    </script>
+</body>
+</html>
