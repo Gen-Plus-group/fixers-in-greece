@@ -370,6 +370,17 @@
             display: block !important;
         }
         
+        /* Force search input to be visible */
+        .select2-search--dropdown {
+            display: block !important;
+        }
+        
+        .select2-container--default .select2-search--dropdown .select2-search__field {
+            display: block !important;
+            width: 100% !important;
+            box-sizing: border-box !important;
+        }
+        
         /* Loading state for submit button */
         button[type="submit"]:disabled {
             cursor: not-allowed;
@@ -762,9 +773,11 @@
 
         // Wait for jQuery to be fully loaded
         function waitForJQuery(callback) {
-            if (typeof jQuery !== 'undefined' && jQuery.fn.select2) {
+            if (typeof jQuery !== 'undefined' && jQuery.fn && jQuery.fn.select2) {
+                console.log('jQuery and Select2 are loaded');
                 callback();
             } else {
+                console.log('Waiting for jQuery/Select2...');
                 setTimeout(function() {
                     waitForJQuery(callback);
                 }, 100);
@@ -814,55 +827,28 @@
             try {
                 // Ensure the select element exists
                 if ($('#services').length > 0) {
+                    // Initialize with simplified configuration
                     $('#services').select2({
                         placeholder: 'Search and select services...',
                         allowClear: true,
                         width: '100%',
                         closeOnSelect: false,
-                        tags: false,
-                        dropdownParent: $('body'), // Append to body for absolute positioning
-                        minimumResultsForSearch: 0, // Always show search box
-                        dropdownCssClass: 'select2-dropdown-high', // Custom class for z-index
-                        searchInputPlaceholder: 'Type to search services...',
-                        matcher: function(params, data) {
-                            // If there are no search terms, return all of the data
-                            if ($.trim(params.term) === '') {
-                                return data;
-                            }
-
-                            // Do not display the item if there is no 'text' property
-                            if (typeof data.text === 'undefined') {
-                                return null;
-                            }
-
-                            // Search in both the option text and the optgroup label
-                            var searchTerm = params.term.toLowerCase();
-                            var optionText = data.text.toLowerCase();
-                            
-                            // Also check parent optgroup if it exists
-                            if (data.element && data.element.parentElement && data.element.parentElement.label) {
-                                var groupLabel = data.element.parentElement.label.toLowerCase();
-                                if (groupLabel.indexOf(searchTerm) > -1 || optionText.indexOf(searchTerm) > -1) {
-                                    return data;
-                                }
-                            } else if (optionText.indexOf(searchTerm) > -1) {
-                                return data;
-                            }
-
-                            // Return `null` if the term should not be displayed
-                            return null;
-                        },
-                        language: {
-                            noResults: function() {
-                                return "No services found";
-                            },
-                            searching: function() {
-                                return "Searching...";
-                            },
-                            inputTooShort: function() {
-                                return "Start typing to search...";
-                            }
-                        }
+                        dropdownParent: $('body'),
+                        minimumResultsForSearch: 0,
+                        dropdownCssClass: 'select2-dropdown-high'
+                    });
+                    
+                    // Add debug event listeners
+                    $('#services').on('select2:open', function() {
+                        console.log('Select2 dropdown opened');
+                        // Focus on search field when dropdown opens
+                        setTimeout(function() {
+                            $('.select2-search__field').focus();
+                        }, 100);
+                    });
+                    
+                    $('#services').on('select2:close', function() {
+                        console.log('Select2 dropdown closed');
                     });
                     console.log('Select2 initialized successfully');
                 } else {
@@ -1241,47 +1227,9 @@
                             allowClear: true,
                             width: '100%',
                             closeOnSelect: false,
-                            tags: false,
                             dropdownParent: $('body'),
-                            dropdownCssClass: 'select2-dropdown-high',
                             minimumResultsForSearch: 0,
-                            searchInputPlaceholder: 'Type to search services...',
-                            matcher: function(params, data) {
-                                // If there are no search terms, return all of the data
-                                if ($.trim(params.term) === '') {
-                                    return data;
-                                }
-
-                                // Do not display the item if there is no 'text' property
-                                if (typeof data.text === 'undefined') {
-                                    return null;
-                                }
-
-                                // Search in both the option text and the optgroup label
-                                var searchTerm = params.term.toLowerCase();
-                                var optionText = data.text.toLowerCase();
-                                
-                                // Also check parent optgroup if it exists
-                                if (data.element && data.element.parentElement && data.element.parentElement.label) {
-                                    var groupLabel = data.element.parentElement.label.toLowerCase();
-                                    if (groupLabel.indexOf(searchTerm) > -1 || optionText.indexOf(searchTerm) > -1) {
-                                        return data;
-                                    }
-                                } else if (optionText.indexOf(searchTerm) > -1) {
-                                    return data;
-                                }
-
-                                // Return `null` if the term should not be displayed
-                                return null;
-                            },
-                            language: {
-                                noResults: function() {
-                                    return "No services found";
-                                },
-                                searching: function() {
-                                    return "Searching...";
-                                }
-                            }
+                            dropdownCssClass: 'select2-dropdown-high'
                         });
                         console.log('Select2 re-initialized after component load');
                     }
