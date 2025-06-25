@@ -3,13 +3,13 @@
   "@graph": [
     {
       "@type": ["Organization", "LocalBusiness", "ProfessionalService"],
-      "@id": "https://fixersinGreece.com/#organization",
+      "@id": "https://www.fixersingreece.gr/#organization",
       "name": "Fixers in Greece",
       "alternateName": ["Need a Fixer Greece", "Greece Film Fixers", "Greece Production Services"],
-      "url": "https://fixersinGreece.com/",
+      "url": "https://www.fixersingreece.gr/",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://fixersinGreece.com/assets/images/needafixer-greece-white.png",
+        "url": "https://www.fixersingreece.gr/assets/images/needafixer-greece-white.png",
         "width": 184,
         "height": 63
       },
@@ -118,19 +118,19 @@
     },
     {
       "@type": "WebSite",
-      "@id": "https://fixersinGreece.com/#website",
-      "url": "https://fixersinGreece.com/",
+      "@id": "https://www.fixersingreece.gr/#website",
+      "url": "https://www.fixersingreece.gr/",
       "name": "Fixers in Greece",
       "description": "Professional film production services in Greece",
       "publisher": {
-        "@id": "https://fixersinGreece.com/#organization"
+        "@id": "https://www.fixersingreece.gr/#organization"
       },
       "potentialAction": [
         {
           "@type": "SearchAction",
           "target": {
             "@type": "EntryPoint",
-            "urlTemplate": "https://fixersinGreece.com/?s={search_term_string}"
+            "urlTemplate": "https://www.fixersingreece.gr/?s={search_term_string}"
           },
           "query-input": "required name=search_term_string"
         }
@@ -139,25 +139,25 @@
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://fixersinGreece.com/#breadcrumb",
+      "@id": "https://www.fixersingreece.gr/#breadcrumb",
       "itemListElement": [
         {
           "@type": "ListItem",
           "position": 1,
           "name": "Home",
-          "item": "https://fixersinGreece.com/"
+          "item": "https://www.fixersingreece.gr/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "Services",
-          "item": "https://fixersinGreece.com/services/"
+          "item": "https://www.fixersingreece.gr/services/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Film Production Services Greece",
-          "item": "https://fixersinGreece.com/film-production-services/"
+          "item": "https://www.fixersingreece.gr/film-production-services/"
         }
       ]
     }

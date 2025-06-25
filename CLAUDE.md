@@ -10,6 +10,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a **static HTML website** for "Fixers in Greece" - a film production services company. The site uses **Tailwind CSS** for styling and consists of multiple HTML pages with a complex directory structure that includes legacy WordPress-generated content.
 
+**IMPORTANT: The production website domain is www.fixersingreece.gr (not .com)**
+
 ## Build Commands
 
 ### CSS Development
@@ -251,7 +253,7 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
 - **Removed broken mobile menu code** fragments that were causing JavaScript errors
 - **Updated form configuration**:
   - Confirmed Formspree form ID: `xkgbqrdp`
-  - Added full URL for redirect: `https://fixersingreece.com/contact/?success=true`
+  - Added full URL for redirect: `https://www.fixersingreece.gr/contact/?success=true`
   - Fixed phone input initialization with Greece as default country
   - Enhanced form validation with better error handling
 - **Improved form submission flow**:

@@ -36,7 +36,7 @@ User-agent: YouBot
 Allow: /
 
 # Enhanced sitemap locations for AI discovery
-Sitemap: https://fixersingreece.com/sitemap.xml
+Sitemap: https://www.fixersingreece.gr/sitemap.xml
 
 # Block access to WordPress admin and sensitive files (legacy)
 Disallow: /wp-admin/
@@ -85,7 +85,7 @@ Allow: /*?format=json
 Allow: /*?format=xml
 
 # Host declaration for canonical understanding
-Host: fixersingreece.com
+Host: www.fixersingreece.gr
 
 # Crawl delay for better server performance
 Crawl-delay: 1
