@@ -231,47 +231,85 @@
         
         /* Select2 Dark Theme Override */
         .select2-container--default .select2-selection--multiple {
-            background-color: #374151;
-            border: 1px solid #4b5563;
-            border-radius: 0.375rem;
-            min-height: 42px;
+            background-color: #374151 !important;
+            border: 1px solid #4b5563 !important;
+            border-radius: 0.375rem !important;
+            min-height: 42px !important;
+        }
+        
+        .select2-container--default.select2-container--focus .select2-selection--multiple {
+            border-color: #f9a531 !important;
+            outline: none !important;
         }
         
         .select2-container--default .select2-selection--multiple .select2-selection__rendered {
-            padding: 0.25rem 0.5rem;
+            padding: 0.25rem 0.5rem !important;
+            line-height: 1.5 !important;
         }
         
         .select2-container--default .select2-selection--multiple .select2-selection__choice {
-            background-color: #f9a531;
-            border: 1px solid #f9a531;
-            color: #000;
-            border-radius: 0.25rem;
-            padding: 0.125rem 0.5rem;
-            margin: 0.25rem;
+            background-color: #f9a531 !important;
+            border: 1px solid #f9a531 !important;
+            color: #000 !important;
+            border-radius: 0.25rem !important;
+            padding: 0.125rem 0.5rem !important;
+            margin: 0.25rem !important;
         }
         
         .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
-            color: #000;
-            margin-right: 0.25rem;
+            color: #000 !important;
+            margin-right: 0.25rem !important;
+            font-weight: bold !important;
+        }
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+            color: #333 !important;
         }
         
         .select2-dropdown {
-            background-color: #374151;
-            border: 1px solid #4b5563;
+            background-color: #374151 !important;
+            border: 1px solid #4b5563 !important;
+            margin-top: 2px !important;
+        }
+        
+        .select2-search--dropdown .select2-search__field {
+            background-color: #1f2937 !important;
+            border: 1px solid #4b5563 !important;
+            color: #fff !important;
+            padding: 0.5rem !important;
+        }
+        
+        .select2-search--dropdown .select2-search__field:focus {
+            outline: none !important;
+            border-color: #f9a531 !important;
         }
         
         .select2-container--default .select2-results__option {
-            color: #fff;
-            padding: 0.5rem;
+            color: #fff !important;
+            padding: 0.5rem !important;
         }
         
         .select2-container--default .select2-results__option--highlighted[aria-selected] {
-            background-color: #f9a531;
-            color: #000;
+            background-color: #f9a531 !important;
+            color: #000 !important;
         }
         
         .select2-container--default .select2-results__option[aria-selected=true] {
-            background-color: #4b5563;
+            background-color: #4b5563 !important;
+            color: #fff !important;
+        }
+        
+        .select2-container--default .select2-results__group {
+            color: #9ca3af !important;
+            font-weight: bold !important;
+            padding: 0.5rem !important;
+            background-color: #1f2937 !important;
+        }
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__clear {
+            color: #f9a531 !important;
+            margin-right: 0.5rem !important;
+            font-size: 1.2rem !important;
         }
         
         /* Loading state for submit button */
@@ -664,10 +702,24 @@
         let startDatePicker;
         let endDatePicker;
 
+        // Wait for jQuery to be fully loaded
+        function waitForJQuery(callback) {
+            if (typeof jQuery !== 'undefined' && jQuery.fn.select2) {
+                callback();
+            } else {
+                setTimeout(function() {
+                    waitForJQuery(callback);
+                }, 100);
+            }
+        }
+
         // Enhanced form validation and initialization
         document.addEventListener('DOMContentLoaded', function() {
-            initializeFormComponents();
-            initializeFormValidation();
+            // Initialize components after jQuery is ready
+            waitForJQuery(function() {
+                initializeFormComponents();
+                initializeFormValidation();
+            });
 
             // Check for success parameter in URL
             const urlParams = new URLSearchParams(window.location.search);
@@ -679,6 +731,8 @@
 
         // Initialize form components (phone input, date pickers)
         function initializeFormComponents() {
+            console.log('Initializing form components...');
+            
             // Initialize International Phone Input
             const phoneInputElement = document.querySelector("#phone");
             if (phoneInputElement) {
@@ -699,22 +753,33 @@
             }
             
             // Initialize Select2 for services multi-select
-            $('#services').select2({
-                placeholder: $('#services').data('placeholder'),
-                allowClear: true,
-                width: '100%',
-                closeOnSelect: false,
-                tags: false,
-                dropdownParent: $('#services').parent(),
-                language: {
-                    noResults: function() {
-                        return "No services found";
-                    },
-                    searching: function() {
-                        return "Searching...";
-                    }
+            try {
+                // Ensure the select element exists
+                if ($('#services').length > 0) {
+                    $('#services').select2({
+                        placeholder: 'Search and select services...',
+                        allowClear: true,
+                        width: '100%',
+                        closeOnSelect: false,
+                        tags: false,
+                        dropdownParent: $('body'), // Change to body for better positioning
+                        minimumResultsForSearch: 0, // Always show search box
+                        language: {
+                            noResults: function() {
+                                return "No services found";
+                            },
+                            searching: function() {
+                                return "Searching...";
+                            }
+                        }
+                    });
+                    console.log('Select2 initialized successfully');
+                } else {
+                    console.error('Services select element not found');
                 }
-            });
+            } catch (error) {
+                console.error('Error initializing Select2:', error);
+            }
 
             // Initialize Date Pickers
             const today = new Date();
@@ -1069,21 +1134,43 @@
         }
     </script>
 
-    <!-- Component Loader Script -->
-    <script src="/js/inline-components.js" defer></script>
-
     <!-- Page-specific JavaScript Integration -->
     <script>
-        // Wait for components to load before initializing page-specific functionality
+        // Re-initialize Select2 after component loading if needed
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded for contact/index.html, page functionality ready');
             
-            // Trigger any existing page initialization that might depend on DOM structure
-            if (typeof initializePageFunctionality === 'function') {
-                initializePageFunctionality();
-            }
+            // Re-initialize Select2 in case it was destroyed by component loading
+            setTimeout(function() {
+                if (typeof jQuery !== 'undefined' && jQuery.fn.select2) {
+                    // Check if Select2 is already initialized
+                    if (!$('#services').data('select2')) {
+                        $('#services').select2({
+                            placeholder: 'Search and select services...',
+                            allowClear: true,
+                            width: '100%',
+                            closeOnSelect: false,
+                            tags: false,
+                            dropdownParent: $('body'),
+                            minimumResultsForSearch: 0,
+                            language: {
+                                noResults: function() {
+                                    return "No services found";
+                                },
+                                searching: function() {
+                                    return "Searching...";
+                                }
+                            }
+                        });
+                        console.log('Select2 re-initialized after component load');
+                    }
+                }
+            }, 500);
         });
     </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js" defer></script>
 
 </body>
 </html>
