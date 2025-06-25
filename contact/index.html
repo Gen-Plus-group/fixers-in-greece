@@ -33,14 +33,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
     
-    <!-- Select2 CSS for searchable multi-select -->
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
-    
-    <!-- jQuery (required for Select2) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-    <!-- Select2 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
@@ -235,114 +227,6 @@
             transition: transform 0.3s ease;
         }
         
-        /* Select2 Dark Theme Override */
-        .select2-container--default .select2-selection--multiple {
-            background-color: #374151 !important;
-            border: 1px solid #4b5563 !important;
-            border-radius: 0.375rem !important;
-            min-height: 42px !important;
-        }
-        
-        .select2-container--default.select2-container--focus .select2-selection--multiple {
-            border-color: #f9a531 !important;
-            outline: none !important;
-        }
-        
-        .select2-container--default .select2-selection--multiple .select2-selection__rendered {
-            padding: 0.25rem 0.5rem !important;
-            line-height: 1.5 !important;
-        }
-        
-        .select2-container--default .select2-selection--multiple .select2-selection__choice {
-            background-color: #f9a531 !important;
-            border: 1px solid #f9a531 !important;
-            color: #000 !important;
-            border-radius: 0.25rem !important;
-            padding: 0.125rem 0.5rem !important;
-            margin: 0.25rem !important;
-        }
-        
-        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
-            color: #000 !important;
-            margin-right: 0.25rem !important;
-            font-weight: bold !important;
-        }
-        
-        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
-            color: #333 !important;
-        }
-        
-        .select2-dropdown {
-            background-color: #374151 !important;
-            border: 1px solid #4b5563 !important;
-            margin-top: 2px !important;
-            z-index: 9999 !important;
-        }
-        
-        .select2-container--open .select2-dropdown {
-            z-index: 9999 !important;
-        }
-        
-        .select2-search--dropdown {
-            display: block !important;
-            padding: 0.5rem !important;
-        }
-        
-        .select2-search--dropdown .select2-search__field {
-            background-color: #1f2937 !important;
-            border: 2px solid #f9a531 !important;
-            color: #fff !important;
-            padding: 0.75rem !important;
-            width: 100% !important;
-            display: block !important;
-            font-size: 16px !important;
-            height: auto !important;
-            min-height: 40px !important;
-        }
-        
-        .select2-search--dropdown .select2-search__field:focus {
-            outline: none !important;
-            border-color: #f9a531 !important;
-        }
-        
-        .select2-search--dropdown .select2-search__field::placeholder {
-            color: #9ca3af !important;
-        }
-        
-        .select2-container--default .select2-results__option {
-            color: #fff !important;
-            padding: 0.5rem !important;
-        }
-        
-        .select2-container--default .select2-results__option--highlighted[aria-selected] {
-            background-color: #f9a531 !important;
-            color: #000 !important;
-        }
-        
-        .select2-container--default .select2-results__option[aria-selected=true] {
-            background-color: #4b5563 !important;
-            color: #fff !important;
-        }
-        
-        .select2-container--default .select2-results__group {
-            color: #9ca3af !important;
-            font-weight: bold !important;
-            padding: 0.5rem !important;
-            background-color: #1f2937 !important;
-        }
-        
-        .select2-container--default .select2-selection--multiple .select2-selection__clear {
-            color: #f9a531 !important;
-            margin-right: 0.5rem !important;
-            font-size: 1.2rem !important;
-        }
-        
-        /* Fix for dropdown positioning */
-        .select2-container {
-            position: relative !important;
-            z-index: 1 !important;
-        }
-        
         /* Ensure form fields don't overlap */
         #contact-form > div {
             position: relative;
@@ -354,87 +238,51 @@
             z-index: 9998 !important;
         }
         
-        /* Fix overflow issues for Select2 dropdown */
-        .bg-greece-dark.border.border-gray-700.rounded-lg.p-8 {
-            overflow: visible !important;
+        /* Custom services selection styles */
+        .suggestion-item {
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            color: #fff;
+            border-bottom: 1px solid #4b5563;
+            transition: background-color 0.2s;
         }
         
-        /* Ensure services field container allows overflow */
-        #contact-form .space-y-6 > div {
-            overflow: visible !important;
+        .suggestion-item:hover {
+            background-color: #4b5563;
         }
         
-        /* Make sure the dropdown is above other elements */
-        .select2-container--open {
-            z-index: 10000 !important;
+        .suggestion-item:last-child {
+            border-bottom: none;
         }
         
-        /* Custom high z-index dropdown class */
-        .select2-dropdown-high {
-            z-index: 99999 !important;
+        .suggestion-category {
+            font-size: 0.75rem;
+            color: #9ca3af;
+            margin-top: 0.25rem;
         }
         
-        /* Ensure select2 container doesn't get cut off */
-        .select2-container {
-            display: block !important;
+        .selected-service {
+            background-color: #f9a531;
+            color: #000;
+            padding: 0.375rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
         }
         
-        /* Force search input to be visible */
-        .select2-container--open .select2-search--dropdown {
-            display: block !important;
-            opacity: 1 !important;
-            visibility: visible !important;
-        }
-        
-        .select2-container--open .select2-search__field {
-            display: block !important;
-            opacity: 1 !important;
-            visibility: visible !important;
-            pointer-events: auto !important;
-        }
-        
-        /* Ensure dropdown is properly positioned */
-        .select2-container--open .select2-dropdown--below {
-            display: block !important;
-        }
-        
-        /* Add search indicator */
-        .select2-search--dropdown::before {
-            content: "🔍 Type to search services...";
-            display: block;
-            padding: 0.5rem;
-            color: #f9a531;
-            font-size: 14px;
+        .remove-service {
+            cursor: pointer;
             font-weight: bold;
+            font-size: 1.2rem;
+            line-height: 1;
         }
         
-        /* Force Select2 to work */
-        span.select2 {
-            display: block !important;
-            width: 100% !important;
+        .remove-service:hover {
+            color: #333;
         }
         
-        .select2-selection--multiple {
-            cursor: pointer !important;
-        }
-        
-        /* Debug - make dropdown visible for testing */
-        .select2-container--open .select2-dropdown {
-            opacity: 1 !important;
-            display: block !important;
-            visibility: visible !important;
-        }
-        
-        /* Force search input to be visible */
-        .select2-search--dropdown {
-            display: block !important;
-        }
-        
-        .select2-container--default .select2-search--dropdown .select2-search__field {
-            display: block !important;
-            width: 100% !important;
-            box-sizing: border-box !important;
-        }
         
         /* Loading state for submit button */
         button[type="submit"]:disabled {
@@ -595,42 +443,44 @@
                                     <div class="error-message text-red-400 text-sm mt-1 hidden" id="project-type-error"></div>
                                 </div>
                                 
-                                <div>
-                                    <label for="services" class="block text-sm font-medium text-gray-300 mb-2">Services Needed</label>
-                                    <select id="services" name="services[]" multiple="multiple"
-                                            class="w-full"
-                                            data-placeholder="Search and select services...">
-                                        <optgroup label="Core Production">
-                                            <option value="location-scouting">Location Scouting Greece</option>
-                                            <option value="equipment-rental">Equipment Rental</option>
-                                            <option value="permits">Film Permits Greece</option>
-                                            <option value="crew">Local Crew</option>
-                                            <option value="drone-filming">Drone Filming</option>
-                                        </optgroup>
-                                        <optgroup label="Media Production">
-                                            <option value="documentary">Documentary Services</option>
-                                            <option value="commercial-production">Commercial Production Greece</option>
-                                            <option value="corporate-video">Corporate Video</option>
-                                            <option value="music-video">Music Video Production Greece</option>
-                                            <option value="event-filming">Event Filming</option>
-                                        </optgroup>
-                                        <optgroup label="Specialized Services">
-                                            <option value="live-streaming">Live Streaming</option>
-                                            <option value="news-filming">News & Current Affairs</option>
-                                            <option value="post-production">Post-Production</option>
-                                            <option value="translation">Translation Services</option>
-                                            <option value="casting">Casting Services</option>
-                                        </optgroup>
-                                        <optgroup label="Support Services">
-                                            <option value="equipment-transport">Equipment Transport</option>
-                                            <option value="full-production">Full Production Support</option>
-                                        </optgroup>
-                                    </select>
+                                <div class="relative">
+                                    <label for="service-search" class="block text-sm font-medium text-gray-300 mb-2">Services Needed</label>
+                                    
+                                    <!-- Search Input -->
+                                    <input type="text" id="service-search" 
+                                           class="w-full px-3 py-2 bg-gray-800 border border-gray-600 rounded-md text-white focus:border-greece-blue focus:outline-none transition-colors duration-200"
+                                           placeholder="Type to search services..." 
+                                           autocomplete="off">
+                                    
+                                    <!-- Suggestions Dropdown -->
+                                    <div id="service-suggestions" class="hidden absolute top-full left-0 right-0 bg-gray-700 border border-gray-600 border-t-0 max-h-64 overflow-y-auto z-50 rounded-b-md shadow-lg"></div>
+                                    
+                                    <!-- Selected Services Display -->
+                                    <div id="selected-services" class="flex flex-wrap gap-2 mt-3"></div>
+                                    
+                                    <!-- Hidden Inputs Container -->
+                                    <div id="service-inputs"></div>
+                                    
+                                    <!-- Service Categories -->
+                                    <div class="service-categories flex flex-wrap gap-2 mt-3">
+                                        <button type="button" class="px-3 py-1 bg-gray-700 text-white border border-gray-600 rounded text-sm hover:bg-gray-600 hover:border-greece-blue transition-colors" onclick="filterByCategory('production')">Production</button>
+                                        <button type="button" class="px-3 py-1 bg-gray-700 text-white border border-gray-600 rounded text-sm hover:bg-gray-600 hover:border-greece-blue transition-colors" onclick="filterByCategory('location')">Locations</button>
+                                        <button type="button" class="px-3 py-1 bg-gray-700 text-white border border-gray-600 rounded text-sm hover:bg-gray-600 hover:border-greece-blue transition-colors" onclick="filterByCategory('crew')">Crew</button>
+                                        <button type="button" class="px-3 py-1 bg-gray-700 text-white border border-gray-600 rounded text-sm hover:bg-gray-600 hover:border-greece-blue transition-colors" onclick="filterByCategory('equipment')">Equipment</button>
+                                        <button type="button" class="px-3 py-1 bg-gray-700 text-white border border-gray-600 rounded text-sm hover:bg-gray-600 hover:border-greece-blue transition-colors" onclick="filterByCategory('post')">Post-Production</button>
+                                    </div>
+                                    
+                                    <!-- Quick Packages -->
+                                    <div class="mt-3">
+                                        <p class="text-sm text-gray-400 mb-2">Quick packages:</p>
+                                        <div class="flex flex-wrap gap-2">
+                                            <button type="button" class="px-4 py-2 bg-blue-800 text-white rounded text-sm hover:bg-blue-700 transition-colors" onclick="selectPackage('documentary')">Documentary Package</button>
+                                            <button type="button" class="px-4 py-2 bg-blue-800 text-white rounded text-sm hover:bg-blue-700 transition-colors" onclick="selectPackage('commercial')">Commercial Package</button>
+                                            <button type="button" class="px-4 py-2 bg-blue-800 text-white rounded text-sm hover:bg-blue-700 transition-colors" onclick="selectPackage('corporate')">Corporate Package</button>
+                                        </div>
+                                    </div>
+                                    
                                     <div class="error-message text-red-400 text-sm mt-1 hidden" id="services-error"></div>
-                                    <!-- Debug button -->
-                                    <button type="button" onclick="testSelect2Debug()" style="margin-top: 10px; padding: 8px 16px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">
-                                        Test Select2
-                                    </button>
                                 </div>
                                 
                                 <!-- Date Range Picker -->
@@ -820,83 +670,207 @@
 
     <!-- JavaScript -->
     <script>
-        // Global variables for form components
-        let phoneInput;
+        // Services data - organized by category
+        const servicesData = {
+            production: [
+                { id: 'location-scouting', name: 'Location Scouting Greece', category: 'Production' },
+                { id: 'permits', name: 'Film Permits Greece', category: 'Production' },
+                { id: 'production-management', name: 'Production Management', category: 'Production' },
+                { id: 'budgeting', name: 'Budget Planning', category: 'Production' },
+                { id: 'scheduling', name: 'Schedule Coordination', category: 'Production' }
+            ],
+            location: [
+                { id: 'athens-locations', name: 'Athens Locations', category: 'Locations' },
+                { id: 'santorini-locations', name: 'Santorini Locations', category: 'Locations' },
+                { id: 'mykonos-locations', name: 'Mykonos Locations', category: 'Locations' },
+                { id: 'crete-locations', name: 'Crete Locations', category: 'Locations' },
+                { id: 'historical-sites', name: 'Historical Sites Access', category: 'Locations' }
+            ],
+            crew: [
+                { id: 'local-crew', name: 'Local Film Crew', category: 'Crew' },
+                { id: 'director-photography', name: 'Director of Photography', category: 'Crew' },
+                { id: 'sound-engineer', name: 'Sound Engineer', category: 'Crew' },
+                { id: 'production-assistant', name: 'Production Assistants', category: 'Crew' },
+                { id: 'drone-operator', name: 'Drone Operators', category: 'Crew' }
+            ],
+            equipment: [
+                { id: 'camera-rental', name: 'Camera Equipment', category: 'Equipment' },
+                { id: 'lighting-rental', name: 'Lighting Equipment', category: 'Equipment' },
+                { id: 'audio-rental', name: 'Audio Equipment', category: 'Equipment' },
+                { id: 'grip-rental', name: 'Grip Equipment', category: 'Equipment' },
+                { id: 'drone-rental', name: 'Drone Equipment', category: 'Equipment' }
+            ],
+            post: [
+                { id: 'editing', name: 'Video Editing', category: 'Post-Production' },
+                { id: 'color-grading', name: 'Color Grading', category: 'Post-Production' },
+                { id: 'sound-mixing', name: 'Sound Design & Mixing', category: 'Post-Production' },
+                { id: 'motion-graphics', name: 'Motion Graphics', category: 'Post-Production' },
+                { id: 'subtitling', name: 'Subtitling & Translation', category: 'Post-Production' }
+            ],
+            support: [
+                { id: 'transportation', name: 'Transportation & Logistics', category: 'Support' },
+                { id: 'accommodation', name: 'Accommodation Services', category: 'Support' },
+                { id: 'catering', name: 'Catering Services', category: 'Support' },
+                { id: 'translation', name: 'Translation & Interpretation', category: 'Support' },
+                { id: 'insurance', name: 'Production Insurance', category: 'Support' }
+            ]
+        };
         
-        // Debug function for Select2
-        function testSelect2Debug() {
-            console.log('=== SELECT2 DEBUG ===');
+        // Service packages
+        const servicePackages = {
+            documentary: ['location-scouting', 'permits', 'local-crew', 'camera-rental', 'sound-engineer'],
+            commercial: ['location-scouting', 'permits', 'director-photography', 'camera-rental', 'lighting-rental', 'production-assistant'],
+            corporate: ['production-management', 'local-crew', 'camera-rental', 'editing', 'motion-graphics']
+        };
+        
+        // Track selected services
+        const selectedServices = new Set();
+        
+        // Get all services as flat array
+        function getAllServices() {
+            const allServices = [];
+            Object.values(servicesData).forEach(category => {
+                allServices.push(...category);
+            });
+            return allServices;
+        }
+        
+        // Display suggestions
+        function displaySuggestions(services) {
+            const suggestionsDiv = document.getElementById('service-suggestions');
             
-            // Check jQuery
-            console.log('jQuery loaded:', typeof jQuery !== 'undefined');
-            console.log('jQuery version:', jQuery.fn.jquery);
-            
-            // Check Select2
-            console.log('Select2 loaded:', typeof jQuery.fn.select2 !== 'undefined');
-            
-            // Check element
-            var $services = jQuery('#services');
-            console.log('Services element found:', $services.length > 0);
-            console.log('Services element visible:', $services.is(':visible'));
-            console.log('Services element display:', $services.css('display'));
-            
-            // Check Select2 instance
-            var instance = $services.data('select2');
-            console.log('Select2 instance exists:', instance !== undefined);
-            
-            if (instance) {
-                console.log('Select2 is open:', instance.isOpen());
-                console.log('Select2 container:', instance.$container.length);
-                console.log('Container visible:', instance.$container.is(':visible'));
-                
-                // Try to open
-                console.log('Attempting to open Select2...');
-                $services.select2('open');
-                
-                setTimeout(function() {
-                    console.log('After open - is open:', instance.isOpen());
-                    var dropdown = jQuery('.select2-dropdown');
-                    console.log('Dropdown found:', dropdown.length);
-                    console.log('Dropdown visible:', dropdown.is(':visible'));
-                    
-                    var searchField = jQuery('.select2-search__field');
-                    console.log('Search field found:', searchField.length);
-                    console.log('Search field visible:', searchField.is(':visible'));
-                }, 500);
-            } else {
-                console.log('No Select2 instance - trying to initialize...');
-                $services.select2({
-                    placeholder: 'Select services...',
-                    width: '100%'
-                });
-                console.log('Initialized Select2');
+            if (services.length === 0) {
+                suggestionsDiv.innerHTML = '<div class="suggestion-item">No services found</div>';
+                suggestionsDiv.classList.remove('hidden');
+                return;
             }
             
-            console.log('=== END DEBUG ===');
+            let html = '';
+            services.forEach(service => {
+                if (!selectedServices.has(service.id)) {
+                    html += `
+                        <div class="suggestion-item" onclick="addService('${service.id}', '${service.name.replace(/'/g, "\\'")}')">
+                            <div>${service.name}</div>
+                            <div class="suggestion-category">${service.category}</div>
+                        </div>
+                    `;
+                }
+            });
+            
+            suggestionsDiv.innerHTML = html;
+            suggestionsDiv.classList.remove('hidden');
         }
+        
+        // Add service
+        function addService(serviceId, serviceName) {
+            if (selectedServices.has(serviceId)) return;
+            
+            selectedServices.add(serviceId);
+            updateSelectedServicesDisplay();
+            
+            // Clear search
+            document.getElementById('service-search').value = '';
+            document.getElementById('service-suggestions').classList.add('hidden');
+            
+            console.log('Added service:', serviceName);
+        }
+        
+        // Remove service
+        function removeService(serviceId) {
+            selectedServices.delete(serviceId);
+            updateSelectedServicesDisplay();
+            console.log('Removed service:', serviceId);
+        }
+        
+        // Update display
+        function updateSelectedServicesDisplay() {
+            const displayDiv = document.getElementById('selected-services');
+            const inputsDiv = document.getElementById('service-inputs');
+            
+            let displayHtml = '';
+            let inputsHtml = '';
+            
+            selectedServices.forEach(serviceId => {
+                const service = getAllServices().find(s => s.id === serviceId);
+                if (service) {
+                    displayHtml += `
+                        <span class="selected-service">
+                            ${service.name}
+                            <span class="remove-service" onclick="removeService('${serviceId}')">×</span>
+                        </span>
+                    `;
+                    inputsHtml += `<input type="hidden" name="services[]" value="${serviceId}">`;
+                }
+            });
+            
+            displayDiv.innerHTML = displayHtml;
+            inputsDiv.innerHTML = inputsHtml;
+        }
+        
+        // Filter by category
+        function filterByCategory(category) {
+            const services = servicesData[category] || [];
+            displaySuggestions(services);
+            document.getElementById('service-search').focus();
+        }
+        
+        // Select package
+        function selectPackage(packageType) {
+            const packageServices = servicePackages[packageType] || [];
+            
+            packageServices.forEach(serviceId => {
+                const service = getAllServices().find(s => s.id === serviceId);
+                if (service) {
+                    selectedServices.add(serviceId);
+                }
+            });
+            
+            updateSelectedServicesDisplay();
+            console.log('Selected package:', packageType);
+        }
+        
+        // Global variables for form components
+        let phoneInput;
         let startDatePicker;
         let endDatePicker;
 
-        // Wait for jQuery to be fully loaded
-        function waitForJQuery(callback) {
-            if (typeof jQuery !== 'undefined' && jQuery.fn && jQuery.fn.select2) {
-                console.log('jQuery and Select2 are loaded');
-                callback();
-            } else {
-                console.log('Waiting for jQuery/Select2...');
-                setTimeout(function() {
-                    waitForJQuery(callback);
-                }, 100);
-            }
-        }
 
         // Enhanced form validation and initialization
         document.addEventListener('DOMContentLoaded', function() {
-            // Initialize components after jQuery is ready
-            waitForJQuery(function() {
-                initializeFormComponents();
-                initializeFormValidation();
-            });
+            // Initialize service search functionality
+            const searchInput = document.getElementById('service-search');
+            const suggestionsDiv = document.getElementById('service-suggestions');
+            
+            if (searchInput) {
+                // Search input handler
+                searchInput.addEventListener('input', function(e) {
+                    const searchTerm = e.target.value.toLowerCase();
+                    
+                    if (searchTerm.length < 2) {
+                        suggestionsDiv.classList.add('hidden');
+                        return;
+                    }
+                    
+                    const allServices = getAllServices();
+                    const filtered = allServices.filter(service => 
+                        service.name.toLowerCase().includes(searchTerm) ||
+                        service.category.toLowerCase().includes(searchTerm)
+                    );
+                    
+                    displaySuggestions(filtered);
+                });
+                
+                // Click outside to close suggestions
+                document.addEventListener('click', function(e) {
+                    if (!e.target.closest('#service-search') && !e.target.closest('#service-suggestions')) {
+                        suggestionsDiv.classList.add('hidden');
+                    }
+                });
+            }
+            
+            // Initialize form components directly
+            initializeFormComponents();
+            initializeFormValidation();
 
             // Check for success parameter in URL
             const urlParams = new URLSearchParams(window.location.search);
@@ -929,139 +903,7 @@
                 });
             }
             
-            // Initialize Select2 for services multi-select
-            function initializeSelect2() {
-                try {
-                    // Check if jQuery and Select2 are loaded
-                    if (typeof $ === 'undefined' || typeof $.fn.select2 === 'undefined') {
-                        console.error('jQuery or Select2 not loaded yet');
-                        return false;
-                    }
-                    
-                    // Ensure the select element exists
-                    if ($('#services').length > 0) {
-                        // Destroy existing instance if any
-                        if ($('#services').data('select2')) {
-                            $('#services').select2('destroy');
-                        }
-                        
-                        // Initialize with simplified configuration
-                        $('#services').select2({
-                            placeholder: 'Search and select services...',
-                            allowClear: true,
-                            width: '100%',
-                            closeOnSelect: false,
-                            minimumResultsForSearch: 0,
-                            dropdownCssClass: 'select2-dropdown-high',
-                            language: {
-                                searching: function() {
-                                    return 'Searching...';
-                                },
-                                noResults: function() {
-                                    return 'No services found';
-                                }
-                            }
-                        });
-                        
-                        // Add debug event listeners
-                        $('#services').on('select2:open', function(e) {
-                            console.log('Select2 dropdown opened');
-                            // Force search field to be visible and focused
-                            setTimeout(function() {
-                                var container = $('.select2-container--open');
-                                var dropdown = $('.select2-dropdown');
-                                var searchContainer = $('.select2-search--dropdown');
-                                var searchField = $('.select2-container--open .select2-search__field');
-                                
-                                console.log('Container found:', container.length);
-                                console.log('Dropdown found:', dropdown.length);
-                                console.log('Search container found:', searchContainer.length);
-                                console.log('Search field found:', searchField.length);
-                                
-                                if (searchField.length > 0) {
-                                    searchField.prop('disabled', false);
-                                    searchField.show();
-                                    searchField.focus();
-                                    searchField.click();
-                                    console.log('Search field focused, value:', searchField.val());
-                                    console.log('Search field visible:', searchField.is(':visible'));
-                                    console.log('Search field disabled:', searchField.prop('disabled'));
-                                } else {
-                                    console.error('Search field not found');
-                                    // Try to manually add search field if missing
-                                    if (dropdown.length > 0 && dropdown.find('.select2-search--dropdown').length === 0) {
-                                        var searchHtml = '<span class="select2-search select2-search--dropdown">' +
-                                            '<input class="select2-search__field" type="search" tabindex="0" ' +
-                                            'autocomplete="off" autocorrect="off" autocapitalize="none" ' +
-                                            'spellcheck="false" role="searchbox" aria-autocomplete="list" ' +
-                                            'placeholder="Type to search...">' +
-                                            '</span>';
-                                        dropdown.prepend(searchHtml);
-                                        console.log('Manually added search field');
-                                    }
-                                }
-                            }, 100);
-                        });
-                        
-                        $('#services').on('select2:close', function() {
-                            console.log('Select2 dropdown closed');
-                        });
-                        
-                        console.log('✅ Select2 initialized successfully');
-                        
-                        // Test if Select2 is actually working
-                        var select2Data = $('#services').data('select2');
-                        if (select2Data) {
-                            console.log('Select2 instance confirmed:', select2Data);
-                            console.log('Select2 options:', select2Data.options.options);
-                            
-                            // Check if the container was created
-                            var container = $('#services').next('.select2-container');
-                            console.log('Select2 container found:', container.length > 0);
-                            if (container.length > 0) {
-                                console.log('Container classes:', container.attr('class'));
-                                console.log('Container visible:', container.is(':visible'));
-                            }
-                            
-                            // Try to open programmatically
-                            setTimeout(function() {
-                                console.log('Attempting to open Select2 programmatically...');
-                                $('#services').select2('open');
-                            }, 2000);
-                        } else {
-                            console.error('No Select2 instance found on #services');
-                            
-                            // Check if the original select is still there
-                            console.log('Original select element exists:', $('#services').length);
-                            console.log('Original select visible:', $('#services').is(':visible'));
-                        }
-                        
-                        // Monitor clicks on the Select2 container
-                        $(document).on('click', '.select2-container', function() {
-                            console.log('Select2 container clicked');
-                        });
-                        
-                        return true;
-                    } else {
-                        console.error('Services select element not found');
-                        return false;
-                    }
-                } catch (error) {
-                    console.error('Error initializing Select2:', error);
-                    return false;
-                }
-            }
-            
-            // Try to initialize Select2
-            var select2Initialized = initializeSelect2();
-            
-            // If it failed, try again after a short delay
-            if (!select2Initialized) {
-                setTimeout(function() {
-                    initializeSelect2();
-                }, 500);
-            }
-
+            // Services initialization removed - using custom implementation
             // Initialize Date Pickers
             const today = new Date();
 
@@ -1135,10 +977,6 @@
                 }
             });
             
-            // Special handling for Select2 change events
-            $('#services').on('change', function() {
-                clearFieldError('services');
-            });
 
             // Form submission handler
             form.addEventListener('submit', function(e) {
@@ -1417,38 +1255,13 @@
 
     <!-- Page-specific JavaScript Integration -->
     <script>
-        // Re-initialize Select2 after component loading if needed
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded for contact/index.html, page functionality ready');
-            
-            // Re-initialize Select2 in case it was destroyed by component loading
-            setTimeout(function() {
-                if (typeof initializeSelect2 === 'function') {
-                    initializeSelect2();
-                    console.log('Select2 re-initialized after component load');
-                }
-            }, 1000);
-        });
-        
-        // Also try on window load as a fallback
-        window.addEventListener('load', function() {
-            console.log('Window loaded - checking Select2 status');
-            setTimeout(function() {
-                if (typeof initializeSelect2 === 'function') {
-                    var initialized = initializeSelect2();
-                    if (initialized) {
-                        console.log('Select2 initialized on window load');
-                    }
-                }
-            }, 100);
         });
     </script>
 
     <!-- Component Loader Script -->
     <script src="/js/inline-components.js" defer></script>
-    
-    <!-- Alternative Select2 Fix -->
-    <script src="select2-fix.js"></script>
 
 </body>
 </html>

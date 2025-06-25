@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en-US" itemscope itemtype="http://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- SEO Meta Tags -->
+    <title>Contact Fixers in Greece | film production Greece Quote Athens</title>
+    <meta name="description" content="Get your Greece film production Greece quote today! Athens-based fixers for equipment, crew, permits & locations. 24/7 support. BBC, CNN trusted. Call +30 211 1983 725">
+    <meta name="keywords" content="contact fixers Greece, Greece film production contact, get quote Greece filming, production services contact Greece">
+    <meta name="geo.region" content="GR">
+    <meta name="geo.placename" content="Greece">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.fixersingreece.gr/contact/">
+    
+    <!-- Favicon -->
+    <link rel="icon" sizes="32x32" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
+    
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- International Phone Input CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
+
+    <!-- Flatpickr CSS for Date Pickers -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
+    
+    <!-- Custom CSS for Services Selection -->
+    <style>
+        /* Custom services selection styles */
+        #service-search {
+            background-color: #1f2937;
+            border: 1px solid #4b5563;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            width: 100%;
+            border-radius: 0.375rem;
+            font-size: 1rem;
+        }
+        
+        #service-search:focus {
+            outline: none;
+            border-color: #f9a531;
+        }
+        
+        #service-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #374151;
+            border: 1px solid #4b5563;
+            border-top: none;
+            max-height: 300px;
+            overflow-y: auto;
+            z-index: 1000;
+            border-radius: 0 0 0.375rem 0.375rem;
+            margin-top: -1px;
+        }
+        
+        .suggestion-item {
+            padding: 0.75rem 1rem;
+            cursor: pointer;
+            color: #fff;
+            border-bottom: 1px solid #4b5563;
+            transition: background-color 0.2s;
+        }
+        
+        .suggestion-item:hover {
+            background-color: #4b5563;
+        }
+        
+        .suggestion-item:last-child {
+            border-bottom: none;
+        }
+        
+        .suggestion-category {
+            font-size: 0.75rem;
+            color: #9ca3af;
+            margin-top: 0.25rem;
+        }
+        
+        #selected-services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+        }
+        
+        .selected-service {
+            background-color: #f9a531;
+            color: #000;
+            padding: 0.375rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .remove-service {
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+        .service-categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .category-btn {
+            padding: 0.375rem 0.75rem;
+            background-color: #4b5563;
+            color: #fff;
+            border: 1px solid #6b7280;
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .category-btn:hover {
+            background-color: #6b7280;
+            border-color: #f9a531;
+        }
+        
+        .package-btn {
+            padding: 0.5rem 1rem;
+            background-color: #1e3a8a;
+            color: #fff;
+            border: 1px solid #2563eb;
+            border-radius: 0.375rem;
+            font-size: 0.875rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .package-btn:hover {
+            background-color: #2563eb;
+        }
+    </style>
+</head>
+<body class="bg-greece-dark">
+    <!-- CONTACT FORM IMPLEMENTATION -->
+    <div class="container mx-auto px-4 py-8">
+        <form id="contact-form" method="POST">
+            <!-- Services Field with Custom Implementation -->
+            <div class="relative">
+                <label for="service-search" class="block text-sm font-medium text-gray-300 mb-2">Services Needed</label>
+                
+                <!-- Search Input -->
+                <input type="text" id="service-search" placeholder="Search services or click categories below..." autocomplete="off">
+                
+                <!-- Suggestions Dropdown -->
+                <div id="service-suggestions" class="hidden"></div>
+                
+                <!-- Selected Services Display -->
+                <div id="selected-services"></div>
+                
+                <!-- Hidden Inputs Container -->
+                <div id="service-inputs"></div>
+                
+                <!-- Service Categories -->
+                <div class="service-categories mt-3">
+                    <button type="button" class="category-btn" onclick="filterByCategory('production')">Production</button>
+                    <button type="button" class="category-btn" onclick="filterByCategory('location')">Locations</button>
+                    <button type="button" class="category-btn" onclick="filterByCategory('crew')">Crew</button>
+                    <button type="button" class="category-btn" onclick="filterByCategory('equipment')">Equipment</button>
+                    <button type="button" class="category-btn" onclick="filterByCategory('post')">Post-Production</button>
+                </div>
+                
+                <!-- Quick Packages -->
+                <div class="mt-3">
+                    <p class="text-sm text-gray-400 mb-2">Quick packages:</p>
+                    <div class="flex flex-wrap gap-2">
+                        <button type="button" class="package-btn" onclick="selectPackage('documentary')">Documentary Package</button>
+                        <button type="button" class="package-btn" onclick="selectPackage('commercial')">Commercial Package</button>
+                        <button type="button" class="package-btn" onclick="selectPackage('corporate')">Corporate Package</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <!-- Custom JavaScript for Services Selection -->
+    <script>
+        // Services data - organized by category
+        const servicesData = {
+            production: [
+                { id: 'location-scouting', name: 'Location Scouting Greece', category: 'Production' },
+                { id: 'permits', name: 'Permits & Permissions', category: 'Production' },
+                { id: 'production-management', name: 'Production Management', category: 'Production' },
+                { id: 'budgeting', name: 'Budget Planning', category: 'Production' },
+                { id: 'scheduling', name: 'Schedule Coordination', category: 'Production' }
+            ],
+            location: [
+                { id: 'athens-locations', name: 'Athens Locations', category: 'Locations' },
+                { id: 'santorini-locations', name: 'Santorini Locations', category: 'Locations' },
+                { id: 'mykonos-locations', name: 'Mykonos Locations', category: 'Locations' },
+                { id: 'crete-locations', name: 'Crete Locations', category: 'Locations' },
+                { id: 'historical-sites', name: 'Historical Sites Access', category: 'Locations' }
+            ],
+            crew: [
+                { id: 'local-crew', name: 'Local Film Crew', category: 'Crew' },
+                { id: 'director-photography', name: 'Director of Photography', category: 'Crew' },
+                { id: 'sound-engineer', name: 'Sound Engineer', category: 'Crew' },
+                { id: 'production-assistant', name: 'Production Assistants', category: 'Crew' },
+                { id: 'drone-operator', name: 'Drone Operators', category: 'Crew' }
+            ],
+            equipment: [
+                { id: 'camera-rental', name: 'Camera Equipment', category: 'Equipment' },
+                { id: 'lighting-rental', name: 'Lighting Equipment', category: 'Equipment' },
+                { id: 'audio-rental', name: 'Audio Equipment', category: 'Equipment' },
+                { id: 'grip-rental', name: 'Grip Equipment', category: 'Equipment' },
+                { id: 'drone-rental', name: 'Drone Equipment', category: 'Equipment' }
+            ],
+            post: [
+                { id: 'editing', name: 'Video Editing', category: 'Post-Production' },
+                { id: 'color-grading', name: 'Color Grading', category: 'Post-Production' },
+                { id: 'sound-mixing', name: 'Sound Design & Mixing', category: 'Post-Production' },
+                { id: 'motion-graphics', name: 'Motion Graphics', category: 'Post-Production' },
+                { id: 'subtitling', name: 'Subtitling & Translation', category: 'Post-Production' }
+            ],
+            support: [
+                { id: 'transportation', name: 'Transportation & Logistics', category: 'Support' },
+                { id: 'accommodation', name: 'Accommodation Services', category: 'Support' },
+                { id: 'catering', name: 'Catering Services', category: 'Support' },
+                { id: 'translation', name: 'Translation & Interpretation', category: 'Support' },
+                { id: 'insurance', name: 'Production Insurance', category: 'Support' }
+            ]
+        };
+        
+        // Service packages
+        const servicePackages = {
+            documentary: ['location-scouting', 'permits', 'local-crew', 'camera-rental', 'sound-engineer'],
+            commercial: ['location-scouting', 'permits', 'director-photography', 'camera-rental', 'lighting-rental', 'production-assistant'],
+            corporate: ['production-management', 'local-crew', 'camera-rental', 'editing', 'motion-graphics']
+        };
+        
+        // Track selected services
+        const selectedServices = new Set();
+        
+        // Get all services as flat array
+        function getAllServices() {
+            const allServices = [];
+            Object.values(servicesData).forEach(category => {
+                allServices.push(...category);
+            });
+            return allServices;
+        }
+        
+        // Initialize search functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const searchInput = document.getElementById('service-search');
+            const suggestionsDiv = document.getElementById('service-suggestions');
+            
+            // Search input handler
+            searchInput.addEventListener('input', function(e) {
+                const searchTerm = e.target.value.toLowerCase();
+                
+                if (searchTerm.length < 2) {
+                    suggestionsDiv.classList.add('hidden');
+                    return;
+                }
+                
+                const allServices = getAllServices();
+                const filtered = allServices.filter(service => 
+                    service.name.toLowerCase().includes(searchTerm) ||
+                    service.category.toLowerCase().includes(searchTerm)
+                );
+                
+                displaySuggestions(filtered);
+            });
+            
+            // Click outside to close suggestions
+            document.addEventListener('click', function(e) {
+                if (!e.target.closest('#service-search') && !e.target.closest('#service-suggestions')) {
+                    suggestionsDiv.classList.add('hidden');
+                }
+            });
+        });
+        
+        // Display suggestions
+        function displaySuggestions(services) {
+            const suggestionsDiv = document.getElementById('service-suggestions');
+            
+            if (services.length === 0) {
+                suggestionsDiv.innerHTML = '<div class="suggestion-item">No services found</div>';
+                suggestionsDiv.classList.remove('hidden');
+                return;
+            }
+            
+            let html = '';
+            services.forEach(service => {
+                if (!selectedServices.has(service.id)) {
+                    html += `
+                        <div class="suggestion-item" onclick="addService('${service.id}', '${service.name}')">
+                            <div>${service.name}</div>
+                            <div class="suggestion-category">${service.category}</div>
+                        </div>
+                    `;
+                }
+            });
+            
+            suggestionsDiv.innerHTML = html;
+            suggestionsDiv.classList.remove('hidden');
+        }
+        
+        // Add service
+        function addService(serviceId, serviceName) {
+            if (selectedServices.has(serviceId)) return;
+            
+            selectedServices.add(serviceId);
+            updateSelectedServicesDisplay();
+            
+            // Clear search
+            document.getElementById('service-search').value = '';
+            document.getElementById('service-suggestions').classList.add('hidden');
+            
+            console.log('Added service:', serviceName);
+        }
+        
+        // Remove service
+        function removeService(serviceId) {
+            selectedServices.delete(serviceId);
+            updateSelectedServicesDisplay();
+            console.log('Removed service:', serviceId);
+        }
+        
+        // Update display
+        function updateSelectedServicesDisplay() {
+            const displayDiv = document.getElementById('selected-services');
+            const inputsDiv = document.getElementById('service-inputs');
+            
+            let displayHtml = '';
+            let inputsHtml = '';
+            
+            selectedServices.forEach(serviceId => {
+                const service = getAllServices().find(s => s.id === serviceId);
+                if (service) {
+                    displayHtml += `
+                        <span class="selected-service">
+                            ${service.name}
+                            <span class="remove-service" onclick="removeService('${serviceId}')">×</span>
+                        </span>
+                    `;
+                    inputsHtml += `<input type="hidden" name="services[]" value="${serviceId}">`;
+                }
+            });
+            
+            displayDiv.innerHTML = displayHtml;
+            inputsDiv.innerHTML = inputsHtml;
+        }
+        
+        // Filter by category
+        function filterByCategory(category) {
+            const services = servicesData[category] || [];
+            displaySuggestions(services);
+            document.getElementById('service-search').focus();
+        }
+        
+        // Select package
+        function selectPackage(packageType) {
+            const packageServices = servicePackages[packageType] || [];
+            
+            packageServices.forEach(serviceId => {
+                const service = getAllServices().find(s => s.id === serviceId);
+                if (service) {
+                    selectedServices.add(serviceId);
+                }
+            });
+            
+            updateSelectedServicesDisplay();
+            console.log('Selected package:', packageType);
+        }
+    </script>
+</body>
+</html>
