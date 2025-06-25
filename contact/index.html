@@ -34,13 +34,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
     
     <!-- Select2 CSS for searchable multi-select -->
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
     
     <!-- jQuery (required for Select2) -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     
     <!-- Select2 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.full.min.js"></script>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
@@ -406,6 +406,23 @@
             color: #f9a531;
             font-size: 14px;
             font-weight: bold;
+        }
+        
+        /* Force Select2 to work */
+        span.select2 {
+            display: block !important;
+            width: 100% !important;
+        }
+        
+        .select2-selection--multiple {
+            cursor: pointer !important;
+        }
+        
+        /* Debug - make dropdown visible for testing */
+        .select2-container--open .select2-dropdown {
+            opacity: 1 !important;
+            display: block !important;
+            visibility: visible !important;
         }
         
         /* Force search input to be visible */
@@ -935,6 +952,19 @@
                         });
                         
                         console.log('✅ Select2 initialized successfully');
+                        
+                        // Test if Select2 is actually working
+                        var select2Data = $('#services').data('select2');
+                        if (select2Data) {
+                            console.log('Select2 instance confirmed:', select2Data);
+                            console.log('Select2 options:', select2Data.options.options);
+                        }
+                        
+                        // Try to open and close programmatically
+                        $('#services').on('click', function() {
+                            console.log('Select element clicked directly');
+                        });
+                        
                         return true;
                     } else {
                         console.error('Services select element not found');
@@ -1340,6 +1370,9 @@
 
     <!-- Component Loader Script -->
     <script src="/js/inline-components.js" defer></script>
+    
+    <!-- Alternative Select2 Fix -->
+    <script src="select2-fix.js"></script>
 
 </body>
 </html>
