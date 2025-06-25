@@ -168,7 +168,7 @@
             background-position: center;
             background-repeat: no-repeat;
         }
-        /* Mega Menu Styles */
+                                    /* Mega Menu Styles */
         .mega-menu {
             position: absolute;
             top: calc(100% + 12px); /* Add 12px breathing space from navigation */
@@ -185,84 +185,160 @@
             transition: all 0.3s ease;
             z-index: 50;
             margin-top: 8px; /* Additional top margin for visual separation */
-            overflow-x: hidden;
-        }
+        overflow-x: hidden;}
         
         .mega-menu-trigger:hover .mega-menu {
             opacity: 1;
             visibility: visible;
             transform: translateX(-50%) translateY(0);
-            overflow-x: hidden;
-        }
+        overflow-x: hidden;}
         
         .mega-menu-column {
             border-right: 1px solid #333;
             min-width: 0; /* Allow columns to shrink */
-            overflow-x: hidden;
-        }
+        overflow-x: hidden;}
         
         .mega-menu-column:last-child {
             border-right: none;
+        overflow-x: hidden;}
+        
+        .mega-menu-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem; /* Increased padding for better spacing */
+        overflow-x: hidden;}
+        
+        /* Mega Menu Typography Improvements */
+        .mega-menu h3 {
+            font-size: 1.5rem; /* Larger main title */
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        overflow-x: hidden;}
+        
+        .mega-menu h4 {
+            font-size: 1rem; /* Increased from text-sm to text-base */
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: #f9a531;
+        overflow-x: hidden;}
+        
+        .mega-menu a {
+            font-size: 0.875rem; /* Increased from text-xs to text-sm */
+            line-height: 1.5;
+            padding: 0.25rem 0;
+            display: block;
+            transition: all 0.2s ease;
+        overflow-x: hidden;}
+        
+        .mega-menu a:hover {
+            color: #f9a531;
+            padding-left: 0.25rem;
+        overflow-x: hidden;}
+        
+        .mega-menu ul {
+            margin-top: 0.5rem;
+        overflow-x: hidden;}
+        
+        .mega-menu li {
+            margin-bottom: 0.5rem; /* Better spacing between links */
+        overflow-x: hidden;}
+        
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        overflow-x: hidden;}
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
         }
         
-        /* Mobile Menu Styles */
-        .mobile-menu {
-            position: fixed;
-            top: 0;
-            right: -100%;
-            width: 100%;
-            max-width: 400px;
-            height: 100vh;
-            background: #1a1a1a;
-            transition: right 0.3s ease;
-            z-index: 999;
-            overflow-y: auto;
-            box-shadow: -2px 0 10px rgba(0,0,0,0.5);
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            overflow-x: hidden;}
         }
         
-        .mobile-menu.active {
-            right: 0;
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            overflow-x: hidden;}
         }
         
-        /* Mobile dropdown rotation animation */
-        .mobile-dropdown-icon {
-            transition: transform 0.3s ease;
+        /* Ensure mega menu doesn't get clipped */
+        .mega-menu-trigger {
+            position: static;
+        overflow-x: hidden;}
+        
+        /* Navigation container needs to allow overflow for mega menu */
+        nav {
+            position: relative;
+            overflow: visible;
         }
         
-        /* Select2 Dark Theme Override */
+        /* Responsive mega menu */
+        @media (max-width: 1024px) {
+            .mega-menu {
+                display: none; /* Hide on mobile/tablet - use mobile menu instead */
+            overflow-x: hidden;}
+        }
+        
+        /* Select2 Custom Dark Theme Styling */
+        .select2-container {
+            width: 100% !important;
+        }
+        
         .select2-container--default .select2-selection--multiple {
-            background-color: #374151;
+            background-color: #1f2937;
             border: 1px solid #4b5563;
             border-radius: 0.375rem;
             min-height: 42px;
+            padding: 4px 8px;
+            cursor: pointer;
+            transition: border-color 0.2s ease;
         }
         
-        .select2-container--default .select2-selection--multiple .select2-selection__rendered {
-            padding: 0.25rem 0.5rem;
+        .select2-container--default.select2-container--focus .select2-selection--multiple {
+            border-color: #f9a531;
+            outline: none;
         }
         
         .select2-container--default .select2-selection--multiple .select2-selection__choice {
             background-color: #f9a531;
-            border: 1px solid #f9a531;
             color: #000;
+            border: none;
             border-radius: 0.25rem;
-            padding: 0.125rem 0.5rem;
-            margin: 0.25rem;
+            padding: 3px 10px;
+            margin: 3px 4px 3px 0;
+            font-size: 0.875rem;
         }
         
         .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
             color: #000;
-            margin-right: 0.25rem;
+            margin-right: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+            color: #8B0000;
         }
         
         .select2-dropdown {
-            background-color: #374151;
+            background-color: #1f2937;
             border: 1px solid #4b5563;
+            border-radius: 0.375rem;
+            margin-top: 4px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
         }
         
         .select2-container--default .select2-results__option {
-            color: #fff;
-            padding: 0.5rem;
+            color: #e2e8f0;
+            padding: 10px 12px;
+            cursor: pointer;
         }
         
         .select2-container--default .select2-results__option--highlighted[aria-selected] {
@@ -271,89 +347,115 @@
         }
         
         .select2-container--default .select2-results__option[aria-selected=true] {
-            background-color: #4b5563;
+            background-color: #2d3748;
+            color: #f9a531;
         }
         
-        /* Loading state for submit button */
-        button[type="submit"]:disabled {
-            cursor: not-allowed;
-            opacity: 0.7;
+        .select2-container--default .select2-search--inline .select2-search__field {
+            color: #fff;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            padding: 4px 0;
+            margin-top: 0;
+            font-family: inherit;
+            font-size: 0.875rem;
         }
         
-        /* Form success/error messages */
-        .form-message {
-            animation: slideDown 0.3s ease-out;
+        .select2-container--default .select2-search--inline .select2-search__field::placeholder {
+            color: #9ca3af;
         }
         
-        @keyframes slideDown {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        .select2-container--default .select2-results__group {
+            color: #f9a531;
+            font-weight: 600;
+            padding: 8px 12px;
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
-    </style>
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+            padding: 0;
+        }
+        
+        .select2-container--default .select2-selection--multiple .select2-selection__placeholder {
+            color: #9ca3af;
+            font-size: 0.875rem;
+        }
+        
+        .select2-results__option--group {
+            padding: 0 !important;
+        }
+        
+        .select2-results__options--nested .select2-results__option {
+            padding-left: 24px;
+        }
+        </style>
 </head>
-<body class="bg-gray-900 text-white font-open-sans">
-    <!-- Dynamic Header Container -->
+
+<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
+    <!-- Skip to Content -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
+        Skip to Main Content
+    </a>
+
+        <!-- Dynamic Header Container -->
     <div id="header-container">
         <!-- Header will be loaded here dynamically -->
     </div>
 
-    <!-- Dynamic Navigation Container -->
-    <div id="navigation-container">
-        <!-- Navigation will be loaded here dynamically -->
-    </div>
-
     <!-- Main Content -->
-    <main>
+    <main id="main-content">
         <!-- Hero Section -->
-        <section class="relative h-[400px] lg:h-[500px] contact-hero-bg">
+        <section class="contact-hero-bg relative py-20 md:py-32">
             <div class="absolute inset-0 bg-black bg-opacity-60"></div>
-            <div class="relative z-10 h-full flex items-center justify-center text-center">
-                <div class="px-4">
-                    <h1 class="text-4xl lg:text-6xl font-bold mb-4">Contact Greece Film Fixers for Production Quote</h1>
-                    <p class="text-xl lg:text-2xl text-gray-200">Ready to start your Greece production? Get in touch for a personalized quote</p>
-                </div>
+            <div class="relative z-10 container mx-auto px-4 text-center max-w-full">
+                <h1 class="text-4xl md:text-6xl font-bold text-greece-blue mb-4">
+                    Contact Greece Film Fixers for Production Quote
+                </h1>
+                <p class="text-xl text-gray-200 max-w-2xl mx-auto">
+                    Ready to start your Greece production? Get in touch for a personalized quote
+                </p>
             </div>
         </section>
 
-        <!-- Contact Section -->
-        <section class="py-16 lg:py-24">
-            <div class="container mx-auto px-4 max-w-7xl">
+        <!-- Contact Content -->
+        <section class="py-16">
+            <div class="container mx-auto px-4 max-w-full">
                 <div class="max-w-6xl mx-auto">
-                    <!-- Quick Contact Info -->
+                    
+                    <!-- Contact Methods -->
                     <div class="grid md:grid-cols-3 gap-8 mb-16">
-                        <div class="text-center">
-                            <div class="inline-flex items-center justify-center w-16 h-16 bg-greece-blue rounded-full mb-4">
-                                <span class="text-2xl">📞</span>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2">Athens Office Phone</h3>
-                            <p class="text-gray-300 mb-4">Call us directly for immediate assistance and urgent production needs.</p>
-                            <a href="tel:+302111983725" class="text-greece-blue hover:text-yellow-400 font-semibold text-lg">
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">📞</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">Athens Office Phone</h3>
+                            <p class="text-gray-300 mb-4">
+                                Call us directly for immediate assistance and urgent production needs.
+                            </p>
+                            <a href="tel:+442085492259" class="text-greece-blue hover:text-yellow-400 text-lg font-semibold">
                                 +30 211 1983 725
                             </a>
                         </div>
-                        <div class="text-center">
-                            <div class="inline-flex items-center justify-center w-16 h-16 bg-greece-blue rounded-full mb-4">
-                                <span class="text-2xl">✉️</span>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2">Greece Production Email</h3>
-                            <p class="text-gray-300 mb-4">Send us detailed project requirements and we'll respond within 24 hours.</p>
-                            <a href="mailto:greece@needafixer.com" class="text-greece-blue hover:text-yellow-400 font-semibold">
-                                greece@needafixer.com
+                        
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">✉️</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">Greece Production Email</h3>
+                            <p class="text-gray-300 mb-4">
+                                Send us detailed project requirements and we'll respond within 24 hours.
+                            </p>
+                            <a href="mailto:info@needafixer.com" class="text-greece-blue hover:text-yellow-400 text-lg font-semibold">
+                                info@needafixer.com
                             </a>
                         </div>
-                        <div class="text-center">
-                            <div class="inline-flex items-center justify-center w-16 h-16 bg-greece-blue rounded-full mb-4">
-                                <span class="text-2xl">⏰</span>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2">Response Time</h3>
-                            <p class="text-gray-300 mb-4">All enquiries answered within 24 hours. Emergency support available 24/7.</p>
-                            <span class="text-greece-blue font-semibold">
+                        
+                        <div class="bg-greece-dark border border-gray-700 rounded-lg p-8 text-center hover:border-greece-blue transition-colors duration-200">
+                            <div class="text-4xl mb-4">⏰</div>
+                            <h3 class="text-xl font-bold text-greece-blue mb-4">Response Time</h3>
+                            <p class="text-gray-300 mb-4">
+                                All enquiries answered within 24 hours. Emergency support available 24/7.
+                            </p>
+                            <span class="text-greece-blue text-lg font-semibold">
                                 24 Hour Response
                             </span>
                         </div>
@@ -369,7 +471,7 @@
                                 <input type="hidden" name="_to" value="greece@needafixer.com">
                                 <input type="hidden" name="_subject" value="New Production Enquiry - Fixers in Greece">
                                 <input type="hidden" name="_cc" value="info@needafixer.com">
-                                <input type="hidden" name="_next" value="https://fixersingreece.com/contact/?success=true">
+                                <input type="hidden" name="_next" value="/contact/?success=true">
                                 <input type="hidden" name="_format" value="html">
 
                                 <div class="grid md:grid-cols-2 gap-6">
@@ -548,7 +650,7 @@
                                         <div>
                                             <p class="font-semibold text-white">Coverage Area</p>
                                             <p class="text-gray-300">Nationwide Greece Coverage</p>
-                                            <p class="text-gray-300">Athens, Thessaloniki, Santorini & All Islands</p>
+                                            <p class="text-gray-300">Thessaloniki, Athens, Da Nang & All Provinces</p>
                                         </div>
                                     </div>
                                     
@@ -630,8 +732,8 @@
                     </p>
                 </div>
                 <div class="text-center md:text-right">
-                    <a href="tel:+302111983725"
-                       class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                    <a href="tel:+442085492259"
+                       class="inline-block bg-greece-white text-white px-8 py-3 rounded-md font-semibold hover:bg-red-600 transition-colors duration-200">
                         Call Now
                     </a>
                 </div>
@@ -639,7 +741,7 @@
         </div>
     </section>
 
-    <!-- Dynamic Footer Container -->
+            <!-- Dynamic Footer Container -->
     <div id="footer-container">
         <!-- Footer will be loaded here dynamically -->
     </div>
@@ -659,17 +761,47 @@
 
     <!-- JavaScript -->
     <script>
-        // Global variables for form components
+        / Global variables for form components
         let phoneInput;
         let startDatePicker;
         let endDatePicker;
 
-        // Enhanced form validation and initialization
+        / Mobile menu functionality
+                / Mobile menu main toggle
+        / Mobile menu handled by component loader
+
+        / Mobile dropdown functionality
+        / Mobile dropdown functionality handled by component loader);
+            
+            allToggles.forEach(function(toggle) {
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    toggle.setAttribute('aria-expanded', 'false');
+                }
+            });
+            
+            allIcons.forEach(function(icon) {
+                const toggle = icon.closest('.mobile-dropdown-toggle');
+                if (!exceptId || toggle.getAttribute('data-target') !== exceptId) {
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        }
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Initialize mobile dropdowns when DOM is loaded
+        / Mobile menu initialization handled by component loader
+
+        / Close mobile menu when clicking outside
+        / Click outside handling managed by component loader
+
+        / Enhanced form validation and initialization
         document.addEventListener('DOMContentLoaded', function() {
             initializeFormComponents();
             initializeFormValidation();
 
-            // Check for success parameter in URL
+            / Check for success parameter in URL
             const urlParams = new URLSearchParams(window.location.search);
             if (urlParams.get('success') === 'true') {
                 showMessage('Thank you for your enquiry! We will respond within 24 hours.', 'success');
@@ -677,28 +809,26 @@
             }
         });
 
-        // Initialize form components (phone input, date pickers)
+        / Initialize form components (phone input, date pickers)
         function initializeFormComponents() {
-            // Initialize International Phone Input
+            / Initialize International Phone Input
             const phoneInputElement = document.querySelector("#phone");
-            if (phoneInputElement) {
-                phoneInput = window.intlTelInput(phoneInputElement, {
-                    initialCountry: "gr",
-                    geoIpLookup: function(callback) {
-                        fetch('https://ipapi.co/json')
-                            .then(res => res.json())
-                            .then(data => callback(data.country_code))
-                            .catch(() => callback("gr"));
-                    },
-                    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
-                    preferredCountries: ["gr", "us", "gb", "de", "fr"],
-                    separateDialCode: true,
-                    formatOnDisplay: true,
-                    autoPlaceholder: "aggressive"
-                });
-            }
+            phoneInput = window.intlTelInput(phoneInputElement, {
+                initialCountry: "auto",
+                geoIpLookup: function(callback) {
+                    fetch('https://ipapi.co/json')
+                        .then(res => res.json())
+                        .then(data => callback(data.country_code))
+                        .catch(() => callback("us"));
+                },
+                utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+                preferredCountries: ["us", "gb", "vn", "au", "ca"],
+                separateDialCode: true,
+                formatOnDisplay: true,
+                autoPlaceholder: "aggressive"
+            });
             
-            // Initialize Select2 for services multi-select
+            / Initialize Select2 for services multi-select
             $('#services').select2({
                 placeholder: $('#services').data('placeholder'),
                 allowClear: true,
@@ -716,7 +846,7 @@
                 }
             });
 
-            // Initialize Date Pickers
+            / Initialize Date Pickers
             const today = new Date();
 
             startDatePicker = flatpickr("#shoot-start-date", {
@@ -725,7 +855,7 @@
                 theme: "dark",
                 onChange: function(selectedDates, dateStr, instance) {
                     if (selectedDates.length > 0) {
-                        // Update end date minimum to be the start date
+                        / Update end date minimum to be the start date
                         endDatePicker.set('minDate', selectedDates[0]);
                         validateField('shoot-start-date');
                     }
@@ -743,37 +873,33 @@
                 }
             });
 
-            // Initialize character counter for message field
+            / Initialize character counter for message field
             const messageField = document.getElementById('message');
             const messageCounter = document.getElementById('message-count');
 
-            if (messageField && messageCounter) {
-                messageField.addEventListener('input', function() {
-                    const count = this.value.length;
-                    messageCounter.textContent = count;
+            messageField.addEventListener('input', function() {
+                const count = this.value.length;
+                messageCounter.textContent = count;
 
-                    if (count < 20) {
-                        messageCounter.parentElement.classList.add('text-red-400');
-                        messageCounter.parentElement.classList.remove('text-gray-400');
-                    } else {
-                        messageCounter.parentElement.classList.remove('text-red-400');
-                        messageCounter.parentElement.classList.add('text-gray-400');
-                    }
+                if (count < 20) {
+                    messageCounter.parentElement.classList.add('text-red-400');
+                    messageCounter.parentElement.classList.remove('text-gray-400');
+                } else {
+                    messageCounter.parentElement.classList.remove('text-red-400');
+                    messageCounter.parentElement.classList.add('text-gray-400');
+                }
 
-                    validateField('message');
-                });
-            }
+                validateField('message');
+            });
         }
 
-        // Initialize form validation
+        / Initialize form validation
         function initializeFormValidation() {
             const form = document.getElementById('contact-form');
-            if (!form) return;
-            
             const submitButton = form.querySelector('button[type="submit"]');
             const originalButtonText = submitButton.textContent;
 
-            // Add real-time validation to all form fields
+            / Add real-time validation to all form fields
             const fields = ['first-name', 'last-name', 'email', 'company', 'phone', 'project-type', 'services', 'message'];
 
             fields.forEach(fieldId => {
@@ -794,21 +920,20 @@
                 clearFieldError('services');
             });
 
-            // Form submission handler
+            / Form submission handler
             form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                
                 if (!validateForm()) {
+                    e.preventDefault();
                     showMessage('Please correct the errors below before submitting.', 'error');
                     return;
                 }
 
-                // Set phone number in full international format
+                / Set phone number in full international format
                 if (phoneInput && phoneInput.isValidNumber()) {
                     document.getElementById('phone-full').value = phoneInput.getNumber();
                 }
 
-                // Set reply-to field
+                / Set reply-to field
                 const emailField = document.querySelector('#email');
                 let replyToField = form.querySelector('input[name="_replyto"]');
                 if (!replyToField) {
@@ -819,30 +944,25 @@
                 }
                 replyToField.value = emailField.value;
 
-                // Track form submission for analytics
-                if (typeof gtag !== 'undefined') {
-                    gtag('event', 'form_submission', {
-                        'event_category': 'Contact',
-                        'event_label': 'Production Enquiry',
-                        'value': 1
-                    });
-                }
-                
-                // Show loading state
+                    / Track form submission for analytics
+                    if (typeof gtag !== 'undefined') {
+                        gtag('event', 'form_submission', {
+                            'event_category': 'Contact',
+                            'event_label': 'Production Enquiry',
+                            'value': 1
+                        });
+                    }
+                    
+                    / Show loading state
                 submitButton.disabled = true;
                 submitButton.textContent = 'Sending...';
                 submitButton.classList.add('opacity-75');
-                
-                // Submit the form
-                form.submit();
             });
         }
 
-        // Comprehensive field validation
+        / Comprehensive field validation
         function validateField(fieldId) {
             const field = document.getElementById(fieldId);
-            if (!field) return true;
-            
             const value = field.value.trim();
             let isValid = true;
             let errorMessage = '';
@@ -873,7 +993,7 @@
                     break;
 
                 case 'company':
-                    // Company is optional, but if provided, validate length
+                    / Company is optional, but if provided, validate length
                     if (value && value.length > 100) {
                         isValid = false;
                         errorMessage = 'Company name must be less than 100 characters.';
@@ -946,7 +1066,7 @@
             return isValid;
         }
 
-        // Validate entire form
+        / Validate entire form
         function validateForm() {
             const fields = ['first-name', 'last-name', 'email', 'project-type', 'message'];
             let isFormValid = true;
@@ -957,14 +1077,14 @@
                 }
             });
 
-            // Validate optional fields if they have values
+            / Validate optional fields if they have values
             if (document.getElementById('phone').value.trim()) {
                 if (!validateField('phone')) {
                     isFormValid = false;
                 }
             }
 
-            // Validate date range if provided
+            / Validate date range if provided
             const startDate = document.getElementById('shoot-start-date').value;
             const endDate = document.getElementById('shoot-end-date').value;
 
@@ -979,12 +1099,10 @@
             return isFormValid;
         }
 
-        // Show/hide field errors
+        / Show/hide field errors
         function showFieldError(fieldId, isValid, errorMessage) {
             const field = document.getElementById(fieldId);
             const errorDiv = document.getElementById(fieldId + '-error');
-
-            if (!field) return;
 
             if (isValid) {
                 field.classList.remove('border-red-500');
@@ -1003,12 +1121,10 @@
             }
         }
 
-        // Clear field error
+        / Clear field error
         function clearFieldError(fieldId) {
             const field = document.getElementById(fieldId);
             const errorDiv = document.getElementById(fieldId + '-error');
-
-            if (!field) return;
 
             field.classList.remove('border-red-500');
             field.classList.add('border-gray-600');
@@ -1018,11 +1134,9 @@
             }
         }
 
-        // Update phone validation
+        / Update phone validation
         function updatePhoneValidation() {
             const phoneField = document.getElementById('phone');
-            if (!phoneField) return;
-            
             const value = phoneField.value.trim();
 
             if (value && phoneInput) {
@@ -1036,35 +1150,33 @@
             }
         }
 
-        // Email validation function
+        / Email validation function
         function isValidEmail(email) {
-            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$/;
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
             return emailRegex.test(email);
         }
 
-        // Show message function
+        / Show message function
         function showMessage(message, type) {
-            // Remove existing messages
+            / Remove existing messages
             const existingMessages = document.querySelectorAll('.form-message');
             existingMessages.forEach(msg => msg.remove());
 
-            // Create message element
+            / Create message element
             const messageDiv = document.createElement('div');
             messageDiv.className = `form-message p-4 rounded-md mb-6 ${type === 'success' ? 'bg-green-600 text-white' : 'bg-red-600 text-white'}`;
             messageDiv.textContent = message;
 
-            // Insert message before form
+            / Insert message before form
             const form = document.getElementById('contact-form');
-            if (form && form.parentNode) {
-                form.parentNode.insertBefore(messageDiv, form);
-            }
+            form.parentNode.insertBefore(messageDiv, form);
 
-            // Auto-remove message after 10 seconds
+            / Auto-remove message after 10 seconds
             setTimeout(() => {
                 messageDiv.remove();
             }, 10000);
 
-            // Scroll to message
+            / Scroll to message
             messageDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
     </script>
@@ -1074,16 +1186,42 @@
 
     <!-- Page-specific JavaScript Integration -->
     <script>
-        // Wait for components to load before initializing page-specific functionality
+        / Wait for components to load before initializing page-specific functionality
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded for contact/index.html, page functionality ready');
             
-            // Trigger any existing page initialization that might depend on DOM structure
+            / Trigger any existing page initialization that might depend on DOM structure
             if (typeof initializePageFunctionality === 'function') {
                 initializePageFunctionality();
             }
         });
     </script>
+
+</body>
+</html>
+: "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Fixers in Greece",
+        "description": "Professional film production services in Greece",
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Athens",
+            "addressCountry": "Greece"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 37.9838,
+            "longitude": 23.7275
+        },
+        "url": "https://fixersingreece.com",
+        "telephone": "+30-XXX-XXXXXXX",
+        "priceRange": "€€€"
+    }
+    </script>
+
+</body>
+</html>
+pt>
 
 </body>
 </html>
