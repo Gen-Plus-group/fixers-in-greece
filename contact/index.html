@@ -290,11 +290,14 @@
         
         .select2-search--dropdown .select2-search__field {
             background-color: #1f2937 !important;
-            border: 1px solid #4b5563 !important;
+            border: 2px solid #f9a531 !important;
             color: #fff !important;
-            padding: 0.5rem !important;
+            padding: 0.75rem !important;
             width: 100% !important;
             display: block !important;
+            font-size: 16px !important;
+            height: auto !important;
+            min-height: 40px !important;
         }
         
         .select2-search--dropdown .select2-search__field:focus {
@@ -393,6 +396,16 @@
         /* Ensure dropdown is properly positioned */
         .select2-container--open .select2-dropdown--below {
             display: block !important;
+        }
+        
+        /* Add search indicator */
+        .select2-search--dropdown::before {
+            content: "🔍 Type to search services...";
+            display: block;
+            padding: 0.5rem;
+            color: #f9a531;
+            font-size: 14px;
+            font-weight: bold;
         }
         
         /* Force search input to be visible */
@@ -882,17 +895,39 @@
                             console.log('Select2 dropdown opened');
                             // Force search field to be visible and focused
                             setTimeout(function() {
+                                var container = $('.select2-container--open');
+                                var dropdown = $('.select2-dropdown');
+                                var searchContainer = $('.select2-search--dropdown');
                                 var searchField = $('.select2-container--open .select2-search__field');
+                                
+                                console.log('Container found:', container.length);
+                                console.log('Dropdown found:', dropdown.length);
+                                console.log('Search container found:', searchContainer.length);
+                                console.log('Search field found:', searchField.length);
+                                
                                 if (searchField.length > 0) {
                                     searchField.prop('disabled', false);
                                     searchField.show();
                                     searchField.focus();
                                     searchField.click();
-                                    console.log('Search field focused');
+                                    console.log('Search field focused, value:', searchField.val());
+                                    console.log('Search field visible:', searchField.is(':visible'));
+                                    console.log('Search field disabled:', searchField.prop('disabled'));
                                 } else {
                                     console.error('Search field not found');
+                                    // Try to manually add search field if missing
+                                    if (dropdown.length > 0 && dropdown.find('.select2-search--dropdown').length === 0) {
+                                        var searchHtml = '<span class="select2-search select2-search--dropdown">' +
+                                            '<input class="select2-search__field" type="search" tabindex="0" ' +
+                                            'autocomplete="off" autocorrect="off" autocapitalize="none" ' +
+                                            'spellcheck="false" role="searchbox" aria-autocomplete="list" ' +
+                                            'placeholder="Type to search...">' +
+                                            '</span>';
+                                        dropdown.prepend(searchHtml);
+                                        console.log('Manually added search field');
+                                    }
                                 }
-                            }, 50);
+                            }, 100);
                         });
                         
                         $('#services').on('select2:close', function() {
