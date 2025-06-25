@@ -277,16 +277,27 @@
             z-index: 9999 !important;
         }
         
+        .select2-search--dropdown {
+            display: block !important;
+            padding: 0.5rem !important;
+        }
+        
         .select2-search--dropdown .select2-search__field {
             background-color: #1f2937 !important;
             border: 1px solid #4b5563 !important;
             color: #fff !important;
             padding: 0.5rem !important;
+            width: 100% !important;
+            display: block !important;
         }
         
         .select2-search--dropdown .select2-search__field:focus {
             outline: none !important;
             border-color: #f9a531 !important;
+        }
+        
+        .select2-search--dropdown .select2-search__field::placeholder {
+            color: #9ca3af !important;
         }
         
         .select2-container--default .select2-results__option {
@@ -812,12 +823,44 @@
                         dropdownParent: $('body'), // Append to body for absolute positioning
                         minimumResultsForSearch: 0, // Always show search box
                         dropdownCssClass: 'select2-dropdown-high', // Custom class for z-index
+                        searchInputPlaceholder: 'Type to search services...',
+                        matcher: function(params, data) {
+                            // If there are no search terms, return all of the data
+                            if ($.trim(params.term) === '') {
+                                return data;
+                            }
+
+                            // Do not display the item if there is no 'text' property
+                            if (typeof data.text === 'undefined') {
+                                return null;
+                            }
+
+                            // Search in both the option text and the optgroup label
+                            var searchTerm = params.term.toLowerCase();
+                            var optionText = data.text.toLowerCase();
+                            
+                            // Also check parent optgroup if it exists
+                            if (data.element && data.element.parentElement && data.element.parentElement.label) {
+                                var groupLabel = data.element.parentElement.label.toLowerCase();
+                                if (groupLabel.indexOf(searchTerm) > -1 || optionText.indexOf(searchTerm) > -1) {
+                                    return data;
+                                }
+                            } else if (optionText.indexOf(searchTerm) > -1) {
+                                return data;
+                            }
+
+                            // Return `null` if the term should not be displayed
+                            return null;
+                        },
                         language: {
                             noResults: function() {
                                 return "No services found";
                             },
                             searching: function() {
                                 return "Searching...";
+                            },
+                            inputTooShort: function() {
+                                return "Start typing to search...";
                             }
                         }
                     });
@@ -1202,6 +1245,35 @@
                             dropdownParent: $('body'),
                             dropdownCssClass: 'select2-dropdown-high',
                             minimumResultsForSearch: 0,
+                            searchInputPlaceholder: 'Type to search services...',
+                            matcher: function(params, data) {
+                                // If there are no search terms, return all of the data
+                                if ($.trim(params.term) === '') {
+                                    return data;
+                                }
+
+                                // Do not display the item if there is no 'text' property
+                                if (typeof data.text === 'undefined') {
+                                    return null;
+                                }
+
+                                // Search in both the option text and the optgroup label
+                                var searchTerm = params.term.toLowerCase();
+                                var optionText = data.text.toLowerCase();
+                                
+                                // Also check parent optgroup if it exists
+                                if (data.element && data.element.parentElement && data.element.parentElement.label) {
+                                    var groupLabel = data.element.parentElement.label.toLowerCase();
+                                    if (groupLabel.indexOf(searchTerm) > -1 || optionText.indexOf(searchTerm) > -1) {
+                                        return data;
+                                    }
+                                } else if (optionText.indexOf(searchTerm) > -1) {
+                                    return data;
+                                }
+
+                                // Return `null` if the term should not be displayed
+                                return null;
+                            },
                             language: {
                                 noResults: function() {
                                     return "No services found";
