@@ -270,6 +270,11 @@
             background-color: #374151 !important;
             border: 1px solid #4b5563 !important;
             margin-top: 2px !important;
+            z-index: 9999 !important;
+        }
+        
+        .select2-container--open .select2-dropdown {
+            z-index: 9999 !important;
         }
         
         .select2-search--dropdown .select2-search__field {
@@ -310,6 +315,48 @@
             color: #f9a531 !important;
             margin-right: 0.5rem !important;
             font-size: 1.2rem !important;
+        }
+        
+        /* Fix for dropdown positioning */
+        .select2-container {
+            position: relative !important;
+            z-index: 1 !important;
+        }
+        
+        /* Ensure form fields don't overlap */
+        #contact-form > div {
+            position: relative;
+            z-index: auto;
+        }
+        
+        /* Flatpickr z-index fix */
+        .flatpickr-calendar {
+            z-index: 9998 !important;
+        }
+        
+        /* Fix overflow issues for Select2 dropdown */
+        .bg-greece-dark.border.border-gray-700.rounded-lg.p-8 {
+            overflow: visible !important;
+        }
+        
+        /* Ensure services field container allows overflow */
+        #contact-form .space-y-6 > div {
+            overflow: visible !important;
+        }
+        
+        /* Make sure the dropdown is above other elements */
+        .select2-container--open {
+            z-index: 10000 !important;
+        }
+        
+        /* Custom high z-index dropdown class */
+        .select2-dropdown-high {
+            z-index: 99999 !important;
+        }
+        
+        /* Ensure select2 container doesn't get cut off */
+        .select2-container {
+            display: block !important;
         }
         
         /* Loading state for submit button */
@@ -762,8 +809,9 @@
                         width: '100%',
                         closeOnSelect: false,
                         tags: false,
-                        dropdownParent: $('body'), // Change to body for better positioning
+                        dropdownParent: $('body'), // Append to body for absolute positioning
                         minimumResultsForSearch: 0, // Always show search box
+                        dropdownCssClass: 'select2-dropdown-high', // Custom class for z-index
                         language: {
                             noResults: function() {
                                 return "No services found";
@@ -1152,6 +1200,7 @@
                             closeOnSelect: false,
                             tags: false,
                             dropdownParent: $('body'),
+                            dropdownCssClass: 'select2-dropdown-high',
                             minimumResultsForSearch: 0,
                             language: {
                                 noResults: function() {
