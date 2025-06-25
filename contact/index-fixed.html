@@ -26,21 +26,19 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+    <!-- jQuery MUST load before Select2 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Select2 CSS and JS -->
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+
     <!-- International Phone Input CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/css/intlTelInput.css">
 
     <!-- Flatpickr CSS for Date Pickers -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/themes/dark.css">
-    
-    <!-- Select2 CSS for searchable multi-select -->
-    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
-    
-    <!-- jQuery (required for Select2) -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-    <!-- Select2 JS -->
-    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
     
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
@@ -763,41 +761,117 @@
 
     <!-- Flatpickr Date Picker -->
     <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-    
 
-    <!-- JavaScript -->
+    <!-- JavaScript - IMPROVED VERSION -->
     <script>
         // Global variables for form components
         let phoneInput;
         let startDatePicker;
         let endDatePicker;
+        let select2Initialized = false;
 
-        // Wait for jQuery to be fully loaded
-        function waitForJQuery(callback) {
-            if (typeof jQuery !== 'undefined' && jQuery.fn && jQuery.fn.select2) {
-                console.log('jQuery and Select2 are loaded');
-                callback();
-            } else {
-                console.log('Waiting for jQuery/Select2...');
-                setTimeout(function() {
-                    waitForJQuery(callback);
-                }, 100);
+        // Initialize Select2 with error handling and debugging
+        function initializeSelect2() {
+            try {
+                // Check if jQuery and Select2 are loaded
+                if (typeof jQuery === 'undefined' || !jQuery.fn || !jQuery.fn.select2) {
+                    console.error('jQuery or Select2 not loaded yet');
+                    return false;
+                }
+
+                // Check if element exists
+                const $services = jQuery('#services');
+                if ($services.length === 0) {
+                    console.error('Services select element not found');
+                    return false;
+                }
+
+                // Destroy existing instance if any
+                if ($services.data('select2')) {
+                    $services.select2('destroy');
+                }
+
+                // Initialize Select2
+                $services.select2({
+                    placeholder: 'Search and select services...',
+                    allowClear: true,
+                    width: '100%',
+                    closeOnSelect: false,
+                    dropdownParent: jQuery('body'),
+                    minimumResultsForSearch: 0,
+                    dropdownCssClass: 'select2-dropdown-high',
+                    language: {
+                        searching: function() {
+                            return 'Searching...';
+                        },
+                        noResults: function() {
+                            return 'No results found';
+                        }
+                    }
+                });
+
+                // Add event listeners
+                $services.on('select2:open', function() {
+                    console.log('Select2 dropdown opened');
+                    // Ensure search field is visible and focused
+                    setTimeout(function() {
+                        const $searchField = jQuery('.select2-search__field');
+                        if ($searchField.length > 0) {
+                            $searchField.show().focus();
+                            console.log('Search field focused');
+                        }
+                    }, 100);
+                });
+
+                $services.on('select2:close', function() {
+                    console.log('Select2 dropdown closed');
+                });
+
+                $services.on('change', function() {
+                    console.log('Select2 value changed:', jQuery(this).val());
+                });
+
+                select2Initialized = true;
+                console.log('✅ Select2 initialized successfully');
+                return true;
+
+            } catch (error) {
+                console.error('Error initializing Select2:', error);
+                return false;
             }
         }
 
         // Enhanced form validation and initialization
         document.addEventListener('DOMContentLoaded', function() {
-            // Initialize components after jQuery is ready
-            waitForJQuery(function() {
-                initializeFormComponents();
-                initializeFormValidation();
-            });
+            console.log('DOM Content Loaded - Starting form initialization');
+            
+            // Initialize Select2 immediately if jQuery is ready
+            if (typeof jQuery !== 'undefined') {
+                initializeSelect2();
+            }
+            
+            // Initialize other form components
+            initializeFormComponents();
+            initializeFormValidation();
 
             // Check for success parameter in URL
             const urlParams = new URLSearchParams(window.location.search);
             if (urlParams.get('success') === 'true') {
                 showMessage('Thank you for your enquiry! We will respond within 24 hours.', 'success');
                 window.history.replaceState({}, document.title, window.location.pathname);
+            }
+        });
+
+        // Ensure Select2 initializes after all scripts are loaded
+        window.addEventListener('load', function() {
+            console.log('Window loaded - Checking Select2 initialization');
+            if (!select2Initialized) {
+                // Try one more time after window load
+                setTimeout(function() {
+                    if (!select2Initialized) {
+                        initializeSelect2();
+                    }
+                }, 500);
             }
         });
 
@@ -822,68 +896,6 @@
                     formatOnDisplay: true,
                     autoPlaceholder: "aggressive"
                 });
-            }
-            
-            // Initialize Select2 for services multi-select
-            function initializeSelect2() {
-                try {
-                    // Check if jQuery and Select2 are loaded
-                    if (typeof $ === 'undefined' || typeof $.fn.select2 === 'undefined') {
-                        console.error('jQuery or Select2 not loaded yet');
-                        return false;
-                    }
-                    
-                    // Ensure the select element exists
-                    if ($('#services').length > 0) {
-                        // Destroy existing instance if any
-                        if ($('#services').data('select2')) {
-                            $('#services').select2('destroy');
-                        }
-                        
-                        // Initialize with simplified configuration
-                        $('#services').select2({
-                            placeholder: 'Search and select services...',
-                            allowClear: true,
-                            width: '100%',
-                            closeOnSelect: false,
-                            dropdownParent: $('body'),
-                            minimumResultsForSearch: 0,
-                            dropdownCssClass: 'select2-dropdown-high'
-                        });
-                        
-                        // Add debug event listeners
-                        $('#services').on('select2:open', function() {
-                            console.log('Select2 dropdown opened');
-                            // Force focus on search field when dropdown opens
-                            setTimeout(function() {
-                                $('.select2-search__field').focus().click();
-                            }, 100);
-                        });
-                        
-                        $('#services').on('select2:close', function() {
-                            console.log('Select2 dropdown closed');
-                        });
-                        
-                        console.log('✅ Select2 initialized successfully');
-                        return true;
-                    } else {
-                        console.error('Services select element not found');
-                        return false;
-                    }
-                } catch (error) {
-                    console.error('Error initializing Select2:', error);
-                    return false;
-                }
-            }
-            
-            // Try to initialize Select2
-            var select2Initialized = initializeSelect2();
-            
-            // If it failed, try again after a short delay
-            if (!select2Initialized) {
-                setTimeout(function() {
-                    initializeSelect2();
-                }, 500);
             }
 
             // Initialize Date Pickers
@@ -960,9 +972,11 @@
             });
             
             // Special handling for Select2 change events
-            $('#services').on('change', function() {
-                clearFieldError('services');
-            });
+            if (typeof jQuery !== 'undefined') {
+                jQuery('#services').on('change', function() {
+                    clearFieldError('services');
+                });
+            }
 
             // Form submission handler
             form.addEventListener('submit', function(e) {
@@ -1237,38 +1251,22 @@
             // Scroll to message
             messageDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
         }
-    </script>
 
-    <!-- Page-specific JavaScript Integration -->
-    <script>
         // Re-initialize Select2 after component loading if needed
         document.addEventListener('componentsLoaded', function() {
-            console.log('Components loaded for contact/index.html, page functionality ready');
+            console.log('Components loaded event received');
             
-            // Re-initialize Select2 in case it was destroyed by component loading
+            // Re-initialize Select2 after a delay to ensure everything is loaded
             setTimeout(function() {
-                if (typeof initializeSelect2 === 'function') {
+                if (!select2Initialized || !jQuery('#services').data('select2')) {
+                    console.log('Re-initializing Select2 after component load');
                     initializeSelect2();
-                    console.log('Select2 re-initialized after component load');
                 }
             }, 1000);
         });
-        
-        // Also try on window load as a fallback
-        window.addEventListener('load', function() {
-            console.log('Window loaded - checking Select2 status');
-            setTimeout(function() {
-                if (typeof initializeSelect2 === 'function') {
-                    var initialized = initializeSelect2();
-                    if (initialized) {
-                        console.log('Select2 initialized on window load');
-                    }
-                }
-            }, 100);
-        });
     </script>
 
-    <!-- Component Loader Script -->
+    <!-- Component Loader Script - Load AFTER all other scripts -->
     <script src="/js/inline-components.js" defer></script>
 
 </body>
