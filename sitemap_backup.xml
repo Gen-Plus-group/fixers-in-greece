@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.fixersingreece.gr/</loc>
@@ -7,10 +7,22 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.fixersingreece.gr/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.fixersingreece.gr/film-production-services/</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fixersingreece.gr/film-production-services/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.fixersingreece.gr/content-production/</loc>
@@ -319,10 +331,22 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.fixersingreece.gr/event-filming-greece/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.fixersingreece.gr/live-streaming-greece/</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fixersingreece.gr/live-streaming-greece/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.fixersingreece.gr/production-services/</loc>
@@ -577,10 +601,22 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.fixersingreece.gr/news-filming-greece/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.fixersingreece.gr/clients/</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fixersingreece.gr/clients/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.fixersingreece.gr/post-production-services/</loc>
@@ -757,10 +793,22 @@
     <priority>1.0</priority>
   </url>
 <url>
+    <loc>https://www.fixersingreece.gr/ho-chi-minh-city-filming/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.fixersingreece.gr/documentary-filming-greece/</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fixersingreece.gr/documentary-filming-greece/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.fixersingreece.gr/portfolio/</loc>
@@ -769,10 +817,22 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.fixersingreece.gr/portfolio/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://www.fixersingreece.gr/commercial-video-production-greece/</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fixersingreece.gr/commercial-video-production-greece/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.fixersingreece.gr/about-us/</loc>
@@ -797,6 +857,12 @@
     <lastmod>2025-06-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.fixersingreece.gr/contact/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.fixersingreece.gr/filming-in-greece/</loc>
@@ -984,4 +1050,10 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
-  </urlset>
+  <url>
+    <loc>https://www.fixersingreece.gr/music-video-production-greece/index-before-mobile-fix/</loc>
+    <lastmod>2025-06-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

@@ -15,16 +15,16 @@
   "email": "info@needafixer.com",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Professional filming services throughout Greece",
-    "addressLocality": "Thessaloniki",
-    "addressRegion": "Thessaloniki",
-    "postalCode": "700000",
-    "addressCountry": "VN"
+    "streetAddress": "Leoforos Alexandras 196",
+    "addressLocality": "Athens",
+    "addressRegion": "Attica",
+    "postalCode": "11521",
+    "addressCountry": "GR"
   },
   "geo": {
     "@type": "GeoCoordinates",
-    "latitude": "10.8231",
-    "longitude": "106.6297"
+    "latitude": "37.9838",
+    "longitude": "23.7275"
   },
   "areaServed": [
     {
@@ -41,15 +41,15 @@
     },
     {
       "@type": "City",
-      "name": "Da Nang"
+      "name": "Santorini"
     },
     {
       "@type": "City",
-      "name": "Hoi An"
+      "name": "Mykonos"
     },
     {
       "@type": "City",
-      "name": "Hue"
+      "name": "Crete"
     }
   ],
   "serviceArea": {
@@ -57,7 +57,7 @@
     "name": "Greece"
   },
   "priceRange": "$$",
-  "currenciesAccepted": "USD, EUR, GBP, VND",
+  "currenciesAccepted": "USD, EUR, GBP",
   "paymentAccepted": "Cash, Credit Card, Bank Transfer",
   "openingHours": "Mo-Su 00:00-23:59",
   "hasOfferCatalog": {
