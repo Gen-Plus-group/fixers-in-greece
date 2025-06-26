@@ -677,7 +677,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <a href="/contact/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200" data-nav="contact">CONTACT</a>
     `;
 
-    // Mobile navigation HTML with proper structure (simplified for now)
+    // Mobile navigation HTML with expandable submenus
     const mobileNavigationHTML = `
         <div class="space-y-0">
             <!-- Level 1: Main Navigation Items -->
@@ -689,25 +689,278 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="font-medium">ABOUT US</span>
             </a>
 
-            <a href="/pre-production-services/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700">
-                <span class="font-medium">PRE-PRODUCTION</span>
-            </a>
+            <!-- Pre-Production with Submenu -->
+            <div class="mobile-menu-item border-b border-gray-700">
+                <button class="mobile-menu-toggle w-full px-4 py-3 text-left text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 flex items-center justify-between" data-menu="preproduction">
+                    <span class="font-medium">PRE-PRODUCTION</span>
+                    <svg class="w-4 h-4 transition-transform duration-200 menu-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="mobile-submenu hidden bg-gray-900">
+                    <a href="/pre-production-services/" class="block px-8 py-2 text-sm text-gray-400 hover:text-greece-blue hover:bg-gray-800">Overview</a>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Creative & Development</h5>
+                        <a href="/pre-production-services/scriptwriting/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Scriptwriting</a>
+                        <a href="/pre-production-services/script-consultation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Script Consultation</a>
+                        <a href="/pre-production-services/storyboarding/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Storyboarding</a>
+                        <a href="/pre-production-services/concept-development/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Concept Development</a>
+                        <a href="/pre-production-services/creative-direction/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Creative Direction</a>
+                        <a href="/pre-production-services/moodboard-creation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Moodboards</a>
+                        <a href="/pre-production-services/pitch-deck-design/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Pitch Decks</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Casting & Talent</h5>
+                        <a href="/pre-production-services/casting-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Casting Services</a>
+                        <a href="/pre-production-services/voiceover-casting/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Voiceover Casting</a>
+                        <a href="/pre-production-services/talent-coordination/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Talent Coordination</a>
+                        <a href="/pre-production-services/union-talent-management/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Union Management</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Location & Permits</h5>
+                        <a href="/pre-production-services/location-scouting-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Location Scouting</a>
+                        <a href="/pre-production-services/location-management/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Location Management</a>
+                        <a href="/pre-production-services/film-permit-acquisition/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Permit Acquisition</a>
+                        <a href="/pre-production-services/site-surveys/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Site Surveys</a>
+                        <a href="/pre-production-services/production-insurance/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Production Insurance</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Budgeting & Scheduling</h5>
+                        <a href="/pre-production-services/production-budgeting/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Production Budgeting</a>
+                        <a href="/pre-production-services/cost-estimation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Cost Estimation</a>
+                        <a href="/pre-production-services/production-scheduling/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Production Scheduling</a>
+                        <a href="/pre-production-services/call-sheets/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Call Sheets</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Crew & Logistics</h5>
+                        <a href="/pre-production-services/line-producing-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Line Producing</a>
+                        <a href="/pre-production-services/crew-hiring/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Crew Hiring</a>
+                        <a href="/pre-production-services/fixer-services-local/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Local Fixers</a>
+                        <a href="/pre-production-services/travel-logistics/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Travel Logistics</a>
+                        <a href="/pre-production-services/equipment-planning/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Equipment Planning</a>
+                        <a href="/pre-production-services/catering-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Catering Services</a>
+                    </div>
+                    <div class="px-8 py-2 pb-3">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Legal & Administrative</h5>
+                        <a href="/pre-production-services/contract-management/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Contract Management</a>
+                        <a href="/pre-production-services/talent-releases/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Talent Releases</a>
+                        <a href="/pre-production-services/location-agreements/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Location Agreements</a>
+                        <a href="/pre-production-services/licensing-rights/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Licensing & Rights</a>
+                        <a href="/pre-production-services/covid-compliance/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">COVID Compliance</a>
+                    </div>
+                </div>
+            </div>
 
-            <a href="/production-services/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700">
-                <span class="font-medium">PRODUCTION</span>
-            </a>
+            <!-- Production with Submenu -->
+            <div class="mobile-menu-item border-b border-gray-700">
+                <button class="mobile-menu-toggle w-full px-4 py-3 text-left text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 flex items-center justify-between" data-menu="production">
+                    <span class="font-medium">PRODUCTION</span>
+                    <svg class="w-4 h-4 transition-transform duration-200 menu-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="mobile-submenu hidden bg-gray-900">
+                    <a href="/production-services/" class="block px-8 py-2 text-sm text-gray-400 hover:text-greece-blue hover:bg-gray-800">Overview</a>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Camera & Cinematography</h5>
+                        <a href="/production-services/camera-cinematography/dp-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">DP Services</a>
+                        <a href="/production-services/camera-cinematography/multi-camera-shoots/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Multi-Camera Shoots</a>
+                        <a href="/production-services/camera-cinematography/steadicam-gimbal-operation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Steadicam & Gimbal</a>
+                        <a href="/production-services/camera-cinematography/drone-videography/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Drone Videography</a>
+                        <a href="/production-services/camera-cinematography/underwater-filming/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Underwater Filming</a>
+                        <a href="/production-services/camera-cinematography/timelapse-hyperlapse/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Time-lapse & Hyperlapse</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Lighting & Grip</h5>
+                        <a href="/production-services/lighting-grip/gaffer-lighting-team/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Gaffer & Lighting Team</a>
+                        <a href="/production-services/lighting-grip/grip-equipment-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Grip Services</a>
+                        <a href="/production-services/lighting-grip/led-lighting-systems/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">LED Lighting Systems</a>
+                        <a href="/production-services/lighting-grip/portable-power-solutions/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Portable Power Solutions</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Sound & Audio</h5>
+                        <a href="/production-services/sound-audio/location-sound-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Location Sound Services</a>
+                        <a href="/production-services/sound-audio/boom-operators/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Boom Operators</a>
+                        <a href="/production-services/sound-audio/wireless-audio-systems/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Wireless Audio Systems</a>
+                        <a href="/production-services/sound-audio/sound-recordist-team/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Sound Recordist Team</a>
+                        <a href="/production-services/sound-audio/post-production-audio/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Post-Production Audio</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Production Equipment</h5>
+                        <a href="/production-services/production-equipment/camera-equipment-rental/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Camera Equipment</a>
+                        <a href="/production-services/production-equipment/communication-systems/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Communication Systems</a>
+                        <a href="/production-services/production-equipment/lighting-equipment-rental/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Lighting Equipment</a>
+                        <a href="/production-services/production-equipment/power-distribution-systems/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Power Distribution</a>
+                        <a href="/production-services/production-equipment/data-management-systems/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Data Management</a>
+                        <a href="/production-services/production-equipment/monitor-video-village-setups/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Monitor & Video Village</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Production Team</h5>
+                        <a href="/production-services/production-team/line-producers/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Line Producers</a>
+                        <a href="/production-services/production-team/assistant-directors/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Assistant Directors</a>
+                        <a href="/production-services/production-team/production-coordinators/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Production Coordinators</a>
+                        <a href="/production-services/production-team/production-assistants/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Production Assistants</a>
+                        <a href="/production-services/production-team/locations-managers/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Location Managers</a>
+                        <a href="/production-services/production-team/casting-directors/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Casting Directors</a>
+                        <a href="/production-services/production-team/script-supervisors/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Script Supervisors</a>
+                        <a href="/production-services/production-team/makeup-artists/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Makeup Artists</a>
+                    </div>
+                    <div class="px-8 py-2 pb-3">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Specialized Filming</h5>
+                        <a href="/production-services/specialized-filming/aerial-drone-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Aerial Drone Services</a>
+                        <a href="/production-services/specialized-filming/high-speed-filming/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">High-Speed Filming</a>
+                        <a href="/production-services/specialized-filming/multi-camera-setups/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Multi-Camera Setups</a>
+                        <a href="/production-services/specialized-filming/timelapse-hyperlapse/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Timelapse & Hyperlapse</a>
+                        <a href="/production-services/specialized-filming/underwater-filming/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Underwater Filming</a>
+                        <a href="/production-services/specialized-filming/virtual-reality-filming/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Virtual Reality Filming</a>
+                    </div>
+                </div>
+            </div>
 
-            <a href="/post-production-services/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700">
-                <span class="font-medium">POST-PRODUCTION</span>
-            </a>
+            <!-- Post-Production with Submenu -->
+            <div class="mobile-menu-item border-b border-gray-700">
+                <button class="mobile-menu-toggle w-full px-4 py-3 text-left text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 flex items-center justify-between" data-menu="postproduction">
+                    <span class="font-medium">POST-PRODUCTION</span>
+                    <svg class="w-4 h-4 transition-transform duration-200 menu-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="mobile-submenu hidden bg-gray-900">
+                    <a href="/post-production-services/" class="block px-8 py-2 text-sm text-gray-400 hover:text-greece-blue hover:bg-gray-800">Overview</a>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Editing & Assembly</h5>
+                        <a href="/post-production-services/editing-assembly/video-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Video Editing</a>
+                        <a href="/post-production-services/editing-assembly/offline-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Offline Editing</a>
+                        <a href="/post-production-services/editing-assembly/online-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Online Editing</a>
+                        <a href="/post-production-services/editing-assembly/rough-cut-assembly/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Rough Cut Assembly</a>
+                        <a href="/post-production-services/editing-assembly/fine-cut-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Fine Cut Editing</a>
+                        <a href="/post-production-services/editing-assembly/documentary-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Documentary Editing</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Color & Visual Finishing</h5>
+                        <a href="/post-production-services/color-visual-finishing/color-grading/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Color Grading</a>
+                        <a href="/post-production-services/color-visual-finishing/color-correction/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Color Correction</a>
+                        <a href="/post-production-services/color-visual-finishing/hdr-grading/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">HDR Grading</a>
+                        <a href="/post-production-services/color-visual-finishing/film-scanning-restoration/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Film Scanning & Restoration</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Motion & VFX</h5>
+                        <a href="/post-production-services/motion-vfx/motion-graphics-design/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Motion Graphics Design</a>
+                        <a href="/post-production-services/motion-vfx/3d-animation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">3D Animation</a>
+                        <a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Visual Effects & Compositing</a>
+                        <a href="/post-production-services/motion-vfx/title-sequence-design/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Title Sequence Design</a>
+                        <a href="/post-production-services/motion-vfx/green-screen-keying/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Green Screen & Keying</a>
+                        <a href="/post-production-services/motion-vfx/rotoscoping-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Rotoscoping Services</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Audio Post</h5>
+                        <a href="/post-production-services/audio-post/sound-design/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Sound Design</a>
+                        <a href="/post-production-services/audio-post/audio-mixing-mastering/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Audio Mixing & Mastering</a>
+                        <a href="/post-production-services/audio-post/dialogue-editing-adr/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Dialogue Editing & ADR</a>
+                        <a href="/post-production-services/audio-post/foley-recording/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Foley Recording</a>
+                        <a href="/post-production-services/audio-post/music-composition/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Music Composition</a>
+                        <a href="/post-production-services/audio-post/5-1-surround-mixing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">5.1 Surround Mixing</a>
+                    </div>
+                    <div class="px-8 py-2 pb-3">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Delivery & Output</h5>
+                        <a href="/post-production-services/delivery-output/broadcast-delivery/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Broadcast Delivery</a>
+                        <a href="/post-production-services/delivery-output/digital-cinema-package/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Digital Cinema Package (DCP)</a>
+                        <a href="/post-production-services/delivery-output/subtitling-closed-captions/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Subtitling & Closed Captions</a>
+                        <a href="/post-production-services/delivery-output/localization-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Localization Services</a>
+                        <a href="/post-production-services/delivery-output/archiving-backup/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Archiving & Backup</a>
+                        <a href="/post-production-services/delivery-output/format-conversion/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Format Conversion</a>
+                    </div>
+                </div>
+            </div>
 
-            <a href="/content-production/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700">
-                <span class="font-medium">CONTENT PRODUCTION</span>
-            </a>
+            <!-- Content Production with Submenu -->
+            <div class="mobile-menu-item border-b border-gray-700">
+                <button class="mobile-menu-toggle w-full px-4 py-3 text-left text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 flex items-center justify-between" data-menu="content">
+                    <span class="font-medium">CONTENT PRODUCTION</span>
+                    <svg class="w-4 h-4 transition-transform duration-200 menu-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="mobile-submenu hidden bg-gray-900">
+                    <a href="/content-production/" class="block px-8 py-2 text-sm text-gray-400 hover:text-greece-blue hover:bg-gray-800">Overview</a>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Broadcast & Television</h5>
+                        <a href="/content-production/tv-production-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">TV Production Services</a>
+                        <a href="/content-production/live-streaming-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Live Streaming Services</a>
+                        <a href="/content-production/multi-camera-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Multi-Camera Production</a>
+                        <a href="/content-production/studio-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Studio Production</a>
+                        <a href="/content-production/news-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">News Production</a>
+                        <a href="/content-production/reality-tv-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Reality TV Production</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Commercial & Corporate</h5>
+                        <a href="/content-production/corporate-video-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Corporate Video Production</a>
+                        <a href="/content-production/brand-content-creation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Brand Content Creation</a>
+                        <a href="/content-production/testimonial-videos/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Testimonial Videos</a>
+                        <a href="/content-production/training-educational-videos/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Training & Educational Videos</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Documentary & Factual</h5>
+                        <a href="/content-production/documentary-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Documentary Production</a>
+                        <a href="/content-production/interview-filming/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Interview Filming</a>
+                        <a href="/content-production/historical-documentaries/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Historical Documentaries</a>
+                    </div>
+                    <div class="px-8 py-2 pb-3">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Digital & Creative Content</h5>
+                        <a href="/content-production/social-media-content/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Social Media Content</a>
+                        <a href="/content-production/youtube-content-creation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">YouTube Content Creation</a>
+                        <a href="/content-production/podcast-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Podcast Production</a>
+                        <a href="/content-production/animation-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Animation Services</a>
+                        <a href="/content-production/virtual-event-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Virtual Event Production</a>
+                    </div>
+                </div>
+            </div>
 
-            <a href="/film-crew/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700">
-                <span class="font-medium">FILM CREW</span>
-            </a>
+            <!-- Film Crew with Submenu -->
+            <div class="mobile-menu-item border-b border-gray-700">
+                <button class="mobile-menu-toggle w-full px-4 py-3 text-left text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 flex items-center justify-between" data-menu="crew">
+                    <span class="font-medium">FILM CREW</span>
+                    <svg class="w-4 h-4 transition-transform duration-200 menu-chevron" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="mobile-submenu hidden bg-gray-900">
+                    <a href="/film-crew/" class="block px-8 py-2 text-sm text-gray-400 hover:text-greece-blue hover:bg-gray-800">Overview</a>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Creative Roles</h5>
+                        <a href="/film-crew/creative-roles/director/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Director</a>
+                        <a href="/film-crew/creative-roles/cinematographer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Cinematographer</a>
+                        <a href="/film-crew/creative-roles/production-designer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Production Designer</a>
+                        <a href="/film-crew/creative-roles/costume-designer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Costume Designer</a>
+                        <a href="/film-crew/creative-roles/makeup-artist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Makeup Artist</a>
+                        <a href="/film-crew/creative-roles/editor/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Editor</a>
+                        <a href="/film-crew/creative-roles/sound-designer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Sound Designer</a>
+                        <a href="/film-crew/creative-roles/vfx-supervisor/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">VFX Supervisor</a>
+                    </div>
+                    <div class="px-8 py-2">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Technical Roles</h5>
+                        <a href="/film-crew/technical-roles/camera-operator/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Camera Operator</a>
+                        <a href="/film-crew/technical-roles/sound-recordist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Sound Recordist</a>
+                        <a href="/film-crew/technical-roles/lighting-technician/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Lighting Technician</a>
+                        <a href="/film-crew/technical-roles/boom-operator/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Boom Operator</a>
+                        <a href="/film-crew/technical-roles/focus-puller/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Focus Puller</a>
+                        <a href="/film-crew/technical-roles/cgi-artist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">CGI Artist</a>
+                        <a href="/film-crew/technical-roles/dit-data-technician/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">DIT (Data Technician)</a>
+                        <a href="/film-crew/technical-roles/gaffer-grip/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Gaffer / Grip</a>
+                    </div>
+                    <div class="px-8 py-2 pb-3">
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Support Roles</h5>
+                        <a href="/film-crew/support-roles/fixer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Fixer</a>
+                        <a href="/film-crew/support-roles/line-producer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Line Producer</a>
+                        <a href="/film-crew/support-roles/production-manager/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Production Manager</a>
+                        <a href="/film-crew/support-roles/location-scout/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Location Scout</a>
+                        <a href="/film-crew/support-roles/runner-set-pa/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Runner / Set PA</a>
+                        <a href="/film-crew/support-roles/catering-logistics/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Catering / Logistics</a>
+                        <a href="/film-crew/support-roles/travel-coordinator/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Travel Coordinator</a>
+                        <a href="/film-crew/support-roles/post-production-supervisor/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Post-Production Supervisor</a>
+                    </div>
+                </div>
+            </div>
 
             <a href="/filming-in-greece/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="filming">
                 <span class="font-medium">FILMING IN GREECE</span>
@@ -781,6 +1034,26 @@ document.addEventListener('DOMContentLoaded', function() {
             mobileMenuBackdrop.addEventListener('click', closeMenu);
         }
     }
+
+    // Initialize mobile submenu toggles
+    const mobileMenuToggles = document.querySelectorAll('.mobile-menu-toggle');
+    mobileMenuToggles.forEach(toggle => {
+        toggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            const submenu = toggle.nextElementSibling;
+            const chevron = toggle.querySelector('.menu-chevron');
+            
+            if (submenu && submenu.classList.contains('mobile-submenu')) {
+                // Toggle submenu visibility
+                submenu.classList.toggle('hidden');
+                
+                // Rotate chevron
+                if (chevron) {
+                    chevron.style.transform = submenu.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+                }
+            }
+        });
+    });
 
     console.log('✅ Components loaded successfully!');
     
