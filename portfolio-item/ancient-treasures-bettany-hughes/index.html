@@ -34,6 +34,9 @@
     <!-- Tailwind CSS -->
     <link href="/dist/output.css?v=20250626" rel="stylesheet">
     
+    <!-- Portfolio Alignment Fix -->
+    <link href="/portfolio-alignment-fix.css?v=20250626" rel="stylesheet">
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
@@ -193,15 +196,12 @@
     <!-- Main Content -->
     <main id="main-content">
         <!-- Hero Section -->
-        <section class="portfolio-hero relative py-32 md:py-48">
-            <div class="container mx-auto px-4 relative z-10 max-w-full">
+        <section class="portfolio-hero relative">
+            <div class="portfolio-container relative z-10">
                 <div class="max-w-4xl">
-                    <!-- Title -->
-                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8 pt-12">
+                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8">
                         Ancient Treasures with Bettany Hughes
                     </h1>
-                    
-                    <!-- Subtitle -->
                     <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12">
                         Uncover the hidden treasures of ancient civilizations as Bettany Hughes explores Greece's most significant archaeological discoveries.
                     </p>
@@ -210,31 +210,24 @@
         </section>
 
         <!-- Project Details Section -->
-        <section class="py-16 bg-greece-dark border-y border-gray-800">
-            <div class="container mx-auto px-4 max-w-full">
-                <div class="grid md:grid-cols-4 gap-8">
-                    <!-- End Client -->
-                    <div class="text-center md:text-left">
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">End Client</h3>
-                        <p class="text-xl font-bold text-greece-blue">Channel 5</p>
+        <section class="portfolio-section bg-greece-dark border-y border-gray-800">
+            <div class="portfolio-container">
+                <div class="portfolio-details-grid">
+                    <div class="portfolio-detail-item">
+                        <h3>End Client</h3>
+                        <p class="text-greece-blue">Channel 5</p>
                     </div>
-                    
-                    <!-- Creative Agency -->
-                    <div class="text-center md:text-left">
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Creative Agency</h3>
-                        <p class="text-xl font-bold text-white">SandStone Global</p>
+                    <div class="portfolio-detail-item">
+                        <h3>Creative Agency</h3>
+                        <p class="text-white">SandStone Global</p>
                     </div>
-                    
-                    <!-- Production -->
-                    <div class="text-center md:text-left">
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Production</h3>
-                        <p class="text-xl font-bold text-white">SandStone Global Productions</p>
+                    <div class="portfolio-detail-item">
+                        <h3>Production</h3>
+                        <p class="text-white">SandStone Global Productions</p>
                     </div>
-                    
-                    <!-- Film Services -->
-                    <div class="text-center md:text-left">
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Film Services</h3>
-                        <p class="text-xl font-bold text-greece-blue">Fixers in Greece</p>
+                    <div class="portfolio-detail-item">
+                        <h3>Film Services</h3>
+                        <p class="text-greece-blue">Fixers in Greece</p>
                     </div>
                 </div>
             </div>
@@ -407,9 +400,9 @@
         </section>
 
         <!-- Call to Action -->
-        <section class="py-16">
-            <div class="container mx-auto px-4 max-w-full">
-                <div class="max-w-4xl mx-auto">
+        <section class="portfolio-section">
+            <div class="portfolio-container">
+                <div class="portfolio-cta">
                     <div class="bg-gradient-to-r from-greece-blue to-yellow-500 rounded-lg p-8 md:p-12 text-center">
                         <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">
                             Ready to Create Your Next Campaign in Greece?

@@ -34,6 +34,9 @@
     <!-- Tailwind CSS -->
     <link href="/dist/output.css?v=20250626" rel="stylesheet">
     
+    <!-- Portfolio Alignment Fix -->
+    <link href="/portfolio-alignment-fix.css?v=20250626" rel="stylesheet">
+    
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     
@@ -97,10 +100,10 @@
     <!-- Main Content -->
     <main id="main-content">
         <!-- Hero Section -->
-        <section class="portfolio-hero relative py-32 md:py-48" style="border: none; border-top: none; margin-top: 0; padding-top: 2rem;">
-            <div class="container mx-auto px-4 relative z-10 max-w-full">
+        <section class="portfolio-hero relative">
+            <div class="portfolio-container relative z-10">
                 <div class="max-w-4xl">
-                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8 pt-24">
+                    <h1 class="text-6xl md:text-8xl font-bold text-white mb-8">
                         Kenshō Boutique Hotel & Suites: An Awakening Experience
                     </h1>
                     <p class="text-xl md:text-2xl text-gray-300 leading-relaxed mb-12">
@@ -111,32 +114,32 @@
         </section>
 
         <!-- Project Details Section -->
-        <section class="py-16 bg-greece-dark border-y border-gray-800">
-            <div class="container mx-auto px-4 max-w-full">
-                <div class="grid md:grid-cols-4 gap-8">
-                    <div class="text-center md:text-left">
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">End Client</h3>
-                        <p class="text-xl font-bold text-greece-blue">Kenshō Boutique Hotel & Suites</p>
+        <section class="portfolio-section bg-greece-dark border-y border-gray-800">
+            <div class="portfolio-container">
+                <div class="portfolio-details-grid">
+                    <div class="portfolio-detail-item">
+                        <h3>End Client</h3>
+                        <p class="text-greece-blue">Kenshō Boutique Hotel & Suites</p>
                     </div>
-                    <div class="text-center md:text-left">
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Campaign</h3>
-                        <p class="text-xl font-bold text-white">An Awakening Experience</p>
+                    <div class="portfolio-detail-item">
+                        <h3>Campaign</h3>
+                        <p class="text-white">An Awakening Experience</p>
                     </div>
-                    <div class="text-center md:text-left">
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Type</h3>
-                        <p class="text-xl font-bold text-white">Boutique Hotel Brand Film</p>
+                    <div class="portfolio-detail-item">
+                        <h3>Type</h3>
+                        <p class="text-white">Boutique Hotel Brand Film</p>
                     </div>
-                    <div class="text-center md:text-left">
-                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wider mb-2">Film Services</h3>
-                        <p class="text-xl font-bold text-greece-blue">Fixers in Greece</p>
+                    <div class="portfolio-detail-item">
+                        <h3>Film Services</h3>
+                        <p class="text-greece-blue">Fixers in Greece</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- Video Section -->
-        <section class="py-16">
-            <div class="container mx-auto px-4 max-w-full">
+        <section class="portfolio-section portfolio-video-section">
+            <div class="portfolio-container">
                 <div class="max-w-5xl mx-auto">
                     <div class="aspect-video bg-gray-800 rounded-lg overflow-hidden shadow-2xl mb-12">
                         <iframe src="https://player.vimeo.com/video/241403593?h=0&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen class="w-full h-full"></iframe>
@@ -151,9 +154,9 @@
         </section>
 
         <!-- Call to Action -->
-        <section class="py-16">
-            <div class="container mx-auto px-4 max-w-full">
-                <div class="max-w-4xl mx-auto">
+        <section class="portfolio-section">
+            <div class="portfolio-container">
+                <div class="portfolio-cta">
                     <div class="bg-gradient-to-r from-greece-blue to-yellow-500 rounded-lg p-8 md:p-12 text-center">
                         <h2 class="text-3xl md:text-4xl font-bold text-black mb-4">
                             Ready to Create Your Boutique Hotel Campaign?
@@ -175,8 +178,8 @@
         </section>
 
         <!-- Navigation -->
-        <section class="py-8 border-t border-gray-800">
-            <div class="container mx-auto px-4 max-w-full">
+        <section class="portfolio-navigation">
+            <div class="container">
                 <div class="flex justify-between items-center">
                     <a href="/portfolio-item/elounda-gulf-happiness/" class="group flex items-center text-gray-400 hover:text-greece-blue transition-colors duration-200">
                         <svg class="w-5 h-5 mr-2 group-hover:-translate-x-1 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">

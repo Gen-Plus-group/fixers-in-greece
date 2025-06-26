@@ -35,16 +35,14 @@ pre, code {
   max-width: 100%;
   overflow-x: auto;
 }
-/* Portfolio Page Spacing Improvements */
+/* DEPRECATED: This file has been replaced by css/portfolio-layout-unified.css */
+/* 
+   All portfolio spacing and container fixes have been moved to the unified system.
+   This file should be removed from HTML includes and replaced with:
+   /css/portfolio-layout-unified.css
+*/
 
-/* Add spacing between main sections */
-.vc_row {
-    margin-bottom: 60px !important;
-}
-
-.vc_row:last-child {
-    margin-bottom: 0 !important;
-}
+/* Legacy WordPress-specific spacing fixes - these will be removed */
 
 /* Hero section improvements */
 .vc_custom_1446651628089 {

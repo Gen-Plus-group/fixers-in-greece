@@ -39,33 +39,42 @@ pre, code {
    LAYOUT STYLES - Fixers in Greece
    ========================================================================== */
 
-/* Container System */
+/* Container System - Updated to work with portfolio-layout-unified.css */
 .container {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 var(--spacing-md);
+  padding: 0 1rem;
 }
 
 .container-fluid {
   width: 100%;
-  padding: 0 var(--spacing-md);
+  padding: 0 1rem;
 }
 
+/* Ensure consistency with portfolio containers */
 .container-sm {
   max-width: 576px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .container-md {
   max-width: 768px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .container-lg {
   max-width: 992px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 .container-xl {
   max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
 /* Grid System */
@@ -114,7 +123,11 @@ pre, code {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: var(--spacing-md) 0;
+  padding: 1rem 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .logo-container {
