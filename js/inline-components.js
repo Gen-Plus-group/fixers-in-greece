@@ -467,23 +467,23 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
 
         <!-- Post-Production Services Mega Menu -->
-        <div class="relative mega-menu-trigger" style="position: relative;" onmouseover="this.querySelector('.mega-menu').style.opacity='1'; this.querySelector('.mega-menu').style.visibility='visible'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(0)';" onmouseout="this.querySelector('.mega-menu').style.opacity='0'; this.querySelector('.mega-menu').style.visibility='hidden'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(-10px)';">
+        <div class="relative mega-menu-trigger">
             <a href="/post-production-services/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200 flex items-center" data-nav="postproduction">
                 POST-PRODUCTION
                 <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </a>
-            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #f9a531; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
-                <div class="mega-menu-content" style="max-width: 1400px; margin: 0 auto; padding: 30px 40px;">
+            <div class="mega-menu">
+                <div class="mega-menu-content">
                     <div class="text-center mb-8">
-                        <h3 class="text-greece-blue" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Post-Production Services</h3>
+                        <h3 class="text-greece-blue">Post-Production Services</h3>
                         <p class="text-gray-400 text-base">Editing, color, VFX, audio, and delivery</p>
                     </div>
-                    <div class="grid grid-cols-5 gap-10" style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 2.5rem;">
+                    <div class="grid grid-cols-5 gap-10">
                         <!-- Editing & Assembly -->
-                        <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Editing & Assembly</h4>
+                        <div class="mega-menu-column">
+                            <h4>Editing & Assembly</h4>
                             <ul>
                                 <li><a href="/post-production-services/editing-assembly/video-editing/" class="text-gray-300">Video Editing</a></li>
                                 <li><a href="/post-production-services/editing-assembly/rough-cut-final-cut/" class="text-gray-300">Rough Cut to Final Cut</a></li>
@@ -494,8 +494,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
 
                         <!-- Color & Visual Finishing -->
-                        <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Color & Visual Finishing</h4>
+                        <div class="mega-menu-column">
+                            <h4>Color & Visual Finishing</h4>
                             <ul>
                                 <li><a href="/post-production-services/color-visual-finishing/color-correction/" class="text-gray-300">Color Correction</a></li>
                                 <li><a href="/post-production-services/color-visual-finishing/color-grading/" class="text-gray-300">Color Grading</a></li>
@@ -505,8 +505,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
 
                         <!-- Motion & VFX -->
-                        <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Motion & VFX</h4>
+                        <div class="mega-menu-column">
+                            <h4>Motion & VFX</h4>
                             <ul>
                                 <li><a href="/post-production-services/motion-vfx/motion-graphics/" class="text-gray-300">Motion Graphics</a></li>
                                 <li><a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="text-gray-300">VFX Compositing</a></li>
@@ -518,8 +518,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
 
                         <!-- Audio Post -->
-                        <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Audio Post</h4>
+                        <div class="mega-menu-column">
+                            <h4>Audio Post</h4>
                             <ul>
                                 <li><a href="/post-production-services/audio-post/sound-design/" class="text-gray-300">Sound Design</a></li>
                                 <li><a href="/post-production-services/audio-post/foley-recording/" class="text-gray-300">Foley Recording</a></li>
@@ -533,7 +533,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Delivery & Output -->
                         <div class="mega-menu-column">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Delivery & Output</h4>
+                            <h4>Delivery & Output</h4>
                             <ul>
                                 <li><a href="/post-production-services/delivery-output/digital-cinema-package-dcp/" class="text-gray-300">DCP Creation</a></li>
                                 <li><a href="/post-production-services/delivery-output/broadcast-delivery/" class="text-gray-300">Broadcast Delivery</a></li>
@@ -548,23 +548,23 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
 
         <!-- Content Production Mega Menu -->
-        <div class="relative mega-menu-trigger" style="position: relative;" onmouseover="this.querySelector('.mega-menu').style.opacity='1'; this.querySelector('.mega-menu').style.visibility='visible'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(0)';" onmouseout="this.querySelector('.mega-menu').style.opacity='0'; this.querySelector('.mega-menu').style.visibility='hidden'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(-10px)';">
+        <div class="relative mega-menu-trigger">
             <a href="/content-production/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200 flex items-center" data-nav="contentproduction">
                 CONTENT PRODUCTION
                 <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </a>
-            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #f9a531; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
-                <div class="mega-menu-content" style="max-width: 1400px; margin: 0 auto; padding: 30px 40px;">
+            <div class="mega-menu">
+                <div class="mega-menu-content">
                     <div class="text-center mb-8">
-                        <h3 class="text-greece-blue" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Content Production Services</h3>
+                        <h3 class="text-greece-blue">Content Production Services</h3>
                         <p class="text-gray-400 text-base">TV, film, commercial, and digital content production</p>
                     </div>
-                    <div class="grid grid-cols-3 gap-10" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
+                    <div class="grid grid-cols-3 gap-10">
                         <!-- Column 1: TV & Film -->
-                        <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">TV & Film Production</h4>
+                        <div class="mega-menu-column">
+                            <h4>TV & Film Production</h4>
                             <ul>
                                 <li><a href="/content-production/tv-shows-broadcast-series/" class="text-gray-300">TV Shows & Broadcast Series</a></li>
                                 <li><a href="/content-production/feature-films/" class="text-gray-300">Feature Films</a></li>
@@ -576,8 +576,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
 
                         <!-- Column 2: Commercial & Corporate -->
-                        <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Commercial & Corporate</h4>
+                        <div class="mega-menu-column">
+                            <h4>Commercial & Corporate</h4>
                             <ul>
                                 <li><a href="/content-production/commercials-advertising/" class="text-gray-300">Commercials & Advertising</a></li>
                                 <li><a href="/content-production/corporate-videos/" class="text-gray-300">Corporate Videos</a></li>
@@ -590,7 +590,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Column 3: Lifestyle & Creative -->
                         <div class="mega-menu-column">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Lifestyle & Creative</h4>
+                            <h4>Lifestyle & Creative</h4>
                             <ul>
                                 <li><a href="/content-production/music-videos/" class="text-gray-300">Music Videos</a></li>
                                 <li><a href="/content-production/fashion-videos/" class="text-gray-300">Fashion Videos</a></li>
@@ -605,23 +605,23 @@ document.addEventListener('DOMContentLoaded', function() {
         </div>
 
         <!-- Film Crew Services Mega Menu -->
-        <div class="relative mega-menu-trigger" style="position: relative;" onmouseover="this.querySelector('.mega-menu').style.opacity='1'; this.querySelector('.mega-menu').style.visibility='visible'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(0)';" onmouseout="this.querySelector('.mega-menu').style.opacity='0'; this.querySelector('.mega-menu').style.visibility='hidden'; this.querySelector('.mega-menu').style.transform='translateX(-50%) translateY(-10px)';">
+        <div class="relative mega-menu-trigger">
             <a href="/film-crew/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200 flex items-center" data-nav="filmcrew">
                 FILM CREW
                 <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </a>
-            <div class="mega-menu" style="position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(-10px); width: 100vw; max-width: 1400px; min-width: 1200px; background: #1a1a1a; border-top: 2px solid #f9a531; box-shadow: 0 10px 25px rgba(0,0,0,0.3); opacity: 0; visibility: hidden; transition: all 0.3s ease; z-index: 50; margin-top: 8px;">
-                <div class="mega-menu-content" style="max-width: 1400px; margin: 0 auto; padding: 30px 40px;">
+            <div class="mega-menu">
+                <div class="mega-menu-content">
                     <div class="text-center mb-8">
-                        <h3 class="text-greece-blue" style="font-size: 1.5rem; font-weight: 700; margin-bottom: 0.75rem;">Film Crew Services</h3>
+                        <h3 class="text-greece-blue">Film Crew Services</h3>
                         <p class="text-gray-400 text-base">Production services by role type</p>
                     </div>
-                    <div class="grid grid-cols-3 gap-10" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem;">
+                    <div class="grid grid-cols-3 gap-10">
                         <!-- Creative Roles -->
-                        <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Creative Roles</h4>
+                        <div class="mega-menu-column">
+                            <h4>Creative Roles</h4>
                             <ul>
                                 <li><a href="/film-crew/creative-roles/director/" class="text-gray-300">Director</a></li>
                                 <li><a href="/film-crew/creative-roles/creative-producer/" class="text-gray-300">Creative Producer</a></li>
@@ -635,8 +635,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         </div>
 
                         <!-- Technical Roles -->
-                        <div class="mega-menu-column" style="border-right: 1px solid #333; padding-right: 2rem;">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Technical Roles</h4>
+                        <div class="mega-menu-column">
+                            <h4>Technical Roles</h4>
                             <ul>
                                 <li><a href="/film-crew/technical-roles/director-of-photography/" class="text-gray-300">Director of Photography</a></li>
                                 <li><a href="/film-crew/technical-roles/film-maker/" class="text-gray-300">Film Maker</a></li>
@@ -655,7 +655,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                         <!-- Support Roles -->
                         <div class="mega-menu-column">
-                            <h4 style="font-size: 14px; font-weight: 600; text-transform: uppercase; color: #f9a531; margin-bottom: 12px;">Support Roles</h4>
+                            <h4>Support Roles</h4>
                             <ul>
                                 <li><a href="/film-crew/support-roles/fixer/" class="text-gray-300">Fixer</a></li>
                                 <li><a href="/film-crew/support-roles/line-producer/" class="text-gray-300">Line Producer</a></li>
@@ -830,44 +830,43 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="px-8 py-2">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Editing & Assembly</h5>
                         <a href="/post-production-services/editing-assembly/video-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Video Editing</a>
-                        <a href="/post-production-services/editing-assembly/offline-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Offline Editing</a>
-                        <a href="/post-production-services/editing-assembly/online-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Online Editing</a>
-                        <a href="/post-production-services/editing-assembly/rough-cut-assembly/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Rough Cut Assembly</a>
-                        <a href="/post-production-services/editing-assembly/fine-cut-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Fine Cut Editing</a>
-                        <a href="/post-production-services/editing-assembly/documentary-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Documentary Editing</a>
+                        <a href="/post-production-services/editing-assembly/rough-cut-to-final-cut/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Rough Cut to Final Cut</a>
+                        <a href="/post-production-services/editing-assembly/narrative-documentary/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Narrative & Documentary</a>
+                        <a href="/post-production-services/editing-assembly/multi-cam-sync-editing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Multi-Cam Sync Editing</a>
+                        <a href="/post-production-services/editing-assembly/interview-dialogue/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Interview & Dialogue</a>
                     </div>
                     <div class="px-8 py-2">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Color & Visual Finishing</h5>
-                        <a href="/post-production-services/color-visual-finishing/color-grading/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Color Grading</a>
                         <a href="/post-production-services/color-visual-finishing/color-correction/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Color Correction</a>
-                        <a href="/post-production-services/color-visual-finishing/hdr-grading/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">HDR Grading</a>
-                        <a href="/post-production-services/color-visual-finishing/film-scanning-restoration/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Film Scanning & Restoration</a>
+                        <a href="/post-production-services/color-visual-finishing/color-grading/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Color Grading</a>
+                        <a href="/post-production-services/color-visual-finishing/online-conform-qc/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Online Conform & QC</a>
+                        <a href="/post-production-services/color-visual-finishing/look-development/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Look Development</a>
                     </div>
                     <div class="px-8 py-2">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Motion & VFX</h5>
-                        <a href="/post-production-services/motion-vfx/motion-graphics-design/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Motion Graphics Design</a>
-                        <a href="/post-production-services/motion-vfx/3d-animation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">3D Animation</a>
-                        <a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Visual Effects & Compositing</a>
-                        <a href="/post-production-services/motion-vfx/title-sequence-design/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Title Sequence Design</a>
-                        <a href="/post-production-services/motion-vfx/green-screen-keying/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Green Screen & Keying</a>
-                        <a href="/post-production-services/motion-vfx/rotoscoping-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Rotoscoping Services</a>
+                        <a href="/post-production-services/motion-vfx/motion-graphics/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Motion Graphics</a>
+                        <a href="/post-production-services/motion-vfx/vfx-compositing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">VFX Compositing</a>
+                        <a href="/post-production-services/motion-vfx/cgi-3d-animation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">CGI & 3D Animation</a>
+                        <a href="/post-production-services/motion-vfx/title-design-credits/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Title Design & Credits</a>
+                        <a href="/post-production-services/motion-vfx/matte-painting/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Matte Painting</a>
+                        <a href="/post-production-services/motion-vfx/rotoscoping-cleanup/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Rotoscoping & Cleanup</a>
                     </div>
                     <div class="px-8 py-2">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Audio Post</h5>
                         <a href="/post-production-services/audio-post/sound-design/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Sound Design</a>
-                        <a href="/post-production-services/audio-post/audio-mixing-mastering/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Audio Mixing & Mastering</a>
-                        <a href="/post-production-services/audio-post/dialogue-editing-adr/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Dialogue Editing & ADR</a>
                         <a href="/post-production-services/audio-post/foley-recording/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Foley Recording</a>
-                        <a href="/post-production-services/audio-post/music-composition/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Music Composition</a>
+                        <a href="/post-production-services/audio-post/dialogue-adr/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Dialogue & ADR</a>
+                        <a href="/post-production-services/audio-post/music-scoring/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Music & Scoring</a>
+                        <a href="/post-production-services/audio-post/mixing-mastering/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Mixing & Mastering</a>
                         <a href="/post-production-services/audio-post/5-1-surround-mixing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">5.1 Surround Mixing</a>
+                        <a href="/post-production-services/audio-post/audio-restoration/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Audio Restoration</a>
                     </div>
                     <div class="px-8 py-2 pb-3">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Delivery & Output</h5>
+                        <a href="/post-production-services/delivery-output/dcp-creation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">DCP Creation</a>
                         <a href="/post-production-services/delivery-output/broadcast-delivery/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Broadcast Delivery</a>
-                        <a href="/post-production-services/delivery-output/digital-cinema-package/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Digital Cinema Package (DCP)</a>
-                        <a href="/post-production-services/delivery-output/subtitling-closed-captions/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Subtitling & Closed Captions</a>
-                        <a href="/post-production-services/delivery-output/localization-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Localization Services</a>
-                        <a href="/post-production-services/delivery-output/archiving-backup/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Archiving & Backup</a>
+                        <a href="/post-production-services/delivery-output/streaming-platforms/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Streaming Platforms</a>
+                        <a href="/post-production-services/delivery-output/archival-preservation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Archival & Preservation</a>
                         <a href="/post-production-services/delivery-output/format-conversion/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Format Conversion</a>
                     </div>
                 </div>
@@ -884,34 +883,30 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div class="mobile-submenu hidden bg-gray-900">
                     <a href="/content-production/" class="block px-8 py-2 text-sm text-gray-400 hover:text-greece-blue hover:bg-gray-800">Overview</a>
                     <div class="px-8 py-2">
-                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Broadcast & Television</h5>
-                        <a href="/content-production/tv-production-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">TV Production Services</a>
-                        <a href="/content-production/live-streaming-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Live Streaming Services</a>
-                        <a href="/content-production/multi-camera-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Multi-Camera Production</a>
-                        <a href="/content-production/studio-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Studio Production</a>
-                        <a href="/content-production/news-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">News Production</a>
-                        <a href="/content-production/reality-tv-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Reality TV Production</a>
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">TV & Film Production</h5>
+                        <a href="/content-production/tv-broadcast-series/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">TV Shows & Broadcast Series</a>
+                        <a href="/content-production/feature-films/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Feature Films</a>
+                        <a href="/content-production/drama-series/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Drama Series</a>
+                        <a href="/content-production/documentaries-docuseries/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Documentaries & Docuseries</a>
+                        <a href="/content-production/narrative-web-series/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Narrative Films & Web Series</a>
+                        <a href="/content-production/competition-reality-shows/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Competition & Reality Shows</a>
                     </div>
                     <div class="px-8 py-2">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Commercial & Corporate</h5>
-                        <a href="/content-production/corporate-video-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Corporate Video Production</a>
-                        <a href="/content-production/brand-content-creation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Brand Content Creation</a>
-                        <a href="/content-production/testimonial-videos/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Testimonial Videos</a>
-                        <a href="/content-production/training-educational-videos/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Training & Educational Videos</a>
-                    </div>
-                    <div class="px-8 py-2">
-                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Documentary & Factual</h5>
-                        <a href="/content-production/documentary-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Documentary Production</a>
-                        <a href="/content-production/interview-filming/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Interview Filming</a>
-                        <a href="/content-production/historical-documentaries/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Historical Documentaries</a>
+                        <a href="/content-production/commercials-advertising/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Commercials & Advertising</a>
+                        <a href="/content-production/corporate-videos/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Corporate Videos</a>
+                        <a href="/content-production/social-media-content/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Social Media Content</a>
+                        <a href="/content-production/live-events-brand-activations/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Live Events & Brand Activations</a>
+                        <a href="/content-production/educational-elearning/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Educational & eLearning Videos</a>
+                        <a href="/content-production/talk-panel-shows/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Talk Shows & Panel Shows</a>
                     </div>
                     <div class="px-8 py-2 pb-3">
-                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Digital & Creative Content</h5>
-                        <a href="/content-production/social-media-content/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Social Media Content</a>
-                        <a href="/content-production/youtube-content-creation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">YouTube Content Creation</a>
-                        <a href="/content-production/podcast-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Podcast Production</a>
-                        <a href="/content-production/animation-services/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Animation Services</a>
-                        <a href="/content-production/virtual-event-production/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Virtual Event Production</a>
+                        <h5 class="text-xs font-semibold text-greece-blue mb-2">Lifestyle & Creative</h5>
+                        <a href="/content-production/music-videos/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Music Videos</a>
+                        <a href="/content-production/fashion-videos/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Fashion Videos</a>
+                        <a href="/content-production/travel-lifestyle-marketing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Travel & Lifestyle Marketing</a>
+                        <a href="/content-production/hotel-videos-reels/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Hotel Videos & Reels</a>
+                        <a href="/content-production/cookery-food-content/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Cookery Shows & Food Content</a>
                     </div>
                 </div>
             </div>
@@ -929,21 +924,25 @@ document.addEventListener('DOMContentLoaded', function() {
                     <div class="px-8 py-2">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Creative Roles</h5>
                         <a href="/film-crew/creative-roles/director/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Director</a>
-                        <a href="/film-crew/creative-roles/cinematographer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Cinematographer</a>
-                        <a href="/film-crew/creative-roles/production-designer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Production Designer</a>
-                        <a href="/film-crew/creative-roles/costume-designer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Costume Designer</a>
-                        <a href="/film-crew/creative-roles/makeup-artist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Makeup Artist</a>
+                        <a href="/film-crew/creative-roles/creative-producer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Creative Producer</a>
+                        <a href="/film-crew/creative-roles/scriptwriter/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Scriptwriter</a>
+                        <a href="/film-crew/creative-roles/storyboard-artist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Storyboard Artist</a>
+                        <a href="/film-crew/creative-roles/content-creator/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Content Creator</a>
                         <a href="/film-crew/creative-roles/editor/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Editor</a>
-                        <a href="/film-crew/creative-roles/sound-designer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Sound Designer</a>
-                        <a href="/film-crew/creative-roles/vfx-supervisor/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">VFX Supervisor</a>
+                        <a href="/film-crew/creative-roles/motion-graphics-designer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Motion Graphics Designer</a>
+                        <a href="/film-crew/creative-roles/colorist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Colorist</a>
                     </div>
                     <div class="px-8 py-2">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Technical Roles</h5>
+                        <a href="/film-crew/technical-roles/director-of-photography/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Director of Photography</a>
+                        <a href="/film-crew/technical-roles/film-maker/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Film Maker</a>
+                        <a href="/film-crew/technical-roles/videographer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Videographer</a>
+                        <a href="/film-crew/technical-roles/content-creator/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Content Creator</a>
                         <a href="/film-crew/technical-roles/camera-operator/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Camera Operator</a>
-                        <a href="/film-crew/technical-roles/sound-recordist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Sound Recordist</a>
+                        <a href="/film-crew/technical-roles/drone-operator/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Drone Operator</a>
+                        <a href="/film-crew/technical-roles/sound-mixer/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Sound Mixer</a>
                         <a href="/film-crew/technical-roles/lighting-technician/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Lighting Technician</a>
-                        <a href="/film-crew/technical-roles/boom-operator/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Boom Operator</a>
-                        <a href="/film-crew/technical-roles/focus-puller/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Focus Puller</a>
+                        <a href="/film-crew/technical-roles/vfx-artist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">VFX Artist</a>
                         <a href="/film-crew/technical-roles/cgi-artist/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">CGI Artist</a>
                         <a href="/film-crew/technical-roles/dit-data-technician/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">DIT (Data Technician)</a>
                         <a href="/film-crew/technical-roles/gaffer-grip/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Gaffer / Grip</a>
