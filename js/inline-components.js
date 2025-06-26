@@ -81,6 +81,12 @@ const megaMenuStyles = `
     margin-bottom: 0.5rem;
 }
 
+/* Narrower mega menu for 3-column layouts */
+.mega-menu-narrow {
+    max-width: 900px !important;
+    min-width: 800px !important;
+}
+
 /* Ensure mega menu doesn't get clipped */
 .mega-menu-trigger {
     position: static;
@@ -555,7 +561,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </a>
-            <div class="mega-menu">
+            <div class="mega-menu mega-menu-narrow">
                 <div class="mega-menu-content">
                     <div class="text-center mb-8">
                         <h3 class="text-greece-blue">Content Production Services</h3>
@@ -612,7 +618,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
                 </svg>
             </a>
-            <div class="mega-menu">
+            <div class="mega-menu mega-menu-narrow">
                 <div class="mega-menu-content">
                     <div class="text-center mb-8">
                         <h3 class="text-greece-blue">Film Crew Services</h3>
