@@ -157,6 +157,18 @@ DirectoryIndex index.html index.htm
     Deny from all
 </FilesMatch>
 
+# Block access to development, testing, and backup files
+<FilesMatch "(test|debug|dev|temp|backup|\.bak|\.tmp|\.old)">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Block access to specific development files
+<Files ~ "^(test-.*|debug-.*|.*-test\.html|.*-debug\.html|.*-backup\.html|.*-temp\.html|css-test\.html|template-.*\.html|.*-original-backup\.html)$">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
 # Remove index.html from URLs
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+(.+/)?index\.html[\s?] [NC]
 RewriteRule ^ /%1 [R=301,L]
@@ -175,6 +187,9 @@ RewriteCond %{REQUEST_FILENAME} -d
 RewriteCond %{REQUEST_FILENAME}/index.html -f
 RewriteRule ^(.*)$ $1/index.html [L]
 
+# Custom 404 error page
+ErrorDocument 404 /404.html
+
 # Block common exploit attempts
 RewriteCond %{QUERY_STRING} (<|%3C).*script.*(>|%3E) [NC,OR]
 RewriteCond %{QUERY_STRING} GLOBALS(=|\[|\%[0-9A-Z]{0,2}) [OR]
@@ -182,3 +197,7 @@ RewriteCond %{QUERY_STRING} _REQUEST(=|\[|\%[0-9A-Z]{0,2}) [OR]
 RewriteCond %{QUERY_STRING} ^.*(\[|\]|\(|\)|<|>|ê|"|;|\?|\*|=$).* [NC,OR]
 RewriteCond %{QUERY_STRING} ^.*("|'|<|>|\|).* [NC]
 RewriteRule ^(.*)$ - [F,L]
+
+# Redirect requests for backup and development files to home page
+RewriteRule ^.*-(backup|test|debug|temp|dev|old)\.html$ / [R=301,L]
+RewriteRule ^(test|debug|temp|dev)-.*\.html$ / [R=301,L]

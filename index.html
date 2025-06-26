@@ -564,17 +564,17 @@ img {
     </style>
 
     <!-- Preload and async load non-critical CSS -->
-    <link rel="preload" href="/css/base.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/base.css?v=20250626"></noscript>
+    <link rel="preload" href="/css/base.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/base.min.css?v=20250626"></noscript>
     
-    <link rel="preload" href="/css/components.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/components.css?v=20250626"></noscript>
+    <link rel="preload" href="/css/components.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/components.min.css?v=20250626"></noscript>
     
-    <link rel="preload" href="/css/layout.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/layout.css?v=20250626"></noscript>
+    <link rel="preload" href="/css/layout.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/layout.min.css?v=20250626"></noscript>
     
-    <link rel="preload" href="/css/theme.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/theme.css?v=20250626"></noscript>
+    <link rel="preload" href="/css/theme.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/css/theme.min.css?v=20250626"></noscript>
 
     <!-- Preload Tailwind CSS -->
     <link rel="preload" href="/dist/output.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -674,169 +674,206 @@ img {
     
     <!-- Enhanced Structured Data for GEO/SGE Optimization -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": ["LocalBusiness", "ProfessionalService", "Organization"],
-                "@id": "https://www.fixersingreece.gr/#organization",
-                "name": "Fixers in Greece",
-                "alternateName": ["Greece Film Fixers", "Greece Production Services"],
-                "url": "https://www.fixersingreece.gr/",
-                "sameAs": [
-                    "https://needafixer.com/",
-                    "https://www.linkedin.com/company/fixers-in-Greece",
-                    "https://www.facebook.com/fixersinGreece"
-                ],
-                "logo": {
-                    "@type": "ImageObject",
-                    "inLanguage": "en-US",
-                    "@id": "https://www.fixersingreece.gr/#logo",
-                    "url": "https://www.fixersingreece.gr/assets/images/needafixer-greece-white.png",
-                    "contentUrl": "https://www.fixersingreece.gr/assets/images/needafixer-greece-white.png",
-                    "width": 184,
-                    "height": 63,
-                    "caption": "Fixers in Greece - Professional Film Production Services"
-                },
-                "image": {"@id": "https://www.fixersingreece.gr/#logo"},
-                "description": "Leading film production fixers in Greece with 13+ years experience. We provide comprehensive filming services including permits, crew, equipment, locations, and logistics for international productions across Greece.",
-                "slogan": "We make it happen!",
-                "foundingDate": "2010",
-                "address": {
-                    "@type": "PostalAddress",
-                    "streetAddress": "Professional filming services throughout Greece",
-                    "addressLocality": "Athens",
-                    "addressRegion": "Attica",
-                    "postalCode": "10431",
-                    "addressCountry": "GR"
-                },
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": "37.9755",
-                    "longitude": "23.7348"
-                },
-                "contactPoint": [
-                    {
-                        "@type": "ContactPoint",
-                        "telephone": "+30 210 6821895",
-                        "email": "greece@needafixer.com",
-                        "contactType": "customer service",
-                        "availableLanguage": ["English", "Greek"],
-                        "hoursAvailable": {
-                            "@type": "OpeningHoursSpecification",
-                            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-                            "opens": "00:00",
-                            "closes": "23:59"
-                        }
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": [
+                "LocalBusiness",
+                "ProfessionalService",
+                "Organization"
+            ],
+            "@id": "https://www.fixersingreece.gr/#organization",
+            "name": "Fixers in Greece",
+            "alternateName": [
+                "Greece Film Fixers",
+                "Greece Production Services"
+            ],
+            "url": "https://www.fixersingreece.gr/",
+            "sameAs": [
+                "https://needafixer.com/",
+                "https://www.linkedin.com/company/fixers-in-Greece",
+                "https://www.facebook.com/fixersinGreece"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://www.fixersingreece.gr/#logo",
+                "url": "https://www.fixersingreece.gr/assets/images/needafixer-greece-white.png",
+                "contentUrl": "https://www.fixersingreece.gr/assets/images/needafixer-greece-white.png",
+                "width": 184,
+                "height": 63,
+                "caption": "Fixers in Greece - Professional Film Production Services"
+            },
+            "image": {
+                "@id": "https://www.fixersingreece.gr/#logo"
+            },
+            "description": "Leading film production fixers in Greece with 13+ years experience. We provide comprehensive filming services including permits, crew, equipment, locations, and logistics for international productions across Greece.",
+            "slogan": "We make it happen!",
+            "foundingDate": "2010",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Professional filming services throughout Greece",
+                "addressLocality": "Athens",
+                "addressRegion": "Attica",
+                "postalCode": "10431",
+                "addressCountry": "GR"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "37.9755",
+                "longitude": "23.7348"
+            },
+            "contactPoint": [
+                {
+                    "@type": "ContactPoint",
+                    "telephone": "+30 210 6821895",
+                    "email": "greece@needafixer.com",
+                    "contactType": "customer service",
+                    "availableLanguage": [
+                        "English",
+                        "Greek"
+                    ],
+                    "hoursAvailable": {
+                        "@type": "OpeningHoursSpecification",
+                        "dayOfWeek": [
+                            "Monday",
+                            "Tuesday",
+                            "Wednesday",
+                            "Thursday",
+                            "Friday",
+                            "Saturday",
+                            "Sunday"
+                        ],
+                        "opens": "00:00",
+                        "closes": "23:59"
                     }
-                ],
-                "priceRange": "$$",
-                "currenciesAccepted": ["EUR", "USD"],
-                "paymentAccepted": ["Cash", "Credit Card", "Bank Transfer"],
-                "serviceArea": [
+                }
+            ],
+            "priceRange": "$$",
+            "currenciesAccepted": [
+                "EUR",
+                "USD"
+            ],
+            "paymentAccepted": [
+                "Cash",
+                "Credit Card",
+                "Bank Transfer"
+            ],
+            "serviceArea": [
+                {
+                    "@type": "Country",
+                    "name": "Greece"
+                },
+                {
+                    "@type": "City",
+                    "name": "Athens"
+                },
+                {
+                    "@type": "City",
+                    "name": "Thessaloniki"
+                },
+                {
+                    "@type": "City",
+                    "name": "Santorini"
+                },
+                {
+                    "@type": "City",
+                    "name": "Mykonos"
+                }
+            ],
+            "knowsAbout": [
+                "Film Production",
+                "Video Production",
+                "Documentary Filming",
+                "Commercial Production",
+                "Location Scouting",
+                "Film Permits Greece",
+                "Equipment Rental",
+                "Local Crew Services",
+                "Greece Filming Locations",
+                "International Productions",
+                "Film Permits Greece",
+                "Athens Film Crew",
+                "Greece Documentary Filming"
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Greece Film Production Services",
+                "itemListElement": [
                     {
-                        "@type": "Country",
-                        "name": "Greece"
-                    },
-                    {
-                        "@type": "City",
-                        "name": "Athens"
-                    },
-                    {
-                        "@type": "City",
-                        "name": "Thessaloniki"
-                    },
-                    {
-                        "@type": "City",
-                        "name": "Santorini"
-                    },
-                    {
-                        "@type": "City",
-                        "name": "Mykonos"
-                    }
-                ],
-                "knowsAbout": [
-                    "Film Production",
-                    "Video Production",
-                    "Documentary Filming",
-                    "Commercial Production",
-                    "Location Scouting",
-                    "Film Permits Greece",
-                    "Equipment Rental",
-                    "Local Crew Services",
-                    "Greece Filming Locations",
-                    "International Productions",
-                    "Film Permits Greece",
-                    "Athens Film Crew",
-                    "Greece Documentary Filming"
-                ],
-                "hasOfferCatalog": {
-                    "@type": "OfferCatalog",
-                    "name": "Greece Film Production Services",
-                    "itemListElement": [
-                        {
-                            "@type": "Offer",
-                            "itemOffered": {
-                                "@type": "Service",
-                                "name": "Film Permits Greece",
-                                "description": "Complete film permit acquisition and government liaison services for filming in Greece",
-                                "provider": {"@id": "https://www.fixersingreece.gr/#organization"},
-                                "areaServed": "Greece",
-                                "availableChannel": {
-                                    "@type": "ServiceChannel",
-                                    "serviceUrl": "https://www.fixersingreece.gr/pre-production-services/film-permit-acquisition/",
-                                    "serviceName": "Film Permits Greece"
-                                }
-                            }
-                        },
-                        {
-                            "@type": "Offer",
-                            "itemOffered": {
-                                "@type": "Service",
-                                "name": "Location Scouting Greece",
-                                "description": "Professional location scouting and management services across Greece's diverse filming locations",
-                                "provider": {"@id": "https://www.fixersingreece.gr/#organization"},
-                                "areaServed": "Greece"
-                            }
-                        },
-                        {
-                            "@type": "Offer",
-                            "itemOffered": {
-                                "@type": "Service",
-                                "name": "Equipment Rental Greece",
-                                "description": "Professional film and video equipment rental with technical support in Greece",
-                                "provider": {"@id": "https://www.fixersingreece.gr/#organization"},
-                                "areaServed": "Greece"
-                            }
-                        },
-                        {
-                            "@type": "Offer",
-                            "itemOffered": {
-                                "@type": "Service",
-                                "name": "Greece Film Crew",
-                                "description": "Experienced local film crew and production staff for international productions in Greece",
-                                "provider": {"@id": "https://www.fixersingreece.gr/#organization"},
-                                "areaServed": "Greece"
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Film Permits Greece",
+                            "description": "Complete film permit acquisition and government liaison services for filming in Greece",
+                            "provider": {
+                                "@id": "https://www.fixersingreece.gr/#organization"
+                            },
+                            "areaServed": "Greece",
+                            "availableChannel": {
+                                "@type": "ServiceChannel",
+                                "serviceUrl": "https://www.fixersingreece.gr/pre-production-services/film-permit-acquisition/",
+                                "serviceName": "Film Permits Greece"
                             }
                         }
-                    ]
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "reviewCount": "50",
-                    "bestRating": "5",
-                    "worstRating": "1"
-                },
-                "award": [
-                    "13+ Years Greece film production Greece Experience",
-                    "500+ International Productions Completed",
-                    "Trusted by BBC, CNN, Discovery Channel"
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Location Scouting Greece",
+                            "description": "Professional location scouting and management services across Greece's diverse filming locations",
+                            "provider": {
+                                "@id": "https://www.fixersingreece.gr/#organization"
+                            },
+                            "areaServed": "Greece"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Equipment Rental Greece",
+                            "description": "Professional film and video equipment rental with technical support in Greece",
+                            "provider": {
+                                "@id": "https://www.fixersingreece.gr/#organization"
+                            },
+                            "areaServed": "Greece"
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Greece Film Crew",
+                            "description": "Experienced local film crew and production staff for international productions in Greece",
+                            "provider": {
+                                "@id": "https://www.fixersingreece.gr/#organization"
+                            },
+                            "areaServed": "Greece"
+                        }
+                    }
                 ]
-            }
-        ]
-    }
-    </script>
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.8",
+                "reviewCount": "50",
+                "bestRating": "5",
+                "worstRating": "1"
+            },
+            "award": [
+                "13+ Years Greece film production Greece Experience",
+                "500+ International Productions Completed",
+                "Trusted by BBC, CNN, Discovery Channel"
+            ],
+            "telephone": "+30 210 6821895",
+            "email": "greece@needafixer.com"
+        }
+    ]
+}
+</script>
 
     <!-- FAQ Schema for GEO/SGE Optimization -->
     <script type="application/ld+json">
@@ -1656,14 +1693,14 @@ img {
 
     <!-- Component Loader Script - Deferred for performance -->
     <!-- Use inline components for reliability -->
-    <script src="/js/inline-components.js?v=20250626" defer></script>
+    <script src="/js/inline-components.min.js?v=20250626" defer></script>
 
     <!-- Mobile Menu CSS - Load after critical content -->
     <script>
         window.addEventListener('load', function() {
             var link = document.createElement('link');
             link.rel = 'stylesheet';
-            link.href = '/mobile-menu.css';
+            link.href = '/mobile-menu.min.css?v=20250626';
             document.head.appendChild(link);
         });
     </script>

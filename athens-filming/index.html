@@ -806,110 +806,139 @@
 
     <!-- Local Business Schema -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Fixers in Greece",
-        "description": "Professional film production services in Greece",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Athens",
-            "addressCountry": "Greece"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 37.9838,
-            "longitude": 23.7275
-        },
-        "url": "https://www.fixersingreece.gr",
-        "telephone": "+30 210 6821895",
-        "priceRange": "€€€"
-    }
-    </script>
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Fixers in Greece",
+    "description": "Professional film production services in Greece",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Athens",
+        "addressCountry": "GR",
+        "streetAddress": "Professional filming services throughout Greece",
+        "postalCode": "10431",
+        "addressRegion": "Attica"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.9838,
+        "longitude": 23.7275
+    },
+    "url": "https://www.fixersingreece.gr/",
+    "telephone": "+30 210 6821895",
+    "priceRange": "€€",
+    "email": "greece@needafixer.com",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.fixersingreece.gr/assets/images/needafixer-greece-white.png",
+        "width": 184,
+        "height": 63
+    },
+    "@id": "https://www.fixersingreece.gr/#organization"
+}
+</script>
 
     <!-- Athens-Specific LocalBusiness Schema -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Fixers in Greece - Athens Filming Services",
-        "description": "Professional filming services in Athens, Greece. Specializing in ancient landmarks, modern cityscape, and Mediterranean settings for film and video production.",
-        "image": "https://www.fixersingreece.gr/assets/images/webp/20.webp",
-        "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "Syntagma Square",
-            "addressLocality": "Athens",
-            "addressRegion": "Attica",
-            "postalCode": "105 63",
-            "addressCountry": "GR"
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Fixers in Greece - Athens Filming Services",
+    "description": "Professional filming services in Athens, Greece. Specializing in ancient landmarks, modern cityscape, and Mediterranean settings for film and video production.",
+    "image": "https://www.fixersingreece.gr/assets/images/webp/20.webp",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Syntagma Square",
+        "addressLocality": "Athens",
+        "addressRegion": "Attica",
+        "postalCode": "105 63",
+        "addressCountry": "GR"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.9838,
+        "longitude": 23.7275
+    },
+    "areaServed": [
+        {
+            "@type": "City",
+            "name": "Athens",
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 37.9838,
+                "longitude": 23.7275
+            }
         },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 37.9838,
-            "longitude": 23.7275
-        },
-        "areaServed": [
+        {
+            "@type": "AdministrativeArea",
+            "name": "Attica Region",
+            "containsPlace": [
+                "Plaka",
+                "Kolonaki",
+                "Psyrri",
+                "Glyfada",
+                "Piraeus",
+                "Marathon",
+                "Sounion"
+            ]
+        }
+    ],
+    "url": "https://www.fixersingreece.gr/athens-filming/",
+    "telephone": "+30 210 6821895",
+    "priceRange": "€€",
+    "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+        ],
+        "opens": "00:00",
+        "closes": "23:59"
+    },
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Athens Filming Services",
+        "itemListElement": [
             {
-                "@type": "City",
-                "name": "Athens",
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": 37.9838,
-                    "longitude": 23.7275
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Archaeological Site Filming",
+                    "description": "Professional filming at Acropolis, Ancient Agora, and other archaeological sites with permit assistance"
                 }
             },
             {
-                "@type": "AdministrativeArea",
-                "name": "Attica Region",
-                "containsPlace": ["Plaka", "Kolonaki", "Psyrri", "Glyfada", "Piraeus", "Marathon", "Sounion"]
-            }
-        ],
-        "url": "https://www.fixersingreece.gr/athens-filming/",
-        "telephone": "+30 210 6821895",
-        "priceRange": "€€€",
-        "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-            "opens": "00:00",
-            "closes": "23:59"
-        },
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Athens Filming Services",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Archaeological Site Filming",
-                        "description": "Professional filming at Acropolis, Ancient Agora, and other archaeological sites with permit assistance"
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Modern Athens Production",
-                        "description": "Filming in Syntagma Square, Athens Riviera, and contemporary urban locations"
-                    }
-                },
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Cultural Athens Filming",
-                        "description": "Authentic neighborhood filming in Plaka, Psyrri, and traditional areas"
-                    }
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Modern Athens Production",
+                    "description": "Filming in Syntagma Square, Athens Riviera, and contemporary urban locations"
                 }
-            ]
-        },
-        "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "5",
-            "reviewCount": "89"
-        }
-    }
-    </script>
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Cultural Athens Filming",
+                    "description": "Authentic neighborhood filming in Plaka, Psyrri, and traditional areas"
+                }
+            }
+        ]
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "89"
+    },
+    "email": "greece@needafixer.com",
+    "@id": "https://www.fixersingreece.gr/#organization"
+}
+</script>
 
     <!-- Athens Filming Locations Schema -->
     <script type="application/ld+json">

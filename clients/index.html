@@ -164,107 +164,121 @@
 
     <!-- Organization + Review Schema for Clients Page -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@graph": [
-            {
-                "@type": ["LocalBusiness", "ProfessionalService", "Organization"],
-                "@id": "https://www.fixersingreece.gr/#organization",
-                "name": "Fixers in Greece",
-                "description": "Professional film production services trusted by leading international broadcasters including BBC, CNN, Reuters, and Discovery Channel for Greece filming projects.",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressLocality": "Athens",
-                    "addressRegion": "Attica",
-                    "addressCountry": "GR"
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": [
+                "LocalBusiness",
+                "ProfessionalService",
+                "Organization"
+            ],
+            "@id": "https://www.fixersingreece.gr/#organization",
+            "name": "Fixers in Greece",
+            "description": "Professional film production services trusted by leading international broadcasters including BBC, CNN, Reuters, and Discovery Channel for Greece filming projects.",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Athens",
+                "addressRegion": "Attica",
+                "addressCountry": "GR",
+                "streetAddress": "Professional filming services throughout Greece",
+                "postalCode": "10431"
+            },
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.9",
+                "reviewCount": "50",
+                "bestRating": "5",
+                "worstRating": "1"
+            },
+            "review": [
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5",
+                        "bestRating": "5"
+                    },
+                    "author": {
+                        "@type": "Organization",
+                        "name": "BBC"
+                    },
+                    "reviewBody": "Professional film production services for our Panorama series. Excellent permit coordination and crew support throughout Greece.",
+                    "datePublished": "2023-01-15"
                 },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "reviewCount": "50",
-                    "bestRating": "5",
-                    "worstRating": "1"
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5",
+                        "bestRating": "5"
+                    },
+                    "author": {
+                        "@type": "Organization",
+                        "name": "CNN"
+                    },
+                    "reviewBody": "Reliable partner for news production in Greece. Fast permit processing and experienced local crew.",
+                    "datePublished": "2023-03-10"
                 },
-                "review": [
-                    {
-                        "@type": "Review",
-                        "reviewRating": {
-                            "@type": "Rating",
-                            "ratingValue": "5",
-                            "bestRating": "5"
-                        },
-                        "author": {
-                            "@type": "Organization",
-                            "name": "BBC"
-                        },
-                        "reviewBody": "Professional film production services for our Panorama series. Excellent permit coordination and crew support throughout Greece.",
-                        "datePublished": "2023-01-15"
+                {
+                    "@type": "Review",
+                    "reviewRating": {
+                        "@type": "Rating",
+                        "ratingValue": "5",
+                        "bestRating": "5"
                     },
-                    {
-                        "@type": "Review",
-                        "reviewRating": {
-                            "@type": "Rating",
-                            "ratingValue": "5",
-                            "bestRating": "5"
-                        },
-                        "author": {
-                            "@type": "Organization",
-                            "name": "CNN"
-                        },
-                        "reviewBody": "Reliable partner for news production in Greece. Fast permit processing and experienced local crew.",
-                        "datePublished": "2023-03-10"
-                    },
-                    {
-                        "@type": "Review",
-                        "reviewRating": {
-                            "@type": "Rating",
-                            "ratingValue": "5",
-                            "bestRating": "5"
-                        },
-                        "author": {
-                            "@type": "Organization", 
-                            "name": "Discovery Channel"
-                        },
-                        "reviewBody": "Outstanding location scouting and production support for our documentary series filmed across Greece.",
-                        "datePublished": "2023-05-22"
-                    }
-                ],
-                "clientsServed": [
-                    {
+                    "author": {
                         "@type": "Organization",
-                        "name": "BBC",
-                        "description": "Panorama series and documentary productions"
+                        "name": "Discovery Channel"
                     },
-                    {
-                        "@type": "Organization",
-                        "name": "CNN",
-                        "description": "News and current affairs productions"
-                    },
-                    {
-                        "@type": "Organization",
-                        "name": "Reuters",
-                        "description": "News agency productions"
-                    },
-                    {
-                        "@type": "Organization",
-                        "name": "Discovery Channel",
-                        "description": "Documentary and factual programming"
-                    },
-                    {
-                        "@type": "Organization",
-                        "name": "ITV",
-                        "description": "Television productions"
-                    },
-                    {
-                        "@type": "Organization",
-                        "name": "Bloomberg Television",
-                        "description": "Financial news productions"
-                    }
-                ]
+                    "reviewBody": "Outstanding location scouting and production support for our documentary series filmed across Greece.",
+                    "datePublished": "2023-05-22"
+                }
+            ],
+            "clientsServed": [
+                {
+                    "@type": "Organization",
+                    "name": "BBC",
+                    "description": "Panorama series and documentary productions"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "CNN",
+                    "description": "News and current affairs productions"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Reuters",
+                    "description": "News agency productions"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Discovery Channel",
+                    "description": "Documentary and factual programming"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "ITV",
+                    "description": "Television productions"
+                },
+                {
+                    "@type": "Organization",
+                    "name": "Bloomberg Television",
+                    "description": "Financial news productions"
+                }
+            ],
+            "telephone": "+30 210 6821895",
+            "email": "greece@needafixer.com",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.fixersingreece.gr/assets/images/needafixer-greece-white.png",
+                "width": 184,
+                "height": 63
             }
-        ]
-    }
-    </script>
+        }
+    ]
+}
+</script>
 
     <!-- BreadcrumbList Schema -->
     <script type="application/ld+json">
@@ -614,7 +628,7 @@
     </script>
 
     <!-- Component Loader Script -->
-    <script src="/js/inline-components.js?v=20250626" defer></script>
+    <script src="/js/inline-components.min.js?v=20250626" defer></script>
 
     <!-- Page-specific JavaScript Integration -->
     <script>
@@ -632,26 +646,37 @@
 
     <!-- Local Business Schema -->
     <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "LocalBusiness",
-        "name": "Fixers in Greece",
-        "description": "Professional film production services in Greece",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Athens",
-            "addressCountry": "Greece"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 37.9838,
-            "longitude": 23.7275
-        },
-        "url": "https://www.fixersingreece.gr",
-        "telephone": "+30 210 6821895",
-        "priceRange": "€€€"
-    }
-    </script>
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Fixers in Greece",
+    "description": "Professional film production services in Greece",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Athens",
+        "addressCountry": "GR",
+        "streetAddress": "Professional filming services throughout Greece",
+        "postalCode": "10431",
+        "addressRegion": "Attica"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 37.9838,
+        "longitude": 23.7275
+    },
+    "url": "https://www.fixersingreece.gr/",
+    "telephone": "+30 210 6821895",
+    "priceRange": "€€",
+    "email": "greece@needafixer.com",
+    "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.fixersingreece.gr/assets/images/needafixer-greece-white.png",
+        "width": 184,
+        "height": 63
+    },
+    "@id": "https://www.fixersingreece.gr/#organization"
+}
+</script>
 
 </body>
 </html>
