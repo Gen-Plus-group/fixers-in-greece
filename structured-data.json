@@ -28,6 +28,7 @@
       },
       "contactPoint": {
         "@type": "ContactPoint",
+        "telephone": "+30 210 6821895",
         "email": "greece@needafixer.com",
         "contactType": "customer service",
         "availableLanguage": ["English", "Greeceese"]
