@@ -1,0 +1,12 @@
+Image Optimization Report - Thu Jun 26 15:33:50 EEST 2025
+========================================
+[1;33mChecking for required tools...[0m
+[0;32mAll required tools are installed.[0m
+[1;33mCreating backup of original images...[0m
+[1;33mBackup already exists, skipping...[0m
+[0;34mStarting image optimization...[0m
+Configuration:
+  Max dimensions: 1920x1080
+  JPEG quality: 85%
+  WebP quality: 80%
+

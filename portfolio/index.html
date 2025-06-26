@@ -20,138 +20,266 @@
     <link rel="shortcut icon" href="/assets/images/2024/09/favicon-32x32-1.png">
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/2024/09/apple-touch-icon.png">
     
-    <!-- Tailwind CSS -->
-    <link href="/dist/output.css" rel="stylesheet">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    
-    <!-- Custom Styles -->
+    <!-- Critical CSS - Inline for immediate rendering -->
     <style>
-        .portfolio-hero-bg {
-            background-image: url('/assets/images/2015/10/Greece-services.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-                                    /* Mega Menu Styles */
-        .mega-menu {
-            position: absolute;
-            top: calc(100% + 12px); /* Add 12px breathing space from navigation */
-            left: 50%;
-            transform: translateX(-50%) translateY(-10px);
-            width: 100%;
-            max-width: 1400px;
-            
-            background: #1a1a1a;
-            border-top: 2px solid #f9a531;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
-            z-index: 50;
-            margin-top: 8px; /* Additional top margin for visual separation */
-        overflow-x: hidden;}
-        
-        .mega-menu-trigger:hover .mega-menu {
-            opacity: 1;
-            visibility: visible;
-            transform: translateX(-50%) translateY(0);
-        overflow-x: hidden;}
-        
-        .mega-menu-column {
-            border-right: 1px solid #333;
-            min-width: 0; /* Allow columns to shrink */
-        overflow-x: hidden;}
-        
-        .mega-menu-column:last-child {
-            border-right: none;
-        overflow-x: hidden;}
-        
-        .mega-menu-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 1.5rem 1rem; /* Increased padding for better spacing */
-        overflow-x: hidden;}
-        
-        /* Mega Menu Typography Improvements */
-        .mega-menu h3 {
-            font-size: 1.5rem; /* Larger main title */
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-        overflow-x: hidden;}
-        
-        .mega-menu h4 {
-            font-size: 1rem; /* Increased from text-sm to text-base */
-            font-weight: 600;
-            margin-bottom: 1rem;
-            color: #f9a531;
-        overflow-x: hidden;}
-        
-        .mega-menu a {
-            font-size: 0.875rem; /* Increased from text-xs to text-sm */
-            line-height: 1.5;
-            padding: 0.25rem 0;
-            display: block;
-            transition: all 0.2s ease;
-        overflow-x: hidden;}
-        
-        .mega-menu a:hover {
-            color: #f9a531;
-            padding-left: 0.25rem;
-        overflow-x: hidden;}
-        
-        .mega-menu ul {
-            margin-top: 0.5rem;
-        overflow-x: hidden;}
-        
-        .mega-menu li {
-            margin-bottom: 0.5rem; /* Better spacing between links */
-        overflow-x: hidden;}
-        
-        /* Ensure mega menu doesn't get clipped */
-        .mega-menu-trigger {
-            position: static;
-        overflow-x: hidden;}
-        
-        /* Navigation container needs to allow overflow for mega menu */
-        nav {
-            position: relative;
-            overflow: visible;
-        }
-        
-        /* Responsive mega menu */
-        @media (max-width: 1024px) {
-            .mega-menu {
-                display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            overflow-x: hidden;}
-        }
-        
-        /* Responsive mega menu */
-        @media (max-width: 1024px) {
-            .mega-menu {
-                display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            overflow-x: hidden;}
-        }
-        
-        /* Ensure mega menu doesn't get clipped */
-        .mega-menu-trigger {
-            position: static;
-        overflow-x: hidden;}
-        
-        /* Navigation container needs to allow overflow for mega menu */
-        nav {
-            position: relative;
-            overflow: visible;
-        }
-        
-        /* Responsive mega menu */
-        @media (max-width: 1024px) {
-            .mega-menu {
-                display: none; /* Hide on mobile/tablet - use mobile menu instead */
-            overflow-x: hidden;}
-        }
-        </style>
+/* Critical CSS - Inline for above-the-fold content */
+
+/* CSS Reset and Base - Essential for immediate rendering */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Prevent FOUC and horizontal scroll */
+html {
+  overflow-x: hidden;
+  max-width: 100%;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  max-width: 100%;
+  position: relative;
+  font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #ffffff;
+  background-color: #0a0a0a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-display: swap;
+}
+
+/* Critical container styles */
+.container {
+  width: 100%;
+  max-width: min(100%, 1200px);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Critical typography for hero */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 1rem 0;
+  color: #f9a531;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+
+@media (min-width: 768px) {
+  h1 { font-size: 4rem; }
+  h2 { font-size: 2.5rem; }
+  h3 { font-size: 2rem; }
+}
+
+/* Critical navigation/header styles */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  background-color: #1c1c1c;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 184px;
+  height: 63px;
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+  max-width: 100%;
+}
+
+/* Critical navigation */
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 200ms ease-in-out;
+}
+
+.nav-link:hover {
+  color: #f9a531;
+}
+
+/* Critical hero section styles */
+.hero-section,
+.hero-bg {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  max-width: 800px;
+  padding: 2rem 1rem;
+}
+
+/* Portfolio specific hero */
+.portfolio-hero-bg {
+  background-image: url('/assets/images/2015/10/Greece-services.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Critical button styles */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background-color: #f9a531;
+  color: #000000;
+  border-color: #f9a531;
+}
+
+.btn-primary:hover {
+  background-color: #ed9f1a;
+  border-color: #ed9f1a;
+}
+
+/* Critical link styles */
+a {
+  color: #f9a531;
+  text-decoration: none;
+  transition: color 200ms ease-in-out;
+}
+
+a:hover {
+  color: #ed5050;
+}
+
+/* Critical image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Card component for portfolio items */
+.card {
+  background-color: #1c1c1c;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: box-shadow 200ms ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.card-body {
+  padding: 1.5rem;
+}
+
+/* Grid utilities */
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* Ensure no horizontal overflow */
+* {
+  max-width: 100%;
+}
+
+/* Prevent layout shifts */
+#header-container,
+#navigation-container,
+#footer-container {
+  min-height: 1px;
+}
+    </style>
+
+    <!-- Preload and async load CSS -->
+    <link rel="preload" href="/dist/output.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/dist/output.css?v=20250626"></noscript>
+    
+    <!-- Preload fonts with font-display: swap -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Polyfill for rel=preload -->
+    <script>
+    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){"use strict";var b=function(b,c,d){function e(a){return h.body?a():void setTimeout(function(){e(a)})}function f(){i.addEventListener&&i.removeEventListener("load",f),i.media=d||"all"}var g,h=a.document,i=h.createElement("link");if(c)g=c;else{var j=(h.body||h.getElementsByTagName("head")[0]).childNodes;g=j[j.length-1]}var k=h.styleSheets;i.rel="stylesheet",i.href=b,i.media="only x",e(function(){g.parentNode.insertBefore(i,c?g:g.nextSibling)});var l=function(a){for(var b=i.href,c=k.length;c--;)if(k[c].href===b)return a();setTimeout(function(){l(a)})};return i.addEventListener&&i.addEventListener("load",f),i.onloadcssdefined=l,l(f),i};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
+    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
+    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(b){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
+    </script>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DHKLL1DWRN"></script>
     <script>
@@ -406,7 +534,7 @@
                                 <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex flex-col">
                                     <div class="relative overflow-hidden flex-shrink-0">
                                         <div class="aspect-video bg-gray-800">
-                                            <img src="/assets/images/portfolio/categories/music-videos.gif" alt="Music video production Greece - High-energy music videos for international artists in Athens" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                            <img src="/assets/images/portfolio/categories/music-videos.webp" alt="Music video production Greece - High-energy music videos for international artists in Athens" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" width="700" height="525" loading="lazy">
                                         </div>
                                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                             <div class="absolute bottom-4 left-4 right-4">
@@ -432,7 +560,7 @@
                                 <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex flex-col">
                                     <div class="relative overflow-hidden flex-shrink-0">
                                         <div class="aspect-video bg-gray-800">
-                                            <img src="/assets/images/portfolio/categories/drama-entertainment.gif" alt="Drama & entertainment filming Greece - Feature films and series production" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                            <img src="/assets/images/portfolio/categories/drama-entertainment.webp" alt="Drama & entertainment filming Greece - Feature films and series production" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" width="700" height="525" loading="lazy">
                                         </div>
                                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                             <div class="absolute bottom-4 left-4 right-4">
@@ -458,7 +586,7 @@
                                 <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex flex-col">
                                     <div class="relative overflow-hidden flex-shrink-0">
                                         <div class="aspect-video bg-gray-800">
-                                            <img src="/assets/images/portfolio/categories/documentaries.gif" alt="Documentary production Greece - BBC, CNN, Discovery Channel documentaries filmed in Greece" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                            <img src="/assets/images/portfolio/categories/documentaries.webp" alt="Documentary production Greece - BBC, CNN, Discovery Channel documentaries filmed in Greece" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" width="700" height="525" loading="lazy">
                                         </div>
                                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                             <div class="absolute bottom-4 left-4 right-4">
@@ -484,7 +612,7 @@
                                 <div class="bg-greece-dark border border-gray-700 rounded-lg overflow-hidden hover:border-greece-blue transition-all duration-300 h-full flex flex-col">
                                     <div class="relative overflow-hidden flex-shrink-0">
                                         <div class="aspect-video bg-gray-800">
-                                            <img src="/assets/images/portfolio/categories/commercials-branded.gif" alt="Commercial production Greece - NIKE, global brands filmed in Athens locations" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
+                                            <img src="/assets/images/portfolio/categories/commercials-branded.webp" alt="Commercial production Greece - NIKE, global brands filmed in Athens locations" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" width="700" height="525" loading="lazy">
                                         </div>
                                         <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                                             <div class="absolute bottom-4 left-4 right-4">
@@ -633,7 +761,7 @@
     </script>
 
     <!-- Component Loader Script -->
-    <script src="/js/inline-components.js" defer></script>
+    <script src="/js/inline-components.js?v=20250626" defer></script>
 
     <!-- Page-specific JavaScript Integration -->
     <script>

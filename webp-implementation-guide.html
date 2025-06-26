@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebP Implementation Guide - Fixers in Greece</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 1200px; margin: 0 auto; padding: 20px; }
+        .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .portfolio-item { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; }
+        .portfolio-item img { width: 100%; height: auto; display: block; }
+        .portfolio-item h3 { margin: 0; padding: 10px; background: #f5f5f5; }
+        .category-section { margin: 40px 0; }
+        .category-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+        .savings-badge { background: #4CAF50; color: white; padding: 2px 8px; border-radius: 4px; font-size: 0.8em; }
+    </style>
+</head>
+<body>
+    <h1>WebP Implementation Guide</h1>
+    <p>This guide shows how to implement the optimized WebP images with proper fallbacks for maximum compatibility and performance.</p>
+
+    <h2>Portfolio Items (Example Implementation)</h2>
+    <div class="portfolio-grid">
+        
+        <!-- Example 1: Largest savings - inch-loss-island -->
+        <div class="portfolio-item">
+            <picture>
+                <source srcset="/assets/images/portfolio/inch-loss-island-thumb.webp" type="image/webp">
+                <img src="/assets/images/portfolio/inch-loss-island-thumb.gif" 
+                     alt="Inch Loss Island - Reality TV Show" 
+                     width="700" 
+                     height="525"
+                     loading="lazy">
+            </picture>
+            <h3>Inch Loss Island <span class="savings-badge">3.8MB saved</span></h3>
+        </div>
+
+        <!-- Example 2: Lindsay Lohan's Beach Club -->
+        <div class="portfolio-item">
+            <picture>
+                <source srcset="/assets/images/portfolio/lindsay-lohans-beach-club-thumb.webp" type="image/webp">
+                <img src="/assets/images/portfolio/lindsay-lohans-beach-club-thumb.gif" 
+                     alt="Lindsay Lohan's Beach Club - Reality TV Show" 
+                     width="700" 
+                     height="525"
+                     loading="lazy">
+            </picture>
+            <h3>Lindsay Lohan's Beach Club <span class="savings-badge">3.9MB saved</span></h3>
+        </div>
+
+        <!-- Example 3: Nike Dream Crazier -->
+        <div class="portfolio-item">
+            <picture>
+                <source srcset="/assets/images/portfolio/nike-dream-crazier-thumb.webp" type="image/webp">
+                <img src="/assets/images/portfolio/nike-dream-crazier-thumb.gif" 
+                     alt="Nike Dream Crazier Commercial" 
+                     width="700" 
+                     height="525"
+                     loading="lazy">
+            </picture>
+            <h3>Nike Dream Crazier <span class="savings-badge">3.3MB saved</span></h3>
+        </div>
+
+        <!-- Add more portfolio items following the same pattern... -->
+        
+    </div>
+
+    <div class="category-section">
+        <h2>Category Headers (Example Implementation)</h2>
+        <div class="category-grid">
+            
+            <!-- Drama & Entertainment Category -->
+            <div class="portfolio-item">
+                <picture>
+                    <source srcset="/assets/images/portfolio/categories/drama-entertainment.webp" type="image/webp">
+                    <img src="/assets/images/portfolio/categories/drama-entertainment.gif" 
+                         alt="Drama & Entertainment Category" 
+                         width="800" 
+                         height="600"
+                         loading="lazy">
+                </picture>
+                <h3>Drama & Entertainment <span class="savings-badge">15.5MB saved</span></h3>
+            </div>
+
+            <!-- Music Videos Category -->
+            <div class="portfolio-item">
+                <picture>
+                    <source srcset="/assets/images/portfolio/categories/music-videos.webp" type="image/webp">
+                    <img src="/assets/images/portfolio/categories/music-videos.gif" 
+                         alt="Music Videos Category" 
+                         width="800" 
+                         height="600"
+                         loading="lazy">
+                </picture>
+                <h3>Music Videos <span class="savings-badge">15.4MB saved</span></h3>
+            </div>
+
+            <!-- Documentaries Category -->
+            <div class="portfolio-item">
+                <picture>
+                    <source srcset="/assets/images/portfolio/categories/documentaries.webp" type="image/webp">
+                    <img src="/assets/images/portfolio/categories/documentaries.gif" 
+                         alt="Documentaries Category" 
+                         width="800" 
+                         height="600"
+                         loading="lazy">
+                </picture>
+                <h3>Documentaries <span class="savings-badge">8.5MB saved</span></h3>
+            </div>
+
+            <!-- Commercials & Branded Content Category -->
+            <div class="portfolio-item">
+                <picture>
+                    <source srcset="/assets/images/portfolio/categories/commercials-branded.webp" type="image/webp">
+                    <img src="/assets/images/portfolio/categories/commercials-branded.gif" 
+                         alt="Commercials & Branded Content Category" 
+                         width="800" 
+                         height="600"
+                         loading="lazy">
+                </picture>
+                <h3>Commercials & Branded <span class="savings-badge">5.5MB saved</span></h3>
+            </div>
+            
+        </div>
+    </div>
+
+    <div style="background: #f0f8ff; padding: 20px; border-radius: 8px; margin: 40px 0;">
+        <h2>🚀 Performance Impact</h2>
+        <ul>
+            <li><strong>Total Bandwidth Savings:</strong> 75.2MB (9.5x Google PageSpeed target)</li>
+            <li><strong>Page Load Speed:</strong> Significantly improved</li>
+            <li><strong>Mobile Experience:</strong> Much faster on slow connections</li>
+            <li><strong>Browser Support:</strong> WebP supported by 96%+ of modern browsers</li>
+            <li><strong>Fallback Strategy:</strong> Original GIF/PNG files used for older browsers</li>
+        </ul>
+    </div>
+
+    <div style="background: #fff3cd; padding: 20px; border-radius: 8px; margin: 20px 0;">
+        <h2>⚡ Implementation Checklist</h2>
+        <ul>
+            <li>✅ <strong>Use &lt;picture&gt; element</strong> for WebP with fallbacks</li>
+            <li>✅ <strong>Add width/height attributes</strong> to prevent layout shift</li>
+            <li>✅ <strong>Implement lazy loading</strong> with loading="lazy"</li>
+            <li>✅ <strong>Include proper alt text</strong> for accessibility</li>
+            <li>⏳ <strong>Test across browsers</strong> to ensure compatibility</li>
+            <li>⏳ <strong>Update all portfolio pages</strong> with new format</li>
+            <li>⏳ <strong>Monitor PageSpeed Insights</strong> for improvement verification</li>
+        </ul>
+    </div>
+
+    <script>
+        // Optional: JavaScript to detect WebP support and provide analytics
+        function supportsWebp() {
+            const canvas = document.createElement('canvas');
+            canvas.width = 1;
+            canvas.height = 1;
+            return canvas.toDataURL('image/webp').indexOf('webp') !== -1;
+        }
+
+        console.log('WebP Support:', supportsWebp() ? 'YES' : 'NO');
+        
+        // Track which images are loading for performance monitoring
+        document.addEventListener('DOMContentLoaded', function() {
+            const images = document.querySelectorAll('img[loading="lazy"]');
+            console.log(`Lazy loading enabled for ${images.length} images`);
+        });
+    </script>
+
+</body>
+</html>

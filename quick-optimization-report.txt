@@ -1,0 +1,81 @@
+=== Quick Image Optimization Report ===
+Started: Thu Jun 26 15:34:44 EEST 2025
+
+Processing GIF files in portfolio directory...
+Processing: abaton-bootcamp-thumb.gif (9.4MB)
+  ✓ GIF→WebP: 9.4MB → 8.3MB | Saved: 1.0MB
+Processing: abaton-sanctuary-thumb.gif (8.8MB)
+  ✓ GIF→WebP: 8.8MB → 7.4MB | Saved: 1.3MB
+Processing: ancient-treasures-thumb.gif (16.3MB)
+  ✗ WebP larger than GIF, keeping original
+Processing: andronis-exclusive-thumb.gif (8.6MB)
+  ✓ GIF→WebP: 8.6MB → 7.1MB | Saved: 1.5MB
+Processing: angsana-corfu-thumb.gif (14.9MB)
+  ✓ GIF→WebP: 14.9MB → 13.4MB | Saved: 1.4MB
+Processing: atrium-hotels-thumb.gif (9.4MB)
+  ✓ GIF→WebP: 9.4MB → 7.7MB | Saved: 1.7MB
+Processing: canaves-epitome-thumb.gif (6.3MB)
+  ✓ GIF→WebP: 6.3MB → 4.9MB | Saved: 1.3MB
+Processing: canaves-time-stops-thumb.gif (5.8MB)
+  ✓ GIF→WebP: 5.8MB → 5.1MB | Saved: 754.2KB
+Processing: capsis-elite-thumb.gif (10.8MB)
+  ✓ GIF→WebP: 10.8MB → 9.5MB | Saved: 1.3MB
+Processing: carpe-diem-thumb.gif (8.8MB)
+  ✓ GIF→WebP: 8.8MB → 7.3MB | Saved: 1.5MB
+Processing: cunk-on-earth-thumb.gif (8.5MB)
+  ✓ GIF→WebP: 8.5MB → 7.6MB | Saved: 1001.7KB
+Processing: galileo-wige-thumb.gif (9.8MB)
+  ✓ GIF→WebP: 9.8MB → 8.4MB | Saved: 1.4MB
+Processing: greeces-next-top-model-thumb.gif (11.6MB)
+  ✓ GIF→WebP: 11.6MB → 9.3MB | Saved: 2.3MB
+Processing: greek-island-odyssey-thumb.gif (10.0MB)
+  ✓ GIF→WebP: 10.0MB → 7.9MB | Saved: 2.1MB
+Processing: greg-wallace-weekends-thumb.gif (9.0MB)
+  ✗ WebP larger than GIF, keeping original
+Processing: h-hotels-moments-thumb.gif (13.2MB)
+  ✓ GIF→WebP: 13.2MB → 10.3MB | Saved: 2.8MB
+Processing: inch-loss-island-thumb.gif (19.5MB)
+  ✓ Already processed: 19.5MB → 15.8MB | Saved: 3.7MB
+Processing: jet2holidays-thumb.gif (14.9MB)
+  ✓ GIF→WebP: 14.9MB → 11.7MB | Saved: 3.2MB
+Processing: kensho-boutique-thumb.gif (9.4MB)
+  ✓ GIF→WebP: 9.4MB → 7.2MB | Saved: 2.2MB
+Processing: last-woman-earth-thumb.gif (10.2MB)
+  ✓ GIF→WebP: 10.2MB → 8.2MB | Saved: 2.0MB
+Processing: lidl-athens-thumb.gif (7.0MB)
+  ✓ GIF→WebP: 7.0MB → 5.6MB | Saved: 1.4MB
+Processing: lindsay-lohans-beach-club-thumb.gif (18.7MB)
+  ✓ Already processed: 18.7MB → 14.9MB | Saved: 3.7MB
+Processing: medusa-natalie-haynes-thumb.gif (13.4MB)
+  ✓ GIF→WebP: 13.4MB → 10.6MB | Saved: 2.8MB
+Processing: million-dollar-listing-thumb.gif (14.5MB)
+  ✓ GIF→WebP: 14.5MB → 10.8MB | Saved: 3.6MB
+Processing: mykonos-riviera-thumb.gif (9.6MB)
+  ✓ GIF→WebP: 9.6MB → 7.6MB | Saved: 2.0MB
+Processing: nike-dream-crazier-thumb.gif (14.9MB)
+  ✓ GIF→WebP: 14.9MB → 11.7MB | Saved: 3.2MB
+Processing: nyx-hotels-athens-thumb.gif (8.9MB)
+  ✓ GIF→WebP: 8.9MB → 7.4MB | Saved: 1.4MB
+Processing: santanna-mykonos-thumb.gif (10.6MB)
+  ✓ GIF→WebP: 10.6MB → 8.7MB | Saved: 1.8MB
+Processing: teen-mum-thumb.gif (8.9MB)
+  ✓ GIF→WebP: 8.9MB → 6.8MB | Saved: 2.0MB
+Processing: the-world-cook-series-2-thumb.gif (16.0MB)
+  ✓ Already processed: 16.0MB → 12.6MB | Saved: 3.3MB
+
+Processing category GIF files...
+Processing: commercials-branded.gif (7.3MB)
+Processing: documentaries.gif (10.0MB)
+Processing: drama-entertainment.gif (18.7MB)
+Processing: music-videos.gif (15.8MB)
+
+Processing large JPEG files...
+Processing: CHANNEL_5_LOGO_1.jpg (522.9KB)
+  ✓ JPEG optimized: 522.9KB → 136.9KB | Saved: 386.0KB
+Processing: stock-photo-9205613-adjusting-camera.jpg (1.0MB)
+  ✓ JPEG optimized: 1.0MB → 183.9KB | Saved: 883.7KB
+
+=== SUMMARY ===
+Files processed: 28
+Total savings: 58.7MB
+Completed: Thu Jun 26 15:38:41 EEST 2025
