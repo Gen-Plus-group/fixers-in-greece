@@ -4,13 +4,24 @@ module.exports = {
     "./*.html",
     "./about-us/*.html",
     "./portfolio/*.html",
+    "./portfolio/**/*.html",
     "./clients/*.html",
     "./contact/*.html",
     "./film-production-services/*.html",
     "./filming-in-greece/*.html",
     "./equipment-rental-greece/*.html",
     "./location-scouting-greece/*.html",
-    "./film-permits-greece/*.html"
+    "./film-permits-greece/*.html",
+    "./js/*.js",
+    "./production-services/**/*.html",
+    "./pre-production-services/**/*.html",
+    "./post-production-services/**/*.html",
+    "./film-crew/**/*.html",
+    "./content-production/**/*.html"
+  ],
+  safelist: [
+    'grid-cols-3',
+    'grid-cols-5'
   ],
   theme: {
     extend: {
