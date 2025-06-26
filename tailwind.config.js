@@ -137,8 +137,8 @@ module.exports = {
         },
         '.glass-effect': {
           'background': 'rgba(28, 28, 28, 0.8)',
-          'backdrop-filter': 'blur(20px)',
           '-webkit-backdrop-filter': 'blur(20px)',
+          'backdrop-filter': 'blur(20px)',
           'border': '1px solid rgba(255, 255, 255, 0.1)'
         }
       }

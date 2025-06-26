@@ -55,6 +55,8 @@ pre, code {
   border-radius: var(--radius-md);
   cursor: pointer;
   transition: all var(--transition-normal);
+  -webkit-user-select: none;
+  -moz-user-select: none;
   user-select: none;
   white-space: nowrap;
 }

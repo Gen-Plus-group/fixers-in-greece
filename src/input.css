@@ -39,6 +39,14 @@ pre, code {
 @tailwind components;
 @tailwind utilities;
 
+/* Browser compatibility fixes */
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
 /* Global overflow prevention */
 @layer base {
   html {

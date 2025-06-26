@@ -106,6 +106,7 @@ pre, code {
   z-index: var(--z-sticky);
   background-color: var(--color-surface);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
