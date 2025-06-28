@@ -58,7 +58,7 @@
 
 /* Hero section with larger top/bottom spacing */
 .portfolio-hero {
-  padding: 8rem 0;
+  padding: 10rem 0 8rem 0; /* Increased top padding from 8rem to 10rem for better spacing from sticky nav */
   position: relative;
   overflow: hidden;
 }
@@ -76,7 +76,6 @@
 }
 
 .portfolio-hero h1 {
-  padding-top: 2rem;
   line-height: 1.1;
   text-align: left;
   margin-bottom: 1.5rem;
@@ -270,6 +269,12 @@
   }
 }
 
+@media (max-width: 768px) {
+  .portfolio-hero {
+    padding: 8rem 0 6rem 0; /* Medium screens: 8rem top, 6rem bottom */
+  }
+}
+
 @media (max-width: 480px) {
   .portfolio-container,
   .portfolio-container-wide,
@@ -286,7 +291,7 @@
   }
   
   .portfolio-hero {
-    padding: 4rem 0;
+    padding: 6rem 0 4rem 0; /* Small screens: 6rem top, 4rem bottom */
   }
 }
 
