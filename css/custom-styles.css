@@ -1,0 +1,250 @@
+/**
+ * Custom Styles for Fixers in Greece Production Services Pages
+ * Version: 1.0.37
+ */
+
+/* Service Page Specific Styles */
+.service-card {
+    @apply bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300;
+}
+
+.service-card:hover {
+    @apply transform hover:-translate-y-1 transition-transform duration-300;
+}
+
+.service-hero {
+    @apply bg-gradient-to-r from-greece-blue to-greece-white text-white py-20;
+}
+
+.service-hero h1 {
+    @apply text-4xl md:text-5xl font-bold mb-4 text-white;
+}
+
+.service-hero p {
+    @apply text-xl opacity-90 text-white;
+}
+
+/* Navigation Enhancements for Production Pages */
+.navbar {
+    @apply bg-greece-dark border-b border-gray-800 sticky top-0 z-50;
+}
+
+.nav-wrapper {
+    @apply flex items-center justify-between h-20 py-4;
+}
+
+.nav-logo img {
+    @apply h-12 w-auto;
+}
+
+.nav-menu {
+    @apply hidden lg:flex items-center space-x-6;
+}
+
+.nav-link {
+    @apply text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200 font-medium;
+}
+
+.nav-link.active {
+    @apply text-greece-blue;
+}
+
+/* Mobile Menu Styles */
+.mobile-menu-toggle {
+    @apply lg:hidden flex flex-col space-y-1 cursor-pointer;
+}
+
+.mobile-menu-toggle span {
+    @apply w-6 h-0.5 bg-white transition-all duration-300;
+}
+
+.mobile-menu-overlay {
+    @apply fixed inset-0 z-50 lg:hidden;
+}
+
+.mobile-menu-backdrop {
+    @apply absolute inset-0 bg-black bg-opacity-50;
+}
+
+.mobile-menu {
+    @apply absolute right-0 top-0 h-full w-full max-w-sm bg-greece-dark transform translate-x-full transition-transform duration-300 overflow-y-auto;
+}
+
+/* Dropdown and Mega Menu Styles */
+.dropdown {
+    @apply relative;
+}
+
+.dropdown-menu {
+    @apply absolute top-full left-0 mt-2 w-48 bg-white rounded-md shadow-lg opacity-0 invisible transition-all duration-200 z-40;
+}
+
+.dropdown:hover .dropdown-menu {
+    @apply opacity-100 visible;
+}
+
+.mega-menu {
+    @apply absolute top-full left-1/2 transform -translate-x-1/2 w-screen max-w-6xl bg-greece-dark border-t-2 border-greece-blue shadow-2xl opacity-0 invisible transition-all duration-300 z-50 mt-2;
+}
+
+.mega-menu-trigger:hover .mega-menu {
+    @apply opacity-100 visible;
+}
+
+.mega-menu-content {
+    @apply max-w-6xl mx-auto p-8;
+}
+
+.mega-menu-column {
+    @apply border-r border-gray-700 last:border-r-0 px-4;
+}
+
+.mega-menu h3 {
+    @apply text-greece-blue text-xl font-bold mb-4;
+}
+
+.mega-menu h4 {
+    @apply text-greece-blue text-base font-semibold mb-3;
+}
+
+.mega-menu ul {
+    @apply space-y-2;
+}
+
+.mega-menu li a {
+    @apply text-gray-300 text-sm hover:text-greece-blue transition-colors duration-200 block py-1;
+}
+
+/* Button Styles */
+.btn-primary {
+    @apply bg-greece-blue hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded-lg transition-colors duration-300 inline-block;
+}
+
+.btn-secondary {
+    @apply bg-transparent border-2 border-greece-blue text-greece-blue hover:bg-greece-blue hover:text-black font-semibold py-2 px-6 rounded-lg transition-all duration-300 inline-block;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    @apply relative py-20;
+}
+
+.hero-section.bg-gradient-greece {
+    @apply bg-gradient-to-r from-greece-blue to-yellow-500;
+}
+
+/* Content Section Styles */
+.content-section {
+    @apply py-16;
+}
+
+.content-section h2 {
+    @apply text-3xl font-bold mb-6 text-greece-dark;
+}
+
+.content-section h3 {
+    @apply text-2xl font-bold mb-4 text-greece-dark;
+}
+
+.content-section p {
+    @apply text-gray-600 leading-relaxed mb-4;
+}
+
+.content-section ul {
+    @apply list-disc list-inside space-y-2 text-gray-600;
+}
+
+/* Footer Styles */
+.footer {
+    @apply bg-gray-900 border-t border-gray-800 py-12;
+}
+
+.footer-content {
+    @apply grid md:grid-cols-4 gap-8 mb-8;
+}
+
+.footer-section h3 {
+    @apply text-white font-semibold mb-4;
+}
+
+.footer-section h4 {
+    @apply text-white font-semibold mb-4;
+}
+
+.footer-section ul {
+    @apply space-y-2;
+}
+
+.footer-section li a {
+    @apply text-gray-400 hover:text-greece-blue transition-colors text-sm;
+}
+
+.footer-bottom {
+    @apply pt-8 border-t border-gray-800 text-center text-sm text-gray-400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .service-hero h1 {
+        @apply text-3xl;
+    }
+    
+    .mega-menu {
+        @apply hidden;
+    }
+    
+    .nav-menu {
+        @apply hidden;
+    }
+    
+    .mobile-menu-toggle {
+        @apply flex;
+    }
+}
+
+/* Animation Classes */
+.fade-in {
+    @apply animate-pulse;
+}
+
+.slide-in {
+    @apply transform transition-transform duration-500;
+}
+
+.hover-lift {
+    @apply transform hover:-translate-y-1 transition-transform duration-300;
+}
+
+/* Focus States for Accessibility */
+.nav-link:focus,
+.btn-primary:focus,
+.btn-secondary:focus {
+    @apply outline-none ring-2 ring-greece-blue ring-offset-2;
+}
+
+/* Loading States */
+.loading {
+    @apply opacity-50 pointer-events-none;
+}
+
+.spinner {
+    @apply animate-spin rounded-full h-4 w-4 border-b-2 border-greece-blue;
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .footer,
+    .mobile-menu-overlay,
+    .mega-menu {
+        @apply hidden;
+    }
+    
+    .hero-section {
+        @apply py-8;
+    }
+    
+    .content-section {
+        @apply py-4;
+    }
+}
