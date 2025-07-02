@@ -5,6 +5,16 @@
       "rewrite": "/thank-you/index.html"
     },
     {
+      "route": "/film-crew/post-production-roles/editor/",
+      "redirect": "/film-crew/creative-roles/editor/",
+      "statusCode": 301
+    },
+    {
+      "route": "/pre-production-services/location-scouting/",
+      "redirect": "/pre-production-services/location-scouting-services/",
+      "statusCode": 301
+    },
+    {
       "route": "/*.css",
       "headers": {
         "Cache-Control": "public, max-age=31536000, immutable"
