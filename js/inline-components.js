@@ -850,7 +850,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                     <div class="px-8 py-2">
                         <h5 class="text-xs font-semibold text-greece-blue mb-2">Motion & VFX</h5>
-                        <a href="/post-production-services/motion-vfx/motion-graphics-design/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Motion Graphics</a>
+                        <a href="/post-production-services/motion-vfx/motion-graphics/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Motion Graphics</a>
                         <a href="/post-production-services/motion-vfx/visual-effects-compositing/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">VFX Compositing</a>
                         <a href="/post-production-services/motion-vfx/cgi-3d-animation/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">CGI & 3D Animation</a>
                         <a href="/post-production-services/motion-vfx/title-design-credits/" class="block py-1 text-sm text-gray-400 hover:text-greece-blue">Title Design & Credits</a>
