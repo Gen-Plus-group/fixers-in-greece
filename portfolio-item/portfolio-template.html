@@ -80,39 +80,39 @@
     <!-- Schema.org markup for portfolio item -->
     <script type="application/ld+json">
     {
-        "@context": "https://schema.org",
-        "@type": "CreativeWork",
-        "name": "[PROJECT NAME]",
-        "description": "[PROJECT DESCRIPTION]",
-        "creator": {
+    "@context": "https://schema.org",
+    "@type": "CreativeWork",
+    "name": "[PROJECT NAME]",
+    "description": "[PROJECT DESCRIPTION]",
+    "creator": {
+        "@type": "Organization",
+        "name": "Fixers in Greece",
+        "url": "https://www.fixersingreece.gr"
+    },
+    "contributor": [
+        {
             "@type": "Organization",
-            "name": "Fixers in Greece",
-            "url": "https://www.fixersingreece.gr"
+            "name": "[CLIENT NAME]",
+            "description": "Client for this project"
         },
-        "contributor": [
-            {
-                "@type": "Organization",
-                "name": "[CLIENT NAME]",
-                "role": "Client"
-            },
-            {
-                "@type": "Organization",
-                "name": "[AGENCY NAME]",
-                "role": "Creative Agency"
-            },
-            {
-                "@type": "Organization",
-                "name": "[PRODUCTION COMPANY]",
-                "role": "Production Company"
-            }
-        ],
-        "dateCreated": "[YEAR]",
-        "genre": "[Commercial/Documentary/Feature/etc.]",
-        "locationCreated": {
-            "@type": "Place",
-            "name": "[LOCATION], Greece"
+        {
+            "@type": "Organization",
+            "name": "[AGENCY NAME]",
+            "description": "Creative Agency for this project"
+        },
+        {
+            "@type": "Organization",
+            "name": "[PRODUCTION COMPANY]",
+            "description": "Production Company for this project"
         }
+    ],
+    "dateCreated": "[YEAR]",
+    "genre": "[Commercial/Documentary/Feature/etc.]",
+    "locationCreated": {
+        "@type": "Place",
+        "name": "[LOCATION], Greece"
     }
+}
     </script>
 </head>
 
@@ -386,7 +386,7 @@
 
     <!-- Local Business Schema -->
     <script type="application/ld+json">
-{
+    {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "name": "Fixers in Greece",
@@ -416,7 +416,7 @@
     },
     "@id": "https://www.fixersingreece.gr/#organization"
 }
-</script>
+    </script>
 
 </body>
 </html>
