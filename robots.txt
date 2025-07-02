@@ -38,6 +38,12 @@ Allow: /
 # Enhanced sitemap locations for AI discovery
 Sitemap: https://www.fixersingreece.gr/sitemap.xml
 
+# LLMs.txt - Machine-readable information about our business for AI systems
+# This file provides structured data specifically designed for LLMs and AI crawlers
+# to better understand our film production services in Greece
+# Learn more: https://llmstxt.org/
+LLMs-txt: https://www.fixersingreece.gr/llms.txt
+
 # Block access to WordPress admin and sensitive files (legacy)
 Disallow: /wp-admin/
 Disallow: /wp-includes/
@@ -107,6 +113,7 @@ Disallow: /*.md
 Disallow: /*.json
 Disallow: /*.txt
 Allow: /robots.txt
+Allow: /llms.txt
 
 # Specific directories to allow for Greece site
 Allow: /filming-in-greece/
