@@ -397,7 +397,35 @@
         </div>
     </div>
 
-    <a href="/filming-in-greece/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200" data-nav="filming">FILMING IN GREECE</a>
+    <!-- Filming in Greece Menu -->
+    <div class="relative mega-menu-trigger">
+        <a href="/filming-in-greece/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200 flex items-center" data-nav="filming">
+            FILMING IN GREECE
+            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+        </a>
+        <div class="mega-menu">
+            <div class="mega-menu-content">
+                <div class="text-center mb-8">
+                    <h3 class="text-greece-blue">Filming in Greece Guide</h3>
+                    <p class="text-gray-400 text-base">Everything you need to know about filming in Greece</p>
+                </div>
+                <div class="grid grid-cols-2 gap-10">
+                    <div class="mega-menu-column">
+                        <ul>
+                            <li><a href="/filming-in-greece/" class="text-gray-300">Complete Guide</a></li>
+                            <li><a href="/filming-in-greece/tax-incentives/" class="text-gray-300">Tax Incentives & Rebates</a></li>
+                        </ul>
+                    </div>
+                    <div class="mega-menu-column">
+                        <h4 class="text-greece-blue text-sm font-semibold mb-2">40% Cash Rebate</h4>
+                        <p class="text-gray-400 text-xs">Greece offers competitive film incentives including 40% cash rebate and 30% tax credits for qualifying productions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <a href="/portfolio/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200" data-nav="portfolio">PORTFOLIO</a>
     <a href="/contact/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200" data-nav="contact">CONTACT</a>
 </div>
@@ -1021,10 +1049,24 @@
             </div>
         </div>
 
-        <!-- Simple Navigation Items -->
-        <a href="/filming-in-greece/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="filming">
-            <span class="font-medium">FILMING GUIDE</span>
-        </a>
+        <!-- Filming in Greece Menu -->
+        <div class="mobile-mega-menu border-b border-gray-700">
+            <button class="mobile-mega-toggle w-full flex items-center justify-between px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200"
+                    data-target="filming-guide-mega"
+                    aria-expanded="false">
+                <span class="font-medium">FILMING GUIDE</span>
+                <svg class="mobile-mega-icon h-3 w-3 transform transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+
+            <div id="filming-guide-mega" class="mobile-mega-submenu hidden bg-gray-800">
+                <div class="p-3 space-y-1">
+                    <a href="/filming-in-greece/" class="block px-3 py-2 text-sm text-greece-blue hover:text-white hover:bg-gray-700 rounded transition-colors duration-200">Complete Guide</a>
+                    <a href="/filming-in-greece/tax-incentives/" class="block px-3 py-2 text-sm text-gray-300 hover:text-greece-blue hover:bg-gray-700 rounded transition-colors duration-200">Tax Incentives & Rebates</a>
+                </div>
+            </div>
+        </div>
 
         <a href="/portfolio/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="portfolio">
             <span class="font-medium">PORTFOLIO</span>
