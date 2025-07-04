@@ -42,7 +42,7 @@ Sitemap: https://www.fixersingreece.gr/sitemap.xml
 # This file provides structured data specifically designed for LLMs and AI crawlers
 # to better understand our film production services in Greece
 # Learn more: https://llmstxt.org/
-LLMs-txt: https://www.fixersingreece.gr/llms.txt
+# LLMs file available at: https://www.fixersingreece.gr/llms.txt
 
 # Block access to WordPress admin and sensitive files (legacy)
 Disallow: /wp-admin/
