@@ -678,7 +678,40 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
 
-        <a href="/filming-in-greece/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200" data-nav="filming">FILMING IN GREECE</a>
+        <!-- Filming in Greece Mega Menu -->
+        <div class="relative mega-menu-trigger">
+            <a href="/filming-in-greece/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200 flex items-center" data-nav="filming">
+                FILMING IN GREECE
+                <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </a>
+            <div class="mega-menu mega-menu-narrow">
+                <div class="mega-menu-content">
+                    <div class="text-center mb-8">
+                        <h3 class="text-greece-blue">Filming in Greece Guide</h3>
+                        <p class="text-gray-400 text-base">Everything you need to know about filming in Greece</p>
+                    </div>
+                    <div class="grid grid-cols-2 gap-10">
+                        <div class="mega-menu-column">
+                            <h4>Resources</h4>
+                            <ul>
+                                <li><a href="/filming-in-greece/" class="text-gray-300">Complete Guide</a></li>
+                                <li><a href="/filming-in-greece/tax-incentives/" class="text-gray-300">Tax Incentives & Rebates</a></li>
+                            </ul>
+                        </div>
+                        <div class="mega-menu-column">
+                            <h4>Quick Info</h4>
+                            <ul>
+                                <li class="text-gray-300 text-sm">40% Cash Rebate</li>
+                                <li class="text-gray-300 text-sm">30% Tax Credits</li>
+                                <li class="text-gray-300 text-sm">Fast Permit Processing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <a href="/portfolio/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200" data-nav="portfolio">PORTFOLIO</a>
         <a href="/contact/" class="text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200" data-nav="contact">CONTACT</a>
     `;
@@ -967,9 +1000,21 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
             </div>
 
-            <a href="/filming-in-greece/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="filming">
-                <span class="font-medium">FILMING IN GREECE</span>
-            </a>
+            <!-- Filming in Greece with Submenu -->
+            <div class="mobile-menu-item border-b border-gray-700">
+                <button class="mobile-menu-toggle flex items-center justify-between w-full px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200"
+                        data-submenu="filming-submenu"
+                        aria-expanded="false">
+                    <span class="font-medium">FILMING IN GREECE</span>
+                    <svg class="h-4 w-4 transition-transform duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </button>
+                <div class="mobile-submenu hidden bg-gray-900">
+                    <a href="/filming-in-greece/" class="block px-8 py-2 text-sm text-gray-400 hover:text-greece-blue hover:bg-gray-800">Complete Guide</a>
+                    <a href="/filming-in-greece/tax-incentives/" class="block px-8 py-2 text-sm text-gray-400 hover:text-greece-blue hover:bg-gray-800">Tax Incentives & Rebates</a>
+                </div>
+            </div>
 
             <a href="/portfolio/" class="block px-4 py-3 text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200 border-b border-gray-700" data-nav="portfolio">
                 <span class="font-medium">PORTFOLIO</span>
