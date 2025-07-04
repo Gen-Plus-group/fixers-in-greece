@@ -63,91 +63,6 @@
             background-position: center;
             background-repeat: no-repeat;
         }
-        
-        /* Mega menu styles */
-        .mega-menu {
-            position: absolute;
-            top: calc(100% + 12px);
-            left: 50%;
-            transform: translateX(-50%) translateY(-10px);
-            width: 100%;
-            max-width: 1400px;
-            background: #1a1a1a;
-            border-top: 2px solid #f9a531;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-            opacity: 0;
-            visibility: hidden;
-            transition: all 0.3s ease;
-            z-index: 50;
-            margin-top: 8px;
-        }
-        
-        .mega-menu-trigger {
-            position: relative;
-        }
-        
-        .mega-menu-trigger:hover .mega-menu {
-            opacity: 1;
-            visibility: visible;
-            transform: translateX(-50%) translateY(0);
-        }
-        
-        .mega-menu-content {
-            padding: 48px;
-            background: #1a1a1a;
-        }
-        
-        .mega-menu-content h3 {
-            font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 8px;
-        }
-        
-        .mega-menu-content > .text-center {
-            margin-bottom: 32px;
-        }
-        
-        .mega-menu-column {
-            min-width: 180px;
-        }
-        
-        .mega-menu-column h4 {
-            color: #f9a531;
-            font-weight: 600;
-            margin-bottom: 16px;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
-        
-        .mega-menu-column ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-        }
-        
-        .mega-menu-column ul li {
-            margin-bottom: 8px;
-        }
-        
-        .mega-menu-column ul li a {
-            display: block;
-            padding: 4px 0;
-            font-size: 14px;
-            color: #b4b4b4;
-            text-decoration: none;
-            transition: color 0.2s;
-        }
-        
-        .mega-menu-column ul li a:hover {
-            color: #f9a531;
-        }
-        
-        @media (max-width: 1024px) {
-            .mega-menu {
-                display: none;
-            }
-        }
     </style>
     
     <!-- Schema Markup -->
@@ -552,7 +467,13 @@
     </div>
 
     <!-- Scripts -->
-    <script src="/js/component-loader.min.js?v=20250626"></script>
-    <script src="/js/navigation.min.js?v=20250626"></script>
+    <script src="/js/inline-components.min.js?v=20250626" defer></script>
+    
+    <!-- Page Functionality -->
+    <script>
+    document.addEventListener('componentsLoaded', function() {
+        console.log('Components loaded for tax-incentives page, page functionality ready');
+    });
+    </script>
 </body>
 </html>
