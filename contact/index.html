@@ -424,6 +424,14 @@
                                 <input type="hidden" name="_next" value="https://www.fixersingreece.gr/contact/?success=true">
                                 <input type="hidden" name="_format" value="html">
 
+                                <!-- UTM and Google Ads Tracking Parameters -->
+                                <input type="hidden" name="UTM Source" id="utm_source" value="">
+                                <input type="hidden" name="UTM Medium" id="utm_medium" value="">
+                                <input type="hidden" name="UTM Campaign" id="utm_campaign" value="">
+                                <input type="hidden" name="Ads Click ID" id="gclid" value="">
+                                <input type="hidden" name="Ads Keyword" id="keyword" value="">
+                                <input type="hidden" name="Ads Campaign" id="ads_campaign" value="">
+
                                 <div class="grid md:grid-cols-2 gap-6">
                                     <div>
                                         <label for="first-name" class="block text-sm font-medium text-gray-300 mb-2">First Name *</label>
@@ -878,9 +886,64 @@
         let startDatePicker;
         let endDatePicker;
 
+        // Function to capture UTM and Google Ads parameters from URL
+        function captureTrackingParameters() {
+            const urlParams = new URLSearchParams(window.location.search);
+            
+            // UTM Parameters
+            const utmSource = urlParams.get('utm_source') || '';
+            const utmMedium = urlParams.get('utm_medium') || '';
+            const utmCampaign = urlParams.get('utm_campaign') || '';
+            
+            // Google Ads Parameters
+            const gclid = urlParams.get('gclid') || '';
+            const keyword = urlParams.get('keyword') || '';
+            
+            // Google Ads Campaign (can come from utm_campaign or separate parameter)
+            const adsCampaign = urlParams.get('campaignid') || utmCampaign || '';
+            
+            // Set values in hidden form fields
+            document.getElementById('utm_source').value = utmSource;
+            document.getElementById('utm_medium').value = utmMedium;
+            document.getElementById('utm_campaign').value = utmCampaign;
+            document.getElementById('gclid').value = gclid;
+            document.getElementById('keyword').value = keyword;
+            document.getElementById('ads_campaign').value = adsCampaign;
+            
+            // Store in sessionStorage for persistence across page navigation
+            if (utmSource || utmMedium || utmCampaign || gclid || keyword) {
+                sessionStorage.setItem('utm_source', utmSource);
+                sessionStorage.setItem('utm_medium', utmMedium);
+                sessionStorage.setItem('utm_campaign', utmCampaign);
+                sessionStorage.setItem('gclid', gclid);
+                sessionStorage.setItem('keyword', keyword);
+                sessionStorage.setItem('ads_campaign', adsCampaign);
+            } else {
+                // If no parameters in URL, check sessionStorage
+                document.getElementById('utm_source').value = sessionStorage.getItem('utm_source') || '';
+                document.getElementById('utm_medium').value = sessionStorage.getItem('utm_medium') || '';
+                document.getElementById('utm_campaign').value = sessionStorage.getItem('utm_campaign') || '';
+                document.getElementById('gclid').value = sessionStorage.getItem('gclid') || '';
+                document.getElementById('keyword').value = sessionStorage.getItem('keyword') || '';
+                document.getElementById('ads_campaign').value = sessionStorage.getItem('ads_campaign') || '';
+            }
+            
+            console.log('Tracking parameters captured:', {
+                utm_source: document.getElementById('utm_source').value,
+                utm_medium: document.getElementById('utm_medium').value,
+                utm_campaign: document.getElementById('utm_campaign').value,
+                gclid: document.getElementById('gclid').value,
+                keyword: document.getElementById('keyword').value,
+                ads_campaign: document.getElementById('ads_campaign').value
+            });
+        }
+
 
         // Enhanced form validation and initialization
         document.addEventListener('DOMContentLoaded', function() {
+            // Capture UTM and Google Ads parameters from URL
+            captureTrackingParameters();
+            
             // Initialize service search functionality
             const searchInput = document.getElementById('service-search');
             const suggestionsDiv = document.getElementById('service-suggestions');
