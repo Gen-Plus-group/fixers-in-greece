@@ -45,99 +45,84 @@
       gtag('config', 'G-DHKLL1DWRN');
     </script>
     
+    <!-- Custom Styles -->
+    <style>
+        /* Mega Menu Styles */
+        .mega-menu {
+            position: absolute;
+            top: calc(100% + 12px);
+            left: 50%;
+            transform: translateX(-50%) translateY(-10px);
+            width: 100%;
+            max-width: 1400px;
+            
+            background: #1a1a1a;
+            border-top: 2px solid #f9a531;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            z-index: 50;
+            margin-top: 8px;
+            overflow-x: hidden;
+        }
+        
+        .mega-menu-trigger:hover .mega-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateX(-50%) translateY(0);
+            overflow-x: hidden;
+        }
+        
+        .mega-menu-column {
+            border-right: 1px solid #333;
+            min-width: 0;
+            overflow-x: hidden;
+        }
+        
+        .mega-menu-column:last-child {
+            border-right: none;
+        }
+        
+        /* Mobile Menu Styles */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 100%;
+            max-width: 400px;
+            height: 100vh;
+            background: #1a1a1a;
+            transition: right 0.3s ease;
+            z-index: 999;
+            overflow-y: auto;
+            box-shadow: -2px 0 10px rgba(0,0,0,0.5);
+        }
+        
+        .mobile-menu.active {
+            right: 0;
+        }
+        
+        /* Mobile dropdown rotation animation */
+        .mobile-dropdown-icon {
+            transition: transform 0.3s ease;
+        }
+    </style>
 </head>
 
-<body class="overflow-x-hidden bg-greece-darker text-white font-sans">
-    <!-- Skip to Content -->
-    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-greece-blue text-black px-4 py-2 rounded-md z-50">
-        Skip to Main Content
-    </a>
-
-    <!-- Top Bar -->
-    <div class="bg-greece-dark border-b border-gray-700 text-sm">
-        <div class="container mx-auto px-4 py-3 max-w-full">
-            <div class="flex flex-col md:flex-row md:justify-end items-center space-y-2 md:space-y-0 md:space-x-6 text-center md:text-right">
-                <div class="flex items-center space-x-2">
-                    <span class="text-greece-blue">📞</span>
-                    <span>+30 210 6821895</span>
-                </div>
-                <div class="flex items-center space-x-2">
-                    <span class="text-greece-blue">✉️</span>
-                    <span>greece@needafixer.com</span>
-                </div>
-            </div>
-        </div>
+<body class="bg-gray-900 text-white font-open-sans">
+    <!-- Dynamic Header Container -->
+    <div id="header-container">
+        <!-- Header will be loaded here dynamically -->
     </div>
 
-    <!-- Header -->
-    <header class="bg-greece-dark border-b border-gray-700">
-        <div class="container mx-auto px-4 max-w-full">
-            <div class="flex items-center justify-between py-4">
-                <!-- Logo -->
-                <div class="flex-shrink-0">
-                    <a href="/" class="block">
-                        <img src="/assets/images/needafixer-greece-white.png" 
-                             alt="Fixers in Greece" 
-                             width="184"
-                             height="63"
-                             class="h-12 w-auto">
-                    </a>
-                </div>
-
-                <!-- Desktop Navigation -->
-                <nav class="hidden lg:flex items-center space-x-8" aria-label="Main navigation">
-                    <a href="/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">HOME</a>
-                    <a href="/about-us/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">ABOUT US</a>
-                    <div class="relative group">
-                        <a href="/film-production-services/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200 flex items-center">
-                            SERVICES
-                            <svg class="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                            </svg>
-                        </a>
-                        <div class="absolute top-full left-0 mt-2 w-56 bg-greece-dark border border-gray-700 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
-                            <a href="/production-services/production-equipment/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Equipment Rental</a>
-                            <a href="/pre-production-services/location-scouting-services/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Location Scouting</a>
-                            <a href="/pre-production-services/film-permit-acquisition/" class="block px-4 py-3 text-sm text-greece-gray hover:text-greece-blue hover:bg-gray-800 transition-colors duration-200">Film Permits</a>
-                        </div>
-                    </div>
-                    <a href="/filming-in-greece/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">FILMING IN Greece</a>
-                    <a href="/portfolio/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">PORTFOLIO</a>
-                    <a href="/clients/" class="text-greece-gray hover:text-greece-blue transition-colors duration-200">CLIENTS</a>
-                    <a href="/contact/" class="text-greece-blue font-medium hover:text-white transition-colors duration-200">CONTACT</a>
-                </nav>
-
-                <!-- Mobile Menu Button -->
-                <button class="lg:hidden flex items-center px-3 py-2 border border-gray-600 rounded text-greece-gray hover:text-white hover:border-white" 
-                        id="mobile-menu-button" 
-                        aria-label="Toggle mobile menu"
-                        aria-expanded="false">
-                    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
-            </div>
-
-            <!-- Mobile Navigation -->
-            <nav class="lg:hidden hidden" id="mobile-menu" aria-label="Mobile navigation">
-                <div class="px-2 pt-2 pb-3 space-y-1 border-t border-gray-700">
-                    <a href="/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">HOME</a>
-                    <a href="/about-us/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">ABOUT US</a>
-                    <a href="/film-production-services/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">SERVICES</a>
-                    <a href="/production-services/production-equipment/" class="block px-6 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Equipment Rental</a>
-                    <a href="/pre-production-services/location-scouting-services/" class="block px-6 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Location Scouting</a>
-                    <a href="/pre-production-services/film-permit-acquisition/" class="block px-6 py-2 text-sm text-greece-gray hover:text-greece-blue transition-colors duration-200">Film Permits</a>
-                    <a href="/filming-in-greece/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">FILMING IN Greece</a>
-                    <a href="/portfolio/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">PORTFOLIO</a>
-                    <a href="/clients/" class="block px-3 py-2 text-greece-gray hover:text-greece-blue transition-colors duration-200">CLIENTS</a>
-                    <a href="/contact/" class="block px-3 py-2 text-greece-blue font-medium">CONTACT</a>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <!-- Dynamic Navigation Container -->
+    <div id="navigation-container">
+        <!-- Navigation will be loaded here dynamically -->
+    </div>
 
     <!-- Main Content -->
-    <main id="main-content">
+    <main>
         <!-- Thank You Section -->
         <section class="py-20 md:py-32">
             <div class="container mx-auto px-4 text-center max-w-full">
@@ -353,62 +338,29 @@
         </section>
     </main>
 
-    <!-- Footer -->
-    <footer class="bg-greece-dark border-t border-gray-700 py-12">
+    <!-- Footer Call-to-Action -->
+    <section class="bg-gray-800 border-t border-gray-700 py-8">
         <div class="container mx-auto px-4 max-w-full">
-            <div class="grid md:grid-cols-3 gap-8">
-                <!-- Company Info -->
-                <div>
-                    <img src="/assets/images/needafixer-greece-white.png" 
-                         alt="Fixers in Greece" 
-                         width="184"
-                         height="63"
-                         class="h-12 w-auto mb-4">
-                    <p class="text-gray-400 text-sm leading-relaxed">
-                        Professional filming services in Greece for international productions. 
-                        Expert fixers, location scouting, equipment rental, permits & crew.
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="md:flex-grow text-center md:text-left">
+                    <p class="text-xl text-gray-300 mb-4 md:mb-0">
+                        Ready to shoot? We'd love to help and are just a click away! All enquiries will be answered within 24 hours!
                     </p>
                 </div>
-                
-                <!-- Quick Links -->
-                <div>
-                    <h3 class="text-white font-semibold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="/about-us/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">About Us</a></li>
-                        <li><a href="/film-production-services/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Services</a></li>
-                        <li><a href="/filming-in-greece/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Filming in Greece</a></li>
-                        <li><a href="/portfolio/" class="text-gray-400 hover:text-greece-blue transition-colors duration-200">Portfolio</a></li>
-                        <li><a href="/contact/" class="text-greece-blue">Contact</a></li>
-                    </ul>
+                <div class="text-center md:text-right">
+                    <a href="tel:+302106821895"
+                       class="inline-block bg-greece-blue text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-500 transition-colors duration-200">
+                        Call Now
+                    </a>
                 </div>
-                
-                <!-- Contact Info -->
-                <div>
-                    <h3 class="text-white font-semibold mb-4">Contact Info</h3>
-                    <div class="space-y-2 text-gray-400 text-sm">
-                        <div class="flex items-center space-x-2">
-                            <span class="text-greece-blue">📞</span>
-                            <span>+30 210 6821895</span>
-                        </div>
-                        <div class="flex items-center space-x-2">
-                            <span class="text-greece-blue">✉️</span>
-                            <span>greece@needafixer.com</span>
-                        </div>
-                        <div class="flex items-center space-x-2">
-                            <span class="text-greece-blue">🌐</span>
-                            <span>needafixer.com</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
-                <p class="text-gray-400 text-sm">
-                    © 2024 Fixers in Greece. All rights reserved. | Professional filming services throughout Greece.
-                </p>
             </div>
         </div>
-    </footer>
+    </section>
+
+    <!-- Dynamic Footer Container -->
+    <div id="footer-container">
+        <!-- Footer will be loaded here dynamically -->
+    </div>
 
     <!-- JavaScript -->
     <script>
@@ -530,6 +482,16 @@
     "@id": "https://www.fixersingreece.gr/#organization"
 }
 </script>
+
+    <!-- Page-specific JavaScript Integration -->
+    <script>
+        document.addEventListener('componentsLoaded', function() {
+            console.log('Components loaded for thank-you-page.html, page functionality ready');
+        });
+    </script>
+
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.min.js?v=20250626" defer></script>
 
 </body>
 </html>
