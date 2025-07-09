@@ -74,6 +74,9 @@
     
     <!-- Favicon -->
                 
+    <!-- Tailwind CSS -->
+    <link href="/dist/output.css?v=20250626" rel="stylesheet">
+    
     <!-- Critical CSS - Inline for immediate rendering -->
     <style>
 /* Critical CSS - Inline for above-the-fold content */
@@ -192,35 +195,6 @@ h3 { font-size: 1.75rem; }
   color: #f9a531;
 }
 
-/* Critical mobile menu toggle */
-.mobile-menu-toggle {
-  display: none;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 24px;
-  height: 24px;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-}
-
-.mobile-menu-toggle span {
-  width: 24px;
-  height: 2px;
-  background-color: #ffffff;
-  transition: all 200ms ease-in-out;
-}
-
-@media (max-width: 1024px) {
-  .mobile-menu-toggle {
-    display: flex;
-  }
-  
-  .main-nav {
-    display: none;
-  }
-}
 
 /* Critical hero section styles */
 .hero-section,
@@ -567,22 +541,6 @@ img {
 }
     </style>
 
-    <!-- Preload and async load non-critical CSS -->
-    <link rel="preload" href="/css/base.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/base.min.css?v=20250626"></noscript>
-    
-    <link rel="preload" href="/css/components.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/components.min.css?v=20250626"></noscript>
-    
-    <link rel="preload" href="/css/layout.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/layout.min.css?v=20250626"></noscript>
-    
-    <link rel="preload" href="/css/theme.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/css/theme.min.css?v=20250626"></noscript>
-
-    <!-- Preload Tailwind CSS -->
-    <link rel="preload" href="/dist/output.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="/dist/output.css?v=20250626"></noscript>
 
     <!-- Portfolio Layout Unified CSS -->
     <link rel="preload" href="/css/portfolio-layout-unified.min.css?v=20250626" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -1703,15 +1661,8 @@ img {
     <!-- Use inline components for reliability -->
     <script src="/js/inline-components.min.js?v=20250626" defer></script>
 
-    <!-- Mobile Menu CSS - Load after critical content -->
-    <script>
-        window.addEventListener('load', function() {
-            var link = document.createElement('link');
-            link.rel = 'stylesheet';
-            link.href = '/mobile-menu.min.css?v=20250626';
-            document.head.appendChild(link);
-        });
-    </script>
+    <!-- Mobile Menu CSS - Load immediately -->
+    <link rel="stylesheet" href="/mobile-menu.min.css?v=20250626">
 
     <!-- Page-specific JavaScript -->
     <script>
