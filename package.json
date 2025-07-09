@@ -11,7 +11,9 @@
     "build-stats": "node build-optimized.js --production --minify --verbose",
     "watch": "node build-optimized.js --watch",
     "analyze": "tailwindcss -i ./src/input.css -o ./dist/output.css --minify && ls -la dist/",
-    "clean": "rm -rf dist/ && mkdir dist"
+    "clean": "rm -rf dist/ && mkdir dist",
+    "test": "node test-server.js",
+    "serve": "node test-server.js"
   },
   "keywords": [
     "tailwindcss",
@@ -27,5 +29,9 @@
     "@tailwindcss/typography": "^0.5.10",
     "csso-cli": "^4.0.2",
     "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "favicon": "^0.0.2",
+    "sharp": "^0.34.2"
   }
 }

@@ -587,7 +587,7 @@ img {
 
 /* Ensure header is visible */
 #header-container {
-  min-height: 80px;
+  min-height: auto;
   width: 100%;
   position: relative;
   z-index: 100;
@@ -600,6 +600,160 @@ img {
 
 .border-gray-800 {
   border-color: #1f2937;
+}
+
+/* Header navigation hover effects */
+#desktop-nav a:hover {
+  color: #f9a531 !important;
+}
+
+.top-bar-link:hover {
+  color: #f9a531 !important;
+}
+
+/* The dynamic header already includes mega menu styles and functionality */
+/* Let the JS handle all mega menu behavior as it does on internal pages */
+
+/* Mobile responsive */
+@media (max-width: 1024px) {
+  #desktop-nav {
+    display: none !important;
+  }
+  
+  .mobile-menu-btn {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mobile-menu-btn {
+    display: none !important;
+  }
+}
+
+/* Keep header container visible */
+#header-container {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Make sure the header elements are visible but not the mobile overlay */
+#header-container > div:not(#mobile-menu-overlay),
+#header-container > header {
+  display: block !important;
+  visibility: visible !important;
+}
+
+/* Keep navigation visible on desktop */
+@media (min-width: 1024px) {
+  #desktop-nav {
+    display: flex !important;
+  }
+}
+
+/* Match internal pages container width */
+#header-container .container {
+  max-width: 1536px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+@media (min-width: 1024px) {
+  #header-container .container {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+}
+
+/* Add vertical padding to top bar */
+#header-container .border-gray-700 .py-3 {
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+}
+
+/* Add vertical padding to main header */
+#header-container header .py-4 {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+}
+
+/* Ensure top bar content is right-aligned */
+#header-container .md\\:justify-end {
+  justify-content: flex-end !important;
+}
+
+#header-container .flex-col.md\\:flex-row {
+  flex-direction: row !important;
+}
+
+#header-container .text-center.md\\:text-right {
+  text-align: right !important;
+}
+
+#header-container .space-y-2.md\\:space-y-0 {
+  gap: 1.5rem !important;
+}
+
+#header-container .space-y-2.md\\:space-y-0 > div {
+  margin-top: 0 !important;
+}
+
+/* Force top bar flex container to right align */
+#header-container .border-gray-700 .flex {
+  justify-content: flex-end !important;
+}
+
+/* Target the specific top bar container more precisely */
+#header-container > div:first-child .container > div {
+  justify-content: flex-end !important;
+  align-items: center !important;
+  flex-direction: row !important;
+  gap: 1.5rem !important;
+}
+
+/* Remove text-center from top bar */
+#header-container > div:first-child .text-center {
+  text-align: left !important;
+}
+
+/* Ensure navigation links are visible */
+#desktop-nav a,
+#desktop-nav .text-greece-gray {
+  color: #d1d5db !important; /* Lighter gray to match internal pages */
+}
+
+/* Make sure mobile overlay stays hidden */
+#mobile-menu-overlay {
+  display: none !important;
+}
+
+#mobile-menu-overlay:not(.hidden) {
+  display: block !important;
+}
+
+/* Hide on mobile */
+@media (max-width: 1024px) {
+  #desktop-nav {
+    display: none !important;
+  }
+}
+
+/* Mobile menu styles */
+#mobile-navigation-content > a,
+#mobile-navigation-content > div > button {
+  text-align: left !important;
+  justify-content: flex-start !important;
+  width: 100% !important;
+}
+
+#mobile-navigation-content .flex.items-center.justify-between {
+  justify-content: flex-start !important;
+}
+
+#mobile-navigation-content .ml-auto {
+  margin-left: 0.5rem !important;
 }
     </style>
 
@@ -624,7 +778,7 @@ img {
     
     <!-- Google tag (gtag.js) - Deferred for performance -->
     <script>
-      / Defer Google Analytics loading
+      // Defer Google Analytics loading
       window.addEventListener('load', function() {
         var script = document.createElement('script');
         script.async = true;
@@ -1020,6 +1174,7 @@ img {
     <div id="header-container">
         <!-- Header will be loaded here dynamically -->
     </div>
+
 
     <!-- Main Content -->
     <main id="main-content">
@@ -1722,41 +1877,9 @@ img {
     <!-- Mobile Menu CSS -->
     <link rel="stylesheet" href="/mobile-menu.min.css?v=20250626">
     
-    <!-- Force navigation visibility -->
-    <style>
-        /* Desktop navigation must be visible */
-        #desktop-nav a {
-            color: #ffffff !important;
-            font-size: 0.875rem !important;
-            text-decoration: none !important;
-        }
-        
-        #desktop-nav a:hover {
-            color: #f9a531 !important;
-        }
-        
-        /* Mobile menu text */
-        #mobile-navigation-content a {
-            color: #ffffff !important;
-        }
-        
-        #mobile-navigation-content a:hover {
-            color: #f9a531 !important;
-        }
-        
-        /* Fix mega menu links */
-        .mega-menu a {
-            color: #d1d5db !important;
-        }
-        
-        .mega-menu a:hover {
-            color: #f9a531 !important;
-        }
-    </style>
     
-    <!-- Component Loader Script - NO DEFER -->
-    <!-- Use inline components for reliability -->
-    <script src="/js/inline-components.min.js?v=20250626"></script>
+    <!-- Component Loader Script -->
+    <script src="/js/inline-components.js?v=20250626"></script>
 
     <!-- Page-specific JavaScript -->
     <script>
@@ -1787,6 +1910,7 @@ img {
             }
         });
 
+        
         // Wait for components to load before initializing page-specific functionality
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded, initializing page functionality...');
