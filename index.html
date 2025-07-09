@@ -552,7 +552,12 @@ img {
 
 /* Ensure text-greece-gray has a color */
 .text-greece-gray {
-  color: #9ca3af;
+  color: #9ca3af !important;
+}
+
+/* Override text-greece-gray for navigation specifically */
+#desktop-nav .text-greece-gray {
+  color: #ffffff !important;
 }
 
 /* Ensure all Greece theme colors are defined */
@@ -1714,9 +1719,44 @@ img {
 
         <!-- Mobile Menu JavaScript - Handled by component loader -->
 
-    <!-- Component Loader Script - Deferred for performance -->
+    <!-- Mobile Menu CSS -->
+    <link rel="stylesheet" href="/mobile-menu.min.css?v=20250626">
+    
+    <!-- Force navigation visibility -->
+    <style>
+        /* Desktop navigation must be visible */
+        #desktop-nav a {
+            color: #ffffff !important;
+            font-size: 0.875rem !important;
+            text-decoration: none !important;
+        }
+        
+        #desktop-nav a:hover {
+            color: #f9a531 !important;
+        }
+        
+        /* Mobile menu text */
+        #mobile-navigation-content a {
+            color: #ffffff !important;
+        }
+        
+        #mobile-navigation-content a:hover {
+            color: #f9a531 !important;
+        }
+        
+        /* Fix mega menu links */
+        .mega-menu a {
+            color: #d1d5db !important;
+        }
+        
+        .mega-menu a:hover {
+            color: #f9a531 !important;
+        }
+    </style>
+    
+    <!-- Component Loader Script - NO DEFER -->
     <!-- Use inline components for reliability -->
-    <script src="/js/inline-components.min.js?v=20250626" defer></script>
+    <script src="/js/inline-components.min.js?v=20250626"></script>
 
     <!-- Page-specific JavaScript -->
     <script>
