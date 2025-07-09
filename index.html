@@ -1674,7 +1674,7 @@ img {
 
     <!-- Component Loader Script - Deferred for performance -->
     <!-- Use inline components for reliability -->
-    <script src="/js/inline-components.min.js?v=20250626" defer></script>
+    <script src="/js/inline-components.min.js?v=20250626"></script>
 
     <!-- Mobile Menu CSS - Load immediately -->
     <link rel="stylesheet" href="/mobile-menu.min.css?v=20250626">
@@ -1709,6 +1709,21 @@ img {
         });
 
         // Wait for components to load before initializing page-specific functionality
+        // Fallback: Ensure components are loaded
+        setTimeout(function() {
+            const headerContainer = document.getElementById('header-container');
+            if (headerContainer && headerContainer.innerHTML.trim() === '') {
+                console.log('Header container empty, loading inline-components manually...');
+                // Force reload the script without defer
+                const script = document.createElement('script');
+                script.src = '/js/inline-components.min.js?v=' + Date.now();
+                script.onload = function() {
+                    console.log('Inline components reloaded');
+                };
+                document.body.appendChild(script);
+            }
+        }, 1000);
+        
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded, initializing page functionality...');
 
