@@ -1746,6 +1746,47 @@ img {
         document.addEventListener('componentsLoaded', function() {
             console.log('Components loaded, initializing page functionality...');
 
+            // Ensure mobile menu is properly initialized
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenuOverlay = document.getElementById('mobile-menu-overlay');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const mobileMenuClose = document.getElementById('mobile-menu-close');
+            const mobileMenuBackdrop = document.getElementById('mobile-menu-backdrop');
+            
+            if (mobileMenuButton && mobileMenuOverlay && mobileMenu) {
+                // Re-attach event listeners if they're not working
+                if (!mobileMenuButton.hasAttribute('data-listener-attached')) {
+                    mobileMenuButton.addEventListener('click', function() {
+                        mobileMenuOverlay.classList.remove('hidden');
+                        setTimeout(function() {
+                            mobileMenu.classList.remove('translate-x-full');
+                        }, 10);
+                        mobileMenuButton.setAttribute('aria-expanded', 'true');
+                        document.body.style.overflow = 'hidden';
+                    });
+                    mobileMenuButton.setAttribute('data-listener-attached', 'true');
+                }
+                
+                const closeMobileMenu = function() {
+                    mobileMenu.classList.add('translate-x-full');
+                    setTimeout(function() {
+                        mobileMenuOverlay.classList.add('hidden');
+                    }, 300);
+                    mobileMenuButton.setAttribute('aria-expanded', 'false');
+                    document.body.style.overflow = '';
+                };
+                
+                if (mobileMenuClose && !mobileMenuClose.hasAttribute('data-listener-attached')) {
+                    mobileMenuClose.addEventListener('click', closeMobileMenu);
+                    mobileMenuClose.setAttribute('data-listener-attached', 'true');
+                }
+                
+                if (mobileMenuBackdrop && !mobileMenuBackdrop.hasAttribute('data-listener-attached')) {
+                    mobileMenuBackdrop.addEventListener('click', closeMobileMenu);
+                    mobileMenuBackdrop.setAttribute('data-listener-attached', 'true');
+                }
+            }
+
             // Page-specific functionality is preserved above
         });
     </script>
