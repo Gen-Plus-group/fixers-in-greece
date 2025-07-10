@@ -303,3 +303,30 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
   ```
 - **Created test environment** with Node.js server for local testing
 - **Committed and pushed all changes** to Git repository
+
+## Recent Work (2025-07-10)
+
+### Tax Incentives Page Updates
+- **Updated cap on cash rebate** from "No cap" to "Cap rebate amount at €8 million per production"
+- **Changed payment timing** from "within 6 months" to "after 6 months of production completion"
+- **Updated application process note** - Removed outdated October 2024 reference
+- **Updated FAQ answer** about rebate cap with official language: "The total of the rebate amount is disbursed as a one-time payment to the beneficiary production and does not exceed eight million (8.000.000) euros per audiovisual work"
+
+### Client Logos Section Enhancement
+- **Added actual SVG logo files** to `/assets/images/client-logos/` directory
+- **Replaced inline SVG placeholders** with real logo files from major clients
+- **Maintained two-row carousel structure** with opposite scrolling directions
+- **Updated styling**:
+  - Changed background from dark to white for better contrast
+  - Added grayscale filter (70% opacity) with color on hover
+  - Increased spacing between logos to prevent overlapping
+  - Added gradient mask for smooth edge transitions
+- **Distributed 23 unique logos** across both rows:
+  - First row: Netflix, BBC, Disney, CNN, Warner Bros, National Geographic, Universal, Al Jazeera, Paramount, Discovery, HBO, YouTube
+  - Second row: Amazon Studios, Sony, Apple TV, Fox, DreamWorks, Spotify, Pixar, Meta, Marvel Studios, TikTok, Hulu
+- **Moved clients section** to appear immediately after hero video for better impact
+
+### Key Files Modified
+- `/filming-in-greece/tax-incentives/index.html` - Updated with latest tax incentive regulations
+- `/index.html` - Enhanced client logos section and repositioned for better visibility
+- Added 35 SVG files in `/assets/images/client-logos/`
