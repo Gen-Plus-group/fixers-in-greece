@@ -2190,6 +2190,30 @@ img {
             }
 
             // Page-specific functionality is preserved above
+            
+            // Handle broken SVG images in logo carousel
+            document.addEventListener('DOMContentLoaded', function() {
+                const clientLogos = document.querySelectorAll('.client-logo');
+                
+                clientLogos.forEach(function(img) {
+                    img.onerror = function() {
+                        // Create a text element to replace the broken image
+                        const altText = this.getAttribute('alt') || 'Logo';
+                        const textElement = document.createElement('div');
+                        textElement.className = 'client-logo-text';
+                        textElement.textContent = altText;
+                        textElement.style.cssText = 'flex-shrink: 0; height: 40px; display: inline-flex; align-items: center; padding: 8px 20px; background-color: #e0e0e0; border-radius: 4px; font-weight: bold; color: #333; font-size: 14px; white-space: nowrap; opacity: 0.7; transition: all 0.3s ease;';
+                        
+                        // Replace the broken image with the text element
+                        this.parentNode.replaceChild(textElement, this);
+                    };
+                    
+                    // Also add load event to ensure image loaded
+                    img.onload = function() {
+                        this.style.display = 'inline-block';
+                    };
+                });
+            });
         });
     </script>
 </body>
