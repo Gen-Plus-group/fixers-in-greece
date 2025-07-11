@@ -330,3 +330,32 @@ The site includes a **PHP-based contact form** (`contact-form-handler.php`) with
 - `/filming-in-greece/tax-incentives/index.html` - Updated with latest tax incentive regulations
 - `/index.html` - Enhanced client logos section and repositioned for better visibility
 - Added 35 SVG files in `/assets/images/client-logos/`
+
+## Recent Work (2025-07-10)
+
+### Client Logo Carousel Issues and Fixes
+- **Identified CSS conflicts**: Found duplicate `.client-logo` class definitions causing display issues
+- **Fixed CSS class conflict**: Renamed conflicting class in `src/input.css` from `.client-logo` to `.client-logo-card`
+- **Rebuilt CSS**: Ran build process to update `dist/output.css` with fixes
+- **Logo path fixes**: Changed from absolute paths (`/assets/...`) to relative paths (`./assets/...`) for production server compatibility
+- **Carousel display fixes**:
+  - Added `white-space: nowrap` to prevent logo wrapping
+  - Added `display: inline-block` and `vertical-align: middle` for proper alignment
+  - Fixed scrolling animation issues
+- **Logo distribution updates**:
+  - Redistributed 47 logos across two rows without duplicates
+  - Implemented random distribution for visual variety
+  - Each logo appears only once (removed duplicate tracks)
+  - Final spacing: 4.5rem gap between logos, 1.5rem padding on carousel wrapper
+
+### Technical Improvements
+- **Removed unnecessary features**: Eliminated text fallback code that was added without request
+- **Improved carousel structure**: Simplified HTML to prevent duplicate logos appearing
+- **Optimized spacing**: Adjusted from 6rem to 4.5rem gap for better visual density
+- **Fixed production display issues**: Addressed SVG rendering problems on live server
+
+### Key Lessons
+- Always verify requirements before implementing features
+- SVG display issues on production can be due to server configuration or MIME types
+- CSS class conflicts can occur between compiled Tailwind CSS and inline styles
+- Relative paths work better than absolute paths for asset references
